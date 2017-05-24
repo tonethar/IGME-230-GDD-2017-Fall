@@ -1,1 +1,1 @@
-# IGME-230-GDD Web Site Design & Implementation (GDD Version)
+# IGME-230 Web Site Design & Implementation (GDD)
