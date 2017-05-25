@@ -63,3 +63,4 @@
 
 ## Notes
 * Homeworks need more "challenges" to earn 10/10. The paint-by-numbers portions of ICEs should be worth just a few points.
+* We should use Lynda.com videos where possible, but if it an essential topic, make sure that there is a solid assignment that goes along with the video (ex. "watch sections 2 & 3 of the XX video, and then utilize a media query on your home page to modify the heading size of your home page for devices less that 550 pixels wide.")
