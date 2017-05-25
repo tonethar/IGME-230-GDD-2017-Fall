@@ -40,7 +40,7 @@
 * Module 1 - Web Publishing
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
-    * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization
+    * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option 
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
