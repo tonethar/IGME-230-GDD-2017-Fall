@@ -41,7 +41,7 @@
 * Module 1 - Web Publishing
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
-    * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option 
+    * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option +Indexes
   * HTML5 Semantic Tags
   * CSS 3 Selectors
 * Module 2 - Building a Portfolio
@@ -54,6 +54,9 @@
   * Harry Potter Calculator ICE (or equivalent)
   * Web Service ICE
 * Module 4 - Interactive Graphics
+  * PixiJS
+  * Web Audio Visualizer ICE?
+  * Build a game
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
