@@ -7,9 +7,13 @@
 
 ## Specific knowledge gained by end of course
 * HTML
+  * HTML 5 Sematic Tags
+  * input tags
 * CSS
-  * Selectors: type, class, id
+  * Selectors: type, class, id, some CSS 3 selectors
+  * CSS Rollovers
   * Media Queries
+  * CSS 3 Animations
 * Basic JavaScript
   * variables & scope
   * loops
@@ -22,6 +26,18 @@
   * Methods: querySelector(), querySelectorAll(), addEventListener()
   * Events: onload, onclick, onchange
 * PixiJS
+* Collaboration
+  * GitHub
+* Web Design
+  * Navigation
+  * Single-Page Design
+  * Responsive Design
+* Web Publishing
+  * FTP to banjo
+  * GitHub pages
+  * LinkedIn?
+  * portfolios.rit.edu?
+  * behance.net?
 
 ## Projects
 * Project 0 - 230 Home Page? (Gradable by TA)
@@ -35,8 +51,10 @@
 
 ## Topics
 * Module 0 - Review
-  * (Post 110 Web Exercises to mycourses)
+  * (They should already know - post 110 web exercises to mycourses)
   * Basic HTML/CSS & Posting to Banjo
+  * HTML Tables
+  * CRAP
   * ssh & basic Unix commands
 * Module 1 - Web Publishing
   * Web Servers:
@@ -52,7 +70,7 @@
   * HTML Widgets (dropdowns, inputs)
   * Basic JavaScript
   * Harry Potter Calculator ICE (or equivalent)
-  * Web Service ICE
+  * Web Service ICE (Ajax via jQuery, JSON)
 * Module 4 - Interactive Graphics
   * PixiJS
   * Web Audio Visualizer ICE?
