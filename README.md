@@ -8,6 +8,26 @@
 ## Specific knowledge gained by end of course
 * HTML
 * CSS
-* DOM
+  * Selectors: type, class, id
+  * Media Queries
 * Basic JavaScript
+  * variables & scope
+  * loops
+  * conditionals
+  * functions
+  * arrays
+  * object literals
+* DOM
+  * Objects: window, document, body
+  * Methods: querySelector(), querySelectorAll(), addEventListener()
+  * Events: onload, onclick, onchange
 * PixiJS
+
+## Projects
+
+
+## Assignments
+
+## Topics
+* Module 0 - Review
+  * Post 110 Web Exercises to mycourses
