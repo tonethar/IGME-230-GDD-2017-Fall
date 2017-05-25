@@ -52,7 +52,8 @@
 ## Topics
 * Module 0 - Review
   * (They should already know - post 110 web exercises to mycourses)
-  * Basic HTML/CSS & Posting to Banjo
+  * Basic HTML/CSS
+  * Posting to Banjo
   * HTML Tables
   * CRAP
   * ssh & basic Unix commands
