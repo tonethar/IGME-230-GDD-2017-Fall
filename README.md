@@ -24,8 +24,9 @@
 * PixiJS
 
 ## Projects
-* Project 1 - ???
-* Project 2 - Web Portfolio
+* Project 0 - 230 Home Page? (Gradable by TA)
+* Project 1 - Web Portfolio
+* Project 2 - ???
 * Project 3 - Interactive Game Or Experience
 
 ## Assignments
@@ -41,6 +42,21 @@
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
     * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option 
+  * HTML5 Semantic Tags
+  * CSS 3 Selectors
+* Module 2 - Building a Portfolio
+  * Responsive Design
+  * CSS Animations
+  * Bootstrap
+* Module 3 - Interactive Applications
+  * HTML Widgets (dropdowns, inputs)
+  * Basic JavaScript
+  * Harry Potter Calculator ICE (or equivalent)
+  * Web Service ICE
+* Module 4 - Interactive Graphics
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
+
+## Notes
+* Homeworks need more "challenges" to earn 10/10. The paint-by-numbers portions of ICEs should be worth just a few points.
