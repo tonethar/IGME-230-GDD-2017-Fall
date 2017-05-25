@@ -25,13 +25,20 @@
 
 ## Projects
 * Project 1 - ???
-* Project 2 - 
+* Project 2 - Web Portfolio
+* Project 3 - Interactive Game Or Experience
 
 ## Assignments
 
 ## Topics
 * Module 0 - Review
-  * Post 110 Web Exercises to mycourses
+  * (Post 110 Web Exercises to mycourses)
+  * Basic HTML/CSS & Posting to Banjo
+  * ssh & basic Unix commands
+* Module 1 - Web Publishing
+  * Web Servers:
+    * HTTP Protocol: request phase, response phase, status codes, headers, content-type
+    * .htaccess file directives: Modpagespeed, redirect, authorization
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
