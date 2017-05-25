@@ -29,6 +29,8 @@
 * Project 3 - Interactive Game Or Experience
 
 ## Assignments
+* Web Publishing
+  * Custom 404 Page
 
 ## Topics
 * Module 0 - Review
@@ -38,7 +40,7 @@
 * Module 1 - Web Publishing
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
-    * .htaccess file directives: Modpagespeed, redirect, authorization
+    * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
