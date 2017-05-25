@@ -24,10 +24,14 @@
 * PixiJS
 
 ## Projects
-
+* Project 1 - ???
+* Project 2 - 
 
 ## Assignments
 
 ## Topics
 * Module 0 - Review
   * Post 110 Web Exercises to mycourses
+
+## Links
+[Learning Pixi](https://github.com/kittykatattack/learningPixi)
