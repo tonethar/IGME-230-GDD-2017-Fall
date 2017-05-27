@@ -31,7 +31,7 @@
 * Web Applications
   * Ajax
   * jQuery
-  * 
+  * JSON
 * Web Design
   * Navigation
   * Single-Page Design
