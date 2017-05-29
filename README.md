@@ -54,32 +54,52 @@
   * Custom 404 Page
 
 ## Topics
-* Module 0 - Review
-  * (They should already know - post 110 web exercises to mycourses)
-  * Basic HTML/CSS
-  * Posting to Banjo
-  * HTML Tables
-  * CRAP
-  * ssh & basic Unix commands
-* Module 1 - Web Publishing
+* Module 0
+  * Why this course matters
+  * Review
+    * (They should already know - post 110 web exercises to mycourses)
+    * Basic HTML/CSS
+    * Posting to Banjo
+    * HTML Tables
+    * CRAP
+    * ssh & basic Unix commands
+* Module 1 - Basic Web Publishing
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
     * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option +Indexes
   * HTML5 Semantic Tags
   * CSS 3 Selectors
-* Module 2 - Building a Portfolio
-  * Responsive Design
+  * CSS for layout
+  * Project: Multi-page web site (make this "TA gradable")
+* Module 2 - Client-side DOM Games (Typing Game, Concentration etc)
+  * More CSS for layout
+  * CSS Transforms
   * CSS Animations
-  * Bootstrap
-* Module 3 - Interactive Applications
+  * Basic JavaScript: variables & scope, loops, conditionals, functions, arrays)
+  * DOM Methods: querySelector(), querySelectorAll(), createElement(), setAttribute(), .innerHTML
+  * requestAnimationFrame() for timing
+  * HTML 5 Web Storage for local high scores
+* Module 3 - Client/Server Interactive Applications
+  * PHP Basics - dynamic web pages, passing arguments to PHP
+    * Demos: info.php, who-am-i.php, redirect.php (PHP can send headers), hello.php, hello-with-args.php, logger.php
+  * PHP to use with JavaScript:
+    * add-score.php, get-high-scores.php (shared high scores)
+    * web-service.php (returns data based on query string, in JSON)
   * HTML Widgets (dropdowns, inputs)
-  * Basic JavaScript
-  * Harry Potter Calculator ICE (or equivalent)
-  * Web Service ICE (Ajax via jQuery, JSON)
-* Module 4 - Interactive Graphics
+  * ICE: JS App that loads and displays our web-service.php data
+  * ICE: Web Service ICE (Ajax via jQuery, utilizes iTunes Music web service, JSON format)
+  * Project DOM Game or Interactive Application
+* Module 4 - Building a Portfolio
+  * (By this point, students should be very comfortable with HTML/CSS/JS, so the Lynda.com Bootstrap tutorials will be easy to follow)
+  * Darth ICE or Similar
+  * Responsive Design
+  * Bootstrap
+  * Discuss publishing to GitHub Pages, LinkedIn, Behance, etc ...
+  * Portfolio Project - Single Page Responsive App published to Banjo
+* Module 5 - Interactive Graphics
+  * More JS: Object Literals, 
   * PixiJS
-  * Web Audio Visualizer ICE?
-  * Build a game
+  * Game Project
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
