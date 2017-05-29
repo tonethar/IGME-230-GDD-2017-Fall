@@ -75,9 +75,10 @@
   * More CSS for layout
   * CSS Transforms
   * CSS Animations
-  * Basic JavaScript: variables & scope, loops, conditionals, functions, arrays)
+  * Basic JavaScript: variables & scope, loops, conditionals, functions, arrays
   * DOM Methods: querySelector(), querySelectorAll(), createElement(), setAttribute(), .innerHTML
   * requestAnimationFrame() for timing
+  * events: addEventListener(), load, click, change
   * HTML 5 Web Storage for local high scores
 * Module 3 - Client/Server Interactive Applications
   * PHP Basics - dynamic web pages, passing arguments to PHP
