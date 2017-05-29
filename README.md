@@ -70,7 +70,7 @@
   * HTML5 Semantic Tags
   * CSS 3 Selectors
   * CSS for layout
-  * Project: Multi-page web site (make this "TA gradable")
+  * Project: Multi-page web site (make this simple & "TA gradable")
 * Module 2 - Client-side DOM Games (Typing Game, Concentration etc)
   * More CSS for layout
   * CSS Transforms
