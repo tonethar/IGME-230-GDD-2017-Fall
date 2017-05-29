@@ -70,6 +70,7 @@
   * HTML5 Semantic Tags
   * CSS 3 Selectors
   * CSS for layout
+  * HW: Custom 404 Page, Secret Page
   * Project: Multi-page web site (make this simple & "TA gradable")
 * Module 2 - Client-side DOM Games (Typing Game, Concentration etc)
   * More CSS for layout
