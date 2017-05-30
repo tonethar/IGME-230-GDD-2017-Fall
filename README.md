@@ -72,7 +72,7 @@
   * CSS for layout
   * HW: Custom 404 Page, Secret Page
   * Project: Multi-page web site (make this simple & "TA gradable")
-* Module 2 - Client-side DOM Games (Typing Game, Concentration etc)
+* Module 2 - Client-side DOM Games (Typing Game, Concentration, Snake, Magnetic Poetry, etc)
   * More CSS for layout
   * CSS Transforms
   * CSS Animations
