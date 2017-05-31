@@ -11,8 +11,9 @@
 * *Students will demonstrate proficiency with fundamental data access from server-side scripts.*
 
 ## Other outcomes beyond CPF
-* Students will publish a web portfolio of their best GDD work to date
-* Create an interactive web application that displays & filters data retrieved from a server
+* Students will work in groups and collaborate utilizing a version control system.
+* Students will publish a web portfolio of their best GDD work to date.
+* Students will create an interactive web application that displays & filters data retrieved from a server.
 * Students will be able to create simple web games using both DOM technologies and a rendering engine (Pixi.js)
 
 ## Topics
