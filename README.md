@@ -1,4 +1,17 @@
-# IGME-230 Web Site Design & Implementation (GDD)
+# IGME-230 Web Site Design & Implementation (GDD) - DRAFT as of 5/31
+
+## Course Description
+This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods. 
+
+## CPF Outcomes
+* This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods. 
+* Students will use client-side techniques such as JavaScript to implement interactivity and navigation.
+* Students will use server-based techniques including .htaccess directives and server-side scripting to improve site performance and security.
+* Students will demonstrate proficiency with fundamental data access from server-side scripts.
+
+## Other Goals beyond CPF
+* Students will produce a web portfolio of their best GDD work to date
+* Students will be able to create simple web games using both DOM technologies and a rendering engine (Pixi.js)
 
 ## Topics
 * Module 0
