@@ -1,5 +1,5 @@
 # IGME-230 Web Site Design & Implementation (GDD)
-### (DRAFT as of 5/31)
+#### (DRAFT as of 5/31)
 
 ## Course Description
 This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods. 
@@ -10,8 +10,9 @@ This course provides an introduction to web development tools and technologies, 
 * Students will use server-based techniques including .htaccess directives and server-side scripting to improve site performance and security.
 * Students will demonstrate proficiency with fundamental data access from server-side scripts.
 
-## Other Goals beyond CPF
-* Students will produce a web portfolio of their best GDD work to date
+## Other outcomes beyond CPF
+* Students will publish a web portfolio of their best GDD work to date
+* Create an interactive application that displays & filters data retrieved from a server
 * Students will be able to create simple web games using both DOM technologies and a rendering engine (Pixi.js)
 
 ## Topics
@@ -78,6 +79,7 @@ This course provides an introduction to web development tools and technologies, 
   * CSS 3 Animations
 * Basic JavaScript
   * variables & scope
+  * data types
   * loops
   * conditionals
   * functions
@@ -87,7 +89,8 @@ This course provides an introduction to web development tools and technologies, 
   * Objects: window, document, body
   * Methods: querySelector(), querySelectorAll(), addEventListener()
   * Events: onload, onclick, onchange
-* PixiJS
+* Graphics Rendering
+  * PixiJS
 * Collaboration
   * GitHub
 * Web Applications
@@ -110,15 +113,6 @@ This course provides an introduction to web development tools and technologies, 
 * Project 1 - Web Portfolio
 * Project 2 - ???
 * Project 3 - Interactive Game Or Experience
-
-## Assignments
-* Web Publishing
-  * Custom 404 Page
-  
-## Course Outcomes
-* Publish a web portfolio
-* Create an interactive application that displays & filters data
-* Create an interactive game or experience
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
