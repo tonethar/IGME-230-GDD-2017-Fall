@@ -4,7 +4,7 @@
 ## Current Course Description
 *This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
 
-## Current 230 CPF Outcomes
+## Current CPF Outcomes
 * *Students will use standards-compliant markup languages and style sheets to implement web pages.*
 * *Students will use client-side techniques such as JavaScript to implement interactivity and navigation.*
 * *Students will use server-based techniques including .htaccess directives and server-side scripting to improve site performance and security.*
