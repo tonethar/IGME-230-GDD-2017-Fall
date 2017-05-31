@@ -35,7 +35,7 @@
   * CSS for layout
   * GitHub
   * HW: Custom 404 Page, Secret Page
-  * Project: Multi-page web site (make this simple & "TA gradable")
+  * Project: Multi-page web site for their game
 * Module 2 - Client-side DOM Games (Typing Game, Concentration, Snake, Magnetic Poetry, etc)
   * More CSS for layout
   * CSS Transforms
