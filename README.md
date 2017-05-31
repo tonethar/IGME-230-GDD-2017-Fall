@@ -12,7 +12,7 @@ This course provides an introduction to web development tools and technologies, 
 
 ## Other outcomes beyond CPF
 * Students will publish a web portfolio of their best GDD work to date
-* Create an interactive application that displays & filters data retrieved from a server
+* Create an interactive web application that displays & filters data retrieved from a server
 * Students will be able to create simple web games using both DOM technologies and a rendering engine (Pixi.js)
 
 ## Topics
