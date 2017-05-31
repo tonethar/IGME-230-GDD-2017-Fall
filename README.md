@@ -47,10 +47,10 @@
   * HTML 5 Web Storage for local high scores
 * Module 3 - Client/Server Interactive Applications
   * PHP Basics - dynamic web pages, passing arguments to PHP
-    * Demos: info.php, who-am-i.php, redirect.php (PHP can send headers), hello.php, hello-with-args.php, logger.php
+    * Demos: info.php, who-am-i.php, redirect.php (PHP can send headers), hello.php, hello-with-args.php, logger.php (embedding PHP in a regular HTML page) 
   * PHP to use with JavaScript:
     * add-score.php, get-high-scores.php (shared high scores)
-    * web-service.php (returns data based on query string, in JSON)
+    * web-service.php (returns JSON data based on value passed in via query string)
   * HTML Widgets (dropdowns, inputs)
   * ICE: Calculators
   * ICE: ToDo List using web storage
