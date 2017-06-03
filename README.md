@@ -110,10 +110,10 @@
   * behance.net?
 
 ## Projects
-* Project 0 - 230 Home Page? (Gradable by TA)
-* Project 1 - Web Portfolio
-* Project 2 - ???
-* Project 3 - Interactive Game Or Experience
+* Project 1 - Game Proposal Site
+* Project 2 - Educational DOM Game or Web Application
+* Project 3 - Interactive Game Or Experience (Sprite Based)
+* Capstone Project - Web Portfolio
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
