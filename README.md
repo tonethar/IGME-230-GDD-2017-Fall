@@ -1,5 +1,4 @@
 # IGME-230 Web Site Design & Implementation (GDD)
-#### (DRAFT as of 5/31)
 
 ## Current Course Description
 *This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
