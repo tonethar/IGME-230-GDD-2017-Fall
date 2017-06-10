@@ -13,7 +13,7 @@ JavaScript can add interactivity to Web pages that causes them to behave like a 
 ### Document Object Model (DOM)
 ### GeoLocation
 ### XMLHttpRequest (XHR)
-#### Ajax
+#### `jQuery.ajax()`
 ### IndexedDB
 [developer.mozilla.org - IndexedDB_API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 ### Web Storage
