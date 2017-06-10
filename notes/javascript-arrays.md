@@ -1,11 +1,11 @@
 # JavaScript Arrays
-## Overview
+## I. Overview
 
-## Creating Arrays
+## II. Creating Arrays
 
-## Accessing elements of the array
+## III. Accessing elements of the array
 
-## Common array properties & methods 
+## IV. Common array properties & methods 
 ### Getting the length of the array
 <code>myArray.length</code>
 
@@ -25,12 +25,12 @@
 
 
 
-## Looping through arrays
+## V. Looping through arrays
 
 
-## Adding properties and methods to Array
+## VI. Adding properties and methods to Array
 
-## Emptying an array
+## VII. Emptying an array
 The simplest and fastest way to empty and array is to create a new empty array and assign it to the variable: 
 
 <code>let myArray = ["red","green","blue"]</code>
