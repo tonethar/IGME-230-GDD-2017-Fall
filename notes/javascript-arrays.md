@@ -7,7 +7,7 @@
 
 ## IV. Common array properties & methods 
 ### Getting the length of the array
-<code>myArray.length</code>
+`myArray.length`
 
 ### Adding elements to the end of the array
 
@@ -32,9 +32,9 @@
 
 ## VII. Emptying an array
 The simplest and fastest way to empty and array is to create a new empty array and assign it to the variable: 
-
-<code>let myArray = ["red","green","blue"]</code>
-
-<code>myArray = []</code>
+```
+let myArray = ["red","green","blue"]</code>
+myArray = []</code>
+```
 
 For other ways see this link: [stackoverflow.com/how-do-i-empty-an-array-in-javascript](https://stackoverflow.com/questions/1232040/how-do-i-empty-an-array-in-javascript)
