@@ -1,1 +1,3 @@
 # JavaScript Debugging
+Web Inspector
+Setting breakpoints, watching variables, stepping, ...
