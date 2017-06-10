@@ -1,8 +1,10 @@
 # Intro to Web Standards
 
 ## I. Overview
-There is no single repository for all web standards
-[www.w3.org/standards](https://www.w3.org/standards/)
+There is no single repository for all web standards:
+* [www.w3.org/standards](https://www.w3.org/standards/)
+* mozilla
+* WHATWG
 
 ## II. HTML
 
