@@ -33,8 +33,8 @@
 ## VII. Emptying an array
 The simplest and fastest way to empty and array is to create a new empty array and assign it to the variable: 
 ```
-let myArray = ["red","green","blue"]</code>
-myArray = []</code>
+let myArray = ["red","green","blue"]
+myArray = []
 ```
 
 For other ways see this link: [stackoverflow.com/how-do-i-empty-an-array-in-javascript](https://stackoverflow.com/questions/1232040/how-do-i-empty-an-array-in-javascript)
