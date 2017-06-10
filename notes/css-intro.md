@@ -3,10 +3,8 @@
 
 ## Example CSS Rule-set
 
-<code>
+```
 p{
-
    background-color:red;
-   
 }
-</code>
+```
