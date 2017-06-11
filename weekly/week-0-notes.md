@@ -2,7 +2,7 @@
 (Stuff you should already know from IGME-110)
 
 * Basic HTML
-  * Elements: <p>,<div>,<h1-h6>
+  * Elements: '<p>,<div>,<h1-h6>'
   * CSS
 * Posting to banjo.rit.edu
   * Using an FTP Client
