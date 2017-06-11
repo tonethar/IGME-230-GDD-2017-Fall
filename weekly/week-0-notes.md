@@ -1,4 +1,5 @@
-# Week 0 Notes (Stuff you should already know from IGME-110)
+# Week 0 Notes 
+(Stuff you should already know from IGME-110)
 
 * Basic HTML
   * Elements: <p>,<div>,<h1-h6>
