@@ -33,7 +33,7 @@
   * HTML5 Semantic Tags
   * CSS 3 Selectors
   * CSS for layout
-  * Responsive Design
+  * Responsive Design - Darth ICE or Similar
   * GitHub
   * HW: Custom 404 Page, Secret Page
   * Project: Multi-page web site for their game
@@ -59,10 +59,9 @@
   * HTML 5 Web Storage for local high scores
   * ES6: let, block scoping, classes, arrow functions, string templating, for/of
   * Project DOM Game or Interactive Application
-* Module 4 - Building a Portfolio
+* Module 4 - Building a Portfolio (thoughout semester, several deliverables)
   * (By this point, students should be very comfortable with HTML/CSS/JS, so the Lynda.com Bootstrap tutorials will be easy to follow)
-  * Darth ICE or Similar
-  * Responsive Design
+  * Reinforce Responsive Design
   * Bootstrap
   * Discuss publishing to GitHub Pages, LinkedIn, Behance, etc ...
   * Portfolio Project - Single Page Responsive App published to Banjo
