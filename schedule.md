@@ -1,9 +1,9 @@
 * Week 1
 * Week 2
 * Week 3
-  * End of week - 230 Page Due
+  * End of week - 230 Page Assignment Due (**Sean will do assignment**)
 * Week 4
-  * Portfolio deliverable #1 due
+  * Portfolio deliverable #1 due (**Tony will do first draft for portfolio project**)
 * Week 5
   * Project 1 due
   * Intro to CSS Frameworks (Bootstrap, Skeleton, Pure)
