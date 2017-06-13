@@ -111,10 +111,10 @@
   * behance.net?
 
 ## Projects
-* Project 1 - Game Proposal Site
+* Project 1 - Game Proposal Site - #1 Deliverable is content posted to GitHub.
 * Project 2 - Educational DOM Game or Web Application
 * Project 3 - Interactive Game Or Experience (Sprite Based)
-* Capstone Project - Web Portfolio
+* Capstone Project - Web Portfolio. #1 Deliverable is content posted to GitHub.
 
 ## Links
 * [Learning Pixi](https://github.com/kittykatattack/learningPixi)
