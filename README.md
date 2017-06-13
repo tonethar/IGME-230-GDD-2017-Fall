@@ -18,13 +18,14 @@
 ## Topics
 * Module 0
   * Why this course matters
-  * Review
+  * Review (**Sean will post 110 files to mycourses.rit.edu**) 
     * (They should already know - post 110 web exercises to mycourses)
     * Basic HTML/CSS
     * Posting to Banjo
-    * HTML Tables
     * CRAP
     * ssh & basic Unix commands
+    * Image Basics (compressed v. uncompressed, formats)
+    * Photoshop - cropping & scaling images, exporting in proper formats
 * Module 1 - Basic Web Publishing
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
@@ -32,6 +33,7 @@
   * HTML5 Semantic Tags
   * CSS 3 Selectors
   * CSS for layout
+  * Responsive Design
   * GitHub
   * HW: Custom 404 Page, Secret Page
   * Project: Multi-page web site for their game
