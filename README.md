@@ -26,7 +26,7 @@
     * ssh & basic Unix commands
     * Image Basics (compressed v. uncompressed, formats)
     * Photoshop - cropping & scaling images, exporting in proper formats
-* Module 1 - Basic Web Publishing
+* Module 1 - Basic Web Publishing (**Sean will handle**) 
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
     * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option +Indexes
