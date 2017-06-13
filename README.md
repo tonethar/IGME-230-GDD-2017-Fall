@@ -116,6 +116,7 @@
 
 ## Links
 [Learning Pixi](https://github.com/kittykatattack/learningPixi)
+[Exploring ES6](http://exploringjs.com/es6/index.html)
 
 ## Notes
 * Homeworks need more "challenges" to earn 10/10. The paint-by-numbers portions of ICEs should be worth just a few points.
