@@ -38,14 +38,14 @@
   * HW: Custom 404 Page, authentication
   * Project: Multi-page web site for their game
 * Module 2 - Client/Server Interactive Applications
+  * ICE: Calculators
+  * ICE: ToDo List using web storage
   * PHP Basics - dynamic web pages, passing arguments to PHP
     * Demos: info.php, who-am-i.php, redirect.php (PHP can send headers), hello.php, hello-with-args.php, logger.php (embedding PHP in a regular HTML page) 
   * PHP to use with JavaScript:
     * add-score.php, get-high-scores.php (shared high scores)
     * web-service.php (returns JSON data based on value passed in via query string)
   * HTML Widgets (dropdowns, inputs)
-  * ICE: Calculators
-  * ICE: ToDo List using web storage
   * ICE: JS App that loads and displays our web-service.php data
   * ICE: Web Service ICE (Ajax via jQuery, utilizes iTunes Music web service, JSON format)
 * Module 3 - Client-side DOM Games (Typing Game, Concentration, Snake, Magnetic Poetry, etc)
