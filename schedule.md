@@ -1,7 +1,7 @@
 * Week 1
 * Week 2
-  * End of week - 230 Page Due
 * Week 3
+  * End of week - 230 Page Due
 * Week 4
   * Portfolio deliverable #1 due
 * Week 5
