@@ -6,6 +6,7 @@
   * Portfolio deliverable #1 due
 * Week 5
   * Project 1 due
+  * Intro to CSS Frameworks (Bootstrap, Skeleton, Pure)
 * Week 6
 * Week 7
 * Week 8
