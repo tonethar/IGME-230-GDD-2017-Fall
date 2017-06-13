@@ -46,6 +46,7 @@
   * requestAnimationFrame() for timing
   * events: addEventListener(), load, click, change
   * HTML 5 Web Storage for local high scores
+  * ES6: let, block scoping, classes, arrow functions, string templating, for/of
 * Module 3 - Client/Server Interactive Applications
   * PHP Basics - dynamic web pages, passing arguments to PHP
     * Demos: info.php, who-am-i.php, redirect.php (PHP can send headers), hello.php, hello-with-args.php, logger.php (embedding PHP in a regular HTML page) 
