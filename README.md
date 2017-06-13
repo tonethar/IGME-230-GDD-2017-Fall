@@ -35,7 +35,7 @@
   * CSS for layout
   * Responsive Design - Darth ICE or Similar
   * GitHub
-  * HW: Custom 404 Page, Secret Page
+  * HW: Custom 404 Page, authentication
   * Project: Multi-page web site for their game
 * Module 2 - Client/Server Interactive Applications
   * PHP Basics - dynamic web pages, passing arguments to PHP
