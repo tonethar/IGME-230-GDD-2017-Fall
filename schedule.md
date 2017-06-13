@@ -17,7 +17,9 @@
 * Week 11
 * Week 12
 * Week 13
-  * Game Project due
+  * Portfolio Project due
 * Week 14
+  * Final Exam last day of class
 * Finals Week
-  * Portfolio Project Due
+  * Game Project Due
+  * Show projects finals week
