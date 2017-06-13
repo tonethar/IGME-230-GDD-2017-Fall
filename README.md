@@ -37,17 +37,7 @@
   * GitHub
   * HW: Custom 404 Page, Secret Page
   * Project: Multi-page web site for their game
-* Module 2 - Client-side DOM Games (Typing Game, Concentration, Snake, Magnetic Poetry, etc)
-  * More CSS for layout
-  * CSS Transforms
-  * CSS Animations
-  * Basic JavaScript: variables & scope, loops, conditionals, functions, arrays
-  * DOM Methods: querySelector(), querySelectorAll(), createElement(), setAttribute(), .innerHTML
-  * requestAnimationFrame() for timing
-  * events: addEventListener(), load, click, change
-  * HTML 5 Web Storage for local high scores
-  * ES6: let, block scoping, classes, arrow functions, string templating, for/of
-* Module 3 - Client/Server Interactive Applications
+* Module 2 - Client/Server Interactive Applications
   * PHP Basics - dynamic web pages, passing arguments to PHP
     * Demos: info.php, who-am-i.php, redirect.php (PHP can send headers), hello.php, hello-with-args.php, logger.php (embedding PHP in a regular HTML page) 
   * PHP to use with JavaScript:
@@ -58,6 +48,16 @@
   * ICE: ToDo List using web storage
   * ICE: JS App that loads and displays our web-service.php data
   * ICE: Web Service ICE (Ajax via jQuery, utilizes iTunes Music web service, JSON format)
+* Module 3 - Client-side DOM Games (Typing Game, Concentration, Snake, Magnetic Poetry, etc)
+  * More CSS for layout
+  * CSS Transforms
+  * CSS Animations
+  * Basic JavaScript: variables & scope, loops, conditionals, functions, arrays
+  * DOM Methods: querySelector(), querySelectorAll(), createElement(), setAttribute(), .innerHTML
+  * requestAnimationFrame() for timing
+  * events: addEventListener(), load, click, change
+  * HTML 5 Web Storage for local high scores
+  * ES6: let, block scoping, classes, arrow functions, string templating, for/of
   * Project DOM Game or Interactive Application
 * Module 4 - Building a Portfolio
   * (By this point, students should be very comfortable with HTML/CSS/JS, so the Lynda.com Bootstrap tutorials will be easy to follow)
