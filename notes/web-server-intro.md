@@ -4,11 +4,6 @@ Web servers store, process, and deliver web pages and other files to *client* pr
 
 ![Client-Server Image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/440px-Client-server-model.svg.png)
 
-This week we will:
-* discuss what a web server is (and does)
-* discuss the HTTP protocol
-* learn how to script certain web server behavior by utlizing .htaccess files
-
 ## Terms (hopefully you already know these)
 * The **Internet** is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide. [wikipedia.org - Internet](https://en.wikipedia.org/wiki/Internet)
 * The **World Wide Web (WWW)** is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet. [wikipedia.org - WWW](https://en.wikipedia.org/wiki/World_Wide_Web)
