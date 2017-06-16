@@ -33,13 +33,13 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 * Project 3 (15%) - Interactive Game Or Experience (Sprite Based)
 * Portfolio Project (10%)
 
-### Exams (25%)
+### Exams (30%)
 These exams consist of short answer, multiple choice, and "write some code" questions. There will be no make-ups or re-takes allowed without prior permission.
 * Written Midterm Exam (tentatively scheduled for end of week 8)
 * Written Final Exam (will be on the last day of class)
 
 ### Homework (10%)
-Completing the HW and in-class exercises is essential to learning the course material. Failing 5 homework and/or in-class assignments will result in an immediate "F" grade in the course.
+Completing the HW and in-class exercises is essential to learning the course material. **Failing 5 homework and/or in-class assignments will result in an immediate "F" grade in the course.**
 
 HW and ICE will NOT be accepted late without a valid excuse (procrastination, and missing the dropbox by 1 minute, are not valid excuses). If you feel you have legitimate excuse, please contact the professor outside of class either by email or during office hours.
 
