@@ -4,6 +4,8 @@ Web servers store, process, and deliver web pages and other files to *client* pr
 
 ![My image](https://en.wikipedia.org/wiki/Client–server_model#/media/File:Client-server-model.svg)
 
+<img src="https://i.stack.imgur.com/Q8T7Z.png" width="100%" height="144">
+
 This week we will talk about what a web server is (and does), and learn how to script some of its behavior.
 
 ## Terms (hopefully you already know these)
