@@ -34,7 +34,8 @@ MyCourses will also be used for announcements, certain assignment submissions, a
 Attendance is mandatory and you are expected to be on time. Lectures will start promptly at the beginning of class, and will be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. no leaving early).
 
 ## Grading
-Final grades are awarded using the following scale: 
+Final course grades are determined using the following scale: 
+
 | Class Average | Grade |
 | ------------- | ----- |
 | 90+%	| A |
