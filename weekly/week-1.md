@@ -31,5 +31,8 @@ This week and next we will:
 * [web-server-intro.md](../notes/web-server-intro.md)
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
 
+## Assignments
+* [230-home-page.md](../assignments/230-home-page.md)
+
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
