@@ -8,6 +8,6 @@ This week we will:
 * learn how to script certain web server behavior by utlizing .htaccess files
 
 ## Required Reading
-[Course Syllabus](../syllabus.md)
-[web-server-intro Notes](../notes/web-server-intro.md)
-[http-protocol-intro Notes](../notes/http-protocol-intro.md)
+* [Course Syllabus](../syllabus.md)
+* [web-server-intro Notes](../notes/web-server-intro.md)
+* [http-protocol-intro Notes](../notes/http-protocol-intro.md)
