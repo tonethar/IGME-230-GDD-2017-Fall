@@ -2,7 +2,7 @@
 ## Overview
 Web servers store, process, and deliver web pages and other files to *client* programs such as web browsers. This is knows as the *client-server* model where the servers store resources (text, images, audio, ...) and wait for requests, and the client applications request these resources as needed.
 
-![My image](https://en.wikipedia.org/wiki/Client–server_model#/media/File:Client-server-model.svg)
+![My image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/440px-Client-server-model.svg.png)
 
 <img src="https://en.wikipedia.org/wiki/Client–server_model#/media/File:Client-server-model.svg" width="100%" height="144">
 
