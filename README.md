@@ -27,6 +27,20 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 | 65+%	| D |
 | <65%	| F |
 
+### Policy on Incomplete Grades
+Incomplete grades will be given only in the most exceptional circumstances, and only for issues that arise AFTER the 'W' deadline has passed at the end of week 12, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor ASAP as early as possible in the semester if you're having difficulty. 
+
+### Academic Dishonesty
+The course policy on academic dishonesty is simple: If you get caught cheating or plagiarizing, you get an "F" as a grade for the course, a letter detailing the incident goes into your records folder, and you are immediately removed from the class. (If this is a second occurrence during your career at RIT, the penalties are harsher.) Please review RIT's policy on academic dishonesty: 
+[http://www.rit.edu/~w-policy/sectionD/D8.html](http://www.rit.edu/~w-policy/sectionD/D8.html)
+
+### Important RIT Deadlines
+- Last day of add/drop is Tuesday Sept. 5th, 2017.
+- Last day to withdraw with a grade of "W" is Friday Nov. 10th, 2017.
+- Grades of "I" (Incomplete) 
+- You have one semester after the class has ended to challenge your grade. 
+
+
 (End of student Syllabus)
 <hr>
 (Beginning of course notes)
