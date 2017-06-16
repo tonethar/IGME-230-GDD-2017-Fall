@@ -27,6 +27,22 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 | 65+%	| D |
 | <65%	| F |
 
+### Projects (55%)
+* Project 1 (15%)
+* Project 2 (15%)
+* Project 3 (15%) - we will meet during the scheduled exam time of finals week to view your project 3 and portfolio submissions.
+* Portfolio Project (10%)
+
+### Exams (25%)
+These exams consist of short answer, multiple choice, and "write some code" questions. There will be no make-ups or re-takes allowed without prior permission.
+* Written Midterm Exam (tentatively scheduled for end of week 8)
+* Written Final Exam (will be on the last day of class)
+
+### Homework (10%)
+
+### Attendance & Participation (5%)
+Note: 1 absence 4/5 points, 2 absences 3/5 points, 3 absences 1.5/5 points, 4 absences 0 points. **Each additional absence is 5% off of final average.** Arriving late is 1/2 absence. Facebooking or similar off-task activity during lectures or demos will count as a absence for the day.
+
 ### Policy on Incomplete Grades
 Incomplete grades will be given only in the most exceptional circumstances, and only for issues that arise AFTER the 'W' deadline has passed at the end of week 12, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor ASAP as early as possible in the semester if you're having difficulty. 
 
