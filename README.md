@@ -21,11 +21,15 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 ## Grading
 | Class Average | Grade |
 | ------------- | ----- |
-| 83%-100%	| A |
-| 65%-82.9%	| C |
-| 0-65%	| F |
+| 90+%	| A |
+| 80+%	| B |
+| 70+%	| C |
+| 65+%	| D |
+| <65%	| F |
 
+(End of student Syllabus)
 <hr>
+(Beginning of course notes)
 
 ## Topics
 * Module 0
