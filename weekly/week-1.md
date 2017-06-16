@@ -7,6 +7,7 @@ Official description from SIS: *This course provides an introduction to web deve
 We will:
 * review basic web publishing (HTML/CSS/FTP) and HTML validation
 * learn how a web server works and how to do basic scripting of it
+* expose you to the PHP scripting language that runs on most web servers
 * explore advanced CSS layout utilizing the CSS box model and flex box
 * go beyond type, class, and id CSS selectors by utilizing many of the CSS 3 selectors
 * construct *web applications*. A web app is a client–server software application in which the client (or user interface) runs in a web browser. [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application). Examples of web apps you might use are github.com, Gmail, and Google Drive. Web App assignments we will complete in class include interactive calculators, a functional "To do" app, an app that allows the user to search for and view animated GIFs, and an app that allows the user to search the iTunes store for songs, and then listen to previews
@@ -14,6 +15,7 @@ We will:
   * utilizing the DOM (Document Object Model) we will build an interactive concentration game, and a typing game. These games will rely heavily on CSS 3 features such as CSS transformations (rotate & skew), and CSS keyframed animations
   * utilizing the Pixi.js rendering framework, we will build sprite-based games such as simple shooters and top/down adventure games.
 * Building web apps and web games requires more than just HTML & CSS, but also of the JavaScript language that runs in all web browsers. We will be covering the current "standard" version of JavaScript known as ES5 (ECMAScript 5), as well as some of the well-supported and powerful features of ES6 (AKA ECMAScript 6 or ECMAScript 2015)
+* utilize a CSS framework such as Bootstrap to construct a responsive web portfolio
   
 
 ## Topics
