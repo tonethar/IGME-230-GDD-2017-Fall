@@ -6,6 +6,21 @@
 ## Prerequisites
 IGME-110 Introduction to Interactive Media & IGME-106 Game Development and Algorithmic Problem Solving II (GDAPS II). We expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (banjo.rit.edu). As this course involves a significant amount of coding, you should also feel confident in your coding skills. 
 
+## Instructor and Class Details (Section XX)
+- Professor Tony Jefferson  
+- Office: GOL-XXXX
+- Email: tony@mail.rit.edu
+- Office hours: TBA 
+- Class meetings : XX/XX 11-12:15 in XX
+
+## Instructor and Class Details (Sections XX & XX)
+- Professor Sean Boyle  
+- Office: GOL-XXXX
+- Email: 
+- Office hours: TBA 
+- Class meetings (Section XX) : XX/XX 11-12:15 in XX
+- Class meetings (Section XX) : XX/XX 11-12:15 in XX
+
 ## Course Materials and Communication
 There is no required textbook for the course, but there will be an assortment of handouts and online readings that you will receive over the course of the semester. They will be uploaded to (or linked from) this Github site. 
 
