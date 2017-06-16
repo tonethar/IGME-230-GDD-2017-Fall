@@ -14,7 +14,7 @@ We will:
 * construct **interactive games** that run in the web browser (these are also considered to be web applications):
   * utilizing the DOM (Document Object Model) we will build an interactive concentration game, and a typing game. These games will rely heavily on CSS 3 features such as CSS transformations (rotate & skew), and CSS keyframed animations
   * utilizing the Pixi.js rendering framework, we will build sprite-based games such as simple shooters and top/down adventure games.
-* Building web apps and web games requires more than just HTML & CSS, but also of the JavaScript language that runs in all web browsers. We will be covering the current "standard" version of JavaScript known as ES5 (ECMAScript 5), as well as some of the well-supported and powerful features of ES6 (AKA ECMAScript 6 or ECMAScript 2015)
+* Building web apps and web games requires knowledge of more than just HTML & CSS, but also of the JavaScript language that runs in all web browsers. We will be covering the current "standard" version of JavaScript known as ES5 (ECMAScript 5), as well as some of the well-supported and powerful features of ES6 (AKA ECMAScript 6 or ECMAScript 2015)
 * utilize a CSS framework such as Bootstrap to construct a responsive web portfolio
   
 
@@ -32,4 +32,4 @@ This week and next we will:
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
 
 ## Reference
-* [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application).
+* [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
