@@ -28,6 +28,7 @@ This week and next we will:
 
 ## Required Reading
 * [syllabus.md](../syllabus.md)
+* [230 HTML intro.pdf](../docs/230 HTML intro.pdf) - this should be mostly a review of wham you learned in IGME-110
 * [web-server-intro.md](../notes/web-server-intro.md)
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
 
