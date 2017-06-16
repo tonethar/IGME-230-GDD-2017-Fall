@@ -1,20 +1,31 @@
-# IGME-230 Web Site Design & Implementation (GDD)
+# IGME-230 Web Site Design & Implementation, Fall 2017: Syllabus
 
-## Current Course Description
+## Course Catalog Description 
 *This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
 
-## Current CPF Outcomes
-* *Students will use standards-compliant markup languages and style sheets to implement web pages.*
-* *Students will use client-side techniques such as JavaScript to implement interactivity and navigation.*
-* *Students will use server-based techniques including .htaccess directives and server-side scripting to improve site performance and security.*
-* *Students will demonstrate proficiency with fundamental data access from server-side scripts.*
+## Prerequisites
+IGME-110 Introduction to Interactive Media & IGME-106 Game Development and Algorithmic Problem Solving II (GDAPS II). We expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (banjo.rit.edu). As this course involves a significant amount of coding, you should also feel confident in your coding skills. 
 
-## Other outcomes beyond CPF
-* Students will work in groups and collaborate utilizing a version control system.
-* Students will publish a web portfolio of their best GDD work to date.
-* Students will create an interactive web application that displays & filters data retrieved from a server.
-* Students will be able to create simple web games using both DOM technologies and a rendering engine (Pixi.js)
+## Course Materials and Communication
+There is no required textbook for the course, but there will be an assortment of handouts and online readings that you will receive over the course of the semester. They will be uploaded to (or linked from) this Github site. 
 
+We will be assigning a number of tutorials from the [Lynda.com](http://lynda.com) website, which you can access for free using your RIT login. 
+
+Most course materials and example code will be distributed via Github, and you will also be learning how to use Git and Github to manage your own exercise and project files.
+
+MyCourses will also be used for announcements, certain assignment submissions, and grading.
+
+## Attendance
+Attendance is mandatory and you are expected to be on time. Lectures will start promptly at the beginning of class, and will be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. no leaving early).
+
+## Grading
+| Class Average | Grade |
+| ------------- | ----- |
+| 83%-100%	| A |
+| 65%-82.9%	| C |
+| 0-65%	| F |
+
+<hr>
 ## Topics
 * Module 0
   * Why this course matters
