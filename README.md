@@ -11,7 +11,7 @@ IGME-110 Introduction to Interactive Media & IGME-106 Game Development and Algor
 - Office: GOL-2139 (IGM Main Office)
 - Email: tony@mail.rit.edu
 - Office hours: TBA 
-- Class meetings : Tuesday/Thursday 11-12:20 in ORN-1370
+- Class meetings : Tuesday/Thursday 11:00-12:20 in ORN-1370
 
 ## Instructor and Class Details (Sections 03 & 06)
 - Professor Sean Boyle  
