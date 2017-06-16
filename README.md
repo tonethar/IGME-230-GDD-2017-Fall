@@ -13,13 +13,13 @@ IGME-110 Introduction to Interactive Media & IGME-106 Game Development and Algor
 - Office hours: TBA 
 - Class meetings : Tuesday/Thursday 11-12:20 in ORN-1370
 
-## Instructor and Class Details (Sections XX & XX)
+## Instructor and Class Details (Sections 03 & 06)
 - Professor Sean Boyle  
-- Office: GOL-XXXX
-- Email: 
+- Office: GOL-2517
+- Email: sean.boyle@rit.edu
 - Office hours: TBA 
-- Class meetings (Section XX) : XX/XX 11-12:15 in XX
-- Class meetings (Section XX) : XX/XX 11-12:15 in XX
+- Class meetings (Section 03) : MWF 3:35PM - 4:30PM in GOL-2435
+- Class meetings (Section 06) : MWF 2:30PM - 3:25PM in ORN-1375
 
 ## Course Materials and Communication
 There is no required textbook for the course, but there will be an assortment of handouts and online readings that you will receive over the course of the semester. They will be uploaded to (or linked from) this Github site. 
