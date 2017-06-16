@@ -28,9 +28,9 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 | <65%	| F |
 
 ### Projects (55%)
-* Project 1 (15%)
-* Project 2 (15%)
-* Project 3 (15%) - we will meet during the scheduled exam time of finals week to view your project 3 and portfolio submissions.
+* Project 1 (15%) - Game Proposal Site
+* Project 2 (15%) - Educational DOM Game or Web Application
+* Project 3 (15%) - Interactive Game Or Experience (Sprite Based)
 * Portfolio Project (10%)
 
 ### Exams (25%)
@@ -39,6 +39,9 @@ These exams consist of short answer, multiple choice, and "write some code" ques
 * Written Final Exam (will be on the last day of class)
 
 ### Homework (10%)
+Completing the HW and in-class exercises is essential to learning the course material. Failing 5 homework and/or in-class assignments will result in an immediate "F" grade in the course.
+
+HW and ICE will NOT be accepted late without a valid excuse (procrastination, and missing the dropbox by 1 minute, are not valid excuses). If you feel you have legitimate excuse, please contact the professor outside of class either by email or during office hours.
 
 ### Attendance & Participation (5%)
 Note: 1 absence 4/5 points, 2 absences 3/5 points, 3 absences 1.5/5 points, 4 absences 0 points. **Each additional absence is 5% off of final average.** Arriving late is 1/2 absence. Facebooking or similar off-task activity during lectures or demos will count as a absence for the day.
