@@ -1,13 +1,15 @@
 # Week 1 Notes
 ## Overview
-Web servers store, process, and deliver web pages and other files to *client* programs such as web browsers. This is known as the *client-server* model where servers that are connected to the Internet store resources (text, images, audio, ...) and wait for *requests*. The *client* applications will then request these resources as needed.
+Welcome to IGME-230 Web Site Design & Implementation! There is more to this course than the title implies, as we will be doing a lot more than just designing web sites. 
 
-This week we will:
+This week and next we will:
+* discuss what this course is about and where it fits in the GDD curriculum
+* point you to IGME-110 resources you may need to review
 * discuss what a web server is (and does)
-* discuss the HTTP protocol
-* learn how to script certain web server behavior by utlizing .htaccess files
+* discuss the HTTP protocol and see it how it works
+* learn how to script certain web server behavior by utilizing .htaccess files
 
 ## Required Reading
-* [Course Syllabus](../syllabus.md)
-* [web-server-intro Notes](../notes/web-server-intro.md)
-* [http-protocol-intro Notes](../notes/http-protocol-intro.md)
+* [syllabus.md](../syllabus.md)
+* [web-server-intro.md](../notes/web-server-intro.md)
+* [http-protocol-intro.md](../notes/http-protocol-intro.md)
