@@ -16,6 +16,7 @@ We will:
   * utilizing the Pixi.js rendering framework, we will build sprite-based games such as simple shooters and top/down adventure games.
 * learn how to add advanced interactivity to web pages. Building web apps and web games requires knowledge of more than just HTML & CSS, but also of the JavaScript programming language that runs in all web browsers. We will be covering the current "standard" version of JavaScript known as ES5 (ECMAScript 5), as well as some of the well-supported and powerful features of ES6 (AKA ECMAScript 6 or ECMAScript 2015)
 * utilize a CSS framework such as Bootstrap to construct a responsive web portfolio
+When the course is complete, you will hopefully have at least the beginnings of a "portfolio piece" or two that you will be able to show to prospective employers.
   
 
 ## Topics
