@@ -26,6 +26,7 @@ Attendance is mandatory and you are expected to be on time. Lectures will start 
 | 0-65%	| F |
 
 <hr>
+
 ## Topics
 * Module 0
   * Why this course matters
