@@ -11,20 +11,17 @@ Some other examples are here:
 - https://onepagelove.com
 
 ## Content Requirements
-- the page is named index.html
-- the page will have a navigation system to allow the user to quickly access distinct content
-- it will include your name and an image (could be a photo or an avatar)
-- Gallery page with brief information about each of your work examples (examples can be projects or exercises from this class or other classes, or work you've done on your own)
-- Individual pages with more detail for each of your examples
-    - each example needs a title, an image (could be a screenshot or photo), and a one-paragraph description that highlights the tools you used and the skills that it illustrates
+- the page is named index.html, and it will include:
+  - a navigation system to allow the user to quickly access distinct content
+  - your name and an image (could be a photo or an avatar)
+  - a *tagline* (see #2 here: https://www.smashingmagazine.com/2009/02/10-steps-to-the-perfect-portfolio-website/) - example: "Unity/Unreal Game Developer seeking an internship opportunity" 
+  - contact information
+  - a gallery section with brief information about each of your work examples (examples can be projects or exercises from this class or other classes, or work you've done on your own)
+  - Individual sub-section sections with more detail for each of your work examples:
+    - each example needs a title, an image (could be a screenshot, photo, or link to a working demo video), and a one-paragraph description that highlights the tools you used and the skills that it illustrates. If the example is interactive and can play in a web brower, a link to a working version should be provided
     - if the example is from a group project, be sure to clearly indicate what your role was on the project
-- Contact information page
-- Resume (HTML, not PDF) that also has a printer-friendly stylesheet
-- Notes page with information about how you made the site, including the following content: 
-  - Source information for any images or code that you didn't create yourself (including CSS frameworks, typefaces, and any code libraries)
-  - If you used a CSS framework, explain how you modified it so that your portfolio doesn't look exactly like every other site that uses that framework. 
-  - What you did to go beyond the base expectations for the project--what did you do that was particularly challenging? This could involve art/design, content, or code. 
-  - Must be called notes.html and placed in the portfolio directory, but linking to it from the portfolio navitation is not required (see the Submission & Due Dates section below)
+
+  - Resume (either printer friendly HTML, or a PDF, NEVER a Word .doc) that also has a printer-friendly stylesheet
 
 ## Design Requirements
 - the site is a [responsive](https://en.wikipedia.org/wiki/Responsive_web_design), [single-page design](https://en.wikipedia.org/wiki/Single-page_application)
@@ -57,6 +54,12 @@ Here are some examples:
 - Passes WAVE accessibility evaluation without significant errors 
 - Semantic HTML
 - Images and other media are properly optimized (both file size and image dimensions) for screen display
+
+## Documentation Requirements (submit to dropbox in a PDF file)
+- Notes page with information about how you made the site, including the following content: 
+- Source information for any images or code that you didn't create yourself (including CSS frameworks, typefaces, and any code libraries)
+- If you used a CSS framework, explain how you modified it so that your portfolio doesn't look exactly like other sites that use that framework. 
+- What you did to go beyond the base expectations for the project--what did you do that was particularly challenging? This could involve art/design, content, or code. 
 
 
 ## Grading
