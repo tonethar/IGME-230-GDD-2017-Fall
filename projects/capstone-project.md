@@ -17,9 +17,9 @@ There are many ways to publish your portfolio of work to the web:
 - https://wordpress.com or similar
 - people.rit.edu (the banjo.rit.edu server)
 
-For this class, you will create and publish a portfolio to people.rit.edu. Read below for details.
+THis semester, for this class, you will create and publish a portfolio of your work to people.rit.edu. Read below for details.
 
-(In the future you will likely wish to utilize some of the other publishing methods listed above) 
+**(In the future you will likely wish to additionally utilize some of the other publishing methods listed above!)**
 
 ## Description
 You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work*, and that work should correlates to your career goals. 
