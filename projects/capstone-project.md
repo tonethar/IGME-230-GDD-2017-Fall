@@ -41,10 +41,10 @@ Here are some examples:
 **Here is the mobile version of the same page**
 ![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
 
-
+##
 ![dougwatro.com](images/watro.jpg)
 
-
+##
 ![Lynda.com Bootstrap example](images/wisdom-pet-medicine.jpg)
 
 
