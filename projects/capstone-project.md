@@ -2,13 +2,17 @@
 ## Description
 You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work* that correlates to your career goals. 
 
-Here are some portfolio examples that were created by IGM students:
+Here are some example portfolios that were created by IGM students:
 
 - [http://dougwatro.com (utilized Bootstrap)](http://dougwatro.com)
 
+Some other examples are here:
+
+- https://onepagelove.com
+
 ## Content Requirements
-- the site is a responsive, single-page design
-- Landing page named index.html, including your name and an image (could be a photo or an avatar)
+- the site is a responsive, [single-page design
+- the page named index.html, including your name and an image (could be a photo or an avatar)
 - Gallery page with brief information about each of your work examples (examples can be projects or exercises from this class or other classes, or work you've done on your own)
 - Individual pages with more detail for each of your examples
     - each example needs a title, an image (could be a screenshot or photo), and a one-paragraph description that highlights the tools you used and the skills that it illustrates
