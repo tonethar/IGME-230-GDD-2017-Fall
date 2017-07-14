@@ -10,6 +10,13 @@ Each portfolio piece should be showcased with the following:
 - ideally a demo video
 - if possible, a web playable version 
 
+There are mnay ways to publish your portfolio of work to the web:
+- https://www.behance.net
+- https://www.linkedin.com
+- https://github.com and/or https://pages.github.com
+- Wordpress or similar
+- people.rit.edu (the banjo.rit.edu server)
+
 ## Description
 You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work*, and that work should correlates to your career goals. 
 
