@@ -32,15 +32,18 @@ Some other examples are here:
 - It is assumed that you wil be using a CSS framework such as Bootstrap. If so, colors and typefaces must be modified so that the site is not a "cookie cutter" replica of the framework's templates
 - Principles of visual design (taught in prerequisite classes) employed: clear visual hierarchy, good use of white space, effective alignment of content, thoughtful choices of colors and visual elements
 - Effective typography employed; typeface(s) chosen should be clear and legible as well as appropriate to the content being presented
-- The user's initial "landing" on the page should be compelling. 
+- The initial "landing" on the page should be compelling, ideally with a tag line and page design that "pulls" the user in. 
 Here are some examples:
 
 ![http://www.adhamdannaway.com](images/dannaway.jpg)
 
+
 **Here is the mobile version of the same page**
 ![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
 
+
 ![dougwatro.com](images/watro.jpg)
+
 
 ![Lynda.com Bootstrap example](images/wisdom-pet-medicine.jpg)
 
