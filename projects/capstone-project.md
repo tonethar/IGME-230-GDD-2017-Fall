@@ -7,8 +7,8 @@ Each portfolio piece should be showcased with the following:
 - a discussion of the technologies and/or techniques that were used
 - if it was a group project, detail your exact role
 - multiple screenshots
-- ideally a demo video
-- if possible, a web playable version 
+- ideally a link to a demo video that is hosted on YouTube or Vimeo
+- if possible, a web playable version of the project
 
 There are many ways to publish your portfolio of work to the web:
 - https://www.behance.net
@@ -17,7 +17,7 @@ There are many ways to publish your portfolio of work to the web:
 - https://wordpress.com or similar
 - people.rit.edu (the banjo.rit.edu server)
 
-THis semester, for this class, you will create and publish a portfolio of your work to people.rit.edu. Read below for details.
+This semester, for this class, you will create and publish a portfolio of your work to people.rit.edu. Read below for details.
 
 **(In the future you will likely wish to additionally utilize some of the other publishing methods listed above!)**
 
