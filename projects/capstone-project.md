@@ -36,19 +36,19 @@ Some other examples are here:
 - The initial "landing" on the page should be compelling, ideally with a tag line and page design that "pulls" the user in. 
 Here are some examples:
 
-### http://www.adhamdannaway.com
+### I. http://www.adhamdannaway.com
 ![http://www.adhamdannaway.com](images/dannaway.jpg)
 
 
-### Here is the mobile version of the same page
+### II. Here is the mobile version of the same page
 ![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
 
 
-### http://dougwatro.com
+### III. http://dougwatro.com
 ![dougwatro.com](images/watro.jpg)
 
 
-### Lynda.com Bootstrap example
+### IV. Lynda.com Bootstrap example
 ![Lynda.com Bootstrap example](images/wisdom-pet-medicine.jpg)
 
 
