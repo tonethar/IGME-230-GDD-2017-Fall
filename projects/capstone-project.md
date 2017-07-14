@@ -34,7 +34,7 @@ Some other examples are here:
 - Effective typography employed; typeface(s) chosen should be clear and legible as well as appropriate to the content being presented
 - The user's initial "landing" on the page should be compelling. Here are some examples:
 
-(images/watro.jpg)
+!(images/watro.jpg)
 
 
 ## Technology Requirements
