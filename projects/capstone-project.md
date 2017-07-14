@@ -1,8 +1,11 @@
 # Capstone Project - Web Portfolio
 ## Description
-You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. 
+You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work* that ... here are previous portfolio examples:
 
-## Page and Content Requirements
+[http://dougwatro.com - utilized Bootstrap](http://dougwatro.com)
+
+## Content Requirements
+- the site is a responsive, single-page design
 - Landing page named index.html, including your name and an image (could be a photo or an avatar)
 - Gallery page with brief information about each of your work examples (examples can be projects or exercises from this class or other classes, or work you've done on your own)
 - Individual pages with more detail for each of your examples
@@ -17,8 +20,8 @@ You will create a personal portfolio site to showcase your work to potential emp
   - Must be called notes.html and placed in the portfolio directory, but linking to it from the portfolio navitation is not required (see the Submission & Due Dates section below)
 
 ## Design Requirements
-- Responsive design with a minimum of two layouts--one optimized for desktop, one for phones
-- If a CSS framework is used, colors and typefaces must be modified so that the site is not a "cookie cutter" replica of the framework's templates
+- A single-page, responsive design with a minimum of two layouts--one optimized for desktop, one for phones
+- It is assumed that you wil be using a CSS framework such as Bootstrap. If so, colors and typefaces must be modified so that the site is not a "cookie cutter" replica of the framework's templates
 - Principles of visual design (taught in prerequisite classes) employed: clear visual hierarchy, good use of white space, effective alignment of content, thoughtful choices of colors and visual elements
 - Effective typography employed; typeface(s) chosen should be clear and legible as well as appropriate to the content being presented
 
@@ -28,8 +31,7 @@ You will create a personal portfolio site to showcase your work to potential emp
 - Well-structured, valid CSS
 - Passes WAVE accessibility evaluation without significant errors 
 - Semantic HTML
-- Drop-down menu for navigation available on all pages 
-- Images and other media are properly optimized for screen display
+- Images and other media are properly optimized (both file size and image dimensions) for screen display
 
 
 ## Grading
