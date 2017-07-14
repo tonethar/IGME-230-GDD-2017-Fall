@@ -1,6 +1,6 @@
 # Capstone Project - Web Portfolio
 ## Description
-You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work* that correlates to your career goals. 
+You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work*, and that work should correlates to your career goals. 
 
 Here are some example portfolios that were created by IGM students:
 
@@ -11,8 +11,9 @@ Some other examples are here:
 - https://onepagelove.com
 
 ## Content Requirements
-- the site is a responsive, [single-page design
-- the page named index.html, including your name and an image (could be a photo or an avatar)
+- the page is named index.html
+- the page will have a navigation system to allow the user to quickly access distinct content
+- it will include your name and an image (could be a photo or an avatar)
 - Gallery page with brief information about each of your work examples (examples can be projects or exercises from this class or other classes, or work you've done on your own)
 - Individual pages with more detail for each of your examples
     - each example needs a title, an image (could be a screenshot or photo), and a one-paragraph description that highlights the tools you used and the skills that it illustrates
@@ -26,10 +27,14 @@ Some other examples are here:
   - Must be called notes.html and placed in the portfolio directory, but linking to it from the portfolio navitation is not required (see the Submission & Due Dates section below)
 
 ## Design Requirements
-- A single-page, responsive design with a minimum of two layouts--one optimized for desktop, one for phones
+- the site is a [responsive](https://en.wikipedia.org/wiki/Responsive_web_design), [single-page design](https://en.wikipedia.org/wiki/Single-page_application)
+- It must have a minimum of two layouts--one optimized for desktop, one for phones
 - It is assumed that you wil be using a CSS framework such as Bootstrap. If so, colors and typefaces must be modified so that the site is not a "cookie cutter" replica of the framework's templates
 - Principles of visual design (taught in prerequisite classes) employed: clear visual hierarchy, good use of white space, effective alignment of content, thoughtful choices of colors and visual elements
 - Effective typography employed; typeface(s) chosen should be clear and legible as well as appropriate to the content being presented
+- The user's initial "landing" on the page should be compelling. Here are some examples:
+
+(images/watro-jpg)
 
 
 ## Technology Requirements
