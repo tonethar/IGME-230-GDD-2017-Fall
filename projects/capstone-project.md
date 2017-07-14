@@ -35,7 +35,10 @@ Some other examples are here:
 - The user's initial "landing" on the page should be compelling. 
 Here are some examples:
 
-![http://www.adhamdannaway.com](images/wisdom-pet-medicine.jpg)
+![http://www.adhamdannaway.com](images/dannaway.jpg)
+
+**Here is the mobile version of the same page**
+![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
 
 ![dougwatro.com](images/watro.jpg)
 
