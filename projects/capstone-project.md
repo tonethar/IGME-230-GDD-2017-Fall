@@ -1,6 +1,14 @@
 # Capstone Project - Web Portfolio
 ## Overview
-One thing that we hear again and again from employers is how essential it is for GDD students to have a portfolio of "passion projects" (or "side projects") to demonstrate that student's talent and passion for creating games/interactive experiences. The most common way to showcase such projects is on the web with descriptions of the project and your role, screenshots, demo videos, and if possible a web playableversin of the game. 
+One thing that we hear again and again from employers is how essential it is for GDD students to have a portfolio of "passion projects" (or "side projects") to demonstrate that student's talent and passion for creating games/interactive experiences. The most common way to let others know about such projects is on the web. 
+
+Each portfolio piece should be showcased with the following:
+- a description
+- a discussion of the technologies and/or techniques that were used
+- if it was a group project, detail your exact role
+- multiple screenshots
+- ideally a demo video
+- if possible, a web playable version 
 
 ## Description
 You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work*, and that work should correlates to your career goals. 
