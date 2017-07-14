@@ -43,7 +43,7 @@ Here are some examples:
 ![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
 
 
-### dougwatro.com
+### http://dougwatro.com
 ![dougwatro.com](images/watro.jpg)
 
 
