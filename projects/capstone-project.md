@@ -1,8 +1,10 @@
 # Capstone Project - Web Portfolio
 ## Description
-You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work* that ... here are previous portfolio examples:
+You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work* that correlates to your career goals. 
 
-[http://dougwatro.com (utilized Bootstrap)](http://dougwatro.com)
+Here are some portfolio examples that were created by IGM students:
+
+- [http://dougwatro.com (utilized Bootstrap)](http://dougwatro.com)
 
 ## Content Requirements
 - the site is a responsive, single-page design
