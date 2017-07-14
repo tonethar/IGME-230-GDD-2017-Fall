@@ -7,7 +7,7 @@ Here are some example portfolios that were created by IGM students:
 - [http://dougwatro.com (utilized Bootstrap)](http://dougwatro.com)
 
 Some other examples are here:
-
+- http://www.adhamdannaway.com
 - https://onepagelove.com
 
 ## Content Requirements
@@ -34,6 +34,8 @@ Some other examples are here:
 - Effective typography employed; typeface(s) chosen should be clear and legible as well as appropriate to the content being presented
 - The user's initial "landing" on the page should be compelling. 
 Here are some examples:
+
+![http://www.adhamdannaway.com](images/wisdom-pet-medicine.jpg)
 
 ![dougwatro.com](images/watro.jpg)
 
