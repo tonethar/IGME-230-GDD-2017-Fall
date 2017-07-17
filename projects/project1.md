@@ -8,6 +8,10 @@ Location: The page will be located in the project1 directory in your 230 directo
 
 Your main page for the tutorial will be the index page for this directory. You must have css and media directories to store the associated files. **Remember**: Our server is case sensitive, so your files must use the case indicated in this assignment. 
 
+## Content and Structure ##
+Content is the foundation of the Web; all pages exist to present some content, not the other way round. For this reason, your content needs to be written **first**.
+By this time next week, your content should be written, chunked, and organized, and posted to your repo on GitHub. We will be checking this! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
+
 ## Required Content ## 
 - The title of your (intended) project.
 - A brief description of the project.
@@ -18,7 +22,7 @@ Your main page for the tutorial will be the index page for this directory. You m
   - project.html: The game or app itself (this will just be a placeholder for now)
   
 ## HTML/CSS Markup ##
--	Structural tags like <header> , <section> , <article>, <nav>, and <footer> should be used appropriately. 
+-	Structural tags like `<header>`, `<section>`, `<article>`, `<nav>`, and `<footer>` should be used appropriately. 
 -	CSS selectors and rules will be used for formatting and positioning: 
   -	The style rules will be located in an external style sheet.
   -	There will be at least 5 style declarations (rules) in your document. 
@@ -51,9 +55,3 @@ While the critiques aren’t going to directly determine your project grade, the
 After receiving feedback from your classmates, make fixes and improvements to your site, and post it to Banjo before midnight on Friday of week 5.
 
 **Submission:** Post to Banjo - be sure to test that it works in a Web browser. I must be able to get to it from your page when I click your name in my class list, so make sure to link to it from your main page. If your main page doesn't load when I click my link, or I can't immediately find a way to get to your project from that main page, you will get a 0 for the project. Please check when you upload it!
-
-
-emphasize content
-- put content on GitHub
-- build structure
-- then put content into it
