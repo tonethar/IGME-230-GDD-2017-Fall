@@ -12,7 +12,7 @@ Your page's design is up to you, but it needs to contain the following elements:
   - Each of the 3 class projects
   - Your in-class exercises (which will be added as links every day); just include a section on the page for these
 * A link back to our class list page
-* A pleasing (or at least tolerable) color scheme and layout, using your CRAP principles and other design guidelines
+* A pleasing (or at least tolerable) color scheme and layout, using your [CRAP](http://www.presentationzen.com/chapter6_spread.pdf) principles and other design guidelines
 * Your page needs to pass W3C [HTML](https://validator.w3.org/) and [CSS](http://jigsaw.w3.org/css-validator/) validation
   - In order to pass and be legible, you also need to *fix Banjo* (see the FixingBanjo.zip file). If you don't do this, you will lose points on **every** assignment.
 
