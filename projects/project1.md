@@ -2,6 +2,10 @@
 For project 3, you will be making a Web game or app. To get you started thinking about this early, you’ll be building a site to promote and document the project. Don't worry too much about what you'll be capable of, or the fact that your specs will probably change. Just think about what you might want to make. I'd also suggest you keep an eye on the Web for what sorts of apps and games other people are making that are small enough in scope for you to build in the span of a few weeks.
 
 ## Requirements ##
+Location: The page will be located in the project1 directory in your 230 directory on Banjo. This means that the location of page on the web will be http://people.rit.edu/abc1234/230/project1/ (where 'abc1234' is your RIT id), as shown below:
+
+![Structure](Project1Structure.png)
+
 Design
 CSS/HTML
 Multiple pages:
