@@ -6,71 +6,54 @@ Location: The page will be located in the project1 directory in your 230 directo
 
 ![Structure](Project1Structure.png)
 
-Your main page for the tutorial will be the index page for this directory. You must have css and media directories to store the associated files.
+Your main page for the tutorial will be the index page for this directory. You must have css and media directories to store the associated files. **Remember**: Our server is case sensitive, so your files must use the case indicated in this assignment. 
 
 ## Required Content ## 
-- The title of what the tutorial is for.
-- A Brief description of the tutorial.
-- At least 6 steps in the tutorial, spread over at least 2 pages.
-- Recognizable images for the tutorial steps. Images should be in a web friendly image format (gif, jpg, or png) and of appropriate resolution for the web.
-- Brief instructions for each step.
-- Optional: Any other information about the item the tutorial is for. This could be links to the item, information about the item, etc. Put this content is a separate <div>, or in an <aside>. 
-o	At least one other page, matching your main page's design and navigation, that tells me the following:
-♣	Why you chose this topic
-♣	How you went above and beyond the base requirements and anything special you want me to see that might not be immediately obvious
-♣	How you could have improved
-♣	Cite the sources of all information, tutorials, images and other media used
-o	You are, of course, free to add additional pages as they make sense within the context of your tutorial.
-•	HTML Markup (mechanics) - The HTML on the page will be valid, clean, and accurate: 
-o	valid means that it will meet the current HTML5 standard. Run your page through the HTML validator at http://validator.w3.org/  to be sure that it meets the standard. 
-o	clean means that your HTML source code is hand-coded by you (no WYSIWYG editors allowed) with enough white space and indenting to make it easy to read and debug. 
-o	accurate means that you chose the proper semantic tags to mark up your content. For example, list items are represented by <li> tags, not <br />tags. Spacing should be accomplished by using CSS styles rather than empty <p> tags, and so on. 
-•	HTML5 Markup: 
-o	Structural tags like <header> , <section> , <article>, <nav>, and <footer> should be used appropriately. 
-•	CSS - Cascading Style Sheet - selectors and rules will be used for formatting and positioning: 
-o	The style rules will be located in an external style sheet.
-o	There will be at least 5 style declarations (rules) in your document. 
-o	At least one of your style declarations will utilize a class selector.
-o	At least one of your style declarations will utilize an id selector.
-•	Design: 
-o	College Level Work
-o	Professionally styled up so that so that the results are pleasing and in no way resemble the templates or in-class exercises. The page design will be well thought out with appropriate organization, spacing, colors and fonts, and all pages should be consistent in look, feel and navigation.
-o	Design principles (e.g. CRAP) applied appropriately.
-o	Text should be of sufficient size and contrast to be easily readable
-•	Responsive Design: 
-o	At a minimum, you must support screen sizes equal to or less than max-width: 480px
-o	Your design should be re-formatted to support these smaller screens. Changing font-size, margins, moving side bars, hiding elements, and ??? are all options
+- The title of your (intended) project.
+- A brief description of the project.
+- The following pages (each in separate HTML files):
+  - index.html: your "landing" page (the default file for your project1 directory)
+  - proposal.html: what you plan to do, in more detail than the overview
+  - documentation.html: A documentation page, which will document your overall process, resources used, and notes about this current assignment. Cite the sources of all information, tutorials, images and other media used. Also indicate how you met the project requirements, and any additional specifics you want me to see.
+  - project.html: The game or app itself (this will just be a placeholder for now)
+  
+## HTML/CSS Markup ##
+-	Structural tags like <header> , <section> , <article>, <nav>, and <footer> should be used appropriately. 
+-	CSS selectors and rules will be used for formatting and positioning: 
+  -	The style rules will be located in an external style sheet.
+  -	There will be at least 5 style declarations (rules) in your document. 
+  -	At least one of your style declarations will utilize a class selector.
+  -	At least one of your style declarations will utilize an id selector.
 
-•	Other requirements: 
-o	HTML tables used only for tabular data, not page layout.
-o	No Flash content
-o	Site is fully accessible even without graphics enabled
-o	Additional "above and beyond" work.
-•	Critique Session
-o	The second class of week 7, we will have a critique session in class. In small groups, you will both give and receive feedback on your projects, so be prepared for this discussion.
-o	While the critiques aren’t going to directly determine your project grade, the feedback you receive will be taken into consideration, so make sure your project is built to impress!
-•	Final Submission
-o	After receiving feedback from your classmates, make fixes and improvements to your site, and post it to Banjo before midnight on Friday of week 7.
-Submission: Post to Banjo - be sure to test that it works in a web browser. I must be able to get to it from your page when I click your name in my class list, so make sure to link to it from your main page. If your main page doesn't load when I click my link, or I can't immediately find a way to get to your project from that main page, you will get a 0 for the project. Please check when you upload it!
+## Design ## 
+- College-level work
+- Professionally styled  so that so that the results are pleasing and in no way resemble any templates or in-class exercises. The page design will be well thought out with appropriate organization, spacing, colors and fonts, and all pages should be consistent in look, feel and navigation.
+-	Design principles (e.g. CRAP) applied appropriately.
+- Navigation should be consistent across all pages, with a single, unified nav scheme, with all global nav in the same place on every page
+  - Good navigation should always answer the questions "Where am I?" and "Where can I go?" This means your nav should **always** be the same on every page; don't make a link go away just because the user is on the page it links to.
+- Text should be of sufficient size and contrast to be easily readable
+- Responsive Design: 
+  - At a minimum, you must support screen sizes equal to or less than max-width: 480px
+  - Your design should be re-formatted to support these smaller screens. Changing font-size, margins, moving side bars, hiding elements, and ??? are all options
 
+## Other Requirements ##
+- HTML tables used only for tabular data, not page layout.
+- No plugin content
+- Site is fully accessible even without graphics enabled (e.g., use the alt attribute for all images)
+- Images are not resized via code; all images should be at their native resolutions. If you need an image to be smaller, resize it in your graphic editor of choice.
+- Additional "above and beyond" work.
 
+# Critique Session #
+The second class of week 5, we will have a critique session in class. In small groups, you will both give and receive feedback on your projects, so be prepared for this discussion.
+While the critiques aren’t going to directly determine your project grade, the feedback you receive will be taken into consideration, so make sure your project is built to impress!
 
+# Final Submission #
+After receiving feedback from your classmates, make fixes and improvements to your site, and post it to Banjo before midnight on Friday of week 5.
 
+**Submission:** Post to Banjo - be sure to test that it works in a Web browser. I must be able to get to it from your page when I click your name in my class list, so make sure to link to it from your main page. If your main page doesn't load when I click my link, or I can't immediately find a way to get to your project from that main page, you will get a 0 for the project. Please check when you upload it!
 
-
-Design
-CSS/HTML
-Multiple pages:
-index.html = intro/landing page
-proposal.html = what you plan to do (may change) - could also be a non-class project you want to do
-document.html = documenting the process for this project and the game
-project.html = the game itself
 
 emphasize content
 - put content on GitHub
 - build structure
 - then put content into it
-
-Color scheme
-Consistent navigation
-Validation
