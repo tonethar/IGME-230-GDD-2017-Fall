@@ -4,7 +4,7 @@ For project 3, you will be making a Web game or app. To get you started thinking
 ## Requirements ##
 Location: The page will be located in the project1 directory in your 230 directory on Banjo. This means that the location of page on the web will be http://people.rit.edu/abc1234/230/project1/ (where 'abc1234' is your RIT id), as shown below:
 
-![Structure](Project1Structure.png)
+![Structure](images/Project1Structure.png)
 
 Your main page for the tutorial will be the index page for this directory. You must have css and media directories to store the associated files. **Remember**: Our server is case sensitive, so your files must use the case indicated in this assignment. 
 
