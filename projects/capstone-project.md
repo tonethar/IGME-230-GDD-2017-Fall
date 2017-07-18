@@ -55,23 +55,6 @@ Some other examples are here:
 - Principles of visual design (taught in prerequisite classes) employed: clear visual hierarchy, good use of white space, effective alignment of content, thoughtful choices of colors and visual elements
 - Effective typography employed; typeface(s) chosen should be clear and legible as well as appropriate to the content being presented
 - The initial "landing" on the page should be compelling, ideally with a tag line and page design that "pulls" the user in. 
-Here are some examples:
-
-### I. http://www.adhamdannaway.com
-![http://www.adhamdannaway.com](images/dannaway.jpg)
-
-
-### II. Here is the mobile version of the same page
-![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
-
-
-### III. http://dougwatro.com
-![dougwatro.com](images/watro.jpg)
-
-
-### IV. Lynda.com Bootstrap example
-![Lynda.com Bootstrap example](images/wisdom-pet-medicine.jpg)
-
 
 ## Technology Requirements
 - Semantic, valid HTML
@@ -118,3 +101,22 @@ The site must be placed in a portfolio directory inside of your igme230 director
 - The completed site is due at 11:59pm on XXX, XX/XX
 - The page should display properly at the URL specified above by that time
 - ZIP and Post the project to mycourses, and put a link to the URL in the comments field of the dropbox
+
+## Examples
+
+### I. http://www.adhamdannaway.com
+![http://www.adhamdannaway.com](images/dannaway.jpg)
+
+
+### II. Here is the mobile version of the same page
+![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
+
+
+### III. http://dougwatro.com
+![dougwatro.com](images/watro.jpg)
+
+
+### IV. Lynda.com Bootstrap example
+![Lynda.com Bootstrap example](images/wisdom-pet-medicine.jpg)
+
+
