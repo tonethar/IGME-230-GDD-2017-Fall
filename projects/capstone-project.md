@@ -1,6 +1,6 @@
 # Capstone Project - Web Portfolio
 ## Overview
-One thing that we hear again and again from employers is how essential it is for GDD students to have a portfolio of "passion projects" (or "side projects") to demonstrate that student's talent and passion for creating games/interactive experiences. The most common way to let others know about such projects is on the web. 
+One thing that we hear again and again from employers is how essential it is for GDD students to have a portfolio of "passion projects" (or "side projects") to demonstrate that student's talent and passion for creating games/interactive experiences. The most common way to let others see these projects is by posting them to the web. 
 
 Each portfolio piece should be showcased with the following:
 - a description
@@ -22,7 +22,7 @@ This semester, for this class, you will create and publish a portfolio of your w
 **(In the future you will likely wish to additionally utilize some of the other publishing methods listed above!)**
 
 ## Description
-You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work*, and that work should correlates to your career goals. 
+You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work*, and that work should correlate to your career goals. 
 
 Here are some example portfolios that were created by IGM students:
 
@@ -102,8 +102,13 @@ Drop-down navigation menu | 1 |
 Properly optimized media | 1 |
 "Above and Beyond" | 4 |
 
+## Deliverables
+- Create a github repository
 
-## Submission and Due Date
+
+## Final Submission and Due Date
 The site must be placed in a portfolio directory inside of your igme230 directory (`http://people.rit.edu/youruserid/igme230/portfolio/`), and you should add two links to your project 1 page: one for the portfolio itself, and one directly to the notes.html page. 
 
-The completed site is due at 11:59pm on Saturday, March 18th. The page should appear properly at the URL specified above by that time. You do not need to send me email or post anything to myCourses.
+- The completed site is due at 11:59pm on XXX, XX/XX
+- The page should display properly at the URL specified above by that time
+- ZIP and Post the project to mycourses, and put a link to the URL in the comments field of the dropbox
