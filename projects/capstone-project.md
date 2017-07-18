@@ -103,7 +103,7 @@ Properly optimized media | 1 |
 "Above and Beyond" | 4 |
 
 ## Deliverables
-- Due end of week 4: Create a github repository named *portfolio-notes* and post the following to it:
+- Due end of week 4: Create a github repository named *230-portfolio-notes* and post the following to it:
   - an up-to-date resume in PDF format
   - 
 - Due end of week 8: 
