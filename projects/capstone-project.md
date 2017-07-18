@@ -107,7 +107,7 @@ Properly optimized media | 1 |
 ## Deliverables
 - Due end of week 4: Create a github repository named *230-portfolio-notes* and post the following to it:
   - an up-to-date resume in PDF format
-  - 
+  - populate README.md with your portfolio content. Utilize something similar to this [template](other-files/230-portfolio-content.md)
 - Due end of week 8: 
 - Due end of week 13: Final submission (see below)
 
