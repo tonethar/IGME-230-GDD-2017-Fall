@@ -15,7 +15,7 @@ There are many ways to publish your portfolio of work to the web:
 - https://www.linkedin.com
 - https://github.com and/or https://pages.github.com
 - https://wordpress.com or similar
-- people.rit.edu (the banjo.rit.edu server)
+- https://people.rit.edu (the banjo.rit.edu server)
 
 This semester, for this class, you will create and publish a portfolio of your work to people.rit.edu. Read below for details.
 
