@@ -7,13 +7,9 @@
 
 ## Contact Information
 
-## Galley - list at least 3 projects that will be featured
-Remember to showcase you **best work**.
-* Passion Piece W
-  * tech used
-  * concepts demonstrated/lessons learned etc...
-  * screenshots
-  * links
+## Gallery - list at least 3 projects that will be featured
+Remember to showcase your **best work**.
+
 * Project X
   * tech used
   * concepts demonstrated/lessons learned etc...
@@ -26,6 +22,11 @@ Remember to showcase you **best work**.
   * links
 * game jam group project Z
   * your exact role
+  * tech used
+  * concepts demonstrated/lessons learned etc...
+  * screenshots
+  * links
+* Passion Piece A
   * tech used
   * concepts demonstrated/lessons learned etc...
   * screenshots
