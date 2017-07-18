@@ -37,6 +37,7 @@ Some other examples are here:
 - the page is named index.html, and it will include:
   - a navigation system to allow the user to quickly access distinct content
   - your name and an image (could be a photo or an avatar)
+  - "about you" content - example: "I'm a UX/UI Designer and Front End Developer from Sydney, Australia. I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the gym or on the court shooting hoops."
   - a *tagline* (see #2 here: https://www.smashingmagazine.com/2009/02/10-steps-to-the-perfect-portfolio-website/) - example: "Creative Developer", "Unity/Unreal Game Developer seeking an internship opportunity", ...
   - contact information
   - a gallery section with brief information about each of your work examples (examples can be projects or exercises from this class or other classes, or work you've done on your own)
