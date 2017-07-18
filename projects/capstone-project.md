@@ -103,7 +103,11 @@ Properly optimized media | 1 |
 "Above and Beyond" | 4 |
 
 ## Deliverables
-- Create a github repository
+- Due end of week 4: Create a github repository named *portfolio-notes* and post the following to it:
+  - an up-to-date resume in PDF format
+  - 
+- Due end of week 8: 
+- Due end of week 13: Final submission (see below)
 
 
 ## Final Submission and Due Date
