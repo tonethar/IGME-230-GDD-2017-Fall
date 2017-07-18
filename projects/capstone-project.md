@@ -37,7 +37,7 @@ Some other examples are here:
 - the page is named index.html, and it will include:
   - a navigation system to allow the user to quickly access distinct content
   - your name and an image (could be a photo or an avatar)
-  - a *tagline* (see #2 here: https://www.smashingmagazine.com/2009/02/10-steps-to-the-perfect-portfolio-website/) - example: "Unity/Unreal Game Developer seeking an internship opportunity" 
+  - a *tagline* (see #2 here: https://www.smashingmagazine.com/2009/02/10-steps-to-the-perfect-portfolio-website/) - example: "Creative Developer", "Unity/Unreal Game Developer seeking an internship opportunity", ...
   - contact information
   - a gallery section with brief information about each of your work examples (examples can be projects or exercises from this class or other classes, or work you've done on your own)
   - Individual sub-section sections with more detail for each of your work examples:
