@@ -17,9 +17,10 @@ There are many ways to publish your portfolio of work to the web:
 - https://wordpress.com or similar
 - https://people.rit.edu (the banjo.rit.edu server)
 
-This semester, for this class, you will create and publish a portfolio of your work to people.rit.edu. Read below for details. (*Don't yet have much to show to employers? Fortunately, project 2 & project 3 can potentailly get you started on two portolio pieces*)
+This semester, for this class, you will create and publish a portfolio of your work to people.rit.edu. Read below for details.
+(*Don't yet have much to show to employers? Fortunately, project 2 & project 3 can potentailly get you started on two portolio pieces*)
 
-**(In the future you will likely wish to additionally utilize some of the other publishing methods listed above!)**
+**PS - In the future you will likely wish to additionally utilize some of the other publishing methods listed above!**
 
 ## 2. Description
 You will create a personal portfolio site to showcase your work to potential employers and/or customers. The site must include examples of your work, contact information, and your resume. The examples should include at least three different things you've created; those could be projects or exercises from this or other classes, or work you've done on your own. An effective portfolio will highlight your *best work*, and that work should correlate to your career goals. 
@@ -69,8 +70,14 @@ Some other examples are here:
 - If you used a CSS framework, explain how you modified it so that your portfolio doesn't look exactly like other sites that use that framework. 
 - What you did to go beyond the base expectations for the project--what did you do that was particularly challenging? This could involve art/design, content, or code. 
 
+## 7. Deliverables
+- Due end of week 4: Create a github repository named *230-portfolio-notes* and post the following to it:
+  - an up-to-date resume in PDF format
+  - populate README.md with your portfolio content. Utilize something similar to this [230-portfolio-notes.md template](../other-files/230-portfolio-notes.md)
+- Due end of week 8: 
+- Due end of week 13: Final submission (see below)
 
-## 7. Grading
+## 8. Grading
 If you complete all required components with no errors, you'll earn 16/20 points, or 80%. In order to go above that, 
 
 Requirement | Possible Points (20) |
@@ -86,14 +93,6 @@ No major accessibility errors | 1|
 Drop-down navigation menu | 1 |
 Properly optimized media | 1 |
 "Above and Beyond" | 4 |
-
-## 8. Deliverables
-- Due end of week 4: Create a github repository named *230-portfolio-notes* and post the following to it:
-  - an up-to-date resume in PDF format
-  - populate README.md with your portfolio content. Utilize something similar to this [230-portfolio-notes.md template](../other-files/230-portfolio-notes.md)
-- Due end of week 8: 
-- Due end of week 13: Final submission (see below)
-
 
 ## 9. Final Submission and Due Date
 The site must be placed in a portfolio directory inside of your igme230 directory (`http://people.rit.edu/youruserid/igme230/portfolio/`), and you should add two links to your project 1 page: one for the portfolio itself, and one directly to the notes.html page. 
