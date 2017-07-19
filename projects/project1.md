@@ -77,5 +77,5 @@ Your project will be graded on the following criteria:
 | Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 10 | |
 | Responsive design supports viewports as low as 480px wide | 5 | |
 | Additional above and beyond work | 10 | |
-| Possible Total Points | 100 | |
+| **Possible Total Points** | **100** | |
 
