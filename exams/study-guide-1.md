@@ -47,5 +47,5 @@ D) Write a CSS rule that selects the lists that are of the class "myLists" above
 
 E) Write a CSS rule that selects each of the list-items in all three lists and sets their `font-weight` to `bold` - use the *universal (or wildcard) selector*.
 
-## CSS3 Selectors
+## 2. CSS3 Selectors
 CSS3 Selectors are supported by all modern browsers.
