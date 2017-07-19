@@ -8,9 +8,19 @@ Your should already know most of this from IGME-110
 Imagine you have the following HTML:
 
 ```
-<ul>
-  <li>Red</li>
-  <li>Green</li>
-  <li>Blue</li>
+<ol class='listDaily'>
+  <li>Wake Up</li>
+  <li>Get out of Bed</li>
+  <li>Eat Breakfast</li>
+  <li>Bathe & Brush Teeth</li>
+  <li>Get Dressed</li>
+  <li>Go to School</li>
+</ol>
+
+<ul class='listShopping'>
+  <li>Eggs</li>
+  <li>Apples</li>
+  <li>Bread</li>
+  <li>Milk</li>
 </ul>
 ```
