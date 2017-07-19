@@ -62,6 +62,7 @@ Reminder - 'A' -level work means doing college-level work that goes beyond what 
 Your project will be graded on the following criteria:
 
 | Criteria | Weight | Your Score |
+| -------- | ------ | ---------- |
 | Includes required content, and at least 6 steps, and all required pages (index, documentation, ≥1 more) | 10 | |
 | All pages and support files are appropriately named and mounted in the correct directories | 5 | |
 | HTML validates correctly (HTML5) | 5 | |
