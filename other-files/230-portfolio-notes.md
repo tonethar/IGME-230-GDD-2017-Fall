@@ -24,7 +24,7 @@ Remember to showcase your **best work**.
   * concepts demonstrated/lessons learned etc...
   * screenshots (be sure to post at least 1 actual screenshot)
   * links
-* game jam group project Z
+* Game Jam group project Z
   * your exact role
   * tech used
   * concepts demonstrated/lessons learned etc...
