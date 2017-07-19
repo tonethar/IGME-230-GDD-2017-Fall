@@ -55,3 +55,26 @@ While the critiques aren’t going to directly determine your project grade, the
 After receiving feedback from your classmates, make fixes and improvements to your site, and post it to Banjo before midnight on Friday of week 5.
 
 **Submission:** Post to Banjo - be sure to test that it works in a Web browser. I must be able to get to it from your page when I click your name in my class list, so make sure to link to it from your main page. If your main page doesn't load when I click my link, or I can't immediately find a way to get to your project from that main page, you will get a 0 for the project. Please check when you upload it!
+
+# Grading #
+Reminder - 'A' -level work means doing college-level work that goes beyond what we did in class. Meeting only the base requirements will most likely only earn you a B. In order to get an A, you need to impress! Also make sure that this is 100% your work - no templates or frameworks are allowed
+
+Your project will be graded on the following criteria:
+
+| Criteria | Weight | Your Score |
+| Includes required content, and at least 6 steps, and all required pages (index, documentation, ≥1 more) | 10 | |
+| All pages and support files are appropriately named and mounted in the correct directories | 5 | |
+| HTML validates correctly (HTML5) | 5 | |
+| CSS validates correctly (CSS3) | 5 | |
+| CSS is used to control formatting, and stored in an external stylesheet| 5 | |
+| HTML and CSS code is appropriately used and well formed, clean, accurate, etc. (includes proper use of img tags and tables) | 10 | |
+| Appropriate use of HTML structures to describe pages (<title>, <nav>, <header>, <footer>, etc.) and organize content (headers, lists, etc.); images are not resized in HTML | 10 | |
+| CSS uses at least 5 style declarations, at least one class and at least one id | 5 | |
+| All content is correctly spelled and grammatically correct | 10 | |
+| Uses images appropriately | 5 | |
+| Site is fully accessible even without graphics enabled | 5 | |
+| Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 10 | |
+| Responsive design supports viewports as low as 480px wide | 5 | |
+| Additional above and beyond work | 10 | |
+| Possible Total Points | 100 | |
+
