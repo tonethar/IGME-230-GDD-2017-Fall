@@ -9,8 +9,8 @@ Imagine you have the following HTML:
 
 ```
 <ul>
-<li>Red</li>
-<li>Green</li>
-<li>Blue</li>
+  <li>Red</li>
+  <li>Green</li>
+  <li>Blue</li>
 </ul>
 ```
