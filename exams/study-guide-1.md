@@ -1,9 +1,7 @@
 # Study Guide #1
 
-Your should already know most of this from IGME-110
-
-
 ## 1. Basic HTML Selectors
+You should already know most of this from IGME-110.
 
 Imagine you have the following HTML:
 
@@ -48,3 +46,6 @@ C) Write a CSS rule that selects the shopping list and sets the `color` to `red`
 D) Write a CSS rule that selects the lists that are of the class "myLists" above and set the `background-color` to `yellow` - use a *class selector*.
 
 E) Write a CSS rule that selects each of the list-items in all three lists and sets their `font-weight` to `bold` - use the *universal (or wildcard) selector*.
+
+## CSS3 Selectors
+CSS3 Selectors are supported by all modern browsers.
