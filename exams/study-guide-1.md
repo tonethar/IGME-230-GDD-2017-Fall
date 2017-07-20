@@ -31,7 +31,7 @@ Imagine you have the following HTML:
 </ol>
 ```
 
-A) Write a CSS rule that selects both of the ordered lists above and sets their `font-size` to `20px` (hint: use a *type selector*).
+A) Write a CSS rule that selects both of the ordered lists (but not the unordered list) above and sets their `font-size` to `20px` (hint: use a *type selector*).
 
 We'll do this one for you:
 ```
@@ -39,9 +39,9 @@ ol{ font-size: 20px; }
 
 ```
 
-B) Write a CSS rule that selects the shopping list and sets the `font-size` to `24px` - use a *type selector*.
+B) Write a CSS rule that selects only the shopping list and sets the `font-size` to `24px` - use a *type selector*.
 
-C) Write a CSS rule that selects the shopping list and sets the `color` to `red` - but this time use an *id selector*.
+C) Write a CSS rule that selects only the shopping list and sets the `color` to `red` - but this time use an *id selector*.
 
 D) Write a CSS rule that selects the lists that are of the class "myLists" above and set the `background-color` to `yellow` - use a *class selector*.
 
