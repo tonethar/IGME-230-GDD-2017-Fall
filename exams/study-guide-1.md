@@ -45,7 +45,7 @@ C) Write a CSS rule that selects only the shopping list and sets the `color` to 
 
 D) Write a CSS rule that selects the lists that are of the class "myLists" above and set the `background-color` to `yellow` - use a *class selector*.
 
-E) Write a CSS rule that selects each of the list-items in all three lists and sets their `font-weight` to `bold` - use the *universal (or wildcard) selector*.
+E) Write a CSS rule that selects all of the elements on the page and sets their `font-family` to `sans-serif` - use the *universal (or wildcard) selector*.
 
 ## 2. CSS3 Selectors
 CSS3 Selectors are supported by all modern browsers.
