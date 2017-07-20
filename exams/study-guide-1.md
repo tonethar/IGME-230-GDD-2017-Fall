@@ -1,7 +1,8 @@
 # Study Guide #1
 
 ## 1. Basic HTML Selectors
-You should already know most of this from IGME-110.
+CSS selectors are patterns than can match elements in a tree structure (such as a web page).
+In IGME-110 you should have learned how to use some of the basic selectors.
 
 Imagine you have the following HTML:
 
@@ -48,4 +49,6 @@ D) Write a CSS rule that selects the lists that are of the class "myLists" above
 E) Write a CSS rule that selects all of the elements on the page and sets their `font-family` to `sans-serif` - use the *universal (or wildcard) selector*.
 
 ## 2. CSS3 Selectors
-CSS3 Selectors are supported by all modern browsers.
+CSS3 Selectors are more powerful than the standard CSS selectors used above. Here is a full list: https://www.w3.org/TR/selectors/
+
+A) 
