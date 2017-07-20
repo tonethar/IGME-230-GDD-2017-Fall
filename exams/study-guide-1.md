@@ -51,6 +51,6 @@ E) Write a CSS rule that selects all of the elements on the page and sets their 
 ## 2. CSS3 Selectors
 CSS3 Selectors are more powerful than the standard CSS selectors used above. Here is a full list: https://www.w3.org/TR/selectors/
 
-A) Write a CSS rule that sets the first list-item in all ordered lists `font-weight` to `bold` - use *:first-child*
+A) Write a CSS rule that sets the *first* list-item in all ordered lists `font-weight` to `bold` - use *:first-child*
 
-B) 
+B) Write a CSS rule that sets the *last* list-item in all unordered lists `color` to `green` - use *:last-child*
