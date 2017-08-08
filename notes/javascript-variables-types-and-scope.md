@@ -17,7 +17,7 @@
 
 ## Named Values (Variables & Constants)
 
-### `var`
+### <code>var</code>
 - function scoped, not block scoped
 
 ### `let`
