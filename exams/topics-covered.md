@@ -25,6 +25,8 @@
     - block
   - weirdness caused by `var` 
     - function scope
+    - variable re-declaration
+    - dynamic scoping
     - hoisting
     - IIFE
     
@@ -52,7 +54,9 @@
   - ES6 `class`
   - Object.create()
   - Function Constructors
-  
+
+### `this`
+
 ## Browser DOM
 
 ### Window
