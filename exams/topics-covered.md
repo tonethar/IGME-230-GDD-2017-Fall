@@ -23,6 +23,11 @@
     - function
     - global
     - block
+  - weirdness caused by `var` 
+    - function scope
+    - hoisting
+    - IIFE
+    
     
 ### Flow Control
 - if/else
@@ -53,7 +58,14 @@
 ### Window
 
 ### Document
+- querySelector()
+- querySelectorAll()
+- do not use in this class:
+  - ~~getElementsByTagname()
+  - getElementByID()~~
+
 
 ### Element
+- addEventListener()
 
 
