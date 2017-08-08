@@ -61,8 +61,8 @@
 - querySelector()
 - querySelectorAll()
 - do not use in this class:
-  - ~~getElementsByTagname()
-  - getElementByID()~~
+  - ~~getElementsByTagname()~~
+  - ~~getElementByID()~~
 
 
 ### Element
