@@ -33,7 +33,7 @@ I expect students in this class to have a basic working knowledge of HTML, CSS, 
 
 If you need to brush up on your HTML and CSS skills, I recommend using the CodeAcademy tutorials that we currently use in IGME-110: https://www.codecademy.com/learn/web, lessons 1-5. We will be doing a very brief review, but you shouldn't expect to rely on that to cover all of the prerequisite knowledge.
 
-You will also need a GitHub account, and the [GitHub Student Developer Pack] (https://education.github.com/pack) so that you can create and access private repos.
+You will also need a GitHub account, and the [GitHub Student Developer Pack](https://education.github.com/pack) so that you can create and access private repos.
 
 If you have questions between now and the start of class, feel free to send me an email! 
 
