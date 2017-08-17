@@ -1,13 +1,13 @@
 * Week 1
 * Class 1A:
- * Syllabus
- * Point to review materials
- * 110 HTML and other review materials in myCourses
- * GitHub
+   * Syllabus
+   * Point to review materials
+   * 110 HTML and other review materials in myCourses
+   * GitHub
 * Class 1B:
- - Server, FTP, and .htaccess
- - Get 230 folder set up, review HTML files, case-sensitivity
- - Fixing Banjo
+   - Server, FTP, and .htaccess
+   - Get 230 folder set up, review HTML files, case-sensitivity
+   - Fixing Banjo
 
 * Week 2
 * Class 2A:
