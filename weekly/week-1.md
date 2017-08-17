@@ -33,7 +33,9 @@ This week and next we will:
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
 
 ## Exercises
-* [230-home-page.md](../exercises/230-home-page.md)
+~~* [230-home-page.md](../exercises/230-home-page.md)~~
+* Fixing Banjo(../exercises/230-FixingBanjo.zip)
+* Custom 404 Pages and Authentication
 
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
