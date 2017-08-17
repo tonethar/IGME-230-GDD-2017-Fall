@@ -3,7 +3,7 @@
 Welcome to IGME-230 Web Site Design & Implementation! There is more to this course than the title implies, as we will be learning a lot more than just the design and implementation of static web sites. 
 
 ## What this course is about
-Official description from SIS: *This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
+Official description from SIS: *This course provides an introduction to web development tools and technologies, such as HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
 We will:
 * review basic web publishing (HTML/CSS/FTP) and HTML validation
 * learn how a web server works and how to do basic scripting of it
@@ -27,10 +27,21 @@ This week and next we will:
 * discuss the HTTP protocol and see it how it works
 * learn how to script certain web server behavior by utilizing .htaccess files
 
+## Prerequisites
+
+I expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (people.rit.edu). This material was covered in IGME-110.
+
+If you need to brush up on your HTML and CSS skills, I recommend using the CodeAcademy tutorials that we currently use in IGME-110: https://www.codecademy.com/learn/web, lessons 1-5. We will be doing a very brief review, but you shouldn't expect to rely on that to cover all of the prerequisite knowledge.
+
+You will also need a GitHub account, and the [GitHub Student Developer Pack] (https://education.github.com/pack) so that you can create and access private repos.
+
+If you have questions between now and the start of class, feel free to send me an email! 
+
 ## Required Reading
 * [syllabus.md](../syllabus.md)
 * [web-server-intro.md](../notes/web-server-intro.md)
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
+* [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
 
 ## Exercises
 * [Fixing Banjo](../exercises/230-FixingBanjo.zip)
@@ -38,3 +49,4 @@ This week and next we will:
 
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
+* 
