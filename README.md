@@ -13,7 +13,7 @@ IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Al
 - Office hours: TBA 
 - Class meetings : Tuesday/Thursday 11:00-12:20 in ORN-1370
 
-## Instructor and Class Details (Sections 03 & 06)
+## Instructor and Class Details (Sections 03, 04, 06)
 - Professor Sean Boyle  
 - Office: GOL-2517
 - Email: sean.boyle@rit.edu
