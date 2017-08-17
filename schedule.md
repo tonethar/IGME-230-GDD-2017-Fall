@@ -11,36 +11,36 @@
 
 * Week 2
 * Class 2A:
- - HTML review, semantic tags, links, lists, build a page as a class
- - Demo image optimization
- - Exercise: WikiPedia article markup
- - Homework: build 230 page (due end of week 3; Sean will write)
+   - HTML review, semantic tags, links, lists, build a page as a class
+   - Demo image optimization
+   - Exercise: WikiPedia article markup
+   - Homework: build 230 page (due end of week 3; Sean will write)
 * Class 2B:
- - CSS review
- - box model, class, id, type, float, style, inheritance
+   - CSS review
+   - box model, class, id, type, float, style, inheritance
 
 * Week 3
 * Class 3A:
- - CSS and HTML wrapup
+   - CSS and HTML wrapup
 * Class 3B:
- - Web development process
- - Navigation and CRAP
+   - Web development process
+   - Navigation and CRAP
  * End of week - 230 Page Assignment Due
  
 * Week 4
 * Class 4A:
- - Responsive design
- - Darth exercise
+   - Responsive design
+   - Darth exercise
 * Class 4B:
- - Project 1 critique
- * Project 1 due (**Sean has done writeup**)
-  * Portfolio deliverable #1 due?? (**Tony will do first draft for portfolio project writeup**)
+   - Project 1 critique
+   * Project 1 due (**Sean has done writeup**)
+    * Portfolio deliverable #1 due?? (**Tony will do first draft for portfolio project writeup**)
   
 * Week 5
 * Class 5A:
- - Frameworks (Bootstrap, Skeleton, Pure)
+   - Frameworks (Bootstrap, Skeleton, Pure)
 * Class 5B:
- - Catchup/anything missed
+   - Catchup/anything missed
   
 * Week 6
 * Week 7
