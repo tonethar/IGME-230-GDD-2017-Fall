@@ -8,3 +8,5 @@ First, review FTP. Demo:
    - Navigate to that directory via browser, and should see nothing. Maybe slap a text file in there. Note that we will be building actual pages shortly.
 
 Then, server slides, and htaccess ICE.
+
+Homework: Start 230 page
