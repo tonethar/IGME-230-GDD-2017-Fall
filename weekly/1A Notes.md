@@ -8,7 +8,11 @@ Welcome to the course!
 
 ## Discussion
 The major topics of this course is split roughly into thirds:
-Now it’s split into thirds: web publishing, web application development,  and web game development”
+- web publishing (HTML/CSS) both "from scratch", and with the [Bootstrap](http://getbootstrap.com) CSS framework
+- web application development (HTML/CSS/JavaScript & a little PHP)
+- web game development (JavaScript & the [Pixi.js](http://www.pixijs.com) rendering engine)
+
+
 
 Note to give students a little context for why the course matters to them: The Web is where everything is happening now. We're going to do Web development, and build some pages, but the course isn't meant to make them into Web page designers. Rather, the goal is to make them Web app/game developers, which we focus a lot on in 330.
 
