@@ -1,5 +1,5 @@
 # Course Topics
-This topic list is a tentative outline and subject to change.
+This topic list is a tentative outline and subject to change. See the [weekly](weekly/) folder for the actual assignments.
 * Module 0
   * What we will do in this course:
     * Web Publishing (HTML/CSS) both with and without a CSS framework
