@@ -195,22 +195,14 @@ Any or all of the previous information is subject to change or modification duri
   * Responsive Design
 * Web Publishing
   * FTP to banjo
-  * GitHub pages
-  * LinkedIn?
-  * portfolios.rit.edu?
-  * behance.net?
+  * And you should be able to figure out how to publish to these services:
+    * GitHub pages
+    * LinkedIn
+    * portfolios.rit.edu
+    * behance.net
 
 ## Projects
 * Project 1 - Game Proposal Site - #1 Deliverable is content posted to GitHub.
 * Project 2 - Educational DOM Game or Web Application
 * Project 3 - Interactive Game Or Experience (Sprite Based)
 * Capstone Project - Web Portfolio. #1 Deliverable is content posted to GitHub.
-
-## Links
-* [Learning Pixi](https://github.com/kittykatattack/learningPixi)
-* [Exploring ES6](http://exploringjs.com/es6/index.html)
-
-## Notes
-* Homeworks need more "challenges" to earn 10/10. The paint-by-numbers portions of ICEs should be worth just a few points.
-* We should use Lynda.com videos where possible, but if it an essential topic, make sure that there is a solid assignment that goes along with the video (ex. "watch sections 2 & 3 of the XX video, and then utilize a media query on your home page to modify the heading size of your home page for devices less that 550 pixels wide.")
-* Introduce JS earlier so that they can do more with Bootstrap
