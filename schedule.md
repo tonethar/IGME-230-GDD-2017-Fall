@@ -1,3 +1,6 @@
+
+# Schedule 
+This schedule is a tentative outline and subject to change.
 * Week 1
 * Class 1A:
    * Syllabus
