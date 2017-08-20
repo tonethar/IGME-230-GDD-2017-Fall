@@ -2,7 +2,7 @@
 Welcome to the course!
 ## Topics
 1. Review [syllabus.md](../syllabus.md) and discuss course policies
-1. See where the review materials are located
+1. Discuss IGME-110 review materials: [IIM-Web-Review.md](../IIM-Web-Review.md)
 1. Discuss goals of course
 1. Questions?
 
