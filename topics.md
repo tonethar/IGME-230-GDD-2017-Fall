@@ -1,15 +1,18 @@
 # Course Topics
+This topic list is a tentative outline and subject to change.
 * Module 0
-  * Why this course matters
-  * Review (**Sean will post 110 files to mycourses.rit.edu**) 
-    * (They should already know - post 110 web exercises to mycourses)
+  * What we will do in this course:
+    * Web Publishing (HTML/CSS) both with and without a CSS framework
+    * Web Application Development (HTML/CSS/JavaScript)
+    * Web Game Development(JavaScript/Pixi.js)
+  * Review
     * Basic HTML/CSS
     * Posting to Banjo
-    * CRAP
+    * CRAP Design Principles
     * ssh & basic Unix commands
     * Image Basics (compressed v. uncompressed, formats)
     * Photoshop - cropping & scaling images, exporting in proper formats
-* Module 1 - Basic Web Publishing (**Sean will handle**) 
+* Module 1 - Basic Web Publishing
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
     * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option +Indexes
@@ -43,7 +46,6 @@
   * ES6: let, block scoping, classes, arrow functions, string templating, for/of
   * Project DOM Game or Interactive Application
 * Module 4 - Building a Portfolio (thoughout semester, several deliverables)
-  * (By this point, students should be very comfortable with HTML/CSS/JS, so the Lynda.com Bootstrap tutorials will be easy to follow)
   * Reinforce Responsive Design
   * Bootstrap
   * Discuss publishing to GitHub Pages, LinkedIn, Behance, etc ...
