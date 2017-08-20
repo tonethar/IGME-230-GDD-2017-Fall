@@ -1,6 +1,6 @@
 
 # Schedule 
-This schedule is a tentative outline and subject to change.
+This schedule is a tentative outline and subject to change. See the [weekly](weekly/) folder for the actual assignments.
 * Week 1
 * Class 1A:
    * Syllabus
