@@ -36,8 +36,8 @@ This schedule is a tentative outline and subject to change. See the [weekly](wee
    - Darth exercise
 * Class 4B:
    - Project 1 critique
-   * Project 1 due (**Sean has done writeup**)
-    * Portfolio deliverable #1 due?? (**Tony will do first draft for portfolio project writeup**)
+   * Project 1 due
+    * Portfolio deliverable #1 due
   
 * Week 5
 * Class 5A:
@@ -51,7 +51,7 @@ This schedule is a tentative outline and subject to change. See the [weekly](wee
   * Portfolio deliverable #2 due
 * Week 9
 * Week 10
-  * Project 2 due (**Tony will do assignment writeup**)
+  * Project 2 due
 * Week 11
 * Week 12
 * Week 13
@@ -59,7 +59,7 @@ This schedule is a tentative outline and subject to change. See the [weekly](wee
 * Week 14
   * Final Exam last day of class
 * Finals Week
-  * Game Project Due (**TOny will do assignment writeup**)
+  * Game Project Due
   * Show projects finals week
  
 ----------------------------------------
