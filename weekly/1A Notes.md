@@ -1,5 +1,5 @@
 # Week 1A: Course Introduction
-Welcome to the course!
+Welcome to the course! Hopefully the skills you aquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio.
 ## Topics
 1. Review [syllabus.md](../syllabus.md) and discuss course policies
 1. Discuss IGME-110 review materials: [IIM-Web-Review.md](../IIM-Web-Review.md)
@@ -8,7 +8,7 @@ Welcome to the course!
 1. Do today's assignment
 
 ## Discussion
-This course is not focused on "web design", but instead on developing highly interactive web applications and web games that heavily utilize the JavScript programming language. Hopefully the skills you aquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio. The major topics of this course are split roughly into thirds:
+This course is not focused on "web design", but instead on developing highly interactive web applications and web games that heavily utilize the JavScript programming language.  The major topics of this course are split roughly into thirds:
 - web publishing (HTML/CSS) both "from scratch", and with the Bootstrap CSS framework
 - web application development (HTML/CSS/JavaScript & a little PHP)
 - web game development (JavaScript & the Pixi.js rendering engine)
