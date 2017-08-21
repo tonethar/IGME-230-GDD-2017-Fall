@@ -1,4 +1,4 @@
-# Week 1B - Review of Web Publishing & the *banjo.rit.edu* server
+# Week 1B - Review of *banjo.rit.edu* & FTP
 
 ## Topics
 
