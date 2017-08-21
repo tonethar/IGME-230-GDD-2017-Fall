@@ -1,5 +1,8 @@
 # Week 1A: Course Introduction
-Welcome to the course! Hopefully the skills you aquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio.
+Welcome to the course!
+
+Hopefully the skills you aquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio.
+
 ## Topics
 1. Review [syllabus.md](../syllabus.md) and discuss course policies
 1. Discuss IGME-110 review materials: [IIM-Web-Review.md](../IIM-Web-Review.md)
@@ -19,7 +22,6 @@ Once you complete this course you should be able to do the following:
 - code a web application that can connext to web services, and download/display their data. Examples inlcude a music searching and previewing applications that use the iTunes API, and a GIF viewing application that utilizes the Giphy API.
 - code a DOM web game that uses HTML/CSS for the User Interface, and JavaScript for game logic & interactivity. Examples include card games and typing games.
 - code a sprite-based game such as a shooter or platformer utilizing JavaScript and Pixi.js 
-
 
 ## Links
 - DOM (Document Object Model)
