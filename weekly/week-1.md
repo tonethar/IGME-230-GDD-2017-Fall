@@ -49,7 +49,10 @@ If you have questions between now and the start of class, feel free to send me a
 * [Custom 404 Pages and Authentication](../exercises/Custom 404 and Auth_start.zip)
 
 ## Reference
-* [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
+* https://en.wikipedia.org/wiki/Web_application
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript
 * https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
 * http://getbootstrap.com
+* https://en.wikipedia.org/wiki/Single-page_application
+* https://en.wikipedia.org/wiki/Responsive_web_design
 * http://www.pixijs.com
