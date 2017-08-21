@@ -15,14 +15,15 @@ We will:
   * utilizing the DOM (Document Object Model) we will build an interactive concentration game, and a typing game. These games will rely heavily on CSS 3 features such as CSS transformations (rotate & skew), and CSS keyframed animations
   * utilizing the Pixi.js rendering framework, we will build sprite-based games such as simple shooters and top/down adventure games.
 * learn how to add advanced interactivity to web pages. Building web apps and web games requires knowledge of more than just HTML & CSS, but also of the JavaScript programming language that runs in all web browsers. We will be covering the current "standard" version of JavaScript known as ES5 (ECMAScript 5), as well as some of the well-supported and powerful features of ES6 (AKA ECMAScript 6 or ECMAScript 2015)
-* utilize a CSS framework such as Bootstrap to construct a responsive web portfolio
+* utilize a CSS framework such as Bootstrap to construct a responsive web portfolio. We will do this as a *Single Page Application (SPA)*. You can see an example here: http://dougwatro.com - this example has eight distinct "pages" of content that are presented on a single web page.
+
 When the course is complete, you will hopefully have at least the beginnings of a "portfolio piece" or two that you will be able to show to prospective employers.
   
 
 ## Topics
 This week and next we will:
 * discuss what this course is about and where it fits in the GDD curriculum
-* point you to IGME-110 resources you may need to review -> [IIM-Web-Review.md](../IIM-Web-Review)
+* point you to IGME-110 resources you may need to review -> [IIM-Web-Review/](../IIM-Web-Review/)
 * discuss what a web server is (and does)
 * discuss the HTTP protocol and see it how it works
 * learn how to script certain web server behavior by utilizing .htaccess files
@@ -49,4 +50,6 @@ If you have questions between now and the start of class, feel free to send me a
 
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
-* 
+* https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+* http://getbootstrap.com
+* http://www.pixijs.com
