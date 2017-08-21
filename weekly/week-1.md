@@ -46,7 +46,7 @@ If you have questions between now and the start of class, feel free to send me a
 
 ## Exercises
 * [Fixing Banjo](../exercises/230-FixingBanjo.zip)
-* [Custom 404 Pages and Authentication](../exercises/Custom 404 and Auth_start.zip)
+* [Custom 404 Pages and Authentication](../exercises/)
 
 ## Reference
 * https://en.wikipedia.org/wiki/Web_application
