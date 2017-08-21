@@ -25,7 +25,7 @@ Once you complete this course you should be able to do the following:
 
 ## Links
 - DOM (Document Object Model)
-  - What it is: *The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.*
+  - What it is: *The **DOM** represents the document as nodes and objects. That way, programming languages can connect to the page.*
   - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
 - http://getbootstrap.com
 - http://www.pixijs.com
