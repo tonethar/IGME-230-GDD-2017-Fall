@@ -23,7 +23,7 @@ When the course is complete, you will hopefully have at least the beginnings of 
 ## Topics
 This week and next we will:
 * discuss what this course is about and where it fits in the GDD curriculum
-* point you to IGME-110 resources you may need to review -> [IIM-Web-Review/](../IIM-Web-Review/)
+* point you to IGME-110 resources you may need to review - which are located here: [IIM-Web-Review/](../IIM-Web-Review/)
 * discuss what a web server is (and does)
 * discuss the HTTP protocol and see it how it works
 * learn how to script certain web server behavior by utilizing .htaccess files
