@@ -1,3 +1,14 @@
+# Week 1B - Review of Web Publishing & the *banjo.rit.edu* server
+
+## Topics
+
+## Discussion
+
+## Links
+
+## Assignment
+
+
 Discuss the server!
 First, review FTP. Demo:
    - Create a local 230 directory
