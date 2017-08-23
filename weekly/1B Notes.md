@@ -1,15 +1,11 @@
 # Week 1B - Review of *banjo.rit.edu* & FTP
 
 ## Topics
+- FTP review
+- Setting up your 230 directory
+- More with the server
 
 ## Discussion
-
-## Links
-
-## Assignment
-
-
-Discuss the server!
 FTP review:
    - Creating a local 230 directory
    - Reminder: keep backups, bring a flash drive to class; the 230 folder is where all work will be done moving forward.
@@ -18,4 +14,9 @@ FTP review:
    - Reminder: Banjo is the FTP name, while the browser accesses people.rit.edu
    - Navigate to that directory via browser, and you should see nothing. Note that we will be building actual pages shortly.
 
-Then, server slides, and [htaccess ICE](../exercises/.
+## Links
+- [Auth and htaccess](../docs/Auth_and_htaccess.pdf)
+
+## Exercises
+- [Fixing Banjo](../exercises/230-FixingBanjo.zip)
+- [Custom 404 Pages and Authentication](../exercises/Custom_404_Auth_start.zip)
