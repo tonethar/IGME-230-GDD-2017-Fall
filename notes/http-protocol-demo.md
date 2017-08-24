@@ -64,4 +64,5 @@ https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 </body
 </html>
 ```
-(_images/rit-request-response.jpg)
+
+![www.rit.edu Request/Response](_images/rit-request-response.jpg)
