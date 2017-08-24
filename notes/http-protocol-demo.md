@@ -14,4 +14,23 @@ Escape character is '^]'.
 
 4. Type `host: www.rit.edu`
 
-Now you should get 
+Now you should get the RIT home page (just the HTML) back from the server:
+
+```
+HTTP/1.1 200 OK
+Date: Thu, 24 Aug 2017 18:45:27 GMT
+Server: Apache
+Vary: Host,Accept-Encoding
+X-Mod-Pagespeed: 1.12.34.2-0
+Cache-Control: max-age=0, no-cache, s-maxage=10
+Content-Length: 77715
+Connection: close
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+```
