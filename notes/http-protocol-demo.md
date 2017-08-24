@@ -1,4 +1,5 @@
 # HTTP Protocol Demo 
+Try this!
 
 1. Launch the PuTTY Application (or Terminal on a Mac)
 
@@ -12,9 +13,9 @@ Escape character is '^]'.
 
 3. Type `GET / HTTP/1.1` and press return.
 
-4. Type `host: www.rit.edu`
+4. Type `host: www.rit.edu` and press return. (this is a *HTTP Request Header*)
 
-5. Hit return twice (the HTTP request protocol expects a blank line)
+5. Press return again. (In the HTTP request protocol, a blank line indicates that there are no more request headers)
 
 Now you should first get the *HTTP Status Code* and  *HTTP Response Headers* back from the web server.
 
