@@ -14,7 +14,7 @@ Escape character is '^]'.
 
 4. Type `host: www.rit.edu`
 
-Now you should get the RIT home page (just the HTML) back from the server:
+Now you should first get the *HTTP Status Code* and  *HTTP Response Headers* back from the web server.
 
 ```
 HTTP/1.1 200 OK
@@ -26,7 +26,11 @@ Cache-Control: max-age=0, no-cache, s-maxage=10
 Content-Length: 77715
 Connection: close
 Content-Type: text/html; charset=utf-8
+```
 
+You will also see the RIT home page HTML:
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
