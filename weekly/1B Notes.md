@@ -14,9 +14,11 @@ FTP review:
    - Reminder: Banjo is the FTP name, while the browser accesses people.rit.edu
    - Navigate to that directory via browser, and you should see nothing. Note that we will be building actual pages shortly.
 
-## Links
-- [Auth and htaccess](../docs/Auth_and_htaccess.pdf)
+## Presentations
+- [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
 
 ## Exercises
 - [Fixing Banjo](../exercises/FixingBanjo.zip)
 - [Custom 404 Pages and Authentication](../exercises/Custom_404_Auth_start.zip)
+
+## Links
