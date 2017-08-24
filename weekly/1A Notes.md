@@ -31,7 +31,7 @@ This week and next we will:
 
 ## Prerequisites
 
-I expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (people.rit.edu). This material was covered in IGME-110.
+I expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (people.rit.edu). This material was covered in IGME-110. You can review much of that material here: [IIM-Web-Review/](IIM-Web-Review)
 
 If you need to brush up on your HTML and CSS skills, I recommend using the CodeAcademy tutorials that we currently use in IGME-110: https://www.codecademy.com/learn/web, lessons 1-5. We will be doing a very brief review, but you shouldn't expect to rely on that to cover all of the prerequisite knowledge.
 
