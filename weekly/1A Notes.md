@@ -63,7 +63,6 @@ Once you complete this course you should be able to do the following:
 ## Required Reading
 * [syllabus.md](../syllabus.md)
 * [web-server-intro.md](../notes/web-server-intro.md)
-* [http-protocol-intro.md](../notes/http-protocol-intro.md)
 * [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
 
 ## Reference
