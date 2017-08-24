@@ -56,19 +56,19 @@ Once you complete this course you should be able to do the following:
 There are a lot of reasons to improve your Web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
 
 Portfolios:
-http://katiepustolski.com/
-http://brianemling.com/
+- http://katiepustolski.com/
+- http://brianemling.com/
 
 Some projects from the next Web course:
-http://people.rit.edu/~daa9054/330/project1/
-http://people.rit.edu/rlt4336/330/project1/
-http://people.rit.edu/~gjp8374/330/project1/
-http://people.rit.edu/~rmb1952/330/project1/
-http://people.rit.edu/~lvs1646/330/project2/index.html
-http://people.rit.edu/~bmm3443/330/project2/index.html
+- http://people.rit.edu/~daa9054/330/project1/
+- http://people.rit.edu/rlt4336/330/project1/
+- http://people.rit.edu/~gjp8374/330/project1/
+- http://people.rit.edu/~rmb1952/330/project1/
+- http://people.rit.edu/~lvs1646/330/project2/index.html
+- http://people.rit.edu/~bmm3443/330/project2/index.html
 
 And some other really cool stuff:
-http://www.chromeexperiments.com/
+- http://www.chromeexperiments.com/
 
 ## Links - for use throughout the semester
 - DOM (Document Object Model)
