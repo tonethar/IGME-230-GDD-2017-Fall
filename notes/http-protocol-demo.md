@@ -16,7 +16,7 @@ Escape character is '^]'.
 
 Now you should get the RIT home page (just the HTML) back from the server:
 
-```
+<pre>
 HTTP/1.1 200 OK
 Date: Thu, 24 Aug 2017 18:45:27 GMT
 Server: Apache
@@ -33,4 +33,4 @@ Content-Type: text/html; charset=utf-8
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-```
+</pre>
