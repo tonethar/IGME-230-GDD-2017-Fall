@@ -1,5 +1,5 @@
 # HTTP Protocol Demo 
-https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
+https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 Try this!
 
