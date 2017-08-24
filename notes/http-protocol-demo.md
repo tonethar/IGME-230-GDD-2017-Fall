@@ -9,6 +9,6 @@ Escape character is '^]'.
 
 3. Type `GET / HTTP/1.1` and press return.
 
-4. Type 'host: www.rit.edu'
+4. Type `host: www.rit.edu`
 
 Now you should get 
