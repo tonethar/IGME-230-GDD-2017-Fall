@@ -1,4 +1,6 @@
 # HTTP Protocol Demo 
+https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
+
 Try this!
 
 1. Launch the PuTTY Application (or Terminal on a Mac)
@@ -11,7 +13,7 @@ Connected to web01www01.rit.edu.
 
 Escape character is '^]'.
 
-3. Type `GET / HTTP/1.1` and press return.
+3. Type `GET / HTTP/1.1` and press return. (**GET** is an *HTTP Request Method*)
 
 4. Type `host: www.rit.edu` and press return. (this is a *HTTP Request Header*)
 
