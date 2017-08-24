@@ -5,7 +5,7 @@ https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 Let's use the command line to connect to RIT's web server and request the default RIT home page (this is what web browsers do).
 
-**Try this!**
+## I. Try this on the Command Line
 
 1. Launch the PuTTY Application (or Terminal on a Mac)
 
@@ -64,5 +64,9 @@ https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 </body
 </html>
 ```
+
+## II. Try this in a web browser
+
+Here we are going to http://www.rit.edu and viewing the request and response headers in Chrome's web inspector.
 
 ![www.rit.edu Request/Response](_images/rit-request-response.jpg)
