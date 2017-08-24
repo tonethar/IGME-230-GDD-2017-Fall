@@ -1,7 +1,11 @@
 # HTTP Protocol Demo 
+The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, and hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web.
+
 https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
-Try this!
+Let's use the command line to connect to RIT's web server and request the default RIT home page (this is what web browsers do).
+
+**Try this!**
 
 1. Launch the PuTTY Application (or Terminal on a Mac)
 
