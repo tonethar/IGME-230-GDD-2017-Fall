@@ -37,7 +37,14 @@ Connection: close
 Content-Type: text/html; charset=utf-8
 ```
 
-You will also see the RIT home page HTML:
+Note that the **200** status code means everything is OK.
+We also got 9 response headers back from the web server.
+
+https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+**You will also see the RIT home page HTML:**
 
 ```
 <!DOCTYPE html>
