@@ -1,1 +1,0 @@
-# Banjo & .htaccess files
