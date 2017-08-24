@@ -32,11 +32,15 @@ Content-Type: text/html; charset=utf-8
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<!-- Fonts and Stylesheets -->
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600,900" type="text/css">
 <link rel="stylesheet" ...>
 <link rel="shortcut icon" href="/_assets/images/favicon.ico">
 <title>Rochester Institute of Technology</title>
 <meta name="twitter:widgets:link-color" content="#F36E21">
+...
+<html>
+<body>
+.. and so on ...
+</body
+</html>
 ```
