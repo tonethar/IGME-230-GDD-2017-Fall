@@ -16,7 +16,7 @@ Escape character is '^]'.
 
 Now you should get the RIT home page (just the HTML) back from the server:
 
-<pre>
+```
 HTTP/1.1 200 OK
 Date: Thu, 24 Aug 2017 18:45:27 GMT
 Server: Apache
@@ -31,6 +31,12 @@ Content-Type: text/html; charset=utf-8
 <html lang="en">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-</pre>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<!-- Fonts and Stylesheets -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600,900" type="text/css">
+<link rel="stylesheet" ...>
+<link rel="shortcut icon" href="/_assets/images/favicon.ico">
+<title>Rochester Institute of Technology</title>
+<meta name="twitter:widgets:link-color" content="#F36E21">
+```
