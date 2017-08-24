@@ -44,7 +44,7 @@ https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
-**Right after the status code and response geaders, you will also see the actual RIT home page HTML:**
+**Right after the status code and response headers, you will also see the actual RIT home page HTML:**
 
 ```
 <!DOCTYPE html>
