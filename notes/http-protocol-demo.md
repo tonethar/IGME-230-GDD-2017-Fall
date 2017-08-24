@@ -14,6 +14,8 @@ Escape character is '^]'.
 
 4. Type `host: www.rit.edu`
 
+5. Hit return twice (the HTTP request protocol expects a blank line)
+
 Now you should first get the *HTTP Status Code* and  *HTTP Response Headers* back from the web server.
 
 ```
