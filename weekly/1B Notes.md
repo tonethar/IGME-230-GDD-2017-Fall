@@ -18,7 +18,7 @@ FTP review:
 - [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
 
 ## Exercises
-- [Fixing Banjo](../exercises/FixingBanjo.zip)
-- [Custom 404 Pages and Authentication](../exercises/Custom_404_Auth_start.zip)
+- [Fixing Banjo Files (ZIP)](../exercises/FixingBanjo.zip)
+- [Custom 404 Pages and Authentication FIles (ZIP)](../exercises/Custom_404_Auth_start.zip)
 
 ## Links
