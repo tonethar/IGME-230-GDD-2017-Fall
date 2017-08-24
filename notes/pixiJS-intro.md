@@ -1,1 +1,0 @@
-# Intro to Pixi.js
