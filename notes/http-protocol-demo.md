@@ -64,9 +64,19 @@ https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 </body
 </html>
 ```
+If we paste the entire page into an HTML file and load in in the browser, the text would display, but all of the CSS style rules and images would be missing.
 
+What a web browser would do is to:
+1. Send a request for index.html to the www.rit.edu web server.
+1. Receive the index.html file, save it to a cache somewhere on the users hard drive.
+1. Begin to parse the page.
+1. Whenever the browser sees that it needs additonal files, it will send a request for that file to the web server
 ## II. Try this in a web browser
 
 Here we are going to http://www.rit.edu and viewing the request and response headers in Chrome's web inspector.
+
+In the example below you can see that the browser sent 10 *request headers*. These headers told the server things like "I am Chrome", and "I can accept zipped files and images".
+
+The Server sent back 9 *response headers*, most importantly that the 
 
 ![www.rit.edu Request/Response](_images/rit-request-response.jpg)
