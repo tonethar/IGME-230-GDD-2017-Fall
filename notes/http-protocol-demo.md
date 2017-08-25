@@ -2,7 +2,8 @@
 ## I. Overview
 The Hypertext Transfer Protocol (HTTP) is an application *protocol* (a system of rules e.g. steps) for distributed, collaborative, and hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.
 
-https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
++ https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
++ https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 A critical part of the HTTP protocol are *HTTP Headers*, which allow the client and the server to pass additional information with the request or the response. 
 
