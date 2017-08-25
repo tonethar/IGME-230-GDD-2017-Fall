@@ -17,9 +17,9 @@ Connected to web01www01.rit.edu.
 
 Escape character is '^]'.
 
-3. Type `GET / HTTP/1.1` and press return. (**GET** is a *HTTP Request Method*)
+3. Type `GET / HTTP/1.1` and press return. (**GET** is an *HTTP Request Method*)
 
-4. Type `HOST: www.rit.edu` and press return. (**HOST** is a *HTTP Request Header*. Here we are sending just one header, but you can easily end more headers, one to a line.)
+4. Type `HOST: www.rit.edu` and press return. (**HOST** is an *HTTP Request Header*. Here we are sending just one header, but you can easily end more headers, one to a line.)
 
 5. Press return again. (In the HTTP request protocol, a blank line indicates that there are no more request headers)
 
