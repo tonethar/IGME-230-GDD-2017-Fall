@@ -44,7 +44,7 @@ Connection: close
 Content-Type: text/html; charset=utf-8
 ```
 
-Note that the **200** status code means everything is OK.
+Note that the **200** status code means the request was successful.
 We also got 9 response headers back from the web server.
 
 + https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
