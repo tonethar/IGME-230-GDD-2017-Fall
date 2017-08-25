@@ -84,5 +84,8 @@ And some other really cool stuff:
 * [http-protocol-demo.md](../notes/http-protocol-demo.md)
 * [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
 
+## Homework
+Get a GitHub account (if you don't have one already), and go through the tutorial above. Before next class, set up a folder for this course in your account, and put a link to it in the myCourses "GitHub Accounts" discussion.
+
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
