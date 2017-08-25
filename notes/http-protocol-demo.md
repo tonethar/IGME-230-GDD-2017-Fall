@@ -88,7 +88,7 @@ Below we are going to http://www.rit.edu and viewing the request and response he
 
 In the example below you can see that the browser sent 10 *request headers*. These headers told the server things like "I am Chrome", and "I can accept zipped files and images".
 
-The Server sent back 9 *response headers*, most importantly that the file being sent back is zipped, and is an HTML file (as opposed to an image for example), so the browser will know to first unzip it, and then to interpret (parse) it as HTML.
+The web server sent back 9 *response headers*, most importantly that the file being sent back is zipped, and that it is an HTML file (as opposed to an image for example), so the browser will know to first unzip it, and then to interpret (parse) it as HTML.
 
 ![www.rit.edu Request/Response](_images/rit-request-response.jpg)
 
