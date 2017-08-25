@@ -91,7 +91,8 @@ Look over the wikipedia links above and answer the follwoing:
 1. Who (the client or the server) sends *status codes*?
 1. Why is the *HOST* request header required?
 1. Who (the client? the server? both?) can send text and/or images?
-1. Head back to the command line and download RIT's home page, but this time as a ZIP.
+1. Head back to the command line and download RIT's home page, but this time as a ZIP. (Note the file size is now much smaller, and the zipped content can be *chunked* and sent back in pieces that arrive at different times)
 1. Download an image that is linked from RIT's home page (for example, a Favicon)
+1. Set your **User-Agent** to 230-Student (this will be recorded in RIT's server logs)
 
 
