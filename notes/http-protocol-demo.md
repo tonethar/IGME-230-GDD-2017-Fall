@@ -1,5 +1,5 @@
 # HTTP Protocol Demo 
-The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, and hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web.
+The Hypertext Transfer Protocol (HTTP) is an application *protocol* (a system of rules e.g. steps) for distributed, collaborative, and hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web.
 
 https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
@@ -17,7 +17,7 @@ Connected to web01www01.rit.edu.
 
 Escape character is '^]'.
 
-3. Type `GET / HTTP/1.1` and press return. (**GET** is an *HTTP Request Method*)
+3. Type `GET / HTTP/1.1` and press return. (**GET** is an *HTTP Request Method* - here we are requesting the default file of the server's root directory, which is index.html)
 
 4. Type `HOST: www.rit.edu` and press return. (**HOST** is an *HTTP Request Header*. Here we are sending just one header, but you can easily end more headers, one to a line.)
 
@@ -85,14 +85,16 @@ The Server sent back 9 *response headers*, most importantly that the file being 
 ![www.rit.edu Request/Response](_images/rit-request-response.jpg)
 
 ## III. Questions and challenges
-Look over the wikipedia links above and answer the follwoing:
+Look over the wikipedia links above and answer the following:
 1. Who (the client or the server) sends *request headers*?
 1. Who (the client or the server) sends *response headers*?
 1. Who (the client or the server) sends *status codes*?
+1. What does the **404** status code mean?
+1. What does the **301** status code mean? (You can get this status code if you try to connect to igm.rit.edu)
 1. Why is the *HOST* request header required?
 1. Who (the client? the server? both?) can send text and/or images?
 1. Head back to the command line and download RIT's home page, but this time as a ZIP. (Note the file size is now much smaller, and the zipped content can be *chunked* and sent back in pieces that arrive at different times)
 1. Download an image that is linked from RIT's home page (for example, a Favicon)
-1. Set your **User-Agent** to 230-Student (this will be recorded in RIT's server logs)
+1. Set your **User-Agent** to "230-Student" (this will be recorded in RIT's server logs)
 
 
