@@ -1,4 +1,5 @@
 # HTTP Protocol Demo 
+## I. Overview
 The Hypertext Transfer Protocol (HTTP) is an application *protocol* (a system of rules e.g. steps) for distributed, collaborative, and hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.
 
 https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
@@ -10,7 +11,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 Let's use the command line to connect to RIT's web server and request the default RIT home page (this is what web browsers do).
 
-## I. Try this on the Command Line
+## II. Try this on the Command Line
 
 1. Launch the PuTTY Application (or Terminal on a Mac)
 
@@ -79,7 +80,8 @@ What a web browser would do is to:
 1. Whenever the browser sees that it needs additional files, it will send a request for that file to the web server.
 I. When the file arrives, parse it (for example if it is a CSS file) or draw it to the screen (if it is an image).
 
-## II. Try this in a web browser
+
+## III. Try this in a web browser
 
 Below we are going to http://www.rit.edu and viewing the request and response headers in Chrome's web inspector.
 
@@ -89,7 +91,8 @@ The Server sent back 9 *response headers*, most importantly that the file being 
 
 ![www.rit.edu Request/Response](_images/rit-request-response.jpg)
 
-## III. Questions and challenges
+
+## IV. Questions and challenges
 Look over the wikipedia links above and answer the following:
 1. Who (the client or the server) sends *request headers*?
 1. Who (the client or the server) sends *response headers*?
@@ -102,7 +105,7 @@ Look over the wikipedia links above and answer the following:
 1. Download an image that is linked from RIT's home page (for example, a favicon)
 1. Set your **User-Agent** to "230-Student" (this will be recorded in RIT's server logs)
 
-## IV. Discussion
+## V. Discussion
 Why this information about the HTTP protocol is good to know:
 1. We will be learning .htaccess files very soon. These files can be used to script the behavior of the web server and web browser. Many things we do with .htaccess files like browser redirection and authentication are accomplished by sending HTTP headers.
 1. PHP (a language we will be looking at soon) and other server-side languages can be used to send HTTP headers, such as **content-type**.
