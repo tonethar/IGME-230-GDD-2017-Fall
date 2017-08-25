@@ -69,8 +69,10 @@ If we paste the entire page into an HTML file and load in in the browser, the te
 What a web browser would do is to:
 1. Send a request for index.html to the www.rit.edu web server.
 1. Receive the index.html file, save it to a cache somewhere on the users hard drive.
-1. Begin to parse the page.
-1. Whenever the browser sees that it needs additonal files, it will send a request for that file to the web server
+1. Begin to parse the HTML elements on the page.
+1. Begin to layout and display the page.
+1. Whenever the browser sees that it needs additonal files, it will send a request for that file to the web server.
+I. When the file arrives, parse it (for example if it is a CSS file) or draw it to the screen (if it is an image).
 
 ## II. Try this in a web browser
 
@@ -81,3 +83,9 @@ In the example below you can see that the browser sent 10 *request headers*. The
 The Server sent back 9 *response headers*, most importantly that the file being sent back is zipped, and is an HTML file (as opposed to an image for example), so the browser will know to first unzip it, and then to interpret (parse) it as HTML.
 
 ![www.rit.edu Request/Response](_images/rit-request-response.jpg)
+
+## III. Questions and challenges
+1. Who (the client or the server) sends *request headers*?
+1. Who (the client or the server) sends *response headers*?
+1. Who (the client or the server) sends *status codes*?
+
