@@ -17,8 +17,10 @@ IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Al
 - Professor Sean Boyle  
 - Office: GOL-2517
 - Email: sean.boyle@rit.edu
-- Office hours: TBA 
+- Web page and class lists: https://people.rit.edu/spbics/
+- Office hours: M/W/F 12:30-2:30 
 - Class meetings (Section 03) : MWF 3:35PM - 4:30PM in GOL-2435
+- Class meetings (Section 04) : MW 5:30PM - 6:50PM in GOL-2570
 - Class meetings (Section 06) : MWF 2:30PM - 3:25PM in ORN-1375
 
 ## Course Materials and Communication
