@@ -3,7 +3,7 @@ Welcome to the course!
 
 ## Overview
 Welcome to IGME-230 Web Site Design & Implementation! There is more to this course than the title implies, as we will be learning a lot more than just the design and implementation of static web sites. 
-Hopefully the skills you aquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio.
+Hopefully the skills you acquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio.
 
 ## What this course is about
 Official description from SIS: *This course provides an introduction to web development tools and technologies, such as HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
