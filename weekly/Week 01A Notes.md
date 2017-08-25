@@ -60,7 +60,12 @@ Portfolios:
 - http://brianemling.com/
 
 Some projects from the next Web course:
-- http://people.rit.edu/~gjp8374/330/project1/
+- https://people.rit.edu/spbics/330proj/Colorhell/
+- https://people.rit.edu/spbics/330proj/Homemade_or_Nah/HomemadeOrNah.html
+- https://people.rit.edu/spbics/330proj/Last_Resort/
+- https://people.rit.edu/spbics/330proj/League_Champ_Map/
+- https://people.rit.edu/spbics/330proj/Running_on_Fumes/runningOnFumes.html
+- https://people.rit.edu/spbics/330proj/That_Wicked_Creature/thatwickedcreature/
 
 And some other really cool stuff:
 - http://www.chromeexperiments.com/
