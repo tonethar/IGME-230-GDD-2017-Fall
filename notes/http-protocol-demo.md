@@ -17,13 +17,13 @@ Let's use the command line to connect to RIT's web server and request the defaul
 1. Launch the PuTTY Application (or Terminal on a Mac)
 
 2. Type `telnet www.rit.edu 80`and press return.
-
+```
 Trying 129.21.1.40...
 
 Connected to web01www01.rit.edu.
 
 Escape character is '^]'.
-
+```
 3. Type `GET / HTTP/1.1` and press return. (This is the *request line* - **GET** is an *HTTP Request Method* - here we are requesting the default file of the server's root directory, which is index.html)
 
 4. Type `HOST: www.rit.edu` and press return. (**HOST** is an *HTTP Request Header*. Here we are sending just one header, but you can easily end more headers, one to a line.)
