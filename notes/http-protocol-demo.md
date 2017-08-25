@@ -7,7 +7,7 @@ The Hypertext Transfer Protocol (HTTP) is an application *protocol* (a system of
 
 A critical part of the HTTP protocol are *HTTP Headers*, which allow the client and the server to pass additional information with the request or the response. 
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
++ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 
 Let's use the command line to connect to RIT's web server and request the default RIT home page (this is what web browsers do).
@@ -47,9 +47,9 @@ Content-Type: text/html; charset=utf-8
 Note that the **200** status code means everything is OK.
 We also got 9 response headers back from the web server.
 
-https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
++ https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 
-https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
++ https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
 **Right after the status code and response headers, you will also see the actual RIT home page HTML:**
 
@@ -94,7 +94,7 @@ The Server sent back 9 *response headers*, most importantly that the file being 
 
 
 ## IV. Questions and challenges
-Look over the wikipedia links above and answer the following:
+Look over the links above and answer the following:
 1. Give an example of an HTTP *client*.
 1. Who (the client or the server) sends *request headers*?
 1. Who (the client or the server) sends *response headers*?
