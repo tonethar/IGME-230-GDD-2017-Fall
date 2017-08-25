@@ -108,4 +108,4 @@ Look over the wikipedia links above and answer the following:
 ## V. Discussion
 Why this information about the HTTP protocol is good to know:
 1. We will be learning .htaccess files very soon. These files can be used to script the behavior of the web server and web browser. Many things we do with .htaccess files like browser redirection and authentication are accomplished by sending HTTP headers.
-1. PHP (a language we will be looking at soon) and other server-side languages can be used to send HTTP headers, such as **content-type**. We can also use PHP to send different HTML to different browsers based on the browser's **User-Agent** 
+1. PHP (a language we will be looking at soon) and other server-side languages can be used to send HTTP headers, such as **content-type**. We can also use PHP to send different HTML to different browsers based on the browser's declared **User-Agent** (if the browser is a smart phone for example)
