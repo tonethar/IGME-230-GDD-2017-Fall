@@ -77,8 +77,8 @@ What a web browser would do is to:
 1. Receive the index.html file, save it to a cache somewhere on the users hard drive.
 1. Begin to parse the HTML elements on the page.
 1. Begin to layout and display the page.
-1. Whenever the browser sees that it needs additional files, it will send a request for that file to the web server.
-I. When the file arrives, parse it (for example if it is a CSS file) or draw it to the screen (if it is an image).
+1. Whenever the browser sees that it needs additional files, it will send a request for that file to the web server. Usually the same connection is re-used. To keep an HTTP connection open, web browsers usually send the **Connection: keep-alive** header when they first request a file from a web server (see screen shot below).
+1. When the file arrives, parse it (for example if it is a CSS file) or draw it to the screen (if it is an image).
 
 
 ## III. Try this in a web browser
@@ -108,4 +108,4 @@ Look over the wikipedia links above and answer the following:
 ## V. Discussion
 Why this information about the HTTP protocol is good to know:
 1. We will be learning .htaccess files very soon. These files can be used to script the behavior of the web server and web browser. Many things we do with .htaccess files like browser redirection and authentication are accomplished by sending HTTP headers.
-1. PHP (a language we will be looking at soon) and other server-side languages can be used to send HTTP headers, such as **content-type**.
+1. PHP (a language we will be looking at soon) and other server-side languages can be used to send HTTP headers, such as **content-type**. We can also use PHP to send different HTML to different browsers based on the browser's **User-Agent** 
