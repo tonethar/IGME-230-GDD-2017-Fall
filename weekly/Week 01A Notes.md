@@ -80,7 +80,8 @@ And some other really cool stuff:
 
 ## Required Reading
 * [syllabus.md](../syllabus.md)
-* [web-server-intro.md](../notes/web-server-intro.md)
+* [http-protocol-intro.md](../notes/http-protocol-intro.md)
+* [http-protocol-demo.md](../notes/http-protocol-demo.md)
 * [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
 
 ## Reference
