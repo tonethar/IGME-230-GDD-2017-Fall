@@ -11,7 +11,7 @@ We will:
 * review basic web publishing (HTML/CSS/FTP) and HTML validation
 * learn how a web server works and how to do basic scripting of it
 * expose you to the PHP scripting language that runs on most web servers
-* explore advanced CSS layout utilizing the CSS box model and flex box
+* explore advanced CSS layout utilizing the CSS box model and the latest specifications
 * go beyond *type*, *class*, and *id* CSS selectors by utilizing advanced CSS 3 selectors
 * construct **web applications**. A web app is a client–server software application in which the client (or user interface) runs in a web browser. Examples of web apps you might use are github.com, Gmail, and Google Drive. Web App assignments we will complete in class include interactive calculators, a functional "To do" app, an app that allows the user to search for and view animated GIFs, and an app that allows the user to search the iTunes store for songs, and then listen to previews
 * construct **interactive games** that run in the web browser (these are also considered to be web applications):
