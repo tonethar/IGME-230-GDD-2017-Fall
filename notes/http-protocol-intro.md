@@ -8,10 +8,10 @@ A *web server* is a computer system that processes requests via HTTP, the basic 
 
 + https://en.wikipedia.org/wiki/Web_server
 
-You should already be familar with RIT's "banjo" server, which hosts files for http://people.rit.edu
+You should already be familar with RIT's "Banjo" server, which hosts files for http://people.rit.edu
 
 ## The HTTP Protocol
-HTTP is a *protocol* (a system of rules e.g. steps) which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and a *client-server* protocol, which means requests are initiated by the recipient, usually the Web browser. 
+HTTP is a *protocol* (a system of rules, e.g. steps) which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and a *client-server* protocol, which means requests are initiated by the recipient, usually the Web browser. 
 
 A complete document is reconstructed from the different sub-documents fetched, for instance text (HTML), layout description (CSS), images, videos, scripts (JavaScript), and more.
 
