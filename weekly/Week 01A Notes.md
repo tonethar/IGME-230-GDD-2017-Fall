@@ -31,7 +31,7 @@ This week and next we will:
 
 ## Prerequisites
 
-I expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (people.rit.edu). This material was covered in IGME-110. You can review much of that material here: [IIM-Web-Review/](../IIM-Web-Review)
+Students in this class should have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (people.rit.edu). This material was covered in IGME-110. You can review much of that material here: [IIM-Web-Review/](../IIM-Web-Review)
 
 If you need to brush up on your HTML and CSS skills, I recommend using the CodeAcademy tutorials that we currently use in IGME-110: https://www.codecademy.com/learn/web, lessons 1-5. We will be doing a very brief review, but you shouldn't expect to rely on that to cover all of the prerequisite knowledge.
 
@@ -41,19 +41,19 @@ If you have questions between now and the start of class, feel free to send me a
 
 ## Discussion
 This course is not focused on "web design", but instead on developing highly interactive web applications and web games that heavily utilize the JavScript programming language.  The major topics of this course are split roughly into thirds:
-- web publishing (HTML/CSS) both "from scratch", and with the Bootstrap CSS framework
+- web publishing (HTML/CSS) both "from scratch" as well as with the Bootstrap CSS framework
 - web application development (HTML/CSS/JavaScript & a little PHP)
 - web game development (JavaScript & the Pixi.js rendering engine)
 
 Once you complete this course you should be able to do the following:
 - publish a "traditional" multi-page website to the WWW. The content will be properly "chunked" and the site navigation will be intuitive and easy to use.
-- publish a single-page application (SPA) web site "portfolio". You can see an example here: http://dougwatro.com - this example has eight distinct "pages" of content that are presented on a single web page.
-- code a web application that can connext to web services, and download/display their data. Examples inlcude a music searching and previewing applications that use the iTunes API, and a GIF viewing application that utilizes the Giphy API.
+- publish a single-page application (SPA) web site portfolio. You can see an example here: http://dougwatro.com - this example has eight distinct "pages" of content that are presented on a single web page.
+- code a web application that can connect to web services, and download/display their data. Examples inlcude a music searching and previewing applications that use the iTunes API, and a GIF viewing application that utilizes the Giphy API.
 - code a DOM web game that uses HTML/CSS for the User Interface, and JavaScript for game logic & interactivity. Examples include card games and typing games.
 - code a sprite-based game such as a shooter or platformer utilizing JavaScript and Pixi.js 
 
 ## Projects and other stuff for inspiration
-There are a lot of reasons to improve your Web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
+There are a lot of reasons to improve your web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
 
 Portfolios:
 - http://katiepustolski.com/
