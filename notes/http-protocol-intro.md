@@ -1,5 +1,8 @@
 # HTTP Protocol Intro
 
+## Overview
+In this course we will focus primarily on scripting web browsers with HTML, CSS, and JavaScript. But this week we will also touch on the role of the *web server* that hosts our web files, and see how we can control its behavior. 
+
 ## What is a Web Server?
 A *web server* is a computer system that processes requests via HTTP, the basic network protocol used to distribute information on the World Wide Web. The term can refer to the entire system, or specifically to the software that accepts and supervises the HTTP requests.
 
@@ -12,7 +15,7 @@ HTTP is a *protocol* (a system of rules e.g. steps) which allows the fetching of
 
 A complete document is reconstructed from the different sub-documents fetched, for instance text, layout description, images, videos, scripts, and more.
 
-+ Read this --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
++ **Read this** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
 ## Discussion
 - HTTP is simple and human readable. You will see this is so in our HTTP Protocol Demo today.
