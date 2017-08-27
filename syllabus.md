@@ -60,7 +60,7 @@ These exams consist of short answer, multiple choice, and "write some code" ques
 ### Homework (10%)
 Completing the HW and in-class exercises is essential to learning the course material. **Failing 5 homework and/or in-class assignments will result in an immediate "F" grade in the course.**
 
-HW and ICE will NOT be accepted late without a valid excuse (procrastination, and missing the dropbox by 1 minute, are not valid excuses). If you feel you have legitimate excuse, please contact the professor outside of class either by email or during office hours.
+Homework and ICEs will NOT be accepted late without a valid excuse (procrastination, and missing the dropbox by 1 minute, are not valid excuses). If you feel you have legitimate excuse, please contact the professor outside of class either by email or during office hours.
 
 ### Attendance & Participation (5%)
 Note: 1 absence 4/5 points, 2 absences 3/5 points, 3 absences 1.5/5 points, 4 absences 0 points. **Each additional absence is 5% off of final average.** Arriving late is 1/2 absence. Facebooking or similar off-task activity during lectures or demos will count as a absence for the day.
