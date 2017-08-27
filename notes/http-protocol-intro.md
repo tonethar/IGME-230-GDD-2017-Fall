@@ -19,7 +19,7 @@ A complete document is reconstructed from the different sub-documents fetched, f
 - HTTP can control *cacheing* (of web pages for example), *authentication* (is someone allowed to view a file or folder?), *sessions* (is this the same person that logged in 5 minutes ago?), and *redirection* (sending a browser to another location iof a file has moved)
 
 ## Review Questions
-Based on your reading of the pages linked above, you should be able to answer these questions:
+Based on your reading of the Mozilla HTTP article linked above, you should be able to answer these questions:
 
 1. *Clients* make requests to *servers*.  Give an example of a typical HTTP *client*.
 1. Give additional examples of HTTP clients.
