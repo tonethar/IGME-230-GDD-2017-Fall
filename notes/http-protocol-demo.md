@@ -95,7 +95,6 @@ The web server sent back 9 *response headers*, most importantly that the file be
 
 ## IV. Questions and challenges
 Look over the links above and answer the following:
-1. Give an example of an HTTP *client*.
 1. Who (the client or the server) sends *request headers*?
 1. Who (the client or the server) sends *response headers*?
 1. Who (the client or the server) sends *status codes*?
