@@ -26,7 +26,7 @@ Based on your reading of the Mozilla HTTP article linked above, you should be ab
 
 1. *Clients* make requests to *servers*.  Give an example of a typical HTTP *client*.
 1. Give additional examples of HTTP clients.
-1. Between the Web browser and the server, numerous computers and machines relay the HTTP messages. Many of these operate at a lower  layer in the (TCP/IP "stack")[https://en.wikipedia.org/wiki/Internet_protocol_suite] and are thus invisible to the client. What are these computers and machines called?
+1. Between the Web browser and the server, numerous computers and machines relay the HTTP messages. Many of these operate at a lower  layer in the [TCP/IP "stack"](https://en.wikipedia.org/wiki/Internet_protocol_suite) and are thus invisible to the client. What are these computers and machines called?
 1. HTTP *requests* consist of the following:
   - an HTTP *method* such as ....
   - the path of the desired ....
