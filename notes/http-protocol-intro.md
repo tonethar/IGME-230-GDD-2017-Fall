@@ -37,4 +37,4 @@ Based on your reading of the pages linked above, you should be able to answer th
   - HTTP *headers*, like those for requests.
   - Optionally, a message *body* containing the fetched resource (ex. an HTML file).
   
-Now check out the (http-protocol-demo.md)[./http-protocol-demo.md] page and walk through our demo of the HTTP Protocol
+Now check out the [http-protocol-demo.md](http-protocol-demo.md) page and walk through our demo of the HTTP Protocol
