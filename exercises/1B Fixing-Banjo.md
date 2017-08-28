@@ -22,11 +22,13 @@ We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](
 
 ## https versus http
 One more thing to watch for on banjo - external scripts must be downloaded *securely* via https rather than by *insecure* http.
+
 Example - this will fail on banjo:
+
 `<script src=“http://code.jquery.com/jquery-2.2.0.min.js"></script>`
 
 `The page was not allowed to run insecure content from http://code.jquery.com/
 jquery-2.2.0.min.js.`
 
-Change it to this and jQuery will load as expected:
+Change it to the following and jQuery will load as expected:
 `<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>`
