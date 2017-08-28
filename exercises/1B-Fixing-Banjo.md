@@ -7,7 +7,7 @@ Most of these new issues are because Banjo has enabled the [Google PageSpeed Mod
 
 + https://moz.com/blog/use-googles-pagespeed-module-to-dramatically-increase-the-speed-of-your-website
 
-Unfortunately, there are undesirable byproducts for developers of web pages that are under active development: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
+Unfortunately, there are undesirable byproducts for creaters of web pages that are under active development: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
 
 ## II. .htaccess files to the rescue!
 
