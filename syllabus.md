@@ -10,7 +10,7 @@ IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Al
 - Professor Tony Jefferson  
 - Office: GOL-2139 (IGM Main Office)
 - Email: tony@mail.rit.edu
-- Office hours: TBA 
+- Office hours: Tuesday 2:00-3:00PM, Wednesday 11:00AM-Noon 
 - Class meetings : Tuesday/Thursday 11:00-12:20 in ORN-1370
 
 ## Instructor and Class Details (Sections 03, 04, 06)
