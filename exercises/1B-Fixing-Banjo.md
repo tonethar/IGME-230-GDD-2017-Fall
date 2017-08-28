@@ -34,6 +34,6 @@ Your code will fail and you will see this error in the browser console:
 `The page was not allowed to run insecure content from http://code.jquery.com/
 jquery-2.2.0.min.js.`
 
-Change the 'src' value to the following and jQuery will load as expected:
+If you change the 'src' value to the following, the jQuery will now successfully load:
 
 `<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>`
