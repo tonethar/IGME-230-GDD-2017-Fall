@@ -30,8 +30,10 @@ Example - this will fail on banjo:
 `<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>`
 
 Your code will fail and you will see this error in the browser console:
+
 `The page was not allowed to run insecure content from http://code.jquery.com/
 jquery-2.2.0.min.js.`
 
 Change the 'src' value to the following and jQuery will load as expected:
+
 `<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>`
