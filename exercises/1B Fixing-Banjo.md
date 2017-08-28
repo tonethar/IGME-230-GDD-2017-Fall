@@ -1,12 +1,12 @@
 # Saving banjo.rit.edu from itself
-banjo.rit.edu is the new RIT web server for http://people.rit.edu
+`banjo.rit.edu` is the new RIT web server for http://people.rit.edu
 
-While this new Web server, banjo.rit.edu, solves a lot of problems of the old gibson.rit.edu, it also creates a host of new ones. 
+While this new web server, solves a lot of problems we had with the old `gibson.rit.edu`, it also creates a host of new ones. 
 Basically, the server implements several techniques to help pages load faster and more consistently.
 
 + https://moz.com/blog/use-googles-pagespeed-module-to-dramatically-increase-the-speed-of-your-website
 
-Unfortunately, there are undesireable byproducts: it makes HTML/CSS/JavaScript debugging more difficlult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
+Unfortunately, there are undesirable byproducts for developers: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
 
 **How? .htaccess files!**
 
