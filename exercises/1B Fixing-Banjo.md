@@ -3,11 +3,11 @@
 `banjo.rit.edu` is the new RIT web server for http://people.rit.edu
 
 While this new web server solves a lot of problems we had with the old `gibson.rit.edu`, it also creates a host of new ones. 
-Basically, the server implements several techniques to help pages load faster and more consistently.
+Basically, the server implements the [Google PageSpeed Module](https://www.modpagespeed.com) to help pages load significantly faster and more consistently. 
 
 + https://moz.com/blog/use-googles-pagespeed-module-to-dramatically-increase-the-speed-of-your-website
 
-Unfortunately, there are undesirable byproducts for developers: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
+Unfortunately, there are undesirable byproducts for developers of web pages that are under active development: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
 
 ## II. .htaccess files to the rescue!
 
