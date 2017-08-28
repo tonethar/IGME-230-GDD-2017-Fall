@@ -23,7 +23,7 @@ We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](
 **Note:** The reason we don't use the "." before uploading the file is that on Unix-based systems, like the Mac, any file starting with a "." is considered a system file and *hidden* - i.e., invisible, and difficult for us to find in order to upload to the server.)
 
 ## IV. HTTPS versus HTTP
-One more thing to watch for on banjo - external scripts must be downloaded *securely* via https rather than by *insecure* http.
+One more thing to watch for on banjo - external scripts must be downloaded *securely* via **https** rather than by *insecure* **http**.
 
 Example - this will fail on banjo:
 
