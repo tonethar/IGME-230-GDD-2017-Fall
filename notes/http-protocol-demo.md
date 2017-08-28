@@ -7,7 +7,7 @@ The Hypertext Transfer Protocol (HTTP) is an application *protocol* (a system of
 
 A critical part of the HTTP protocol are *HTTP Headers*, which allow the client and the server to pass additional information with the request or the response. 
 
-+ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
++ Read this --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 
 Let's use the command line to connect to RIT's web server and request the default RIT home page (this is what web browsers do).
