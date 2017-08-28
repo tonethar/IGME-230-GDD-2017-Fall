@@ -1,7 +1,7 @@
 # Saving banjo.rit.edu from itself
 `banjo.rit.edu` is the new RIT web server for http://people.rit.edu
 
-While this new web server, solves a lot of problems we had with the old `gibson.rit.edu`, it also creates a host of new ones. 
+While this new web server solves a lot of problems we had with the old `gibson.rit.edu`, it also creates a host of new ones. 
 Basically, the server implements several techniques to help pages load faster and more consistently.
 
 + https://moz.com/blog/use-googles-pagespeed-module-to-dramatically-increase-the-speed-of-your-website
@@ -12,7 +12,7 @@ Unfortunately, there are undesirable byproducts for developers: it makes HTML/CS
 
 .htaccess files allow you to make web server configuration changes on a per-folder basis. 
 
-We have given you a text file named "htaccess" (inside of the FixingBanjo.zip file) that contains a single line of text - "ModPagespeed off" (without the quotes). This unsurprisingly tells the webserver to not enable ModPagespeed for the directory that contains the file, and all of its sub-directories.
+We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](FixingBanjo.zip) file) that contains a single line of text - "ModPagespeed off" (without the quotes). This unsurprisingly tells the webserver to not enable ModPagespeed for the directory that contains the file, and all of its sub-directories.
 
 ## So, here's what to do:
 1. Using your SFTP client of choice, upload this file to the www folder on your banjo.rit.edu account.
