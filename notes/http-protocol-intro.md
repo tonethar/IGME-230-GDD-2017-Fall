@@ -18,7 +18,7 @@ A complete document is reconstructed from the different sub-documents fetched, f
 + **Read this** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
 ## Discussion
-- HTTP is simple and human readable. You will see this is so in our [HTTP Protocol Demo](http-protocol-demo.md)today.
+- HTTP is simple and human readable. You will see this is so in our [HTTP Protocol Demo](http-protocol-demo.md) today.
 - HTTP can control *cacheing* (of web pages for example), *authentication* (is someone allowed to view a file or folder?), *sessions* (is this the same person that logged in 5 minutes ago?), and *redirection* (sending a browser to another location if a file has moved)
 
 ## Review Questions
