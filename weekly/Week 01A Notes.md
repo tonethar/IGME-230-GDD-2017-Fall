@@ -70,14 +70,6 @@ Some projects from the next Web course:
 And some other really cool stuff:
 - http://www.chromeexperiments.com/
 
-## Links - for use throughout the semester
-- DOM (Document Object Model)
-  - What it is: *The **DOM** represents the document as nodes and objects. That way, programming languages can connect to the page.*
-  - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-- http://getbootstrap.com
-- http://www.pixijs.com
-- https://en.wikipedia.org/wiki/Single-page_application 
-
 ## Required Reading
 * [syllabus.md](../syllabus.md)
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
