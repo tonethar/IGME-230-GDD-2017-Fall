@@ -66,7 +66,7 @@ Homework and ICEs will NOT be accepted late without a valid excuse (procrastinat
 Note: 1 absence 4/5 points, 2 absences 3/5 points, 3 absences 1.5/5 points, 4 absences 0 points. **Each additional absence is 5% off of final average.** Arriving late is 1/2 absence. Facebooking or similar off-task activity during lectures or demos will count as a absence for the day.
 
 ### Policy on Incomplete Grades
-Incomplete grades will be given only in the most exceptional circumstances, soley for issues that arise AFTER the 'W' deadline has passed at the end of week 12, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor ASAP as early as possible in the semester if you're having difficulty. 
+Incomplete grades will be given only in the most exceptional circumstances, soley for issues that arise AFTER the 'W' deadline has passed at the end of week 11, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor ASAP as early as possible in the semester if you're having difficulty. 
 
 ### Academic Dishonesty
 The course policy on academic dishonesty is simple: If you get caught cheating or plagiarizing, you get an "F" as a grade for the course, a letter detailing the incident goes into your records folder, and you are immediately removed from the class. (If this is a second occurrence during your career at RIT, the penalties are harsher.) Please review RIT's policy on academic dishonesty: 
