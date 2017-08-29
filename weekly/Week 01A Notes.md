@@ -81,3 +81,4 @@ Get a GitHub account (if you don't have one already), and go through the tutoria
 
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
+* [W3Schools - Fantastic resource for reference](https://www.w3schools.com/)
