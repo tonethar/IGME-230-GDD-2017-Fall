@@ -28,7 +28,7 @@ Because this Wikipedia article has many non-standard characters (like "smart" qu
 
 First, set up your document with the standard HTML5 "skeleton":
 
-`<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -37,7 +37,7 @@ First, set up your document with the standard HTML5 "skeleton":
 <body>
 
 </body>
-</html>`
+</html>```
 
 Now we need to mark the text up as HTML. (Use the actual wikipedia page as a refrerence.)
 
