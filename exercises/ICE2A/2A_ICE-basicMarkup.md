@@ -37,7 +37,8 @@ First, set up your document with the standard HTML5 "skeleton":
 <body>
 
 </body>
-</html>```
+</html>
+```
 
 Now we need to mark the text up as HTML. (Use the actual wikipedia page as a refrerence.)
 
