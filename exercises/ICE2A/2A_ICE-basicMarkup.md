@@ -62,7 +62,7 @@ Test it by going to `http://people.rit.edu/yourid/230/exercises/ICE2A` -- you sh
 ## Adding Basic CSS Formatting
 Now we're going to use CSS to start to make the page look a bit more like the original Wikipedia entry.
 
-Create a new file in the ICE2A folder called cremebrulee.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" href="cremebrulee.css"`. 
+Create a new file in the ICE2A folder called cremebrulee.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="cremebrulee.css" />`. 
 
 For today, since you've already done quite a bit of work, I'm going to give you the CSS to start with. Paste the following style rules into your cremebrulee.css file:
 
