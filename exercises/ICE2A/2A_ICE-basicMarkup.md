@@ -24,7 +24,7 @@ Use File->Save As... to save a new copy of the file called cremebrulee.html. Mak
 
 There are a lot of accented and foreign characters in this document. In HTML 4, the default character encoding for files was ISO-8859-1, which doesn't properly display special characters (like smart quotes and diacritical marks). Those characters had to be escaped out (e.g. &eacute; had to be represented as `&eacute;`, &copy; had to be represented as `&copy;`, and & had to be represented as `&amp;`)--if you didn't do that, they didn't display properly in the browser. HTML 5 uses UTF-8 encoding, which allows those special characters to appear properly in your document.
 
-Because this Wikipedia article has many non-standard characters (like "smart" quotes and diacritical marks), the UTF-8 encoding is very helpful. If you're using VS Code, try clicking in the bottom right corner of the window where it says "UTF-8", choose "Reopen with encoding," and select ISO-8859-1. Note what happens to all the non-standard characters in the document! If your HTML document doesn't use a character set of UTF-8--which is the default for HTML 5, but not for previous versions of HTML--that's what will display on the page. (Switch back to UTF-8 before you proceed.) 
+Because this Wikipedia article has many non-standard characters (like "smart" quotes and diacritical marks), the UTF-8 encoding is very helpful. 
 
 First, set up your document with the standard HTML5 "skeleton":
 
