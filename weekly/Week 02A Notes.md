@@ -37,10 +37,9 @@ Together, we'll build a Web page, reviewing the following:
 <a href=“../../index.html”>P1</a>
 ```
    - Don’t start a path with / (This goes to the root, usually WAY above your user account)
-   - Remember rules for filenames in your paths:
-   -- No spaces
-   -- No special characters (?, !, *, etc.)
-   -- Avoid caps (case-sensitive)
+   - No spaces
+   - No special characters (?, !, *, etc.)
+   - Avoid caps (case-sensitive)
 
 ## Note on using images
 Images should always be integrated into your page at their native resolution. Resizing via HTML or CSS causes long load times and uses up unnecessary space on our server, and also leads to distortion.
