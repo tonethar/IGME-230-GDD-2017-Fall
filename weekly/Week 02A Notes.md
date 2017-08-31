@@ -5,14 +5,21 @@
 - Structural and semantic tags
 - HTML validation
 
+## The layers of Web design
+	1. Content
+	1. Structure
+	1. Presentation
+	1. Behavior
+
 ## Demo
-Together, we'll build a Web page using the following tags:
-   - Creating a local 230 directory
-   - Reminder: keep backups, bring a flash drive to class; the 230 folder is where all work will be done moving forward.
-   - Connect to Banjo (banjo.rit.edu, port 22) and upload that 230 directory to have it there for when we need it.
-   - Review permissions (at this point, you shouldn’t need to change these, but just in case)
-   - Reminder: Banjo is the FTP name, while the browser accesses people.rit.edu
-   - Navigate to that directory via browser, and you should see nothing. Note that we will be building actual pages shortly.
+Together, we'll build a Web page, reviewing the following:
+   - Basic markup and structure
+   - Structural and semantic elements
+   	- Structural markup is using to encode information about the structure of a document. Examples: <heading>, <footer>, <div>, and <span>
+	- Semantic markup means using tags that add meaning to the content. Examples: citations, acronyms, quoted text, lists, emphasized text
+Structural markup such as <div> delineate major sections of the document and are also block-level elements that sit on their own line. 
+Semantic markup such as <cite> add extra information without altering the structure of a document, and may be either inline or block elements.
+
 
 ## HTML Skeleton
 This is the bare minimum needed for a valid HTML document:
