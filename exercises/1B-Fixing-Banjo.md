@@ -41,7 +41,7 @@ We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](
 **Note:** The reason we don't use the "." before uploading the file is that on Unix-based systems, like the Mac, any file starting with a "." is considered a system file and *hidden* - i.e., invisible, and difficult for us to find in order to upload to the server.
 
 ## IV. Discussion:
-*If you check the Inspector's Network tab again you should see that Banjo is no longer sending the `X-Mod-Pagespeed` header, which menas that Banjo is no longer compressing the CSS & JS before sending the page to the web browser.*
+*If you check the Inspector's Network tab again you should see that Banjo is no longer sending the `X-Mod-Pagespeed` header, which means that Banjo is no longer compressing the CSS & JS before sending the page to the web browser.*
 
 
 ## V. One more thing: HTTPS versus HTTP
