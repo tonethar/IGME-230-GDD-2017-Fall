@@ -35,7 +35,7 @@ We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](
 
 `ModPagespeed off`
 
-This unsurprisingly tells the web server to not enable ModPagespeed for the directory that contains the file, and all of its sub-directories.
+This unsurprisingly tells the web server to disable the PageSpeed module for the directory that contains the file, and all of its sub-directories.
 
 ## III. Instructions:
 1. Using your SFTP client of choice, upload this file to the www folder on your banjo.rit.edu account.
@@ -45,6 +45,8 @@ This unsurprisingly tells the web server to not enable ModPagespeed for the dire
 **Note:** The reason we don't use the "." before uploading the file is that on Unix-based systems, like the Mac, any file starting with a "." is considered a system file and *hidden* - i.e., invisible, and difficult for us to find in order to upload to the server.
 
 ## IV. Discussion:
+*If you did everything correctly, you have disabled the PageSpeed module for your www folder and all of its sub-directories.*
+
 *If you check the Inspector's Network tab again you should see that Banjo is no longer sending the `X-Mod-Pagespeed` header, which means that Banjo is no longer compressing the CSS & JS before sending the page to the web browser.*
 
 *So what do .htaccess files DO? They simply let us "script" the behavior of the web server on a per-folder basis.*
