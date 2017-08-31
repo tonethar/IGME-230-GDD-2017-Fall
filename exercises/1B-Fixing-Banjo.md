@@ -43,6 +43,8 @@ We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](
 ## IV. Discussion:
 *If you check the Inspector's Network tab again you should see that Banjo is no longer sending the `X-Mod-Pagespeed` header, which means that Banjo is no longer compressing the CSS & JS before sending the page to the web browser.*
 
+*So what do .htaccess files DO? They simply let us "script" the behavior of the web server on a per-folder basis.*
+
 
 ## V. One more thing: HTTPS versus HTTP
 One more thing to watch for on banjo - external scripts must be downloaded *securely* via **https** rather than by *insecure* **http**.
