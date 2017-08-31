@@ -10,10 +10,10 @@ Most of these new issues are because Banjo has enabled the [Google PageSpeed Mod
 Unfortunately, there are undesirable byproducts for creaters of web pages that are under active development: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
 
 ### An example of PageSpeed module causing trouble
-**A) Here's some CSS and JavaScript we've created for a simple game. Note how it's nicely indented and easy to read.**
+**A) Here's some CSS and JavaScript we've created for a simple game. Note how the &lt;style&gt; and &lt;script&gt; tags are nicely indented and easy to read.**
 ![Code listing](images/banjo-code-listing.jpg)
 
-**B) When we upload it to Banjo, and view it in the Inspector, you can see how the white space has been stripped out, and it's harder to read**
+**B) When we upload it to Banjo, and view it in the Inspector, you can see how the white space has been stripped out the contents of &lt;style&gt; and &lt;script&gt;, and it's harder to read**
 ![Compressed code listing](images/banjo-code-listing-server-compressed.jpg)
 
 
