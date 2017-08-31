@@ -20,12 +20,12 @@ Unfortunately, there are undesirable byproducts for creaters of web pages that a
 ![Compressed code listing](images/banjo-code-listing-server-compressed.jpg)
 
 
-**C) If we look in the Inspector again, under the Network tab, we can actually see that the Banjo server is utilizing an HTTP header (X-Mod-Pagespeed) to let the web browser know "Hey, I'm using the PageSpeed module!"**
+**C) If we look in the Inspector again, under the Network tab, we can actually see that the Banjo server is utilizing an HTTP header (*X-Mod-Pagespeed*) to let the web browser know "Hey, I'm using the PageSpeed module!"**
 
 ![HTTP Headers](images/banjo-modpagespeed-headers.jpg)
 
 
-**In this instance, the browser doesn't seem to be doing anything about it that we know of. But because HTTP headers are human readable, it's easy for us as web developers to see why our CSS and JS is getting compressed.**
+***In this instance, the browser doesn't seem to be doing anything about it that we know of. But because HTTP headers are human readable, it's easy for us as web developers to see why our CSS and JS is getting compressed. Move on to the next part to turn off the PageSpeed module!***
 
 ## II. .htaccess files to the rescue!
 
@@ -40,7 +40,11 @@ We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](
 
 **Note:** The reason we don't use the "." before uploading the file is that on Unix-based systems, like the Mac, any file starting with a "." is considered a system file and *hidden* - i.e., invisible, and difficult for us to find in order to upload to the server.
 
-## IV. HTTPS versus HTTP
+## IV. Discussion:
+**If you check the Inspector's Network tab again you should see that Banjo is no longer sending the *X-Mod-Pagespeed* header, which menas that Banjo is no longer compressing the CSS & JS before sending the page to the web browser.**
+
+
+## V. One more thing: HTTPS versus HTTP
 One more thing to watch for on banjo - external scripts must be downloaded *securely* via **https** rather than by *insecure* **http**.
 
 Example - this will fail on banjo:
