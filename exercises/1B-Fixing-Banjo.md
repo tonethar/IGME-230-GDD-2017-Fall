@@ -9,6 +9,12 @@ Most of these new issues are because Banjo has enabled the [Google PageSpeed Mod
 
 Unfortunately, there are undesirable byproducts for creaters of web pages that are under active development: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
 
+### An example of PageSpeed modul causing trouble
+Here's some CSS and JavaScript we've created for a simple game
+![Code listing](images/banjo-code-listing.jpg)
+
+
+
 ## II. .htaccess files to the rescue!
 
 .htaccess files allow you to make web server configuration changes on a per-folder basis. 
