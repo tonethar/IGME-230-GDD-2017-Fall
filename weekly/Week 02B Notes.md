@@ -3,37 +3,31 @@
 ## Topics
 - Where we can put CSS
 - Selectors, IDs, classes, pseudo-classes
-- CSS inheritance
-- CSS validation
+- Styles
+- Float
+- Inheritance
+- Validation
 
 ## Review and Demo
 Together, we'll add to our previous Web page, reviewing the following:
 - Inline, embedded, and external (linked) CSS
 - IDs, classes, pseudo-classes
-
+- Basic styles
+- Styling anchor tags
+```
+a:link{}
+a:visited{}
+a:active{}
+a:hover{}
+```
+- Inheritance
 
 ## The CSS Box Model
-
-
-## HTML Skeleton
-This is the bare minimum needed for a valid HTML document:
-
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>
-```
+![BoxModel](../other-files/BoxModel.png)
 
 ## Validation
-https://validator.w3.org/
+http://jigsaw.w3.org/css-validator/
 
 ## Exercises
-- [Basic Markup](../exercises/ICE2A/2A_ICE-basicMarkup.md)
-- [230 Home Page](../exercises/2A_230-home-page.md)
+- [CSS Styling](../exercises/ICE2B.zip)
+- [230 Home Page](../exercises/2A_230-home-page.md) - Finish up the CSS portion of this and get it working online! Make sure both today's ICE and the 2A ICE are linked from your page.
