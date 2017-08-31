@@ -30,6 +30,10 @@ Together, we'll build a Web page, reviewing the following:
    - img
    - comments: `<!-- This is a comment. -->`
 
+## Note on using images
+Images should always be integrated into your page at their native resolution. Resizing via HTML or CSS causes long load times and uses up unnecessary space on our server, and also leads to distortion.
+See our in-class demo for a refresher on proper image optimization.
+
 ## HTML Skeleton
 This is the bare minimum needed for a valid HTML document:
 
