@@ -31,7 +31,11 @@ Unfortunately, there are undesirable byproducts for creaters of web pages that a
 
 .htaccess files allow you to make web server configuration changes on a per-folder basis. 
 
-We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](FixingBanjo.zip) file) that contains a single line of text - "ModPagespeed off" (without the quotes). This unsurprisingly tells the webserver to not enable ModPagespeed for the directory that contains the file, and all of its sub-directories.
+We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](FixingBanjo.zip) file) that contains a single line of text:
+
+`ModPagespeed off`
+
+This unsurprisingly tells the web server to not enable ModPagespeed for the directory that contains the file, and all of its sub-directories.
 
 ## III. Instructions:
 1. Using your SFTP client of choice, upload this file to the www folder on your banjo.rit.edu account.
