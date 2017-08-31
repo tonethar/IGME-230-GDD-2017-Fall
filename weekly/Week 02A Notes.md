@@ -50,7 +50,5 @@ This is the bare minimum needed for a valid HTML document:
 https://validator.w3.org/
 
 ## Exercises
-- [Basic Markup](../exercises/1B-Fixing-Banjo.md)
+- [Basic Markup](../exercises/ICE2A/2A_ICE-basicMarkup.md)
 - [230 Home Page](../exercises/2A_230-home-page.md)
-
-
