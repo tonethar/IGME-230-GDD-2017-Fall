@@ -40,7 +40,7 @@ This unsurprisingly tells the web server to disable the PageSpeed module for the
 ## III. Instructions:
 1. Using your SFTP client of choice, upload this file to the www folder on your banjo.rit.edu account.
 2. Then, on Banjo, change its filename from htaccess to .htaccess (just add a "." to the front of the name). Make sure you set the permissions on this file to 644. Then you should be all good!
-3. **Important:** If you already have a .htaccess file in the www folder, don't replace it with the one we gave you. Instead, just add ModPagespeed off to the end of it.
+3. **Important:** If you already have a .htaccess file in the www folder, don't replace it with the one we gave you. Instead, just add `ModPagespeed off` to the end of it.
 
 **Note:** The reason we don't use the "." before uploading the file is that on Unix-based systems, like the Mac, any file starting with a "." is considered a system file and *hidden* - i.e., invisible, and difficult for us to find in order to upload to the server.
 
