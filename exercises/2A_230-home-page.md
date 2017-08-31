@@ -24,3 +24,6 @@ When you're all done, make sure the link from the class list page works. If it d
 - Section 04: https://people.rit.edu/~spbics/230-04.shtml
 - Section 06: https://people.rit.edu/~spbics/230-06.shtml
 This is how we will be checking all exercises and other work moving forward, unless we explicitly ask for dropbox or GitHub submission.
+
+**Due date:**
+This assignment is due at the start of Week 3. Note that we are covering HTML in 2A, and CSS in 2B, so you might only be able to do the HTML part at first.
