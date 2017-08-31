@@ -24,5 +24,6 @@ FTP review:
 
 
 ## Reference
-- https://www.rit.edu/webdev/authenticating-and-authorizing-rit-users
+- Banjo Docs: https://www.rit.edu/webdev/authenticating-and-authorizing-rit-users
+- Advanced Scripting with .htaccess files: https://www.askapache.com/htaccess/
 
