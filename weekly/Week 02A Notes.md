@@ -51,6 +51,6 @@ https://validator.w3.org/
 
 ## Exercises
 - [Basic Markup](../exercises/1B-Fixing-Banjo.md)
-- 230 Home Page
+- [230 Home Page](../exercises/2A_230-home-page.md)
 
 
