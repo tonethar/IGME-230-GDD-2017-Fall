@@ -6,10 +6,10 @@
 - HTML validation
 
 ## The layers of Web design
-	1. Content
-	1. Structure
-	1. Presentation
-	1. Behavior
+   1. Content
+   1. Structure
+   1. Presentation
+   1. Behavior
 
 ## Review and Demo
 Together, we'll build a Web page, reviewing the following:
