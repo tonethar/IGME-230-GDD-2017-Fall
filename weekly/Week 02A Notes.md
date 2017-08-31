@@ -3,6 +3,7 @@
 ## Topics
 - HTML Basics
 - Structural and semantic tags
+- Paths
 - HTML validation
 
 ## The layers of Web design
@@ -29,6 +30,16 @@ Together, we'll build a Web page, reviewing the following:
    - ul, ol, li
    - img
    - comments: `<!-- This is a comment. -->`
+- Paths for linking between pages and other resources
+``` <a href=“bio.html”>Bio Page</a>
+   <a href=“proj/p1/proj1.html”>P1</a>
+<a href=“../../index.html”>P1</a>```
+   - Don’t start a path with / (This goes to the root, usually WAY above your user account)
+   - Remember rules for filenames in your paths:
+   -- No spaces
+   -- No special characters (?, !, *, etc.)
+   -- Avoid caps (case-sensitive)
+
 
 ## Note on using images
 Images should always be integrated into your page at their native resolution. Resizing via HTML or CSS causes long load times and uses up unnecessary space on our server, and also leads to distortion.
