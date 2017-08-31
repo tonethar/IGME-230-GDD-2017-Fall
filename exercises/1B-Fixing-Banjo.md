@@ -15,7 +15,7 @@ Unfortunately, there are undesirable byproducts for creaters of web pages that a
 ![Code listing](images/banjo-code-listing.jpg)
 
 
-**B) When we upload it to Banjo, and view it in the Inspector, you can see how the white space has been stripped out the contents of the &lt;style&gt; and &lt;script&gt; tags, and the code is harder to read and debug.**
+**B) When we upload it to Banjo, and view it in the Inspector, you can see how the white space has been stripped out of the contents of the &lt;style&gt; and &lt;script&gt; tags, and the code is harder to read and debug.**
 
 ![Compressed code listing](images/banjo-code-listing-server-compressed.jpg)
 
