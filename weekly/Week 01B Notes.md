@@ -22,3 +22,7 @@ FTP review:
 - ["Fixing Banjo" files (ZIP)](../exercises/FixingBanjo.zip)
 - [Custom 404 Pages and Authentication files (ZIP)](../exercises/Custom_404_Auth_start.zip)
 
+
+## Reference
+- https://www.rit.edu/webdev/authenticating-and-authorizing-rit-users
+
