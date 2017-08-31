@@ -15,12 +15,20 @@
 Together, we'll build a Web page, reviewing the following:
    - Basic markup and structure
    - Structural and semantic elements
-   	- Structural markup is using to encode information about the structure of a document. Examples: `<heading>, <footer>, <div>, and <span>`. Structural markup such as `<div>` delineates major sections of the document and are also block-level elements that sit on their own line. 
-	- Semantic markup means using tags that add meaning to the content. Examples: `<cite>, <quot>, <ul>, <ol>, <em>`. Semantic markup such as `<cite>` adds extra information without altering the structure of a document, and may be either inline or block elements.
+   	-- Structural markup is using to encode information about the structure of a document. Examples: `<heading>, <footer>, <div>, and <span>`. Structural markup such as `<div>` delineates major sections of the document and are also block-level elements that sit on their own line. 
+	-- Semantic markup means using tags that add meaning to the content. Examples: `<cite>, <quot>, <ul>, <ol>, <em>`. Semantic markup such as `<cite>` adds extra information without altering the structure of a document, and may be either inline or block elements.
    - HTML5 structural tags enhance our structure and give us more to work with later on:
-   	- `<header>, <main>, <nav>, <aside>, <figure>, <footer>`, etc.
-	- https://www.w3schools.com/html/html5_new_elements.asp
-
+   	-- `<header>, <main>, <nav>, <aside>, <figure>, <footer>`, etc.
+	-- https://www.w3schools.com/html/html5_new_elements.asp
+   - *Container* tags describe content contained within them. Ex: `<p>, <a>, <span>, <div>`
+   - *Standalone* tags describe no additional information. Ex: `<img>, <link>`
+   - Tags to know:
+   -- h1, h2, etc.
+   -- p
+   -- a
+   -- ul, ol, li
+   -- img
+   -- comments: `<!-- This is a comment. -->`
 
 ## HTML Skeleton
 This is the bare minimum needed for a valid HTML document:
@@ -38,17 +46,11 @@ This is the bare minimum needed for a valid HTML document:
 </html>
 ```
 
-
-## Presentations
-- [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
+## Validation
+https://validator.w3.org/
 
 ## Exercises
-- ["Fixing Banjo" instructions](../exercises/1B-Fixing-Banjo.md)
-- ["Fixing Banjo" files (ZIP)](../exercises/FixingBanjo.zip)
-- [Custom 404 Pages and Authentication files (ZIP)](../exercises/Custom_404_Auth_start.zip)
+- [Basic Markup](../exercises/1B-Fixing-Banjo.md)
+- 230 Home Page
 
-
-## Reference
-- Banjo Authentication Docs: https://www.rit.edu/webdev/authenticating-and-authorizing-rit-users
-- Advanced Scripting with .htaccess files: https://www.askapache.com/htaccess/
 
