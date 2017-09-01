@@ -12,6 +12,7 @@ Your page's design is up to you, but it needs to contain the following elements:
   - Each of the 3 class projects
   - Your in-class exercises (which will be added as links every day); just include a section on the page for these
 * A link back to our class list page (see below)
+* A link to your GitHub repo for this class
 * A pleasing (or at least tolerable) color scheme and layout, using your [CRAP](http://www.presentationzen.com/chapter6_spread.pdf) principles and other design guidelines
 * You should use an *external CSS* file for all of your styles.
 * Your CSS should include at least 2 ID and 2 classes
