@@ -37,8 +37,10 @@ Here are some examples *relative* paths. When you are linking to other pages and
 <a href="personal-bio.html">Bio Page</a>
 <a href="proj/p1/proj1.html">P1</a>
 <a href="../../index.html">P1</a>
+'''
 
 And here are *absolute* paths. When you are linking to other pages and files that are **outside** of your banjo account, you will usually use a relative path:
+
 ```
 <a href="http://www.google.com">Go to Google</a>
 <img src="http://igm.rit.edu/designcraft/IGM_logo.png" alt="IGM Logo" />
