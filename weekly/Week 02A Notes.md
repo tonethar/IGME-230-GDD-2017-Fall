@@ -46,13 +46,14 @@ And here are *absolute* paths. When you are linking to other pages and files tha
 <img src="http://igm.rit.edu/designcraft/IGM_logo.png" alt="IGM Logo" />
 ```
 
-Ocassionally you may need use *absolute* paths to files located within your bajo account. THis is how to do it:
+Ocassionally you may need use *absolute* paths to files located within your bajo account. This is how to do it:
 ```
 <img id="hypno" src="/abc1234/230/error/hypnotoad.gif" alt="hypnotoad"/>
 ```
 
-   - Don’t start a path with / (This goes to the root, usually WAY above your user account)
-   - No spaces
+Other tips:
+   - Don't start a path with / (This goes to the root, usually WAY above your user account)
+   - No spaces in path names (use %20) - better yet, don't have spaces in your file names
    - No special characters (?, !, *, etc.)
    - Avoid caps (case-sensitive)
 
