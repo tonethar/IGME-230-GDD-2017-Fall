@@ -30,12 +30,25 @@ Together, we'll build a Web page, reviewing the following:
    - ul, ol, li
    - img
    - comments: `<!-- This is a comment. -->`
-- Paths for linking between pages and other resources
+- Paths for linking between pages and other resources. 
+
+Here are some examples *relative* paths. When you are linking to other pages and files that are located within your banjo account, you will usually use a relative path:
 ``` 
-<a href=“bio.html”>Bio Page</a>
-<a href=“proj/p1/proj1.html”>P1</a>
-<a href=“../../index.html”>P1</a>
+<a href="personal-bio.html">Bio Page</a>
+<a href="proj/p1/proj1.html">P1</a>
+<a href="../../index.html">P1</a>
+
+And here are *absolute* paths. When you are linking to other pages and files that are **outside** of your banjo account, you will usually use a relative path:
 ```
+<a href="http://www.google.com">Go to Google</a>
+<img src="http://igm.rit.edu/designcraft/IGM_logo.png" alt="IGM Logo" />
+```
+
+Ocassionally you may need use *absolute* paths to files located within your bajo account. THis is how to do it:
+```
+<img id="hypno" src="/abc1234/230/error/hypnotoad.gif" alt="hypnotoad"/>
+```
+
    - Don’t start a path with / (This goes to the root, usually WAY above your user account)
    - No spaces
    - No special characters (?, !, *, etc.)
