@@ -32,6 +32,9 @@ a:hover{}
 ## Validation
 http://jigsaw.w3.org/css-validator/
 
+## Presentations
+- [Intro to CSS](../presentations/CSS-Intro.pdf)
+
 ## Reference
 [Lynda.com: Learning CSS, Sections 1-3](https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html)
 
