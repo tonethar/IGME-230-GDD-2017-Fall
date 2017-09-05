@@ -82,4 +82,4 @@ https://validator.w3.org/
 
 ## Exercises
 - [Basic Markup](../exercises/ICE2A/2A_ICE-basicMarkup.md)
-- [230 Home Page](../exercises/2A_230-home-page.md) - You can get started on this, but it also involves CSS which we'll cover next!
+- [230 Home Page](../exercises/week-2/230-home-page.md) - You can get started on this, but it also involves CSS which we'll cover next!
