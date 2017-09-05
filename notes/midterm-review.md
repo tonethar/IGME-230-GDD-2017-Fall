@@ -19,3 +19,10 @@
 ## Basic HTML
 
 ## Basic CSS
+1. Give an example of a CSS `type` selector.
+1. Give an example of a CSS `class` selector.
+1. Give an example of a CSS `id` selector.
+1. Give an example of a CSS `descendant` selector (aka descendant combinator)
+
+## CSS Rollovers
+1. Give the 
