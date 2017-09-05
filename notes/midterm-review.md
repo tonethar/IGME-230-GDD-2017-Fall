@@ -11,7 +11,8 @@
 
 ## FTP
 1. Give the name (address) of the `http://people.rit.edu` web server (that you FTP files to).
-1. 
+1. What are the numeric permissions that are required for web viewable directories?
+1. What are the numeric permissions that are required for web viewable file?
 
 ## Intro To Web
 
