@@ -14,7 +14,7 @@ I've put uploaded a file called [cremebrulee.txt](cremebrulee.txt) to Github. Wh
 
 To download that text file to your computer for editing, right-click on the button in the top right corner of the file that says "Raw," choose "Save link as...", and save the file to the week1 folder you just created.
 
-You're also going to need to download the two images: [2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg](2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg) and [225px-Crema_Catalana_El_Glop.jpg](225px-Crema_Catalana_El_Glop.jpg). For each of those files, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your local week1 folder. Then epeat that process with the second image, . 
+You're also going to need to download the two images: [2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg](2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg) and [225px-Crema_Catalana_El_Glop.jpg](225px-Crema_Catalana_El_Glop.jpg). For each of those files, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your local week1 folder. Then repeat that process with the second image. 
 
 ## Marking Up a Text File
 
