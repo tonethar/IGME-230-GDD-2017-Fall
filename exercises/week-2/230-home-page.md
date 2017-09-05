@@ -28,6 +28,7 @@ When you're all done, make sure the link from the class list page works. If it d
 - Section 04: https://people.rit.edu/~spbics/230-04.shtml
 - Section 05: https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/students/class-list-05.md
 - Section 06: https://people.rit.edu/~spbics/230-06.shtml
+
 This is how we will be checking all exercises and other work moving forward, unless we explicitly ask for dropbox or GitHub submission.
 
 **Due date:**
