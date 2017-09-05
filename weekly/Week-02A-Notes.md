@@ -53,7 +53,7 @@ Ocassionally you may need use *absolute* paths to files located within your bajo
 ```
 
 - Other path tips:
-   - Don't start a path with / (This goes to the root, usually WAY above your user account)
+   - Be careful about starting a path with `/` (This goes to the root, usually WAY above your user account)
    - No spaces in path names (use %20) - better yet, don't have spaces in your file names
    - No special characters (?, !, *, etc.)
    - Avoid caps (case-sensitive)
