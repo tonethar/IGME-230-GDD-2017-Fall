@@ -49,7 +49,7 @@ And here are *absolute* paths. When you are linking to other pages and files tha
 
 Ocassionally you may need use *absolute* paths to files located within your bajo account. This is how to do it:
 ```
-<img id="hypno" src="/abc1234/230/error/hypnotoad.gif" alt="hypnotoad"/>
+<img id="hypno" src="/~abc1234/230/error/hypnotoad.gif" alt="hypnotoad"/>
 ```
 
 - Other path tips:
