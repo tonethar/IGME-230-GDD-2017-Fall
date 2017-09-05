@@ -26,6 +26,7 @@ Your page's design is up to you, but it needs to contain the following elements:
 When you're all done, make sure the link from the class list page works. If it doesn't, you need to fix something!
 - Section 03: https://people.rit.edu/~spbics/230-03.shtml
 - Section 04: https://people.rit.edu/~spbics/230-04.shtml
+- Section 05: https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/students/class-list-05.md
 - Section 06: https://people.rit.edu/~spbics/230-06.shtml
 This is how we will be checking all exercises and other work moving forward, unless we explicitly ask for dropbox or GitHub submission.
 
