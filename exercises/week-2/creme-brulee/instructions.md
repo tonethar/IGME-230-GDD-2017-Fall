@@ -51,7 +51,7 @@ Now we need to mark the text up as HTML. (Use the actual wikipedia page as a ref
 
 Don't worry about adding links yet; we'll be doing that next week. 
 
-When you're done, preview your document in your editor or browser. It should look something like this: ![Creme Brulee Page Without CSS](cremebrulee1.png)
+When you're done, preview your document in your editor or browser. It should look something like this: ![Creme Brulee Page Without CSS](images/cremebrulee1.png)
 
 ## Publishing Your Files
  
@@ -88,7 +88,7 @@ h1 {
     font-size: xx-large;
 }
 ```
-Save the changes your HTML and CSS files, and upload them to your ICE2A directory. Your cremebrulee.html file should now look more like this: ![Creme Brulee Page With CSS](cremebrulee2.png)
+Save the changes your HTML and CSS files, and upload them to your ICE2A directory. Your cremebrulee.html file should now look more like this: ![Creme Brulee Page With CSS](images/cremebrulee2.png)
 
 You're done!
 
