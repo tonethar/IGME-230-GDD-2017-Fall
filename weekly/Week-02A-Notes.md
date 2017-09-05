@@ -81,6 +81,10 @@ This is the bare minimum needed for a valid HTML document:
 ## Validation
 https://validator.w3.org/
 
+## Presentations
+- [Welcome to HTML](../presentations/HTML-1.pdf)
+- [More About HTML](../presentations/HTML-2.pdf)
+
 ## Reference
 - [developer.mozilla.org HTML Element Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) - All the HTML elements grouped by function
 - [Lynda.com HTML Essential Training, Lessons 4-5.](https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?org=rit.edu) - discusses structuring content, and linking to distinct parts of your page.
