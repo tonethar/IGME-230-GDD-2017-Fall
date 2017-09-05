@@ -81,5 +81,5 @@ This is the bare minimum needed for a valid HTML document:
 https://validator.w3.org/
 
 ## Exercises
-- [Basic Markup](../exercises/ICE2A/2A_ICE-basicMarkup.md)
-- [230 Home Page](../exercises/week-2/230-home-page.md) - You can get started on this, but it also involves CSS which we'll cover next!
+- [Basic Markup/CSS - Creme Brulee](../exercises/week-2/creme-brulee/)
+- [230 Home Page](../exercises/week-2/230-home-page.md) - You can get started on this, but it also involves CSS which we'll cover next time!
