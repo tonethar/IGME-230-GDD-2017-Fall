@@ -3,6 +3,7 @@
 - Cobey Adekanbi - http://people.rit.edu/cja1093/230
 - Paul Avallone - http://people.rit.edu/paa9307/230
 - Matthew Barry - http://people.rit.edu/mxb9517/230
+- Declan Behan - http://people.rit.edu/deb2610/230
 - Matt Belanger - http://people.rit.edu/mrb3617/230
 - Christian Brobst - http://people.rit.edu/ctb4332/230
 - Barrington Campbell - http://people.rit.edu/bfc6072/230
