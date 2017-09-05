@@ -33,7 +33,7 @@ a:hover{}
 http://jigsaw.w3.org/css-validator/
 
 ## Exercises
-- [CSS Styling](../exercises/week-2/ICE2B.zip)
+- [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
 - [230 Home Page](../exercises/week-2/230-home-page.md) - Finish up the CSS portion of this and get it working online! Make sure both today's ICE and the 2A ICE are linked from your page.
 
 <!---
