@@ -32,6 +32,9 @@ a:hover{}
 ## Validation
 http://jigsaw.w3.org/css-validator/
 
+## Reference
+- https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html 
+
 ## Exercises
 - [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
 - [230 Home Page](../exercises/week-2/230-home-page.md) - Finish up the CSS portion of this and get it working online! Make sure both today's ICE and the 2A ICE are linked from your page.
