@@ -11,7 +11,8 @@
 1. Give two ways to verify that we have success
 
 ## FTP
-1. What is the name (address) of the web server 
+1. Give the name (address) of the `http://people.rit.edu` web server (that you FTP files to).
+1. 
 
 ## Intro To Web
 
