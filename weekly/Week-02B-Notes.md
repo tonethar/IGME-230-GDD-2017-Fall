@@ -33,7 +33,7 @@ a:hover{}
 http://jigsaw.w3.org/css-validator/
 
 ## Reference
-- https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html 
+- [Lynda.com: Learning CSS, Sections 1-3](https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html)
 
 ## Exercises
 - [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
