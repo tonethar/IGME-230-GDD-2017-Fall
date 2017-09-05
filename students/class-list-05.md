@@ -29,4 +29,4 @@
 - Austin Stone - http://people.rit.edu/axs6207/230
 - Emily Turner - http://people.rit.edu/ekt6170/230
 - Bryce Tynes - http://people.rit.edu/blt7138/230
-- Alec Walker - http://people.rit.edu/axw1799	/230
+- Alec Walker - http://people.rit.edu/axw1799/230
