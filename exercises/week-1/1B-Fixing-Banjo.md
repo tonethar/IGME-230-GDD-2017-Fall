@@ -37,6 +37,8 @@ We have given you a text file named "htaccess" (inside of the [FixingBanjo.zip](
 
 This unsurprisingly tells the web server to disable the PageSpeed module for the directory that contains the file, and all of its sub-directories.
 
+Note: htaccess files are *plain text* files - just like HTML, CSS or JS files - make sure they DO NOT have any kind of file extension when you create them (example .txt, .html etc).
+
 ## III. Instructions:
 1. Using your SFTP client of choice, upload this file to the www folder on your banjo.rit.edu account.
 2. Then, on Banjo, change its filename from htaccess to .htaccess (just add a "." to the front of the name). Make sure you set the permissions on this file to 644. Then you should be all good!
