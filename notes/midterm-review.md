@@ -25,4 +25,5 @@
 1. Give an example of a CSS `descendant` selector (aka descendant combinator)
 
 ## CSS Rollovers
-1. Give the 
+1. Give the 4 CSS `pseudo selectors` that are used to create CSS rollover effects.
+
