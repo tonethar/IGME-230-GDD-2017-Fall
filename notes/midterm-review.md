@@ -7,7 +7,7 @@
 1. What does the **404** status code mean?
 1. Why is the **HOST** request header required?
 1. Who (the client? the server? both?) can send text and/or images?
-1. Give two ways to verify that we have successfully "turned off" banjo's mod pagespeed extension.
+1. Give two ways to verify that we have successfully "turned off" banjo's PageSpeed module.
 
 ## FTP
 1. Give the name (address) of the `http://people.rit.edu` web server (that you FTP files to).
