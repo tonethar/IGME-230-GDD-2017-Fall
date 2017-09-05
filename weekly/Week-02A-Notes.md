@@ -82,7 +82,8 @@ This is the bare minimum needed for a valid HTML document:
 https://validator.w3.org/
 
 ## Reference
-[Lynda.com HTML Essential Training, Lessons 4-5.](https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?org=rit.edu) - discusses structuring content, and linking to distinct parts of your page.
+- [All the HTML elements grouped by function](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Lynda.com HTML Essential Training, Lessons 4-5.](https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?org=rit.edu) - discusses structuring content, and linking to distinct parts of your page.
 
 ## Exercises
 - [Basic Markup/CSS - Creme Brulee](../exercises/week-2/creme-brulee/instructions.md)
