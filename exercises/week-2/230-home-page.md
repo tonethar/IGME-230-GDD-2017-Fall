@@ -5,7 +5,7 @@ For this assignment you will create a personal 230 "home page" where you will be
 
 ## Requirements
 * The page will be named index.html
-* The page will be located at `http://people.rit.edu/~abc1234/230/` - where 'abc1234' is replaced by your actual id on banjo.
+* The page will be located at `http://people.rit.edu/yourid/230/`
 
 Your page's design is up to you, but it needs to contain the following elements:
 * A level-1 heading that reads "YOUR NAME's 230 Page" (replacing "YOUR NAME" with your own name, obviously)
