@@ -16,7 +16,7 @@
 Together, we'll build a Web page, reviewing the following:
 - Basic markup and structure
 - Structural and semantic elements
-   - Structural markup is using to encode information about the structure of a document. Examples: `<heading>, <footer>, <div>, and <span>`. Structural markup such as `<div>` delineates major sections of the document and are also block-level elements that sit on their own line. 
+   - Structural markup is using to encode information about the structure of a document. Examples: `<header>, <footer>, <div>, and <span>`. Structural markup such as `<div>` delineates major sections of the document and are also block-level elements that sit on their own line. 
    - Semantic markup means using tags that add meaning to the content. Examples: `<cite>, <quot>, <ul>, <ol>, <em>`. Semantic markup such as `<cite>` adds extra information without altering the structure of a document, and may be either inline or block elements.
 - HTML5 structural tags enhance our structure and give us more to work with later on:
    - `<header>, <main>, <nav>, <aside>, <figure>, <footer>`, etc. These are also called *Content Sectioning Elements*.
