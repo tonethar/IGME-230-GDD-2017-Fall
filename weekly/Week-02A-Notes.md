@@ -85,6 +85,9 @@ https://validator.w3.org/
 - [Welcome to HTML](../presentations/HTML-1.pdf)
 - [More About HTML](../presentations/HTML-2.pdf)
 
+## Demo Files
+- [It Was a Dark and Stormy Night](../other-files/Week-2-demo-files.zip)
+
 ## Reference
 - [developer.mozilla.org HTML Element Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) - All the HTML elements grouped by function
 - [Lynda.com HTML Essential Training, Lessons 4-5.](https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?org=rit.edu) - discusses structuring content, and linking to distinct parts of your page.
