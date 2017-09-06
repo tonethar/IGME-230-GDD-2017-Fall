@@ -30,6 +30,7 @@
 1. Give an example of a CSS `type` selector.
 1. Give an example of a CSS `class` selector.
 1. Give an example of a CSS `id` selector.
+1. Give an an example of a style rule that utilizes the CSS `universal` selector?
 1. Give an example of a CSS `descendant` selector (aka descendant combinator)
 
 ## CSS Rollovers
