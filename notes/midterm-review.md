@@ -21,7 +21,7 @@
 1. Describe the 4 *layers* (or *pillars*) of web design.
 1. What language do we use to add *structure* to a web page?
 1. Which layer of web design is responsible for how web pages look?
-1. How can we add *behvaior* to a web page?
+1. How can we add *behavior* to a web page?
 
 
 ## Basic HTML
