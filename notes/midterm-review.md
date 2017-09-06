@@ -14,7 +14,10 @@
 1. What are the numeric permissions that are required for web viewable *directories*?
 1. What are the numeric permissions that are required for web viewable *files*?
 
+## .htaccess files
+
 ## Intro To Web
+1. Describe the 4 *layers* (or *pillars*) of web design.
 
 
 ## Basic HTML
