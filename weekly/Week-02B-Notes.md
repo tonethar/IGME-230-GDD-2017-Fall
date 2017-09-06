@@ -40,6 +40,7 @@ http://jigsaw.w3.org/css-validator/
 
 ## Demo
 - [Completed structured content (from 2A)](../other-files/2A_demo-done.zip)
+- [Completed CSS demo](../other-files/2B_Demo_Done.zip)
 
 ## Exercises
 - [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
