@@ -91,6 +91,7 @@ https://validator.w3.org/
 ## Reference
 - [developer.mozilla.org HTML Element Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) - All the HTML elements grouped by function
 - [Lynda.com HTML Essential Training, Lessons 4-5.](https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?org=rit.edu) - discusses structuring content, and linking to distinct parts of your page.
+- [W3Schools](https://www.w3schools.com) - Fantastic reference for all things Web (HTML, CSS, JavaScript, etc.)
 
 ## Exercises
 - [Basic Markup/CSS - Creme Brulee](../exercises/week-2/creme-brulee/instructions.md)
