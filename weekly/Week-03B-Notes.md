@@ -36,7 +36,8 @@ Our demo today covers:
 - [CSS Wrap-up](../presentations/CSS-Wrap-Up.pdf)
 
 ## Demo
-- Files will be posted when we're done!
+- [CSS Layout Demos](../other-files/Week-3-CSS-Layout-Demos.zip)
+- Additional files will be posted when we're done!
 
 ## Exercises
 - [Stylish Navigation](../exercises/week-3/ICE-3B-1.pdf)
