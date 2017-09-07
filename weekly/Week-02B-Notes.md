@@ -25,8 +25,8 @@ a:hover{}
 ## The CSS Box Model
 ![BoxModel](../other-files/BoxModel.png)
 
-*margin* is space that is "outside the box"
-*padding* is space that is "inside the box"
++ *margin* is space that is "outside the box"
++ *padding* is space that is "inside the box"
 
 ## Validation
 http://jigsaw.w3.org/css-validator/
