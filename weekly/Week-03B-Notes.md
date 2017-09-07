@@ -36,7 +36,7 @@ Our demo today covers:
 - [CSS Wrap-up](../presentations/CSS-Wrap-Up.pdf)
 
 ## Demo
-- [CSS Layout Demos](../other-files/Week-3-CSS-Layout-Demos.zip)
+- [CSS Layout Demos](../other-files/3B-CSS-Layout-Demos.zip)
 - Additional files will be posted when we're done!
 
 ## Exercises
