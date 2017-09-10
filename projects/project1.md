@@ -32,7 +32,7 @@ By <s>this time next week</s> **the beginning of the first class of week 4**, yo
 - **Try to use a consistent structure on all of your 4 pages by repeating many of your design elements - for example: the `<header>`, `<footer>` and `<nav>` elements should be in the same place and have the same colors, fonts and spacing.**
 - **Be sure to have descriptive `<title>` elements for each page.**
 -	CSS selectors and rules will be used for formatting and positioning: 
-  -	The style rules will be located in an external style sheet.
+  -**Most of** The style rules will be located in an external style sheet.
   -	There will be at least 5 style declarations (rules) in your document. 
   -	At least one of your style declarations will utilize a class selector.
   -	At least one of your style declarations will utilize an id selector.
