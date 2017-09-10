@@ -29,8 +29,8 @@ By the beginning of the first class of week 4, your content must be written, chu
   
 ## HTML/CSS Markup ##
 -	Structural tags like `<header>`, `<section>`, `<article>`, `<nav>`, and `<footer>` should be used appropriately.
-- Try to use a consistent structure on all of your 4 pages by repeating many of your design elements - for example: the `<header>`, `<footer>` and `<nav>` elements should be in the same places on each page and have the same colors, fonts and spacing.**
-- **Be sure to have descriptive `<title>` elements for each page.
+- Try to use a consistent structure on all of your 4 pages by repeating many of your design elements - for example: the `<header>`, `<footer>` and `<nav>` elements should be in the same places on each page and have the same colors, fonts and spacing.
+- Be sure to have descriptive `<title>` elements for each page.
 -	CSS selectors and rules will be used for formatting and positioning: 
   - Most of the style rules will be located in an external style sheet.
   -	There will be at least 5 style declarations (rules) in your external style sheet. 
