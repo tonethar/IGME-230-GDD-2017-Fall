@@ -84,6 +84,9 @@ Your project will be graded on the following criteria:
 | Uses images appropriately (proper format, dimensions, and file size) | 5 | |
 | Site is fully accessible even without graphics enabled | 5 | |
 | Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 10 | |
-| Responsive design supports viewports as low as 480px wide | 5 | |
+| Responsive design supports viewports as low as 480px wide | 10 | |
 | **Possible Total Points** | **100** | |
+
+| Deduction if initial checkpoint is not submitted to GitHub | -10 | |
+
 
