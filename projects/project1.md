@@ -24,7 +24,7 @@ By <s>this time next week</s> **the beginning of the first class of week 4**, yo
     - **This page will be a game design document, specifically a "Game Treatment" that describes the development side of your game. This page is not a marketing document.**
     - **You should be hitting most or all of the things on this template: http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html - you can also read more about game treatments here: http://thelegendofjohnny.com/tutorials/game-treatment**
     - **This page will be marked up primarily with structural and semantic tags listed below.**
-    - **This page should contain at least two images.**
+    - **This page will contain at least two images.**
   
   - documentation.html: A documentation page, which will document your overall process, resources used, and notes about this current assignment. Cite the sources of all information, tutorials, images and other media used. Also indicate how you met the project requirements, and any additional specifics you want me to see.
   - project.html: The game or app itself (this will just be a placeholder for now)
