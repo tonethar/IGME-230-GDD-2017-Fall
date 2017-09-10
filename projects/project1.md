@@ -36,8 +36,8 @@ By <s>this time next week</s> **the beginning of the first class of week 4**, yo
 -	CSS selectors and rules will be used for formatting and positioning: 
   - **Most of** The style rules will be located in an external style sheet.
   -	There will be at least 5 style declarations (rules) in your <s>document</s> **external style sheet**. 
-  -	At least one of your style declarations will utilize a class selector.
-  -	At least one of your style declarations will utilize an id selector.
+  -	At least one of your style declarations will utilize a *class selector*.
+  -	At least one of your style declarations will utilize an *id selector*.
 
 ## Design ## 
 - College-level work
