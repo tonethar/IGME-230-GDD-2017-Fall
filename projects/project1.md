@@ -47,7 +47,7 @@ By the beginning of the first class of week 4, your content must be written, chu
 - Text should be of sufficient size and contrast to be easily readable
 - Responsive Design: 
   - At a minimum, you must support screen sizes equal to or less than max-width: 480px
-  - Your design should be re-formatted to support these smaller screens. Changing font-size, margins, moving side bars, hiding elements, and ??? are all options
+  - Your design should be re-formatted to support these smaller screens. Changing font-size, margins, moving side bars, hiding elements, and ??? are all options.
 
 ## Other Requirements ##
 - Do not use an HTML/CSS template that you found on the web or elsewhere! Build the HTML and CSS yourself "from scratch". Ignoring this requirement will result in a zero on the assignment and possible other acedemic integrity consequences.
@@ -75,12 +75,12 @@ Your project will be graded on the following criteria:
 | -------- | ------ | ---------- |
 | The game treatment content is substantial, informative and written at the college level (including correct spelling, grammar, and puncuation); includes required content and all required pages | 25 | |
 | All pages and support files are appropriately named and mounted in the correct directories | 5 | |
-| HTML validates correctly (HTML5) | 5 | |
-| CSS validates correctly (CSS3) | 5 | |
-| CSS is used to control formatting, and stored in an external stylesheet| 5 | |
-| HTML and CSS are appropriately used and well formed, clean, accurate, etc.; images are not resized in HTML, tables aren't used for layout, and there aren't unnecessarily large blocks of commented code | 10 | |
+HTML and CSS are appropriately used and well formed, clean, accurate, etc.; images are not resized in HTML, tables aren't used for layout, and there aren't unnecessarily large blocks of commented code | 10 | |
 | Appropriate use of HTML structures to describe pages (```<title>, <nav>, <header>, <footer>```, etc.) and organize content (headers, lists, etc.)  | 10 | |
+| HTML validates correctly (HTML5) | 5 | |
+| CSS is used to control formatting, and stored in an external stylesheet| 5 | |
 | CSS uses at least 5 style declarations, at least one class and at least one ID | 5 | |
+| CSS validates correctly (CSS3) | 5 | |
 | Uses images appropriately (proper format, dimensions, and file size) | 5 | |
 | Site is fully accessible even without graphics enabled | 5 | |
 | Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 10 | |
