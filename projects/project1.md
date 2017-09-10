@@ -16,12 +16,13 @@ By this time next week, your content should be written, chunked, and organized, 
 - The title of your (intended) project.
 - A brief description of the project.
 - The following pages (each in separate HTML files):
-  - index.html: your "landing" page (the default file for your project1 directory) - **This page should have a brief introduction **
+  - index.html: your "landing" page (the default file for your project1 directory):
+    - **This page should have a brief overview of your project, contain at least one image, and most importantly grab the user's attention**
   - proposal.html: what you plan to do, in more detail than the overview:
     - **This page will be a game design document, specifically a "Game Treatment" that describes the development side of your game. This page is not a marketing document.**
     - **You should be hitting most or all of the things on this template: http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html - you can also read more about game treatments here: http://thelegendofjohnny.com/tutorials/game-treatment**
     - **This page will be marked up primarily with structural and semantic tags listed below.**
-    - ***This page should contain at least two images.**
+    - **This page should contain at least two images.**
   
   - documentation.html: A documentation page, which will document your overall process, resources used, and notes about this current assignment. Cite the sources of all information, tutorials, images and other media used. Also indicate how you met the project requirements, and any additional specifics you want me to see.
   - project.html: The game or app itself (this will just be a placeholder for now)
