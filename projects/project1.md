@@ -10,7 +10,7 @@ Your main page for the tutorial will be the index page for this directory. You m
 
 ## Content and Structure ##
 Content is the foundation of the Web; all pages exist to present some content, not the other way round. For this reason, your content needs to be written **first**.
-By this time next week, your content should be written, chunked, and organized, and posted to your repo on GitHub. We will be checking this! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
+By <s>this time next week</s> **the beginning of the first class of week 4**, your content <s>should</s> **must** be written, chunked, and organized, and posted to your repo on GitHub. We will be checking this! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
 
 ## Required Content ## 
 - The title of your (intended) project.
