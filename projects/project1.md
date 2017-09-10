@@ -17,7 +17,7 @@ By <s>this time next week</s> **the beginning of the first class of week 4**, yo
 - A brief description of the project.
 - The following pages (each in separate HTML files):
   - index.html: your "landing" page (the default file for your project1 directory):
-    - **This page should have a brief overview of your project, contain at least one image, and most importantly grab the user's attention**
+    - **This page must have a brief overview of your project, contain at least one image, and most importantly grab the user's attention.**
   - proposal.html: what you plan to do, in more detail than the overview:
     - **This page will be a game design document, specifically a "Game Treatment" that describes the development side of your game. This page is not a marketing document.**
     - **You should be hitting most or all of the things on this template: http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html - you can also read more about game treatments here: http://thelegendofjohnny.com/tutorials/game-treatment**
@@ -28,7 +28,9 @@ By <s>this time next week</s> **the beginning of the first class of week 4**, yo
   - project.html: The game or app itself (this will just be a placeholder for now)
   
 ## HTML/CSS Markup ##
--	Structural tags like `<header>`, `<section>`, `<article>`, `<nav>`, and `<footer>` should be used appropriately. 
+-	Structural tags like `<header>`, `<section>`, `<article>`, `<nav>`, and `<footer>` should be used appropriately.
+- **Try to use a consistent structure on all of your 4 pages by repeating many of your design elements - for example: the `<header>`, `<footer>` and `<nav>` elements should be in the same place and have the same colors, fonts and spacing.**
+- **Be sure to have descriptive `<title>` elements for each page.**
 -	CSS selectors and rules will be used for formatting and positioning: 
   -	The style rules will be located in an external style sheet.
   -	There will be at least 5 style declarations (rules) in your document. 
