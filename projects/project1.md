@@ -42,6 +42,7 @@ By this time next week, your content should be written, chunked, and organized, 
   - Your design should be re-formatted to support these smaller screens. Changing font-size, margins, moving side bars, hiding elements, and ??? are all options
 
 ## Other Requirements ##
+- **Do not use an HTML/CSS template that you found on the web or elsewhere! Build the HTML and CSS yourself "from scratch". Ignoring this requirement will result in a zero on the assignment and possible other acedemic integrity consequences.**
 - HTML tables used only for tabular data, not page layout.
 - No plugin content
 - Site is fully accessible even without graphics enabled (e.g., use the alt attribute for all images)
