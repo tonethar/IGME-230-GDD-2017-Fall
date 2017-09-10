@@ -82,7 +82,7 @@ Your project will be graded on the following criteria:
 | HTML and CSS code is appropriately used and well formed, clean, accurate, etc. (includes proper use of img tags and tables) | 10 | |
 | Appropriate use of HTML structures to describe pages (<title>, <nav>, <header>, <footer>, etc.) and organize content (headers, lists, etc.); images are not resized in HTML | 10 | |
 | CSS uses at least 5 style declarations, at least one class and at least one id | 5 | |
-| Uses images appropriately | 5 | |
+| Uses images appropriately (proper format, dimensions, and file size) | 5 | |
 | Site is fully accessible even without graphics enabled | 5 | |
 | Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 10 | |
 | Responsive design supports viewports as low as 480px wide | 5 | |
