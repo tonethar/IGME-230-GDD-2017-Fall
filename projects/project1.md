@@ -79,7 +79,7 @@ Your project will be graded on the following criteria:
 | CSS validates correctly (CSS3) | 5 | |
 | CSS is used to control formatting, and stored in an external stylesheet| 5 | |
 | HTML and CSS are appropriately used and well formed, clean, accurate, etc.; images are not resized in HTML, tables aren't used for layout, and there aren't unnecessarily large blocks of commented code | 10 | |
-| Appropriate use of HTML structures to describe pages (<title>, <nav>, <header>, <footer>, etc.) and organize content (headers, lists, etc.)  | 10 | |
+| Appropriate use of HTML structures to describe pages (```<title>, <nav>, <header>, <footer>```, etc.) and organize content (headers, lists, etc.)  | 10 | |
 | CSS uses at least 5 style declarations, at least one class and at least one ID | 5 | |
 | Uses images appropriately (proper format, dimensions, and file size) | 5 | |
 | Site is fully accessible even without graphics enabled | 5 | |
