@@ -36,6 +36,7 @@ By the beginning of the first class of week 4, your content must be written, chu
   -	There will be at least 5 style declarations (rules) in your external style sheet. 
   -	At least one of your style declarations will utilize a *class selector*.
   -	At least one of your style declarations will utilize an *id selector*.
+  - Utilize custom link styles on all your pages by utilizing the `a:link`, `a:hover`, `a:active` and `a:visited` selectors. (These 4 selectors do not count towards the 5 style rule requirement above)
   - Avoid using *inline* styles.
 
 ## Design ## 
