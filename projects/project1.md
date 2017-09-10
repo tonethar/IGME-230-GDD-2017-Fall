@@ -53,8 +53,8 @@ By the beginning of the first class of week 4, your content must be written, chu
 - Do not use an HTML/CSS template that you found on the web or elsewhere! Build the HTML and CSS yourself "from scratch". Ignoring this requirement will result in a zero on the assignment and possible other acedemic integrity consequences.
 - HTML tables used only for tabular data, not page layout.
 - No plugin content
-- Site is fully accessible even without graphics enabled (e.g., use the alt attribute for all images)
-- Images are not resized via code; all images should be at their native resolutions. If you need an image to be smaller, resize it in your graphic editor of choice.
+- Site is fully accessible even without graphics enabled (e.g., use the `alt` attribute for all images)
+- Images are not resized via code; all images must be at their native resolutions. If you need an image to be smaller, resize it in your graphic editor of choice.
 - Additional "above and beyond" work.
 
 # Critique Session #
