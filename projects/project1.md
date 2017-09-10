@@ -9,7 +9,9 @@ Location: The page will be located in the project1 directory in your 230 directo
 Your main page for the tutorial will be the index page for this directory. You must have css and media directories to store the associated files. **Remember**: Our server is case sensitive, so your files must use the case indicated in this assignment. 
 
 ## Content and Structure ##
-Content is the foundation of the Web; all pages exist to present some content, not the other way round. For this reason, your content needs to be written **first**.
+Content is the foundation of the Web; all pages exist to present some content, not the other way round. For this reason, your content needs to be written **first**. **Your primary content is a "game design treatment" containing most or all of the information found here: http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html** 
+
+
 By <s>this time next week</s> **the beginning of the first class of week 4**, your content <s>should</s> **must** be written, chunked, and organized, and posted to your repo on GitHub. We will be checking this! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
 
 ## Required Content ## 
@@ -32,7 +34,7 @@ By <s>this time next week</s> **the beginning of the first class of week 4**, yo
 - **Try to use a consistent structure on all of your 4 pages by repeating many of your design elements - for example: the `<header>`, `<footer>` and `<nav>` elements should be in the same place and have the same colors, fonts and spacing.**
 - **Be sure to have descriptive `<title>` elements for each page.**
 -	CSS selectors and rules will be used for formatting and positioning: 
-  -**Most of** The style rules will be located in an external style sheet.
+  - **Most of** The style rules will be located in an external style sheet.
   -	There will be at least 5 style declarations (rules) in your document. 
   -	At least one of your style declarations will utilize a class selector.
   -	At least one of your style declarations will utilize an id selector.
