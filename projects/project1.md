@@ -73,8 +73,7 @@ Your project will be graded on the following criteria:
 
 | Criteria | Weight | Your Score |
 | -------- | ------ | ---------- |
-| Includes required content, and at least 6 steps, and all required pages (index, documentation, ≥1 more) | 10 | |
-| The game treatment content is substantial, informative and written at the college level (including correct spelling, grammar, and puncuation) | 25 | |
+| The game treatment content is substantial, informative and written at the college level (including correct spelling, grammar, and puncuation); Includes required content and all required pages | 25 | |
 | All pages and support files are appropriately named and mounted in the correct directories | 5 | |
 | HTML validates correctly (HTML5) | 5 | |
 | CSS validates correctly (CSS3) | 5 | |
