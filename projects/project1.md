@@ -74,6 +74,7 @@ Your project will be graded on the following criteria:
 | Criteria | Weight | Your Score |
 | -------- | ------ | ---------- |
 | Includes required content, and at least 6 steps, and all required pages (index, documentation, ≥1 more) | 10 | |
+| The "game treatment" content is substantial, informative and written at the college level (including correct spelling, grammar, and puncuation) | 25 | |
 | All pages and support files are appropriately named and mounted in the correct directories | 5 | |
 | HTML validates correctly (HTML5) | 5 | |
 | CSS validates correctly (CSS3) | 5 | |
@@ -81,7 +82,6 @@ Your project will be graded on the following criteria:
 | HTML and CSS code is appropriately used and well formed, clean, accurate, etc. (includes proper use of img tags and tables) | 10 | |
 | Appropriate use of HTML structures to describe pages (<title>, <nav>, <header>, <footer>, etc.) and organize content (headers, lists, etc.); images are not resized in HTML | 10 | |
 | CSS uses at least 5 style declarations, at least one class and at least one id | 5 | |
-| All "game treatment" content is correctly spelled and grammatically correct | 10 | |
 | Uses images appropriately | 5 | |
 | Site is fully accessible even without graphics enabled | 5 | |
 | Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 10 | |
