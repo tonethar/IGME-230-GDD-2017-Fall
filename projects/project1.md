@@ -13,8 +13,8 @@ Content is the foundation of the Web; all pages exist to present some content, n
 By <s>this time next week</s> **the beginning of the first class of week 4**, your content <s>should</s> **must** be written, chunked, and organized, and posted to your repo on GitHub. We will be checking this! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
 
 ## Required Content ## 
-- The title of your (intended) project.
-- A brief description of the project.
+- <s>The title of your (intended) project.</s> **(Is this needed or can it be said below?)**
+- <s>A brief description of the project.</s> **(Is this needed or can it be said below?)**
 - The following pages (each in separate HTML files):
   - index.html: your "landing" page (the default file for your project1 directory):
     - **This page must have a brief overview of your project, contain at least one image, and most importantly grab the user's attention.**
