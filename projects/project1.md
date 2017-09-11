@@ -9,7 +9,7 @@ Location: The page will be located in the project1 directory in your 230 directo
 Your main page for the tutorial will be the index page for this directory. You must have css and media directories to store the associated files. **Remember**: Our server is case sensitive, so your files must use the case indicated in this assignment. 
 
 ## Content and Structure ##
-Content is the foundation of the Web; all pages exist to present some content, not the other way round. For this reason, your content needs to be written **first**. Your primary content is a *game design treatment* containing most or all of the information found here: http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html
+Content is the foundation of the Web; all pages exist to present some content, not the other way round. For this reason, your content needs to be written **first**. Your primary content is a *game design treatment* containing most or all of the information found on this template: http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html
 
 
 By the beginning of the first class of week 4, your content must be written, chunked, and organized, and posted to your repo on GitHub as a markdown file named `230-project-1-content.md`. We will be checking this, and you need to **do your best work** as the content is weighted heavily on the rubric (see below)! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
