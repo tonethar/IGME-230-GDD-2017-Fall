@@ -32,6 +32,9 @@ There's a lot of contention in the Web world on how to position and control elem
 - [HTML Keywords and Tables](../presentations/Keywords-and-Tables.pdf)
 - [CSS Positioning](../presentations/CSS-P.pdf)
 
+## Reference
+- https://www.w3schools.com/html/html_tables.asp
+
 ## Demo
 - Files will be posted when we're done!
 
