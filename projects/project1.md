@@ -75,17 +75,17 @@ Your project will be graded on the following criteria:
 
 | Criteria | Weight | Your Score |
 | -------- | ------ | ---------- |
-| The game treatment content is substantial, informative and written at the college level (including correct spelling, grammar, and puncuation); includes required content and all required pages | 25 | |
-| All pages and support files are appropriately named and mounted in the correct directories | 5 | |
+| The game treatment content is substantial, informative and written at the college level (including correct spelling, grammar, and punctuation); includes required content and all required pages | 20 | |
+| All pages and support files are appropriately named and mounted in the correct directories with correct file permissions | 5 | |
 HTML and CSS are appropriately used and well formed, clean, accurate, etc.; images are not resized in HTML, tables aren't used for layout, and there aren't unnecessarily large blocks of commented code | 10 | |
 | Appropriate use of HTML structures to describe pages (```<title>, <nav>, <header>, <footer>```, etc.) and organize content (headers, lists, etc.)  | 10 | |
 | HTML validates correctly (HTML5) | 5 | |
 | At least 5 CSS style declarations are used to control formatting, and stored in an external stylesheet| 5 | |
-| CSS Selectors: you must use at least one *class* and one *id* selector | 5 | |
+| CSS Selectors: the external style sheet must use at least one *class* and one *id* selector | 5 | |
 | CSS validates correctly (CSS3) | 5 | |
 | Uses images appropriately (proper format, dimensions, and file size) | 5 | |
+| Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 15 | |
 | Site is fully accessible even without graphics enabled | 5 | |
-| Overall aesthetic (use of font, color, image, CRAP principles, etc.) is appropriate for this type of site; all necessary items are styled, no default link colors | 10 | |
 | Responsive design supports viewports as low as 480px wide | 10 | |
 | **Possible Total Points** | **100** | |
 | Deduction if initial checkpoint is not submitted to GitHub on time | -10 | |
