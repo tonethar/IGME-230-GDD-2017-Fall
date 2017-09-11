@@ -57,7 +57,6 @@ By the beginning of the first class of week 4, your content must be written, chu
 - Site is fully accessible even without graphics enabled (e.g., use the `alt` attribute for all images)
 - Images are not resized via code; all images must be at their native resolutions. If you need an image to be smaller, resize it in your graphic editor of choice.
 - Images must be saved in the appropriate web-friendly format i.e. Photographs are usually saved as jpegs, presentational web graphics are saved as PNGs or GIFs.
-- Additional "above and beyond" work.
 
 # Critique Session #
 The second class of week 5, we will have a critique session in class. In small groups, you will both give and receive feedback on your projects, so be prepared for this discussion.
