@@ -51,11 +51,12 @@ By the beginning of the first class of week 4, your content must be written, chu
   - Your design should be re-formatted to support these smaller screens. Changing font-size, margins, moving side bars, hiding elements, and ??? are all options.
 
 ## Other Requirements ##
-- Do not use an HTML/CSS template that you found on the web or elsewhere! Build the HTML and CSS yourself "from scratch". Ignoring this requirement will result in a zero on the assignment and possible other acedemic integrity consequences.
+- Do not use an HTML/CSS template that you found on the web or elsewhere! Build the HTML and CSS yourself "from scratch". Ignoring this requirement will result in a zero on the assignment and possible other academic integrity consequences.
 - HTML tables used only for tabular data, not page layout.
-- No plugin content
+- No plugin content (Flash, et al.)
 - Site is fully accessible even without graphics enabled (e.g., use the `alt` attribute for all images)
 - Images are not resized via code; all images must be at their native resolutions. If you need an image to be smaller, resize it in your graphic editor of choice.
+- Images must be saved in the appropriate web-friendly format i.e. Photographs are usually saved as jpegs, presentational web graphics are saved as PNGs or GIFs.
 - Additional "above and beyond" work.
 
 # Critique Session #
