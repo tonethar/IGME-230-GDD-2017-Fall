@@ -38,7 +38,7 @@ There's a lot of contention in the Web world on how to position and control elem
 - Here is a nice CSS positioning demo: http://www.barelyfitz.com/screencast/html-training/css/positioning/
 
 ## Demo
-- Files will be posted when we're done!
+- [Tables and CSS Positioning](../other-files/3A_Demo_done.zip)
 
 ## Exercises
 - [Tables and CSS Positioning](../exercises/week-3/ICE-3A.pdf)
