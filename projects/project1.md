@@ -14,6 +14,8 @@ Content is the foundation of the Web; all pages exist to present some content, n
 
 By the beginning of the first class of week 4, your content must be written, chunked, and organized, and posted to your repo on GitHub as a markdown file named `230-project-1-content.md`. We will be checking this, and you need to **do your best work** as the content is weighted heavily on the rubric (see below)! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
 
+Note: If you have never use markdown before, it's extremely easy to work with. We will be doing a quick demo in class, and you might find this mardown "cheatsheet" handy: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ## Required Content ## 
 - The following pages (each in separate HTML files):
   - **index.html**: your "landing" page (the default file for your project1 directory):
