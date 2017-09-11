@@ -29,7 +29,7 @@ the border-collapse:collapse CSS selector and value, which removes the border sp
 There's a lot of contention in the Web world on how to position and control elements on a page. The most common approaches now are to utilize floats, margins, and flexible elements (sized in % or a similar relative measurement). However, understanding and applying more precise positioning is very useful when we get to DOM manipulation!
 
 ## Presentations
-- [The &lt;head> and Tables](../presentations/head-element-and-tables.pdf)
+- [The &lt;head> element and Tables](../presentations/head-element-and-tables.pdf)
 - [CSS Positioning](../presentations/CSS-P.pdf)
 
 ## Reference
