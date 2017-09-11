@@ -36,6 +36,7 @@ There's a lot of contention in the Web world on how to position and control elem
 - HTML tables are commonly used to display tabular data on the web. A quick walkthrough of how to use them is here:  https://www.w3schools.com/html/html_tables.asp
 - Do you want to use fonts that may not be on the user's machine? Import them from Google Fonts - https://fonts.google.com
 - How about *favicons* that the user can see in their browser? This wikipedia article will be helpful - https://en.wikipedia.org/wiki/Favicon
+- Here is a nice CSS positioning demo: http://www.barelyfitz.com/screencast/html-training/css/positioning/
 
 ## Demo
 - Files will be posted when we're done!
