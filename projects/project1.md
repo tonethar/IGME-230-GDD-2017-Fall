@@ -1,4 +1,4 @@
-# Project 1 - Game Proposal Site
+# Project 1 - Game Proposal Site #
 For project 3, you will be making a web game or "experience." To get you started thinking about this early, for Project 1 you'll be building a site to promote and document a web game project. For the purposes of project 1, don't worry too much about the scope of the game, or the fact that your specs will probably change. Just think about what you might want to make. (But when looking ahead to Project 3, when you actually have to build something, I suggest you keep an eye on the web for what sorts of apps and games other people are making that are small enough in scope for you to build in the span of a few weeks.)
 
 ## Requirements ##
