@@ -12,7 +12,7 @@ Your main page for the tutorial will be the index page for this directory. You m
 Content is the foundation of the Web; all pages exist to present some content, not the other way round. For this reason, your content needs to be written **first**. Your primary content is a *game design treatment* containing most or all of the information found here: http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html
 
 
-By the beginning of the first class of week 4, your content must be written, chunked, and organized, and posted to your repo on GitHub. We will be checking this, and do your best work as the content is weighted heavily on the rubric (see below)! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
+By the beginning of the first class of week 4, your content must be written, chunked, and organized, and posted to your repo on GitHub. We will be checking this, and you need to **do your best work** as the content is weighted heavily on the rubric (see below)! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
 
 ## Required Content ## 
 - The following pages (each in separate HTML files):
