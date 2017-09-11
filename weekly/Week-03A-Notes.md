@@ -6,10 +6,10 @@
 - Classes and IDs
 - Review of float
 - Positioning types:
-  - static
-  - relative
-  - absolute
-  - fixed
+  - static, or how we've done everything so far
+  - relative, or a position relative to where the element would be if it were unpositioned
+  - absolute, or a position relative to an element's container
+  - fixed, or a position relative to the top left of the window
 - z-index
 - visibility
 - overflow
