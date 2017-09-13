@@ -39,7 +39,7 @@ Our demo today covers:
 
 ## Demo
 - [CSS Layout Demos](../other-files/3B-CSS-Layout-Demos.zip)
-- Additional files will be posted when we're done!
+- [CSS Transition Demo](../other-files/3B-Transition-demo-done.zip)
 
 ## Exercises
 - [Stylish Navigation](../exercises/week-3/ICE-3B-1.pdf)
