@@ -25,25 +25,24 @@ This schedule is a tentative outline and subject to change. See the [weekly](wee
 * Week 3
 * Class 3A:
    - CSS and HTML wrapup
+   - 230 Page Assignment Due
 * Class 3B:
    - Web development process
    - Navigation and CRAP
- * End of week - 230 Page Assignment Due
  
 * Week 4
 * Class 4A:
+   - Visual design
+* Class 4B:
    - Responsive design
    - Darth exercise
-* Class 4B:
-   - Project 1 critique
-   * Project 1 due
-    * Portfolio deliverable #1 due
   
 * Week 5
 * Class 5A:
    - Frameworks (Bootstrap, Skeleton, Pure)
 * Class 5B:
-   - Catchup/anything missed
+   - Project 1 Critique
+*End of week: Project 1 due
   
 * Week 6
 * Week 7
