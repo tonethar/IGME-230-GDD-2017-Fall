@@ -5,6 +5,7 @@
 - Review: inline, embedded, and external CSS
 - Classes and IDs
 - Review of float
+  - Note: To make an element stop floating, use the CSS property ```{clear:both}```
 - Positioning types:
   - static, or how we've done everything so far
   - relative, or a position relative to where the element would be if it were unpositioned
