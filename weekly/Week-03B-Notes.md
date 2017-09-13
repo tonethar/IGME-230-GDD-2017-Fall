@@ -18,6 +18,7 @@
 ## Reference
 - [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 - https://fonts.google.com
+- https://caniuse.com
 
 CSS animation resources:
 - http://www.w3schools.com/cssref/css3_pr_transition.asp
