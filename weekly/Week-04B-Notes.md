@@ -11,7 +11,7 @@ This involves two parts. First, in your CSS:
 ```
 @media screen and (max-width: 480px) {
   */ note that you can target multiple screen widths, using multiple media queries /*
-	*/ Style rules here that adapt to the smaller screen /*	
+  */ Style rules here that adapt to the smaller screen /*	
 } 
 ```
 
