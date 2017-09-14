@@ -16,7 +16,7 @@
 - http://www.theworldsworstwebsiteever.com/
 - http://www.lingscars.com/
 - https://yvettesbridalformal.p1r8.net/
-- https://art.yale.edu
+- http://art.yale.edu
 
 ## Presentations
 - [CRAP and Visual Design](../presentations/4A-CRAP.pdf)
