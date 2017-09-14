@@ -8,14 +8,18 @@ Responsive design all boils down to a visual design that responds to the size of
 
 This involves two parts. First, in your CSS:
 
-```@media screen and (max-width: 480px) {
+```
+@media screen and (max-width: 480px) {
   */ note that you can target multiple screen widths, using multiple media queries /*
 	*/ Style rules here that adapt to the smaller screen /*	
-} ```
+} 
+```
 
 and then in the head of your HTML:
 
-``` 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> ```
+``` 	
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+```
 
 ## Reference
 - http://getbootstrap.com/
