@@ -24,6 +24,7 @@ and then in the head of your HTML:
 ## Reference
 - http://getbootstrap.com/
 - http://www.templatemo.com/
+
 We will look at Bootstrap and other frameworks later, but for now it's nice to see how it does responsive design!
 
 ## Media Query Resources
@@ -32,10 +33,11 @@ We will look at Bootstrap and other frameworks later, but for now it's nice to s
 - http://cssmediaqueries.com/
 
 ## Presentations
-- [Responsive Design](../presentations/4A-CRAP.pdf)
+- [Responsive Design](../presentations/4B-Responsive_Design.pdf)
 
 ## Demo
 - [Responsive page demo](../other-files/Responsive_Demo.zip)
 
 ## Exercise
-- [Analyzing Websites with CRAP](../exercises/week-4/Exercise-CRAP.docx)
+- [Responsive Design with CSS Media Queries](../exercises/week-4/ICE-ResponsiveCSS.pdf)
+- [Responsive Design start files](../exercises/week-4/darth_start_files.zip)
