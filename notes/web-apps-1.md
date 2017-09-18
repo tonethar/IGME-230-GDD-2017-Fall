@@ -1,6 +1,6 @@
 # Introduction to Web Applications
 
-## What is a "Web App"?
+## I. What is a "Web App"?
 
 The wikipedia definition - https://en.wikipedia.org/wiki/Web_application - is pretty good - *A web app is a client–server computer program in which the client (including the user interface and client-side logic) runs in a web browser. Common web applications include webmail, online retail sales, online auctions, wikis, instant messaging services and many other functions.*
 
@@ -8,7 +8,7 @@ In this course we are going to create some simple web apps that run in modern we
 The examples we will build include a calculator, an image gallery, an app that can search/download/play song previews from a music service, and simple games.
 Most of these apps will run entirely in the *client* (i.e. the web browser). Others (the music player) will utilize data downloaded from the Internet. 
 
-## What's in a web browser?
+## II. What's in a web browser?
 
 If we are going to build applications that run in web browsers, we need to understand the major components of the browser that can be scripted by us.
 
@@ -30,7 +30,7 @@ Here are some of the Web APIs that you will be using in this course and/or the f
 - **Web Storage** - store key/value pairs of data in the user's browser - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 
 
-## How do I know what browser APIs I can use in my web applications?
+## III. How do I know what browser APIs I can use in my web applications?
 As developers we want to create applications that take advantage of the latest browser features, but also don't leave users of more recent browsers behind. This can be a challenge because the various web browser vendors adopt new features a different times. 
 Sometimes new features are adopted long after *web standards* bodies have approved them, other times browser vendors will implement experimental features prior to a standard being agreed upon.
 
