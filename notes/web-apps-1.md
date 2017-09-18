@@ -39,15 +39,18 @@ Once a standard has reached "Recommendation" status its features are usually qui
 - World Wide Web Consortium (W3C) - https://www.w3.org/standards/webdesign/
 - Web Hypertext Application Technology Working Group (WHATWG) - https://spec.whatwg.org
 
-### Where can I learn about what the browser vendors are working on?
-
+### Where can I learn about new features the browser vendors are working on?
+Checking out the browser vendor web sites is a good way to see what kinds of capabilities are being considered.
 - https://www.chromium.org/blink
 - https://developer.mozilla.org/en-US/docs/Mozilla/Gecko
 - https://webkit.org
 - https://developer.microsoft.com/en-us/microsoft-edge/
 
-### The Mozilla Foundation probably has the best and most complete set of web API documentation:
+### Where's the web documentation?
+Because there is not one central authority on web standards, documentation is spread throughout the Internet. Here are some good sources of information: 
 - https://developer.mozilla.org/en-US/docs/Web/Guide
+- https://html.spec.whatwg.org/multipage/
 
-### The best web site for tracking the adoption of new browser capabilities: 
+### What's an easy way to keep all of this straight?
+The best web site for tracking the adoption of new browser capabilities: 
 - http://caniuse.com 
