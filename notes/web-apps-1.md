@@ -26,8 +26,8 @@ Here are some of the Web APIs that you will be using in this course and the foll
 - **Canvas** - procedural drawing and animation -  https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 - **Document Object Model (DOM)** - used to access and modify the contents and style  of a web page - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 - **Fetch** and **XMLHttpRequest** - used to fetch resources over a network - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API & https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
-- **Web Storage** - store key/value pairs of data in the user's browser - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 - **Web Audio** - analyze and add effects to audio such as reverb and panning, or create periodic waveforms from scratch using `OscillatorNode` - https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+- **Web Storage** - store key/value pairs of data in the user's browser - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 
 
 ## How do I know what browser APIs I can use in my web applications?
