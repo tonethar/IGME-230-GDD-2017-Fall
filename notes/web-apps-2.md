@@ -181,3 +181,14 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 </body>
 </html>
 ```
+
+### IX. Exercise
+Make a copy of *hello-4.html* and name it *web-apps-2.html*. Delete all of the existing  console.log cals, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
+
+- use a method of the `Array` object to append another color to the end of the `colors` array.
+- print out the last element in the `colors` array.
+- add a new property named `school` to the `person` object and give it a value of "RIT".
+- print out the number of seconds that have passed since 1970 - use the `Date` object.
+- print out the value of pi and the absolute value of -999 - use the `Math` object.
+- print out an all uppercase version of the string "Hello" - use a method of the `String` object.
+
