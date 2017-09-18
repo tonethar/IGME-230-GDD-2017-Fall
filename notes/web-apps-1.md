@@ -34,19 +34,20 @@ Here are some of the Web APIs that you will be using in this course and the foll
 As developers we want to create applications that take advantage of the latest browser features, but also don't leave users of more recent browsers behind. This can be a challenge because the various web browser vendors adopt new features a different times. 
 Sometimes new features are adopted long after standards bodies have approved them, other times browser vendors will implement experimental features prior to a standard being agreed upon.
 
-### The main standards bodies are here:
+### What are the major main web standards bodies?
+Once a standard has reached "Recommendation" status its features are usually quickly adopted by the major web browsers.
 - World Wide Web Consortium (W3C) - https://www.w3.org/standards/webdesign/
 - Web Hypertext Application Technology Working Group (WHATWG) - https://spec.whatwg.org
 
-### The Mozilla Foundation probably has the best and most complete set of web API documentation:
-- https://developer.mozilla.org/en-US/docs/Web/Guide
+### Where can I learn about what the browser vendors are working on?
 
-### Learn about what the browser vendors are up to here:
 - https://www.chromium.org/blink
 - https://developer.mozilla.org/en-US/docs/Mozilla/Gecko
 - https://webkit.org
 - https://developer.microsoft.com/en-us/microsoft-edge/
 
+### The Mozilla Foundation probably has the best and most complete set of web API documentation:
+- https://developer.mozilla.org/en-US/docs/Web/Guide
 
 ### The best web site for tracking the adoption of new browser capabilities: 
 - http://caniuse.com 
