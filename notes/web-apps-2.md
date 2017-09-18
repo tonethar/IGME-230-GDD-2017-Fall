@@ -83,7 +83,7 @@ Note that `const` and `let` are both part of the ES6 standard (you are learning 
      let sum = x + y;
      // string templating (ES6 only)
      console.log(`${x} + ${y} is ${sum}`); 
-	</script>
+   </script>
 </head>
 <body>
 </body>
