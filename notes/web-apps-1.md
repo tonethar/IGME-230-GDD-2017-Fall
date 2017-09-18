@@ -48,8 +48,8 @@ Checking out the browser vendor web sites is a good way to see what kinds of cap
 - https://webkit.org
 - https://developer.microsoft.com/en-us/microsoft-edge/
 
-### Where's the web documentation?
-Because there is not one central authority on web standards, documentation is spread throughout the Internet. Here are some good sources of information: 
+### Where is the official web documentation located?
+Because there is not one central authority on web standards, and the capabilities of the browsers are constant changing, documentation is spread throughout the Internet. Here are some good sources of information: 
 - https://developer.mozilla.org/en-US/docs/Web/Guide
 - https://html.spec.whatwg.org/multipage/
 
