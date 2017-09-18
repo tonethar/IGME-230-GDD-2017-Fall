@@ -10,7 +10,7 @@ The term JavaScript is actually trademarked by the Oracle Corporation, so the st
 
 
 ## II. History of JavaScript
-You can read the evolution of JavaScript & ECMAScript here:
+You can read about the evolution of JavaScript & ECMAScript here:
 
 - https://en.wikipedia.org/wiki/JavaScript
 - https://en.wikipedia.org/wiki/ECMAScript
