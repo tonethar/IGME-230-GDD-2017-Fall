@@ -175,9 +175,9 @@ JavaScript also contains a number of built-in objects that we can use. There is 
      let userName = undefined;
      let data = null;
 
-     console.log(sum.toFixed(2));
-     console.log(name.length);
-     console.log(isLoggedIn.toString());
+     console.log(sum.toFixed(2)); // 99.98
+     console.log(name.length); // 4
+     console.log(isLoggedIn.toString()); // "false"
 
 </script>
 </head>
