@@ -52,13 +52,13 @@ Go ahead and save this web page in an HTML file named hello-1.html and load it i
 
 The line of code - `console.log("Hello world!");` - doesn't do anything in the web browser window, but will instead be visible in the JavaScript console. We can see this console by right-clicking in the browser window and choosing **Inspect**. After that, choose the **Console** tab.
 
-![The JavaScript Console](images/console-1.jpg)
+![The JavaScript Console](_images/console-1.jpg)
 
 
 ## IV. The JavaScript console is interactive
 This console also contains an interactive interpreter where you can run JavaScript commands. At the prompt, type `Date()` to create and see a new date from the `Date` object, and `Math.random()` to get a random number from the `Math` object.
 
-![The JavaScript Console](images/console-2.jpg)
+![The JavaScript Console](_images/console-2.jpg)
 
 ## V. Declaring variables and constants
 We use the `const` keyword to declare constant values (that do not change), and the `let` keyword to declare variables. Note the we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
@@ -90,7 +90,7 @@ Note that `const` and `let` are both part of the ES6 standard (you are learning 
 </html>
 ```
 
-![The JavaScript Console](images/console-3.jpg)
+![The JavaScript Console](_images/console-3.jpg)
 
 - Note above when strings are added to numbers, we get back a concatenated string. 
 - Also see the *String Templating* used above - that's a newer ES6 feature that is more powerful than simple string concatenation. 
@@ -102,7 +102,7 @@ Note the backtick `` ` `` symbol is used to denote the string, and `${}` enclose
 The console will display error meessages that will help you debug your code. Let's produce an error by attempting to change the value of the `answer` constant above.
 Add this line of code - `answer = 43;` - right before the closing &lt;script> tag, and then reload the page. You should see an error:
 
-![The JavaScript Console](images/console-4.jpg)
+![The JavaScript Console](_images/console-4.jpg)
 
 ## VII. JavaScript "Primitive" Data Types
 
