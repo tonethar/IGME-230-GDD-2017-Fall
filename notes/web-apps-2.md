@@ -189,6 +189,7 @@ Make a copy of *hello-4.html* and name it *web-apps-2.html*. Delete all of the e
 - print out the last element in the `colors` array.
 - add a new property named `school` to the `person` object and give it a value of "RIT".
 - print out the number of seconds that have passed since 1970 - use the `Date` object.
-- print out the value of pi and the absolute value of -999 - use the `Math` object.
+- print out the value of pi - use the `Math` object.
+- print out the absolute value of -999 - use the `Math` object.
 - print out an all uppercase version of the string "Hello" - use a method of the `String` object.
 
