@@ -21,7 +21,7 @@ Each major web browser has its own layout engine: Chrome and Opera have *Blink*,
 
 A mostly complete list of browser APIs can be found here: https://developer.mozilla.org/en-US/docs/Web/API
 
-## Web APIs used in the IGM Web Courses
+## III. Web APIs used in the IGM Web Courses
 Here are some of the Web APIs that you will be using in this course and/or the following web course (IGME-330):
 - **Canvas** - procedural drawing and animation -  https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 - **Document Object Model (DOM)** - used to access and modify the contents and style  of a web page - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
@@ -30,7 +30,7 @@ Here are some of the Web APIs that you will be using in this course and/or the f
 - **Web Storage** - store key/value pairs of data in the user's browser - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 
 
-## III. How do I know what browser APIs I can use in my web applications?
+## IV. How do I know what browser APIs I can use in my web applications?
 As developers we want to create applications that take advantage of the latest browser features, but also don't leave users of more recent browsers behind. This can be a challenge because the various web browser vendors adopt new features a different times. 
 Sometimes new features are adopted long after *web standards* bodies have approved them, other times browser vendors will implement experimental features prior to a standard being agreed upon.
 
