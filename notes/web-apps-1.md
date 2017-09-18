@@ -21,6 +21,7 @@ Each major web browser has its own layout engine: Chrome and Opera have *Blink*,
 
 A mostly complete list of browser APIs can be found here: https://developer.mozilla.org/en-US/docs/Web/API
 
+## Web APIs used in the IGM Web Courses
 Here is a list of some common Web APIs that you will be using in this course and the following web course (IGME-330):
 - **Canvas** - procedural drawing and animation -  https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 - **Document Object Model (DOM)** - used to access and modify the contents and style  of a web page - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
