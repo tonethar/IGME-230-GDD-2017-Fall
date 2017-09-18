@@ -56,3 +56,8 @@ Because there is not one central authority on web standards, and the capabilitie
 ### What's an easy way to keep all of this straight?
 The best web site for tracking the adoption of new browser capabilities: 
 - http://caniuse.com 
+
+## Discussion/Review
+- What are the 3 major components of a web browser that can be scripted/controlled by a web developer?
+- How are new web browser features proposed?
+- Who is in charge of web standards - the standards bodies or the browser vendors?
