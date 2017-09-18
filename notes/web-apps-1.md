@@ -8,7 +8,7 @@ In this course we are going to create some simple web apps that run in modern we
 The examples we will build include a calculator, an image gallery, an app that can search/download/play song previews from a music service, and simple games.
 Most of these apps will run entirely in the *client* (i.e. the web browser). Others (the music player) will utilize data downloaded from the Internet. 
 
-## II. What's in a web browser?
+## II. What parts of the web browser can I program?
 
 If we are going to build applications that run in web browsers, we need to understand the major components of the browser that can be scripted by us.
 
