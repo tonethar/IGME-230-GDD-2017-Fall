@@ -90,6 +90,8 @@ Note that `const` and `let` are both part of the ES6 standard (you are learning 
 </html>
 ```
 
+Shows the following in the console:
+
 ![The JavaScript Console](_images/console-3.jpg)
 
 - Note above when strings are added to numbers, we get back a concatenated string. 
@@ -100,7 +102,7 @@ Note the backtick `` ` `` symbol is used to denote the string, and `${}` enclose
 ## VI. Viewing error messages
 
 The console will display error meessages that will help you debug your code. Let's produce an error by attempting to change the value of the `answer` constant above.
-Add this line of code - `answer = 43;` - right before the closing &lt;script> tag, and then reload the page. You should see an error:
+Add this line of code - `answer = 43;` - right before the closing &lt;script> tag, and then reload the page. You should see an error in the console:
 
 ![The JavaScript Console](_images/console-4.jpg)
 
