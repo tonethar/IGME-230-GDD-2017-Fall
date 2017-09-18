@@ -2,7 +2,7 @@
 
 ## I. Overview
 If you are comfortable with HTML and CSS, you are already familiar with the basics of getting browser layout engines to display your web pages the way you want them to look.
-To add even more control over the appearance of the page, as well as other capabilities, you will need to utilize the JavaScript programming language.
+But to give yourself even more control over the appearance of your web pages, as well as other capabilities, you will need to utilize the JavaScript programming language.
 
 JavaScript was originally created by Brendan Eich of Netscape Communication in 1995, and was re-implemented as JScript in Microsoft Internet Explorer in 1996.
 Standardization of the language began in 1996 when Netscape submitted the language to Ecma International (at the time, "European Computer Manufacturers Association").
