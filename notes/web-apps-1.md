@@ -34,26 +34,26 @@ Here are some of the Web APIs that you will be using in this course and/or the f
 As developers we want to create applications that take advantage of the latest browser features, but also don't leave users of more recent browsers behind. This can be a challenge because the various web browser vendors adopt new features a different times. 
 Sometimes new features are adopted long after *web standards* bodies have approved them, other times browser vendors will implement experimental features prior to a standard being agreed upon.
 
-### What are the major main web standards bodies?
+### a. What are the major main web standards bodies?
 Because no one company or organization is in charge of deciding what features a browser vendor want to add to their web browser, several web standards bodies have formed. *Web standards* are rules and guidelines published by standards bodies that are designed to promote consistency in the behavior of web browsers.  Once a standard has reached "Recommendation" status its features are usually quickly adopted by the major web browsers.
 - World Wide Web Consortium (W3C) - https://www.w3.org/standards/webdesign/
 - Web Hypertext Application Technology Working Group (WHATWG) - https://spec.whatwg.org
 
 You can also read about the Web Standards Project here: https://www.webstandards.org
 
-### Where can I learn about new features the browser vendors are working on?
+### b. Where can I learn about new features the browser vendors are working on?
 Checking out the browser vendor web sites is a good way to see what kinds of capabilities are being considered.
 - https://www.chromium.org/blink
 - https://developer.mozilla.org/en-US/docs/Mozilla/Gecko
 - https://webkit.org
 - https://developer.microsoft.com/en-us/microsoft-edge/
 
-### Where is the official web documentation located?
+### c. Where is the official web documentation located?
 Because there is not one central authority on web standards, and the capabilities of the browsers are constant changing, documentation is spread throughout the Internet. Here are some good sources of information: 
 - https://developer.mozilla.org/en-US/docs/Web/Guide
 - https://html.spec.whatwg.org/multipage/
 
-### What's an easy way to keep all of this straight?
+### d. What's an easy way to keep all of this straight?
 The best web site for tracking the adoption of new browser capabilities: 
 - http://caniuse.com 
 
