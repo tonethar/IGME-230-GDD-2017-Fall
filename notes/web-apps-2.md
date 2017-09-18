@@ -106,6 +106,8 @@ Add this line of code - `answer = 43;` - right before the closing &lt;script> ta
 
 ![The JavaScript Console](_images/console-4.jpg)
 
+Now go ahead and fix the error by declaring `answer` as a variable rather than a constant (hint: use `let` instead of `const`).
+
 ## VII. JavaScript "Primitive" Data Types
 
 The 5 common built-in "primitive" data types in JavaScript are: `Number`, `String`, `Boolean`, `Undefined` (a value has never been defined) and `Null` (the intentional absence of a value).
