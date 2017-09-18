@@ -13,13 +13,9 @@ Most of these apps will run entirely in the *client* (i.e. the web browser). Oth
 If we are going to build applications that run in web browsers, we need to understand the major components of the browser that can be scripted by us.
 
 1. The **Web Layout Engine** - each browser has a layout engine that renders (draws) marked up content by utilizing formatting information. We have already been doing this with HTML (a markup language that adds structure and meaning to the content on our web pages) and CSS (a presentational language that adds colors, fonts, spacing, etc).
-Each major web browser has its own layout engine: Chrome and Opera have *Blink*, Safari has *WebKit*, FireFox has *Gecko*, and Edge has *EdgeHTML*. There are subtle differences between these engines, and they adopt new and experimental features at different times, but the distinctions between them have been lessening over time.
+Each major web browser has its own layout engine: Chrome and Opera have *Blink*, Safari has *WebKit*, FireFox has *Gecko*, and Edge has *EdgeHTML*. There are subtle differences between these engines, and they adopt new and experimental features at different times, but the distinctions between them have been lessening over time. (You can read more about layout engines here: https://en.wikipedia.org/wiki/Web_browser_engine)
 
-You can read more about layout engines here: https://en.wikipedia.org/wiki/Web_browser_engine
-
-1. The **JavaScript Engine** - this is a program that executes JavaScript code in the web browser. Each browser vendor has their own distinct engine: Chrome has V8, Safari has Nitro (JavaScriptCore), and FireFox has SpiderMonkey. These engines have performance differences and differing support for newer JavaScript language features.
-
-You can read more about JavaScript engines here: https://en.wikipedia.org/wiki/JavaScript_engine
+1. The **JavaScript Engine** - this is a program that executes JavaScript code in the web browser. Each browser vendor has their own distinct engine: Chrome has V8, Safari has Nitro (JavaScriptCore), and FireFox has SpiderMonkey. These engines have performance differences and differing support for newer JavaScript language features. You can read more about JavaScript engines here: (https://en.wikipedia.org/wiki/JavaScript_engine)
 
 1. **Web Browser APIs** - API stands for "Application Programming Interface" and reflects what a web browser can *do*. JavaScript would not be very useful thing in a web browser if not for the various APIs that are available in today's web browsers. These APIs include the ability to select and modify HTML elements on the page, to play audio and video, to do procedural drawing, to store application data locally (in the web browser), to send and receive files from remote servers, and more.
 
