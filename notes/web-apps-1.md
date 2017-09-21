@@ -62,3 +62,6 @@ The best web site for tracking the adoption of new browser capabilities:
 - How are new web browser features proposed?
 - Who is in charge of web standards - the standards bodies or the browser vendors?
 - List 3 places a web developer can find "web app" documentation.
+
+
+**(Next Section -> Intro to JavaScript)[web-apps-2.md]**
