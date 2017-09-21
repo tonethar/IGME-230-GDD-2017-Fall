@@ -204,7 +204,10 @@ first one with `[0]`
 
 #7 above - we used a *descendant* selector and the ES6 `for/of` to loop over the array. We then changed the CSS on the &lt;b> elements by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. In JavaScript, we drop the dash in the property name - and camel-case the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `padding-top` and `padding-bottom`.
 
+## VI. Review Questions
+1. 
+2. 
 
-## VI. Exercise
+## VII. Exercise
 1. 
 2. 
