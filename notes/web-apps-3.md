@@ -185,6 +185,8 @@ Let's try a few of these out below, note that we have added another paragraph an
 </body>
 </html>
 ```
+### A. Explanations
+There was quite a bit in that last example.
 
-## VI. XXX
+## VI. Exercise
 
