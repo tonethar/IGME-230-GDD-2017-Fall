@@ -110,7 +110,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 ![The JavaScript Console](_images/dom-4.jpg)
 
-## V. Try out some other selectors
+## V. Try out more CSS selectors
 The power of `document.querySelector()` and `document.querySelectorAll()` is that they accept all CSS selectors, including those in the CSS3 standard.
 
 https://www.w3.org/TR/css3-selectors/#selectors
