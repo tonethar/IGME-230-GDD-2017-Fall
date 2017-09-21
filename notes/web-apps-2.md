@@ -197,3 +197,5 @@ Make a copy of *hello-4.html* and name it *web-apps-2.html*. Delete all of the e
 - print out the absolute value of -999 - use the `Math` object.
 - print out an all uppercase version of the string "Hello" - use a method of the `String` object.
 
+
+**[Next Section -> Intro to Document Object Model](web-apps-3.md)**
