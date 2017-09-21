@@ -9,7 +9,7 @@ The DOM API defines methods and properties need to access and manipulate a web p
 If you want to modify an HTML element, you first need to:
 
 1. Get a *reference* to the element
-1. Change a *property* of the element
+1. Change the value of a *property* of the element
 
 - To get a reference to an element we usually use `document.querySelector(selector)` where `selector` is a valid CSS selector. For example `document.querySelector("p")` would select the first paragraph on a web page, while `document.querySelector("#table")` would select the element on the page of `id="table"`.
 - To get a reference to multiple elements we usually use `document.querySelectorAll(selector)`. For example, `document.querySelectorAll("p")` would return an array (actually a `DomNodeList`) of all of the paragraph tags on a page.
