@@ -185,8 +185,16 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 </body>
 </html>
 ```
+## IX. Review Questions
+- Which versions of JavaScript will we be covering in this course?
+- Which JavaScript keyword declares *variables*?
+- Which JavaScript keyword declares *constants*?
+- What happens when you try to change the value of a previously declared *constant value*?
+- What are the 5 built-in JavaScript "primitive" data types?
+- What kinds of values can a `Number` type hold? (Google it)
 
-## IX. Exercise
+
+## X. Exercise
 Make a copy of *hello-4.html* and name it *web-apps-2.html*. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 - use a method of the `Array` object to append another color to the end of the `colors` array.
