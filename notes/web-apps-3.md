@@ -1,4 +1,4 @@
-# Introduction to the JavaScript DOM
+# Introduction to the Web Browser DOM
 
 ## I. Overview
 Today we are going to look at how to use JavaScript to alter HTML elements on the page. To
