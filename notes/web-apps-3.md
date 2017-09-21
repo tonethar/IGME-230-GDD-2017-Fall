@@ -193,7 +193,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 ### A. Explanations
 There was quite a bit in that last example. Let's discuss:
 
-#3 above - we used this selector - `p:nth-of-type(2)` - to select the 2nd paragraph
+#3 above - we used this **pseudo selector** - `p:nth-of-type(2)` - to select the 2nd paragraph
 
 #4 above - we used an **id selector**
 
