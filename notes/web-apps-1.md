@@ -64,4 +64,4 @@ The best web site for tracking the adoption of new browser capabilities:
 - List 3 places a web developer can find "web app" documentation.
 
 
-**(Next Section -> Intro to JavaScript)[web-apps-2.md]**
+**[Next Section -> Intro to JavaScript](web-apps-2.md)**
