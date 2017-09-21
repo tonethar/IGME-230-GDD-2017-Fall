@@ -115,7 +115,7 @@ The power of `document.querySelector()` and `document.querySelectorAll()` is tha
 
 https://www.w3.org/TR/css3-selectors/#selectors
 
-Let's try a few of these out below, note that we have added another paragraph and 3 uses of the &lt;b> element:
+Let's try a few of these out below. Note that we have added another paragraph. and three uses of the &lt;b> element:
 
 ### dom-3.HTML
 
@@ -185,6 +185,9 @@ Let's try a few of these out below, note that we have added another paragraph an
 </body>
 </html>
 ```
+
+**Load the page into a browser, and revel in the chages our JavaScript created:**
+
 ### A. Explanations
 There was quite a bit in that last example.
 
