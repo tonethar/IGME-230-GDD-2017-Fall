@@ -49,7 +49,7 @@ Go ahead and try running the code sample below - it is attempting to change the 
 </html>
 ```
 
-![The JavaScript Console](images/dom-1.jpg)
+![The JavaScript Console](_images/dom-1.jpg)
 
 ## III. The code didn't work!
 When you load this into Chrome, the &lt;h1> text doesn't change. Huh?
@@ -57,7 +57,7 @@ When you load this into Chrome, the &lt;h1> text doesn't change. Huh?
 ### A. Check the JavaScript console
 Go ahead and right-click to bring up the Web Inspector to get an idea why.
 
-![The JavaScript Console](images/dom-2.jpg)
+![The JavaScript Console](_images/dom-2.jpg)
 
 The error is: `Uncaught TypeError: Cannot set property 'innerHTML' of null`. 
 The JavaScript engine is complaining about our second line of code.
@@ -65,7 +65,7 @@ The JavaScript engine is complaining about our second line of code.
 ### B. Check the JavaScript debugger
 So what has a value of `null`? It turns out that our variable `h1` does - which we can see if we select the **Sources** tab, then select **dom-1.html** on the left, check the **Pause on caught exceptions** checkbox, and reload the page.
 
-![The JavaScript Console](images/dom-3.jpg)
+![The JavaScript Console](_images/dom-3.jpg)
 
 Our `h1` selector seems to be correct - so what gives?
 
@@ -108,7 +108,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 **Load the page into a browser, you should now see the changes we made to the &lt;h1>!:**
 
-![The JavaScript Console](images/dom-4.jpg)
+![The JavaScript Console](_images/dom-4.jpg)
 
 ## V. Try out some other selectors
 The power of `document.querySelector()` and `document.querySelectorAll()` is that they accept all CSS selectors, including those in the CSS3 standard.
