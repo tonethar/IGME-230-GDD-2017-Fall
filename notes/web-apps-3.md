@@ -170,7 +170,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 	// but not the <b> tag in the footer
 	let myList = document.querySelectorAll("p b");
 	
-	// here's and ES6 way to loop through arrays - the for/of loop
+	// here's an ES6 way to loop through arrays - the for/of loop
 	for (let element of myList) {
 		// we can set CSS values through the .style property
 		element.style.color = "red";
@@ -186,7 +186,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 </html>
 ```
 
-**Load the page into a browser, and revel in the chages our JavaScript created:**
+**Load the page into a browser, and revel in the changes our JavaScript created:**
 
 ![Web Page](_images/dom-5.jpg)
 
