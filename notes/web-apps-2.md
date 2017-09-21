@@ -90,7 +90,7 @@ Note that `const` and `let` are both part of the ES6 standard (you are learning 
 </html>
 ```
 
-Shows the following in the console:
+**Shows the following in the console:**
 
 ![The JavaScript Console](_images/console-3.jpg)
 
