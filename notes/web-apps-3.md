@@ -187,6 +187,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 ```
 
 **Load the page into a browser, and revel in the chages our JavaScript created:**
+
 ![Web Page](_images/dom-5.jpg)
 
 ### A. Explanations
