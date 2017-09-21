@@ -192,6 +192,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 
 ### A. Explanations
 There was quite a bit in that last example. Let's discuss:
+
 #3 above - we used this selector - `p:nth-of-type(2)` - to select the 2nd paragraph
 
 #4 above - we used an **id selector**
@@ -201,7 +202,7 @@ first one with `[0]`
 
 #6 above - we used `querySelectorAll()` again to get an array of all of the &lt;h2>s on the page, and then looped through the array using the classic `for` loop that we know and love.
 
-#7 above - we used a descendant selector and the ES6 `for/of` to loop over the array. We then changed the CSS on the &lt;b> elements by 
+#7 above - we used a descendant selector and the ES6 `for/of` to loop over the array. We then changed the CSS on the &lt;b> elements by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. In JavaScript, we drop the dash in the property name - and camel-case the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `padding-top` and `padding-bottom`.
 
 
 ## VI. Exercise
