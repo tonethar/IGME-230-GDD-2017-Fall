@@ -157,7 +157,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 	// #5 - get a reference to the first <h2> using querySelectorAll() and change its HTML in 1 line of code
 	document.querySelectorAll("h2")[0].innerHTML = "I am the first h2!";
 	
-	// #6 - get a reference to ALL of the <h2> elements on the page and add a number to the beginning of them
+	// #6 - get a reference to ALL of the <h2> elements on the page and add a number to the beginning of each one
 	let allHeadings = document.querySelectorAll("h2");
 
 	for(let i=0;i<allHeadings.length;i++){
@@ -191,7 +191,19 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 ![Web Page](_images/dom-5.jpg)
 
 ### A. Explanations
-There was quite a bit in that last example.
+There was quite a bit in that last example. Let's discuss:
+#3 above - we used this selector - `p:nth-of-type(2)` - to select the 2nd paragraph
+
+#4 above - we used an **id selector**
+
+#5 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). We then grabbed the
+first one with `[0]`
+
+#6 above - we used `querySelectorAll()` again to get an array of all of the &lt;h2>s on the page, and then looped through the array using the classic `for` loop that we know and love.
+
+#7 above - we used a descendant selector and the ES6 `for/of` to loop over the array. We then changed the CSS on the &lt;b> elements by 
+
 
 ## VI. Exercise
-
+1. 
+2. 
