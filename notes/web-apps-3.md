@@ -108,7 +108,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 **Load the page into a browser, you should now see the changes we made to the &lt;h1>!:**
 
-![The JavaScript Console](_images/dom-4.jpg)
+![Web Page](_images/dom-4.jpg)
 
 ## V. Try out more CSS selectors
 The power of `document.querySelector()` and `document.querySelectorAll()` is that they accept all CSS selectors, including those in the CSS3 standard.
@@ -187,6 +187,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 ```
 
 **Load the page into a browser, and revel in the chages our JavaScript created:**
+![Web Page](_images/dom-5.jpg)
 
 ### A. Explanations
 There was quite a bit in that last example.
