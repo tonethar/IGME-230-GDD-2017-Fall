@@ -117,7 +117,7 @@ https://www.w3.org/TR/css3-selectors/#selectors
 
 Let's try a few of these out below. Note that we have added another paragraph:
 
-### dom-3.HTML
+### dom-3.html
 
 ```
 <!DOCTYPE html>
