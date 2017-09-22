@@ -209,15 +209,15 @@ There was quite a bit in that last example. Let's discuss:
 	// also, do some CSS transforms on them.
 	let allHeadings = document.querySelectorAll("h2");
 
+	// 2 - loop through array
 	for(let i=0;i<allHeadings.length;i++){
 		let h2 = allHeadings[i];
 		let currentText = h2.innerHTML;
 		h2.innerHTML = "#" + (i + 1) + " - " + currentText;
 		h2.style.transform = "translateX(" + (i * 120) + "px) translateY(" + (i * 100) + "px) rotate(" + (i * 20) + "deg)";
-		//h2.style.transform = 
 	}
 	
-	// 2 - use a *descendent selector* to target the <b> tags inside of paragraphs 
+	// 3 - use a *descendent selector* to target the <b> tags inside of paragraphs 
 	// but not that <b> tag in the footer
 	let myList = document.querySelectorAll("p b");
 	for (let element of myList) {
@@ -236,11 +236,14 @@ There was quite a bit in that last example. Let's discuss:
 </html>
 ```
 
-### Explanations
-#1 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). We then grabbed the
-first one with `[0]`
+**Load the page into a browser to see changes our JavaScript created:**
 
-#2 above - we used `querySelectorAll()` again to get an array of all of the &lt;h2>s on the page, and then looped through the array using the classic `for` loop that we know and love.
+![Web Page](_images/dom-6.jpg)
+
+### Explanations
+#1 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). 
+
+#2 above - we looped through the array using the classic `for` loop that we know and love. We set the CSS transform property and saw some. interesting effects.
 
 #3 above - we used a *descendant* selector and the ES6 `for/of` to loop over the array. 
 
