@@ -134,10 +134,10 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 <h2>Info</h2>
 <h2>Pictures</h2>
 <h2>More Info</h2>
-<p>Blah <b>Blah</b> Blah</p>
 <p>Blah Blah Blah</p>
-<p id="lastParagraph">Blah <b>Blah</b> Blah</p>
-<footer>Copyright &copy; <b>20XX</b></footer>
+<p>Blah Blah Blah</p>
+<p id="lastParagraph">Blah Blah Blah</p>
+<footer>Copyright &copy; 20XX</footer>
 <script>
 	// first, get a reference to the first <h1> on the page
 	let h1 = document.querySelector("h1");
@@ -145,43 +145,24 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 	// second, change its HTML
 	h1.innerHTML = "My <i>UFO</i> Page";	
 	
-	// #3 - get a reference to the second paragraph and change its HTML in 1 line of code
+	// 3 - get a reference to the second paragraph and change its HTML in 1 line of code
 	document.querySelector("p:nth-of-type(2)").innerHTML = "I am 2nd paragraph!";
 	
-	// #4 - get a reference to the third paragraph using an id selector and change its HTML in 1 line of code
-	document.querySelector("#lastParagraph").innerHTML = "I am paragraph! <b>Blah!</b>";
+	// 4 - get a reference to the third paragraph using an id selector and change its HTML in 1 line of code
+	document.querySelector("#lastParagraph").innerHTML = "I the last paragraph";
 	
-	// *** Let's try out document.querySelectorAll() ***
-	// ps - querySelectorAll() gives us back an array (DOMNodeList)
+	// 5 - get a reference to the <footer>
+	let footer = document.querySelector("footer");
 	
-	// #5 - get a reference to the first <h2> using querySelectorAll() and change its HTML in 1 line of code
-	document.querySelectorAll("h2")[0].innerHTML = "I am the first h2!";
-	
-	// #6 - get a reference to ALL of the <h2> elements on the page and add a number to the beginning of each one
-	let allHeadings = document.querySelectorAll("h2");
-
-	for(let i=0;i<allHeadings.length;i++){
-		let h2 = allHeadings[i];
-		let currentText = h2.innerHTML;
-		h2.innerHTML = "#" + (i + 1) + " - " + currentText;
-	}
-	
-	// #7 - use a *descendent selector* to target the <b> tags inside of paragraphs 
-	// but not the <b> tag in the footer
-	let myList = document.querySelectorAll("p b");
-	
-	// here's an ES6 way to loop through arrays - the for/of loop
-	for (let element of myList) {
-		// we can set CSS values through the .style property
-		element.style.color = "red";
-		element.style.fontFamily = "monospace";
-		element.style.border = "2px solid pink";
-		element.style.paddingTop = "10px";
-		element.style.paddingBottom = "10px";
-	}
-	
-	
-	</script>
+	// we can set CSS values through the .style property
+	footer.style.color = "green";
+	footer.style.fontFamily = "monospace";
+	footer.style.fontSize = "2em";
+	footer.style.border = "2px solid pink";
+	footer.style.paddingTop = "10px";
+	footer.style.paddingBottom = "10px";
+	footer.style.margin = "5px";
+</script>
 </body>
 </html>
 ```
