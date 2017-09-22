@@ -90,5 +90,6 @@ HTML and CSS are appropriately used and well formed, clean, accurate, etc.; imag
 | Responsive design supports viewports as low as 480px wide | 10 | |
 | **Possible Total Points** | **100** | |
 | Deduction if initial checkpoint is not submitted to GitHub on time | -10 | |
+| Deduction if project is not ready for critique | -10 | |
 
 
