@@ -196,8 +196,9 @@ first one with `[0]`
 
 ## VI. Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
+1. What is the name of the DOM method that will return the first element that matches the given selector?
 1. Which property is used to get and set the text and HTML contents of an HTML element?
-1. Which property is used to get and set the styles of an HTML element?
+1. Which property is used to get and set the CSS styles of an HTML element?
 
 ## VII. Exercise
 1. 
