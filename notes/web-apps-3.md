@@ -250,7 +250,7 @@ There was quite a bit in that last example. Let's discuss:
 ### Explanations
 #1 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). 
 
-#2 above - we looped through the array using the classic `for` loop that we know and love. We set the CSS transform property and saw some. interesting effects.
+#2 above - we looped through the array using the classic `for` loop that we know and love. We set the CSS `transform` property and saw some interesting effects.
 
 #3 above - we used a *descendant* selector to target &lt;b> tags that are inside of paragraphs, and the ES6 `for/of` to loop over the array. 
 
