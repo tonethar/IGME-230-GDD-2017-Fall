@@ -182,16 +182,67 @@ There was quite a bit in that last example. Let's discuss:
 
 #6 above - we then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. We have to drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
 
-*dom-4.html*
+**dom-4.html**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>DOM-3</title>
+	<style>
+		body{border:1px solid gray;}
+		p b{transform: rotate(20deg)}
+	</style>
+</head>
+<body>
+<h1>My Page</h1>
+<h2>Info</h2>
+<h2>Pictures</h2>
+<h2>More Info</h2>
+<p>Blah <b>Blah</b> Blah</p>
+<p>Blah <b>Blah</b> Blah</p>
+<p id="lastParagraph">Blah <b>Blah</b> Blah</p>
+<footer>Copyright &copy; <b>20XX</b></footer>
+<script>
+	
+	// 1 - get a reference to ALL of the <h2> elements on the page and add a number to the beginning of them
+	// also, do some CSS transforms on them.
+	let allHeadings = document.querySelectorAll("h2");
 
+	for(let i=0;i<allHeadings.length;i++){
+		let h2 = allHeadings[i];
+		let currentText = h2.innerHTML;
+		h2.innerHTML = "#" + (i + 1) + " - " + currentText;
+		h2.style.transform = "translateX(" + (i * 120) + "px) translateY(" + (i * 100) + "px) rotate(" + (i * 20) + "deg)";
+		//h2.style.transform = 
+	}
+	
+	// 2 - use a *descendent selector* to target the <b> tags inside of paragraphs 
+	// but not that <b> tag in the footer
+	let myList = document.querySelectorAll("p b");
+	for (let element of myList) {
+		// we  set CSS values through the .style property
+		element.style.color = "red";
+		element.style.fontVariant = "small-caps";
+		element.style.fontFamily = "monospace";
+		element.style.fontSize = "1.5em";
+		element.style.border = "2px solid pink";
+		element.style.paddingTop = "5px";
+		element.style.paddingBottom = "5px";
+	}
+	
+	</script>
+</body>
+</html>
+```
 
-
-#7 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). We then grabbed the
+### Explanations
+#1 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). We then grabbed the
 first one with `[0]`
 
-#8 above - we used `querySelectorAll()` again to get an array of all of the &lt;h2>s on the page, and then looped through the array using the classic `for` loop that we know and love.
+#2 above - we used `querySelectorAll()` again to get an array of all of the &lt;h2>s on the page, and then looped through the array using the classic `for` loop that we know and love.
 
-#9 above - we used a *descendant* selector and the ES6 `for/of` to loop over the array. 
+#3 above - we used a *descendant* selector and the ES6 `for/of` to loop over the array. 
 
 
 ## VI. Review Questions
