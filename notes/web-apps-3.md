@@ -154,7 +154,7 @@ Let's try a few of these out below. Note that we have added another paragraph. a
 	// 5 - get a reference to the <footer>
 	let footer = document.querySelector("footer");
 	
-	// we can set CSS values through the .style property
+	// 6 - we can set CSS values through the .style property
 	footer.style.color = "green";
 	footer.style.fontFamily = "monospace";
 	footer.style.fontSize = "2em";
@@ -176,14 +176,23 @@ There was quite a bit in that last example. Let's discuss:
 
 #3 above - we used this **pseudo selector** - `p:nth-of-type(2)` - to select the 2nd paragraph
 
-#4 above - we used an **id selector**
+#4 above - we used an **id selector** to get a reference to the element with the id of "lastParagraph"
 
-#5 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). We then grabbed the
+#5 above - we used a **type selector** to get a reference to the footer
+
+#6 above - ee then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. We have to drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
+
+*dom-4.html*
+
+
+
+#7 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). We then grabbed the
 first one with `[0]`
 
-#6 above - we used `querySelectorAll()` again to get an array of all of the &lt;h2>s on the page, and then looped through the array using the classic `for` loop that we know and love.
+#8 above - we used `querySelectorAll()` again to get an array of all of the &lt;h2>s on the page, and then looped through the array using the classic `for` loop that we know and love.
 
-#7 above - we used a *descendant* selector and the ES6 `for/of` to loop over the array. We then changed the CSS on the &lt;b> elements by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. In JavaScript, we drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `padding-top` and `padding-bottom`.
+#9 above - we used a *descendant* selector and the ES6 `for/of` to loop over the array. 
+
 
 ## VI. Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
