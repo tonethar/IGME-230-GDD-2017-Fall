@@ -115,7 +115,7 @@ The power of `document.querySelector()` and `document.querySelectorAll()` is tha
 
 https://www.w3.org/TR/css3-selectors/#selectors
 
-Let's try a few of these out below. Note that we have added another paragraph. and three uses of the &lt;b> element:
+Let's try a few of these out below. Note that we have added another paragraph:
 
 ### dom-3.HTML
 
