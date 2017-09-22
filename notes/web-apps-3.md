@@ -217,7 +217,8 @@ There was quite a bit in that last example. Let's discuss:
 		let h2 = allHeadings[i];
 		let currentText = h2.innerHTML;
 		h2.innerHTML = "#" + (i + 1) + " - " + currentText;
-		h2.style.transform = "translateX(" + (i * 120) + "px) translateY(" + (i * 100) + "px) rotate(" + (i * 20) + "deg)";
+		h2.style.transform = "translateX(" + (i * 120) + "px) translateY(" + (i * 100) + "px) rotate(" + 
+		(i * 20) + "deg)";
 	}
 	
 	// 3 - use a *descendent selector* to target the <b> tags inside of paragraphs 
