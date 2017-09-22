@@ -110,7 +110,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 ![Web Page](_images/dom-4.jpg)
 
-## V. Try out more CSS selectors
+## V. Try out more CSS selectors with document.querySelector()
 The power of `document.querySelector()` and `document.querySelectorAll()` is that they accept all CSS selectors, including those in the CSS3 standard.
 
 https://www.w3.org/TR/css3-selectors/#selectors
@@ -182,6 +182,9 @@ There was quite a bit in that last example. Let's discuss:
 
 #6 above - we then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. We have to drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
 
+## VI. document.querySelectorAll()
+`document.querySelectorAll()` returns and array of results that match the given selector.
+
 **dom-4.html**
 ```
 <!DOCTYPE html>
@@ -248,12 +251,12 @@ There was quite a bit in that last example. Let's discuss:
 #3 above - we used a *descendant* selector and the ES6 `for/of` to loop over the array. 
 
 
-## VI. Review Questions
+## VII. Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
 1. Which property is used to get and set the text and HTML contents of an HTML element?
 1. Which property is used to get and set the CSS styles of an HTML element?
 
-## VII. Exercise
+## VIII. Exercise
 1. 
 1. 
