@@ -185,7 +185,13 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 </body>
 </html>
 ```
-## IX. Review Questions
+
+## IX. Nota Bene 
+In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. 
+
+Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
+
+## X. Review Questions
 1. Which versions of JavaScript will we be covering in this course?
 1. Which JavaScript keyword declares *variables*?
 1. Which JavaScript keyword declares *constants*?
@@ -194,7 +200,7 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 1. What kinds of values can a `Number` type hold? (Google it)
 
 
-## X. Exercise
+## XI. Exercise
 Make a copy of **hello-4.html** and name it **web-apps-2.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
