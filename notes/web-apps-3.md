@@ -274,7 +274,8 @@ But if we utilize the Web Inspector, we WILL see all of those changes:
 1. What is the name of the DOM method that will return **all** elements that match the given selector?
 1. Which property is used to get and set the text and HTML contents of an HTML element?
 1. Which property is used to get and set the CSS styles of an HTML element?
-1. GIve 2 ways to loop through an array.
+1. Give 2 ways to loop through an array.
+1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
 
 ## VIII. Exercise
 1. 
