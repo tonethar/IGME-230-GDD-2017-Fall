@@ -287,8 +287,8 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 1. Change the `.innerHTML` of the 2nd &lt;h2> to "My UFO Pictures"
 1. Change the `.innerHTML` of the 3rd &lt;h2> to an empty string - `""`
 1. Select the &lt;body> element and make 2 style changes:
-  - The fontFamily shall be "sans-serif"
-  - The font color shall be "reddish" (specify a red shade in hexadecimal) - 
+  - The `font-family` shall be "sans-serif"
+  - The font `color` shall be "reddish" (specify a red shade in hexadecimal) - 
   **Power tip:** `document.body` is a handy shortcut property for getting a reference to the &lt;body> element.
 6. Select the first paragraph and make some changes:
   - The inner HTML will contain the text "Report your UFO sightings here:" and have a working link to http://www.nuforc.org  - **Power tip:** In JavaScript strings, single-quotes `'` can be nested inside of double-quotes `"`
