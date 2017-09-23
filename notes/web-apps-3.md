@@ -254,8 +254,18 @@ There was quite a bit in that last example. Let's discuss:
 
 #3 above - we used a *descendant* selector to target &lt;b> tags that are inside of paragraphs, and the ES6 `for/of` to loop over the array. 
 
+## VII. Seeing your changes in the Web Inspector
+**It is important to understand the difference in Chrome between what we see when we "View Source" in Chrome, and what we see when we activate the Web Inspector.**
 
-## VII. Review Questions
+If we view the HTML source of our page in Chrome (View > Developer > View Source) we will not see any of the changes our JavaScript made.
+For example, the UFO text is missing, and there's no indication that our new styles were applied:
+![Web Page](_images/dom-7.jpg)
+
+If we utilize the Web Inspector, we WILL see all of those changes:
+![Web Page](_images/dom-8.jpg)
+
+
+## VIII. Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
 1. What is the name of the DOM method that will return **all** elements that match the given selector?
