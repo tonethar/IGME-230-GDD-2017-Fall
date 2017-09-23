@@ -186,7 +186,7 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 </html>
 ```
 
-## IX. Nota Bene 
+## IX. Nota bene 
 In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. 
 
 Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
