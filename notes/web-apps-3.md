@@ -289,7 +289,7 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 1. Select the &lt;body> element and make 2 style changes:
   - The fontFamily shall be "sans-serif"
   - The font color shall be "reddish" (specify a red shade in hexadecimal)
-1. Select the first paragraph and make some changes:
+6. Select the first paragraph and make some changes:
   - The inner HTML will contain the text "Report your UFO sightings here:" and have a working link to http://www.nuforc.org
   - There will be `.style` changes:
     - the font `color` is "green"
@@ -297,8 +297,8 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
     - the `font-size` is "2em"
     - the `text-transform` is "uppercase"
     - the `text-shadow` is "3px 2px #A44"
-1. Change the `.innerHTML` of the 2nd paragraph to an empty string - `""`
-1. Change the `.innerHTML` of the 3rd paragraph to instead show an image of a UFO that is out on the web (use the &lt;img> tag)
-1. Change the `.innerHTML` of the &lt;footer> copyright notice to show the current year and your name
+7. Change the `.innerHTML` of the 2nd paragraph to an empty string - `""`
+8. Change the `.innerHTML` of the 3rd paragraph to instead show an image of a UFO that is out on the web (use the &lt;img> tag)
+9. Change the `.innerHTML` of the &lt;footer> copyright notice to show the current year and your name
     
   
