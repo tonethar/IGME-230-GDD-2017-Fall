@@ -268,7 +268,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes refelcted 
 
 ![Web Page](_images/dom-8.jpg)
 
-## VIII. Nota Bene 
+## VIII. Nota bene 
 In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. 
 
 Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` - we recommend that you NOT use these methods as they are much less flexible and powerful than the querySelector() and querySelectorAll() method.
