@@ -247,7 +247,7 @@ There was quite a bit in that last example. Let's discuss:
 
 ![Web Page](_images/dom-6.jpg)
 
-### Explanations
+### A. Explanations
 #1 above - we used `querySelectorAll("h2")` to get all of the &lt;h2> elements in an array (actually a DomNodeList). 
 
 #2 above - we looped through the array using the classic `for` loop that we know and love. We set the CSS `transform` property and saw some interesting effects.
@@ -260,6 +260,7 @@ There was quite a bit in that last example. Let's discuss:
 ### A. "View Source" in Chrome
 If we view the HTML source of our page in Chrome (View > Developer > View Source) we will not see any of the changes our JavaScript made.
 For example, if our JavaScript made changes to the text and HTML, it would not be reflected in the HTML souce. Also, there will be no indication that our new styles were applied:
+
 ![Web Page](_images/dom-7.jpg)
 
 ### B. Web Inspector in Chrome
@@ -274,6 +275,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes:
 1. What is the name of the DOM method that will return **all** elements that match the given selector?
 1. Which property is used to get and set the text and HTML contents of an HTML element?
 1. Which property is used to get and set the CSS styles of an HTML element?
+1. Write a line of JavaScript that sets the `background-position` style property of an element to the value of `"top"`.
 1. Give 2 ways to loop through an array.
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
 
