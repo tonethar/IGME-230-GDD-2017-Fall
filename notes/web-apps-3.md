@@ -268,8 +268,12 @@ But if we utilize the Web Inspector, we WILL see all of those changes refelcted 
 
 ![Web Page](_images/dom-8.jpg)
 
+## VIII. Nota Bene 
+In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. 
 
-## VIII. Review Questions
+Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` - we recommend not using these methods as they are much less flexible and powerful than the querySelector() and querySelectorAll() method.
+
+## IX. Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
 1. What is the name of the DOM method that will return **all** elements that match the given selector?
@@ -279,7 +283,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes refelcted 
 1. Give 2 ways to loop through an array.
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
 
-## IX. Review Exercise
+## X. Review Exercise
 Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page (by adding `class` or `id` attributes to the paragraphs, for example.
 
 1. Change the `.innerHTML` of the first &lt;h1> to "My UFO Page"
