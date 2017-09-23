@@ -264,7 +264,7 @@ For example, if our JavaScript made changes to the text and HTML, it would not b
 ![Web Page](_images/dom-7.jpg)
 
 ### B. Web Inspector in Chrome
-But if we utilize the Web Inspector, we WILL see all of those changes:
+But if we utilize the Web Inspector, we WILL see all of those changes refelcted in the DOM tree under the **Elements** tab:
 
 ![Web Page](_images/dom-8.jpg)
 
