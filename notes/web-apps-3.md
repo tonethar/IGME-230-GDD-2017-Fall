@@ -279,7 +279,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes refelcted 
 1. Give 2 ways to loop through an array.
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
 
-## VIII. Exercise
+## VIII. Review Exercise
 Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. ?
