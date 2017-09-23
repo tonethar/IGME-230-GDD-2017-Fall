@@ -302,7 +302,7 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 8. Change the `.innerHTML` of the 3rd paragraph to instead show an image of a UFO that is out on the web (use an &lt;img> tag)
 9. Change the `.innerHTML` of the &lt;footer> copyright notice to show the current year and your name
 
-** Here is a completed example:**
+**Here is a completed example:**
 
 ![Web Page](_images/dom-9.jpg)
     
