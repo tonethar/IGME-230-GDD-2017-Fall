@@ -289,8 +289,9 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 1. Select the &lt;body> element and make 2 style changes:
   - The fontFamily shall be "sans-serif"
   - The font color shall be "reddish" (specify a red shade in hexadecimal)
+  **Power tip:** `document.body` is a handy shortcut property for getting a reference to the &lt;body> element.
 6. Select the first paragraph and make some changes:
-  - The inner HTML will contain the text "Report your UFO sightings here:" and have a working link to http://www.nuforc.org
+  - The inner HTML will contain the text "Report your UFO sightings here:" and have a working link to http://www.nuforc.org -  **Power tip:** In JavaScript string, single-quotes `'` can be nested inside of double-quotes `"`
   - There will be `.style` changes:
     - the font `color` is "green"
     - the `font-weight` is "bold"
@@ -298,7 +299,7 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
     - the `text-transform` is "uppercase"
     - the `text-shadow` is "3px 2px #A44"
 7. Change the `.innerHTML` of the 2nd paragraph to an empty string - `""`
-8. Change the `.innerHTML` of the 3rd paragraph to instead show an image of a UFO that is out on the web (use the &lt;img> tag)
+8. Change the `.innerHTML` of the 3rd paragraph to instead show an image of a UFO that is out on the web (use an &lt;img> tag)
 9. Change the `.innerHTML` of the &lt;footer> copyright notice to show the current year and your name
     
   
