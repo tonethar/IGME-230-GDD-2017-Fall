@@ -271,7 +271,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes refelcted 
 ## VIII. Nota Bene 
 In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. 
 
-Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` - we recommend not using these methods as they are much less flexible and powerful than the querySelector() and querySelectorAll() method.
+Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` - we recommend that you NOT use these methods as they are much less flexible and powerful than the querySelector() and querySelectorAll() method.
 
 ## IX. Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
