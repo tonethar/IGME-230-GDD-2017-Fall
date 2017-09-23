@@ -203,7 +203,7 @@ Make a copy of *hello-4.html* and name it *web-apps-2.html*. Delete all of the e
 1. print out the number of seconds that have passed since 1970 - use the `Date` object.
 1. print out the value of pi - use the `Math` object.
 1. print out the absolute value of -999 - use the `Math` object.
-1. print out an all uppercase version of the string "Hello" - use a method of the `String` object.
+1. print out an "all caps" version of the string "Hello" - use a method of the `String` object.
 
 
 **[Next Section -> Intro to the Web Browser DOM (Document Object Model)](web-apps-3.md)**
