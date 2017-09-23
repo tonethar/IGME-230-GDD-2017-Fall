@@ -257,11 +257,14 @@ There was quite a bit in that last example. Let's discuss:
 ## VII. Seeing your changes in the Web Inspector
 **It is important to understand the difference in Chrome between what we see when we "View Source" in Chrome, and what we see when we activate the Web Inspector.**
 
+### A. "View Source" in Chrome
 If we view the HTML source of our page in Chrome (View > Developer > View Source) we will not see any of the changes our JavaScript made.
 For example, the UFO text is missing, and there's no indication that our new styles were applied:
 ![Web Page](_images/dom-7.jpg)
 
+### B. Web Inspector in Chrome
 If we utilize the Web Inspector, we WILL see all of those changes:
+
 ![Web Page](_images/dom-8.jpg)
 
 
