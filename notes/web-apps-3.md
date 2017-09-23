@@ -279,8 +279,14 @@ But if we utilize the Web Inspector, we WILL see all of those changes refelcted 
 1. Give 2 ways to loop through an array.
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
 
-## VIII. Review Exercise
-Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
+## IX. Review Exercise
+Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these).:
 
-1. ?
-1. ??
+1. Change the `.innerHTML` of the first &lt;h1> to "My UFO Page"
+1. Change the `.innerHTML` of the first &lt;h2> to "My UFO Info"
+1. Change the `.innerHTML` of the 2nd &lt;h2> to "My UFO Pictures"
+1. Change the `.innerHTML` of the 3rd &lt;h2> to an empty string - `""`
+1. Select the &lt;body> element and make 2 style changes:
+  a. The fontFamily shall be "sans-serif"
+  a. The font color shall be "reddish" (specify a color in hexadecimal)
+  
