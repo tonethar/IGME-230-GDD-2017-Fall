@@ -347,7 +347,7 @@ let foods = []; // add some foods
 // Optional (worth an extra 5 points) - can you figure out how to pull the key
 // and value from the links obejct literal?
 let links = {
-		"RIT": "http:www.rit.edu",
+		"RIT": "http://www.rit.edu",
 		"RWAG" : "https://www.facebook.com/RWAGclub",
 		"New Media Club" : "http://newmediaclub.cias.rit.edu"
 	}
