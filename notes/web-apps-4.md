@@ -284,7 +284,7 @@ Removing DOM elements is trivial. Add the following to the end of **more-dom-4.h
 document.body.removeChild(document.querySelector("p"));
 ```
 
--- Reload the page - the paragraph is now gone. You can also see this in the Web Inspector. 
+- Reload the page - the paragraph is now gone. You can also see this in the Web Inspector. 
 
 
 ## VII. Review Questions
@@ -299,3 +299,5 @@ Be sure to read the HTML DOM page linked near the top of this document.
 1. What is the *previous-sibling* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *first-child* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *parent* of the "Google" &lt;li> tag in **more-dom-4.html**?
+
+## VIII. Exercise
