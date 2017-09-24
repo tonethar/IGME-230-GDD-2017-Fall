@@ -69,7 +69,7 @@ So what has a value of `null`? It turns out that our variable `h1` does - which 
 
 **(Fun fact - if you click in the gutter next to the code listing, you can add and remove breakpoints that will interrupt code execution whenever the debugger is open. You will then be able to inspect the values of variables, and step through your code)**
 
-Our `h1` selector seems to be correct - so what gives?
+Our `h1` selector seems to be correct, but the value is `null` - so what gives?
 
 ## IV. Waiting until the page loads
 The "null" problem we had above is happening because the JavaScript code is running *before* the web page has loaded. 
