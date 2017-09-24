@@ -300,4 +300,62 @@ Be sure to read the HTML DOM page linked near the top of this document.
 1. What is the *first-child* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *parent* of the "Google" &lt;li> tag in **more-dom-4.html**?
 
-## VIII. Exercise
+## VIII. Review Exercise
+
+Here is your starter code:
+
+### web-apps-4.html
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Web Apps-4</title>
+	<style>
+		body{border:1px solid gray;}
+	</style>
+</head>
+<body>
+<h1>My Links</h1>
+<h2>My Favorite Colors</h1>
+
+<ol id="colorsList">
+	
+</ol>
+
+<h2>My Favorite Foods</h1>
+
+<ol id="foodsList">
+	
+</ol>
+
+<h2>My Favorite Links</h1>
+
+<ol id="linksList">
+	
+</ol>
+
+<script>
+let colors = ["red","green","blue","purple","pink"];
+let foods = []; // add some foods
+
+// Optional (worth an extra 5 points) - can you figure out how to pull the key
+// and value from the links obejct literal?
+let links = {
+		"RIT": "http:www.rit.edu",
+		"RWAG" : "https://www.facebook.com/RWAGclub",
+		"New Media Club" : "http://newmediaclub.cias.rit.edu"
+	}
+
+</script>
+</body>
+</html>
+```
+
+### Instructions
+1. Add you favorite colors and foods to the arrays. If you would rather change the theme of the page to movies, music, books or similar, feel free.
+1. Write code that loops through these arrays, generates list items, and appends them to the appropriate list.
+1. Optional: add your favorite web sites to the links object literal, and then loop through the object, pulling out both the key and the value, generate functioning links, and add them to the last &lt;ul> on the page.
+
+### Final Result
