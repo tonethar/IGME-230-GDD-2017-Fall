@@ -28,6 +28,10 @@ This series of tutorials will get you started in creating web applications, whic
     1. adding code breakpoints in the JavaScript debugger
     1. viewing the value of variables in the JavaScript debugger
 1. [More Web Browser DOM Methods](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-4.md)
+    1. the DOM inverted tree
+    1. relationships: parent, child & sibling
+    1. creating and modifying DOM elements
+    1. inserting and deleting DOM elements from the DOM tree
 1. JavaScript Functions
 1. JavaScript Events
 1. JavaScript Arrays
