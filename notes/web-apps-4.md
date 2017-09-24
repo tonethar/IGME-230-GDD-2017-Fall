@@ -362,6 +362,6 @@ let links = {
 
 ### Final Result
 
-**It should look like this, except with your favorites whatever they are:**
+**It should look like this, except with your favorites (whatever they are):**
 
 ![Web Page](_images/more-dom-5.jpg)
