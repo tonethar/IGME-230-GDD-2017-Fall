@@ -256,7 +256,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 
 **Load the page into a browser, you should now see the 2 new list items, one of which is a functioning link to Facebook:**
 
-![Web Page](images/_more-dom-4.jpg)
+![Web Page](_images/more-dom-4.jpg)
 
 
 ## V. Modifying Existing DOM Elements
