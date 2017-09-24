@@ -33,9 +33,19 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. creating and modifying DOM elements
     1. inserting and deleting DOM elements from the DOM tree
 1. JavaScript Functions
+    1. functions and variable scope
+    1. ES6 Arrow Functions
+    1. Functions as *first-class* types
 1. JavaScript Events
-1. JavaScript Arrays
-1. JavaScript Object Literals & ES6 Classes
+    1. Event Handlers
+    1. `addEventListener()`, `removeEventListener()`
+1. JavaScript Arrays and array-like objects
+    1. methods of Array() - `.forEach()`, `.filter()`, `.map()`
+    1. DomNodeList()
+    1. JavaScript typed arrays
+1. JavaScript Custom Objects
+    1. Object Literals
+    1. ES6 Classes
 1. The WebStorage API
 1. Intro to Web Services
 
