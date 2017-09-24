@@ -5,7 +5,7 @@ Today we are going to look at other ways to use JavaScript to alter HTML element
 Although we can do quite a bit with the `.innerHTML` property, there are times that we might want to insert a new element somewhere on the page, for example a new list item into the middle of a list. Or to delete a single element, for example a list item that is currently inside (a child of) an unordered list. To do these things, we are going to need more fine grained control.
 
 ### A. The DOM is an inverted tree
-The browser DOM is an inverted tree structure that consists of *nodes* mostly HTML elements that are software *objects* that have properties and methods associated with them.. These nodes have hierarchical relationships with one another - *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
+The browser DOM is an inverted tree structure that consists of *nodes* - which are mostly HTML elements (software *objects*) that have properties and methods associated with them. These nodes have hierarchical relationships with one another - *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
 
 Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to.
 
