@@ -3,7 +3,17 @@
 This series of tutorials will get you started in creating web applications, which are *client-server* applications in which the client code runs in a web browser. 
 
 ## II. The Tutorials
-1. [Introduction to Web Applications](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-1.md)
+1. [Introduction to Web Applications](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-1.md):
+  - what is a web app?
+  - what components of the web browser can I program?
+  - what are web standards?
+1. [Introduction to JavaScript](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-2.md)
+1. [Introduction to the Web Browser DOM](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-3.md)
+1. [More Web Browser DOM Methods](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-4.md)
+1. JavaScript Functions
+1. JavaScript Events
+1. JavaScript Arrays
+1. The WebStorage API
 
 ## III. What has been left out
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more to learn about web applications on your own. Here are some majot topics that we are NOT covering:
