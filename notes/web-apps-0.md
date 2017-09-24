@@ -34,6 +34,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. inserting and deleting DOM elements from the DOM tree
 1. JavaScript Functions
     1. functions and variable scope
+    1. ES6 Block Scope
     1. ES6 Arrow Functions
     1. Functions as *first-class* types
 1. JavaScript Events
@@ -62,7 +63,7 @@ While we are going to utilize Internet resources in the form of web services, in
 In later courses (IGME-330 & IGME-430) you will get the opportunity to read/write data to "the cloud", and even have application logic running on remote servers.
 - **Database/Data Modeling** - creating a key:value server utilizing Node.js is covered in IGME-430 (an elective), *Data Modeling* and the SQL language are covered in ISTE-230 (an elective)
 - **Web MVC Frameworks** - such as React and Angular are covered in later courses
-- **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the Pixi.js rendering engine.
+- **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the PixiJS rendering engine.
 - **WebGL** is an implementation of OpenGL ES 2.0 that runs natively in web browsers, and is the fastest way to draw to the browser screen. WebGL shaders may be briefly looked at while we are covering PixiJS.
 
 ## V. Links & Resources
