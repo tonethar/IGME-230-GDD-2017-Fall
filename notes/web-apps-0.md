@@ -48,6 +48,9 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. ES6 Classes
 1. The WebStorage API
 1. Intro to Web Services
+    1. XHR & Fetch API
+    1. AJAX v. Ajax
+    1. JSON
 
 ## IV. What has been left out of this series
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
