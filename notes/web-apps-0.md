@@ -24,7 +24,9 @@ This series of tutorials will get you started in creating web applications, whic
 1. JavaScript Functions
 1. JavaScript Events
 1. JavaScript Arrays
+1. JavaScript Object Literals & ES6 Classes
 1. The WebStorage API
+1. Intro to Web Services
 
 ## IV. What has been left out
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more to learn about web applications on your own. Here are some majot topics that we are NOT covering:
