@@ -67,6 +67,8 @@ So what has a value of `null`? It turns out that our variable `h1` does - which 
 
 ![The JavaScript Console](_images/dom-3.jpg)
 
+**(Fun fact - if you click in the gutter next to the code listing, you can add and remove breakpoints that will interrup code execution whenever the debugger is open. You will then be able to inspect the values of variables, and step through your code)**
+
 Our `h1` selector seems to be correct - so what gives?
 
 ## IV. Waiting until the page loads
