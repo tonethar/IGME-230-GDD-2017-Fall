@@ -44,7 +44,7 @@ This course is an introduction to web publishing and scripting the browser. Late
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
 - **Canvas API** is covered in IGME-330.
-- **Cloud Computing** is the practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer. 
+- **Cloud Computing** is the practice of using a network of **remote servers** hosted on the Internet to store, manage, and process data. 
 While we are going to utilize Internet resources in the form of web services, in this course our application code will be 100% on the client machine (the web browser). 
 In later courses (IGME-330 & IGME-430) you will get the opportunity to read/write data to "the cloud", and even have application logic running on remote servers.
 - **Database/Data Modeling** - creating a key:value server utilizing Node.js is covered in IGME-430 (an elective), *Data Modeling* and the SQL language are covered in ISTE-230 (an elective)
