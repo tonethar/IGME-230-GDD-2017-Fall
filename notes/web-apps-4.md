@@ -14,7 +14,7 @@ Today we will learn how to create new DOM elements and insert them anywhere into
 ### B. New DOM Methods
 Here are some of the new DOM methods we will be working with today:
 
-- `document.createElement(elementName)` -- https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+- `document.createElement(elementName)` -- <small>https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement</small>
 - `document.createTextNode(text)` -- https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode
 - `element.getAttribute(attributeName)` -- https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
 - `element.setAttribute(attributeName,attributeValue)` -- https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
