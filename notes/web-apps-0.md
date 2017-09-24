@@ -4,9 +4,9 @@ This series of tutorials will get you started in creating web applications, whic
 
 ## II. The Tutorials
 1. [Introduction to Web Applications](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-1.md):
-  a. what is a web app?
-  b. what components of the web browser can I program?
-  c. what are web standards?
+  1. what is a web app?
+  1. what components of the web browser can I program?
+  1. what are web standards?
 1. [Introduction to JavaScript](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-2.md)
 1. [Introduction to the Web Browser DOM](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-3.md)
 1. [More Web Browser DOM Methods](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-4.md)
