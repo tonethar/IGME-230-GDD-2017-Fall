@@ -12,7 +12,7 @@ Today we will learn how to create new DOM elements and insert them anywhere into
 ![Web Page](_images/more-dom-0.jpg)
 
 ### B. New DOM Methods
-Here are some of the new DOM methods we will be working with today. These allow us to create DOM elements, modify them, insert them into the document, and delete them from the document:
+Here are some of the new DOM methods we will be working with today. These allow us to *create* DOM elements, *modify* them, *insert* them into the document, and *delete* them from the document:
 
 - `document.createElement(elementName)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement</sup></sub>
 - `document.createTextNode(text)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode</sup></sub>
