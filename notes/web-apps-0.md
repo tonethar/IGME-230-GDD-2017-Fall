@@ -39,14 +39,14 @@ This series of tutorials will get you started in creating web applications, whic
 1. The WebStorage API
 1. Intro to Web Services
 
-## IV. What has been left out
+## IV. What has been left out of this series
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some majot topics that we are NOT covering:
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
 - **Cloud Computing** is the practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer. 
 While we are going to utilize Internet resources in the form of web services, in this course our application code will be 100% on the client machine (the web browser). 
 In later courses (IGME-330 & IGME-430) you will get the opportunity to read/write data to "the cloud", and even have application logic running on remote servers.
-- **Database/Data Modeling**
+- **Database/Data Modeling** - creating a key:value server utilizing Node.js is covered in IGME-430 (an elective), *Data Modeling* and the SQL language are covered in ISTE-230 (an elective)
 - **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the Pixi.js rendering engine.
 
 
