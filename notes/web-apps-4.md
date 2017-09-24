@@ -360,9 +360,10 @@ let links = {
 ### Instructions
 1. Create the **web-apps-4.html** file
 1. Add you favorite colors and foods to the arrays. If you would rather change the theme of the page to movies, music, books or similar, feel free.
-1. Write code that loops through these arrays, generates list items, and appends them to the appropriate list element.
+1. Write code that loops through the `colors` array, generates list items, and appends them to the appropriate list element. For this array use a classic `for` loop.
+Write code that loops through the `foods` array, generates list items, and appends them to the appropriate list element. For this array use an ES6 `for...of` loop.
 1. Be sure that your code uses `document.createElement()` to create each element.
-1. Optional: add your favorite web sites to the links object literal, and then loop through the object, pulling out both the key and the value, generate functioning links, and add them to the last &lt;ul> on the page. This is worth an extra 5 points on the HW assignment.
+1. Optional: add your favorite web sites to the `links` object literal, and then loop through the object, pulling out both the *key* and the *value*, generate functioning links, and add them to the last &lt;ul> on the page. This is worth an extra 5 points on the HW assignment. The JavaScript `for...in` loop will probably get the job done.
 
 ### Final Result
 
