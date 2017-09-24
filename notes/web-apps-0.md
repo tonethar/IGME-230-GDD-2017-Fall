@@ -19,7 +19,14 @@ This series of tutorials will get you started in creating web applications, whic
     1. viewing error messages in the JavaScript console
     1. common built-in JavaScript objects
 1. [Introduction to the Web Browser DOM](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-3.md)
-    1. 
+    1. did the HTML elements on the page load?
+    1. selecting elements on a web page
+    1. modifying elements on a web page
+    1. add elements to a page, primarily with `.innerHTML`
+    1. viewing the "live" DOM tree with the web inspector
+    1. using the JavaScript debugger to "break on exceptions"
+    1. adding code breakpoints in the JavaScript debugger
+    1. viewing the value of variables in the JavaScript debugger
 1. [More Web Browser DOM Methods](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-4.md)
 1. JavaScript Functions
 1. JavaScript Events
