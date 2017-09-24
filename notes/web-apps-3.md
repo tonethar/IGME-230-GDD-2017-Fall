@@ -275,6 +275,8 @@ In this document we have been using `document.querySelector()` and `document.que
 
 Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` - we recommend that you NOT use these methods as they are much less flexible and powerful than the querySelector() and querySelectorAll() method.
 
+Using the JavaScript debugger and setting breakpoints was briefly touched upon above. Being able to utilize the JavaScript debugger is an essential skill, and we will be demoing this in class. If you need to see it demoed again then please ask! Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
+
 ## IX. Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
