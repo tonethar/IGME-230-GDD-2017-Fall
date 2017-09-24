@@ -40,7 +40,7 @@ This series of tutorials will get you started in creating web applications, whic
 1. Intro to Web Services
 
 ## IV. What has been left out of this series
-This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some majot topics that we are NOT covering:
+This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
 - **Canvas API** is covered in IGME-330.
