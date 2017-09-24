@@ -15,20 +15,20 @@ Today we will learn how to create new DOM elements and insert them anywhere into
 Here are some of the new DOM methods we will be working with today:
 
 - `document.createElement(elementName)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement</sup></sub>
-- `document.createTextNode(text)` -- https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode
-- `element.getAttribute(attributeName)` -- https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
-- `element.setAttribute(attributeName,attributeValue)` -- https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
-- `element.appendChild(anotherElement)` -- https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
-- `element.insertBefore(referenceElement,anotherElement)` -- https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
-- `element.removeChild(anotherElement)` -- https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
-- `element.replaceChild(oldElement,newElement)` -- https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild
-- `element.hasChildNodes()` -- https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes
+- `document.createTextNode(text)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode</sup></sub>
+- `element.getAttribute(attributeName)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute</sup></sub>
+- `element.setAttribute(attributeName,attributeValue)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute</sup></sub>
+- `element.appendChild(anotherElement)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild</sup></sub>
+- `element.insertBefore(referenceElement,anotherElement)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore</sup></sub>
+- `element.removeChild(anotherElement)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild</sup></sub>
+- `element.replaceChild(oldElement,newElement)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild</sup></sub>
+- `element.hasChildNodes()` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes</sup></sub>
 
 And some properties:
 
-- `document.body` -- https://developer.mozilla.org/en-US/docs/Web/API/Document/body
-- `element.parentNode` -- https://developer.mozilla.org/en-US/docs/Web/API/ParentNode
-- `element.children` -- https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children
+- `document.body` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Document/body</sup></sub>
+- `element.parentNode` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/ParentNode</sup></sub>
+- `element.children` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children</sup></sub>
 
 ## II. Starter Page
 
