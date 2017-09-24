@@ -311,3 +311,5 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 ![Web Page](_images/dom-9.jpg)
     
   
+  
+  **[Next Section -> More Web Browser DOM Methods](web-apps-4.md)**
