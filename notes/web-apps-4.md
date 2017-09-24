@@ -86,7 +86,7 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 </ul>
 
 <script>
-	// 1 - Create a <footer>
+	// 1 - Create a <footer> element
 	let footer = document.createElement("footer");
 	
 	// 2 - set the title attribute, which gives us a tooltip 
@@ -95,7 +95,7 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 	// 3 - create the text of the <footer>
 	let textNode = document.createTextNode("© 20XX by Ima Student");
 	
-	// 4 - insert the text into the <footer>
+	// 4 - insert the text into the <footer> element
 	footer.appendChild(textNode);
 	
 	// 5 - insert the <footer> at the end of the <body>
@@ -154,7 +154,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 	// 6 - this code does the same thing as #1-#5 above, without having to use
 	// document.createTextNode() or element.setAttribute()
 	
-	// add another <footer>!
+	// add another <footer>, with less code!
 	let footer2 = document.createElement("footer");
 	footer2.title = "Don't copy this page without my permission!";
 	footer2.innerHTML = "&copy; 20XX by Ima Student"
@@ -269,7 +269,7 @@ let googleLink = document.querySelector("ul li a[href*='google.com']");
 googleLink.href = "http://www.bing.com";
 ```
 
-- Reload the page and click the Google link - it should now send you to www.bing.com
+- Reload the page and click the Google link - it should now send you to www.bing.com - don't tell Google about this as they might come after you!
 
 - You can also open up the web inspector to verify that the value of the Google link's href is now `http://www.bing.com`
 
@@ -356,7 +356,7 @@ let links = {
 ### Instructions
 1. Create the **web-apps-4.html** file
 1. Add you favorite colors and foods to the arrays. If you would rather change the theme of the page to movies, music, books or similar, feel free.
-1. Write code that loops through these arrays, generates list items, and appends them to the appropriate list.
+1. Write code that loops through these arrays, generates list items, and appends them to the appropriate list element.
 1. Be sure that your code uses `document.createElement()` to create each element.
 1. Optional: add your favorite web sites to the links object literal, and then loop through the object, pulling out both the key and the value, generate functioning links, and add them to the last &lt;ul> on the page. This is worth an extra 5 points on the HW assignment.
 
