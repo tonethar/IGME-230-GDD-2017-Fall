@@ -58,11 +58,11 @@ The best web site for tracking the adoption of new browser capabilities:
 - http://caniuse.com 
 
 ## V. Discussion/Review
-- What is a *Web App*?
-- What are the 3 major components of a web browser that can be scripted/controlled by a web developer?
-- How are new web browser features proposed?
-- Who is in charge of web standards - the standards bodies or the browser vendors?
-- List 3 places a web developer can find "web app" documentation.
+1. What is a *Web App*?
+1. What are the 3 major components of a web browser that can be scripted/controlled by a web developer?
+1. How are new web browser features proposed?
+1. Who is in charge of web standards - the standards bodies or the browser vendors?
+1. List 3 places a web developer can find "web app" documentation.
 
 
 **[Next Section -> Intro to JavaScript](web-apps-2.md)**
