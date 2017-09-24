@@ -5,7 +5,7 @@ Today we are going to look at other ways to use JavaScript to alter HTML element
 Although we can do quite a bit with the `.innerHTML` property, there are times that we might want to insert a new element somewhere on the page, for example a new list item into the middle of a list. To do that, we are going to need more fine grained control.
 
 ### A. The DOM is an inverted tree
-The browser DOM is an inverted tree structure that consists of *nodes* (mostly HTML elements). These nodes have hierarchical relationships with one another - parent, child, and sibling.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
+The browser DOM is an inverted tree structure that consists of *nodes* (mostly HTML elements). These nodes have hierarchical relationships with one another - *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
 
 ### B. New DOM Methods
 Here are some of the new DOM methods we will be working with today:
