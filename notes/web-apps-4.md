@@ -65,7 +65,7 @@ And some properties:
 ![Web Page](_images/more-dom-1.jpg)
 
 ## III. Creating and appending elements
-Our page is missing a &lt;footer>, so let's create one and insert it into the &lt;body>, and the very end of the page. 
+Our page is missing a &lt;footer>, so let's create one and insert it into the &lt;body>, at the very end of the page. 
 
 ### more-dom-2.html
 
@@ -290,8 +290,11 @@ document.body.removeChild(document.querySelector("p"));
 
 - Reload the page - the paragraph is now gone. You can also see this in the Web Inspector. 
 
+## VII. Nota bene
+We have seen 
 
-## VII. Review Questions
+
+## VIII. Review Questions
 
 Be sure to read the HTML DOM page linked near the top of this document.
 
@@ -304,7 +307,7 @@ Be sure to read the HTML DOM page linked near the top of this document.
 1. What is the *first-child* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *parent* of the "Google" &lt;li> tag in **more-dom-4.html**?
 
-## VIII. Review Exercise
+## IX. Review Exercise
 
 Here is your starter code:
 
