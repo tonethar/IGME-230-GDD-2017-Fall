@@ -4,9 +4,10 @@
 Today we are going to look at other ways to use JavaScript to alter HTML elements on the page. 
 Although we can do quite a bit with the `.innerHTML` property, there are times that we might want to insert a new element somewhere on the page, for example a new list item into the middle of a list. To do that, we are going to need more fine grained control.
 
+### The DOM is an inverted tree
 The browser DOM is an inverted tree structure that consists of *nodes* (mostly HTML elements). These nodes have hierarchical relationships with one another - parent, child, and sibling.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
 
-
+### New DOM Methods
 Here are some of the new DOM methods we will be working with today:
 
 - `document.createElement(elementName)` -- https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
@@ -57,7 +58,7 @@ And some properties:
 
 **Looks like this in the browser:**
 
-![Web Page](images/more-dom-1.jpg)
+![Web Page](_images/more-dom-1.jpg)
 
 ## III. Creating and appending elements
 Our page is missing a &lt;footer>, so let's create one and insert it into the &lt;body>, and the very end of the page. 
@@ -106,7 +107,7 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 
 **Load the page into a browser, you should now see the new &lt;footer> at the bottom of the page, and the tooltip effect!:**
 
-![Web Page](images/more-dom-2.jpg)
+![Web Page](_images/more-dom-2.jpg)
 
 ## III. Creating and appending elements, with a little less code
 
@@ -166,7 +167,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 
 **Load the page into a browser, you should now see the second &lt;footer>:**
 
-![Web Page](images/more-dom-3.jpg)
+![Web Page](_images/more-dom-3.jpg)
 
 
 ## IV. Inserting elements into the middle of a DOM tree
@@ -255,7 +256,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 
 **Load the page into a browser, you should now see the 2 new list items, one of which is a functioning link to Facebook:**
 
-![Web Page](images/more-dom-4.jpg)
+![Web Page](images/_more-dom-4.jpg)
 
 
 ## V. Modifying Existing DOM Elements
