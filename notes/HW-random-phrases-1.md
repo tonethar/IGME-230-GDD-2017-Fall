@@ -2,7 +2,9 @@
 
 ## Overview
 In this assignment you will create a "random phrases" web application. 
-The exact theme is up to you, the example below used a Star Trek: TNG theme.
+
+The exact theme is up to you, the example below used a *Star Trek: TNG* theme.
+
 Ideally your theme is appropriate for all ages and audiences.
 
 To do this assignment, you should have completed at least the third web app tutorial page - "Introduction to the Web Browser DOM".
