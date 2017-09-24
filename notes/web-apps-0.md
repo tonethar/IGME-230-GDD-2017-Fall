@@ -7,7 +7,7 @@ This series of tutorials will get you started in creating web applications, whic
 - CSS selectors (in particular the CSS3 selectors) will come in handy
 - Fundamental programming concepts that you gleaned from the (at least) 2 programming classes you have taken prior to this course.
 
-## II. The Tutorials
+## III. The Tutorials
 1. [Introduction to Web Applications](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-1.md):
     1. what is a web app?
     1. what components of the web browser can I program?
@@ -26,7 +26,7 @@ This series of tutorials will get you started in creating web applications, whic
 1. JavaScript Arrays
 1. The WebStorage API
 
-## III. What has been left out
+## IV. What has been left out
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more to learn about web applications on your own. Here are some majot topics that we are NOT covering:
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
@@ -37,5 +37,5 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 - **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the Pixi.js rendering engine.
 
 
-## IV. Links & Resources
+## V. Links & Resources
 
