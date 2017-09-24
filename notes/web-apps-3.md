@@ -67,7 +67,7 @@ So what has a value of `null`? It turns out that our variable `h1` does - which 
 
 ![The JavaScript Console](_images/dom-3.jpg)
 
-**(Fun fact - if you click in the gutter next to the code listing, you can add and remove breakpoints that will interrup code execution whenever the debugger is open. You will then be able to inspect the values of variables, and step through your code)**
+**(Fun fact - if you click in the gutter next to the code listing, you can add and remove breakpoints that will interrupt code execution whenever the debugger is open. You will then be able to inspect the values of variables, and step through your code)**
 
 Our `h1` selector seems to be correct - so what gives?
 
@@ -284,6 +284,8 @@ Out on the web you will also see the `document.getElementsByTagName()` and `docu
 1. Write a line of JavaScript that sets the `background-position` style property of an element to the value of `"top"`.
 1. Give 2 ways to loop through an array.
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
+1. How can we add breakpoints to our code in the debugger, and inspect the values of variables?
+1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
 
 ## X. Review Exercise
 Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page (by adding `class` or `id` attributes to the paragraphs, for example.
