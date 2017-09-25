@@ -17,7 +17,7 @@ To do this assignment, you should have completed at least the third web app tuto
     1. A background image
     1. Your name must be somewhere on the page
     1. An area of the page that will hold dynamically created content
-    1. The page will use an imported font
+    1. The page will use an embedded font
     1. The page content must be legible and nicely styled, with good choices made for colors, margins and fonts
     1. Mobile friendly would be nice, but is not required
     1. The look of the page is worth 50% of the assignment
