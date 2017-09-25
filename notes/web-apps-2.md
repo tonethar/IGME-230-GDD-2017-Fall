@@ -18,7 +18,7 @@ You can read about the evolution of JavaScript & ECMAScript here:
 In this course we are mostly concerned about the version of JavaScript that was standardized in 2009 called ECMAScript 5 (aka ES5), and the latest version (ES6) which was finalized in 2015. 
 Because ES6 has not been full adopted by all of the browser vendors, we will only be using a small subset of its features.
 
-You can read peruse the full ES6 standard here - https://tc39.github.io/ecma262/ - but it's not very exciting reading.
+You can peruse the full ES6 standard here - https://tc39.github.io/ecma262/ - but it's not very exciting reading.
 
 A nice list of new ES6 language features is here - http://es6-features.org/ - and it will make more sense as you get comfortable with the JavaScript programming language.
 
