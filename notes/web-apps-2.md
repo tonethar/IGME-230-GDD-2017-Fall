@@ -63,7 +63,7 @@ This console also contains an interactive interpreter where you can run JavaScri
 ![The JavaScript Console](_images/console-2.jpg)
 
 ## V. Declaring variables and constants
-We use the `const` keyword to declare constant values (that do not change), and the `let` keyword to declare variables. Note the we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
+We use the `const` keyword to declare constant values (that do not change), and the `let` keyword to declare variables. Note that we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
 
 Note that `const` and `let` are both part of the ES6 standard (you are learning some ES6 already!) and are well-supported by current and recent browsers.
 
