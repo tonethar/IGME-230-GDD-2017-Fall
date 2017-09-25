@@ -5,8 +5,10 @@ If you are comfortable with HTML and CSS, you are already familiar with the basi
 But to give yourself even more control over the appearance of your web pages, as well as other capabilities, you will need to utilize the JavaScript programming language.
 
 JavaScript was originally created by Brendan Eich of Netscape Communication in 1995, and was re-implemented as JScript in Microsoft Internet Explorer in 1996.
+
 Standardization of the language began in 1996 when Netscape submitted the language to Ecma International (at the time, "European Computer Manufacturers Association").
-The term JavaScript is actually trademarked by the Oracle Corporation, so the standardized name of the scripting language that runs in web browsers is ECMAScript.
+
+The term JavaScript is actually trademarked by the Oracle Corporation, so the standardized name of the scripting language that runs in web browsers is **ECMAScript**.
 
 
 ## II. History of JavaScript
