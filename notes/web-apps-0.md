@@ -33,10 +33,11 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. creating and modifying DOM elements
     1. inserting and deleting DOM elements from the DOM tree
 1. JavaScript Functions
-    1. functions and variable scope
-    1. ES6 Block Scope
+    1. Writing basic functions
+    1. Function declarations & expressions
+    1. Functions as *first-class* objects
+    1. ES6 Block & Script Scope
     1. ES6 Arrow Functions
-    1. Functions as *first-class* types
 1. JavaScript Events
     1. Event Handlers
     1. `addEventListener()`, `removeEventListener()`
