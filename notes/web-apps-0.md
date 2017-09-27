@@ -53,6 +53,9 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. AJAX v. Ajax
     1. JSON
 
+## IV. Homework Assignments
+- [Random Phrases I](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/HW-random-phrases-1.md)
+
 ## IV. What has been left out of this series
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
 
