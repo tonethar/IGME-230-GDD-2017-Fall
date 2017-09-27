@@ -39,9 +39,10 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. ES6 Block & Script Scope
     1. ES6 Arrow Functions
     1. More practice with the debugger
-1. JavaScript Events
+1. JavaScript Events & the `this` keyword
     1. Event Handlers
     1. `addEventListener()`, `removeEventListener()`
+    1. Values of `this`
 1. JavaScript Arrays and array-like objects
     1. methods of Array() - `.forEach()`, `.filter()`, `.map()`
     1. `DomNodeList()`
