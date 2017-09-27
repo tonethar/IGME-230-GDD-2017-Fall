@@ -44,7 +44,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. `addEventListener()`, `removeEventListener()`
 1. JavaScript Arrays and array-like objects
     1. methods of Array() - `.forEach()`, `.filter()`, `.map()`
-    1. DomNodeList()
+    1. `DomNodeList()`
     1. JavaScript typed arrays
 1. JavaScript Custom Objects
     1. Object Literals
