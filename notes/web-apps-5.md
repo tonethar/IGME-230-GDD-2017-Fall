@@ -427,4 +427,6 @@ function createList(listElement,array){
 
 The HTML produced should be identical to what was produced in the previous version.
 
+ **[Next Section -> JavaScript Events](web-apps-6.md)**
+
 
