@@ -190,7 +190,7 @@ When functions are declared, and when variables are declared using either `let` 
 - A **Block** is delimited by a pair of curly braces `{}` and is used to group zero or more statements.
 - **Scope** means where your variable is accessible and modifiable in your program.
 - Functions and variables declared by `let` and `const` have as their scope the block in which they are defined, as well as in any contained sub-blocks. 
-- If a variable is declared with `let` and `const` **outside** of a block (at the top-level of the &lt;script> element) it has **script** scope. Script scope means that the variable is available in other &lt;script> tags.
+- If a variable is declared with `let` and `const` **outside** of a block (at the top-level of the &lt;script> element) it has **script** scope. Script scope means that the variable is available throughout the current script, and in other &lt;script> tags.
 
 ### functions-4.html
 
