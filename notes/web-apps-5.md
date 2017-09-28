@@ -2,7 +2,7 @@
 
 ## I. Overview
 Today we are going to learn about how to write functions in JavaScript.
-Functions contain a sequence of statements called the function body. There are two advantages to using functions:
+Functions contain a sequence of statements called the *function body*. There are two advantages to using functions:
 1. Reusability
 1. Procedural Abstraction
 
