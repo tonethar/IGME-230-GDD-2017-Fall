@@ -408,7 +408,7 @@ C. We are going to use String Template literals in our examples instead of strin
 ## XII. Review Assignment
 
 Duplicate your **web-apps-4.html** file and name the copy **web-apps-5.html**
-Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates the a software best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
+Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
 What you need to do is to factor out that duplicated code and put it into a function.
 
 1. Hint: The function declaration looks something like this:
