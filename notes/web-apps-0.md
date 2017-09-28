@@ -7,7 +7,11 @@ This series of tutorials/lecture notes will get you started in creating web appl
 - CSS selectors (in particular the CSS3 selectors) will come in handy
 - Fundamental programming concepts that you gleaned from the (at least) 2 programming classes you have taken prior to this course.
 
-## III. The Tutorials
+## III. How to get the most out of this tutorial
+- Try out the code samples! Tweak and modify them! Most of the code samples are 100% complete. You just need to copy the code and paste it into a text file, and save it to your desktop. You can then make changes to the code and preview them in a web browser (we will be using Chrome)
+- Be sure to answer all of the questions at the end of each section, and to do the review exercises.
+
+## IV. The Tutorials
 1. [Introduction to Web Applications](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-1.md):
     1. what is a web app?
     1. what components of the web browser can I program?
@@ -56,14 +60,14 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. AJAX v. Ajax
     1. JSON
 
-## IV. Homework Assignments
+## V. Homework Assignments
 - [Random Phrases 1](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/HW-random-phrases-1.md)
 - [Random Phrases 2](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/HW-random-phrases-2.md)
 - Solitaire DOM Game
 - ToDoList App
 - Giffy Web Service App
 
-## V. What has been left out of this series
+## VI. What has been left out of this series
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
@@ -77,7 +81,7 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 - **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the PixiJS rendering engine.
 - **WebGL** is an implementation of OpenGL ES 2.0 that runs natively in web browsers, and is the fastest way to draw to the browser screen. WebGL shaders may be briefly looked at while we are covering PixiJS.
 
-## VI. Links & Resources
+## VII. Links & Resources
 
 
 **[Next Section -> Introduction to Web Applications](web-apps-1.md)**
