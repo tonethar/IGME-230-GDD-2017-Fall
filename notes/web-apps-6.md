@@ -17,6 +17,7 @@ JavaScript "on-event" handlers have been around since the early days of the Inte
 	<meta charset="utf-8" />
 	<title>Events-1</title>
 	<style>
+	body{border:1px solid gray;}
 	p{font-size:2em;}
 	</style>
 </head>
@@ -24,14 +25,14 @@ JavaScript "on-event" handlers have been around since the early days of the Inte
 <p>I am a paragraph</p>
 <script>
 
-let p = document.querySelector("p");
-p.onclick = function(e){
-	// 1 - the keyword 'this' in this context means the object that triggered the event
+  let p = document.querySelector("p");
+  p.onclick = function(e){
+    // 1 - the keyword 'this' in this context means the object that triggered the event
 	this.innerHTML = "I was clicked!";
-   
+	
    // 2 - will do the same thing
    //e.target.innerHTML = "I was clicked!";
-}
+  }
 
 
 </script>
