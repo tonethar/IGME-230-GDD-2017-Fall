@@ -377,3 +377,5 @@ let links = {
 **It should look like this, except with your favorites (whatever they are):**
 
 ![Web Page](_images/more-dom-5.jpg)
+
+ **[Next Section -> JavaScript Functions](web-apps-5.md)**
