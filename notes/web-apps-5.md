@@ -128,7 +128,7 @@ console.log(greetings2); // ["Greetings and felicitations, kind Gary.", "Greetin
 - in #1A above, we see that we can call these functions normally, the same way as we would call a declared function.
 - in #2 above, we have declared a function that takes another function as an argument
 - as we loop through the array, we call the passed in function repeatedly
-- in #2A & #2B above we call createGreetings() with 2 different functions passed in
+- in #2A & #2B above we call `createGreetings()` with 2 different functions passed in
 
 ## IV. Default function parameters
 In JavaScript, parameters of functions default to `undefined`. However, in some situations 
