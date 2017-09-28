@@ -130,7 +130,7 @@ console.log(greetings2); // ["Greetings and felicitations, kind Gary.", "Greetin
 - as we loop through the array, we call the passed in function repeatedly
 - in #2A & #2B above we call createGreetings() with 2 different functions passed in
 
-## IV. Default function parameters (ES6 only)
+## IV. Default function parameters
 In JavaScript, parameters of functions default to `undefined`. However, in some situations 
 it might be useful to set a different default value. This is where **default parameters** can help.
 
