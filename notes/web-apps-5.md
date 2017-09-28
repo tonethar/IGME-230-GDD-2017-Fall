@@ -381,13 +381,14 @@ console.log(addThem4(5,5)) // 10
 ## X. Nota bene
 
 A. We have not yet talked about the `this` keyword - `this` has a special value within functions based on how it is called - we will take a closer look at `this` in the next section, JavaScript Events & `this`.
-A. A new kind of function for ES6 is called a **Generator Function** - which is a function that can be paused and later resumed. We will not be covering them in this course. If you are interested, here is some information about them:
+
+B. A new kind of function for ES6 is called a **Generator Function** - which is a function that can be paused and later resumed. We will not be covering them in this course. If you are interested, here is some information about them:
 
 - http://thejsguy.com/2016/10/15/a-practical-introduction-to-es6-generator-functions.html
 - https://davidwalsh.name/es6-generators
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
 
-B. Function declarations and function expressions are very similar, but there are subtle differences.
+C. Function declarations and function expressions are very similar, but there are subtle differences.
 One of these is that within the same scope, function declarations are immediately available to all the code, but `let` function expressions are not available until the variable  has been *declared* and *initialized*.
 
 To see this in action:
@@ -395,7 +396,7 @@ To see this in action:
 - head back to **functions-1.html** and add this line of code - `sayHello();` - to the very top of the &lt;script> tag, before sayHello has been declared. Run the code. You should see two of the "Hello1" logs now, proving that the `sayHello(){...}` function was available even though it was declared later on in the code.
 - head back to **functions-2.html** and add this line of code - `console.log(formatGreeting1("Freddy"));` - to the very top of the &lt;script> tag, before the `formatGreeting` variable was initialized. Run the code. You will get an error message - `Uncaught ReferenceError: formatGreeting1 is not defined` - which means that at the top of the code `formatGreeting1` has not yet been declared (or initialzed). THis means that `formatGreeting1` is in a "temporal dead zone" from the start of the block until the initialization is processed.
 
-C. We are going to use String Template literals in our examples instead of string concatentation going forward. But there is one caveat - Internet Explorer 11 (the final version of IE) does not support them, so be catious about using them in your "shipping" JavaScript projects.
+D. We are going to use String Template literals in our examples instead of string concatentation going forward. But there is one caveat - Internet Explorer 11 (the final version of IE) does not support them, so be cautious about using them in your "shipping" JavaScript projects.
 
 ## XI. Review Questions
 1. What is a *block*?
