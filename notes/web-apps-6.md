@@ -6,7 +6,7 @@ DOM events are sent to let our code know that interesting things have happened -
 
 
 ## I. Event Handlers
-JavaScript "on-event" handlers have been around since the early days of the Internet, and are the easiest way to hook into events like `onload`, `onclick`, `onmousedown`, or `onkeyup`.
+JavaScript "on-event" handlers have been around since the early days of the Internet, and are the easiest way to hook into events like `onload`, `onclick`, `onmousedown`,`onkeyup` and so on.
 
 ### events-1.html
 
