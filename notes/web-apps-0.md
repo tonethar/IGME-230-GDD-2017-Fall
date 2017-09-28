@@ -47,13 +47,14 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. Event Handlers
     1. `addEventListener()`, `removeEventListener()`
     1. Values of `this`
+1. JavaScript Custom Objects
+    1. Object Literals
+    1. ES6 Classes
 1. JavaScript Arrays and array-like objects
     1. methods of Array() - `.forEach()`, `.filter()`, `.map()`
     1. `DomNodeList()`
     1. JavaScript typed arrays
-1. JavaScript Custom Objects
-    1. Object Literals
-    1. ES6 Classes
+    1. Conway's *Game of Life*
 1. The WebStorage API
 1. Intro to Web Services
     1. XHR & Fetch API
