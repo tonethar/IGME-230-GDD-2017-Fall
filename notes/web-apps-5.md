@@ -184,7 +184,7 @@ console.log(multiply3(2)); 	// 2, because b has a default value of 1
 - note in #2 that we are using the *ternary operator*, which is a shortcut if/then/else. This also illustates one way to check to see if a value is undefined.
 - note in #3 that default function parameters are an ES6 feature
 
-## V. Variable Scope (let & const)
+## V. Variable Scope (`let` & `const`)
 When functions are declared, and when variables are declared using either `let` or `var`, they are *scoped* to the current *block* they were declared in.
 
 - A **Block** is delimited by a pair of curly braces `{}` and is used to group zero or more statements.
