@@ -56,7 +56,7 @@ Go ahead and try this code out - clicking the paragraph should cause its text to
 ![Web Page](_images/events-2.jpg)
 
 
-## Event Listeners
+## II. Event Listeners
 
 The major limitation of event handlers is that each element can have only *one* event handler attached to it at one time.
-addEventListener() - which we will cover now, have no such restrictions.
+`addEventListener()` - which we will cover now, has no such restrictions.
