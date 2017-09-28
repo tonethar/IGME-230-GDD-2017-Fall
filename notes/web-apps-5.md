@@ -163,7 +163,7 @@ function multiply2(a, b) {
 }
 
 console.log(multiply2(2,5)); 	// 10
-console.log(multiply2(2)); 		// 2, because b will default to 1
+console.log(multiply2(2)); 	// 2, because b will default to 1
 
 
 // #3 - this is much easier with ES6 default parameters
@@ -172,7 +172,7 @@ function multiply3(a, b = 1) {
 }
 
 console.log(multiply3(2,5)); 	// 10
-console.log(multiply3(2)); 		// 2, because b has a default value of 1
+console.log(multiply3(2)); 	// 2, because b has a default value of 1
 
 
 </script>
