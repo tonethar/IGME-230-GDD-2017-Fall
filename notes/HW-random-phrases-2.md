@@ -12,6 +12,7 @@ To do this assignment, you should have completed at least the 6th web app tutori
 1. All of the requirements of Random Phrases-1 are in effect
 1. Create a nicely styled &lt;button> and put it on the screen
 1. Clicking the button will call a function named `displayQuote`, which will generate and display a random quote
+1. Add CSS button rules for `:hover` and :`active` so that the button has a nice "over" and "down" look
 1. When the page is first loaded, a random quote should still be displayed
 
 ## Submission
