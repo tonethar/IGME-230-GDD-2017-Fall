@@ -411,16 +411,17 @@ Duplicate your **web-apps-4.html** file and name the copy **web-apps-5.html**
 Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates the a software best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
 What you need to do is to factor out that duplicated code and put it into a function.
 
-1. Hint: The function declaration looks like this:
+1. Hint: The function declaration looks something like this:
 
 ```
-function createList(array,listElement){
+function createList(listElement,array){
   // you write the rest
 }
 ```
 
 2. Now call this function twice, passing in the applicable array and a reference to the list element you want to populate.
-3. Delete all the old duplicated code - now don't you feel better about yourself?
+3. Now add a default value to the `array` parameter - an array with the values "puppydogs", "butterflies", and "lollipops".
+4. Delete all the old duplicated code - now don't you feel better about yourself?
 
 The HTML produced should be identical to what was produced in the previous version.
 
