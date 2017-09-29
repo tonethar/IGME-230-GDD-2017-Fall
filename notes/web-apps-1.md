@@ -1,13 +1,16 @@
 # Introduction to Web Applications
 ## Overview
-[Discussion/Review](#section5)
-<ol type="I">
-  <li>[What is a "Web App"?](#section1)</li>
-  <li>[What parts of the web browser can I program?](#section2)</li>
-  <li>[Web APIs used in the IGM Web Courses](#section3)</li>
-  <li>[How do I know what browser APIs I can use in my web applications?](#section4)</li>
-  <li>[Discussion/Review](#section5)</li>
-</ol>
+
+I. [Discussion/Review](#section5)
+
+II. [What parts of the web browser can I program?](#section2)
+
+III. [Web APIs used in the IGM Web Courses](#section3)
+
+IV. [How do I know what browser APIs I can use in my web applications?](#section4)
+
+V. [Discussion/Review](#section5)
+
 
 ## I. <a id="section1"></a>What is a "Web App"?
 
