@@ -1,7 +1,38 @@
 # JavaScript Functions
 
-## I. Overview
+## Overview
 Today we are going to learn about how to write functions in JavaScript.
+
+## Contents
+<!--- Local Navigation --->
+I. [Introduction](#section1)
+
+II. [Function Declarations](#section2)
+
+III. [Function Expressions](#section3)
+
+IV. [Default function parameters](#section4)
+
+V. [Variable Scope (`let` & `const`)](#section5)
+
+VI. [Variable Scope with the `var` keyword](#section6)
+
+VII. [Nested variable declarations](#section7)
+
+VIII. [Nested functions](#section8)
+
+IX. [Arrow Functions](#section9)
+
+X. [Nota bene](#section10)
+
+XI. [Review Questions](#section11)
+
+XII. [Review Exercise](#section12)
+
+
+<hr><hr>
+
+## I. <a id="section1"></a>Introduction
 Functions contain a sequence of statements called the *function body*. There are two advantages to using functions:
 1. Reusability
 1. Procedural Abstraction
@@ -9,7 +40,7 @@ Functions contain a sequence of statements called the *function body*. There are
 Here is a short,  well-written page that explains what and why these two concepts are important - please take the time to read it: https://www.cs.utah.edu/~zachary/computing/lessons/uces-10/uces-10/node11.html
 
 
-## II. Function Declarations
+## II. <a id="section2"></a>Function Declarations
 
 Here are some examples of JavaScript function declarations. Note that when we declare a JavaScript function, we do not declare the *type* of the arguments, or the *type* of the return value.
 
@@ -60,7 +91,7 @@ console.log(greeting); 	// HELLO MARY!
 
 ```
 
-## III. Function Expressions
+## III. <a id="section3"></a>Function Expressions
 In JavaScript functions are *first-class* values - they are objects actually. 
 This means that like any other JavaScript type (e.g. numbers or strings) they can be referenced by a variable, passed as an argument to a function, and returned as a value by a function.
 
@@ -130,7 +161,7 @@ console.log(greetings2); // ["Greetings and felicitations, kind Gary.", "Greetin
 - as we loop through the array, we call the passed in function repeatedly
 - in #2A & #2B above we call `createGreetings()` with 2 different functions passed in
 
-## IV. Default function parameters
+## IV. <a id="section4"></a>Default function parameters
 In JavaScript, parameters of functions default to `undefined`. However, in some situations 
 it might be useful to set a different default value. This is where **default parameters** can help.
 
@@ -184,7 +215,7 @@ console.log(multiply3(2)); 	// 2, because b has a default value of 1
 - note in #2 that we are using the *ternary operator*, which is a shortcut if/then/else. This also illustates one way to check to see if a value is undefined.
 - note in #3 that default function parameters are an ES6 feature
 
-## V. Variable Scope (`let` & `const`)
+## V. <a id="section5"></a>Variable Scope (`let` & `const`)
 When functions are declared, and when variables are declared using either `let` or `var`, they are *scoped* to the current *block* they were declared in.
 
 - A **Block** is delimited by a pair of curly braces `{}` and is used to group zero or more statements.
@@ -244,14 +275,14 @@ Note that we have 3 scopes here: "Local", "Script", and "Global".
 
 ![Web Page](_images/functions-1.jpg)
 
-## VI. Variable Scope with the `var` keyword
+## VI. <a id="section6"></a>Variable Scope with the `var` keyword
 Variables declared with the `var` keyword (which we have not been using) are scoped to the nearest enclosing function in which they were declared, they are NOT *block scoped*.
 
 You can read about this behavior of `var` and other behaviors such as **hoisting** and **global scope** here:
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
 
-## VII. Nested variable declarations
+## VII. <a id="section7"></a>Nested variable declarations
 ### functions-5.html
 
 ```
@@ -288,7 +319,7 @@ doStuff();
 - z above is scoped to the inner "if" block, and is not visible outside of that block.
 
 
-## VIII. Nested functions
+## VIII. <a id="section8"></a>Nested functions
 We can declare a function *within* a function. The nested (inner) function is private to its containing (outer) function. 
 Below we have given the `addSquares()` function a "helper" function that is not visible from the outside of `addSquares()`.
 
@@ -329,7 +360,7 @@ Closures are an important topic in JavaScript - you can learn more about them:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Nested_functions_and_closures
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-## IX. Arrow Functions
+## IX. <a id="section9"></a>Arrow Functions
 Arrow functions are an ES6 addition.  They have two advantages: they have a shorter syntax than regular functions, and they do not bind their own `this` keyword. This second advantage might not mean anything to you now, but we will revisit it in the next part of this tutorial.
 
 ### functions-7.html
@@ -379,7 +410,7 @@ console.log(addThem4(5,5)) // 10
 
 
 
-## X. Nota bene
+## X. <a id="section10"></a>Nota bene
 
 A. We have not yet talked about the `this` keyword - `this` has a special value within functions based on how it is called - we will take a closer look at `this` in the next section, JavaScript Events & `this`.
 
@@ -399,7 +430,7 @@ To see this in action:
 
 D. We are going to use String Template literals in our examples instead of string concatentation going forward. But there is one caveat - Internet Explorer 11 (the final version of IE) does not support them, so be cautious about using them in your "shipping" JavaScript projects.
 
-## XI. Review Questions
+## XI. <a id="section11"></a>Review Questions
 1. What is a *block*?
 1. Define *scope*
 1. Declaring a variable with `let` or `const` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
@@ -407,7 +438,7 @@ D. We are going to use String Template literals in our examples instead of strin
 1. What does the `debugger;` statement do?
 
 
-## XII. Review Assignment
+## XII. <a id="section12"></a>Review Exercise
 
 Duplicate your **web-apps-4.html** file and name the copy **web-apps-5.html**
 Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
