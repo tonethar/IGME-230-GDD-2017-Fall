@@ -7,9 +7,9 @@ Today we are going to learn about how to write functions in JavaScript.
 <!--- Local Navigation --->
 I. [Introduction](#section1)
 
-II. [Function Declarations](#section2)
+II. [Function *Declarations*](#section2)
 
-III. [Function Expressions](#section3)
+III. [Function *Expressions*](#section3)
 
 IV. [Default function parameters](#section4)
 
@@ -40,7 +40,7 @@ Functions contain a sequence of statements called the *function body*. There are
 Here is a short,  well-written page that explains what and why these two concepts are important - please take the time to read it: https://www.cs.utah.edu/~zachary/computing/lessons/uces-10/uces-10/node11.html
 
 
-## II. <a id="section2"></a>Function Declarations
+## II. <a id="section2"></a>Function *Declarations*
 
 Here are some examples of JavaScript function declarations. Note that when we declare a JavaScript function, we do not declare the *type* of the arguments, or the *type* of the return value.
 
@@ -91,7 +91,7 @@ console.log(greeting); 	// HELLO MARY!
 
 ```
 
-## III. <a id="section3"></a>Function Expressions
+## III. <a id="section3"></a>Function *Expressions*
 In JavaScript functions are *first-class* values - they are objects actually. 
 This means that like any other JavaScript type (e.g. numbers or strings) they can be referenced by a variable, passed as an argument to a function, and returned as a value by a function.
 
