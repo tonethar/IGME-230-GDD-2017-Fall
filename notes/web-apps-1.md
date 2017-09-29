@@ -2,14 +2,14 @@
 ## Overview
 
 <ol type="I">
-  <li>What is a "Web App"?</li>
-  <li>What parts of the web browser can I program?</li>
-  <li>Web APIs used in the IGM Web Courses</li>
-  <li> How do I know what browser APIs I can use in my web applications?</li>
-  <li>Discussion/Review</li>
+  <li>[What is a "Web App"?](#section1)</li>
+  <li>[What parts of the web browser can I program?](#section2)</li>
+  <li>[Web APIs used in the IGM Web Courses](#section3)</li>
+  <li>[How do I know what browser APIs I can use in my web applications?](#section4)</li>
+  <li>[Discussion/Review](#section5)</li>
 </ol>
 
-## I. What is a "Web App"?
+## I. <a id="section1"></a>What is a "Web App"?
 
 The wikipedia definition - https://en.wikipedia.org/wiki/Web_application - is pretty good - *A web app is a client–server computer program in which the client (including the user interface and client-side logic) runs in a web browser. Common web applications include webmail, online retail sales, online auctions, wikis, instant messaging services and many other functions.*
 
@@ -17,7 +17,7 @@ In this course we are going to create some simple web apps that run in modern we
 The examples we will build include a calculator, an image gallery, an app that can search/download/play song previews from a music service, and simple games.
 Most of these apps will run entirely in the *client* (i.e. the web browser). Others (the music player) will utilize data downloaded from the Internet. 
 
-## II. What parts of the web browser can I program?
+## II. <a id="section2"></a>What parts of the web browser can I program?
 
 If we are going to build applications that run in web browsers, we need to understand the major components of the browser that can be scripted by us.
 
@@ -30,7 +30,7 @@ Each major web browser has its own layout engine: Chrome and Opera have *Blink*,
 
 A mostly complete list of browser APIs can be found here: https://developer.mozilla.org/en-US/docs/Web/API
 
-## III. Web APIs used in the IGM Web Courses
+## III. <a id="section3"></a>Web APIs used in the IGM Web Courses
 Here are some of the Web APIs that you will be using in this course and/or the following web course (IGME-330):
 - **Canvas** - procedural drawing and animation -  https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 - **Document Object Model (DOM)** - used to access and modify the contents and style  of a web page - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
@@ -39,7 +39,7 @@ Here are some of the Web APIs that you will be using in this course and/or the f
 - **Web Storage** - store key/value pairs of data in the user's browser - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 
 
-## IV. How do I know what browser APIs I can use in my web applications?
+## IV. <a id="section4"></a>How do I know what browser APIs I can use in my web applications?
 As developers we want to create applications that take advantage of the latest browser features, but also don't leave users of more recent browsers behind. This can be a challenge because the various web browser vendors adopt new features at different times. 
 Sometimes new features are adopted long after *web standards* bodies have approved them, other times browser vendors will implement experimental features prior to a standard being agreed upon.
 
@@ -66,7 +66,7 @@ Because there is not one central authority on web standards, and the capabilitie
 The best web site for tracking the adoption of new browser capabilities: 
 - http://caniuse.com 
 
-## V. Discussion/Review
+## V. <a id="section5"></a>Discussion/Review
 1. What is a *Web App*?
 1. What are the 3 major components of a web browser that can be scripted/controlled by a web developer?
 1. How can I "program" the **Web Layout Engine**?
