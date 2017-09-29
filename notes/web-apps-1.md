@@ -3,6 +3,7 @@
 First we will discuss what a *web app* is, and take look at the different components of a web browser that a developer is able to program.
 
 ## Contents
+<!--- Local Navigation --->
 I. [What is a "Web App"?](#section1)
 
 II. [What parts of the web browser can I program?](#section2)
