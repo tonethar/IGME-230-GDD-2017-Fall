@@ -1,7 +1,7 @@
 # JavaScript Functions
 
 ## Overview
-In computer programming, functions are a named section of a program that perform a specific task; they are basically "mini programs" within a larger program. Today we are going to learn about how to write functions in JavaScript.
+In computer programming, a *function* is a named section of a program that perform a specific task; they are basically "mini programs" within a larger program. Today we are going to learn about how to write functions in JavaScript.
 
 ## Contents
 <!--- Local Navigation --->
