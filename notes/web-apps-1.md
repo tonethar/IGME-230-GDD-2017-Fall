@@ -75,7 +75,7 @@ The best web site for tracking the adoption of new browser capabilities:
 ## V. <a id="section5"></a>Discussion/Review
 1. What is a *Web App*?
 1. What are the 3 major components of a web browser that can be scripted/controlled by a web developer?
-1. How can I "program" the **Web Layout Engine**?
+1. What languages are commonly used to "program" the **Web Layout Engine**?
 1. How are new web browser features proposed?
 1. Who is in charge of web standards - the standards bodies or the browser vendors?
 1. List 3 places a web developer can find "web app" documentation.
