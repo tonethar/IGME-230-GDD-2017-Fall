@@ -430,6 +430,14 @@ To see this in action:
 
 D. We are going to use String Template literals in our examples instead of string concatentation going forward. But there is one caveat - Internet Explorer 11 (the final version of IE) does not support them, so be cautious about using them in your "shipping" JavaScript projects.
 
+E. You may have noticed **global** variable scope above. How can you add variables to this **global** scope?
+1. Use the `var` keyword (which we will avoid using in this class)
+2. Every time you give an element an `id` value, you are actually creating a property on the global `.window` object. You can read about this here:
+
+http://2ality.com/2012/08/ids-are-global.html
+
+This "auto creation" of global properties is a feature you probably don't want to use in your code, but you need to be aware of it because it can cause quirky behavior in your programs depending on how you "id" your elements.
+
 ## XI. <a id="section11"></a>Review Questions
 1. What is a *block*?
 1. Define *scope*
