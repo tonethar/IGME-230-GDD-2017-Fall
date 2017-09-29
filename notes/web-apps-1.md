@@ -1,7 +1,8 @@
 # Introduction to Web Applications
 ## Overview
 
-I. [Discussion/Review](#section5)
+### Contents
+I. [What is a "Web App"?](#section1)
 
 II. [What parts of the web browser can I program?](#section2)
 
