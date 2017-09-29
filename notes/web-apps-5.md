@@ -436,6 +436,7 @@ D. We are going to use String Template literals in our examples instead of strin
 1. Declaring a variable with `let` or `const` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
 1. Declaring a variable with `let` or `const` inside of a `for` loop of a function gives it what kind of *scope*?
 1. What does the `debugger;` statement do?
+1. What does D.R.Y. stand for and *mean*? (see next section below)
 
 
 ## XII. <a id="section12"></a>Review Exercise
