@@ -4,7 +4,7 @@ When developers discuss database records and operations, there's a concept known
 
 Similarly, if we are going to create web applications, we will have to do the same things to our web pages: **create** new elements, select (**read**) existing elements, **update** elements, and **delete** elements.
 
-How do we do this on a web browser? Read on!
+How do we do this in a web browser? Read on!
 
 ## Contents
 <!--- Local Navigation --->
