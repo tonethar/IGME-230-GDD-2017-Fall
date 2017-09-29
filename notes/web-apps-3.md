@@ -1,8 +1,8 @@
 # Introduction to the Web Browser DOM
 ## Overview
-When developers discuss database records and operations, there's a concept known as **C.R.U.D.** - "Create", "Modify", "Update" and "Delete". Every database needs to be able to do these things.
+When developers discuss database records and operations, there's a concept known as **C.R.U.D.** - "Create", "Read", "Update" and "Delete". Every database needs to be able to do these things.
 
-Similarly, if we are going to create web applications, we will have to do the same things to our web pages: create new elements and modify them, update existing elements, and delete elements.
+Similarly, if we are going to create web applications, we will have to do the same things to our web pages: **create** new elements, select (**read**) existing elements, **update** elements, and **delete** elements.
 
 How do we do this on a web browser? Read on!
 
@@ -312,6 +312,7 @@ Using the JavaScript debugger and setting breakpoints was briefly touched upon a
 Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
 
 ## IX. <a id="section9"></a>Review Questions
+1. What does "CRUD" stand for?
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
 1. What is the name of the DOM method that will return **all** elements that match the given selector?
