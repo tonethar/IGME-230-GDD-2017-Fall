@@ -1,5 +1,6 @@
 # Introduction to Web Applications
 ## Overview
+First we will discuss what a *web app* is, and take look at the different components of a web browser that a developer is able to program.
 
 ### Contents
 I. [What is a "Web App"?](#section1)
