@@ -1,5 +1,10 @@
 # Introduction to the Web Browser DOM
 ## Overview
+When developers discuss database records and operations, there's a concept know as **C.R.U.D.** - "Create", "Modify", "Update" and "Delete". Every database needs to be able to do these things.
+
+Similarly, if we are going to create web applications, we will have to do the same things to our web pages: create new elements and modify them, update existing elements, and delete elements.
+
+How do we do this on a web browser? Read on!
 
 ## Contents
 <!--- Local Navigation --->
