@@ -1,6 +1,11 @@
 # Introduction to Web Applications
 ## Overview
 
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
 i. What is a "Web App"?
 i. What parts of the web browser can I program?
 i. Web APIs used in the IGM Web Courses
