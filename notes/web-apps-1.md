@@ -2,15 +2,12 @@
 ## Overview
 
 <ol type="I">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>What is a "Web App"?</li>
+  <li>What parts of the web browser can I program?</li>
+  <li>Web APIs used in the IGM Web Courses</li>
+  <li> How do I know what browser APIs I can use in my web applications?</li>
+  <li>Discussion/Review</li>
 </ol>
-i. What is a "Web App"?
-i. What parts of the web browser can I program?
-i. Web APIs used in the IGM Web Courses
-i. How do I know what browser APIs I can use in my web applications?
-
 
 ## I. What is a "Web App"?
 
