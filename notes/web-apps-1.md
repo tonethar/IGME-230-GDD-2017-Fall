@@ -1,13 +1,10 @@
 # Introduction to Web Applications
 ## Overview
 
-I. What is a "Web App"?
-
-I. What parts of the web browser can I program?
-
-I. Web APIs used in the IGM Web Courses
-
-I. How do I know what browser APIs I can use in my web applications?
+i. What is a "Web App"?
+i. What parts of the web browser can I program?
+i. Web APIs used in the IGM Web Courses
+i. How do I know what browser APIs I can use in my web applications?
 
 
 ## I. What is a "Web App"?
