@@ -1,6 +1,26 @@
 # Introduction to JavaScript
 
-## I. Overview
+## Overview
+First we will discuss what a *web app* is, and take look at the different components of a web browser that a developer is able to program.
+
+## Contents
+<!--- Local Navigation --->
+I. [Introduction](#section1)
+II. [History of JavaScript](#section2)
+III. [Get started!](#section3)
+IV. [The JavaScript console is interactive](#section4)
+V. [Declaring variables and constants](#section5)
+VI. [Viewing error messages](#section6)
+VII. [JavaScript "Primitive" Data Types](#section7)
+VIII. [JavaScript "Built-in" Objects](#section8)
+IX. [Nota bene - "Note well"](#section9)
+X. [Review Questions](#section10)
+XI. [Review Exercise](#section11)
+
+
+<hr><hr>
+
+## I. <a id="section1"></a>Introduction
 If you are comfortable with HTML and CSS, you are already familiar with the basics of getting browser layout engines to display your web pages the way you want them to look.
 But to give yourself even more control over the appearance of your web pages, as well as other capabilities, you will need to utilize the JavaScript programming language.
 
@@ -11,7 +31,7 @@ Standardization of the language began in 1996 when Netscape submitted the langua
 The term JavaScript is actually trademarked by the Oracle Corporation, so the standardized name of the scripting language that runs in web browsers is **ECMAScript**.
 
 
-## II. History of JavaScript
+## II. <a id="section2"></a>History of JavaScript
 You can read about the evolution of JavaScript & ECMAScript here:
 
 - https://en.wikipedia.org/wiki/JavaScript
@@ -26,7 +46,7 @@ A nice list of new ES6 language features is here - http://es6-features.org/ - an
 
 There is a helpful ES6/Browser compatibility table here - https://kangax.github.io/compat-table/es6/
 
-## III. Get started!
+## III. <a id="section3"></a>Get started!
 
 Let's go ahead and build a JavaScript "Hello World" application - it looks like this:
 
@@ -57,12 +77,12 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 ![The JavaScript Console](_images/console-1.jpg)
 
 
-## IV. The JavaScript console is interactive
+## IV. <a id="section4"></a>The JavaScript console is interactive
 This console also contains an interactive interpreter where you can run JavaScript commands. At the prompt, type `Date()` to create and see a new date from the `Date` object, and `Math.random()` to get a random number from the `Math` object.
 
 ![The JavaScript Console](_images/console-2.jpg)
 
-## V. Declaring variables and constants
+## V. <a id="section5"></a>Declaring variables and constants
 We use the `const` keyword to declare constant values (that do not change), and the `let` keyword to declare variables. Note that we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
 
 Note that `const` and `let` are both part of the ES6 standard (you are learning some ES6 already!) and are well-supported by current and recent browsers.
@@ -101,7 +121,7 @@ Note that `const` and `let` are both part of the ES6 standard (you are learning 
 Note the backtick `` ` `` symbol is used to denote the string, and `${}` encloses the variable names.
 
 
-## VI. Viewing error messages
+## VI. <a id="section6"></a>Viewing error messages
 
 The console will display error messages that will help you debug your code. Let's produce an error by attempting to change the value of the `answer` constant above.
 Add this line of code - `answer = 43;` - right before the closing &lt;script> tag, and then reload the page. You should see an error in the console:
@@ -110,7 +130,7 @@ Add this line of code - `answer = 43;` - right before the closing &lt;script> ta
 
 Now go ahead and fix the error by declaring `answer` as a variable rather than a constant (hint: use `let` instead of `const`).
 
-## VII. JavaScript "Primitive" Data Types
+## VII. <a id="section7"></a>JavaScript "Primitive" Data Types
 
 The 5 common built-in "primitive" data types in JavaScript are: `Number`, `String`, `Boolean`, `Undefined` (a value has never been defined) and `Null` (the intentional absence of a value).
 
@@ -147,7 +167,7 @@ That also means that the same variable can contain data of different types.
 </html>
 ```
 
-## VIII. JavaScript "Built-in" Objects
+## VIII. <a id="section8"></a>JavaScript "Built-in" Objects
 
 JavaScript also contains a number of built-in objects that we can use. There is `Object`, which is a starting point for our own customized objects, as well as `Array`, `Date`, `Math`, and others. The "primitive" types above also can be treated like objects and have properties and methods that can be called on them.
 
@@ -188,12 +208,12 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 </html>
 ```
 
-## IX. Nota bene 
+## IX. <a id="section9"></a>Nota bene 
 In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. 
 
 Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
 
-## X. Review Questions
+## X. <a id="section10"></a>Review Questions
 1. Which versions of JavaScript will we be covering in this course?
 1. Which JavaScript keyword declares *variables*?
 1. Which JavaScript keyword declares *constants*?
@@ -202,7 +222,7 @@ Out on the web you are commonly going to see the older (ES5 and earlier) `var` k
 1. What kinds of values can a `Number` type hold? (Google it)
 
 
-## XI. Exercise
+## XI. <a id="section11"></a>Review Exercise
 Make a copy of **hello-4.html** and name it **web-apps-2.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
