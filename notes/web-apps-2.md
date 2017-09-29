@@ -6,15 +6,25 @@ First we will discuss what a *web app* is, and take look at the different compon
 ## Contents
 <!--- Local Navigation --->
 I. [Introduction](#section1)
+
 II. [History of JavaScript](#section2)
+
 III. [Get started!](#section3)
+
 IV. [The JavaScript console is interactive](#section4)
+
 V. [Declaring variables and constants](#section5)
+
 VI. [Viewing error messages](#section6)
+
 VII. [JavaScript "Primitive" Data Types](#section7)
+
 VIII. [JavaScript "Built-in" Objects](#section8)
+
 IX. [Nota bene - "Note well"](#section9)
+
 X. [Review Questions](#section10)
+
 XI. [Review Exercise](#section11)
 
 
