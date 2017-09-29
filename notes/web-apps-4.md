@@ -1,6 +1,31 @@
 # More Web Browser DOM Methods
 
-## I. Overview
+## Overview
+
+## Contents
+<!--- Local Navigation --->
+I. [Introduction](#section1)
+
+II. [Starter Page](#section2)
+
+III. [Creating and appending elements](#section3)
+
+IV. [Inserting elements into the middle of a DOM tree](#section4)
+
+V. [Modifying Existing DOM Elements](#section5)
+
+VI. [Removing Existing DOM Elements](#section6)
+
+VII. [Nota bene](#section7)
+
+VII. [Review Questions](#section8)
+
+IX. [Review Exercise](#section9)
+
+
+<hr><hr>
+
+## I. <a id="section1"></a>Introduction
 Today we are going to look at other ways to use JavaScript to alter HTML elements on the page. 
 Although we can do quite a bit with the `.innerHTML` property, there are times that we might want to insert a new element somewhere on the page, for example a new list item into the middle of a list. Or to delete a single element, for example a list item that is currently inside (a child of) an unordered list. To do these things, we are going to need more fine grained control.
 
@@ -30,7 +55,7 @@ And some properties:
 - `element.parentNode` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/ParentNode</sup></sub>
 - `element.children` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children</sup></sub>
 
-## II. Starter Page
+## II. <a id="section2"></a>Starter Page
 
 ### more-dom-1.html
 ```
@@ -64,7 +89,7 @@ And some properties:
 
 ![Web Page](_images/more-dom-1.jpg)
 
-## III. Creating and appending elements
+## III. <a id="section3"></a>Creating and appending elements
 Our page is missing a &lt;footer>, so let's create one and insert it into the &lt;body>, at the very end of the page. 
 
 ### more-dom-2.html
@@ -174,7 +199,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 ![Web Page](_images/more-dom-3.jpg)
 
 
-## IV. Inserting elements into the middle of a DOM tree
+## IV. <a id="section4"></a>Inserting elements into the middle of a DOM tree
 Rather than just append everything to the bottom of the &lt;body>, let's see how to add elements to both the end and the middle of an unordered list.
 
 ### more-dom-4.html
@@ -263,7 +288,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 ![Web Page](_images/more-dom-4.jpg)
 
 
-## V. Modifying Existing DOM Elements
+## V. <a id="section5"></a>Modifying Existing DOM Elements
 
 Modifying the properties and styles of existing DOM elements is easy. Add the following to the end of **more-dom-4.html**:
 
@@ -279,7 +304,7 @@ googleLink.href = "http://www.bing.com";
 
 
 
-## VI. Removing Existing DOM Elements
+## VI. <a id="section6"></a>Removing Existing DOM Elements
 
 Removing DOM elements is trivial. Add the following to the end of **more-dom-4.html**:
 
@@ -290,7 +315,7 @@ document.body.removeChild(document.querySelector("p"));
 
 - Reload the page - the paragraph is now gone. You can also see this in the Web Inspector. 
 
-## VII. Nota bene
+## VII. <a id="section7"></a>Nota bene
 In the previous document we used `.innerHTML` to create new HTML elements, while in this document we were more *methodical* (literally) and used methods such as `document.createElement()`, `document.createTextNode()`, `element.appendChild()`
 
 Which approach should you use in your code? Our recommendation is to use whichever approach works for you. Consider:
@@ -298,7 +323,7 @@ Which approach should you use in your code? Our recommendation is to use whichev
 - the "DOM element creation" approach we used here can result in **more code** to write, to debug, and to maintain. 
 
 
-## VIII. Review Questions
+## VIII. <a id="section8"></a>Review Questions
 
 Be sure to read the HTML DOM page linked near the top of this document.
 
@@ -311,7 +336,7 @@ Be sure to read the HTML DOM page linked near the top of this document.
 1. What is the *first-child* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *parent* of the "Google" &lt;li> tag in **more-dom-4.html**?
 
-## IX. Review Exercise
+## IX. <a id="section9"></a>Review Exercise
 
 Here is your starter code:
 
