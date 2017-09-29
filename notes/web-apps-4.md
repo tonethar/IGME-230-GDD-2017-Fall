@@ -19,7 +19,7 @@ VI. [Removing Existing DOM Elements](#section6)
 
 VII. [Nota bene](#section7)
 
-VII. [Review Questions](#section8)
+VIII. [Review Questions](#section8)
 
 IX. [Review Exercise](#section9)
 
