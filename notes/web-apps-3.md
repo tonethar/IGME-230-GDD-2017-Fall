@@ -1,11 +1,38 @@
 # Introduction to the Web Browser DOM
+## Overview
 
-## I. Overview
+## Contents
+<!--- Local Navigation --->
+I. [Introduction](#section1)
+
+II. [Selecting and modifying elements on the page](#section2)
+
+III. [The code didn't work!](#section3)
+
+IV. [Waiting until the page loads](#section4)
+
+V. [Try out more CSS selectors with document.querySelector()](#section5)
+
+VI. [document.querySelectorAll()](#section6)
+
+VII. [Seeing your changes in the Web Inspector](#section7)
+
+VIII. [Nota bene](#section8)
+
+IX. [Review Questions](#section9)
+
+X. [Review Exercise](#section10)
+
+
+<hr><hr>
+
+
+## I. <a id="section1"></a>Introduction
 Today we are going to look at how to use JavaScript to alter HTML elements on the page. To
 do this we will need to utilize the DOM (Document Object Model).
 The DOM API defines methods and properties need to access and manipulate a web page.
 
-## II. Selecting and modifying elements on the page
+## II. <a id="section2"></a>Selecting and modifying elements on the page
 If you want to modify an HTML element, you first need to:
 
 1. Get a *reference* to the element
@@ -51,7 +78,7 @@ Go ahead and try running the code sample below - it is attempting to change the 
 
 ![The JavaScript Console](_images/dom-1.jpg)
 
-## III. The code didn't work!
+## III. <a id="section3"></a>The code didn't work!
 When you load this into Chrome, the &lt;h1> text doesn't change. Huh?
 
 ### A. Check the JavaScript console
@@ -71,7 +98,7 @@ So what has a value of `null`? It turns out that our variable `h1` does - which 
 
 Our `h1` selector seems to be correct, but the value is `null` - so what gives?
 
-## IV. Waiting until the page loads
+## IV. <a id="section4"></a>Waiting until the page loads
 The "null" problem we had above is happening because the JavaScript code is running *before* the web page has loaded. 
 The error happens because the line of code - `let h1 = document.querySelector("h1");` returns `null`, and then when we try to set the `.innerHTML` of null we get an error.
 
@@ -112,7 +139,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 ![Web Page](_images/dom-4.jpg)
 
-## V. Try out more CSS selectors with document.querySelector()
+## V. <a id="section5"></a>Try out more CSS selectors with document.querySelector()
 The power of `document.querySelector()` and `document.querySelectorAll()` is that they accept all CSS selectors, including those in the CSS3 standard.
 
 https://www.w3.org/TR/css3-selectors/#selectors
@@ -184,7 +211,7 @@ There was quite a bit in that last example. Let's discuss:
 
 #6 above - we then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. We have to drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
 
-## VI. document.querySelectorAll()
+## VI. <a id="section6"></a>document.querySelectorAll()
 `document.querySelectorAll()` returns an array of results that match the given selector.
 
 **dom-4.html**
@@ -256,7 +283,7 @@ There was quite a bit in that last example. Let's discuss:
 
 #3 above - we used a *descendant* selector to target &lt;b> tags that are inside of paragraphs, and the ES6 `for/of` to loop over the array. 
 
-## VII. Seeing your changes in the Web Inspector
+## VII. <a id="section7"></a>Seeing your changes in the Web Inspector
 **It is important to understand the difference in Chrome between what we see when we "View Source" in Chrome, and what we see when we activate the Web Inspector.**
 
 ### A. "View Source" in Chrome
@@ -270,7 +297,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes refelcted 
 
 ![Web Page](_images/dom-8.jpg)
 
-## VIII. Nota bene 
+## VIII. <a id="section8"></a>Nota bene 
 In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. 
 
 Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` - we recommend that you NOT use these methods as they are much less flexible and powerful than the querySelector() and querySelectorAll() method.
@@ -279,7 +306,7 @@ Using the JavaScript debugger and setting breakpoints was briefly touched upon a
 
 Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
 
-## IX. Review Questions
+## IX. <a id="section9"></a>Review Questions
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
 1. What is the name of the DOM method that will return **all** elements that match the given selector?
@@ -291,7 +318,7 @@ Here is a helpful article on using the Chrome web tools: https://developers.goog
 1. How can we add breakpoints to our code in the debugger, and inspect the values of variables?
 1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
 
-## X. Review Exercise
+## X. <a id="section10"></a>Review Exercise
 Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page (by adding `class` or `id` attributes to the paragraphs, for example.
 
 1. Change the `.innerHTML` of the first &lt;h1> to "My UFO Page"
