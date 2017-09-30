@@ -354,7 +354,7 @@ Here is your starter code:
 	</style>
 </head>
 <body>
-<h1>My Links</h1>
+<h1>My Favorites</h1>
 <h2>My Favorite Colors</h1>
 
 <ol id="colorsList">
