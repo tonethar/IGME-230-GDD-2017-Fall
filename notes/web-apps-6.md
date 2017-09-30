@@ -9,7 +9,7 @@ And learn more about events here:
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 
 
-## I. Event Handlers
+## I. <a id="section1"></a>Event Handlers
 JavaScript "on-event" handlers have been around since the early days of the Internet, and are the easiest way to hook into events like `onload`, `onclick`, `onmousedown`,`onkeyup` and so on.
 
 ### events-1.html
@@ -63,7 +63,7 @@ Go ahead and try this code out - clicking the paragraph should cause its text to
 ![Web Page](_images/events-2.jpg)
 
 
-## II. Event Handlers and function references
+## II. <a id="section2"></a>Event Handlers and function references
 Below our code will point at a declared (and named) function - this code will be triggered when the paragraph is clicked on.
 Go ahead and try this code out - clicking the paragraph will cause its text to change as it did in the previous section, clicking
 the div will similarly trigger the `divClicked()` function.
@@ -111,7 +111,7 @@ document.querySelector("div").onclick = divClicked;
 - In #3 above, we declare a function which we will call later.
 - In #4 above, the value of onclick is the function's *reference*. The function will be called when the button is clicked.
 
-## III. Breaking our code
+## III. <a id="section3"></a>Breaking our code
 One common mistake that is easy to make, is to write this line:
 
 `document.querySelector("div").onclick = divClicked;`
@@ -132,7 +132,7 @@ One common mistake that is easy to make, is to write this line:
 - What happened is that when we added the `()` to the end of `onclick = divClicked()`, the function was called immediately, and the *return value* of the function (`null`) was stored in the `onclick` property instead of the function *reference* it was expecting.
 - Go ahead and change the code back so that it works again.
 
-## IV. Events and Arrow Functions
+## IV. <a id="section4"></a>Events and Arrow Functions
 We can use arrow functions as event handlers too. You might recall that in the Functions lesson we mentioned that arrow functions have two advantages: 
 
 - they have a shorter syntax than regular functions
@@ -192,7 +192,7 @@ let div = document.querySelector("div").onclick = divClicked;
 - when the div is clicked, the code in #2 runs. Here, `e.target` refers to the element that was clicked on, the div. But in an arrow function (unlike a regular function), `this` now refers to the `window` object, which includes the `changeParagraph()` function we called earlier.
 - (actually, in the above example, the `this` in `this.changeParagraph()` was optional, but we wanted to illustrate how the value of `this` has changed in an arrow function.
 
-## V. Event Listeners - `addEventListener()`
+## V. <a id="section5"></a>Event Listeners - `addEventListener()`
 
 The major limitation of event handlers is that each element can have only *one* event handling function attached to it at a time.
 `addEventListener()` - which we will cover now, has no such restrictions.
@@ -252,7 +252,7 @@ When you run the code and click on the elements, this is what you will see:
 - It is very important to note that the events that are being passed into `addEventListener()` are named 'click', NOT 'onclick' like the event handler was.
 
 
-## VI. Event Listeners - `removeEventListener()`
+## VI. <a id="section6"></a>Event Listeners - `removeEventListener()`
 You can also call `removeEventListener()` to later remove event functions.
 
 Add the following to **events-4.html**
@@ -271,7 +271,7 @@ Try out this new code. If you click on the paragraph first, and then the div, yo
 
 ![Web Page](_images/events-7.jpg)
 
-## VII. Adding properties to elements
+## VII. <a id="section7"></a>Adding properties to elements
 Let's imagine that we would like to toggle the paragraph and div back and forth when we click on them. There are a number of ways to do this, but let's go ahead and try out the HTML5 "Custom Data" attribute to add properties to the HTML elements we click on. You can read more about them here:
 
 - http://html5doctor.com/html5-custom-data-attributes/
@@ -344,12 +344,12 @@ Clicking on an element should toggle the styles back and forth from a normal loo
 
 ![Web Page](_images/events-9.jpg)
 
-## X. Nota bene
+## VII. <a id="section8"></a>Nota bene
 No notes yet :-)
 
-## XI. Review Questions
+## IX. <a id="section9"></a>Review Questions
 
-## XII. Review Assignment
+## X. <a id="section10"></a>Review Assignment
 
 
 
