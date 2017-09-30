@@ -333,7 +333,7 @@ div.addEventListener("click",toggleStyle);
 
 **Runninng the code will give you this:**
 
-![Web Page](_images/events-7.jpg)
+![Web Page](_images/events-8.jpg)
 
 ### A. Explanation
 Clicking on an element should toggle the styles back and forth from a normal look, to changed look with a yellow background color and italic text. THis is being accomplished by changing `dataset.state` from "normal" to "changed". Note that we came up with the name `.state` on our own. We could have called it anything like `.selected` or `.clicked`.
