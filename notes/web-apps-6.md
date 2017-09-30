@@ -112,11 +112,11 @@ document.querySelector("div").onclick = divClicked;
 - In #4 above, the value of onclick is the function's *reference*. The function will be called when the button is clicked.
 
 ## III. Breaking our code
-One common mistake is to write this line:
+One common mistake that is easy to make, is to write this line:
 
 `document.querySelector("div").onclick = divClicked;`
 
-as this:
+**as this:**
 
 `document.querySelector("div").onclick = divClicked(); // add parentheses`
 
