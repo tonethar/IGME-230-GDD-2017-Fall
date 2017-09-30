@@ -383,6 +383,21 @@ No notes yet :-)
 
 ## X. <a id="section10"></a>Review Assignment
 
+### OverView of *Color Chooser*
 
 
+#### 1) The starting code looks like this:
+
+Go ahead and create this file, and name it **web-apps-6.html**
+
+```
+
+```
+
+#### 2) Which looks like this in the browser:
+
+Note that because we `name` all of the radio buttons the same, they are considered a "group" by the browser, and we can only select one at a time. 
+![Web Page](_images/events-10.jpg)
+
+#### 3) After you have written all of your code (see instructions below):
 
