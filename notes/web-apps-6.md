@@ -194,7 +194,7 @@ let div = document.querySelector("div").onclick = divClicked;
 
 ## V. Event Listeners - `addEventListener()`
 
-The major limitation of event handlers is that each element can have only *one* event handling function attached to it at one time.
+The major limitation of event handlers is that each element can have only *one* event handling function attached to it at a time.
 `addEventListener()` - which we will cover now, has no such restrictions.
 
 Try out the code below:
@@ -252,8 +252,6 @@ When you run the code and click on the elements, this is what you will see:
 - It is very important to note that the events that are being passed into `addEventListener()` are named 'click', NOT 'onclick' like the event handler was.
 
 
-
-
 ## VI. Event Listeners - `removeEventListener()`
 You can also call `removeEventListener()` to later remove event functions.
 
@@ -272,4 +270,9 @@ p.addEventListener("click",messWithDiv);
 Try out this new code. If you click on the paragraph first, and then the div, you will see that the div has lost 2 of its event functions, but gained the `changeStyle` function.
 
 ![Web Page](_images/events-7.jpg)
+
+## VII. Adding properties to elements
+Let's imagine that we would like to toggle the paragraph and div back and forth when we click on them. There are a number of ways to do this, but let's go ahead and try out the HTML5 "Custom Data" attribute to add properties to the HTML elements we click on. You can read more about them here:
+
+- http://html5doctor.com/html5-custom-data-attributes/
 
