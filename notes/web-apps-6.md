@@ -391,7 +391,50 @@ No notes yet :-)
 Go ahead and create this file, and name it **web-apps-6.html**
 
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Web Apps-6</title>
+	<style>
+		body{
+			font-family:sans-serif;
+		}
+		#colorform{
+			background-color:#dfecdf;
+			color: #111;
+			padding:1em;width:400px;
+		}
+		#colorform p#info{
+			background-color:white;
+			color: black;
+			width:300px;
+			height:100px;
+			padding:.5em;
+		}
+		
+		#colorform legend{ 
+			font-weight:bold;
+			font-size:1.2em;
+		}
+	</style>
+</head>
+<body>
 
+<div id="colorform">
+	<legend>Choose you favorite color!</legend>
+	<p><input type="radio" name="colorGroup" id="colorGroup" value="red" /> Red</p>
+	<p><input type="radio" name="colorGroup" id="colorGroup" value="green" /> Green</p>
+	<p><input type="radio" name="colorGroup" id="colorGroup" value="blue" /> Blue</p>
+	<p><button id="colorButton" type="button">Submit</button></p>
+	<p id="info"></p>
+</div>
+
+<script>
+/* Write you code here! */
+</script>
+</body>
+</html>
 ```
 
 #### 2) Which looks like this in the browser:
@@ -407,9 +450,12 @@ You should see a message indicating what color you have selected.
 ![Web Page](_images/events-11.jpg)
 
 
-#### 3) Once you click the Submit button ...
+#### 4) Once you click the Submit button ...
 
 You should see another message about the color you selected, and the &lt;legend> element should also change to that color.
 
 ![Web Page](_images/events-12.jpg)
+
+### Requirements
+1. 
 
