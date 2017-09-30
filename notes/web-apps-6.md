@@ -456,6 +456,13 @@ You should see another message about the color you selected, and the &lt;legend>
 
 ![Web Page](_images/events-12.jpg)
 
-### Requirements
-1. 
+### Hints
+1. You can use event handlers of event listeners, it's your choice
+1. You can use standard funtions or arrow functions, it's you choice
+1. The **Submit button** code should be triggered by the `click` event
+1. The **Radio button** code should be triggered by the `change` event
+1. `document.querySelectorAll()` can be used to get reference to all of the radio buttons. You can then loop through the list you get back.
+1. To get the value of the selected radio button, use `e.target.value`
+1. In the submit button code, you can check to see which radio button is selected by checking its `.checked` property
+1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element
 
