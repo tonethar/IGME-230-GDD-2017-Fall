@@ -344,5 +344,13 @@ Clicking on an element should toggle the styles back and forth from a normal loo
 
 ![Web Page](_images/events-9.jpg)
 
+## X. Nota bene
+No notes yet :-)
+
+## XI. Review Questions
+
+## XII. Review Assignment
+
+
 
 
