@@ -109,7 +109,7 @@ document.querySelector("div").onclick = divClicked;
 
 ### A. Explanation
 - In #3 above, we declare a function which we will call later.
-- In #4 above, the value of onclick is the funtion's *reference*. THe function will be called when the button is clicked.
+- In #4 above, the value of onclick is the function's *reference*. The function will be called when the button is clicked.
 
 ## III. Breaking our code
 One common mistake is to write this line:
