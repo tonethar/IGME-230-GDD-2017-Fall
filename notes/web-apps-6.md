@@ -276,3 +276,69 @@ Let's imagine that we would like to toggle the paragraph and div back and forth 
 
 - http://html5doctor.com/html5-custom-data-attributes/
 
+### events-5.html
+
+Type in the following code and test it in the browser.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Events-5</title>
+	<style>
+	body{border:1px solid gray;}
+	p{font-size:2em;}
+	div{font-size:2em;font-weight:bold;}
+	</style>
+</head>
+<body>
+<p>I am a paragraph</p>
+<div>I am a division</div>
+<script>
+
+// 1 - get references to <p> and <div>
+let p = document.querySelector("p");
+let div = document.querySelector("div");
+
+// 2 - create a custom property named "state" for each element and give it a default value
+p.dataset.state = "normal";
+div.dataset.state = "normal";
+
+// 3 - Let's declare an arrow function that can be called later
+let toggleStyle = (e) => { 
+							let state = e.target.dataset.state;
+							if (state == "changed"){ // == for comparison
+								e.target.style.backgroundColor = "white";
+								e.target.style.fontStyle = "normal";
+								state = "normal";
+							} else{
+								e.target.style.backgroundColor = "yellow";
+								e.target.style.fontStyle = "italic";
+								state = "changed";
+							}
+						
+							e.target.dataset.state = state;
+						};
+
+
+
+// 3 - add events 
+p.addEventListener("click",toggleStyle);
+div.addEventListener("click",toggleStyle);
+
+</script>
+</body>
+</html>
+```
+
+**Runninng the code will give you this:**
+
+![Web Page](_images/events-7.jpg)
+
+### A. Explanation
+Clicking on an element should toggle the styles back and forth from a normal look, to changed look with a yellow background color and italic text. THis is being accomplished by changing `dataset.state` from "normal" to "changed". Note that we came up with the name `.state` on our own. We could have called it anything like `.selected` or `.clicked`.
+
+Note above the we can see the changing value (as we click) of `data-state`in the web browser inspector. 
+
+
+
