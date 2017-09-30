@@ -43,10 +43,12 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. ES6 Block & Script Scope
     1. ES6 Arrow Functions
     1. More practice with the debugger
-1. JavaScript Events & the `this` keyword
+1. [JavaScript Events & the `this` keyword](./web-apps-6.md)
     1. Event Handlers
+    1. Utilizing function declarations, expressions, and arrow functions
     1. `addEventListener()`, `removeEventListener()`
-    1. Values of `this`
+    1. Adding properties to elements with `element.dataset`
+    1. Values of `this` in regular functions and arrow functions
 1. JavaScript Custom Objects
     1. Object Literals
     1. ES6 Classes
