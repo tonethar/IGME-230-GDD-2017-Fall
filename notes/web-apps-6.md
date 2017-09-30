@@ -170,9 +170,9 @@ function changeParagraph(){
 
 // 2 - Let's declare an arrow function to be called later
 let divClicked = (e) => { 
-							e.target.innerHTML = "I am a div, and I was clicked!";
-							this.changeParagraph();
-						}
+			  e.target.innerHTML = "I am a div, and I was clicked!";
+			  this.changeParagraph();
+			}
 
 // 3 - .onclick now points at the divClicked arrow function
 let div = document.querySelector("div").onclick = divClicked;
