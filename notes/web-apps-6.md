@@ -259,10 +259,10 @@ Add the following to **events-4.html**
 
 ```
 let messWithDiv = (e) => { 
-							div.removeEventListener("click",changeText);
-							div.removeEventListener("click",changeColor);
-							div.addEventListener("click",changeStyle);
-						};
+			   div.removeEventListener("click",changeText);
+			   div.removeEventListener("click",changeColor);
+			   div.addEventListener("click",changeStyle);
+			};
 
 p.addEventListener("click",messWithDiv);
 ```
