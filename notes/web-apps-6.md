@@ -328,24 +328,25 @@ let p = document.querySelector("p");
 let div = document.querySelector("div");
 
 // 2 - create a custom property named "state" for each element and give it a default value
+// all new properties will be added to the .dataset property
 p.dataset.state = "normal";
 div.dataset.state = "normal";
 
 // 3 - Let's declare an arrow function that can be called later
 let toggleStyle = (e) => { 
-							let state = e.target.dataset.state;
-							if (state == "changed"){ // == for comparison
-								e.target.style.backgroundColor = "white";
-								e.target.style.fontStyle = "normal";
-								state = "normal";
-							} else{
-								e.target.style.backgroundColor = "yellow";
-								e.target.style.fontStyle = "italic";
-								state = "changed";
-							}
+			   let state = e.target.dataset.state;
+			   if (state == "changed"){ // == for comparison
+			      e.target.style.backgroundColor = "white";
+			      e.target.style.fontStyle = "normal";
+			      state = "normal";
+			} else{
+			      e.target.style.backgroundColor = "yellow";
+			      e.target.style.fontStyle = "italic";
+			      state = "changed";
+			}
 						
-							e.target.dataset.state = state;
-						};
+			e.target.dataset.state = state;
+	         };
 
 
 
@@ -376,6 +377,7 @@ No notes yet :-)
 
 ## IX. <a id="section9"></a>Review Questions
 1. Give 2 advantages to using *event listeners* instead of *event handlers*
+1. Give a situation where you might use an *event handler* anyway
 1. What does an event handler (or event listener) "point" at?
 1. What are the two advantages of using arrow functions?
 
