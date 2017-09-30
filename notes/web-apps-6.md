@@ -23,7 +23,7 @@ V. [Event Listeners - `addEventListener()`](#section5)
 
 VI. [Event Listeners - `removeEventListener()`](#section6)
 
-VII. [Adding properties to elements](#section7)
+VII. [Adding properties to elements with `element.dataset`](#section7)
 
 VIII. [Nota bene](#section8)
 
@@ -298,7 +298,7 @@ Try out this new code. If you click on the paragraph first, and then the div, yo
 
 ![Web Page](_images/events-7.jpg)
 
-## VII. <a id="section7"></a>Adding properties to elements
+## VII. <a id="section7"></a>Adding properties to elements with `element.dataset`
 Let's imagine that we would like to toggle the paragraph and div back and forth when we click on them. There are a number of ways to do this, but let's go ahead and try out the HTML5 "Custom Data" attribute to add properties to the HTML elements we click on. You can read more about them here:
 
 - http://html5doctor.com/html5-custom-data-attributes/
@@ -328,7 +328,7 @@ let p = document.querySelector("p");
 let div = document.querySelector("div");
 
 // 2 - create a custom property named "state" for each element and give it a default value
-// all new properties will be added to the .dataset property
+// all new properties will be added to the element's .dataset property
 p.dataset.state = "normal";
 div.dataset.state = "normal";
 
