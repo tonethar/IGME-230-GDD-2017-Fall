@@ -4,6 +4,10 @@ DOM events are sent to let our code know that interesting things have happened -
 
 - https://developer.mozilla.org/en-US/docs/Web/Events
 
+And learn more about events here:
+
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+
 
 ## I. Event Handlers
 JavaScript "on-event" handlers have been around since the early days of the Internet, and are the easiest way to hook into events like `onload`, `onclick`, `onmousedown`,`onkeyup` and so on.
