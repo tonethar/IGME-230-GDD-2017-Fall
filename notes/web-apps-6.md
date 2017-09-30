@@ -133,9 +133,143 @@ as this:
 - Go ahead and change the code back so that it works again.
 
 ## IV. Events and Arrow Functions
+We can use arrow functions as event handlers too. You might recall that in the Functions lesson we mentioned that arrow functions have two advantages: 
+
+- they have a shorter syntax than regular functions
+- they do not bind their own `this` keyword. 
+
+What this means is that when an event handler points at a *regular function*, the value of `this` is the object that received the event.
+But when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will the `window` object - so we will be able to call top level fucntions in the script.
+
+Go ahead and run **events-3.html** and see what happens.
 
 
-## V. Event Listeners
+### events-3.html
 
-The major limitation of event handlers is that each element can have only *one* event handler attached to it at one time.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Events-3</title>
+	<style>
+	body{border:1px solid gray;}
+	p{font-size:2em;}
+	div{font-size:2em;font-weight:bold;}
+	</style>
+</head>
+<body>
+<p>I am a paragraph</p>
+<div>I am a division</div>
+<script>
+
+// 1 - Let's declare a function that can be called later
+function changeParagraph(){
+	document.querySelector("p").innerHTML = "Somebody changed me!";
+}
+
+// 2 - Let's declare an arrow function to be called later
+let divClicked = (e) => { 
+							e.target.innerHTML = "I am a div, and I was clicked!";
+							this.changeParagraph();
+						}
+
+// 3 - .onclick now points at the divClicked arrow function
+let div = document.querySelector("div").onclick = divClicked;
+
+</script>
+</body>
+</html>
+```
+
+![Web Page](images/events-5.jpg)
+
+### A. Explanation
+- Clicking the div changed both the div and the paragraph
+- in #1 above, we created a function that will change the paragraph
+- in #2 above, we declared an arrow function that will change the div
+- in #3 above, we hooked up the div `onclick` event to the arrow function
+- when the div is clicked, the code in #2 runs. Here, `e.target` refers to the element that was clicked on, the div. But in an arrow function (unlike a regular function), `this` now refers to the `window` object, which includes the `changeParagraph()` function we called earlier.
+- (actually, in the above example, the `this` in `this.changeParagraph()` was optional, but we wanted to illustrate how the value of `this` has changed in an arrow function.
+
+## V. Event Listeners - `addEventListener()`
+
+The major limitation of event handlers is that each element can have only *one* event handling function attached to it at one time.
 `addEventListener()` - which we will cover now, has no such restrictions.
+
+Try out the code below:
+
+### events-4.html
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Events-4</title>
+	<style>
+	body{border:1px solid gray;}
+	p{font-size:2em;}
+	div{font-size:2em;font-weight:bold;}
+	</style>
+</head>
+<body>
+<p>I am a paragraph</p>
+<div>I am a division</div>
+<script>
+
+// 1 - Let's declare 3 arrow functions that can be called later
+let changeText = (e) => { e.target.innerHTML = "I was clicked!"; };
+let changeColor = (e) => { e.target.style.color = "red"; };
+let changeStyle = (e) => { e.target.style.fontStyle = "italic"; };
+
+
+// 2 - get references to the <p> and the <div>
+let p = document.querySelector("p");
+let div = document.querySelector("div");
+
+// 3 - use addEventListener() to add three events to the <p>
+p.addEventListener("click",changeText); // NOTE the event is named 'click', NOT 'onclick'
+p.addEventListener("click",changeColor);
+p.addEventListener("click",changeStyle);
+
+// 4 - we will only give the <div> two events
+div.addEventListener("click",changeText);
+div.addEventListener("click",changeColor);
+
+</script>
+</body>
+</html>
+```
+
+When you run the code and click on the elements, this is what you will see:
+
+![Web Page](images/events-6.jpg)
+
+### A. Explanation
+- When you try out the code, you should see that the paragraph has 3 functions attached to it. These 3 functions will change the HTML, the color to red, and the font-style to italic.
+- When you try out the code, you should see that the div has 2 functions attached to it. These 2 functions will change the HTML, the color to red, but leave the font-style alone.
+- It is very important to note that the events that are being passed into `addEventListener()` are named 'click', NOT 'onclick' like the event handler was.
+
+
+
+
+## VI. Event Listeners - `removeEventListener()`
+You can also call `removeEventListener()` to later remove event functions.
+
+Add the following to **events-4.html**
+
+```
+let messWithDiv = (e) => { 
+							div.removeEventListener("click",changeText);
+							div.removeEventListener("click",changeColor);
+							div.addEventListener("click",changeStyle);
+						};
+
+p.addEventListener("click",messWithDiv);
+```
+
+Try out this new code. If you click on the paragraph first, and then the div, you will see that the div has lost 2 of its event functions, but gained the `changeStyle` function.
+
+![Web Page](images/events-7.jpg)
+
