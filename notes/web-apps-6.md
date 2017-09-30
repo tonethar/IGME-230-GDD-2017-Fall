@@ -182,7 +182,7 @@ let div = document.querySelector("div").onclick = divClicked;
 </html>
 ```
 
-![Web Page](images/events-5.jpg)
+![Web Page](_images/events-5.jpg)
 
 ### A. Explanation
 - Clicking the div changed both the div and the paragraph
@@ -244,7 +244,7 @@ div.addEventListener("click",changeColor);
 
 When you run the code and click on the elements, this is what you will see:
 
-![Web Page](images/events-6.jpg)
+![Web Page](_images/events-6.jpg)
 
 ### A. Explanation
 - When you try out the code, you should see that the paragraph has 3 functions attached to it. These 3 functions will change the HTML, the color to red, and the font-style to italic.
@@ -271,5 +271,5 @@ p.addEventListener("click",messWithDiv);
 
 Try out this new code. If you click on the paragraph first, and then the div, you will see that the div has lost 2 of its event functions, but gained the `changeStyle` function.
 
-![Web Page](images/events-7.jpg)
+![Web Page](_images/events-7.jpg)
 
