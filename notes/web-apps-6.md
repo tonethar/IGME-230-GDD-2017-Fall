@@ -30,11 +30,13 @@ JavaScript "on-event" handlers have been around since the early days of the Inte
 <script>
 
   let p = document.querySelector("p");
+  
+  // 1 - the onclick event handler now has a function expression as its value
   p.onclick = function(e){
-    // 1 - the keyword 'this' in this context means the object that triggered the event
+    // 2 - the keyword 'this' in this context means the object that triggered the event
 	this.innerHTML = "I was clicked!";
 	
-   // 2 - will do the same thing
+   // 3 - will do the same thing
    //e.target.innerHTML = "I was clicked!";
   }
 
@@ -47,8 +49,9 @@ JavaScript "on-event" handlers have been around since the early days of the Inte
 Go ahead and try this code out - clicking the paragraph should cause its text to change.
 
 ### A. Explanation
-1. In #1 above, we used the `this` keyword. In JavaScript the value of `this` varies depending how it it used. In a function that is triggered by an event, this is a reference to the object that called the method - in this case the paragraph. 
-1. The `e` parameter is the default `Event` object that is sent along by the event handler. It has a number of properties and methods, and in this case `e.target` is the object that recieved the event (once again, the paragraph.
+1. In #1 above, we give the `onclick` event handler a *function expression* as its value. This function will be called once a click event has been triggered by the paragraph. 
+1. In #2 above, we used the `this` keyword. In JavaScript the value of `this` varies depending how it it used. In a function that is triggered by an event, this is a reference to the object that called the method - in this case the paragraph. 
+1. In #3 above, the `e` parameter is the default `Event` object that is sent along by the event handler. It has a number of properties and methods, and in this case `e.target` is the object that recieved the event (once again, the paragraph.
 
 **If we pop a breakpoint into the debugger (Use the **Sources** tab, and select **event-1.html**, then click in gutter to set breakpoint), and then click the paragraph, we can inspect the properies of this `Event` object, and see that it's actually a `MouseEvent` object.**
 
@@ -60,7 +63,9 @@ Go ahead and try this code out - clicking the paragraph should cause its text to
 ![Web Page](_images/events-2.jpg)
 
 
-## II. Event Listeners
+## II. Event Handlers and Function references
+
+## III. Event Listeners
 
 The major limitation of event handlers is that each element can have only *one* event handler attached to it at one time.
 `addEventListener()` - which we will cover now, has no such restrictions.
