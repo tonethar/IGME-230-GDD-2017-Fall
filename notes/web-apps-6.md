@@ -130,9 +130,7 @@ as this:
 ![Web Page](_images/events-4.jpg)
 
 - What happened is that when we added the `()` to the end of `onclick = divClicked()`, the function was called immediately, and the *return value* of the function (`null`) was stored in the `onclick` property instead of the function *reference* it was expecting.
-- Go ahead and change the code back so it work again.
-
-
+- Go ahead and change the code back so that it works again.
 
 ## IV. Events and Arrow Functions
 
