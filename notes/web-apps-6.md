@@ -396,8 +396,20 @@ Go ahead and create this file, and name it **web-apps-6.html**
 
 #### 2) Which looks like this in the browser:
 
-Note that because we `name` all of the radio buttons the same, they are considered a "group" by the browser, and we can only select one at a time. 
+Note that because we `name` all of the radio buttons the same, they are considered a "group" by the browser, and we can only select one radio button at a time. Try it. The submit button currently does nothing.
+
 ![Web Page](_images/events-10.jpg)
 
-#### 3) After you have written all of your code (see instructions below):
+#### 3) After you have written all of your JavaScript code, and clicked a radio button ...
+
+You should see a message indicating what color you have selected.
+
+![Web Page](_images/events-11.jpg)
+
+
+#### 3) Once you click the Submit button ...
+
+You should see another message about the color you selected, and the &lt;legend> element should also change to that color.
+
+![Web Page](_images/events-12.jpg)
 
