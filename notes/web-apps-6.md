@@ -359,7 +359,7 @@ div.addEventListener("click",toggleStyle);
 </html>
 ```
 
-**Runninng the code will give you this:**
+**Running the code will allow you to repeatedly click on each element, and toggle it's styles back and forth, looking like this:**
 
 ![Web Page](_images/events-8.jpg)
 
