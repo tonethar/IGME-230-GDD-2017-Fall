@@ -120,7 +120,7 @@ as this:
 
 `document.querySelector("div").onclick = divClicked(); // add parentheses`
 
-- Go ahead and run this code - note that our `div.onclick` code doesn't seem to work now - what happened?
+- Go ahead and make that change to **events-2.html** and run this code - note that our `div.onclick` code doesn't seem to work now - what happened?
 - Check out the debugger - add a breakpoint and reload the page. Then find the value of `p.onclick` (recall we didn't change that code) - you can see below that the value of p.onclick is a function.
 
 ![Web Page](_images/events-3.jpg)
