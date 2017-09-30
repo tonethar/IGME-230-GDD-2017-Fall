@@ -63,7 +63,7 @@ Go ahead and try this code out - clicking the paragraph should cause its text to
 ![Web Page](_images/events-2.jpg)
 
 
-## II. Event Handlers and Function references
+## II. Event Handlers and function references
 
 ## III. Event Listeners
 
