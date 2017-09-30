@@ -375,6 +375,9 @@ Clicking on an element should toggle the styles back and forth from a normal loo
 No notes yet :-)
 
 ## IX. <a id="section9"></a>Review Questions
+1. Give 2 advantages to using *event listeners* instead of *event handlers*
+1. What does an event handler (or event listener) "point" at?
+1. What are the two advantages of using arrow functions?
 
 ## X. <a id="section10"></a>Review Assignment
 
