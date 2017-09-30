@@ -1,5 +1,6 @@
 # JavaScript Events
 
+## Overview
 DOM events are sent to let our code know that interesting things have happened - for example "the page loaded", "the button was clicked", "the file started to download", "the select value changed" - you can see a complete list of DOM events here: 
 
 - https://developer.mozilla.org/en-US/docs/Web/Events
@@ -7,6 +8,32 @@ DOM events are sent to let our code know that interesting things have happened -
 And learn more about events here:
 
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+
+## Contents
+<!--- Local Navigation --->
+I. [Event Handlers](#section1)
+
+II. [Event Handlers and function references](#section2)
+
+III. [Breaking our code](#section3)
+
+IV. [Events and Arrow Functions](#section4)
+
+V. [Event Listeners - `addEventListener()`](#section5)
+
+VI. [Event Listeners - `removeEventListener()`](#section6)
+
+VII. [Adding properties to elements](#section7)
+
+VIII. [Nota bene](#section8)
+
+IX. [Review Questions](#section9)
+
+X. [Review Exercise](#section10)
+
+
+<hr><hr>
+
 
 
 ## I. <a id="section1"></a>Event Handlers
@@ -344,7 +371,7 @@ Clicking on an element should toggle the styles back and forth from a normal loo
 
 ![Web Page](_images/events-9.jpg)
 
-## VII. <a id="section8"></a>Nota bene
+## VIII. <a id="section8"></a>Nota bene
 No notes yet :-)
 
 ## IX. <a id="section9"></a>Review Questions
