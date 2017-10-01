@@ -383,7 +383,7 @@ No notes yet :-)
 
 ## X. <a id="section10"></a>Review Assignment
 
-### OverView of *Color Chooser*
+### A) OverView of *Color Chooser*
 
 
 #### 1) The starting code looks like this:
@@ -456,7 +456,7 @@ You should see another message about the color you selected, and the &lt;legend>
 
 ![Web Page](_images/events-12.jpg)
 
-### Hints
+### B) Hints
 1. You can use event handlers of event listeners, it's your choice
 1. You can use standard funtions or arrow functions, it's you choice
 1. The **Submit button** code should be triggered by the `click` event
@@ -466,3 +466,14 @@ You should see another message about the color you selected, and the &lt;legend>
 1. In the submit button code, you can check to see which radio button is selected by checking its `.checked` property
 1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element
 
+### C) Submission
+Be sure to submit this to the applicable dropbox, and do not post it to your web site.
+
+### D) Extra Credit (worth 1 full HW)
+Can you do a version of this web app, but with checkboxes?
+
+Checkboxes allow the user to make multiple selections. Yours should work like the version below.
+
+![Web Page](_images/events-13.jpg)
+
+**Submission: Post to extra credit dropbox**
