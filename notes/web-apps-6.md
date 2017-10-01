@@ -474,6 +474,8 @@ Can you do a version of this web app, but with checkboxes?
 
 Hint: Checkboxes have a `.checked` property.
 
+Hint: Don't worry about changing the color of the &lt;legend> in this version.
+
 Checkboxes allow the user to make multiple selections. Yours should work like the version below.
 
 **Check multiple select boxes:**
