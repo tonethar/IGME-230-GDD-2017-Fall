@@ -7,4 +7,9 @@ To do this assignment, you should have completed at least the 6th web app tutori
 
 ![Web Page](_images/image-gallery-done.jpg)
 
-## Instructions & Rubric
+## Instructions
+1. The start files are here [gallery-start.zip](_files/gallery-start.zip)
+1. Clicking on each "link" (they are actually spans) will load the applicable picture - use the `click` event
+1. The image name for each link is stored in a custom data attribute of the &lt;span> - we learned how to access these in [web-apps-6.md](./web-apps-6.md)
+1. An optimal solution won't use very much code, and should not take long to write
+1. Optional: There are many ways to enhance this image gallery if you wanted to. Effects like crossfades can be donebe done with CSS and by adding a second image tag. Demonstrations on how to do this are here: http://css3.bradshawenterprises.com/cfimg/
