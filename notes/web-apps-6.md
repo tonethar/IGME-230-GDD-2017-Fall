@@ -383,7 +383,7 @@ No notes yet :-)
 
 ## X. <a id="section10"></a>Review Assignment
 
-### A) OverView of *Color Chooser*
+### A) Overview of *Color Chooser*
 
 
 #### 1) The starting code looks like this:
