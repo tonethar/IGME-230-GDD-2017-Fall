@@ -49,9 +49,8 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. `addEventListener()`, `removeEventListener()`
     1. Adding properties to elements with `element.dataset`
     1. Values of `this` in regular functions and arrow functions
-1. JavaScript Custom Objects
-    1. Object Literals
-    1. ES6 Classes
+1. JavaScript Object Literals
+1. JavaScript ES6 Classes
 1. JavaScript Arrays and array-like objects
     1. methods of Array() - `.forEach()`, `.filter()`, `.map()`
     1. `DomNodeList()`
