@@ -470,10 +470,18 @@ You should see another message about the color you selected, and the &lt;legend>
 Be sure to submit this to the applicable dropbox, and do not post it to your web site.
 
 ### D) Extra Credit (worth 1 full HW)
-Can you do a version of this web app, but with checkboxes?
+Can you do a version of this web app, but with checkboxes? 
+
+Hint: Checkboxes have a `.checked` property.
 
 Checkboxes allow the user to make multiple selections. Yours should work like the version below.
 
+**Check multiple select boxes:**
+
 ![Web Page](_images/events-13.jpg)
+
+**Click Submit button:**
+
+![Web Page](_images/events-14.jpg)
 
 **Submission: Post to extra credit dropbox**
