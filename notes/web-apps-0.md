@@ -64,8 +64,9 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. JSON
 
 ## V. Homework Assignments
-- [Random Phrases 1](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/HW-random-phrases-1.md)
-- [Random Phrases 2](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/HW-random-phrases-2.md)
+- [Random Phrases 1](./HW-random-phrases-1.md)
+- [Random Phrases 2](./HW-random-phrases-2.md)
+- [Image Gallery](./HW-image-gallery.md)
 - Solitaire DOM Game
 - ToDoList App
 - Giffy Web Service App
