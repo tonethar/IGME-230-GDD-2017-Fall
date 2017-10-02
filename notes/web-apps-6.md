@@ -487,3 +487,8 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 ![Web Page](_images/events-14.jpg)
 
 **Submission: Post to extra credit dropbox**
+
+
+**[Previous Section <- JavaScript Functions](web-apps-5.md)**
+
+**Next Section -> JavaScript Object Literals**
