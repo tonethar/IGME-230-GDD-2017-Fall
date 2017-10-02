@@ -255,9 +255,69 @@ In ES6 the Object literal syntax gives the developer more ways to declare them.
 
 ### objects-4.html
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Objects-4</title>
+</head>
+<body>
+<script>
 
+// NEW ES6 Object Literal Feature
+
+// 1- property value "shortcuts"
+
+// 1A - old way
+function makeCar1(make,model,cylinders){
+	return {
+		make: make,
+		model: model,
+		cylinders: cylinders
+	};
+}
+
+// 1B - new ES6 way works as long as the property name and value use the same identifier
+function makeCar2(make,model,cylinders){
+	return {
+		make,
+		model,
+		cylinders
+	};
+}
+
+console.log(makeCar1("Subaru","Brat",4));
+console.log(makeCar2("Plymouth","Champ",4));
+
+
+// 2 - new and more concise way to specify object methods
+
+// 2A - old way
+let car1 = {
+	speed: 0,
+	speedUp: function(){
+		this.speed ++;
+	},
+	stop: function(){
+		this.speed = 0;
+	}
+};
+
+
+// 2B - new ES6 way
+let car2 = {
+	speed: 0,
+	speedUp(){
+		this.speed ++;
+	},
+	stop(){
+		this.speed = 0;
+	}
+};
+</script>
+</body>
+</html>
 ```
-
 
 ## IX. Review Questions
 1. In programming, what is a *literal* value?
