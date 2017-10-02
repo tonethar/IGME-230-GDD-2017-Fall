@@ -1,4 +1,4 @@
-# 7 - JavaScript Objects
+# 7 - JavaScript Object Literals
 
 ##  Overview
 
