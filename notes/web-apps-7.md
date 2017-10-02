@@ -81,7 +81,7 @@ car1.clyinders = 10;
 // 3- Object.seal() to the rescue!
 // Object.seal() will ensure we can't add new properties to an object
 Object.seal(car1);
-car1.newproperty = 1000;
+car1.newproperty = 1000; // might fail quietly or throw an error
 console.log(car1.newproperty); // undefined
 ```
 
