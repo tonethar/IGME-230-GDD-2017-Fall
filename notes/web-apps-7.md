@@ -173,7 +173,7 @@ car1.stop(); 			// car1.speed is now 0
 
 ## V. Creating "object factories"
 What if we had a game that needed to have 50 cars driving around? Creating 50 object literals - `car1 = {...} ,car2 = {...}, car3 = {...}` would be both tedious and error prone.
-Instead, we can create a function to create these cars for us.
+Instead, we can write a function to create these cars for us.
 
 ### objects-3.html
 ```
@@ -231,10 +231,24 @@ console.log(car3);
 console.log("----- now loop through cars -----");
 let cars = [car1,car2,car3];
 for (car of cars){
-	console.log(car);	
+   car.speedUp(10);
+   console.log(car);	
 }
 </script>
 </body>
 </html>
 ```
 
+### A. Explanation
+- In #1 above, we create two functions that we will later add to our cars as methods. We are creating these functions *outside* of our factory function because we want the cars to *share* a single copy of each function, rather than for each instance of car to have their own copy of the function. This will reduce the overall memory footprint of our car instances - which is a good thing!
+- In #2 above we declare `makeCar()` and give it 5 parameters, 3 of which are optional in that we have provided default values.
+- In #3 we use `Object.seal()` to prevent new properties from being added to an object.
+- In #4 and #5 we test our factory factory methods, and see how we can loop through an array of cars and call methods on them.
+
+## VI. ES6 Object Literal syntax
+In ES6 the Object literal syntax gives the developer more ways to declare them.
+
+### objects-4.html
+```
+
+```
