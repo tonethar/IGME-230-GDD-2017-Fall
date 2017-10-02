@@ -244,5 +244,6 @@ Make a copy of **hello-4.html** and name it **web-apps-2.html**. Delete all of t
 1. Print out the absolute value of -999 - use the `Math` object.
 1. Print out an "all caps" version of the string "Hello" - use a method of the `String` object.
 
+**[Previous Section <- Introduction to Web Applications](web-apps-1.md)**
 
 **[Next Section -> Intro to the Web Browser DOM (Document Object Model)](web-apps-3.md)**
