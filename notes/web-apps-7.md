@@ -47,7 +47,6 @@ Here we are going to create an object literal named `car1`, and attach a few pro
 <script>
 
 // 1 - Create an object literal with properties
-
 let car1 = {
   make: "Ford",
   model: "Pinto",
@@ -66,7 +65,6 @@ delete car1.year;
 console.log(car1.make); // Ford
 console.log(car1["model"]); // Pinto
 
-
 </script>
 </body>
 </html>
@@ -80,13 +78,13 @@ Imagine this:
 // 1- below we misspell cylinders, so 'a' is now 'undefined'
 let a = car1.clyinders; 
 
-// 2- below we misspelled .cylinders, and created a new property
+// 2- below we misspelled .cylinders, and created a new property named "clyinders"
 car1.clyinders = 10; 
 
 // 3- Object.seal() to the rescue!
 // Object.seal() will ensure we can't add new properties to an object
 Object.seal(car1);
-car1.newproperty = 1000; // might fail quietly or throw an error
+car1.newproperty = 1000; // will fail quietly or throw an error, depends on browser
 console.log(car1.newproperty); // undefined
 ```
 
@@ -263,6 +261,18 @@ In ES6 the Object literal syntax gives the developer more ways to declare them.
 1. In programming, what is a *literal* value?
 1. What does `Object.seal()` do?
 1. What does `Object.freeze()` do?
+1. What is wrong with the following code?
+```
+var ship={
+x: 0,
+y: 0,
+speed: 10,
+  move: function(){
+    x += speed;
+    y += speed;
+  }
+}
+```
 
 ## X. Review Exercise
 
