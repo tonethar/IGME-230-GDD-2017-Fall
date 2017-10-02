@@ -176,4 +176,7 @@ What if we had a game that needed to have 50 cars driving around? Creating 50 ob
 Instead, we can create a function to create these cars for us.
 
 ### objects-3.html
+```
+
+```
 
