@@ -319,7 +319,7 @@ let car2 = {
 </html>
 ```
 
-## IX. Review Questions
+## VII. Review Questions
 1. In programming, what is a *literal* value?
 1. What does `Object.seal()` do?
 1. What does `Object.freeze()` do?
@@ -336,7 +336,17 @@ var ship={
 }
 ```
 
-## X. Review Exercise
+## VIII. Review Exercise
+Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) and do the challenge - 
 
+```
+ // Can you figure out how to pull the key and value from the "links" object literal?
+ // and put them in list with clickable links?
+let links = {
+		"RIT": "http://www.rit.edu",
+		"RWAG" : "https://www.facebook.com/RWAGclub",
+		"New Media Club" : "http://newmediaclub.cias.rit.edu"
+	}
+```
 
 **[Previous Section <- JavaScript Events](web-apps-6.md)**
