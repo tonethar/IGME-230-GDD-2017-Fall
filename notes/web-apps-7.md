@@ -2,7 +2,7 @@
 
 ##  Overview
 
-JavaScript is an *Object-Oriented* language, but traditional classes have not been supported until ES6. Today we will look at the powerful JavaScript Object Literal, and see how powerful and flexible it is.
+JavaScript is an *Object-Oriented* language, but traditional classes have not been supported until ES6. Today we will look at the powerful **JavaScript Object Literal**, and see how powerful and flexible it is.
 
 ## I. What is a *literal value*?
 In programming, a literal value is *a notation for representing a fixed value in source code*, or *a value written exactly as it's meant to be interpreted*.
