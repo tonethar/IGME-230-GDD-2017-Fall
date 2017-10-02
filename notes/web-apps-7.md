@@ -72,17 +72,21 @@ console.log(car1["model"]); // Pinto
 Imagine this:
 
 ```
-// below we misspell cylinders, so 'a' is now 'undefined'
+// 1- below we misspell cylinders, so 'a' is now 'undefined'
 let a = car1.clyinders; 
 
-// below we misspelled .cylinders, and created a new property
+// 2- below we misspelled .cylinders, and created a new property
 car1.clyinders = 10; 
 
-// Object.seal() to the rescue!
+// 3- Object.seal() to the rescue!
 // Object.seal() will ensure we can't add new properties to an object
 Object.seal(car1);
-car1.newproperty = 1000; // error!
+car1.newproperty = 1000;
+console.log(car1.newproperty); // undefined
 ```
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
 
 ## III. Iterating over object properties
 The `for...in` loop is commonly used to iterate over object properties.
