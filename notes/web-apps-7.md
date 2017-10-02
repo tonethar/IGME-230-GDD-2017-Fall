@@ -265,3 +265,6 @@ In ES6 the Object literal syntax gives the developer more ways to declare them.
 1. What does `Object.freeze()` do?
 
 ## X. Review Exercise
+
+
+**[Previous Section <- JavaScript Events](web-apps-6.md)**
