@@ -1,4 +1,4 @@
-# More Web Browser DOM Methods
+# 4 - More Web Browser DOM Methods
 
 ## Overview
 Today we are going to look at alternatives to `.innerHTML` that can be used to **"CRUD"** (i.e. Create, Read, Update, Delete) HTML elements in the web browser.
