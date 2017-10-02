@@ -1,4 +1,4 @@
-# JavaScript Events
+# 6 - JavaScript Events
 
 ## Overview
 DOM events are sent to let our code know that interesting things have happened - for example "the page loaded", "the button was clicked", "the file started to download", "the select value changed" - you can see a complete list of DOM events here: 
