@@ -22,7 +22,9 @@ NOT literals:
 
 ```
 let g = Array();
-let h = b * 10;
+let h = Date();
+let i = Math.random();
+let h = b * 10; // '10' is a literal but 'b' is not
 ```
 
 
