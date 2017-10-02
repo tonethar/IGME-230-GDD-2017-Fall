@@ -128,6 +128,8 @@ Objects usually have *state* (properties or instance variables) AND *behavior* (
 
 Can we add behavior to our JavaScript object literals? You betcha!
 
+In JavaScript objects, *methods are properties whose values are functions*.
+
 ### objects-2.html
 
 ```
