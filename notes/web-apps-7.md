@@ -3,7 +3,7 @@
 ##  Overview
 JavaScript is an *Object-Oriented* language, but traditional classes have not been supported until ES6. Now we will look at the powerful **JavaScript Object Literal**, and see how powerful and flexible it is.
 
-In you want to create an object in most computer languages, you first need to create a *template* (aka a *class*) that describes what the instance variables and methods of the class are. You then us the class to create *instances* of each object. In most languages it is impossible to add new properties and methods to an existing class - to do so you will have to create a new class, and sub-class the old class.
+If you want to create an object in most computer languages, you first need to create a *template* (aka a *class*) that describes what the instance variables and methods of the class are. You then us the class to create *instances* of each object. In most languages it is impossible to add new properties and methods to an existing class - to do so you will have to create a new class, and sub-class the old class.
 
 Creating objects in JavaScript can be much easier, you can skip step #1 (creating a template), and move directly to step #2 (creating an instance).
 
