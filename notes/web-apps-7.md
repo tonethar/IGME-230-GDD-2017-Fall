@@ -177,6 +177,64 @@ Instead, we can create a function to create these cars for us.
 
 ### objects-3.html
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Objects-3</title>
+</head>
+<body>
+<script>
 
+// 1 - create two functions that we will later use as a "method"
+let speedUp = function(howMuch){
+		this.speed += howMuch; 
+		if(this.speed > this.maxSpeed){
+			this.speed = maxSpeed;
+		}
+}
+
+let stop = function(){ this.speed = 0; }
+
+
+// 2 - Here is our "factory" function
+function makeCar(make,model,cylinders=4,speed=10, maxSpeed=100){
+	let car = {
+		make: make,
+		model: model,
+		cylinders: cylinders,
+		speed: speed,
+		maxSpeed: maxSpeed,
+		speedUp: speedUp,
+		stop: stop
+	};
+	
+	// 3 - seal it so that no new properties may be added
+	Object.seal(car);
+	return car;
+}
+
+// 4 - make some cars and log them to the console
+let car1 = makeCar("Toyota","Corolla");
+console.log(car1);
+
+let car2 = makeCar("Toyota","Camry",6);
+car2.stop();
+console.log(car2);
+
+let car3 = makeCar("Toyota","Tundra",8,50,200);
+car3.speedUp(100);
+console.log(car3);
+
+
+// 5 - add the cars to an array
+console.log("----- now loop through cars -----");
+let cars = [car1,car2,car3];
+for (car of cars){
+	console.log(car);	
+}
+</script>
+</body>
+</html>
 ```
 
