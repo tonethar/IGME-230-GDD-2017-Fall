@@ -491,4 +491,4 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 **[Previous Section <- JavaScript Functions](web-apps-5.md)**
 
-**Next Section -> JavaScript Object Literals**
+**[Next Section -> JavaScript Object Literals](web-apps-7.md)**
