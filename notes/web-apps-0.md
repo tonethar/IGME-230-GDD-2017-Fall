@@ -49,7 +49,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. `addEventListener()`, `removeEventListener()`
     1. Adding properties to elements with `element.dataset`
     1. Values of `this` in regular functions and arrow functions
-1. JavaScript Object Literals
+1. [JavaScript Object Literals](./web-apps-7.md)
     1. Creating Object literals with properties and methods
     1. Iterating over object keys and values
     1. Creating "Object Factories"
