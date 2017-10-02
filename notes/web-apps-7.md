@@ -7,7 +7,28 @@ In you want to create an object in most computer languages, you first need to cr
 
 Creating objects in JavaScript can be much easier, you can skip step #1 (creating a template), and move directly to step #2 (creating an instance).
 
-## I. What is a *literal value*?
+## Contents
+<!--- Local Navigation --->
+I. [What is a *literal value*?](#section1)
+
+II. [Creating Object Literals](#section2)
+
+III. [Iterating over object properties](#section3)
+
+IV. [Adding behavior to our objects](#section4)
+
+V. [Creating "object factories"](#section5)
+
+VI. [ES6 Object Literal syntax](#section6)
+
+VII. [Nota bene](#section7)
+
+VIII. [Review Questions](#section8)
+
+IX. [Review Exercise](#section9)
+
+
+## I. <a id="section1">What is a *literal value*?
 In programming, a literal value is *a notation for representing a fixed value in source code*, or *a value written exactly as it's meant to be interpreted*.
 
 Here are some literals in the JavaScript Language:
@@ -31,7 +52,7 @@ let h = b * 10; // '10' is a literal but 'b' is not
 ```
 
 
-## II. Creating Object Literals
+## II. <a id="section2">Creating Object Literals
 Here we are going to create an object literal named `car1`, and attach a few properties to it. The way we do this is to specify a *key* and a *value* (in this form - `key:value`)
 
 ### objects-1.html
@@ -91,7 +112,7 @@ console.log(car1.newproperty); // undefined
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
 
-## III. Iterating over object properties
+## III. <a id="section3">Iterating over object properties
 The `for...in` loop is commonly used to iterate over object properties.
 
 Add the following to **objects-1.html**:
@@ -122,7 +143,7 @@ key=cylinders  value=4
 
 ```
 
-## IV. Adding behavior to our objects
+## IV. <a id="section4">Adding behavior to our objects
 
 Objects usually have *state* (properties or instance variables) AND *behavior* (methods).
 
@@ -176,7 +197,7 @@ car1.stop(); 			// car1.speed is now 0
 - Here we are adding functions as the values of properties - which makes them *methods* of the object they are attached to.
 - Note that we have to use the `this` keyword when we refer to a property of the current object. 
 
-## V. Creating "object factories"
+## V. <a id="section5">Creating "object factories"
 What if we had a game that needed to have 50 cars driving around? Creating 50 object literals - `car1 = {...} ,car2 = {...}, car3 = {...}` would be both tedious and error prone.
 Instead, we can write a function to create these cars for us.
 
@@ -250,7 +271,7 @@ for (car of cars){
 - In #3 we use `Object.seal()` to prevent new properties from being added to an object.
 - In #4 and #5 we test our factory factory methods, and see how we can loop through an array of cars and call methods on them.
 
-## VI. ES6 Object Literal syntax
+## VI. <a id="section6">ES6 Object Literal syntax
 In ES6, the Object literal syntax gives the developer more concise ways to declare properties and values with *property value shortcuts*, and a more compact way of defining object methods. See below:
 
 ### objects-4.html
@@ -319,7 +340,10 @@ let car2 = {
 </html>
 ```
 
-## VII. Review Questions
+## VII. <a id="section7">Nota bene
+For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
+
+## VIII. <a id="section8">Review Questions
 1. In programming, what is a *literal* value?
 1. What does `Object.seal()` do?
 1. What does `Object.freeze()` do?
@@ -336,7 +360,7 @@ var ship={
 }
 ```
 
-## VIII. Review Exercise
+## IX. <a id="section9">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) and do the challenge - 
 
 ```
