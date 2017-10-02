@@ -264,13 +264,13 @@ In ES6 the Object literal syntax gives the developer more ways to declare them.
 1. What is wrong with the following code?
 ```
 var ship={
-x: 0,
-y: 0,
-speed: 10,
-  move: function(){
-    x += speed;
-    y += speed;
-  }
+  x: 0,
+  y: 0,
+  speed: 10,
+    move: function(){
+      x += speed;
+      y += speed;
+    }
 }
 ```
 
