@@ -251,7 +251,7 @@ for (car of cars){
 - In #4 and #5 we test our factory factory methods, and see how we can loop through an array of cars and call methods on them.
 
 ## VI. ES6 Object Literal syntax
-In ES6 the Object literal syntax gives the developer more ways to declare them.
+In ES6, the Object literal syntax gives the developer more concise ways to declare properties and values with *property value shortcuts*, and a more compact way of defining object methods. See below:
 
 ### objects-4.html
 ```
