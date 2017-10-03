@@ -224,7 +224,7 @@ JavaScript also contains a number of built-in objects that we can use. There is 
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
     - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
 3. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
-4. JavaScript has a large number of **truthy** and **falsy** values that are translated to `true` or `false` in boolean expression or context. Check out these links, and see the code sample below:
+4. JavaScript has a large number of **truthy** and **falsy** values that are translated to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
     - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
     - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
