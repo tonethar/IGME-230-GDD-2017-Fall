@@ -219,9 +219,28 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 ```
 
 ## IX. <a id="section9"></a>Nota bene 
-In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. 
+- In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
+- The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer - documentation on the finer points of this is here:
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+    - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
+- JavaScript has 2 zeros `0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
+- JavaScript has a large number of **truthy** and **falsy** values that are translated to true or false in boolean expression or context. Check out these links, and see the code sample below:
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+    - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+    - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 
-Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
+```
+// All of these false values, excepting the last one - "false" == true
+console.log(0 == false ? "0 is false" : "0 is true");
+console.log(-0 == false ? "-0 is false" : "-0 is true");
+console.log(false == false ? "false is false" : "false is true");
+console.log(null == false ? "null is false" : "null is true");
+console.log(undefined == false ? "NaN is false" : "NaN is true");
+console.log("" == false ? "\"\" is false" : "\"\" is true");
+console.log('' == false ? "\'\' is false" : "\'\' is true");
+console.log(new Boolean(false) == false ? "\"new Boolean(false)\" is false" : "\"new Boolean(false)\" is true");
+console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
+```
 
 ## X. <a id="section10"></a>Review Questions
 1. Which versions of JavaScript will we be covering in this course?
