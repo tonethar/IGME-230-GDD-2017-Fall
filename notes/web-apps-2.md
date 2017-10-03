@@ -219,12 +219,12 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 ```
 
 ## IX. <a id="section9"></a>Nota bene 
-- In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
-- The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer - documentation on the finer points of this is here:
+1. In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
+2. The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer - documentation on the finer points of this is here:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
     - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
-- JavaScript has 2 zeros `0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
-- JavaScript has a large number of **truthy** and **falsy** values that are translated to true or false in boolean expression or context. Check out these links, and see the code sample below:
+3. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
+4. JavaScript has a large number of **truthy** and **falsy** values that are translated to true or false in boolean expression or context. Check out these links, and see the code sample below:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
     - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
     - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
