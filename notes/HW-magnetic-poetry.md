@@ -322,15 +322,15 @@ We are almost done - we just need to get the word dragging working by adding sup
 
 ### Enhancements
 There is quite a bit you could do with this app to make it a potential portfolio piece. Here are a few ideas:
- -load words from array and dynamically create the magnets
- -reset board to its starting state
- -get more words in the same set and clear out the existing unused words
- -load new word sets with a &lt;select>
- -change background image
- -images as words
- -save poetry (in # of URL)
- -share URL
- -slightly rotated words so they look more realistic (CSS transform/rotation)
- -deleting words
- -modifying the style of selected words
- -users can add words
+- load words from array and dynamically create the magnets
+- reset board to its starting state
+- get more words in the same set and clear out the existing unused words
+- load new word sets with a &lt;select>
+- change background image
+- images as words
+- save poetry (in # of URL)
+- share URL
+- slightly rotated words so they look more realistic (CSS transform/rotation)
+- deleting words
+- modifying the style of selected words
+- users can add words
