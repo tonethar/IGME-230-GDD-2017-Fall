@@ -299,7 +299,7 @@ Right now most of the word are still stuck in the upper-left corner of the scree
 - #10 above - this is our code for positioning the words evenly.
 - #11 above - we assign the `mousedown` handler, which doesn't do much yet.
 
-**Important** - if your browser is having trouble seeing some of your block variables like `WORD_SPACING` etc, it could be a browser bug (Safari 11 seems to have this issue). To fix it, just delete the 2 top-level braces and put your whole app back into **Script Scope**, that seems to fix the issue on Safari.
+**Important** - if your browser is having trouble seeing some of your block variables like `WORD_SPACING` etc, it could be a browser bug (Safari 11 seems to have this issue). To fix it, just delete the 2 top-level braces and put your whole app back into *Script Scope*, that seems to fix the issue on Safari.**
 
 ### VII. Getting word dragging working
 We are almost done - we just need to get the word dragging working by adding support for `mousemove` and `mouseup`. We previously put the `mousedown` handler on each word, but with these next two mouse methods, we need to attach them to the entire document, which makes 100% sense if you think about it for a little while (especially for `mousemove`).
