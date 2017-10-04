@@ -183,7 +183,7 @@ Let's try a few of these out below. Note that we have added another paragraph:
 	document.querySelector("p:nth-of-type(2)").innerHTML = "I am 2nd paragraph!";
 	
 	// 4 - get a reference to the third paragraph using an id selector and change its HTML in 1 line of code
-	document.querySelector("#lastParagraph").innerHTML = "I the last paragraph";
+	document.querySelector("#lastParagraph").innerHTML = "I am the last paragraph";
 	
 	// 5 - get a reference to the <footer>
 	let footer = document.querySelector("footer");
