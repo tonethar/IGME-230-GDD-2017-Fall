@@ -144,7 +144,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 ![Web Page](_images/dom-4.jpg)
 
-## V. <a id="section5"></a>Try out more CSS selectors with document.querySelector()
+## V. <a id="section5"></a>Try out more CSS selectors with `document.querySelector()`
 The power of `document.querySelector()` and `document.querySelectorAll()` is that they accept all CSS selectors, including those in the CSS3 standard.
 
 https://www.w3.org/TR/css3-selectors/#selectors
