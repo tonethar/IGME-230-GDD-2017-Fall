@@ -71,7 +71,7 @@ Refer to the dropboxes for due dates.
 - [Random Phrases 1](./HW-random-phrases-1.md)
 - [Random Phrases 2](./HW-random-phrases-2.md)
 - [Image Gallery](./HW-image-gallery.md)
-- Magnetic Poetry
+- [Magnetic Poetry](./HW-magnetic-poetry.md)
 - ToDoList App
 - Giffy Web Service App
 - Solitaire DOM Game
