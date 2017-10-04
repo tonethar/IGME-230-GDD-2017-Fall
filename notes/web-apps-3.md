@@ -256,6 +256,8 @@ There was quite a bit in that last example. Let's discuss:
 		
 		// or write the above as an ES6 template string
 		//h2.style.transform = `translateX(${i*120}px) translateY(${i*100}px) rotate(${i*20}deg)`;
+		
+		h2.style.display = "inline-block"; // make sure the h2 isn't too wide, or it will rotate off the screen
 	}
 	
 	// 3 - use a *descendent selector* to target the <b> tags inside of paragraphs 
