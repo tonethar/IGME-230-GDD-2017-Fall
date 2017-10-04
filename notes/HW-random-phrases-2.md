@@ -17,4 +17,4 @@ To do this assignment, you should have completed at least the 6th web app tutori
 
 ## Submission
 - Post to your web site and link it from your home page before the due date.
-- Hint: The coding of this should only take a minute, but the button styling will take a little time.
+- Hint: The coding of this should only take a minute, but the button styling will likely take more time.
