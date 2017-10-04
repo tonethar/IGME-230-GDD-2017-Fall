@@ -8,6 +8,7 @@ To do this assignment, you should have completed at least the 6th web app tutori
 ![Web Page](_images/image-gallery-done.jpg)
 
 ## Instructions
+You will need to write some JavaScript to get this working:
 1. The start files are here [gallery-start.zip](_files/gallery-start.zip)
 1. Clicking on each "link" (they are actually spans) will load the applicable picture - use the `click` event
 1. The image name for each link is stored in a custom data attribute of the &lt;span> - we learned how to access these in [web-apps-6.md](./web-apps-6.md)
