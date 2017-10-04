@@ -216,7 +216,7 @@ There was quite a bit in that last example. Let's discuss:
 
 #6 above - we then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. We have to drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
 
-## VI. <a id="section6"></a>document.querySelectorAll()
+## VI. <a id="section6"></a>Introducing `document.querySelectorAll()`
 `document.querySelectorAll()` returns an array of results that match the given selector.
 
 **dom-4.html**
