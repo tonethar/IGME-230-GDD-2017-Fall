@@ -16,9 +16,9 @@ III. [The code didn't work!](#section3)
 
 IV. [Waiting until the page loads](#section4)
 
-V. [Try out more CSS selectors with document.querySelector()](#section5)
+V. [Try out more CSS selectors with `document.querySelector()`](#section5)
 
-VI. [document.querySelectorAll()](#section6)
+VI. [Introducing `document.querySelectorAll()`](#section6)
 
 VII. [Seeing your changes in the Web Inspector](#section7)
 
