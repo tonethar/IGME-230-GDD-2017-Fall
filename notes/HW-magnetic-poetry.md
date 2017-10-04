@@ -7,7 +7,7 @@
 - To do this assignment, you should have completed at least the 7th web app tutorial page - "JavaScript Object Literals".
 - Below is what the completed version will look like: 
 
-![Web Page](images/mag-poetry-done.jpg)
+![Web Page](_images/mag-poetry-done.jpg)
 
 ## Instructions
 
@@ -15,7 +15,7 @@
 ### I. Get Started
 Download the start file and open it in Chrome - it should look like this:
 
-![Web Page](images/mag-poetry-1.jpg)
+![Web Page](_images/mag-poetry-1.jpg)
 
 - In the web inspector you will notice that the words are contained in &lt;p> tags with the class of "word". 
 - You should also notice that the words are stacked on top of each other. This is because they currently have `position: absolute`, and because the `top` and `left` were never specified, the words are at "0,0" - the top-left corner of the screen.
@@ -225,7 +225,7 @@ Now we will we do a quick walkthrough of the code:
 1. We are going to use event handlers and regular functions throughout this exercise. Alternatively, you could certainly use event listeners and arrow functions if you so desired.
 1. Go ahead and type the following code in:
 
-![Web Page](images/mag-poetry-2.jpg)
+![Web Page](_images/mag-poetry-2.jpg)
 
 **What - it's an image - no copy/paste!?**
 
@@ -239,7 +239,7 @@ Don't worry, we'll give you some copy/paste opportunities later.
 
 **Go ahead and open your page in Chrome, it should look like this ("gibber" has now moved off of the stack of words in the corner) - if it doesn't, check the JavaScript console:**
 
-![Web Page](images/mag-poetry-3.jpg)
+![Web Page](_images/mag-poetry-3.jpg)
 
 
 #### B. More starting words
@@ -265,13 +265,13 @@ setPosition(getWord("horror"),275,330);
 
 **Reload the browser - it should now look like this:**
 
-![Web Page](images/mag-poetry-4.jpg)
+![Web Page](_images/mag-poetry-4.jpg)
 
 ### V. More Coding
 
 Next you can add a block variable, and some constants that we will need soon. Put these at the very top of your main block (right after the first opening curly brace).
 
-![Web Page](images/mag-poetry-5.jpg)
+![Web Page](_images/mag-poetry-5.jpg)
 
 **Go ahead and reload the page, it should look the same. Check the JavaScript console to be absolutely sure there are no errors.**
 
@@ -286,11 +286,11 @@ Right now most of the word are still stuck in the upper-left corner of the scree
 - First, call the `positionWords()` function at the top of the `window.onload` callback function.
 - Second, here's your code:
 
-![Web Page](images/mag-poetry-6.jpg)
+![Web Page](_images/mag-poetry-6.jpg)
 
 **Reload the page - all the words should be nicely arranged now. Dragging is not working yet.**
 
-![Web Page](images/mag-poetry-7.jpg)
+![Web Page](_images/mag-poetry-7.jpg)
 
 #### A. Explanation
 - #7 above - the purpose of `positionWords()` is to lay out the words neatly at the bottom of the screen, and to set up the `mousedown` handlers that we will soon need.
@@ -306,7 +306,7 @@ We are almost done - we just need to get the word dragging working by adding sup
 - First, call the `setupDragging()` function at the bottom of the `window.onload` callback function.
 - Second, here's your code:
 
-![Web Page](images/mag-poetry-8.jpg)
+![Web Page](_images/mag-poetry-8.jpg)
 
 **Reload the page - all the words should be nicely arranged as before. Dragging should now work.**
 
