@@ -361,7 +361,7 @@ var ship={
 ```
 
 ## IX. <a id="section9">Review Exercise
-Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) and do the challenge - 
+Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7.html**, and do the challenge - 
 
 ```
  // Can you figure out how to pull the key and value from the "links" object literal?
