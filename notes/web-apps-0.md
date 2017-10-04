@@ -72,9 +72,9 @@ Refer to the dropboxes for due dates.
 - [Random Phrases 2](./HW-random-phrases-2.md)
 - [Image Gallery](./HW-image-gallery.md)
 - Magnetic Poetry
-- Solitaire DOM Game
 - ToDoList App
 - Giffy Web Service App
+- Solitaire DOM Game
 - Project 2
 
 ## VI. What has been left out of this series
