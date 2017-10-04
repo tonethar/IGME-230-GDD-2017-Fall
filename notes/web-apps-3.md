@@ -293,7 +293,7 @@ There was quite a bit in that last example. Let's discuss:
 
 ### A. "View Source" in Chrome
 If we view the HTML source of our page in Chrome (View > Developer > View Source) we will not see any of the changes our JavaScript made.
-For example, if our JavaScript made changes to the text and HTML, it would not be reflected in the HTML souce. Also, there will be no indication that our new styles were applied:
+For example, if our JavaScript made changes to the text and HTML, it would not be reflected in the HTML source. Also, there will be no indication that our new styles were applied:
 
 ![Web Page](_images/dom-7.jpg)
 
@@ -305,7 +305,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 ## VIII. <a id="section8"></a>Nota bene 
 In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. 
 
-Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` - we recommend that you NOT use these methods as they are much less flexible and powerful than the querySelector() and querySelectorAll() method.
+Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` methods used - we recommend that you NOT use these methods as they are much less flexible and powerful than the `querySelector()` and `querySelectorAll()` methods.
 
 Using the JavaScript debugger and setting breakpoints was briefly touched upon above. Being able to utilize the JavaScript debugger is an essential skill, and we will be demoing this in class. If you need to see it demoed again then please ask! 
 
