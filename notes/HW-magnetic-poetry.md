@@ -1,4 +1,4 @@
-# Homework: Magnetic Poetry Gallery
+# Homework: Magnetic Poetry
 
 ## Overview
 - In this assignment you will create a "magnetic poetry" application that allows the user to reposition words on the screen to create their own poems.
@@ -315,3 +315,22 @@ We are almost done - we just need to get the word dragging working by adding sup
 - #13 above - in `document.onmousemove` we drag the word to the position of the mouse, and have to adjust our coordinates so that we always drag from the middle of the word, not the edge. Note that the **move cursor* that appears when we mouse over the words is done by our CSS.
 - #14 above - in `document.onmouseup` we clear out `selectedElement`, and make sure that the word we just selected is not at the highest z-index.
 - #15 above - in our `getMousePos()` helper function we are merely translating the window coordinates we get from the event handler to the equivalent #fridge coordinates. This just means we subtract the left and top values of `#fridge` from the numbers we get from the mouse event. **Example:** 10,10 in window coordinates is roughly 0,0 in `#fridge` coordinates.
+
+### Submission
+- That's enough. We're not going to make you do anything else to this, congratulations on your typing acumen!
+- Put **word-magnets.html** and **styles.css** in the same folder, and ZIP it. Then post to to the dropbox.
+
+### Enhancements
+There is quite a bit you could do with this app to make it a potential portfolio piece. Here are a few ideas:
+ -load words from array and dynamically create the magnets
+ -reset board to its starting state
+ -get more words in the same set and clear out the existing unused words
+ -load new word sets with a &lt;select>
+ -change background image
+ -images as words
+ -save poetry (in # of URL)
+ -share URL
+ -slightly rotated words so they look more realistic (CSS transform/rotation)
+ -deleting words
+ -modifying the style of selected words
+ -users can add words
