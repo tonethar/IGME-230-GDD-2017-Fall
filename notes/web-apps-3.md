@@ -1,6 +1,6 @@
 # 3 - Introduction to the Web Browser DOM
 ## Overview
-When developers discuss database records and operations, there's a concept known as **C.R.U.D.** - "Create", "Read", "Update" and "Delete". Every database needs to be able to let the developer do these things in code.
+When developers discuss database records and operations, there's a concept known as **C.R.U.D.** - "Create", "Read", "Update" and "Delete". Every database needs to be able to let the developer perform these operations in code.
 
 Similarly, if we are going to create web applications, we will have to do the same things to our web pages: **create** new elements, select (**read**) existing elements, **update** elements, and **delete** elements.
 
