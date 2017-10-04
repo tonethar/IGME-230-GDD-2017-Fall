@@ -67,7 +67,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 1. JavaScript ES6 Classes
 
 ## V. Assignments
-See the dropboxes for due dates.
+Refer to the dropboxes for due dates.
 - [Random Phrases 1](./HW-random-phrases-1.md)
 - [Random Phrases 2](./HW-random-phrases-2.md)
 - [Image Gallery](./HW-image-gallery.md)
