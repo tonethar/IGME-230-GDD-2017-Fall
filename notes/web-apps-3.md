@@ -313,32 +313,39 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 6. What happens if we try to call a method on `null`? Answer: We get a runtime error! How an we avoid this? Read on!
 
 ```
-// Risky way
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Writing safer code</title>
+</head>
+<body>
+
+<script>
 let element = document.querySelector("h4"); // will be null because page has no h4 elements
-element.innerHTML = "Found an h4 tag"; // ERROR
+//element.innerHTML = "Found an h4 tag"; // WILL CAUSE AN ERROR
 
 // Safer way is to check for null first
-let element = document.querySelector("h4"); // will be null because page has no h4 elements
 if (element != null){
    element.innerHTML = "Found an h4 tag";
 }else{
   console.log("No h4 found");
 }
 
-// Shorter up your if
-// JavaScript has a number of "falsy" values (false, 0, undefined, null , "", '') that evaluate to false in boolean contexts.
-// Anything that is not false, is therefore true in a boolean context
+// Shorten up your if statements!
+// JavaScript has a number of "falsy" values (false, 0, undefined, null , "", '') 
+// that evaluate to false in boolean contexts.
+// In a boolean context, anything that is not false, is true.
 
-// So we can replace:
-if (element != null){
-   element.innerHTML = "Found an h4 tag";
-}
-
-// with:
+// So we can replace the above with:
 if (element){ // element will be considered true if it is not one of the falsy values above
    element.innerHTML = "Found an h4 tag";
+}else{
+  console.log("No h4 found");
 }
-
+</script>
+</body>
+</html>
 ```
 
 ## IX. <a id="section9"></a>Review Questions
