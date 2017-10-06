@@ -305,13 +305,41 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 ![Web Page](_images/dom-8.jpg)
 
 ## VIII. <a id="section8"></a>Nota bene 
-In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. 
+1. In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` methods used - we recommend that you NOT use these methods as they are much less flexible and powerful than the `querySelector()` and `querySelectorAll()` methods.
+2. Using the JavaScript debugger and setting breakpoints was briefly touched upon above. Being able to utilize the JavaScript debugger is an essential skill, and we will be demoing this in class. If you need to see it demoed again then please ask! Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
+3. What happens when `document.querySelectorAll()` finds no matching elements on the page, what does it *return*? Answer: an empty array.
+4. What happens when we try to loop though an empty array with a `for` or `for...of` loop? Answer: Nothing. The looping never happens if the array is empty.
+5. When `document.querySelector()` finds no matching elements on the page, what does it *return*? Answer: `null`.
+6. What happens if we try to call a method on `null`? Answer: We get a runtime error! How an we avoid this? Read on!
 
-Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` methods used - we recommend that you NOT use these methods as they are much less flexible and powerful than the `querySelector()` and `querySelectorAll()` methods.
+```
+// Risky way
+let element = document.querySelector("h4"); // will be null because page has no h4 elements
+element.innerHTML = "Found an h4 tag"; // ERROR
 
-Using the JavaScript debugger and setting breakpoints was briefly touched upon above. Being able to utilize the JavaScript debugger is an essential skill, and we will be demoing this in class. If you need to see it demoed again then please ask! 
+// Safer way is to check for null first
+let element = document.querySelector("h4"); // will be null because page has no h4 elements
+if (element != null){
+   element.innerHTML = "Found an h4 tag";
+}else{
+  console.log("No h4 found");
+}
 
-Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
+// Shorter up your if
+// JavaScript has a number of "falsy" values (false, 0, undefined, null , "", '') that evaluate to false in boolean contexts.
+// Anything that is not false, is therefore true in a boolean context
+
+// So we can replace:
+if (element != null){
+   element.innerHTML = "Found an h4 tag";
+}
+
+// with
+if (element){ // element is true because it is not one of the falsy values above
+   element.innerHTML = "Found an h4 tag";
+}
+
+```
 
 ## IX. <a id="section9"></a>Review Questions
 1. What does "CRUD" stand for?
