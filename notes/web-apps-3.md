@@ -334,8 +334,8 @@ if (element != null){
    element.innerHTML = "Found an h4 tag";
 }
 
-// with
-if (element){ // element is true because it is not one of the falsy values above
+// with:
+if (element){ // element will be considered true if it is not one of the falsy values above
    element.innerHTML = "Found an h4 tag";
 }
 
