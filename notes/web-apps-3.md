@@ -310,7 +310,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 3. What happens when `document.querySelectorAll()` finds no matching elements on the page, what does it *return*? Answer: an empty array.
 4. What happens when we try to loop though an empty array with a `for` or `for...of` loop? Answer: Nothing. The looping never happens if the array is empty.
 5. When `document.querySelector()` finds no matching elements on the page, what does it *return*? Answer: `null`.
-6. What happens if we try to call a method on `null`? Answer: We get a runtime error! How an we avoid this? Read on!
+6. What happens if we try to call a method on `null`? Answer: We get a runtime error! How can we avoid this? Read on!
 
 ```
 <!DOCTYPE html>
