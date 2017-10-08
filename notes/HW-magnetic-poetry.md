@@ -13,13 +13,6 @@
 
 
 ### I. Get Started
-The initial state of the app looks like this:
-
-![Web Page](_images/mag-poetry-1.jpg)
-
-- In the web inspector you will notice that the words are contained in &lt;p> tags with the class of "word". 
-- You should also notice that the words are stacked on top of each other. This is because they currently have `position: absolute`, and because the `top` and `left` were never specified, the words are at "0,0" - the top-left corner of the screen.
-
 Here is the HTML & CSS to get you started - go ahead and create **word-magnets.html** :
 
 #### word-magnets.html
@@ -200,6 +193,13 @@ Here is the HTML & CSS to get you started - go ahead and create **word-magnets.h
 </body>
 </html>
 ```
+
+This initial state of the app looks like this:
+
+![Web Page](_images/mag-poetry-1.jpg)
+
+- In the web inspector you will notice that the words are contained in &lt;p> tags with the class of "word". 
+- You should also notice that the words are stacked on top of each other. This is because they currently have `position: absolute`, and because the `top` and `left` were never specified, the words are at "0,0" - the top-left corner of the screen.
 
 ### II. Looking at the structure of the page
 Yes, there are a lot of lines here, but we'll start to clean this up soon.
