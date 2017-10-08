@@ -58,7 +58,6 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. methods of Array() - `.forEach()`, `.filter()`, `.map()`
     1. `DomNodeList()`
     1. JavaScript typed arrays
-    1. Conway's *Game of Life*
 1. The WebStorage API
 1. Intro to Web Services
     1. XHR & Fetch API
