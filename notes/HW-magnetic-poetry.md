@@ -13,7 +13,7 @@
 
 
 ### I. Get Started
-Download the start file and open it in Chrome - it should look like this:
+THe initial state of the app looks like this:
 
 ![Web Page](_images/mag-poetry-1.jpg)
 
