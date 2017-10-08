@@ -13,7 +13,7 @@
 
 
 ### I. Get Started
-THe initial state of the app looks like this:
+The initial state of the app looks like this:
 
 ![Web Page](_images/mag-poetry-1.jpg)
 
