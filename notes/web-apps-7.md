@@ -374,4 +374,5 @@ let links = {
 ```
 
 **[Previous Section <- JavaScript Events](web-apps-6.md)**
+
 **[Next Section -> JavaScript Arrays](web-apps-8.md)**
