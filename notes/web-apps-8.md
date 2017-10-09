@@ -5,7 +5,15 @@
 JavaScript arrays are "List-like" objects that are used to store information sequentially. 
 Unlike primitive (Int, Float etc) arrays in languages like C, JavaScript arrays are NOT constrained to holding only one *type* of value, and can hold multiple types of data in the same array.
 
-## I. Array Operations
+## Contents
+<!--- Local Navigation --->
+I. [Array Operations](#section1)
+II. [Iterating over Arrays](#section2)
+III. [Other "Array-like" objects in JavaScript](#section3)
+IV. [Nota bene](#section4)
+V. [Review Questions]((#section5)
+
+## I. <a id="section1">Array Operations
 
 ### A. Create an Array
 ```
@@ -182,7 +190,7 @@ debugger;
 </html>
 ```
 
-## II. Iterating over Arrays
+## II. <a id="section2">Iterating over Arrays
 
 ### A. `for` loop
 
@@ -304,10 +312,7 @@ debugger;
 ```
 
 
-## III. Other "Array-like" objects in JavaScript
-
-
-
+## III. <a id="section3">Other "Array-like" objects in JavaScript
 ### A. `NodeList`
 
 When we use `document.querySelectorAll()`, we get back a `NodeList`.
@@ -376,5 +381,8 @@ debugger;
 </body>
 </html>
 ```
+## IV. <a id="section4">Nota bene
+
+## V. <a id="section5">Review Questions
 
 
