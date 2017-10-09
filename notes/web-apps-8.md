@@ -8,9 +8,13 @@ Unlike primitive (Int, Float etc) arrays in languages like C, JavaScript arrays 
 ## Contents
 <!--- Local Navigation --->
 I. [Array Operations](#section1)
+
 II. [Iterating over Arrays](#section2)
+
 III. [Other "Array-like" objects in JavaScript](#section3)
+
 IV. [Nota bene](#section4)
+
 V. [Review Questions]((#section5)
 
 ## I. <a id="section1">Array Operations
