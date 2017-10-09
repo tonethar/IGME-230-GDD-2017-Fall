@@ -15,7 +15,9 @@ III. [Other "Array-like" objects in JavaScript](#section3)
 
 IV. [Nota bene](#section4)
 
-V. [Review Questions](#section5)
+V. [Review Questions](#section5)'
+
+<hr><hr>
 
 ## I. <a id="section1">Array Operations
 
