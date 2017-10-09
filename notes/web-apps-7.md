@@ -27,7 +27,7 @@ VIII. [Review Questions](#section8)
 
 IX. [Review Exercise](#section9)
 
-
+<hr><hr>
 ## I. <a id="section1">What is a *literal value*?
 In programming, a literal value is *a notation for representing a fixed value in source code*, or *a value written exactly as it's meant to be interpreted*.
 
