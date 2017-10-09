@@ -54,9 +54,10 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. Iterating over object keys and values
     1. Creating "Object Factories"
     1. ES6 Object Literal changes
-1. JavaScript Arrays and array-like objects
-    1. methods of Array() - `.forEach()`, `.filter()`, `.map()`
-    1. `DomNodeList()`
+1. [JavaScript Arrays and array-like objects](./web-apps-8.md)
+    1. methods of `Array`
+    1. Looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
+    1. `NodeList`
     1. JavaScript typed arrays
 1. The WebStorage API
 1. Intro to Web Services
