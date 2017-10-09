@@ -178,7 +178,7 @@ Clicking on a cell should turn it to the selected color - let's get that working
 
 
 ### V. Get dragging working
-Right now we can click on individual cells to change their color, but wouldn't be nice if we could click, and then drag the mouse and "paint" multiple pixels. Let's make that happen.
+Right now we can click on individual cells to change their color, but wouldn't it be nice if we could click, and then drag the mouse and "paint" multiple pixels. Let's make that happen.
 
 **Here's the code:**
 
