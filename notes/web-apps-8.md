@@ -1,4 +1,4 @@
-# 8 - Arrays
+# 8 - JavaScript Arrays
 
 ## Overview
 
