@@ -457,8 +457,8 @@ You should see another message about the color you selected, and the &lt;legend>
 ![Web Page](_images/events-12.jpg)
 
 ### B) Hints
-1. You can use event handlers of event listeners, it's your choice
-1. You can use standard funtions or arrow functions, it's you choice
+1. You can use event handlers OR event listeners, it's your choice
+1. You can use standard funtions OR arrow functions, it's you choice
 1. The **Submit button** code should be triggered by the `click` event
 1. The **Radio button** code should be triggered by the `change` event
 1. `document.querySelectorAll()` can be used to get reference to all of the radio buttons. You can then loop through the list you get back.
