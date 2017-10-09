@@ -15,7 +15,7 @@ III. [Other "Array-like" objects in JavaScript](#section3)
 
 IV. [Nota bene](#section4)
 
-V. [Review Questions]((#section5)
+V. [Review Questions](#section5)
 
 ## I. <a id="section1">Array Operations
 
@@ -386,7 +386,15 @@ debugger;
 </html>
 ```
 ## IV. <a id="section4">Nota bene
+Nothing for now.
 
 ## V. <a id="section5">Review Questions
+1. True or False. JavaScript Arrays may hold only a single *type* of value.
+1. Which array operation adds an item to the *end* of an array?
+1. Which array method can be used to *remove* items from an array?
+1. Which array method can be used to *copy* items to a new array?
+1. Describe 3 ways to loop through a JavaScript Array.
+1. Does `Array.filter()` modify the old array (the one it is called on), or create a new array?
 
 
+**[Previous Section <- JavaScript Object Literals](web-apps-7.md)**
