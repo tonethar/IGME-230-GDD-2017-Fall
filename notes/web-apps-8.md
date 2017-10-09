@@ -395,6 +395,7 @@ Nothing for now.
 1. Which array method can be used to *copy* items to a new array?
 1. Describe 3 ways to loop through a JavaScript Array.
 1. Does `Array.filter()` modify the old array (the one it is called on), or create a new array?
+1. What is the type of the object that is returned by `document.querySelectorAll()`?
 
 
 **[Previous Section <- JavaScript Object Literals](web-apps-7.md)**
