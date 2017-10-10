@@ -18,3 +18,6 @@ Some notes and information about the midterm exam that should help you study for
 
 ## IV. Readings and Homework Assignment
 Keep an eye on the myCourses drop boxes, both the description and the closing time! These will help you keep track of what is due/when, and what you should be working on.
+
+## V. Project 2
+The [Project 2](../projects/project2.md) requirements have been posted. We have not yet covered everything we need for Project 2, but it's not too early to think about what you might want to make, as well as who could be your partner. (Partners are optional, you may work solo if you wish).
