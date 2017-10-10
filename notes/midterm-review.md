@@ -93,7 +93,7 @@ For the exam, be able to write complete CSS rules from memory.
 1. What does CRAP stand for?
 1. Give a short summary of each CRAP principle
 1. What does the "above the fold" design principle mean?
-1. Define *Responsive Design*?
+1. Define *Responsive Design*
 1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive web pages?
 1. What properties of the browser does a media query commonly "test" for?
 
@@ -101,7 +101,7 @@ For the exam, be able to write complete CSS rules from memory.
 1. See Week 5A & Week 5B Notes
 
 ## J. Introduction to Web Applications
-You will be responsible for the first 5 parts of this web apps series:
+For the midterm exam, you will be responsible for the first 5 parts of this web apps series:
 
 1. Introduction to Web Applications
 2. Introduction to JavaScript
