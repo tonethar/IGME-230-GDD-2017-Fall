@@ -48,6 +48,8 @@ Below are some example questions - **these are not exhaustive of what can and wi
 
 
 ## E. Basic CSS
+For the exam, be able to write complete CSS rules from memory.
+
 1. What does CSS stand for?
 1. Give an example of a CSS `type` selector.
 1. Give an example of a CSS `class` selector.
@@ -105,7 +107,10 @@ You will be responsible for the first 5 parts of this web apps series:
 4. More Web Browser DOM Methods
 5. JavaScript Functions
 
-Be sure to focus on the Discussion/Review sections (they have questions you have already answered as HW) for each of the above pages.
+**
+- Be sure to focus on the Discussion/Review sections (they have questions you have already answered as HW) for each of the above pages!
+- Be able to write some JavaScript from memory!
+**
 
 You can access all of these web app tutorial pages from here: 
 [web-apps-0.md](./web-apps-0.md)
