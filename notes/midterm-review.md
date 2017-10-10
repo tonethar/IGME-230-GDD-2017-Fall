@@ -92,6 +92,26 @@ Below are some example questions - these are not exhaustive of what can appear o
 1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive web pages?
 1. What properties of the browser does a media query commonly "test" for?
 
+## I. Website Design Process
+1. See Week 5A & Week 5B Notes
+
+## J. Introduction to Web Applications
+You will be responsible for the first 5 parts of this web apps series:
+
+- Introduction to Web Applications
+- Introduction to JavaScript
+- Introduction to the Web Browser DOM
+- More Web Browser DOM Methods
+- JavaScript Functions
+
+You can access all of these web app tutorial pages from here: 
+[web-apps-0.md](./web-apps-0.md)
+
+
+
+
+
+
 
 
 
