@@ -400,4 +400,4 @@ Nothing for now.
 1. What is the type of the object that is returned by `document.querySelectorAll()`?
 
 
-**[Previous Section <- JavaScript Object Literals](web-apps-7.md)**
+**[Previous Section <- JavaScript Object Literals (part 7)](web-apps-7.md)**
