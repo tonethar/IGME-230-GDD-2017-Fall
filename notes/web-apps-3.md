@@ -388,7 +388,7 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 
 ![Web Page](_images/dom-9.jpg)
     
-**[Previous Section <- 2-Introduction to JavaScript](web-apps-2.md)**
+**[Previous Section <- 2-Introduction to JavaScript (part 2)](web-apps-2.md)**
   
-**[Next Section -> 4-More Web Browser DOM Methods](web-apps-4.md)**
+**[Next Section -> 4-More Web Browser DOM Methods (part 4)](web-apps-4.md)**
   
