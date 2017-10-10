@@ -22,7 +22,7 @@ Below are some example questions - **these are not exhaustive of what can and wi
 1. Who (the client? the server? both?) can send text and/or images?
 1. Give two ways to verify that we have successfully "turned off" banjo's PageSpeed module.
 1. How many .htaccess files can you have in a single folder?
-1. Supposed you put a .htaccess file containing directives into your `www` folder. Which folder(s) would be "effected" by the file?
+1. Suppose you upload a .htaccess file containing directives into your `www` folder. Which folder(s) would be "effected" by the file?
 1. Also see HTTP protocol notes and questions here: [http-protocol-intro.md](./http-protocol-intro.md)
 1. Also see HTTP demo notes here: [http-protocol-demo.md](./http-protocol-demo.md)
 
@@ -71,8 +71,8 @@ For the exam, be able to write complete CSS rules from memory.
 1. How large is an CSS *em* unit?
 1. How large is an CSS *ex* unit?
 1. Specify the CSS colors red, green, blue, black, and white in hexadecimal notation.
-1. Why is it a good idea to specifiy more than 1 font name in your CSS `font` rules?
-1. Once you set `position:absolute`, what are the other CSS 2 properties you will usually need to set?
+1. Why is it a good idea to specify more than 1 font name in your CSS `font` rules?
+1. Once you set `position:absolute`, what are the other two CSS properties you will usually need to set?
 1. What is the CSS property used to set the stacking order of HTML elements?
 1. Describe the CSS box model.
 1. Describe the difference between `margin` and `padding`.
