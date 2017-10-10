@@ -36,7 +36,7 @@ Below are some example questions - **these are not exhaustive of what can and wi
 
 
 ## D. Basic HTML
-1. See the IIM review folder.
+1. See the [IIM review folder](https://github.com/tonethar/IGME-230-GDD-2017-Fall/tree/master/IIM-Web-Review)
 1. Give examples of HTML *semantic* elements (tags)
 1. Give examples of HTML5 *Structural* elements
 1. Give examples of *standalone* (or empty) elements
