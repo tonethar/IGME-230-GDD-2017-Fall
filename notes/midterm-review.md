@@ -108,7 +108,7 @@ You will be responsible for the first 5 parts of this web apps series:
 5. JavaScript Functions
 
 
-- **Be sure to focus on the Discussion/Review sections (they have questions you have already answered as HW) for each of the above pages!**
+- **Be sure to focus on the Discussion/Review sections and their questions for each of the 5 above pages!**
 - **Be able to write some JavaScript from memory!**
 
 You can access all of these web app tutorial pages from here: 
