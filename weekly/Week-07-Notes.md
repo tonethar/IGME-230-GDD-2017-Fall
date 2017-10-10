@@ -11,6 +11,7 @@ We will spend this week finishing up parts IV (Browser DOM methods) and V (Funct
 The midterm exam will be held the end of week 8 - the exact date/time depending on your section:
 
 - For IGME-230-05 (Professor Jefferson), the exam will be held Thursday 10/19 at the start of class.
+- For IGME-230-02, 03, and 06 (Professor Boyle), the exam will be held Wednesday 10/18 at the start of class.
 
 ## III. Midterm Exam Study Notes
 Some notes and information about the midterm exam that should help you study for it are here: https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/midterm-review.md
