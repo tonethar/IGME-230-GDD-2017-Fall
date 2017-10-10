@@ -88,7 +88,9 @@ Below are some example questions - these are not exhaustive of what can appear o
 1. What does CRAP stand for?
 1. Give a short summary of each CRAP principle
 1. What does the "above the fold" design principle mean?
-1
+1. Define *Responsive Design*?
+1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive web pages?
+1. What properties of the browser does a media query commonly "test" for?
 
 
 
