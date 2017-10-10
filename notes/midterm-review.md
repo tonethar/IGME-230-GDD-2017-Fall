@@ -77,13 +77,15 @@ For the exam, be able to write complete CSS rules from memory.
 1. Describe the CSS box model.
 1. Describe the difference between `margin` and `padding`.
 1. Give at least 3 properties of the "box" that we can set (other than margin and padding).
+1. What is the HTML tag used to connect to an external CSS file or an embedded font?
+1. What is the CSS property we use to define whether/how quickly a property will animate when changed?
 
 
 ## F. CSS Rollovers
 1. Give the 4 CSS `pseudo selectors` that are used to create CSS rollover effects.
 
 ## G. Markdown
-1. Know basic Markdown syntax (headings, lists, etc)
+1. Know the basic Markdown syntax (headings, lists, etc)
 
 ## H. Web Publishing
 1. See the font questions here: [Week-03B-Notes.md](../weekly/Week-03B-Notes.md)
@@ -93,6 +95,7 @@ For the exam, be able to write complete CSS rules from memory.
 1. What does CRAP stand for?
 1. Give a short summary of each CRAP principle
 1. What does the "above the fold" design principle mean?
+1. Describe the Rule of Thirds and how it applies to web pages
 1. Define *Responsive Design*
 1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive (and mobile friendly) web pages?
 1. What properties of the browser does a media query commonly "test" for?
