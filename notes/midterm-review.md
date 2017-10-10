@@ -81,7 +81,7 @@ Below are some example questions - these are not exhaustive of what can appear o
 - know basic Markdown syntax
 
 ## H. Web Publishing
-1. See the font questions here: https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/weekly/Week-03B-Notes.md
+1. See the font questions here: [Week-03B-Notes.md](../weekly/Week-03B-Notes.md)
 1. What image file format(s) should generally be used for photographs?
 1. What image file format(s) should generally be used for web graphics such as logos and banners?
 1. What are the 2 questions every navigation system should answer?
