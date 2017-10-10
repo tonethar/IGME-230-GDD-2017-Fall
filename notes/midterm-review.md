@@ -10,7 +10,7 @@
 
 ## II. Topics Covered
 Everything we have covered in class or in HW assignments this semester is fair game. Be sure to focus on the following:
-Below are some example questions - these are not exhaustive of what can appear on the exam:
+Below are some example questions - **these are not exhaustive of what can and will appear on the exam**:
 
 ## A. HTTP Protocol
 1. Who (the client or the server) sends *request headers*?
