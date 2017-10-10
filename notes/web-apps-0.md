@@ -7,7 +7,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 - CSS selectors (in particular the CSS3 selectors) will come in handy
 - Fundamental programming concepts that you gleaned from the (at least) 2 programming classes you have taken prior to this course.
 
-## III. How to get the most out of this tutorial
+## III. How to get the most out of these tutorials
 - Try out the code samples! Tweak and modify them! Most of the code samples are 100% complete. You just need to copy the code and paste it into a text file, and save it to your desktop. You can then make changes to the code and preview them in a web browser (we will be using Chrome)
 - Be sure to answer all of the questions at the end of each section, and to do the review exercises.
 
