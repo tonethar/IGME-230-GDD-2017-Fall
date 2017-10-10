@@ -98,11 +98,13 @@ Below are some example questions - **these are not exhaustive of what can and wi
 ## J. Introduction to Web Applications
 You will be responsible for the first 5 parts of this web apps series:
 
-- Introduction to Web Applications
-- Introduction to JavaScript
-- Introduction to the Web Browser DOM
-- More Web Browser DOM Methods
-- JavaScript Functions
+1. Introduction to Web Applications
+2. Introduction to JavaScript
+3. Introduction to the Web Browser DOM
+4. More Web Browser DOM Methods
+5. JavaScript Functions
+
+Be sure to focus on the Discussion/Review sections (they have questions you have already answered as HW) for each of the above pages.
 
 You can access all of these web app tutorial pages from here: 
 [web-apps-0.md](./web-apps-0.md)
