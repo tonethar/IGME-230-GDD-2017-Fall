@@ -467,8 +467,8 @@ function createList(listElement,array){
 
 The HTML produced should be identical to what was produced in the previous version.
 
- **[Previous Section <- 4-More Web Browser DOM Methods](web-apps-4.md)**
+ **[Previous Section <- More Web Browser DOM Methods (part 4)](web-apps-4.md)**
  
- **[Next Section -> 6-JavaScript Events](web-apps-6.md)**
+ **[Next Section -> JavaScript Events (part 6)](web-apps-6.md)**
 
 
