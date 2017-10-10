@@ -404,6 +404,6 @@ let links = {
 
 ![Web Page](_images/more-dom-5.jpg)
 
-**[Previous Section <- Introduction to the Web Browser DOM](web-apps-3.md)**
+**[Previous Section <- 3-Introduction to the Web Browser DOM](web-apps-3.md)**
 
-**[Next Section -> JavaScript Functions](web-apps-5.md)**
+**[Next Section -> 5-JavaScript Functions](web-apps-5.md)**
