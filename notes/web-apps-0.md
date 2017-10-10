@@ -95,5 +95,5 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 ## VII. Links & Resources
 
 
-**[Next Section -> 1- Introduction to Web Applications](web-apps-1.md)**
+**[Next Section -> Introduction to Web Applications (part 1)](web-apps-1.md)**
 
