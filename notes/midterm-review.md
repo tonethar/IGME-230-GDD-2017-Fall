@@ -71,10 +71,10 @@ For the exam, be able to write complete CSS rules from memory.
 1. How large is an CSS *em* unit?
 1. How large is an CSS *ex* unit?
 1. Specify the CSS colors red, green, blue, black, and white in hexadecimal notation.
-1. Why is it a good idea to specifiy more than 1 font name in your CSS `font` fules?
+1. Why is it a good idea to specifiy more than 1 font name in your CSS `font` rules?
 1. Once you set `position:absolute`, what are the other CSS 2 properties you will usually need to set?
 1. What is the CSS property used to set the stacking order of HTML elements?
-1. What is the CSS box mode1?
+1. Describe the CSS box model.
 1. Describe the difference between `margin` and `padding`.
 1. Give at least 3 properties of the "box" that we can set (other than margin and padding).
 
@@ -94,7 +94,7 @@ For the exam, be able to write complete CSS rules from memory.
 1. Give a short summary of each CRAP principle
 1. What does the "above the fold" design principle mean?
 1. Define *Responsive Design*
-1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive web pages?
+1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive (and mobile friendly) web pages?
 1. What properties of the browser does a media query commonly "test" for?
 
 ## I. Website Design Process
