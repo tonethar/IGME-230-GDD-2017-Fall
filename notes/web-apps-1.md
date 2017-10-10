@@ -83,4 +83,4 @@ The best web site for tracking the adoption of new browser capabilities:
 
 **[Previous Section <- About this Web App Tutorial Series](web-apps-0.md)**
 
-**[Next Section -> Intro to JavaScript](web-apps-2.md)**
+**[Next Section -> 2-Intro to JavaScript](web-apps-2.md)**
