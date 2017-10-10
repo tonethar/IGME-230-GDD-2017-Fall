@@ -83,7 +83,7 @@ For the exam, be able to write complete CSS rules from memory.
 1. Give the 4 CSS `pseudo selectors` that are used to create CSS rollover effects.
 
 ## G. Markdown
-- know basic Markdown syntax
+1. Know basic Markdown syntax (headings, lists, etc)
 
 ## H. Web Publishing
 1. See the font questions here: [Week-03B-Notes.md](../weekly/Week-03B-Notes.md)
