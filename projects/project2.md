@@ -11,7 +11,7 @@ For this project you (and optionally a partner) are creating a JavaScript driven
 - A card or matching game based on the Solitaire example from class.
 - A Web Service App that extends what we did in the *GIF Finder* HW
     - You can build the *Music Finder* app (solo only, no partners) - see the requirements here: [music-finder-project-example.md](_supporting-files/music-finder-project-example.md)
-    - Or pick a service, and then add more UI options so that it at a minimum meets the requirements of *Music Finder* above. Here are some [sample web services](_supporting-files/sample-web-services.md) (there are many others!).
+    - Or pick a web service, and then add more UI options so that it at a minimum meets the requirements of *Music Finder* above. Here are some [sample web services](_supporting-files/sample-web-services.md) (there are many others!).
 
 ## I. Overview
 - Your goal is to create an interactive HTML5 Media Experience or DOM Game that is easy to use, functional, and aesthetically pleasing.
