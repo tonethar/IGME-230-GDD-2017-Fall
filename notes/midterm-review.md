@@ -22,6 +22,7 @@ Below are some example questions - **these are not exhaustive of what can and wi
 1. Who (the client? the server? both?) can send text and/or images?
 1. Give two ways to verify that we have successfully "turned off" banjo's PageSpeed module.
 1. How many .htaccess files can you have in a single folder?
+1. Supposed you put a .htaccess file containing directives into your www folder. Which folder(s) would be "effected" by the file?
 
 ## B. FTP
 1. Give the name (address) of the `http://people.rit.edu` web server (that you FTP files to).
