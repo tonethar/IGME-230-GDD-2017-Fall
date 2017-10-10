@@ -17,4 +17,4 @@ The midterm exam will be held the end of week 8 - the exact date/time depending 
 Some notes and information about the midterm exam that should help you study for it are here: https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/midterm-review.md
 
 ## IV. Readings and Homework Assignment
-Keep an eye on the mycourses drop boxes, both the description and the closing time! These will help you keep track of what is due/when, and what you should be working on.
+Keep an eye on the myCourses drop boxes, both the description and the closing time! These will help you keep track of what is due/when, and what you should be working on.
