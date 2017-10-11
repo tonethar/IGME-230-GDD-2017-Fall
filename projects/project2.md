@@ -2,12 +2,12 @@
 
 For this project you (and optionally a partner) are creating a JavaScript driven web application or DOM game. Here are some examples that are realistically scoped:
 
-- A tile-based game (based on the [*Pixel Artist* HW](../notes/HW-pixel-artist.md))
+- A tile-based game (based on the [Pixel Artist HW](../notes/HW-pixel-artist.md))
      - Minesweeper
      - a board game like Connect-4 or Othello
      - an adventure game that uses arrow keys to navigate
      - Conway's Game of Life
-- A dramatically enhanced Magnetic Poetry App (extends [*Magnetic Poetry* HW](../notes/HW-magnetic-poetry.md))
+- A dramatically enhanced Magnetic Poetry App (extends [Magnetic Poetry HW](../notes/HW-magnetic-poetry.md))
 - A card or matching game based on the Solitaire example from class.
 - A Web Service App that extends what we did in the *GIF Finder* HW
     - You can build the *Music Finder* app (solo only, no partners) - see the requirements here: [music-finder-project-example.md](_supporting-files/music-finder-project-example.md)
