@@ -2,7 +2,7 @@
 
 For this project you (and optionally a partner) are creating a JavaScript driven web application or DOM game. Here are some examples that are realistically scoped:
 
-- A tile-based game (based on the *Pixel Artist* HW)
+- A tile-based game (based on the [*Pixel Artist* HW](../notes/HW-pixel-artist.md)
      - Minesweeper
      - a board game like Connect-4 or Othello
      - an adventure game that uses arrow keys to navigate
