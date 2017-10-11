@@ -74,7 +74,7 @@ Refer to the dropboxes for due dates.
 - [Magnetic Poetry](./HW-magnetic-poetry.md)
 - [Pixel Artist](./HW-pixel-artist.md)
 - ToDoList App
-- Giffy Web Service App
+- "GIF Finder" Web Service App
 - Solitaire DOM Game
 - [Project 2](../projects/project2.md)
 
