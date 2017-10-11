@@ -15,12 +15,12 @@
 ## Screen Shots
 
 ### Starting State:
-![Web Page](images/gif-finder-1.jpg)
+![Web Page](_images/gif-finder-1.jpg)
 
 <hr><hr>
 
 ### And after the user has made a search:
-![Web Page](images/gif-finder-2.jpg)
+![Web Page](_images/gif-finder-2.jpg)
 
 ## Instructions
 
@@ -35,7 +35,7 @@
 ### II. Get Started
 
 Here is your starting file with the HTML and CSS all done for you. You can name the file **gif-finder.html**
-You will also need these images [zipped images folder]()
+You will also need these images [gif-finder-start-files.zip](_files/gif-finder-start-files.zip)
 
 #### gif-finder.html
 
@@ -199,7 +199,7 @@ Go ahead and test the code by clicking the button - and then check the console f
 We need to write code to build a URL to the web service. This code will need to pull what data 
 **Go ahead and type this code in:**
 
-![Web Page](images/gif-finder-3.jpg)
+![Web Page](_images/gif-finder-3.jpg)
 
 #### A. Explanation
 - #1 above - this URL is the Giphy *Search endpoint*. As an example, the Giphy "Trending" endpoint is `https://api.giphy.com/v1/gifs/trending`
@@ -220,7 +220,7 @@ We need to write code to build a URL to the web service. This code will need to 
 
 #### A. After clicking the search button, you should see the URL in the console
 
-![Web Page](images/gif-finder-4.jpg)
+![Web Page](_images/gif-finder-4.jpg)
 
 #### B. Clicking on the link opens a web page that shows the JSON response to your search. 
 
@@ -228,18 +228,18 @@ We need to write code to build a URL to the web service. This code will need to 
 
 - If your JSON isn't as nicely formatted as mine, it's because I am using the Chrome JSON Viewer extension which you can get here: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
-![Web Page](images/gif-finder-5.jpg)
+![Web Page](_images/gif-finder-5.jpg)
 
 #### C. Modify the URL in the location box
 
 Below we changed the `q` parameter to `dogs` and the `limit` parameter to `2`
 
-![Web Page](images/gif-finder-6.jpg)
+![Web Page](_images/gif-finder-6.jpg)
 
 #### D. Modify the API key value
 If you do that, oops, you will probably get an error message (unless it is a valid API key)
 
-![Web Page](images/gif-finder-7.jpg)
+![Web Page](_images/gif-finder-7.jpg)
 
 ### V. Importing jQuery
 To download the data, we are going to use the jQuery library and the `jQuery.ajax()` method. *Ajax* in this context means to asynchronously download data from the Internet.
@@ -260,7 +260,7 @@ console.log($); // $ is an alias to the jQuery object
 
 C. Reload the app and click the search button - you should see logs something like this, which will confirm that jQuery is loaded:
 
-![Web Page](images/gif-finder-8.jpg)
+![Web Page](_images/gif-finder-8.jpg)
 
 
 ### VI. Downloading the data with `jQuery.ajax()`
@@ -269,13 +269,13 @@ C. Reload the app and click the search button - you should see logs something li
 
 **Add this code to the bottom of `loadData()`:**
 
-![Web Page](images/gif-finder-9.jpg)
+![Web Page](_images/gif-finder-9.jpg)
 
 
 #### B. Create the callback function
 **This code is the callback function - place it *outside* of `loadData()`:**
 
-![Web Page](images/gif-finder-10.jpg)
+![Web Page](_images/gif-finder-10.jpg)
 
 #### C. Explanation
 - #12 above - we call the `jQuery.ajax()` method and pass in a *configuration object* that contains method parameters most importantly the **url** we want to download, the **datatype** (JSON), and the function that is called once the data is loaded (the *callback function*).
@@ -285,13 +285,13 @@ C. Reload the app and click the search button - you should see logs something li
 #### D. Run the app and click the search button 
 You should see the JSON we download in the console:
 
-![Web Page](images/gif-finder-11.jpg)
+![Web Page](_images/gif-finder-11.jpg)
 
 ### VII. Formatting the results for the user
 
 Now we just need to take the results, loop through them, and create some HTML. Here's the code:
 
-![Web Page](images/gif-finder-12.jpg)
+![Web Page](_images/gif-finder-12.jpg)
 
 Go ahead and run the code, the app should pretty much look like the second screenshot at the top of this page.
 
