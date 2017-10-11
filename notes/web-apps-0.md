@@ -76,7 +76,7 @@ Refer to the dropboxes for due dates.
 - ToDoList App
 - Giffy Web Service App
 - Solitaire DOM Game
-- Project 2
+- [Project 2](../projects/project2.md)
 
 ## VI. What has been left out of this series
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
