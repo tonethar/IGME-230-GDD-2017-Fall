@@ -34,8 +34,9 @@
 
 ### II. Get Started
 
-Here is your starting file with the HTML and CSS all done for you. You can name the file **gif-finder.html**
-You will also need these images [gif-finder-start-files.zip](_files/gif-finder-start-files.zip)
+- Below is your starting file with the HTML and CSS all done for you. 
+- You can name the file **gif-finder.html**
+- You will also need these images: [gif-finder-start-files.zip](_files/gif-finder-start-files.zip)
 
 #### gif-finder.html
 
