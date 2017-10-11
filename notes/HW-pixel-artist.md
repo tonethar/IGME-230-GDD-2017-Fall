@@ -199,7 +199,7 @@ Right now we can click on individual cells to change their color, but wouldn't i
 
 ![Web Page](_images/pixel-artist-15.jpg)
 
-**Reload the page and try it out, you should now be able to choose different fill colors. **
+**Reload the page and try it out, you should now be able to choose different fill colors.**
 
 
 ### VII. Discussion
