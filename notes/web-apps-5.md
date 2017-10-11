@@ -361,7 +361,7 @@ Closures are an important topic in JavaScript - you can learn more about them:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 ## IX. <a id="section9"></a>Arrow Functions
-Arrow functions are an ES6 addition.  They have two advantages: they have a shorter syntax than regular functions, and they do not bind their own `this` keyword. This second advantage might not mean anything to you now, but we will revisit it in the next part of this tutorial.
+Arrow functions are an ES6 addition.  They have two advantages: they have a shorter syntax than regular functions, and they do not bind their own `this` keyword. This second advantage might not mean anything to you now, but we will revisit it in a future chapter of this tutorial.
 
 ### functions-7.html
 
