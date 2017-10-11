@@ -73,10 +73,12 @@ Refer to the dropboxes for due dates.
 - [Image Gallery](./HW-image-gallery.md)
 - [Magnetic Poetry](./HW-magnetic-poetry.md)
 - [Pixel Artist](./HW-pixel-artist.md)
-- ToDoList App
-- "GIF Finder" Web Service App
-- Solitaire DOM Game
+- ["GIF Finder" Web Service App](./HW-gif-finder.md)
 - [Project 2](../projects/project2.md)
+
+## VI. Demos
+- ToDoList App
+- Solitaire DOM Game
 
 ## VI. What has been left out of this series
 This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
