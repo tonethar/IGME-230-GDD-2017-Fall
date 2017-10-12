@@ -401,7 +401,8 @@ console.log(addThem4(5,5)) // 10
 // 5 - and here's an even more concise version, if the function has only a single argument the
 // parentheses can be omitted
 let doubleIt = num => num * 2;
-console.log(doubleIt(5))
+console.log(doubleIt(5));
+
 </script>
 </body>
 </html>
