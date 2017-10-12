@@ -71,11 +71,12 @@ Refer to the dropboxes for due dates.
 - [Random Phrases 1](./HW-random-phrases-1.md)
 - [Random Phrases 2](./HW-random-phrases-2.md)
 - [Image Gallery](./HW-image-gallery.md)
-- [Magnetic Poetry](./HW-magnetic-poetry.md)
-- [Pixel Artist](./HW-pixel-artist.md)
-- ["GIF Finder" Web Service App](./HW-gif-finder.md)
+- [Magnetic Poetry\*](./HW-magnetic-poetry.md)
+- [Pixel Artist\*](./HW-pixel-artist.md)
+- ["GIF Finder" Web Service App\*](./HW-gif-finder.md)
 - [Project 2](../projects/project2.md)
 
+\* these assignments are "walkthroughs", you just have to type the code in 
 ## VI. Demos
 - "To Do" List App
 - Solitaire DOM Game
