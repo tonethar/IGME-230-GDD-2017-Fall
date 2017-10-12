@@ -76,7 +76,8 @@ Refer to the dropboxes for due dates.
 - ["GIF Finder" Web Service App\*](./HW-gif-finder.md)
 - [Project 2](../projects/project2.md)
 
-\* these assignments are "walkthroughs", you just have to type the code in 
+\* these assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
+
 ## VI. Demos
 - "To Do" List App
 - Solitaire DOM Game
