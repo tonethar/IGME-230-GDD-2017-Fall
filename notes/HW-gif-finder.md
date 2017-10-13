@@ -318,6 +318,7 @@ One more thing - to get the fading working properly, add this line of code to th
 
 ### VIII. Wrap up
 - Looks like you are done! Congratulations on your typing!
+- This assignment could be a great "starter" for Project 2.
 
 
 
