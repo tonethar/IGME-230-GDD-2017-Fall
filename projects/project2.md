@@ -6,7 +6,7 @@ For this project you (and optionally a partner) are creating a JavaScript driven
      - Minesweeper
      - a board game like Connect-4 or Othello
      - an adventure game that uses arrow keys to navigate
-     - [Conway's Game of Life](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/) (to do this kind of animation, you will need a animation loop, check out `window.requestAnimationFrame()` - https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
+     - *Conway's Game of Life* - there is an optional HW assignment to get you started down this path if you want: [HW-life.md](../notes/HW-life.md)
 - A dramatically enhanced Magnetic Poetry App (extends [Magnetic Poetry HW](../notes/HW-magnetic-poetry.md))
 - A card or matching game based on the Solitaire example from class.
 - A Web Service App that extends what we did in the [GIF Finder HW](../notes/HW-gif-finder.md)
