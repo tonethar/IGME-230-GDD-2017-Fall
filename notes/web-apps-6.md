@@ -374,7 +374,7 @@ Clicking on an element should toggle the styles back and forth from a normal loo
 
 ## VIII. <a id="section8"></a>Nota bene
 
-If we use the `window.onload` event handler, we can move our code back up to the the head section of the document, see below:
+If we use the `window.onload` event handler, we can move our code back up to the the &lt;head> section of the document, see below:
 
 ### events-6.html
 
@@ -385,14 +385,15 @@ If we use the `window.onload` event handler, we can move our code back up to the
 	<meta charset="utf-8" />
 	<title></title>
 	<script>
-	window.onload = init;
+	window.onload = init; // do you understand WHY there are no parentheses after init?
 
 	function init(){
-		// this is the second log in the console - do you understand WHY
+		// this is the second log in the console - do you understand WHY?
 		console.log("Page is loaded!"); 
 		document.querySelector("h1").innerHTML = "Window loaded!";
 	}
 	
+	// this is the first log in the console - do you understand WHY?
 	console.log("Page is NOT loaded!"); 
 	</script>
 </head>
