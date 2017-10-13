@@ -1,4 +1,4 @@
-# Conways' Game of life
+# Conways' Game of Life
 
 ## I. Overview
 We will get you started on modifying your completed [Pixel Artist](HW-pixel-artist.md) home work to instead be a working version of Conway's *Game of Life*. Some info about Conway's Conway's Game of Life and cellular automata is below: 
