@@ -341,10 +341,46 @@ let car2 = {
 </html>
 ```
 
-## VII. <a id="section7">Nota bene
+## VII. Value types & Reference types
+
+- Javascript has 5 data types that are passed by *value*: Boolean, null, undefined, String, and Number. We could also call these *primitive* types.
+- Javascript has 3 data types that are passed by *reference*: Array, Function, and Object. In actuality, all of these are Objects.
+
+### A. Value types
+How are value types like String and Number copied between variables? Here is an example:
+
+```
+let a = 100;
+let b = a;
+a = 50;
+
+console.log(a); // 50
+console.log(b); // 100
+```
+
+- The line `let b = a;` copies the value of 100 into the `b` variable. When we later change `a` to `50`, we are only effecting `a`, not `b`.
+- THe above behavior is how value types work: variable assignment *copies* the value from the old variable to the new variable, and later changes to one variable's value have no effect upon the other variable's value.
+
+### A. Reference types
+
+How are reference types copies between variables? Here is an example:
+
+```
+let car1 = {make:"Toyota"};
+let car2 = car1; // car1 and car2 are now pointing at the same object!
+car1.make -"Jeep"; // changes made to car1 effect both variables
+
+console.log(car1.make); // Jeep
+console.log(car2.make); // Jeep
+```
+
+- Reference types (Objects) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the reference to the object, not the value itself.  
+
+
+## VIII. <a id="section7">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
 
-## VIII. <a id="section8">Review Questions
+## IX. <a id="section8">Review Questions
 1. In programming, what is a *literal* value?
 1. What does `Object.seal()` do?
 1. What does `Object.freeze()` do?
@@ -361,7 +397,7 @@ var ship={
 }
 ```
 
-## IX. <a id="section9">Review Exercise
+## X. <a id="section9">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7.html**, and do the challenge:
 
 ```
