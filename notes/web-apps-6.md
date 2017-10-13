@@ -350,7 +350,7 @@ let toggleStyle = (e) => {
 
 
 
-// 3 - add events 
+// 4 - add events 
 p.addEventListener("click",toggleStyle);
 div.addEventListener("click",toggleStyle);
 
