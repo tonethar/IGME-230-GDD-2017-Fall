@@ -209,7 +209,7 @@ We need to write code to build a URL to the web service. This code will need to 
 - #4 above - get the `.value` of the text input field
 - #5 above - get rid of leading an trailing spaces. URL's do not work with spaces!
 - #6 above - `encodeURIComponent()` will escape characters like spaces (in the middle of the search term), ampersands, $ signs, + symbols and so on so that they are properly represented for a URL. You can read the docs here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
-- #7 above - bail out if we have noting to search for
+- #7 above - bail out if we have nothing to search for
 - #8 above - add the search term to the url - the web service requires this parameter name to be `q`
 - #9 above - grab the value of the &lt;select>, and then add the `limit` parameter to the url. Note that parameters are formated as `name=value` and separated by ampersands.
 - #10 above - update the UI with the user's search term
