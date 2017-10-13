@@ -370,12 +370,12 @@ How are reference types "copied" between variables? Here is an example:
 ```
 let car1 = {make:"Toyota"};
 let car2 = car1; // car1 and car2 are now pointing at the same object!
-car1.make -"Jeep"; // changes made to car1 effect both variables
+car1.make = "Jeep"; // changes made to car1 effect both variables
 
 console.log(car1.make); // Jeep
 console.log(car2.make); // Jeep
 
-let car3 = car1; // are 3 variables are still pointing at the same object!
+let car3 = car1; // now 3 variables are pointing at the same object!
 car3.make = "Yugo";
 
 console.log(car1.make); // Yugo
