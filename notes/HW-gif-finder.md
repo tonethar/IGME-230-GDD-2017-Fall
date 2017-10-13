@@ -197,7 +197,8 @@ Go ahead and test the code by clicking the button - and then check the console f
 
 
 ### III. Capture the user intent and format a URL
-We need to write code to build a URL to the web service. This code will need to pull what data 
+We need to write code to build a URL to the web service. This URL will contain the users search preferences (search term and number of results).
+
 **Go ahead and type this code in:**
 
 ![Web Page](_images/gif-finder-3.jpg)
