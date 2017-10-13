@@ -250,9 +250,9 @@ To download the data, we are going to use the jQuery library and the `jQuery.aja
 
 A. To import the jQuery library, you will add a separate &lt;script> tag, right before our existing &lt;script> tag. 
 
-`<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>`
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>`
 
-B. Now add this code to the bottom of `loadData()`:
+B. Now add this code to the bottom of `getData()`:
 
 ```
 console.log(jQuery);
