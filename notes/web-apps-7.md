@@ -359,11 +359,11 @@ console.log(b); // 100
 ```
 
 - The line `let b = a;` copies the value of 100 into the `b` variable. When we later change `a` to `50`, we are only effecting `a`, not `b`.
-- THe above behavior is how value types work: variable assignment *copies* the value from the old variable to the new variable, and later changes to one variable's value have no effect upon the other variable's value.
+- The above behavior is how value types work: variable assignment *copies* the value from the old variable to the new variable, and later changes to one variable's value have no effect upon the other variable's value.
 
 ### A. Reference types
 
-How are reference types copies between variables? Here is an example:
+How are reference types copied between variables? Here is an example:
 
 ```
 let car1 = {make:"Toyota"};
