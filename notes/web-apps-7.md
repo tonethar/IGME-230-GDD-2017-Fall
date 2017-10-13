@@ -21,11 +21,13 @@ V. [Creating "object factories"](#section5)
 
 VI. [ES6 Object Literal syntax](#section6)
 
-VII. [Nota bene](#section7)
+VII. [Value Types & Reference Types](#section7)
 
-VIII. [Review Questions](#section8)
+VIII. [Nota bene](#section8)
 
-IX. [Review Exercise](#section9)
+IX. [Review Questions](#section9)
+
+X. [Review Exercise](#section10)
 
 <hr><hr>
 
@@ -341,10 +343,10 @@ let car2 = {
 </html>
 ```
 
-## VII. Value types & Reference types
+## VII. <a id="section7">Value types & Reference types
 
 - Javascript has 5 data types that are passed by *value*: Boolean, null, undefined, String, and Number. We could also call these *primitive* types.
-- Javascript has 3 data types that are passed by *reference*: Array, Function, and Object. In actuality, all of these are Objects.
+- Javascript has 3 data types that are passed by *reference*: Array, Function, and Object. In actuality, all of these are Objects. DOM Elements are also *reference* types.
 
 ### A. Value types
 How are value types like String and Number copied between variables? Here is an example:
@@ -374,14 +376,16 @@ console.log(car1.make); // Jeep
 console.log(car2.make); // Jeep
 ```
 
-- Reference types (Objects) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself.  
+- Reference types (Objects, Arrays Functions, Elements, ...) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself.  
 
 
-## VIII. <a id="section7">Nota bene
+## VIII. <a id="section8">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
 
-## IX. <a id="section8">Review Questions
+## IX. <a id="section9">Review Questions
 1. In programming, what is a *literal* value?
+1. List 3 JavaScript *value* types.
+1. List 3 JavaScript *reference* types.
 1. What does `Object.seal()` do?
 1. What does `Object.freeze()` do?
 1. What is wrong with the following code?
@@ -397,7 +401,7 @@ var ship={
 }
 ```
 
-## X. <a id="section9">Review Exercise
+## X. <a id="section10">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7.html**, and do the challenge:
 
 ```
