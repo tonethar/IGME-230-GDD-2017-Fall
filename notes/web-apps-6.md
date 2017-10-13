@@ -403,6 +403,8 @@ If we use the `window.onload` event handler, we can move our code back up to the
 </html>
 ```
 
+**Be sure you can answer the "WHY" questions above!**
+
 ## IX. <a id="section9"></a>Review Questions
 1. Give 2 advantages to using *event listeners* instead of *event handlers*
 1. Give a situation where you might use an *event handler* anyway
