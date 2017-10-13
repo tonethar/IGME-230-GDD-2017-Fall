@@ -374,7 +374,7 @@ console.log(car1.make); // Jeep
 console.log(car2.make); // Jeep
 ```
 
-- Reference types (Objects) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the reference to the object, not the value itself.  
+- Reference types (Objects) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself.  
 
 
 ## VIII. <a id="section7">Nota bene
