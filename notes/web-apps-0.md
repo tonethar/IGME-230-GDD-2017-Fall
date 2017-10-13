@@ -75,6 +75,7 @@ Refer to the dropboxes for due dates.
 - [Magnetic Poetry\*](./HW-magnetic-poetry.md)
 - [Pixel Artist\*](./HW-pixel-artist.md)
 - ["GIF Finder" Web Service App\*](./HW-gif-finder.md)
+- [Conway's Game of Life](./HW-life.md)
 - [Project 2](../projects/project2.md)
 
 \* these assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
