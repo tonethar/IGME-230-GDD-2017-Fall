@@ -373,7 +373,34 @@ Clicking on an element should toggle the styles back and forth from a normal loo
 ![Web Page](_images/events-9.jpg)
 
 ## VIII. <a id="section8"></a>Nota bene
-No notes yet :-)
+
+If we use the `window.onload` event handler, we can move our code back up to the the head section of the document, see below:
+
+### events-6.html
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script>
+	window.onload = init;
+
+	function init(){
+		// this is the second log in the console - do you understand WHY
+		console.log("Page is loaded!"); 
+		document.querySelector("h1").innerHTML = "Window loaded!";
+	}
+	
+	console.log("Page is NOT loaded!"); 
+	</script>
+</head>
+<body>
+<h1>???</h1>
+</body>
+</html>
+```
 
 ## IX. <a id="section9"></a>Review Questions
 1. Give 2 advantages to using *event listeners* instead of *event handlers*
