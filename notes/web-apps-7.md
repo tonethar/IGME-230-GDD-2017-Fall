@@ -345,8 +345,8 @@ let car2 = {
 
 ## VII. <a id="section7">Value types & Reference types
 
-- Javascript has 5 data types that are passed by *value*: Boolean, null, undefined, String, and Number. We could also call these *primitive* types.
-- Javascript has 3 data types that are passed by *reference*: Array, Function, and Object. In actuality, all of these are Objects. DOM Elements are also *reference* types.
+- Javascript has 5 data types that are passed by *value*: Boolean, Number, String, null, and undefined. We could also call these *primitive* types.
+- Javascript has 3 data types that are passed by *reference*: Array, Function, and Object. In actuality, all of these are Objects. DOM Elements are Objects and are thus also *reference* types.
 
 ### A. Value types
 How are value types like String and Number copied between variables? Here is an example:
@@ -361,11 +361,11 @@ console.log(b); // 100
 ```
 
 - The line `let b = a;` copies the value of 100 into the `b` variable. When we later change `a` to `50`, we are only effecting `a`, not `b`.
-- The above behavior is how value types work: variable assignment *copies* the value from the old variable to the new variable, and later changes to one variable's value have no effect upon the other variable's value.
+- The above behavior is how value types work: variable assignment *copies* the actual value from the old variable to the new variable, and later changes to one variable's value have no effect upon the other variable's value.
 
 ### B. Reference types
 
-How are reference types copied between variables? Here is an example:
+How are reference types "copied" between variables? Here is an example:
 
 ```
 let car1 = {make:"Toyota"};
@@ -374,8 +374,14 @@ car1.make -"Jeep"; // changes made to car1 effect both variables
 
 console.log(car1.make); // Jeep
 console.log(car2.make); // Jeep
-```
 
+let car3 = car1; // are 3 variables are still pointing at the same object!
+car3.make = "Yugo";
+
+console.log(car1.make); // Yugo
+console.log(car2.make); // Yugo
+console.log(car3.make); // Yugo
+```
 - Reference types (Objects, Arrays Functions, Elements, ...) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself.  
 
 
