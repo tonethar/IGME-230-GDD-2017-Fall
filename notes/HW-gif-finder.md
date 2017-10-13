@@ -290,7 +290,7 @@ You should see the JSON we download in the console:
 
 ### VII. Formatting the results for the user
 
-Now we just need to take the results, loop through them, and create some HTML. Here's the code:
+Now we just need to take the results, loop through them, and create some HTML. Here's the code (to be added to jsonLoaded):
 
 ![Web Page](_images/gif-finder-12.jpg)
 
