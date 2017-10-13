@@ -10,5 +10,8 @@ There are some very nice WebStorage examples on the Internet that we are going t
 - https://html.spec.whatwg.org/multipage/webstorage.html
 - https://medium.com/@ramsunvtech/onfocus-html5-storage-apis-b45d92aa424b
 
+## II. Review Questions
+1. What is difference between local and session storage?
+
 
 
