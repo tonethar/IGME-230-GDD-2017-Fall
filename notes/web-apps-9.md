@@ -18,7 +18,7 @@ There are some WebStorage examples on the Internet that we are going to point yo
 - After you have referred to the links above, it should be pretty easy to figure out what's going on in the code.
 - One thing worth mentioning is the `prefix` variable (see below). Because webStorage uses the same set of keys for *each domain*, this means on servers like banjo that you are all sharing the same set of keys, so that if someone used `highscores`as a key, anotehr student's `highscores` key could wipe it out. One solution is to prefix you key names with something unique, like your RIT web account id. THerefore `highScores` would become `abc1234highScores` for one student, and `xyz9876highScores` for someone else, and the keys would never conflict.
 
-### webstorage-1.html**
+### webstorage-1.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -71,8 +71,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 </html>
 ```
 
-
-## II. Review Questions
+## III. Review Questions
 1. What is difference between local and session storage?
 
 
