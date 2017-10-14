@@ -99,7 +99,7 @@ items = JSON.stringify(items); // now it's a String
 localStorage.setItem(listID, JSON.stringify(items));
 ```
 
-### B. Retreive an array from localStorage with `JSON.parse()`
+### B. Retrieve an array from localStorage with `JSON.parse()`
 
 ```
 let listID = "abc1234-item-list";
