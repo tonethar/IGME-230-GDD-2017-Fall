@@ -123,7 +123,7 @@ items = JSON.parse(items);  // now it's an Array
 ```
 
 ## IV. <a id="section4">Nota Bene
-Nothing for now :-)
+- The process by which the browser works out how much space to allocate to web data storage and what to delete when that limit is reached is not simple, and differs between browsers - read about it here: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria
 
 
 ## V. <a id="section5">Review Questions
