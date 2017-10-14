@@ -16,11 +16,11 @@ In this course, we are just going to scratch the surface and work with the "read
 
 ## III. How do we download the data?
 
-- What we want to do is this -> to take a user request, and update part of the page (asynchronously) by exchanging small amounts of data with a server behind the scenes, without having to reload the whole page.
-- The above concept is called in the web world by this term *Ajax* - https://en.wikipedia.org/wiki/Ajax_(programming)
+- What we want to do is this **->** to take a user request, and update part of the page (asynchronously) by exchanging small amounts of data with a server behind the scenes, without having to reload the whole page.
+- The above concept is called in the web world by this term - *Ajax* - https://en.wikipedia.org/wiki/Ajax_(programming)
 - **Ajax** was derived from an earlier acronym *AJAX*, which stood for **A**synchronous **J**avaScript **A**nd **X**ML. The acronym fell out of favor because we now commonly retrieve other data formats besides XML.  
 
-In this class we will simplify the process of retrieving remote data by using the `jQuery.ajax` method of the jQuery library. This method will work well cross-platform, and abstracts away the details of what's happening.
+In this class we will simplify the process of retrieving remote data by using the `jQuery.ajax()` method of the jQuery library. This method will work well cross-platform, and abstracts away (for better or worse) the details of what's actually happening in the browser.
 
 Behind the scenes, the actual browser APIS and being used by jQuery include these:
 
@@ -43,7 +43,10 @@ Behind the scenes, the actual browser APIS and being used by jQuery include thes
     - `null`
 
 
-## V. Do the exercise!
+## V. Review Questions!
+- What is the difference between AJAX (the acronym) and Ajax (the noun)?
+
+## VI. Do the exercise!
 The best way to see how Ajax and Web APIs work is to build a fulling functioning example - if you haven't done so yet, go ahead and build GIF Finder, which utilizes the Giphy Web Service:
 
 - [HW-gif-finder.md](./HW-gif-finder.md)
