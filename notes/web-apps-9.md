@@ -91,7 +91,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 1. What is difference between local and session storage?
 1. If the user opens up the demo page in a different web browser, will their answers still be visible? Why or why not?
 
-
+<hr>
 
 **[Previous Section <- JavaScript Arrays (part 8)](web-apps-8.md)**
 
