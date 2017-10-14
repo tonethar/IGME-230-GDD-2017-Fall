@@ -6,9 +6,13 @@ The HTML5 WebStorage API allows us to store key:value data in the user's browser
 ## Contents
 <!--- Local Navigation --->
 I. [WebStorage Reference](#section1)
+
 II. [An Example](#section2)
+
 III. [Storing Objects in WebStorage](#section3)
+
 IV. [Nota Bene](#section4)
+
 V. [Review Questions](#section5)
 
 <hr><hr>
