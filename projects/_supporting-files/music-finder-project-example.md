@@ -13,7 +13,7 @@
     - title of track
     - a playable preview of the track (use the &lt;audio> element)
 - Be sure to handle failure states gracefully (i.e. without crashing or giving an error in the console). If the search gives no results, notify the user of that fact.
-- The user's most recent search term will be stored in HTML5 `localStorage`, and will be the default term displayed in the text input field when the user first opens the page. [9 - Local Storage Notes](../notes/web-apps-9.md)
+- The user's most recent search term will be stored in HTML5 `localStorage`, and will be the default term displayed in the text input field when the user first opens the page. Peruse these notes if you need to: [Part 9 - Local Storage](../../notes/web-apps-9.md)
 
 ## III. Experience Requirements
 - The app will be intuitive to use. Add tooltips and/or instructions as necessary.
