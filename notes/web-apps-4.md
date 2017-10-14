@@ -257,7 +257,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 	let unorderedList = document.querySelector("ul");
 	unorderedList.appendChild(listItem);
 	
-	// 8 - create a new <li> and a new <a>, and insert them before the Google link
+	// 8 - create a new <li> and a new <a>
 	// 8A - create an <li> with a link in it
 	let fbListItem = document.createElement("li");
 	let link = document.createElement("a");
@@ -281,7 +281,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 
 - #7 creates a new &lt;li> with the text "GeoCities" and appends it to the end of the list.
 - #8A creates a new  &lt;li> and a new "Facebook" &lt;a>, and appends the &lt;a> to the &lt;li>
-- #8B gets a reference to the "Google" &lt;li> (note the cool CSS selector and the `.parentNode` property), and then inserts the "Facebook" &lt;li> before it.
+- #8B gets a reference to the "Google" &lt;li> (note the cool CSS selector and the `.parentNode` property), and then inserts the "Facebook" &lt;li> *before* it.
 
 
 **Load the page into a browser, you should now see the 2 new list items, one of which is a functioning link to Facebook:**
