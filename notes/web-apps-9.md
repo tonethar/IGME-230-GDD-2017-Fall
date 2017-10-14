@@ -76,3 +76,4 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 
 
 
+**[Previous Section <- JavaScript Arrays (part 8)](web-apps-8.md)**
