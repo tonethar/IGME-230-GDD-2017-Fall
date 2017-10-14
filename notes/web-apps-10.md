@@ -22,7 +22,7 @@ In this course, we are just going to scratch the surface and work with the "read
 
 In this class we will simplify the process of retrieving remote data by using the `jQuery.ajax()` method of the jQuery library. This method will work well cross-platform, and abstracts away (for better or worse) the details of what's actually happening in the browser.
 
-Behind the scenes, the actual browser APIS that are being used by jQuery include these:
+Behind the scenes, the actual browser APIs that are being used for Ajax by jQuery include these:
 
 - `XMLHttpRequest` (XHR) - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 - `Fetch` API - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
