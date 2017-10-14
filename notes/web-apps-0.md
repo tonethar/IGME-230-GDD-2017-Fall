@@ -61,12 +61,13 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. Looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
     1. `NodeList`
     1. JavaScript typed arrays
-1. The WebStorage API
+1. [The WebStorage API](./web-apps-9.md)
+    1. `localStorage.setItem(key,value)`
+    1. `localStorage.getItem(key)`
 1. Intro to Web Services
     1. XHR & Fetch API
     1. AJAX v. Ajax
     1. JSON
-1. JavaScript ES6 Classes
 
 ## V. Assignments
 Refer to the dropboxes for due dates.
