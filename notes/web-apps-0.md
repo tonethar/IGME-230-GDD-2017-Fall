@@ -99,8 +99,8 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 - **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the PixiJS rendering engine.
 - **WebGL** is an implementation of OpenGL ES 2.0 that runs natively in web browsers, and is the fastest way to draw to the browser screen. WebGL shaders may be briefly looked at while we are covering PixiJS.
 
-## VIII. Links & Resources
 
+<hr>
 
 **[Next Section -> Introduction to Web Applications (part 1)](web-apps-1.md)**
 
