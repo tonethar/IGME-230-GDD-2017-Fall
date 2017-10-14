@@ -22,6 +22,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. running code in the JavaScript console
     1. viewing error messages in the JavaScript console
     1. common built-in JavaScript objects
+    1. Type coersion and Falsy/Truthy values
 1. [Introduction to the Web Browser DOM](./web-apps-3.md)
     1. did the HTML elements on the page load?
     1. selecting elements on a web page
