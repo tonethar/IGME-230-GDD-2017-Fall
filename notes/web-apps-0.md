@@ -64,7 +64,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 1. [The WebStorage API](./web-apps-9.md)
     1. `localStorage.setItem(key,value)`
     1. `localStorage.getItem(key)`
-1. Intro to Web Services
+1. [Intro to Web Services](./web-apps-10.md)
     1. AJAX v. Ajax
     1. JSON
     1. Importing jQuery & `jQuery.ajax()`
