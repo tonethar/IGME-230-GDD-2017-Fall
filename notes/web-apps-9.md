@@ -38,6 +38,10 @@ What is your favorite color ->
 	<option value="red">Red</option>
 	<option value="green">Green</option>
 	<option value="blue">Blue</option>
+	<option value="magenta">Magenta</option>
+	<option value="cyan">Cyan</option>
+	<option value="white">White</option>
+	<option value="black">Black</option>
 </select>
 </div>
 
