@@ -401,4 +401,5 @@ Nothing for now.
 
 
 **[Previous Section <- JavaScript Object Literals (part 7)](web-apps-7.md)**
+
 **[Next Section -> Web Storage (part 9)](web-apps-9.md)**
