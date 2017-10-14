@@ -17,7 +17,7 @@ V. [Review Questions](#section5)
 
 <hr><hr>
 
-## I. WebStorage Reference
+## I. <a id="section1">WebStorage Reference
 There are some WebStorage examples on the Internet that we can point you to:
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
@@ -26,7 +26,7 @@ There are some WebStorage examples on the Internet that we can point you to:
 - https://mdn.github.io/dom-examples/web-storage/
 
 
-## II. An Example
+## II. <a id="section2">An Example
 
 - Go ahead and try out this example, whenever you `onchange` the values of the textbox or the &lt;select>, their values are written to `localStorage`. 
 - If you close the window and reopen it, your changes will be preserved.  
@@ -102,7 +102,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 ![Web Page](_images/web-storage-1.jpg)
 
 
-## III. Storing Objects in Web Storage
+## III. <a id="section3">Storing Objects in Web Storage
 - A limitation of Web storage is that it doesn't allow us to store arrays and other objects. But there's an easy workaround - you can easily convert built-in JavaScript objects (Object, Array, Date, etc) to and from a string respresentation, and then save them to localStorage.
 
 ### A. Save an array to localStorage with `JSON.stringify()`
@@ -122,11 +122,11 @@ let items = localStorage.getItem(listID); // returns a String
 items = JSON.parse(items);  // now it's an Array
 ```
 
-## IV. Nota Bene
+## IV. <a id="section4">Nota Bene
 Nothing for now :-)
 
 
-## V. Review Questions
+## V. <a id="section5">Review Questions
 1. What is a limitation of using localStorage on a large shared domain like people.rit.edu? What's a workaround that will mitigate this issue?
 1. What is the difference between local and session storage?
 1. If the user opens up the demo page in a different web browser, will their answers still be visible? Why or why not?
