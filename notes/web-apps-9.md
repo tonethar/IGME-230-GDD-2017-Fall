@@ -3,7 +3,18 @@
 ## I. Overview
 The HTML5 WebStorage API allows us to store key:value data in the user's browser, and that information can be retrieved at a later date by your JavaScript (when the user returns to your page).
 
-There are some WebStorage examples on the Internet that we are going to point you to:
+## Contents
+<!--- Local Navigation --->
+I. [WebStorage Reference](#section1)
+II. [An Example](#section2)
+III. [Storing Objects in WebStorage](#section3)
+IV. [Nota Bene](#section4)
+V. [Review Questions](#section5)
+
+<hr><hr>
+
+## I. WebStorage Reference
+There are some WebStorage examples on the Internet that we can point you to:
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
