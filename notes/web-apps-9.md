@@ -48,25 +48,32 @@ What is your favorite color ->
 </body>
 <script>
 
+/* This stuff happens "onload" */
+// declare some constants
 const nameField = document.querySelector("#nameField");
 const colorSelect = document.querySelector("#colorSelect");
 const prefix = "abc1234";
 const nameKey = prefix + "name"
 const colorKey = prefix + "color";
 
+// grab the stored data, will get null if user has never been to this page
 const storedName = localStorage.getItem(nameKey);
 const storedColor = localStorage.getItem(colorKey);
 
+// if we find a previously set name value, display it
 if (storedName){
 	nameField.value = storedName;
 }else{
 	nameField.value = "Turbo";
 }
 
+// if we find a previously set color value, display it
 if (storedColor){
 	colorSelect.querySelector(`option[value='${storedColor}']`).selected = true;
 }
 
+/* This stuff happens later when the user does something */
+// when the user changes their favorites, update localStorage
 nameField.onchange = e=>{ localStorage.setItem(nameKey, e.target.value); };
 colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 
