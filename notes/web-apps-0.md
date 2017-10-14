@@ -88,7 +88,7 @@ Refer to the mycourses dropboxes for due dates (some of these assignments are op
 - Solitaire DOM Game
 
 ## VII. What has been left out of this series
-This course is an introduction to web publishing and scripting the browser. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
+This course's content is primarily focused on giving students an introduction to web publishing, and an introduction to scripting a web browser for both applications and games. Later courses with go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
 - **Canvas API** is covered in IGME-330.
