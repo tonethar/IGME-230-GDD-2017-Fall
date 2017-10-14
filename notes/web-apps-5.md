@@ -408,7 +408,7 @@ console.log(doubleIt(5));
 </html>
 ```
 ### A. Explanation
-- The 4 function definitions above all do the same thing, but the syntax is increasingly concise. 
+- 4 of the 5 function definitions above do the same thing, but the syntax is increasingly concise. 
 - Arrow functions really come in handy with arrays, when you can to pass them as arguments to functions such as `.sort()` or `.filter()` or `.forEach()`, which we will work with soon.
 - Arrow function docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions.
 
