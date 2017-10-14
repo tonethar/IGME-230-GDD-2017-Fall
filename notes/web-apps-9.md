@@ -87,7 +87,28 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 ![Web Page](_images/web-storage-1.jpg)
 
 
-## III. Review Questions
+## III. Nota Bene
+- A limitation of Web storage is that it doesn't allow us to store arrays and other objects. But there's an easy workaround - you can easily convert built-in JavaScript objects (Object, Array, Date, etc) to and from a string respresentation, and then save them to localStorage.
+
+### A. Save an array to localStorage with `JSON.stringify()`
+
+```
+let listID = "abc1234-item-list";
+let items = ["Direct Movie","Deliver Baby","Cure Cancer"];
+items = JSON.stringify(items); // now it's a String
+localStorage.setItem(listID, JSON.stringify(items));
+```
+
+### B. Retreive an array from localStorage with `JSON.parse()`
+
+```
+let listID = "abc1234-item-list";
+let items = localStorage.getItem(listID); // returns a String
+items = JSON.parse(items);  // now it's an Array
+```
+
+
+## IV. Review Questions
 1. What is difference between local and session storage?
 1. If the user opens up the demo page in a different web browser, will their answers still be visible? Why or why not?
 
