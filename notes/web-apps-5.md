@@ -276,9 +276,10 @@ Note that we have 3 scopes here: "Local", "Script", and "Global".
 ![Web Page](_images/functions-1.jpg)
 
 ## VI. <a id="section6"></a>Variable Scope with the `var` keyword
-Variables declared with the `var` keyword (which we have not been using) are scoped to the nearest enclosing function in which they were declared, they are NOT *block scoped*.
+- Variables declared with the `var` keyword (which we have not been using) are scoped to the nearest enclosing *function* in which they were declared, they are NOT *block scoped*.
+- If a variable is declared with the `var` keyword *outside* of a function, that variable is now in the *global scope*.
 
-You can read about this behavior of `var` and other behaviors such as **hoisting** and **global scope** here:
+You can read about this behavior of `var` and other behaviors such as variable declaration **hoisting** and **global scope** here:
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
 
