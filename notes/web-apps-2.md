@@ -224,13 +224,13 @@ JavaScript also contains a number of built-in objects that we can use. There is 
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
     - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
 3. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
-4. JavaScript has a large number of **truthy** and **falsy** values that are translated to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
+4. JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
     - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
     - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 
 ```
-// All of these are false values, excepting the last one - it turns out that "false" == true
+// All of these are false values, excepting the last one - it turns out that "false" is true
 console.log(0 == false ? "0 is false" : "0 is true");
 console.log(-0 == false ? "-0 is false" : "-0 is true");
 console.log(false == false ? "false is false" : "false is true");
@@ -240,6 +240,11 @@ console.log("" == false ? "\"\" is false" : "\"\" is true");
 console.log('' == false ? "\'\' is false" : "\'\' is true");
 console.log(new Boolean(false) == false ? "\"new Boolean(false)\" is false" : "\"new Boolean(false)\" is true");
 console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
+
+/*
+Basically, the first 8 values above are all coerced to *false* in a Boolean content.
+Everything else - like the string "false" for example, is coerced to *true*.
+*/
 ```
 
 ## X. <a id="section10"></a>Review Questions
