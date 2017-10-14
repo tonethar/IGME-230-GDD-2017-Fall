@@ -65,9 +65,9 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. `localStorage.setItem(key,value)`
     1. `localStorage.getItem(key)`
 1. Intro to Web Services
-    1. XHR & Fetch API
     1. AJAX v. Ajax
     1. JSON
+    1. Importing jQuery & `jQuery.ajax()`
 
 ## V. Assignments
 Refer to the dropboxes for due dates.
