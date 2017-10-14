@@ -399,6 +399,7 @@ Nothing for now.
 1. Does `Array.filter()` modify the old array (the one it is called on), or create a new array?
 1. What is the type of the object that is returned by `document.querySelectorAll()`?
 
+<hr>
 
 **[Previous Section <- JavaScript Object Literals (part 7)](web-apps-7.md)**
 
