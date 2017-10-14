@@ -56,7 +56,7 @@ const prefix = "abc1234";
 const nameKey = prefix + "name"
 const colorKey = prefix + "color";
 
-// grab the stored data, will get null if user has never been to this page
+// grab the stored data, will return null if user has never been to this page
 const storedName = localStorage.getItem(nameKey);
 const storedColor = localStorage.getItem(colorKey);
 
