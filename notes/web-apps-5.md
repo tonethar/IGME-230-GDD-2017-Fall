@@ -183,8 +183,8 @@ function multiply1(a, b) {
   return a * b;
 }
 
-console.log(multiply1(2,5)); 	// 10
-console.log(multiply1(2)); 	// we omit the b parameter, the result is NaN (not a Number), because b is undefined
+console.log(multiply1(2,5)); // 10
+console.log(multiply1(2));   // we omit the b parameter, the result is NaN (not a Number), because b is undefined
 
 
 // #2 - by checking the value of b before using it, we can give it a default value 
