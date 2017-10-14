@@ -362,7 +362,7 @@ if (element){ // element will be considered true if it is not one of the falsy v
 1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
 
 ## X. <a id="section10"></a>Review Exercise
-Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page (by adding `class` or `id` attributes to the paragraphs, for example.
+Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page in ANY way (by adding `class` or `id` attributes to the paragraphs, for example.
 
 1. Change the `.innerHTML` of the first &lt;h1> to "My UFO Page"
 1. Change the `.innerHTML` of the first &lt;h2> to "My UFO Info"
