@@ -67,7 +67,7 @@ What is your favorite color ->
 // declare some constants
 const nameField = document.querySelector("#nameField");
 const colorSelect = document.querySelector("#colorSelect");
-const prefix = "abc1234";
+const prefix = "abc1234-";
 const nameKey = prefix + "name"
 const colorKey = prefix + "color";
 
