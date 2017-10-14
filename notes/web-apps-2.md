@@ -254,7 +254,7 @@ Everything else - like the string "false" for example, is coerced to *true*.
 1. What happens when you try to change the value of a previously declared *constant value*?
 1. What are the 5 built-in JavaScript "primitive" data types?
 1. What kinds of values can a `Number` type hold? (Google it)
-1. Which of the following examples will evaluate to `true` in a boolean context:
+1. Which of the following examples will evaluate to `true` in a boolean context?
     1. `undefined', `null`, `false`, `0`, `""`, `''`
     1. `"undefined"`, `"null"`, `"false"`
     1. `"true"`
