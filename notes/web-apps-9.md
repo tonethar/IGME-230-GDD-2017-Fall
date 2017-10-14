@@ -16,7 +16,7 @@ There are some WebStorage examples on the Internet that we are going to point yo
 - Go ahead and try out this example, whenever you `onchange` the values of the textbox or the &lt;select>, their values are written to `localStorage`. 
 - If you close the window and reopen it, your changes will be preserved.  
 - After you have referred to the links above, it should be pretty easy to figure out what's going on in the code.
-- One thing worth mentioning is the `prefix` variable (see below). Because webStorage uses the same set of keys for *each domain*, this means on servers like banjo that you are all sharing the same set of keys, so that if someone used `highscores`as a key, anotehr student's `highscores` key could wipe it out. One solution is to prefix you key names with something unique, like your RIT web account id. THerefore `highScores` would become `abc1234highScores` for one student, and `xyz9876highScores` for someone else, and the keys would never conflict.
+- One thing worth mentioning is the `prefix` variable (see below). Because webStorage uses the same set of keys for *each domain*, this means on servers like banjo that all the students are sharing the same set of keys, so that if someone used `highscores`as a key, another student's `highscores` key could wipe out and replace the data. One solution is to prefix your key names with something unique, like your RIT web account id. Therefore `highScores` would become `abc1234highScores` for one student, and `xyz9876highScores` for someone else, and the keys would never conflict.
 
 ### webstorage-1.html
 ```
