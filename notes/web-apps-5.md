@@ -471,6 +471,8 @@ function createList(listElement,array){
 
 The HTML produced should be identical to what was produced in the previous version.
 
+https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-10.md
+
  **[Previous Section <- More Web Browser DOM Methods (part 4)](web-apps-4.md)**
  
  **[Next Section -> JavaScript Events (part 6)](web-apps-6.md)**
