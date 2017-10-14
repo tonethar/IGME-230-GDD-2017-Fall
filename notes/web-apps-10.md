@@ -16,7 +16,7 @@ In this course, we are just going to scratch the surface and work with the "read
 
 ## III. How do we download the data?
 
-- What we want to do is this **->** to take a user request, and update part of the page (asynchronously) by exchanging small amounts of data with a server behind the scenes, without having to reload the whole page.
+- As developers, what we want to do is this **--->** to take a user request, and update part of the HTML page (asynchronously) by exchanging small amounts of data with a server behind the scenes, without having to reload the whole page.
 - The above concept is called in the web world by this term - *Ajax* - https://en.wikipedia.org/wiki/Ajax_(programming)
 - **Ajax** was derived from an earlier acronym *AJAX*, which stood for **A**synchronous **J**avaScript **A**nd **X**ML. The acronym fell out of favor because we now commonly retrieve other data formats besides XML.  
 
@@ -32,7 +32,7 @@ Behind the scenes, the actual browser APIS and being used by jQuery include thes
 
 ## IV. What are the data formats?
 - In the early days of Ajax, XML formats such as SOAP and RSS were popular.
-- More recently, JSON (**J**ava**S**cript **O**bject **N**otation) has become the format of choice because it gives smaller file sizes than equivalent XML, and is easier for web browsers to parse because it maps directly to core JavaScript data types.
+- More recently, JSON (**J**ava**S**cript **O**bject **N**otation) has become the format of choice because it gives smaller file sizes than equivalent XML, and is easier for web browsers to parse because it maps directly to core JavaScript data types. JSON is also easier to send to web browser "cross domain", but we won't get into the details of that in this course.
 - You can read about JSON here: http://www.json.org and here: 
 - The 6 core data types of JSON are:
     - `String`
@@ -44,7 +44,9 @@ Behind the scenes, the actual browser APIS and being used by jQuery include thes
 
 
 ## V. Review Questions!
+- What does AJAX stand for?
 - What is the difference between AJAX (the acronym) and Ajax (the noun)?
+- Why are some of the advantages of using JSON as a web ervices format instead of XML?
 
 ## VI. Do the exercise!
 The best way to see how Ajax and Web APIs work is to build a fulling functioning example - if you haven't done so yet, go ahead and build GIF Finder, which utilizes the Giphy Web Service:
