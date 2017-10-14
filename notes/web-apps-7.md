@@ -420,6 +420,8 @@ let links = {
 	}
 ```
 
+<hr>
+
 **[Previous Section <- JavaScript Events (part 6)](web-apps-6.md)**
 
 **[Next Section -> JavaScript Arrays (part 8)](web-apps-8.md)**
