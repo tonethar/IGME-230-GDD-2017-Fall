@@ -387,6 +387,8 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 **Here is a completed example:**
 
 ![Web Page](_images/dom-9.jpg)
+
+<hr>
     
 **[Previous Section <- Introduction to JavaScript (part 2)](web-apps-2.md)**
   
