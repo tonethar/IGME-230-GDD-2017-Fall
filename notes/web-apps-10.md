@@ -49,7 +49,7 @@ Behind the scenes, the actual browser APIs that are being used for Ajax by jQuer
 - What are some of the advantages of using JSON as a web service format instead of XML?
 
 ## VI. Do the exercise!
-The best way to see how Ajax and Web APIs work is to build a fulling functioning example - if you haven't done so yet, go ahead and build GIF Finder, which utilizes the Giphy Web Service:
+The best way to see how Ajax and Web APIs work is to build a fulling functioning example - if you haven't done so yet, go ahead and build *GIF Finder*, which utilizes the Giphy Web Service:
 
 
 - [HW-gif-finder.md](./HW-gif-finder.md)
