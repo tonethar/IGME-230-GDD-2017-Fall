@@ -1,4 +1,4 @@
-# WebStorage API
+# 9 - WebStorage API
 
 ## I. Overview
 The HTML5 WebStorage API allows us to store key:value data in the user's browser, and that information can be retrieved at a later date by your JavaScript (when the user returns to your page).
