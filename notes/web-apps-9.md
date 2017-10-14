@@ -9,7 +9,7 @@ I. [WebStorage Reference](#section1)
 
 II. [An Example](#section2)
 
-III. [Storing Objects in WebStorage](#section3)
+III. [Storing Objects with WebStorage](#section3)
 
 IV. [Nota Bene](#section4)
 
@@ -102,7 +102,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 ![Web Page](_images/web-storage-1.jpg)
 
 
-## III. <a id="section3">Storing Objects in Web Storage
+## III. <a id="section3">Storing Objects with Web Storage
 - A major limitation of Web storage is that it doesn't allow us to store arrays and other objects directly. But there's an easy workaround - you can easily convert built-in JavaScript objects (Object, Array, Date, etc) to and from a string respresentation, and then save them to localStorage.
 
 ### A. Save an array to localStorage with `JSON.stringify()`
