@@ -75,13 +75,14 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 </html>
 ```
 
-### And here is what it looks like:
+### A. And here is what it looks like:
 
 ![Web Page](_images/web-storage-1.jpg)
 
 
 ## III. Review Questions
 1. What is difference between local and session storage?
+1. If the user opens up the demo page in a different web browser, will their answers still be visible? Why or why not?
 
 
 
