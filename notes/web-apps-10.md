@@ -51,6 +51,8 @@ Behind the scenes, the actual browser APIs that are being used for Ajax by jQuer
 ## VI. Do the exercise!
 The best way to see how Ajax and Web APIs work is to build a fulling functioning example - if you haven't done so yet, go ahead and build GIF Finder, which utilizes the Giphy Web Service:
 
+<hr>
+
 - [HW-gif-finder.md](./HW-gif-finder.md)
 
 
