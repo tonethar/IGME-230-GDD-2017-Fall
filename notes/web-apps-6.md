@@ -518,6 +518,7 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 **Submission: Post to extra credit dropbox**
 
+<hr>
 
 **[Previous Section <- JavaScript Functions (part 5)](web-apps-5.md)**
 
