@@ -8,6 +8,7 @@ There are some WebStorage examples on the Internet that we are going to point yo
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 - https://html.spec.whatwg.org/multipage/webstorage.html
+- https://mdn.github.io/dom-examples/web-storage/
 
 ## II. Review Questions
 1. What is difference between local and session storage?
