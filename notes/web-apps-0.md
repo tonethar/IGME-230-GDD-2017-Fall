@@ -78,7 +78,6 @@ Refer to the mycourses dropboxes for due dates (some of these assignments are op
 - [Image Gallery](./HW-image-gallery.md)
 - [Magnetic Poetry\*](./HW-magnetic-poetry.md)
 - [Pixel Artist\*](./HW-pixel-artist.md)
-- [Conway's Game of Life](./HW-life.md)
 - ["GIF Finder" Web Service App\*](./HW-gif-finder.md)
 - [Project 2](../projects/project2.md)
 
@@ -86,6 +85,7 @@ Refer to the mycourses dropboxes for due dates (some of these assignments are op
 
 ## VI. Demos
 - [Chibi Card Matching DOM Game](HW-chibi-matching.md)
+- [Conway's Game of Life](./HW-life.md)
 
 ## VII. What has been left out of this series
 This course's content is primarily focused on giving students an introduction to web publishing, and an introduction to scripting a web browser for both applications and games. Later courses will go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
