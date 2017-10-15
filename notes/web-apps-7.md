@@ -104,7 +104,7 @@ Imagine this:
 // 1- below we misspell cylinders, so 'a' is now 'undefined'
 let a = car1.clyinders; 
 
-// 2- below we misspelled .cylinders, and created a new property named "clyinders"
+// 2- below we misspelled .cylinders, and created a new property on car1 named "clyinders"
 car1.clyinders = 10; 
 
 // 3- Object.seal() to the rescue!
