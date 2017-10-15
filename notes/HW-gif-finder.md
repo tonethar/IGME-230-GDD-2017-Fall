@@ -204,8 +204,8 @@ We need to write code to build a URL to the web service. This URL will contain t
 ![Web Page](_images/gif-finder-3.jpg)
 
 #### A. Explanation
-- #1 above - this URL is the Giphy *Search endpoint*. As an example, the Giphy "Trending" endpoint is `https://api.giphy.com/v1/gifs/trending`
-- #2 above - this API key identifies you to the owner of the service. API keys are used to track and control how the API is being used - so if the user of this key is abusing the service it can be "turned off". This particular key is a public key and may no longer work when you do the exercise. If it does not, head here to het your own key (it's free!): https://developers.giphy.com/docs/
+- #1 above - this URL is the Giphy *Search endpoint*. Here's an example of another endpoint, the Giphy "Trending" endpoint is `https://api.giphy.com/v1/gifs/trending`
+- #2 above - this API key identifies you to the owner of the service. API keys are used to track and control how the API is being used - so if the user of this key is abusing the service it can be "turned off". This particular key is a public key and may no longer work when you do the exercise. If it does not, head here to get your own key (it's free!): https://developers.giphy.com/docs/
 - #3 above - we specify a parameter - `api_key` - and then give it a value
 - #4 above - get the `.value` of the text input field
 - #5 above - get rid of leading an trailing spaces. URL's do not work with spaces!
