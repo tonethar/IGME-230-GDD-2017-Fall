@@ -384,7 +384,7 @@ console.log(car1.make); // Yugo
 console.log(car2.make); // Yugo
 console.log(car3.make); // Yugo
 ```
-- Reference types (Objects, Arrays Functions, Elements, ...) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself.  
+- Reference types (Objects, Arrays Functions, Elements, ...) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself. Changes made to the referenced object are seen by all of the variables that point at that object.
 
 
 ## VIII. <a id="section8">Nota bene
