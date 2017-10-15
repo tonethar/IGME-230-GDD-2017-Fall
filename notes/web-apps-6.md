@@ -221,7 +221,7 @@ let div = document.querySelector("div").onclick = divClicked;
 
 ## V. <a id="section5"></a>Event Listeners - `addEventListener()`
 
-The major limitation of event handlers is that each element can have only *one* event handling function attached to it at a time.
+The major limitation of the event handlers shown above is that each element can have only *one* event handling function attached to it at a time.
 `addEventListener()` - which we will cover now, has no such restrictions.
 
 Try out the code below:
