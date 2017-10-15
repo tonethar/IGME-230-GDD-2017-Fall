@@ -1,7 +1,9 @@
 # 7 - JavaScript Object Literals
 
 ##  Overview
-JavaScript is an *Object-Oriented* language, but traditional classes have not been supported until ES6. Now we will look at doing object-oriented programming *without* using classes, by utilizing the **JavaScript Object Literal**, and see how powerful and flexible it is.
+JavaScript is an *Object-Oriented* language, but traditional classes have not been supported until recently (ES6). 
+
+Today we will look at doing object-oriented programming *without* using classes, by utilizing the **JavaScript Object Literal**, and see how powerful and flexible it is.
 
 If you want to create an object in most computer languages, you first need to create a *template* (aka a *class*) that describes what the instance variables and methods of the class are. You then us the class to create *instances* of each object. In most languages it is impossible to add new properties and methods to an existing class - to do so you will have to create a new class, and sub-class the old class.
 
