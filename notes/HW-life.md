@@ -42,7 +42,7 @@ When you are done, the grid you created for Pixel Artist will now be updating au
 
 ## IV. Create the `lifeworld` object literal
 
-- We are going to put our "life code" in an external JS file - go ahead this &lt;script> tag in the &lt;head> section - `<script src="lifeworld.js"></script>` 
+- We are going to put our "life code" in an external JS file - go ahead and add this &lt;script> tag in the &lt;head> section - `<script src="lifeworld.js"></script>` 
 
 - Now create the **lifeworld.js** file - it looks like this: 
 
