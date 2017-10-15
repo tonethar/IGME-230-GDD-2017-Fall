@@ -83,6 +83,7 @@ Refer to the mycourses dropboxes for due dates:
 \* the starred assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
 
 ## VI. Demos
+These demos could be nice starting points for Project 2:
 - [Chibi Card Matching DOM Game](HW-chibi-matching.md)
 - [Conway's Game of Life](./HW-life.md)
 
