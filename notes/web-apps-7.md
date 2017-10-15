@@ -42,8 +42,8 @@ Here are some literals in the JavaScript Language:
 let a = "abcd";                         // a String literal 
 let b = 1234;                           // a Number literal 
 let c = true;                           // a Boolean literal 
-let d = [];                             // a Array literal 
-let e = arg => return arg * 2;          // a Function literal 
+let e = arg => return arg * 2;          // a Function literal (ES6 arrow style)
+let d = [];                             // an Array literal 
 let f = {};                             // an Object literal!
 ```
 
@@ -53,7 +53,7 @@ NOT literals:
 let g = Array();
 let h = Date();
 let i = Math.random();
-let h = b * 10; // '10' is a literal but 'b' is not
+let h = b * 10; // 10 is a literal but 'b' is not
 ```
 
 
