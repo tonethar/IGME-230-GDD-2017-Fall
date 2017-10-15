@@ -37,7 +37,7 @@ X. [Review Exercise](#section10)
 
 
 ## I. <a id="section1"></a>Event Handlers
-JavaScript "on-event" handlers have been around since the early days of the Internet, and are the easiest way to hook into events like `onload`, `onclick`, `onmousedown`,`onkeyup` and so on.
+Browser "on-event" handlers have been around since the early days of the Internet, and are the easiest way to hook into events like `onload`, `onclick`, `onmousedown`,`onkeyup` and so on.
 
 ### events-1.html
 
