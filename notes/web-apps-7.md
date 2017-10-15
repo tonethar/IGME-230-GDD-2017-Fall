@@ -39,12 +39,12 @@ In programming, a literal value is *a notation for representing a fixed value in
 Here are some literals in the JavaScript Language:
 
 ```
-let a = "abcd";                         // a literal String
-let b = 1234;                           // a literal Number
-let c = true;                           // a literal Boolean
-let d = [];                             // a literal Array
-let e = arg => return arg * 2;          // a literal Function
-let f = {};                             // an object literal!
+let a = "abcd";                         // a String literal 
+let b = 1234;                           // a Number literal 
+let c = true;                           // a Boolean literal 
+let d = [];                             // a Array literal 
+let e = arg => return arg * 2;          // a Function literal 
+let f = {};                             // an Object literal!
 ```
 
 NOT literals:
