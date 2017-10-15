@@ -21,7 +21,7 @@ VII. [Nested variable declarations](#section7)
 
 VIII. [Nested functions](#section8)
 
-IX. [Arrow Functions](#section9)
+IX. [ES6 Arrow Functions](#section9)
 
 X. [Nota bene](#section10)
 
@@ -361,7 +361,7 @@ Closures are an important topic in JavaScript - you can learn more about them:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Nested_functions_and_closures
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-## IX. <a id="section9"></a>Arrow Functions
+## IX. <a id="section9"></a>ES6 Arrow Functions
 Arrow functions are an ES6 addition.  They have two advantages: they have a shorter syntax than regular functions, and they do not bind their own `this` keyword. This second advantage might not mean anything to you now, but we will revisit it in a future chapter of this tutorial.
 
 ### functions-7.html
