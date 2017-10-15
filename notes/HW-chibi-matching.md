@@ -1,6 +1,7 @@
 # Chibi Matching Game
 
-## I. This is currently a demo (all done for you), not a homework assignment. You can download the complete files here:
+## I. Overview
+This is a demo (all done for you), NOT a homework assignment. You can download the complete files here:
 
 [HW-chibi-matching-done.zip](_files/HW-chibi-matching-done.zip)
 
