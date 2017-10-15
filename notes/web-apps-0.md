@@ -72,12 +72,11 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. Importing jQuery & `jQuery.ajax()`
 
 ## V. Assignments
-Refer to the mycourses dropboxes for due dates (some of these assignments are optional):
+Refer to the mycourses dropboxes for due dates:
 - [Random Phrases 1](./HW-random-phrases-1.md)
 - [Random Phrases 2](./HW-random-phrases-2.md)
 - [Image Gallery](./HW-image-gallery.md)
-- [Magnetic Poetry\*](./HW-magnetic-poetry.md)
-- [Pixel Artist\*](./HW-pixel-artist.md)
+- [Magnetic Poetry\*](./HW-magnetic-poetry.md) OR [Pixel Artist\*](./HW-pixel-artist.md)
 - ["GIF Finder" Web Service App\*](./HW-gif-finder.md)
 - [Project 2](../projects/project2.md)
 
