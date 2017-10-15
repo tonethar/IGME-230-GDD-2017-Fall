@@ -85,7 +85,7 @@ Refer to the mycourses dropboxes for due dates (some of these assignments are op
 \* the starred assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
 
 ## VI. Demos
-- Solitaire DOM Game
+- [Chibi Card Matching DOM Game](HW-chibi-matching.md)
 
 ## VII. What has been left out of this series
 This course's content is primarily focused on giving students an introduction to web publishing, and an introduction to scripting a web browser for both applications and games. Later courses will go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
