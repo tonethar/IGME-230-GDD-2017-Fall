@@ -1,4 +1,4 @@
-# Chibi Matching Game
+# Chibi Card Matching DOM Game
 
 ## I. Overview
 This is a demo (all done for you), NOT a homework assignment. You can download the complete files here:
