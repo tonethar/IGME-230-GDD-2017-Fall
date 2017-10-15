@@ -5,7 +5,7 @@
 [HW-chibi-matching-done.zip](_files/HW-chibi-matching-done.zip)
 
 ### A. Screen shot of working version:
-![Web Page](images/matching-1.jpg)
+![Web Page](_images/matching-1.jpg)
 
 ## II. Concepts covered
 
@@ -32,7 +32,7 @@ The trick is to change the `background-position` property from 0,0 to another po
 
 **Here is the full Chibi sprite sheet**:
 
-![Web Page](images/matching-2.png)
+![Web Page](_images/matching-2.png)
 
 
 ### B. `classList.add()` & `classList.remove()`
