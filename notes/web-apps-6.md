@@ -299,7 +299,7 @@ Try out this new code. If you click on the paragraph first, and then the div, yo
 ![Web Page](_images/events-7.jpg)
 
 ## VII. <a id="section7"></a>Adding properties to elements with `element.dataset`
-Let's imagine that we would like to toggle the paragraph and div back and forth when we click on them. There are a number of ways to do this, but let's go ahead and try out the HTML5 "Custom Data" attribute to add properties to the HTML elements we click on. You can read more about them here:
+Let's imagine that we would like to toggle the paragraph and div back and forth when we click on them. We would also like to use the same code for the paragraph and div, as well as any number of other elements. There are a number of ways to do this, but let's go ahead and try out the HTML5 "Custom Data" attribute to add properties to the HTML elements we click on. You can read more about them here:
 
 - http://html5doctor.com/html5-custom-data-attributes/
 
