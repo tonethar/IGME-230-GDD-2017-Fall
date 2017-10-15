@@ -90,7 +90,7 @@ A lot of this code has to do with keeping the frame rate throttled to about 12FP
 - #5 above - call our `loop()` method and pass in the current time.
 - #6 above
     - At the top of `loop()`, we schedule another call to `loop` using `requestAnimationFrame` - this will usually call the passed in function in about 1/60th of a second. Here are the docs for that method: https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
-    - we calculate if at least 1/12th of a second has passed, if so, we go ahead and upadte the life simulation and draw it
+    - we calculate if at least 1/12th of a second has passed, if so, we go ahead and update the life simulation and draw it
 - #7 above - loop through our grid of elements and then update their state with the state of `lifeworld.world`
 
 
@@ -132,7 +132,7 @@ step(){
 There is so much you could do as an extra:
 
 - pause,step, and play controls
-- add the ability to edit the cells in the grid (pretty easy to do because of pour pixel code)
+- add the ability to edit the cells in the grid (pretty easy to do because of our Pixel Artist mouse event code)
 - give the user the ability to load pre-set patterns, or randomize the screen
 - different color cells (store that in the Elements themselves)
 
