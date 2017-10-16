@@ -38,7 +38,7 @@ The trick is to change the `background-position` property from 0,0 to another po
 
 ### B. `classList.add()` & `classList.remove()`
 
-- In this demo, there are classes that represent the `.card` and `.card-flipped` states. These are added and removed form the card elements as needed. The CSS `transition` property then dictates the animation between the 2 states.
+- In this demo, there are classes that represent the `.card` and `.card-flipped` states. These are added and removed from the card elements as needed. The CSS `transition` property then dictates the animation between the 2 states.
 - **HTML elements can belong to more than one class**, thus there are methods for adding and removing classes the of an element. (Unfortunately, it is buggy in the Safari Browser for some reason ...)
 - Docs here: https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 
