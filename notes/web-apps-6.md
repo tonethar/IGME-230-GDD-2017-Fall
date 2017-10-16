@@ -166,7 +166,7 @@ We can use arrow functions as event handlers too. You might recall that in the F
 - they do not bind their own `this` keyword. 
 
 What this means is that when an event handler points at a *regular function*, the value of `this` is the object that received the event.
-But when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will the `window` object - so we will be able to call top level fucntions in the script.
+But when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will be the `window` object - so we will be able to call top level fucntions in the script.
 
 Go ahead and run **events-3.html** and see what happens.
 
@@ -418,7 +418,7 @@ If we use the `window.onload` event handler, we can move our code back up to the
 
 #### 1) The starting code looks like this:
 
-Go ahead and create this file, and name it **web-apps-6.html**
+Create the following file, and name it **web-apps-6.html**
 
 ```
 <!DOCTYPE html>
