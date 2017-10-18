@@ -25,11 +25,13 @@ VI. [ES6 Object Literal syntax](#section6)
 
 VII. [Value Types & Reference Types](#section7)
 
-VIII. [Nota bene](#section8)
+VIII. [Another look at `const`](#section8)
 
-IX. [Review Questions](#section9)
+VIII. [Nota bene](#section9)
 
-X. [Review Exercise](#section10)
+IX. [Review Questions](#section10)
+
+X. [Review Exercise](#section11)
 
 <hr><hr>
 
@@ -425,10 +427,10 @@ console.log(colors);			// ["red","green","blue"]
 
 **So with `const`, what is immutable is the *binding* of the variable to the value, and with `const` the compiler guarantees that a *re-binding* will not occur.**
 
-## IX. <a id="section8">Nota bene
+## IX. <a id="section9">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
 
-## X. <a id="section9">Review Questions
+## X. <a id="section10">Review Questions
 1. In programming, what is a *literal* value?
 1. List 3 JavaScript *value* types.
 1. List 3 JavaScript *reference* types.
@@ -447,7 +449,7 @@ var ship={
 }
 ```
 
-## XI. <a id="section10">Review Exercise
+## XI. <a id="section11">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7.html**, and do the challenge:
 
 ```
