@@ -88,9 +88,11 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 
 ## IV. <a id="section4"></a>The JavaScript console is interactive
-This console also contains an interactive interpreter where you can run JavaScript commands. At the prompt, type `Date()` to create and see a new date from the `Date` object, and `Math.random()` to get a random number from the `Math` object.
+- This console also contains an interactive interpreter where you can run JavaScript commands. At the prompt, type `Date()` to create and see a new date from the `Date` object, and `Math.random()` to get a random number from the `Math` object.
 
 ![The JavaScript Console](_images/console-2.jpg)
+
+- Note that the general term for an interactive console like this a [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) - "Read-Evaluate-Print-Loop".
 
 ## V. <a id="section5"></a>Declaring variables and constants
 We use the `const` keyword to declare constant values (that do not change), and the `let` keyword to declare variables. Note that we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
