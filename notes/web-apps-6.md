@@ -498,7 +498,7 @@ You should see another message about the color you selected, and the &lt;legend>
 1. `document.querySelectorAll()` can be used to get reference to all of the radio buttons. You can then loop through the list you get back.
 1. To get the value of the selected radio button, use `e.target.value`
 1. In the submit button code, you can check to see which radio button is selected by checking its `.checked` property
-1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element
+1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element (and CSS color values are not case sensitive, so don't worry about the capitalization).
 
 ### C) Submission
 Be sure to submit this to the applicable dropbox, and do not post it to your web site.
