@@ -394,7 +394,7 @@ Now that we have has a chance to look at Objects, let's look at the description 
 Let's look at an example:
 	
 ```
-// A. For primitives, const means we can't change the value
+// A. For primitives, const means we CAN NOT change the value
 const PI = 3.14;
 const FIRST_PRESIDENT  = "Washington";
 const skyIsBlue = true;
