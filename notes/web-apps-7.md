@@ -386,6 +386,14 @@ console.log(car3.make); // Yugo
 ```
 - Reference types (Objects, Arrays Functions, Elements, ...) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself. Changes made to the referenced object are seen by all of the variables that point at that object.
 
+## VIII. <a id="section8">Another look at `const`
+Let's look at the description of [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) from the Mozilla site: 
+	
+	<blockquote>"The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered."</blockquote>
+	
+```
+
+```
 
 ## VIII. <a id="section8">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
