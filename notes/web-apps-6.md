@@ -392,12 +392,12 @@ If we use the `window.onload` event handler, we can move our code back up to the
 	window.onload = init; // do you understand WHY there are no parentheses after init?
 
 	function init(){
-		// this is the second log in the console - do you understand WHY?
+		// this is the second log we see in the console - do you understand WHY?
 		console.log("Page is loaded!"); 
 		document.querySelector("h1").innerHTML = "Window loaded!";
 	}
 	
-	// this is the first log in the console - do you understand WHY?
+	// this is the first log we see in the console - do you understand WHY?
 	console.log("Page is NOT loaded!"); 
 	</script>
 </head>
