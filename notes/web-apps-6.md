@@ -374,7 +374,7 @@ Clicking on an element should toggle the styles back and forth from a normal loo
 
 
 ### B. One more thing
-Note the 2A, 2B, and 3C lines in the code sample above. LInes A & B are not necessary because line C will evaluated to `undefined` if we never define what dataset.state is on each element. And because `undefined` is a [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) value and will evaluate to `false`, the code will run will run fine. So why did we include A and B? To make the coder's intent more clear, and also so that we could have this discussion :-)
+Note the 2A, 2B, and 3C lines in the **events-5.html** code sample above. Lines A & B are not necessary because line C will evaluate to `undefined` if we never define what `dataset.state` is on each element. And because `undefined` is a [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) value and will evaluate to `false`, the code will run will run fine. So why did we include A and B? To make the coder's intent more clear, and also so that we could have this discussion :-)
 
 ## VIII. <a id="section8"></a>Nota bene
 
