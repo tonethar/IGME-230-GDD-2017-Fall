@@ -495,7 +495,7 @@ You should see another message about the color you selected, and the &lt;legend>
 1. You can use standard funtions OR arrow functions, it's you choice
 1. The **Submit button** code should be triggered by the `click` event
 1. The **Radio button** code should be triggered by the `change` event
-1. `document.querySelectorAll()` can be used to get reference to all of the radio buttons. You can then loop through the list you get back.
+1. `document.querySelectorAll()` can be used to get reference to all of the radio buttons. You can then loop through the list you get back (use a [`for`(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) or [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loop).
 1. To get the value of the selected radio button, use `e.target.value`
 1. In the submit button code, you can check to see which radio button is selected by checking its `.checked` property
 1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element (and CSS color values are not case sensitive, so don't worry about the capitalization).
