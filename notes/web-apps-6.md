@@ -324,17 +324,17 @@ Type in the following code and test it in the browser.
 <script>
 
 // 1 - get references to <p> and <div>
-let p = document.querySelector("p");
+let p = document.querySelector("p"); 
 let div = document.querySelector("div");
 
 // 2 - create a custom property named "state" for each element and give it a default value
 // all new properties will be added to the element's .dataset property
-p.dataset.state = "normal";
-div.dataset.state = "normal";
+p.dataset.state = "normal"; // A
+div.dataset.state = "normal"; // B
 
 // 3 - Let's declare an arrow function that can be called later
 let toggleStyle = (e) => { 
-			   let state = e.target.dataset.state;
+			   let state = e.target.dataset.state; // C
 			   if (state == "changed"){ // == for comparison
 			      e.target.style.backgroundColor = "white";
 			      e.target.style.fontStyle = "normal";
@@ -366,11 +366,15 @@ div.addEventListener("click",toggleStyle);
 ### A. Explanation
 Clicking on an element should toggle the styles back and forth from a normal look, to changed look with a yellow background color and italic text. This is being accomplished by changing `dataset.state` from "normal" to "changed". Note that we came up with the name `.state` on our own. We could have called it anything like `.selected` or `.clicked`.
 
-**Note *above* that we can see the changing value (as we click) of the div's `data-state` in the web inspector elements tab.**
+- **Note *above* that we can see the changing value (as we click) of the div's `data-state` in the web inspector elements tab.**
 
-**Note *below* that we can also see the value of the div's `dataset.state` (the same value) in debugger.**
+- **Note *below* that we can also see the value of the div's `dataset.state` (the same value) in debugger.**
 
 ![Web Page](_images/events-9.jpg)
+
+
+### B. One more thing
+Note the 2A, 2B, and 3C lines in the code sample above. LInes A & B are not necessary because line C will evaluated to `undefined` if we never define what dataset.state is on each element. And because `undefined` is a [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) value and will evaluate to `false`, the code will run will run fine. So why did we include A and B? To make the coder's intent more clear, and also so that we could have this discussion :-)
 
 ## VIII. <a id="section8"></a>Nota bene
 
