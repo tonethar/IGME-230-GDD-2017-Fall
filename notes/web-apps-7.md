@@ -423,6 +423,8 @@ console.log(colors);			// ["red","green","blue"]
 
 ```
 
+**So with `const` what is immutable is the *binding* of the value to the variable, and with `const` the compiler guarantees that a *re-binding* will not occur.**
+
 ## IX. <a id="section8">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
 
