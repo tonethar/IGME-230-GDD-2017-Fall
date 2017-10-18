@@ -399,9 +399,9 @@ const PI = 3.14;
 const FIRST_PRESIDENT  = "Washington";
 const skyIsBlue = true;
 
-PI = 3.1416; 					// error
+PI = 3.1416; 				// error
 FIRST_PRESIDENT = "Trump"; 		// error
-skyIsBlue = false; 				// error
+skyIsBlue = false; 			// error
 
 
 // B. But for Objects, const means we CAN change the values
@@ -414,11 +414,11 @@ colors.push("blue");			// legal
 
 // C. but CAN NOT change the reference
 car = {make: "Jeep"}; 			// error
-colors = ["magenta","teal"]; 	// error
+colors = ["magenta","teal"]; 		// error
 
 
 // D. which gives (after you comment out the error lines)
-console.log(car); 				// {make:"Toyota", model: "Tercel"}
+console.log(car); 			// {make:"Toyota", model: "Tercel"}
 console.log(colors);			// ["red","green","blue"]
 
 ```
