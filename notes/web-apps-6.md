@@ -456,7 +456,7 @@ Create the following file, and name it **web-apps-6.html**
 <body>
 
 <div id="colorform">
-	<legend>Choose you favorite color!</legend>
+	<legend>Choose your favorite color!</legend>
 	<p><input type="radio" name="colorGroup" id="colorGroup" value="red" /> Red</p>
 	<p><input type="radio" name="colorGroup" id="colorGroup" value="green" /> Green</p>
 	<p><input type="radio" name="colorGroup" id="colorGroup" value="blue" /> Blue</p>
