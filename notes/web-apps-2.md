@@ -251,6 +251,7 @@ Everything else - like the string "false" for example, is coerced to *true*.
 
 ## X. <a id="section10"></a>Review Questions
 1. Which versions of JavaScript will we be covering in this course?
+1. How can you get the interactive JavaScript [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) to appear in Chrome?
 1. Which JavaScript keyword declares *variables*?
 1. Which JavaScript keyword declares *constants*?
 1. What happens when you try to change the value of a previously declared *constant value*?
