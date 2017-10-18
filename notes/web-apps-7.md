@@ -387,18 +387,46 @@ console.log(car3.make); // Yugo
 - Reference types (Objects, Arrays Functions, Elements, ...) are different in that variable assignment *points* at an independent object existing in memory, and assigning another variable to point at the first variable copies the *reference to the object*, not the value itself. Changes made to the referenced object are seen by all of the variables that point at that object.
 
 ## VIII. <a id="section8">Another look at `const`
-Let's look at the description of [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) from the Mozilla site: 
-	
-	<blockquote>"The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered."</blockquote>
+Now that we have has a chance to look at Objects, let's look at the description of [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) from the Mozilla site: 
+
+"The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered."
+
+Let's look at an example:
 	
 ```
+// A. For primitives, const means we can't change the value
+const PI = 3.14;
+const FIRST_PRESIDENT  = "Washington";
+const skyIsBlue = true;
+
+PI = 3.1416; 					// error
+FIRST_PRESIDENT = "Trump"; 		// error
+skyIsBlue = false; 				// error
+
+
+// B. But for Objects, const means we CAN change the values
+const car = {make:"Toyota"};
+const colors = ["red","green"];
+
+car.model = "Tercel"; 			// legal
+colors.push("blue");			// legal
+
+
+// C. but CAN NOT change the reference
+car = {make: "Jeep"}; 			// error
+colors = ["magenta","teal"]; 	// error
+
+
+// D. which gives (after you comment out the error lines)
+console.log(car); 				// {make:"Toyota", model: "Tercel"}
+console.log(colors);			// ["red","green","blue"]
 
 ```
 
-## VIII. <a id="section8">Nota bene
+## IX. <a id="section8">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
 
-## IX. <a id="section9">Review Questions
+## X. <a id="section9">Review Questions
 1. In programming, what is a *literal* value?
 1. List 3 JavaScript *value* types.
 1. List 3 JavaScript *reference* types.
@@ -417,7 +445,7 @@ var ship={
 }
 ```
 
-## X. <a id="section10">Review Exercise
+## XI. <a id="section10">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7.html**, and do the challenge:
 
 ```
