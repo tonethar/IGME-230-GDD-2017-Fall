@@ -5,7 +5,7 @@ For this project you (and optionally a partner) are creating a JavaScript driven
 - A tile-based game (based on the [Pixel Artist HW](../notes/HW-pixel-artist.md))
      - Minesweeper
      - a board game like Connect-4 or Othello
-     - an adventure game that uses arrow keys to navigate
+     - a maze game/adventure game that uses arrow keys to navigate
      - *Conway's Game of Life* - there is an optional HW assignment to get you started down this path if you want: [HW-life.md](../notes/HW-life.md)
 - A dramatically enhanced Magnetic Poetry App (extends [Magnetic Poetry HW](../notes/HW-magnetic-poetry.md))
 - A card or matching game based on the [Chibi Card Matching DOM Game](../notes/HW-chibi-matching.md) example from class.
