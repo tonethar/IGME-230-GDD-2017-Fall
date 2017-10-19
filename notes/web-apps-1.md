@@ -33,9 +33,7 @@ Each major web browser has its own layout engine: Chrome and Opera have *Blink*,
 
 1. The **JavaScript Engine** - this is a program that executes JavaScript code in the web browser. Each browser vendor has their own distinct engine: Chrome has V8, Safari has Nitro (JavaScriptCore), and FireFox has SpiderMonkey. These engines have performance differences and differing support for newer JavaScript language features. You can read more about JavaScript engines here: (https://en.wikipedia.org/wiki/JavaScript_engine)
 
-1. **Web Browser APIs** - API stands for "Application Programming Interface" and reflects what a web browser can *do*. JavaScript would not be very useful thing in a web browser if not for the various APIs that are available in today's web browsers. These APIs include the ability to select and modify HTML elements on the page, to play audio and video, to do procedural drawing, to store application data locally (in the web browser), to send and receive files from remote servers, and more.
-
-A mostly complete list of browser APIs can be found here: https://developer.mozilla.org/en-US/docs/Web/API
+1. **Web Browser APIs** - API stands for "Application Programming Interface" and reflects what a web browser can *do*. JavaScript would not be very useful thing in a web browser if not for the various APIs that are available in today's web browsers. These APIs include the ability to select and modify HTML elements on the page (which effects the *Web Layout Engine above*), to play audio and video, to do procedural drawing, to store application data locally (in the web browser), to send and receive files from remote servers, and more. A mostly complete list of browser APIs can be found here: https://developer.mozilla.org/en-US/docs/Web/API
 
 ## III. <a id="section3"></a>Web APIs used in the IGM Web Courses
 Here are some of the Web APIs that you will be using in this course and/or the following web course (IGME-330):
