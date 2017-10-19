@@ -17,3 +17,4 @@ You will need to write some JavaScript to get this working:
     1. Effects like crossfades can be done with CSS and by adding a second &lt;img> tag. Demonstrations on how to do this are here: http://css3.bradshawenterprises.com/cfimg/
     1. Adding "you are here" cues indicating which picture was selected would be nice. Adding a visible caption for each picture (to be displayed in a paragraph for example) would also be a good feature. 
     1. A more scalable solution that could display many more images would load data from arrays, and dynamically create thumbnails
+1. When you're done, zip and post your files to the appropriate dropbox.
