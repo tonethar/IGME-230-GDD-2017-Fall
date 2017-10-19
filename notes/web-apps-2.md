@@ -1,7 +1,7 @@
 # 2 - Introduction to JavaScript
 
 ## Overview
-First we will discuss what a *web app* is, and take look at the different components of a web browser that a developer is able to program.
+First we will see how we can program by utilizing the *JavaScript Engine* of a web browser. We will learn about the core JavaScript data types, how to declare variables, and how to see program output and errors in the JavaScript console.
 
 ## Contents
 <!--- Local Navigation --->
