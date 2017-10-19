@@ -1,7 +1,7 @@
 # 2 - Introduction to JavaScript
 
 ## Overview
-Now we will see how we can program by utilizing the *JavaScript Engine* of a web browser. We will learn about the core JavaScript data types, how to declare variables, and how to see program output and errors in the JavaScript console.
+Now we will see how we can program by utilizing the *JavaScript Engine* of a web browser. We will learn about the core JavaScript data types, how to declare variables, and how to see program output and view errors in the JavaScript console.
 
 ## Contents
 <!--- Local Navigation --->
