@@ -50,6 +50,9 @@ Sometimes new features are adopted long after *web standards* bodies have approv
 
 ### a. What are the major main web standards bodies?
 Because no one company or organization is in charge of deciding what features a browser vendor want to add to their web browser, several web standards bodies have formed. *Web standards are rules and guidelines published by standards bodies that are designed to promote consistency in the behavior of web browsers.*  Once a standard has reached "Recommendation" status its features are usually quickly adopted by the major web browsers.
+
+For example, Firefox might adopt a new feature (browser capability), then Chrome and Safari copy it but design their APIs in a slightly different way. If a proposed feature seems to be gaining popularity, the standards bodies will begin to formalize the API of the new feature, and gather feedback from both the browser vendors and the broader developer community.
+
 - World Wide Web Consortium (W3C) - https://www.w3.org/standards/webdesign/
 - Web Hypertext Application Technology Working Group (WHATWG) - https://spec.whatwg.org
 
