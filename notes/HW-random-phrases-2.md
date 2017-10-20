@@ -16,5 +16,5 @@ To do this assignment, you should have completed at least the 6th web app tutori
 1. When the page is first loaded, a random quote should still be displayed.
 
 ## Submission
-- Post to your web site and link it from your home page before the due date.
+- Post to your web site and link it from your home page before the due date. Also make sure to post to the dropbox.
 - Hint: The coding of this should only take a minute, but the button styling will likely take more time.
