@@ -167,7 +167,7 @@ Clicking on a cell should turn it to the selected color - let's get that working
 
 **We now have a the MVP (Minimum Viable Product) of our app! Clicking on a cell turns it red!**
 
-Note: If this gives you an error, try updating your browser, or you can replace rect.x and rect.y with rect.left and rect.top, respectively.
+**Note:** If this gives you an error, try updating your browser, or you can replace `rect.x` and `rect.y` with `rect.left` and `rect.top`, respectively.
 
 ![Web Page](_images/pixel-artist-13.jpg)
 
