@@ -165,7 +165,7 @@ Clicking on a cell should turn it to the selected color - let's get that working
 
 ![Web Page](_images/pixel-artist-12.jpg)
 
-**We now have a the MVP (Minimum Viable Product) of our app! Clicking on a cell turns it red!**
+**We now have the MVP (Minimum Viable Product) of our app! Clicking on a cell turns it red!**
 
 ![Web Page](_images/pixel-artist-13.jpg)
 
