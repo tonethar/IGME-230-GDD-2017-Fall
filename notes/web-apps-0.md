@@ -84,8 +84,8 @@ Refer to the mycourses dropboxes for due dates:
 
 ## VI. Demos
 These demos could be nice starting points for Project 2:
-- [Adventure!](HW-adventure.md) - keyboard control and playing an audio effect sound
-- [Chibi Card Matching Game](HW-chibi-matching.md) - 3D CSS tranforms and transitions
+- [Adventure!](HW-adventure.md) - keyboard control and playing an audio effect sound.
+- [Chibi Card Matching Game](HW-chibi-matching.md) - 3D CSS tranforms and transitions.
 - [Conway's Game of Life](./HW-life.md) - animation by utilizing `window.requestAnimationFrame()` and a game loop.
 
 ## VII. What has been left out of this series
