@@ -29,7 +29,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 1. "Game Objects"
     - examples: treasure chest, key, and monsters
     - also loaded in from a single sprite sheet.
-    - are object literals with 3 properties: `x`, `y`, and `element`
+    - are object literals with 3 properties: `x` and `y` (in columns), and `element`
     - `.element` is an absolutely positioned &lt;span> element.
     - have an x & y position (in columns), and can be added, removed, and moved on the game board.
     - the `gameObjects`array - (which is not a 2D array like `gameworld.world`) is used to hold the game objects. This allows there to be more than one game object per square.
