@@ -84,6 +84,7 @@ Refer to the mycourses dropboxes for due dates:
 
 ## VI. Demos
 These demos could be nice starting points for Project 2:
+- [Adventure!](HW-adventure.md)
 - [Chibi Card Matching DOM Game](HW-chibi-matching.md)
 - [Conway's Game of Life](./HW-life.md)
 
