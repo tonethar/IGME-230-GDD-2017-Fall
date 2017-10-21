@@ -14,13 +14,21 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 1. Game board is laid out on a 30x20 grid.
     - map is read from a 2D array in `gameworld.js`.
     - Tile types are floor, wall, grass, water and ground. 
-    - Tile backgrounds are CSS image sprites read from terrain.png as CSS image sprites - see  [HW-chibi-matching.md](./HW-chibi-matching.md) for an explanation.
+    - Tile backgrounds are read from terrain.png as CSS image sprites - see  [HW-chibi-matching.md](./HW-chibi-matching.md) for an explanation.
+    - tiles belong to multiple classes, depending on which type of tile they are.
 1. Player can use arrow keys to move their `player` avatar up, down, left, and right `onmousedown`
+    - the `player` is an object literal
+    - `player` has 3 properties: `x`, `y`, and `element`
+    - `player` has 4 methods: `moveRight()`, `moveDown()`, `moveLeft()` and `moveUp()`
     - uses CSS animations - `transition-property: all;` and `transition-duration: .2s;` for a smooth transition between tiles.
     - not allowed to move into wall or water squares - see the `checkIsLegalMove(nextX,nextY)` function.
     - the `gameObjects` array is looped through every time the player moves, and the objects and monsters are re-positioned if necessary.
 1. A simple audio effect using a hidden &lt;audio> tag - it is played when the player attempts to enter a wall or water square.
-1. An array - (but not a 2D array) is used to hold "Game Objects" like the treasure chest, key, and monsters. This allows there to be more than one "game object" per square, and it makes it easy to move them.
+1. "Game Objects"
+    - examples: treasure chest, key, and monsters
+    - are object literals with 3 properties: `x`, `y`, and `element`
+    - have an x & y position (in columns), and can be added, removed, and moved on the game board
+    - An array - (but not a 2D array) is used to hoold the game objects. This allows there to be more than one "game object" per square.
 1. The code for detecting which square is clicked by the mouse is implemented, but not used
 1. If you don't like the border between the tiles, set `cellSpacing = 0`, and in the CSS under `span.cell` set `border:none;`
 
