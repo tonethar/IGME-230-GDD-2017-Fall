@@ -36,9 +36,9 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 1. If you don't like the border between the tiles, set `cellSpacing = 0`, and in the CSS under `span.cell` set `border:none;`
 
 ## III. Possible Enhancements
-- Use ES6 classes for the GameObjects (monsters, treasures, keys) instead of Object literals
+- Use ES6 classes for the game objects (monsters, treasures, keys) instead of Object literals
 - get the monsters to move, either turn-based or real-time
-- handle player:monster and player:game object collisions
+- handle player->monster and player->game object collisions
 - give the player a HUD for hitpoints, items, level etc
 - have multiple levels
 - add story elements
