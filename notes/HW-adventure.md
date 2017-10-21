@@ -28,6 +28,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 1. A simple audio effect - using a hidden &lt;audio> tag - is played when the player attempts to enter a wall or water square.
 1. "Game Objects"
     - examples: treasure chest, key, and monsters
+    - also loaded in from a single sprite sheet.
     - are object literals with 3 properties: `x`, `y`, and `element`
     - `.element` is an absolutely positioned &lt;span> element.
     - have an x & y position (in columns), and can be added, removed, and moved on the game board.
