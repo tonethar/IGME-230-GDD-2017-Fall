@@ -84,9 +84,9 @@ Refer to the mycourses dropboxes for due dates:
 
 ## VI. Demos
 These demos could be nice starting points for Project 2:
-- [Adventure!](HW-adventure.md)
-- [Chibi Card Matching DOM Game](HW-chibi-matching.md)
-- [Conway's Game of Life](./HW-life.md)
+- [Adventure!](HW-adventure.md) - keyboard control and playing an audio effect sound
+- [Chibi Card Matching DOM Game](HW-chibi-matching.md) - 3D CSS tranforms and transitions
+- [Conway's Game of Life](./HW-life.md) - animation with `window.requestAnimationFrame()`
 
 ## VII. What has been left out of this series
 This course's content is primarily focused on giving students an introduction to web publishing, and an introduction to scripting a web browser for both applications and games. Later courses will go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
