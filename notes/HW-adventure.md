@@ -19,7 +19,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - tiles belong to multiple classes, depending on which type of tile they are.
 1. Player can use arrow keys to move their `player` avatar up, down, left, and right `onkeydown`
     - the `player` is an object literal.
-    - `player` has 3 properties: `x`, `y`, and `element`
+    - `player` has 3 properties: `x` and `y` (in columns), and `element`
     - `player` has 4 methods: `moveRight()`, `moveDown()`, `moveLeft()` and `moveUp()`
     - `player.element` is an absolutely positioned &lt;span> element.
     - uses CSS animations - `transition-property: all;` and `transition-duration: .2s;` for a smooth transition between tiles.
