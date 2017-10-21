@@ -42,6 +42,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 - give the player a HUD for hitpoints, collected items, level etc
 - have multiple levels
 - add story elements
+- add a menu system and keyboard shortcuts (menu commands are probably done `onkeyup`)
 - if necessary, fix "keyboard repeating" issues associated with the user holding the arrow keys down
 - save game state in `.localStorage` - see [web-apps-9.md](./web-apps-9.md)
 - or do a completely different kind of a game like [Robots aka Daleks](https://en.wikipedia.org/wiki/Robots_(computer_game))
