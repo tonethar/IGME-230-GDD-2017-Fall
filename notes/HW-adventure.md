@@ -17,7 +17,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - tile types are floor, wall, grass, water and ground. 
     - tile backgrounds are read from terrain.png as CSS image sprites - see  [HW-chibi-matching.md](./HW-chibi-matching.md) for an explanation.
     - tiles belong to multiple classes, depending on which type of tile they are.
-1. Player can use arrow keys to move their `player` avatar up, down, left, and right `onmousedown`
+1. Player can use arrow keys to move their `player` avatar up, down, left, and right `onkeydown`
     - the `player` is an object literal.
     - `player` has 3 properties: `x`, `y`, and `element`
     - `player` has 4 methods: `moveRight()`, `moveDown()`, `moveLeft()` and `moveUp()`
