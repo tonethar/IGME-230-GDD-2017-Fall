@@ -31,7 +31,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - are object literals with 3 properties: `x`, `y`, and `element`
     - `.element` is an absolutely positioned &lt;span> element.
     - have an x & y position (in columns), and can be added, removed, and moved on the game board.
-    - An array - (but not a 2D array) is used to hold the game objects. This allows there to be more than one game object per square.
+    - the `gameObjects`array - (which is not a 2D array like `gameworld.world`) is used to hold the game objects. This allows there to be more than one game object per square.
 1. The code for detecting which square is clicked by the mouse is implemented, but not used.
 1. If you don't like the border between the tiles, set `cellSpacing = 0`, and in the CSS under `span.cell` set `border:none;`
 
