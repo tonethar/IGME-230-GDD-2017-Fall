@@ -24,7 +24,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 1. The code for detecting which square is clicked by the mouse is implemented, but not used
 1. If you don't like the border between the tiles, set `cellSpacing = 0`, and in the CSS under `span.cell` set `border:none;`
 
-## III.Possible Enhancements
+## III. Possible Enhancements
 - Use ES6 classes for the GameObjects (monsters, treasures, keys).
 - get the monsters to move, either turn-based or real-time
 - handle player:monster and player:game object collisions
