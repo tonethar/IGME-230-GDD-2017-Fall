@@ -17,7 +17,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - Tile backgrounds are read from terrain.png as CSS image sprites - see  [HW-chibi-matching.md](./HW-chibi-matching.md) for an explanation.
     - tiles belong to multiple classes, depending on which type of tile they are.
 1. Player can use arrow keys to move their `player` avatar up, down, left, and right `onmousedown`
-    - the `player` is an object literal
+    - the `player` is an object literal.
     - `player` has 3 properties: `x`, `y`, and `element`
     - `player` has 4 methods: `moveRight()`, `moveDown()`, `moveLeft()` and `moveUp()`
     - uses CSS animations - `transition-property: all;` and `transition-duration: .2s;` for a smooth transition between tiles.
@@ -27,13 +27,13 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 1. "Game Objects"
     - examples: treasure chest, key, and monsters
     - are object literals with 3 properties: `x`, `y`, and `element`
-    - have an x & y position (in columns), and can be added, removed, and moved on the game board
-    - An array - (but not a 2D array) is used to hoold the game objects. This allows there to be more than one "game object" per square.
-1. The code for detecting which square is clicked by the mouse is implemented, but not used
+    - have an x & y position (in columns), and can be added, removed, and moved on the game board.
+    - An array - (but not a 2D array) is used to hold the game objects. This allows there to be more than one game object per square.
+1. The code for detecting which square is clicked by the mouse is implemented, but not used.
 1. If you don't like the border between the tiles, set `cellSpacing = 0`, and in the CSS under `span.cell` set `border:none;`
 
 ## III. Possible Enhancements
-- Use ES6 classes for the GameObjects (monsters, treasures, keys).
+- Use ES6 classes for the GameObjects (monsters, treasures, keys) instead of Object literals
 - get the monsters to move, either turn-based or real-time
 - handle player:monster and player:game object collisions
 - give the player a HUD for hitpoints, items, level etc
