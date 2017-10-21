@@ -1,6 +1,7 @@
 # Adventure! Game
 
-## I. This is currently a demo (all done for you), not a homework assignment. You can download the complete files here:
+## I. Overview
+This is currently a demo (all done for you), not a homework assignment. You can download the complete files here:
 
 [HW-adventure-done.zip](_files/HW-adventure-done.zip)
 
