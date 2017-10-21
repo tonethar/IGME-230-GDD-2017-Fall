@@ -23,7 +23,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - uses CSS animations - `transition-property: all;` and `transition-duration: .2s;` for a smooth transition between tiles.
     - not allowed to move into wall or water squares - see the `checkIsLegalMove(nextX,nextY)` function.
     - the `gameObjects` array is looped through every time the player moves, and the objects and monsters are re-positioned if necessary.
-1. A simple audio effect using a hidden &lt;audio> tag - it is played when the player attempts to enter a wall or water square.
+1. A simple audio effect - using a hidden &lt;audio> tag - is played when the player attempts to enter a wall or water square.
 1. "Game Objects"
     - examples: treasure chest, key, and monsters
     - are object literals with 3 properties: `x`, `y`, and `element`
