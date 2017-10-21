@@ -38,8 +38,9 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 ## III. Possible Enhancements
 - Use ES6 classes for the game objects (monsters, treasures, keys) instead of Object literals
 - get the monsters to move, either turn-based or real-time
-- handle player->monster and player->game object collisions
-- give the player a HUD for hitpoints, items, level etc
+- collisions: handle player->monster and player->game object interactions
+- give the player a HUD for hitpoints, collected items, level etc
 - have multiple levels
 - add story elements
+- save game state in `.localStorage` - see [web-apps-9.md](../web-apps-9.md)
 - or do a completely different kind of a game like [Robots aka Daleks](https://en.wikipedia.org/wiki/Robots_(computer_game))
