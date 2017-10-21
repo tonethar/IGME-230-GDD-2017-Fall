@@ -46,3 +46,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 - if necessary, fix "keyboard repeating" issues associated with the user holding the arrow keys down
 - save game state in `.localStorage` - see [web-apps-9.md](./web-apps-9.md)
 - or do a completely different kind of a game like [Robots aka Daleks](https://en.wikipedia.org/wiki/Robots_(computer_game))
+
+## IV. Review questions
+- note that we use `Object.freeze()` on some of our Object literals, but `Object.seal()`on others. What are the differences between these methods, and why did we choose one over the other?
+- give 2 ways to add a new CSS class to an element (so that it has more than 1 class), and 2 ways to remove ones of these classes from an element.
