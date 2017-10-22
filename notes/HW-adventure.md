@@ -39,7 +39,8 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 ## III. Possible Enhancements
 - Use ES6 classes for the game objects (monsters, treasures, keys) instead of object literals. The `player` would then extend (be a subclass of) `GameObject`
 - get the monsters to move, either turn-based or real-time
-- collisions: handle player->monster and player->game object interactions
+- collisions: handle *player->monster* and *player->game* object interactions. Get keys opening chests, allow the player to pick up a weapon, etc ...
+- add grid tiles for doors, staircases, spiky pits, etc...
 - give the player a HUD for hitpoints, collected items, level etc
 - have multiple levels
 - add story elements
