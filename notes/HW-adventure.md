@@ -24,7 +24,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - `player.element` is an absolutely positioned &lt;span> element.
     - uses CSS animations - `transition-property: all;` and `transition-duration: .2s;` for a smooth transition between tiles.
     - not allowed to move into wall or water squares - see the `checkIsLegalMove(nextX,nextY)` function.
-    - the `gameObjects` array is looped through every time the player moves, and the objects and monsters are re-positioned if necessary.
+    - the `currentGameObjects` array is looped through every time the player moves, and the objects and monsters are re-positioned if necessary.
 1. A simple audio effect - using a hidden &lt;audio> tag - is played when the player attempts to enter a wall or water square.
 1. "Game Objects"
     - examples: treasure, chest, key, and monsters
@@ -32,7 +32,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - are object literals with 3 properties: `x` and `y` (in columns), and `element`
     - `.element` is an absolutely positioned &lt;span> element.
     - have an x & y position (in columns), and can be added, removed, and moved on the game board.
-    - the `gameObjects`array - (which is not a 2D array like `gameworld.world1`) is used to hold the game objects. This allows there to be more than one game object per square.
+    - the `currentGameObjects`array - (which is not a 2D array like `gameworld.world1`) is used to hold the game objects. This allows there to be more than one game object per square.
 1. The code for detecting which square is clicked by the mouse is implemented, but not used.
 1. If you don't like the border between the tiles, set `cellSpacing = 0`, and in the CSS under `span.cell{...}` set `border:none;`
 
