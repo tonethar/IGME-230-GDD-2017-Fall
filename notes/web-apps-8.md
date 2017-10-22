@@ -238,7 +238,7 @@ colors.forEach(function(item, index, array) {
 
 ### D. `Array.map()`
 
-The `map()` method creates a new array with the results of calling the passed in function on every element in the original array.
+The `map()` method creates a new array that contains the results of calling the passed in function on every element in the original array.
 
 ```
 let numbers = [1,2,3,4];
