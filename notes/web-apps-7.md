@@ -432,6 +432,8 @@ For more information on object literals, head here: http://exploringjs.com/es6/c
 
 ## X. <a id="section10">Review Questions
 1. In programming, what is a *literal* value?
+1. How do you iterate over the keys and values of an object?
+1. What is the difference between `for...in` and `for...of`? (You don't want to get these 2 mixed up!)
 1. List 3 JavaScript *value* types.
 1. List 3 JavaScript *reference* types.
 1. What does `Object.seal()` do?
