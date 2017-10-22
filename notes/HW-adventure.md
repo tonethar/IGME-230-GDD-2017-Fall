@@ -5,7 +5,7 @@ This is currently a demo (all done for you), not a homework assignment. You can 
 
 [HW-adventure-done.zip](_files/HW-adventure-done.zip)
 
-This game could be a good start on project 2 - either as a turn-based Rogue-like (the monsters move when the player does), or with real-time challenges. See the [HW-Life.md](HW-life.md) exercise to see how to set up a game loop using `window.requestAnimationFrame()`
+This game could be a good start on project 2 - either as a turn-based "Rogue-like" (the monsters move when the player does), or with real-time challenges. See the [HW-Life.md](HW-life.md) exercise to see how to set up a game loop using `window.requestAnimationFrame()`
 
 ### A. Screen shot of final version:
 ![Web Page](_images/adventure-1.jpg)
