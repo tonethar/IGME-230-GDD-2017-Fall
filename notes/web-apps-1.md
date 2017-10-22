@@ -56,12 +56,11 @@ For example, Firefox might adopt a new feature (browser capability), then Chrome
 - World Wide Web Consortium (W3C) - https://www.w3.org/standards/webdesign/
 - Web Hypertext Application Technology Working Group (WHATWG) - https://spec.whatwg.org
 
-You can also read about the Web Standards Project here: https://www.webstandards.org
+**Other readings about standards:**
 
-And "Implementations and specifications have to do a delicate dance together." - http://lists.w3.org/Archives/Public/public-html/2010Jan/0107.html 
-
-And the "A LONG DIGRESSION INTO HOW STANDARDS ARE MADE" section here: http://diveintohtml5.info/past.html
-
+- the Web Standards Project here: https://www.webstandards.org
+- "Implementations and specifications have to do a delicate dance together." - http://lists.w3.org/Archives/Public/public-html/2010Jan/0107.html
+- the "A LONG DIGRESSION INTO HOW STANDARDS ARE MADE" section here: http://diveintohtml5.info/past.html
 
 
 ### b. Where can I learn about new features the browser vendors are working on?
