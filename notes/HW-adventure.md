@@ -13,7 +13,7 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 ## II. Features
 1. Game board is laid out on a 30x20 grid.
     - the tile elements are absolutely positioned &lt;span> elements.
-    - the map data is read from a 2D array in `gameworld.js`.
+    - the map data is read from a 2D array in `gamedata.js`.
     - tile types are floor, wall, grass, water and ground. 
     - tile backgrounds are read from terrain.png as CSS image sprites - see  [HW-chibi-matching.md](./HW-chibi-matching.md) for an explanation.
     - tiles belong to multiple classes, depending on which type of tile they are.
@@ -27,12 +27,12 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
     - the `gameObjects` array is looped through every time the player moves, and the objects and monsters are re-positioned if necessary.
 1. A simple audio effect - using a hidden &lt;audio> tag - is played when the player attempts to enter a wall or water square.
 1. "Game Objects"
-    - examples: treasure chest, key, and monsters
+    - examples: treasure, chest, key, and monsters
     - also loaded in from a single sprite sheet.
     - are object literals with 3 properties: `x` and `y` (in columns), and `element`
     - `.element` is an absolutely positioned &lt;span> element.
     - have an x & y position (in columns), and can be added, removed, and moved on the game board.
-    - the `gameObjects`array - (which is not a 2D array like `gameworld.world`) is used to hold the game objects. This allows there to be more than one game object per square.
+    - the `gameObjects`array - (which is not a 2D array like `gameworld.world1`) is used to hold the game objects. This allows there to be more than one game object per square.
 1. The code for detecting which square is clicked by the mouse is implemented, but not used.
 1. If you don't like the border between the tiles, set `cellSpacing = 0`, and in the CSS under `span.cell{...}` set `border:none;`
 
@@ -50,4 +50,5 @@ This game could be a good start on project 2 - either as a turn-based Rogue-like
 
 ## IV. Review questions
 - note that we use `Object.freeze()` on some of our Object literals, but `Object.seal()`on others. What are the differences between these methods, and why did we choose one over the other?
+- in `loadLevel()`, we use the ES6 static object method `Object.assign()` - what does it do?
 - give 2 ways to add a new CSS class to an element (so that it has more than 1 class), and 2 ways to remove ones of these classes from an element.
