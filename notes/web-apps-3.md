@@ -52,7 +52,7 @@ Go ahead and try running the code sample below - it is attempting to change the 
 
 ### dom-1.HTML
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,7 +111,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 ### dom-2.HTML
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -153,7 +153,7 @@ Let's try a few of these out below. Note that we have added another paragraph:
 
 ### dom-3.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -220,7 +220,7 @@ There was quite a bit in that last example. Let's discuss:
 `document.querySelectorAll()` returns an array of results that match the given selector.
 
 **dom-4.html**
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -312,7 +312,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 5. When `document.querySelector()` finds no matching elements on the page, what does it *return*? Answer: `null`.
 6. What happens if we try to call a method on `null`? Answer: We get a runtime error! How can we avoid this? Read on!
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
