@@ -59,7 +59,7 @@ And some properties:
 ## II. <a id="section2"></a>Starter Page
 
 ### more-dom-1.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,7 +95,7 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 
 ### more-dom-2.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -145,7 +145,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 
 ### more-dom-3.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -205,7 +205,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 
 ### more-dom-4.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -293,7 +293,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 
 Modifying the properties and styles of existing DOM elements is easy. Add the following to the end of **more-dom-4.html**:
 
-```
+```javascript
 // 9 - Modify the google link's href
 let googleLink = document.querySelector("ul li a[href*='google.com']");
 googleLink.href = "http://www.bing.com";
@@ -309,7 +309,7 @@ googleLink.href = "http://www.bing.com";
 
 Removing DOM elements is trivial. Add the following to the end of **more-dom-4.html**:
 
-```
+```javascript
 // 10 - Delete the paragraph
 document.body.removeChild(document.querySelector("p"));
 ```
@@ -343,7 +343,7 @@ Here is your starter code:
 
 ### web-apps-4.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
