@@ -40,7 +40,7 @@ In programming, a literal value is *a notation for representing a fixed value in
 
 Here are some literals in the JavaScript Language:
 
-```
+```javascript
 let a = "abcd";                         // a String literal 
 let b = 1234;                           // a Number literal 
 let c = true;                           // a Boolean literal 
@@ -51,7 +51,7 @@ let f = {};                             // an Object literal!
 
 NOT literals:
 
-```
+```javascript
 let g = Array();
 let h = Date();
 let i = Math.random();
@@ -64,7 +64,7 @@ Here we are going to create an object literal named `car1`, and attach a few pro
 
 ### objects-1.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,7 +102,7 @@ console.log(car1["model"]); // Pinto
 - note that we can easily add a property to an existing object. This can lead to odd errors.
 Imagine this:
 
-```
+```javascript
 // 1- below we misspell cylinders, so 'a' is now 'undefined'
 let a = car1.clyinders; 
 
@@ -124,7 +124,7 @@ The `for...in` loop is commonly used to iterate over object properties.
 
 Add the following to **objects-1.html**:
 
-```
+```javascript
 // 5 - iterate over keys of object with for...in
 for (key in car1){
   console.log(`key=${key}`); // make,model,cylinders
@@ -160,7 +160,7 @@ In JavaScript objects, *methods are properties whose values are functions*.
 
 ### objects-2.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -209,7 +209,7 @@ What if we had a game that needed to have 50 cars driving around? Creating 50 ob
 Instead, we can write a function to create these cars for us.
 
 ### objects-3.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -282,7 +282,7 @@ for (car of cars){
 In ES6, the Object literal syntax gives the developer more concise ways to declare properties and values with *property value shortcuts*, and a more compact way of defining object methods. See below:
 
 ### objects-4.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -355,7 +355,7 @@ let car2 = {
 ### A. Value types
 How are value types like String and Number copied between variables? Here is an example:
 
-```
+```javascript
 let a = 100;
 let b = a;
 a = 50;
@@ -371,7 +371,7 @@ console.log(b); // 100
 
 How are reference types "copied" between variables? Here is an example:
 
-```
+```javascript
 let car1 = {make:"Toyota"};
 let car2 = car1; // car1 and car2 are now pointing at the same object!
 car1.make = "Jeep"; // changes made to car1 effect both variables
@@ -395,7 +395,7 @@ Now that we have had a chance to look at Objects, let's look at the description 
 
 Let's look at an example:
 	
-```
+```javascript
 // A. For primitives, const means we CAN NOT change the value
 const PI = 3.14;
 const FIRST_PRESIDENT  = "Washington";
@@ -440,7 +440,7 @@ For more information on object literals, head here: http://exploringjs.com/es6/c
 1. What does `Object.seal()` do?
 1. What does `Object.freeze()` do?
 1. What is wrong with the following code?
-```
+```javascript
 var ship={
   x: 0,
   y: 0,
@@ -455,7 +455,7 @@ var ship={
 ## XI. <a id="section11">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7.html**, and do the challenge:
 
-```
+```javascript
  // Can you figure out how to pull the key and value from the "links" object literal?
  // and put them in list with clickable links?
 let links = {
