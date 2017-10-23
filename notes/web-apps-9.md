@@ -34,7 +34,7 @@ There are some WebStorage examples on the Internet that we can point you to:
 - One thing worth mentioning is the `prefix` variable (see below). Because Web Storage uses the same set of keys for *each domain*, this means on servers like banjo that all of the students are sharing the same set of keys, so that if someone uses `highscores`as a key, another student's `highscores` key could wipe out and replace their data. One solution is to prefix your key names with something unique, like your RIT web account id. Therefore `highScores` would become `abc1234highScores` for one student, and `xyz9876highScores` for someone else, and the keys would never conflict.
 
 ### webstorage-1.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,7 +107,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 
 ### A. Save an array to localStorage with `JSON.stringify()`
 
-```
+```javascript
 let listID = "abc1234-action-list";
 let items = ["Direct Movie","Deliver Baby","Cure Cancer"];
 items = JSON.stringify(items); // now it's a String
@@ -116,7 +116,7 @@ localStorage.setItem(listID, JSON.stringify(items));
 
 ### B. Retrieve an array from localStorage with `JSON.parse()`
 
-```
+```javascript
 let listID = "abc1234-action-list";
 let items = localStorage.getItem(listID); // returns a String
 items = JSON.parse(items);  // now it's an Array
