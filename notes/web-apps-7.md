@@ -406,7 +406,8 @@ FIRST_PRESIDENT = "Trump"; 		// error
 skyIsBlue = false; 			// error
 
 
-// B. But for Objects, const means we CAN change the values
+// B. But for Objects, const means we CAN change the values of the object properties,
+// or the contents of the array
 const car = {make:"Toyota"};
 const colors = ["red","green"];
 
