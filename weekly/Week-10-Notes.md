@@ -8,5 +8,5 @@ This week, we will be looking over the [Adventure Game](../notes/HW-adventure.md
 - Audio
 - Arrays and game objects
 
-##II. Project 2
+## II. Project 2
 Remember that project 2 is due at the end of this week. We will have some classtime available for discussion and work on it.
