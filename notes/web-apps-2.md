@@ -100,7 +100,7 @@ We use the `const` keyword to declare constant values (that do not change), and 
 Note that `const` and `let` are both part of the ES6 standard (you are learning some ES6 already!) and are well-supported by current and recent browsers.
 
 ### hello-2.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -152,7 +152,7 @@ JavaScript is a *loosely typed* (aka *dynamic*) language. That means you don't h
 That also means that the same variable can contain data of different types.
 
 ### hello-3.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -184,7 +184,7 @@ That also means that the same variable can contain data of different types.
 JavaScript also contains a number of built-in objects that we can use. There is `Object`, which is a starting point for our own customized objects, as well as `Array`, `Date`, `Math`, and others. The "primitive" types above also can be treated like objects and have properties and methods that can be called on them.
 
 ### hello-4.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
