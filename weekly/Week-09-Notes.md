@@ -15,7 +15,7 @@ We will be going over the functionality and some code on the GIF Finder homework
 - how to import the jQuery library, and utilize [`jQuery.ajax()`](http://api.jquery.com/jquery.ajax/)
 
 ## III. Chibi Matching
-The Chibi Matching homework touches on the following:
+The Chibi Matching demo touches on the following:
 
 - CSS sprite sheets
 - CSS *transitions* utlizing the `transition` property.
