@@ -325,7 +325,7 @@ When we use `document.querySelectorAll()`, we get back a `NodeList`.
 
 - https://developer.mozilla.org/en-US/docs/Web/API/NodeList
 
-NodeLists are NOT arrays. Although they have a `.length` property and can use `for...of` and `.forEach()`, they CAN not use other array methods like `.filter()` or `.map()`.
+NodeLists are NOT arrays. Although they have a `.length` property and can use `for...of` and `.forEach()`, they CANNOT use other array methods like `.filter()` or `.map()`.
 
 ```
 let allNodes = document.querySelectorAll("*"); // returns a NodeList object
