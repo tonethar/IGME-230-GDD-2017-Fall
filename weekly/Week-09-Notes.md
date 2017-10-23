@@ -8,7 +8,11 @@ But first, we will finish parts VII (Arrays) and IX (Web Storage) of the web app
 - https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-9.md
 
 ## II. GIF Finder
-We will be going over the functionality and some code on the GIF Finder homework, which addresses Web services.
+We will be going over the functionality and some code on the GIF Finder homework, which addresses Web services. We will discuss:
+
+- what a web service is.
+- how to connect to a web service, pass arguments to it, and download a response, and parse the results.
+- how to import the jQuery library, and utilize [`jQuery.ajax()`](http://api.jquery.com/jquery.ajax/)
 
 ## III. Chibi Matching
 The Chibi Matching homework touches on the following:
