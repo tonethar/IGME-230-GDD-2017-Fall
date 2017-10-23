@@ -231,7 +231,7 @@ JavaScript also contains a number of built-in objects that we can use. There is 
     - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
     - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 
-```
+```html
 // All of these are false values, excepting the last one - it turns out that "false" is true
 console.log(0 == false ? "0 is false" : "0 is true");
 console.log(-0 == false ? "-0 is false" : "-0 is true");
