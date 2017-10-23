@@ -105,7 +105,7 @@ After you have typed the code in, try it out. You should see a random pattern ap
 
 Here is some pseudocode:
 
-```
+```javascript
 getLivingNeighbors(row,col){
 		// TODO:
 		// row and col should > than 0, if not return 0
