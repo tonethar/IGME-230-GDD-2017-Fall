@@ -16,7 +16,7 @@ These are basically sprite sheets for the web. Rather than have 52 separate imag
 
 The trick is to change the `background-position` property from 0,0 to another point on the spritesheet. Here is a sample of the CSS from this demo:
 
-```
+```css
 /* Row 1 */
 .cardR01C01 {background-position:  0 0;}
 .cardR01C02 {background-position:  -80px 0;}
