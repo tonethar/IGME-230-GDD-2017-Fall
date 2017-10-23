@@ -40,7 +40,7 @@
 
 #### gif-finder.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -255,7 +255,7 @@ A. To import the jQuery library, you will add a separate &lt;script> tag, right 
 
 B. Now add this code to the bottom of `getData()`:
 
-```
+```javascript
 console.log(jQuery);
 console.log($); // $ is an alias to the jQuery object
 ```
