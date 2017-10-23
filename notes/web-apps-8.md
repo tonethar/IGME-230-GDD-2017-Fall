@@ -22,7 +22,7 @@ V. [Review Questions](#section5)'
 ## I. <a id="section1">Array Operations
 
 ### A. Create an Array
-```
+```javascript
 // An array of strings
 let colors = ["red","green","blue"];
 console.log(`colors.length = ${colors.length}`); // 3
@@ -36,46 +36,46 @@ let collection = ["Jaberwocky", 42, 98.6, false, Date(), Math.sin, null];
 
 ### B. Access an Array item
 
-```
+```javascript
 let first = colors[0]; // "red"
 let last = colors[colors.length - 1]; // "blue"
 ```
 
 ### C. Add to the end of an Array
 
-```
+```javascript
 colors.push("purple");
 ```
 
 ### D. Remove from the end of an Array
 
-```
+```javascript
 last = colors.pop(); // remove "purple" from the end
 ```
 
 
 ### E. Remove from the front of an Array
 
-```
+```javascript
 first = colors.shift(); // remove "red" from beginning
 ```
 
 
 ### F. Add to the front of an Array
 
-```
+```javascript
 colors.unshift("red"); // add "red" back to the front
 ```
 
 ### G. Find the index of an item in the Array
 
-```
+```javascript
 let pos = colors.indexOf("green");
 ```
 
 ### H. Remove 1 or more items by index position
 
-```
+```javascript
 // remove 1 item
 position = 2;
 let numberToRemove = 1;
@@ -92,7 +92,7 @@ console.log(`colors.length = ${colors.length}`); // 0
 
 ### I. Copy an item from an index position
 
-```
+```javascript
 let fruits = ["apples","oranges","bananas"];
 position = 0;
 let numberToCopy = 2;
@@ -106,7 +106,7 @@ console.log(copiedItems); // ["apples","oranges"]
 
 Note: a shallow copy only copies object references
 
-```
+```javascript
 let shallowCopy = fruits.slice();
 console.log(shallowCopy); // ["apples","oranges","bananas"]
 
@@ -119,7 +119,7 @@ console.log(car == cars[0] && cars[0] == carsCopy[0]); // true, all the same car
 ### K. Sample code for this section
 #### array-operations.html
 
-```
+```javascript
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -200,7 +200,7 @@ debugger;
 
 ### A. `for` loop
 
-```
+```javascript
 for (let i=0; i<colors.length; i++){
 	console.log(colors[i]);
 }
@@ -218,7 +218,7 @@ for (let i=0; i<colors.length; i++){
 
 ### B. `for...of` loop
 
-```
+```javascript
 for (let color of colors){
 	console.log(color);
 	// we can also use break and continue
@@ -230,7 +230,7 @@ for (let color of colors){
 `.forEach()` is a method of Array - we pass it a function that will be called on every member of the array.
 One disadvantage of `.forEach()` is that you can not break out of the loop early.
 
-```
+```javascript
 colors.forEach(function(item, index, array) {
   console.log(item, index);
 });
@@ -240,7 +240,7 @@ colors.forEach(function(item, index, array) {
 
 The `map()` method creates a new array that contains the results of calling the passed in function on every element in the original array.
 
-```
+```javascript
 let numbers = [1,2,3,4];
 let doubleIt = function(num){return num * 2};
 //let doubleIt = num => num * 2; // same thing as an arrow function
@@ -251,7 +251,7 @@ let newArray = numbers.map(doubleIt); // [2,4,6,8]
 ### E. `Array.filter()`
 The `filter()` method creates a new array with all elements that pass the test (i.e return `true`) implemented by the provided function.
 
-```
+```javascript
 let evenOnly = function(num){return num % 2 == 0};
 //let evenOnly = num => num % 2 == 0; // same thing as an ES6 arrow function
 let filteredArray = numbers.filter(evenOnly); // [2,4]
@@ -260,7 +260,7 @@ let filteredArray = numbers.filter(evenOnly); // [2,4]
 ### F. Sample code for this section
 #### array-iteration.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -327,7 +327,7 @@ When we use `document.querySelectorAll()`, we get back a `NodeList`.
 
 NodeLists are NOT arrays. Although they have a `.length` property and can use `for...of` and `.forEach()`, they CANNOT use other array methods like `.filter()` or `.map()`.
 
-```
+```javascript
 let allNodes = document.querySelectorAll("*"); // returns a NodeList object
 
 for (let i=0;i<allNodes.length;i++){
@@ -354,7 +354,7 @@ Typed arrays are fixed size arrays that hold only a single primitive tyope, such
 ### C. Sample code for this section
 #### array-like-objects.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
