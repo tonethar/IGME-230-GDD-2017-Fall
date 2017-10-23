@@ -46,7 +46,7 @@ Here are some examples of JavaScript function declarations. Note that when we de
 
 ### functions-1.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,7 +97,7 @@ This means that like any other JavaScript type (e.g. numbers or strings) they ca
 
 ### functions-2.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -167,7 +167,7 @@ it might be useful to set a different default value. This is where **default par
 
 ### functions-3.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -225,7 +225,7 @@ When functions are declared, and when variables are declared using either `let` 
 
 ### functions-4.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -286,7 +286,7 @@ You can read about this behavior of `var` and other behaviors such as variable d
 ## VII. <a id="section7"></a>Nested variable declarations
 ### functions-5.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -325,7 +325,7 @@ We can declare a function *within* a function. The nested (inner) function is pr
 Below we have given the `addSquares()` function a "helper" function that is not visible from the outside of `addSquares()`.
 
 ### functions-6.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -366,7 +366,7 @@ Arrow functions are an ES6 addition.  They have two advantages: they have a shor
 
 ### functions-7.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -460,7 +460,7 @@ What you need to do is to factor out that duplicated code and put it into a func
 
 1. Hint: The function declaration looks something like this:
 
-```
+```javascript
 function createList(listElement,array){
   // you write the rest
 }
