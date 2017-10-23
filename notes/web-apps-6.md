@@ -41,7 +41,7 @@ Browser "on-event" handlers have been around since the early days of the Interne
 
 ### events-1.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,7 +96,7 @@ Go ahead and try this code out - clicking the paragraph will cause its text to c
 the div will similarly trigger the `divClicked()` function.
 
 ### events-2.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -173,7 +173,7 @@ Go ahead and run **events-3.html** and see what happens.
 
 ### events-3.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -228,7 +228,7 @@ Try out the code below:
 
 ### events-4.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -284,7 +284,7 @@ You can also call `removeEventListener()` to later remove event functions.
 
 Add the following to **events-4.html**
 
-```
+```javascript
 let messWithDiv = (e) => { 
 			   div.removeEventListener("click",changeText);
 			   div.removeEventListener("click",changeColor);
@@ -306,7 +306,7 @@ Let's imagine that we would like to toggle the paragraph and div back and forth 
 ### events-5.html
 
 Type in the following code and test it in the browser.
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -382,7 +382,7 @@ If we use the `window.onload` event handler, we can move our code back up to the
 
 ### events-6.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -424,7 +424,7 @@ If we use the `window.onload` event handler, we can move our code back up to the
 
 Create the following file, and name it **web-apps-6.html**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
