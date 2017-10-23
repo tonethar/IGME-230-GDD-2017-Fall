@@ -17,7 +17,7 @@ Here is the HTML & CSS to get you started - go ahead and create **word-magnets.h
 
 #### word-magnets.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -247,7 +247,7 @@ Don't worry, we'll give you some copy/paste opportunities later.
 Here is some code you can copy and paste into `setStartingPoem()`. This will position all 11 of the starting words.
 
 
-```
+```javascript
 setPosition(getWord("gibber"),150,100);
 setPosition(getWord("ing"),210,100);
 setPosition(getWord("Professor"),253,103);
