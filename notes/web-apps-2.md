@@ -62,7 +62,7 @@ Let's go ahead and build a JavaScript "Hello World" application - it looks like 
 
 ### hello-1.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
