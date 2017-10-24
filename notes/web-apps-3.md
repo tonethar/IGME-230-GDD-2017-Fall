@@ -368,6 +368,7 @@ if (element){ // element will be considered true if it is not one of the falsy v
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
 1. How can we add breakpoints to our code in the debugger, and inspect the values of variables?
 1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
+1. List the 8 "falsy" values listed at the end of "2 - Introduction to JavaScript". Remember that in a boolean context like this `if(expression){ doSomethingIfTrue() }`, if an expression does not evaluate to `false`, it's `true`!
 
 ## XI. <a id="section11"></a>Review Exercise
 Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page in ANY way (by adding `class` or `id` attributes to the paragraphs, for example.
