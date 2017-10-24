@@ -189,22 +189,22 @@
 
 
 #### A. Explanation
-- In #1 above - we are hooking up a button event handler in the `window.onload` event. Note we have wrapped the code in an arrow function - we also could have used a regualr function - it doesn't matter either way.
+- In #1 above - we are hooking up a button event handler in the `window.onload` event. Note we have wrapped the code in an arrow function - we also could have used a regular function - it doesn't matter either way.
 - In #2 above - this will store what the user searched for, we need it to be in script scope so that we can access it from outside of our  `getData()` function.
 - In #3 above - `getData()` will be called when the button is clicked.
 
-Go ahead and test the code by clicking the button - and then check the console for the log.
+Test the code by clicking the button - and then check the console for the log.
 
 
 ### III. Capture the user intent and format a URL
 We need to write code to build a URL to the web service. This URL will contain the user's search preferences (search term and number of results).
 
-**Go ahead and type this code in:**
+**Type this code in:**
 
 ![Web Page](_images/gif-finder-3.jpg)
 
 #### A. Explanation
-- #1 above - this URL is the Giphy *Search endpoint*. Here's an example of another endpoint, the Giphy "Trending" endpoint is `https://api.giphy.com/v1/gifs/trending`
+- #1 above - this URL is the Giphy *Search endpoint*. Here's an example of another endpoint, the Giphy "Trending" endpoint: `https://api.giphy.com/v1/gifs/trending`
 - #2 above - this API key identifies you to the owner of the service. API keys are used to track and control how the API is being used - so if the user of this key is abusing the service it can be "turned off". This particular key is a public key and may no longer work when you do the exercise. If it does not, head here to get your own key (it's free!): https://developers.giphy.com/docs/
 - #3 above - we specify a parameter - `api_key` - and then give it a value
 - #4 above - get the `.value` of the text input field
