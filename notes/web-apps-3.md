@@ -22,11 +22,13 @@ VI. [Introducing `document.querySelectorAll()`](#section6)
 
 VII. [Seeing your changes in the Web Inspector](#section7)
 
-VIII. [Nota bene](#section8)
+VIII. [Dealing with `null`](#section8)
 
-IX. [Review Questions](#section9)
+IX. [Nota bene](#section9)
 
-X. [Review Exercise](#section10)
+X. [Review Questions](#section10)
+
+XI. [Review Exercise](#section11)
 
 
 <hr><hr>
@@ -304,13 +306,12 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 
 ![Web Page](_images/dom-8.jpg)
 
-## VIII. <a id="section8"></a>Nota bene 
-1. In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` methods used - we recommend that you NOT use these methods as they are much less flexible and powerful than the `querySelector()` and `querySelectorAll()` methods.
-2. Using the JavaScript debugger and setting breakpoints was briefly touched upon above. Being able to utilize the JavaScript debugger is an essential skill, and we will be demoing this in class. If you need to see it demoed again then please ask! Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
-3. What happens when `document.querySelectorAll()` finds no matching elements on the page, what does it *return*? Answer: an empty array.
-4. What happens when we try to loop though an empty array with a `for` or `for...of` loop? Answer: Nothing. The looping never happens if the array is empty.
-5. When `document.querySelector()` finds no matching elements on the page, what does it *return*? Answer: `null`.
-6. What happens if we try to call a method on `null`? Answer: We get a runtime error! How can we avoid this? Read on!
+
+## VIII. <a id="section8">Dealing with `null`
+- If `querySelector()` doesn't find any matches on the page it returns `null`
+- If `querySelectorAll()` doesn't find any matches on the page it returns `[]` (an empty array, but it's actually an empty `nodeList`)
+
+ What happens if we try to call a method on `null`? Answer: We get a runtime error! How can we avoid this? Read on!
 
 ```html
 <!DOCTYPE html>
@@ -348,7 +349,14 @@ if (element){ // element will be considered true if it is not one of the falsy v
 </html>
 ```
 
-## IX. <a id="section9"></a>Review Questions
+## IX. <a id="section9"></a>Nota bene 
+1. In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` methods used - we recommend that you NOT use these methods as they are much less flexible and powerful than the `querySelector()` and `querySelectorAll()` methods.
+2. Using the JavaScript debugger and setting breakpoints was briefly touched upon above. Being able to utilize the JavaScript debugger is an essential skill, and we will be demoing this in class. If you need to see it demoed again then please ask! Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
+3. What happens when `document.querySelectorAll()` finds no matching elements on the page, what does it *return*? Answer: an empty array.
+4. What happens when we try to loop though an empty array with a `for` or `for...of` loop? Answer: Nothing. The looping never happens if the array is empty.
+5. When `document.querySelector()` finds no matching elements on the page, what does it *return*? Answer: `null`.
+
+## X. <a id="section10"></a>Review Questions
 1. What does "CRUD" stand for?
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
@@ -361,7 +369,7 @@ if (element){ // element will be considered true if it is not one of the falsy v
 1. How can we add breakpoints to our code in the debugger, and inspect the values of variables?
 1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
 
-## X. <a id="section10"></a>Review Exercise
+## XI. <a id="section11"></a>Review Exercise
 Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page in ANY way (by adding `class` or `id` attributes to the paragraphs, for example.
 
 1. Change the `.innerHTML` of the first &lt;h1> to "My UFO Page"
