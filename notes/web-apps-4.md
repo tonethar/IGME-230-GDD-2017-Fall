@@ -181,6 +181,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 	// 5 - insert the <footer> at the end of the <body>
 	document.body.appendChild(footer);
 	
+	/* NEW CODE*/
 	// 6 - this code does the same thing as #1-#5 above, without having to use
 	// document.createTextNode() or element.setAttribute()
 	
@@ -250,6 +251,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 	footer2.innerHTML = "&copy; 20XX by Ima Student"
 	document.body.appendChild(footer2);
 	
+	/* NEW CODE*/
 	// 7 - create a new <li> and insert it into the end of the <ul>
 	let listItem = document.createElement("li");
 	listItem.innerHTML = "GeoCities";
