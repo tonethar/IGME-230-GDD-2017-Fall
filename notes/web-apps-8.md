@@ -388,7 +388,26 @@ debugger;
 </html>
 ```
 ## IV. <a id="section4">Nota bene
-Nothing for now.
+
+What if we have a `NodeList`, but need access to `Array` methods?  Easy, just move the contents of the `NodeList` into a new `Array`!
+
+```javascript
+
+// Here are 4 ways to convert a NodeList to an array (there are others):
+
+// 1 - a for loop
+let array1 = [];
+for(let i = 0, node; node = allNodes[i]; ++i) array1.push(node);
+
+// 2 - call the slice() method on the NodeList 
+let array2 = Array.prototype.slice.call(allNodes);
+
+// 3 - new ES6 method
+let array3 = Array.from(allNodes); 	
+
+// 4 - ES6 spread operator
+let array4 = [...allNodes]; 		
+```
 
 ## V. <a id="section5">Review Questions
 1. True or False. JavaScript Arrays may hold only a single *type* of value.
