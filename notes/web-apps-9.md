@@ -111,7 +111,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 let listID = "abc1234-action-list";
 let items = ["Direct Movie","Deliver Baby","Cure Cancer"];
 items = JSON.stringify(items); // now it's a String
-localStorage.setItem(listID, JSON.stringify(items));
+localStorage.setItem(listID, items);
 ```
 
 ### B. Retrieve an array from localStorage with `JSON.parse()`
