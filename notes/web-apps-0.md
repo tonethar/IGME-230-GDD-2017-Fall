@@ -32,6 +32,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. using the JavaScript debugger to "break on exceptions"
     1. adding code breakpoints in the JavaScript debugger
     1. viewing the value of variables in the JavaScript debugger
+    1. dealing with `null`
 1. [More Web Browser DOM Methods](./web-apps-4.md)
     1. the DOM inverted tree
     1. relationships: parent, child & sibling
