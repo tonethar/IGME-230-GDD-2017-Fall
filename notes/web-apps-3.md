@@ -325,14 +325,14 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 let element = document.querySelector("h4"); // will be null because page has no h4 elements
 //element.innerHTML = "Found an h4 tag"; // WILL CAUSE AN ERROR
 
-// Safer way is to check for null first
+/* Safer way is to check for null first! */
 if (element != null){
    element.innerHTML = "Found an h4 tag";
 }else{
   console.log("No h4 found");
 }
 
-// Shorten up your if statements!
+/* Shorten up your if statements! */
 // JavaScript has a number of "falsy" values (false, 0, undefined, null , "", '') 
 // that evaluate to false in boolean contexts.
 // In a boolean context, anything that is not false, is true.
