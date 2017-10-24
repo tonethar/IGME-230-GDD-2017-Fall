@@ -269,13 +269,13 @@ C. Reload the app and click the search button - you should see logs something li
 
 #### A. Now we are going to tell jQuery to download the data from that URL.
 
-**Add this code to the bottom of `loadData()`:**
+**Add this code to the bottom of `getData()`:**
 
 ![Web Page](_images/gif-finder-9.jpg)
 
 
 #### B. Create the callback function
-**This code is the callback function - place it *outside* of `loadData()`:**
+**This code is the callback function - place it *outside* of `getData()`:**
 
 ![Web Page](_images/gif-finder-10.jpg)
 
@@ -297,7 +297,7 @@ Now we just need to take the results, loop through them, and create some HTML. H
 
 Go ahead and run the code, the app should pretty much look like the second screenshot at the top of this page.
 
-One more thing - to get the fading working properly, add this line of code to the bottom of `loadData()`:
+One more thing - to get the fading working properly, add this line of code to the bottom of `getData()`:
 
 `$("#content").fadeOut(100);` 
 
