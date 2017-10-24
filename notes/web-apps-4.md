@@ -322,7 +322,7 @@ document.body.removeChild(document.querySelector("p"));
 In the previous document we used `.innerHTML` to create new HTML elements, while in this document we were more *methodical* (literally) and used methods such as `document.createElement()`, `document.createTextNode()`, `element.appendChild()`
 
 Which approach should you use in your code? Our recommendation is to use whichever approach works for you. Consider:
-- `.innerHTML` is simpler in many use cases, but in some applications you will be doing a lot of string concatentation, which can sometimes be problematic. ES 6 String templating can lighten the load though.
+- `.innerHTML` is simpler in many use cases, but in some applications you will be doing a lot of string concatentation, which can sometimes be problematic as it can make the code hard to read. ES 6 String templating can lighten the load though.
 - the "DOM element creation" approach we used here can result in **more code** to write, to debug, and to maintain. 
 
 
