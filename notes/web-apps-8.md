@@ -402,7 +402,7 @@ for(let i = 0, node; node = allNodes[i]; ++i) array1.push(node);
 // 2 - call the slice() method on the NodeList 
 let array2 = Array.prototype.slice.call(allNodes);
 
-// 3 - new ES6 method
+// 3 - .from() is a new Array method for ES6
 let array3 = Array.from(allNodes); 	
 
 // 4 - ES6 spread operator
