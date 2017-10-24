@@ -1,7 +1,7 @@
 # Week 10 Notes
 
 ## I. Topics covered this week
-This week, we will be looking over the [Adventure Game](../notes/HW-adventure.md) example, which contains some "good stuff" and might be a good starting point for some of your projects. In particular, this exercise covers:
+This week, we will be looking over the [Adventure Game](../notes/HW-adventure.md) example, which contains some "good stuff" and might be a nice starting point for some of your projects. In particular, this exercise covers:
 
 - Tiling sprites in the DOM
 - Keyboard controls
