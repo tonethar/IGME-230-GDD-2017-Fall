@@ -130,7 +130,7 @@ console.log(greeting2); 	// Greetings and felicitations, kind Mary.
 // 2 - A function that takes another function as an argument, and then calls it
 function createGreetings(myData,myFunc){
 	let greetings = []; // empty array
-	for (let n of names){
+	for (let n of myData){
 		let g = myFunc(n); // call the passed in function and pass in a name
 		//let g = myFunc.call(this,n); // does the same thing
 		greetings.push(g); // add greeting to array
