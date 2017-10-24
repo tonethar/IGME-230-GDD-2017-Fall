@@ -309,7 +309,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 
 ## VIII. <a id="section8">Dealing with `null`
 - If `querySelector()` doesn't find any matches on the page it returns `null`
-- If `querySelectorAll()` doesn't find any matches on the page it returns `[]` (an empty array, but it's actually an empty `nodeList`)
+- If `querySelectorAll()` doesn't find any matches on the page it returns `[]` (we usually say it's an empty `Array`, but it's actually an empty `nodeList`, which is an "array-like" object)
 
  What happens if we try to call a method on `null`? Answer: We get a runtime error! How can we avoid this? Read on!
 
