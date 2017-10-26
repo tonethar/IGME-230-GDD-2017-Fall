@@ -379,7 +379,7 @@ allNodes.forEach(function(item, index, array) {
   console.log(item, index); // works fine on newer browsers
 });
 
-// NodeList does not have the .filter() method
+// NodeList does NOT have the .filter() method!
 let filteredArray = allNodes.filter(node => node.tagName == "BODY"); //FAIL!
 
 debugger;
