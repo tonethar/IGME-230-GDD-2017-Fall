@@ -266,7 +266,7 @@ Everything else - like the string "false" for example, is coerced to *true*.
     
 
 ## XI. <a id="section11"></a>Review Exercise
-Make a copy of **hello-4.html** and name it **web-apps-2.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
+Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
 1. Print out the last element in the `colors` array.
