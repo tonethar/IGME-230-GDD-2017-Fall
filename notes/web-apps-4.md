@@ -343,14 +343,14 @@ Be sure to read the HTML DOM page linked near the top of this document.
 
 Here is your starter code:
 
-### web-apps-4.html
+### web-apps-4-HW.html
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Web Apps-4</title>
+	<title>Web Apps-4-HW</title>
 	<style>
 		body{border:1px solid gray;}
 	</style>
@@ -393,7 +393,7 @@ let links = {
 ```
 
 ### Instructions
-1. Create the **web-apps-4.html** file
+1. Create the **web-apps-4-HW.html** file
 1. Add you favorite colors and foods to the arrays. If you would rather change the theme of the page to movies, music, books or similar, feel free.
 1. Write code that loops through the `colors` array, generates list items, and appends them to the appropriate list element. For this array use a classic `for` loop.
 1. Write code that loops through the `foods` array, generates list items, and appends them to the appropriate list element. For this array use an ES6 `for...of` loop.
