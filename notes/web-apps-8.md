@@ -506,10 +506,6 @@ let cars = [
  or as a "one-liner" by chaining the method calls.
 */
 
-// There are a few way to do this - and you could chain your method calls
-// or write them separately
-
-
 debugger;
 </script>
 </body>
