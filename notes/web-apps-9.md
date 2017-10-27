@@ -133,6 +133,8 @@ items = JSON.parse(items);  // now it's an Array
 1. What is the difference between local and session storage?
 1. If the user opens up the demo page in a different web browser on the same machine, will their answers still be visible? Why or why not?
 1. Define *serialization*
+1. What does `JSON.stringify()` do?
+1. What does `JSON.parse()` do?
 1. One big issue with the applications we have written this semester is that reloading the page will wipe out all of the user's work (for example the poem they created in *Magnetic Poetry*, or their pixel art creation in *Pixel Artist*). Think about the various HW assignments that we have worked on for this Web Apps unit - pick two of them - how could they be improved by utilizing web storage?
 
 ## VI. <a id="section6">Review Exercise
