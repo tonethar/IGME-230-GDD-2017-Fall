@@ -139,6 +139,7 @@ items = JSON.parse(items);  // now it's an Array
 - Make a copy of **web-storage-1.html** and name it **web-apps-9-HW.html**. 
 - Modify the code so that the user's color choice will also be reflected in the background color of the entire page. Conveniently, all of the color names in the &lt;select> are also CSS color keywords.
 - This effect will happen both when user makes a choice in the &lt;select>, and when the user later returns to the page.
+- Hint: This will only require two lines of code to get working.
 
 **Which should look something like this:**
 
