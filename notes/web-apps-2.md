@@ -279,6 +279,6 @@ Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all o
 
 <hr>
 
-**[Previous Section <- Introduction to Web Applications (part 1)](web-apps-1.md)**
+**[Previous Chapter <- Introduction to Web Applications (chapter 1)](web-apps-1.md)**
 
-**[Next Section -> Intro to the Web Browser DOM (part 3)](web-apps-3.md)**
+**[Next Chapter -> Intro to the Web Browser DOM (chapter 3)](web-apps-3.md)**
