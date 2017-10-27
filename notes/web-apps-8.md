@@ -15,9 +15,9 @@ III. [Other "Array-like" objects in JavaScript](#section3)
 
 IV. [Nota bene](#section4)
 
-V. [Review Questions](#section5)'
+V. [Review Questions](#section5)
 
-VI. [Review Exercise](#section6)'
+VI. [Review Exercise](#section6)
 
 <hr><hr>
 
