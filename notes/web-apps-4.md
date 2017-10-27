@@ -408,6 +408,6 @@ let links = {
 
 <hr>
 
-**[Previous Section <- Introduction to the Web Browser DOM (part 3)](web-apps-3.md)**
+**[Previous Chapter <- Introduction to the Web Browser DOM (chapter 3)](web-apps-3.md)**
 
-**[Next Section -> JavaScript Functions (part 5)](web-apps-5.md)**
+**[Next Chapter -> JavaScript Functions (chapter 5)](web-apps-5.md)**
