@@ -47,6 +47,7 @@ Behind the scenes, the actual browser APIs that are being used for Ajax by jQuer
 - What does AJAX stand for?
 - What is the difference between AJAX (the acronym) and Ajax (the noun)?
 - What are some of the advantages of using JSON as a web service format instead of XML?
+- Why do you think that methods (functions) are not allowed in JSON?
 
 ## VI. Do the exercise!
 The best way to see how Ajax and Web APIs work is to build a fully functioning example - if you haven't done so yet, go ahead and build *GIF Finder*, which utilizes the Giphy Web Service:
