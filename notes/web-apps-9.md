@@ -135,6 +135,6 @@ items = JSON.parse(items);  // now it's an Array
 
 <hr>
 
-**[Previous Section <- JavaScript Arrays (part 8)](web-apps-8.md)**
+**[Previous Chapter <- JavaScript Arrays (chapter 8)](web-apps-8.md)**
 
-**[Next Section -> Web Services (part 10)](web-apps-10.md)**
+**[Next Chapter -> Web Services (chapter 10)](web-apps-10.md)**
