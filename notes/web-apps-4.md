@@ -408,6 +408,10 @@ let links = {
 
 <hr>
 
+Note: If you have not yet done the [Random Phrases-1](HW-random-phrases-1.md) homework, go check it out. See the mycourses dropbox for the actual due date.
+
+<hr>
+
 **[Previous Chapter <- Introduction to the Web Browser DOM (chapter 3)](web-apps-3.md)**
 
 **[Next Chapter -> JavaScript Functions (chapter 5)](web-apps-5.md)**
