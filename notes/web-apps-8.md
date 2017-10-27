@@ -29,7 +29,6 @@ VI. [Review Exercise](#section6)
 let emptyArray1 = []; 			// array literal syntax
 let emptyArray2 = new Array(); 		// this second method is not commonly used
 
-
 // an array of strings
 let colors = ["red","green","blue"];
 console.log(`colors.length = ${colors.length}`); // 3
@@ -37,9 +36,10 @@ console.log(`colors.length = ${colors.length}`); // 3
 // an array of numbers
 let numbers = [7.9, 5.9, 100.3];
 
-// mixed typed
+// mixed types in the same Array
 let collection = ["Jaberwocky", 42, 98.6, false, Date(), Math.sin, null];
 ```
+
 #### 2-Dimensional Arrays
 This example of an 8x8 2-D array is from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
