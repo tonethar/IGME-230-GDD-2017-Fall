@@ -7,14 +7,14 @@ We will cover parts VIII (Arrays) and IX (Web Storage) of the web app tutorial. 
 - https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-9.md
 
 ## II. GIF Finder
-We will be going over the functionality and some code on the GIF Finder homework, which addresses Web services. We will discuss:
+We will be going over the functionality and some code on the [GIF Finder](../notes/HW-gif-finder.md) homework, which addresses Web services. We will discuss:
 
 - what a web service is.
 - how to connect to a web service, pass arguments to it, and download a response, and parse the results.
 - how to import the jQuery library, and utilize [`jQuery.ajax()`](http://api.jquery.com/jquery.ajax/)
 
 ## III. Chibi Matching
-The Chibi Matching demo touches on the following:
+The [Chibi Matching demo](../notes/HW-chibi-matching.md) touches on the following:
 
 - CSS sprite sheets
 - CSS *transitions* utlizing the `transition` property.
