@@ -459,7 +459,7 @@ This "auto creation" of global properties is a feature you probably don't want t
 
 ## XII. <a id="section12"></a>Review Exercise
 
-Duplicate your **web-apps-4.html** file and name the copy **web-apps-5.html**
+Duplicate your **web-apps-4-HW.html** file and name the copy **web-apps-5-HW.html**
 Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
 What you need to do is to factor out that duplicated code and put it into a function.
 
@@ -479,8 +479,8 @@ The HTML produced should be identical to what was produced in the previous versi
 
 <hr>
 
- **[Previous Section <- More Web Browser DOM Methods (part 4)](web-apps-4.md)**
+ **[Previous Chapter <- More Web Browser DOM Methods (chapter 4)](web-apps-4.md)**
  
- **[Next Section -> JavaScript Events (part 6)](web-apps-6.md)**
+ **[Next Chapter -> JavaScript Events (chapter 6)](web-apps-6.md)**
 
 
