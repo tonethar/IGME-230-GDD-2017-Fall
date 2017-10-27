@@ -431,7 +431,7 @@ See the HTML comments in the starter code below for what you have to do - name t
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>web-apps-8</title>
+	<title>web-apps-8-HW</title>
 </head>
 <body>
 <script>
