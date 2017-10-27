@@ -4,7 +4,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 
 ## II. Prerequisite knowledge
 - The HTML/CSS which we covered in this class
-- CSS selectors (in particular the CSS3 selectors) will come in handy
+- CSS selectors (in particular the [CSS3 selectors](https://www.w3.org/TR/css3-selectors/#selectors)) will come in handy
 - Fundamental programming concepts that you gleaned from the (at least) 2 programming classes you have taken prior to this course.
 
 ## III. How to get the most out of these tutorials
