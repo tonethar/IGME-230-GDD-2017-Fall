@@ -40,6 +40,26 @@ let numbers = [7.9, 5.9, 100.3];
 // mixed typed
 let collection = ["Jaberwocky", 42, 98.6, false, Date(), Math.sin, null];
 ```
+#### 2-Dimensional Arrays
+This example of an 8x8 2-D array is from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+The following creates a chess board as a two dimensional array of strings. The first move is made by copying the 'p' in (6,4) to (4,4). The old position (6,4) is made blank.
+
+```javascript
+var board = [ 
+  ['R','N','B','Q','K','B','N','R'],
+  ['P','P','P','P','P','P','P','P'],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  ['p','p','p','p','p','p','p','p'],
+  ['r','n','b','q','k','b','n','r'] ];
+
+// Move King's Pawn forward 2
+board[4][4] = board[6][4];
+board[6][4] = ' ';
+```
 
 ### B. Access an Array item
 
@@ -126,7 +146,7 @@ console.log(car == cars[0] && cars[0] == carsCopy[0]); // true, all the same car
 ### K. Sample code for this section
 #### array-operations.html
 
-```javascript
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
