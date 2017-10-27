@@ -15,6 +15,8 @@ IV. [Nota Bene](#section4)
 
 V. [Review Questions](#section5)
 
+VI. [Review Exercise](#section6)
+
 <hr><hr>
 
 ## I. <a id="section1">WebStorage Reference
@@ -56,7 +58,7 @@ What is your favorite color ->
 	<option value="magenta">Magenta</option>
 	<option value="cyan">Cyan</option>
 	<option value="white">White</option>
-	<option value="black">Black</option>
+	<option value="gray">Gray</option>
 </select>
 </div>
 
@@ -129,9 +131,17 @@ items = JSON.parse(items);  // now it's an Array
 ## V. <a id="section5">Review Questions
 1. What is a limitation of using localStorage on a shared domain like people.rit.edu? What is a workaround that will mitigate this issue?
 1. What is the difference between local and session storage?
-1. If the user opens up the demo page in a different web browser, will their answers still be visible? Why or why not?
+1. If the user opens up the demo page in a different web browser on the same machine, will their answers still be visible? Why or why not?
 1. Define *serialization*
 1. One big issue with the applications we have written this semester is that reloading the page will wipe out all of the user's work (for example the poem they created in *Magnetic Poetry*, or their pixel art creation in *Pixel Artist*). Think about the various HW assignments that we have worked on for this Web Apps unit - pick two of them - how could they be improved by utilizing web storage?
+
+## VI. <a id="section6">Review Exercise
+- Make a copy of **web-storage-1.html** and name it **web-apps-9-HW.html**. 
+- Modify the code so that the user's color choice will also be relected in the background color of the page (conveniently, all of the colors in the &lt;select> are also CSS color keywords).
+- This effect will happen both when user makes a choice in the &lt;select>, and when the user later returns to the page.
+
+**Example:**
+
 
 <hr>
 
