@@ -489,6 +489,10 @@ debugger;
 </html>
 ```
 
+***which looks like this in the debugger:***
+
+![Web Page](_images/arrays-1-done.jpg)
+
 <hr>
 
 **[Previous Section <- JavaScript Object Literals (part 7)](web-apps-7.md)**
