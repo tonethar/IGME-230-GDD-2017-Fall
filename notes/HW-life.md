@@ -26,7 +26,7 @@ When you are done, the grid you created for Pixel Artist will now be updating au
 
 ## III. Get started
 1. Make a copy of your completed **pixel-artist.html** file and name it **pixel-life.html**
-1. Next, we are going to need more cells to our gird, and shrink down the size of each cell. We are going to create a 70x40 grid, with each cell being 10x10 pixels wide.
+1. Next, we are going to need to add more cells to our grid, and shrink down the size of each cell. We are going to create a 70x40 grid, with each cell being 10x10 pixels wide.
     - Go ahead and make your `numCols`, `numRows`, and `cellWidth` variables equal to `70`, `40`, and `10`.
     - Change the &lt;h1> of the page to display "Life!"
     - Modify your CSS to appear like this:
