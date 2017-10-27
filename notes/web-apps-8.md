@@ -17,6 +17,8 @@ IV. [Nota bene](#section4)
 
 V. [Review Questions](#section5)'
 
+VI. [Review Exercise](#section6)'
+
 <hr><hr>
 
 ## I. <a id="section1">Array Operations
@@ -491,7 +493,7 @@ debugger;
 
 ***which looks like this in the debugger:***
 
-![Web Page](_images/arrays-1-done.jpg)
+![Web Page](_images/arrays-1.jpg)
 
 <hr>
 
