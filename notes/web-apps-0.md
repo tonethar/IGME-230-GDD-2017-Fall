@@ -39,38 +39,38 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. creating and modifying DOM elements
     1. inserting and deleting DOM elements from the DOM tree
 1. [JavaScript Functions](./web-apps-5.md)
-    1. Writing basic functions
-    1. Function declarations & expressions
-    1. Functions as *first-class* objects
+    1. writing basic functions
+    1. function declarations & expressions
+    1. functions as *first-class* objects
     1. ES6 Block & Script Scope
     1. ES6 Arrow Functions
-    1. More practice with the debugger
+    1. more practice with the debugger
 1. [JavaScript Events & the `this` keyword](./web-apps-6.md)
-    1. Event Handlers
-    1. Utilizing function declarations, expressions, and arrow functions
+    1. event handlers
+    1. utilizing function declarations, expressions, and arrow functions
     1. `addEventListener()`, `removeEventListener()`
-    1. Adding properties to elements with `element.dataset`
-    1. Values of `this` in regular functions and arrow functions
-    1. The `window.onload` event
+    1. adding properties to elements with `element.dataset`
+    1. values of `this` in regular functions and arrow functions
+    1. the `window.onload` event
 1. [JavaScript Object Literals](./web-apps-7.md)
-    1. Creating Object literals with properties and methods
-    1. Iterating over object keys and values
-    1. Creating "Object Factories"
-    1. ES6 Object Literal changes
-    1. Value types & Reference types
+    1. creating Object literals with properties and methods
+    1. iterating over object keys and values
+    1. creating "Object Factories"
+    1. ES6 Object literal changes
+    1. value types & reference types
 1. [JavaScript Arrays and array-like objects](./web-apps-8.md)
     1. methods of `Array`
-    1. Looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
+    1. looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
     1. `NodeList`
     1. JavaScript typed arrays
 1. [The WebStorage API](./web-apps-9.md)
     1. `localStorage.setItem(key,value)`
     1. `localStorage.getItem(key)`
-    1. Serializing (stringifying) Objects for storage 
+    1. serializing (stringifying) objects for storage 
 1. [Intro to Web Services](./web-apps-10.md)
     1. AJAX v. Ajax
     1. JSON
-    1. Importing jQuery & utilizing `jQuery.ajax()`
+    1. importing jQuery & utilizing `jQuery.ajax()`
 
 ## V. Assignments
 Refer to the mycourses dropboxes for due dates:
