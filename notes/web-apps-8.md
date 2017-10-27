@@ -25,12 +25,12 @@ VI. [Review Exercise](#section6)
 
 ### A. Create an Array
 ```javascript
-// Empty arrays
+// empty arrays
 let emptyArray1 = []; 			// array literal syntax
 let emptyArray2 = new Array(); 		// this second method is not commonly used
 
 
-// An array of strings
+// an array of strings
 let colors = ["red","green","blue"];
 console.log(`colors.length = ${colors.length}`); // 3
 
