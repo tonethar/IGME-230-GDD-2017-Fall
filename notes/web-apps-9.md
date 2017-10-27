@@ -142,7 +142,7 @@ items = JSON.parse(items);  // now it's an Array
 
 **Which should look something like this:**
 
-![Web Page](_images/web-storage-3.jpg)
+![Web Page](_images/web-storage-2.jpg)
 
 <hr>
 
