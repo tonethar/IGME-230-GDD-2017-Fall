@@ -110,5 +110,5 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 
 <hr>
 
-**[Next Chapter -> Introduction to Web Applications (chapter 1)](web-apps-1.md)**
+**[Get Started -> Introduction to Web Applications (chapter 1)](web-apps-1.md)**
 
