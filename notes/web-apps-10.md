@@ -60,4 +60,4 @@ The best way to see how Ajax and Web APIs work is to build a fully functioning e
 
 **[Previous Chapter <- WebStorage (chapter 9)](web-apps-9.md)**
 
-**[Back to Beginning -> About this Web App Tutorial Series (TOC](web-apps-0.md)**
+**[Back to Beginning -> About this Web App Tutorial Series (TOC)](web-apps-0.md)**
