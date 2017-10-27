@@ -502,6 +502,10 @@ debugger;
 
 <hr>
 
-**[Previous Section <- JavaScript Object Literals (part 7)](web-apps-7.md)**
+**Important:** If you have not yet done the [Pixel Artist](HW-pixel-artist.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
-**[Next Section -> Web Storage (part 9)](web-apps-9.md)**
+<hr>
+
+**[Previous Chapter <- JavaScript Object Literals (chapter 7)](web-apps-7.md)**
+
+**[Next Chapter -> Web Storage (chapter 9)](web-apps-9.md)**
