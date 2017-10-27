@@ -160,7 +160,7 @@ One common mistake that is easy to make, is to write this line:
 - Go ahead and change the code back so that it works again.
 
 ## IV. <a id="section4"></a>Events and Arrow Functions
-We can use arrow functions as event handlers too. You might recall that in the Functions lesson we mentioned that arrow functions have two advantages: 
+We can use arrow functions as event handlers too. You might recall that in the [Functions chapter](./web-apps-6.md) we mentioned that arrow functions have two advantages: 
 
 - they have a shorter syntax than regular functions
 - they do not bind their own `this` keyword. 
