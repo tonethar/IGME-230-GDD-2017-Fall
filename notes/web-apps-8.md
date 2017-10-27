@@ -491,7 +491,7 @@ debugger;
 </html>
 ```
 
-***which looks like this in the debugger:***
+**Which looks like this in the debugger:**
 
 ![Web Page](_images/arrays-1.jpg)
 
