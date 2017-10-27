@@ -418,6 +418,75 @@ let array4 = [...allNodes];
 1. Does `Array.filter()` modify the old array (the one it is called on), or create a new array?
 1. What is the type of the object that is returned by `document.querySelectorAll()`?
 
+## VI. <a id="section6">Review Exercise
+
+See the HTML comments in the starter code below for what you have to do - name this **web-apps-8-HW.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>web-apps-8</title>
+</head>
+<body>
+<script>
+let cars = [
+	{make:"Toyota",	year:2015},
+	{make:"Jeep",	year:1946},
+	{make:"Ford",	year:2017},
+	{make:"Tesla",	year:2018},
+	{make:"Fiat",	year:1982},
+	{make:"Dodge",	year:1970},
+	{make:"Chevy",	year:1957},
+];
+
+// For this HW you will use Array.filter(), Array.sort(), and Array.map() on
+// the cars array above.
+
+/*
+ 1 - Create a new array named 'classicCars' that contains only those cars with a
+ .year of 1970 or earlier. Use Array.filter() on the cars array:
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+*/
+
+
+/*
+ 2 - Create a new array named 'sortedByYear' that contains the contents of the
+ car array, sorted by .year, ascending (oldest to most recent)
+ Use Array.sort() on the cars array - and read about writing a comparison function here:
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+ 
+*/
+
+
+/*
+ 3 - Create a new array named 'newerYearsOnly' that contains only the .year property 
+ (not the entire car object) of those cars that are .year 2010 or newer. 
+ Use Array.map() on the cars array:
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+ 
+ This will give you a few undefined values. Use Array.filter() to get rid of these 
+ undefined values so that newerYearsOnly contains only years (Numbers)
+ 
+ Hint: you could use Number.isInteger() or the typeof operator:
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+ 
+ You could do this additional filter on a separate filter on the different lines,
+ or as a "one-liner" by chaining the method calls.
+*/
+
+// There are a few way to do this - and you could chain your method calls
+// or write them separately
+
+
+debugger;
+</script>
+</body>
+</html>
+```
+
 <hr>
 
 **[Previous Section <- JavaScript Object Literals (part 7)](web-apps-7.md)**
