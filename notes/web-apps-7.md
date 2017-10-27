@@ -467,6 +467,10 @@ let links = {
 
 <hr>
 
+**Important:** If you have not yet done the [Magnetic Poetry](HW-magnetic-poetry.md) homework, go check it out. See the mycourses dropbox for the actual due date.
+
+<hr>
+
 **[Previous Section <- JavaScript Events (part 6)](web-apps-6.md)**
 
 **[Next Section -> JavaScript Arrays (part 8)](web-apps-8.md)**
