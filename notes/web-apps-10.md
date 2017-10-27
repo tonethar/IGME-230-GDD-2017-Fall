@@ -57,4 +57,4 @@ The best way to see how Ajax and Web APIs work is to build a fully functioning e
 
 <hr>
 
-**[Previous Section <- WebStorage (part 9)](web-apps-9.md)**
+**[Previous Chapter <- WebStorage (chapter 9)](web-apps-9.md)**
