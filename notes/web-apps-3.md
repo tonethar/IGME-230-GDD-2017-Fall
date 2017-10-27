@@ -399,7 +399,7 @@ Make a copy of **dom-4.html** and name it **web-apps-3.html**. Delete all of the
 
 <hr>
     
-**[Previous Section <- Introduction to JavaScript (part 2)](web-apps-2.md)**
+**[Previous Chapter <- Introduction to JavaScript (chapter 2)](web-apps-2.md)**
   
-**[Next Section -> More Web Browser DOM Methods (part 4)](web-apps-4.md)**
+**[Next Chapter -> More Web Browser DOM Methods (chapter 4)](web-apps-4.md)**
   
