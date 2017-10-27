@@ -26,8 +26,8 @@ VI. [Review Exercise](#section6)
 ### A. Create an Array
 ```javascript
 // Empty arrays
-let emptyArray1 = []; 			// literal literal syntax
-let emptyArray2 = new Array(); 		// the "new" method is not commonly used
+let emptyArray1 = []; 			// array literal syntax
+let emptyArray2 = new Array(); 		// this second method is not commonly used
 
 
 // An array of strings
