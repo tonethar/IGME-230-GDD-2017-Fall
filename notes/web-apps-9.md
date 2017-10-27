@@ -140,8 +140,9 @@ items = JSON.parse(items);  // now it's an Array
 - Modify the code so that the user's color choice will also be reflected in the background color of the page. Conveniently, all of the color names in the &lt;select> are also CSS color keywords.
 - This effect will happen both when user makes a choice in the &lt;select>, and when the user later returns to the page.
 
-**Example:**
+**Which should look something like this:**
 
+![Web Page](_images/web-storage-3.jpg)
 
 <hr>
 
