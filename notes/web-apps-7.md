@@ -453,7 +453,7 @@ var ship={
 ```
 
 ## XI. <a id="section11">Review Exercise
-Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7.html**, and do the challenge:
+Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7-HW.html**, and do the challenge:
 
 ```javascript
  // Can you figure out how to pull the key and value from the "links" object literal?
@@ -471,6 +471,6 @@ let links = {
 
 <hr>
 
-**[Previous Section <- JavaScript Events (part 6)](web-apps-6.md)**
+**[Previous Chapter <- JavaScript Events (chapter 6)](web-apps-6.md)**
 
-**[Next Section -> JavaScript Arrays (part 8)](web-apps-8.md)**
+**[Next Chapter -> JavaScript Arrays (chapter 8)](web-apps-8.md)**
