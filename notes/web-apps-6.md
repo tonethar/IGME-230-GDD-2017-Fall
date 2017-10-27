@@ -422,7 +422,7 @@ If we use the `window.onload` event handler, we can move our code back up to the
 
 #### 1) The starting code looks like this:
 
-Create the following file, and name it **web-apps-6.html**
+Create the following file, and name it **web-apps-6-HW.html**
 
 ```html
 <!DOCTYPE html>
@@ -504,7 +504,7 @@ You should see another message about the color you selected, and the &lt;legend>
 Be sure to submit this to the applicable dropbox, and do not post it to your web site.
 
 ### D) Extra Credit (worth 1 full HW)
-Can you do a version of this web app, but with checkboxes? 
+Can you do a version of this web app, but with checkboxes? Name the file **web-apps-6-HW-with-checkboxes.html**
 
 Hint: Checkboxes have a `.checked` property.
 
@@ -524,6 +524,10 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 <hr>
 
-**[Previous Section <- JavaScript Functions (part 5)](web-apps-5.md)**
+Note: If you have not yet done the [Random Phrases-2](HW-random-phrases-2.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
-**[Next Section -> JavaScript Object Literals (part 7)](web-apps-7.md)**
+<hr>
+
+**[Previous Chapter <- JavaScript Functions (chapter 5)](web-apps-5.md)**
+
+**[Next Chapter -> JavaScript Object Literals (chapter 7)](web-apps-7.md)**
