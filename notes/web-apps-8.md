@@ -519,6 +519,7 @@ debugger;
 <hr>
 
 - **Important:** If you have not yet done the [Pixel Artist](HW-pixel-artist.md) homework, go check it out. See the mycourses dropbox for the actual due date.
+- Also be sure to check the [Life](HW-life.md) and [Adventure!](HW-adventure.md) demos.
 
 <hr>
 
