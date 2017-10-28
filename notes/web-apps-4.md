@@ -408,7 +408,7 @@ let links = {
 
 <hr>
 
-**Important:** If you have not yet done the [Random Phrases-1](HW-random-phrases-1.md) homework, go check it out. See the mycourses dropbox for the actual due date.
+- **Important:** If you have not yet done the [Random Phrases-1](HW-random-phrases-1.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
 <hr>
 
