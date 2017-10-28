@@ -112,7 +112,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 ```javascript
 let listID = "abc1234-action-list";
 let items = ["Direct Movie","Deliver Baby","Cure Cancer"];
-items = JSON.stringify(items); // now it's a String
+items = JSON.stringify(items); 			// now it's a String
 localStorage.setItem(listID, items);
 ```
 
@@ -120,8 +120,8 @@ localStorage.setItem(listID, items);
 
 ```javascript
 let listID = "abc1234-action-list";
-let items = localStorage.getItem(listID); // returns a String
-items = JSON.parse(items);  // now it's an Array
+let items = localStorage.getItem(listID); 	// returns a String
+items = JSON.parse(items);  			// now it's an Array
 ```
 
 ## IV. <a id="section4">Nota Bene
@@ -131,11 +131,11 @@ items = JSON.parse(items);  // now it's an Array
 ## V. <a id="section5">Review Questions
 1. What is a limitation of using localStorage on a shared domain like people.rit.edu? What is a workaround that will mitigate this issue?
 1. What is the difference between local and session storage?
-1. If the user opens up the demo page in a different web browser on the same machine, will their answers still be visible? Why or why not?
+1. If the user opens up the demo page in a different web browser on the same machine, will their chosen preferences still be visible? Why or why not?
 1. Define *serialization*
 1. What does `JSON.stringify()` do?
 1. What does `JSON.parse()` do?
-1. One big issue with the applications we have written this semester is that reloading the page will wipe out all of the user's work (for example the poem they created in *Magnetic Poetry*, or their pixel art creation in *Pixel Artist*). Think about the various HW assignments that we have worked on for this Web Apps unit - pick two of them - how could they be improved by utilizing web storage?
+1. One big issue with the applications we have written this semester is that reloading the page will wipe out all of the user's work (for example the poem they created in *Magnetic Poetry*, or their pixel art creation in *Pixel Artist*). Think about the various HW assignments that we have worked on for this Web Apps unit - pick two of them - and describe how they could be improved by utilizing web storage.
 
 ## VI. <a id="section6">Review Exercise
 - Make a copy of **web-storage-1.html** and name it **web-apps-9-HW.html**. 
