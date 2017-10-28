@@ -259,6 +259,7 @@ Everything else - like the string "false" for example, is coerced to *true*.
 1. What kinds of values can a `Number` type hold? (Google it)
 1. Which of the following examples will evaluate to `true` in a boolean context?
     1. `undefined`, `null`, `false`, `0`, `""`, `''`
+    1. `0.0`
     1. `"undefined"`, `"null"`
     1. `"false"`
     1. `"true"`
