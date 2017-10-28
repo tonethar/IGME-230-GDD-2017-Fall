@@ -264,7 +264,7 @@ Everything else - like the string "false" for example, is coerced to *true*.
     1. `"false"`
     1. `"true"`
     1. `new Date()`
-    1. `new Array()`
+    1. `new Array()`, `[]`
     
 
 ## XI. <a id="section11"></a>Review Exercise
