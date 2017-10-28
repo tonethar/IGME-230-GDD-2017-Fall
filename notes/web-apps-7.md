@@ -467,7 +467,7 @@ let links = {
 
 <hr>
 
-**Important:** If you have not yet done the [Magnetic Poetry](HW-magnetic-poetry.md) homework, go check it out. See the mycourses dropbox for the actual due date.
+- **Important:** If you have not yet done the [Magnetic Poetry](HW-magnetic-poetry.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
 <hr>
 
