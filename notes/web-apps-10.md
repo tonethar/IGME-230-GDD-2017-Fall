@@ -16,7 +16,10 @@ In this course, we are just going to scratch the surface and work with the "read
 
 ## III. How do we download the data?
 
-- As developers, what we want to do is this **--->** to take a user intent (for example, *what's the weather in Rochester going to be today?*), exchange small amounts of data with a server behind the scenes, and then update part of the HTML page (asynchronously), without having to reload the whole page.
+- As developers, what we want to do is this:
+    - capture a user intent (for example, *what's the weather in Rochester going to be today?*)
+    - behind the scenes, exchange data with a remote server
+    - update just a small part of the HTML page (asynchronously), without having to reload the entire page
 - The above concept is known in the web world by this term - *Ajax* - https://en.wikipedia.org/wiki/Ajax_(programming)
 - **Ajax** was derived from an earlier acronym *AJAX*, which stood for **A**synchronous **J**avaScript **A**nd **X**ML. The acronym fell out of favor because we now commonly retrieve other data formats besides XML.  
 
