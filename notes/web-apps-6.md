@@ -528,7 +528,7 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 - **Important:** If you have not yet done the [Image Gallery](HW-image-gallery.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
-- You should also check out [Chibi Card Matching](HW-chibi-matching.md) game demo, and the [Magnetic Poetry](HW-magnetic-poetry.md) homework. See dropbox for actual due date.
+- You should also check out [Chibi Card Matching](HW-chibi-matching.md) game demo.
 
 <hr>
 
