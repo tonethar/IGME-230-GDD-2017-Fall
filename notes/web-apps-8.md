@@ -13,11 +13,13 @@ II. [Iterating over Arrays](#section2)
 
 III. [Other "Array-like" objects in JavaScript](#section3)
 
-IV. [Nota bene](#section4)
+IV. [Method Chaining](#section4)
 
-V. [Review Questions](#section5)
+V. [Nota bene](#section5)
 
-VI. [Review Exercise](#section6)
+VI. [Review Questions](#section6)
+
+VII. [Review Exercise](#section7)
 
 <hr><hr>
 
@@ -414,7 +416,40 @@ debugger;
 </body>
 </html>
 ```
-## IV. <a id="section4">Nota bene
+
+## IV. <a id="section4">Method Chaining
+[Method Chaining](https://en.wikipedia.org/wiki/Method_chaining) is a syntax for invoking multiple method calls. Each method returns an object reference, allowing the calls to be chained together in a single statement without requiring variables to store the intermediate results.
+
+```javascript
+// A. Method chaining, here pretty easy to read and understand
+let highestNumber = [1,5,8,3,-10].sort().pop(); 	// 8
+let lowestNumber = [1,5,8,3,-10].sort().shift(); 	// -10
+
+
+// B. Method chaining, here it's not quite as clear what's going on
+// we use .trim() and .toLowerCase() to make the string comparison more flexible 
+let nameArray = [" sUe ","  mARy  ","  bOB  "," freDdY  "];
+let bobLowercaseAndTrimmed = nameArray.find( e=> e.trim().toLowerCase() == "bob" ).toLowerCase().trim(); // "bob"
+let bobCapitalizedAndTrimmed = bobLowercaseAndTrimmed.charAt(0).toUpperCase() + bobLowercaseAndTrimmed.slice(1); // "Bob"
+
+
+// C. Maybe write 2 generalized functions and encapsulate the chaining there? 
+// It's more lines of code, but it's easier to understand, debug, and reuse
+function findNameInArray(name,array){
+	return array.find( e=> e.trim().toLowerCase() == name.trim().toLowerCase() )
+}
+
+function capitalizedWord(word){
+	// return a trimmed and capitalized version of word
+	return (word.trim().charAt(0).toUpperCase() + word.trim().toLowerCase().slice(1));
+}
+
+let bobCapitalizedAndTrimmed2 = capitalizedWord(findNameInArray("bob",nameArray)); // "Bob"
+```
+
+
+	
+## V. <a id="section5">Nota bene
 
 What if we have a `NodeList`, but need access to `Array` methods?  Easy, just move the contents of the `NodeList` into a new `Array`!
 
@@ -436,7 +471,7 @@ let array3 = Array.from(allNodes);
 let array4 = [...allNodes]; 		
 ```
 
-## V. <a id="section5">Review Questions
+## VI. <a id="section6">Review Questions
 1. True or False. JavaScript Arrays may hold only a single *type* of value.
 1. Which array operation adds an item to the *end* of an array?
 1. Which array method can be used to *remove* items from an array?
@@ -445,7 +480,7 @@ let array4 = [...allNodes];
 1. Does `Array.filter()` modify the old array (the one it is called on), or create a new array?
 1. What is the type of the object that is returned by `document.querySelectorAll()`?
 
-## VI. <a id="section6">Review Exercise
+## VII. <a id="section7">Review Exercise
 
 See the HTML comments in the starter code below for what you have to do - name this **web-apps-8-HW.html**
 
