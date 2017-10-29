@@ -420,6 +420,8 @@ debugger;
 ## IV. <a id="section4">Method Chaining
 [Method Chaining](https://en.wikipedia.org/wiki/Method_chaining) is a syntax for invoking multiple method calls. Each method returns an object reference, allowing the calls to be chained together in a single statement without requiring variables to store the intermediate results.
 
+### Method Chaining Example:
+
 ```javascript
 // A. Method chaining, here pretty easy to read and understand
 let highestNumber = [1,5,8,3,-10].sort().pop(); 	// 8
@@ -436,7 +438,7 @@ let bobCapitalizedAndTrimmed = bobLowercaseAndTrimmed.charAt(0).toUpperCase() + 
 // C. Maybe write 2 generalized functions and encapsulate the chaining there? 
 // It's more lines of code, but it's easier to understand, debug, and reuse
 function findNameInArray(name,array){
-	return array.find( e=> e.trim().toLowerCase() == name.trim().toLowerCase() )
+	return array.find(e=> e.trim().toLowerCase() == name.trim().toLowerCase())
 }
 
 function capitalizedWord(word){
@@ -447,7 +449,19 @@ function capitalizedWord(word){
 let bobCapitalizedAndTrimmed2 = capitalizedWord(findNameInArray("bob",nameArray)); // "Bob"
 ```
 
+### Fluent Interfaces
+Method chaining is a component of JavaScript libraries that have [Fluent Interfaces](https://en.wikipedia.org/wiki/Fluent_interface) - that is software interfaces that read like ordinary written language. Here's an example (from the wikipedia link above):
 
+```javascript
+// getting an item from a table
+client.getItem('user-table')
+    .setHashKey('userId', 'userA')
+    .setRangeKey('column', '@')
+    .execute()
+    .then(function(data) {
+        // data.result: the resulting object
+    })
+```
 	
 ## V. <a id="section5">Nota bene
 
