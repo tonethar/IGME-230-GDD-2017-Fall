@@ -377,7 +377,7 @@ let filteredArray = allNodes.filter(node => node.tagName == "BODY"); //FAIL!
 
 ### B. Typed Arrays
 
-Typed arrays are **fixed size arrays** that hold only a single primitive tyope, such as a `UInt8` or a `Float64`. We probably won't use them in this class, and you can read about them here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
+Typed arrays are **fixed size arrays** that hold only a single primitive type, such as a `UInt8` or a `Float64`. You probably won't use them in this class, but you can read about them here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
 
 Here is a quick example:
 
