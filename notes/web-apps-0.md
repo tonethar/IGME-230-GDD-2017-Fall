@@ -63,6 +63,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
     1. `NodeList`
     1. JavaScript typed arrays
+    1. Method Chaining & Fluent Interfaces
 1. [The WebStorage API](./web-apps-9.md)
     1. `localStorage.setItem(key,value)`
     1. `localStorage.getItem(key)`
