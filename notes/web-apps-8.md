@@ -447,7 +447,9 @@ function capitalizedWord(word){
 	return (word.trim().charAt(0).toUpperCase() + word.trim().toLowerCase().slice(1));
 }
 
+// Call these functions (which are more "bulletproof" than our earlier versions)
 let bobCapitalizedAndTrimmed2 = capitalizedWord(findNameInArray("bob",nameArray)); // "Bob"
+let bobCapitalizedAndTrimmed3 = capitalizedWord(findNameInArray("   bOb ",nameArray)); // "Bob"
 ```
 
 ### Fluent Interfaces
