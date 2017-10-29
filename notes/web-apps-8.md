@@ -471,7 +471,7 @@ let bobCapitalizedAndTrimmed3 = capitalizedWord(findNameInArray("   bOb ",nameAr
 ```
 
 ### Fluent Interfaces
-*Method chaining* is seen in JavaScript libraries that have a [Fluent Interface](https://en.wikipedia.org/wiki/Fluent_interface). *Fluent interfaces* are software interfaces that read like ordinary written language. Here's an example (from the wikipedia link above) that illustrates jQuery's approach (can you see how it almost reads like a sentence?):
+*Method chaining* is commonly seen in JavaScript libraries that have a [Fluent Interface](https://en.wikipedia.org/wiki/Fluent_interface). *Fluent interfaces* are software interfaces that read like ordinary written language. Here's an example (from the wikipedia link above) that illustrates jQuery's approach (can you see how it almost reads like a sentence?):
 
 ```javascript
 // getting an item from a table
