@@ -13,7 +13,7 @@ II. [Iterating over Arrays](#section2)
 
 III. [Other "Array-like" objects in JavaScript](#section3)
 
-IV. [Method Chaining](#section4)
+IV. [Method Chaining & Fluid Interfaces](#section4)
 
 V. [Nota bene](#section5)
 
