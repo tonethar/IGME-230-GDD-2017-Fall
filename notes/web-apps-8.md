@@ -514,7 +514,7 @@ let array4 = [...allNodes];
 1. Describe 3 ways to loop through a JavaScript Array.
 1. Does `Array.filter()` modify the old array (the one it is called on), or create a new array?
 1. What is the type of the object that is returned by `document.querySelectorAll()`?
-1. Using *method chaining* (at least 2 methods) and [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) and [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) methods, write code that produces a random number with only 2 digits past the decimal point. Be sure to test this in code - the JavaScript console is as easy place to do this.
+1. Using *method chaining* (at least 2 methods) and [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) and [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) methods, write code that produces a random number with only 2 digits past the decimal point. Be sure to test this in the browser - the JavaScript console is an easy place to do so.
 1. Define *Fluent Interface*.
 
 ## VII. <a id="section7">Review Exercise
