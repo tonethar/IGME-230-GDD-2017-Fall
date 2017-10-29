@@ -418,24 +418,25 @@ debugger;
 ```
 
 ## IV. <a id="section4">Method Chaining
-[Method Chaining](https://en.wikipedia.org/wiki/Method_chaining) is a syntax for invoking multiple method calls. Each method returns an object reference, allowing the calls to be chained together in a single statement without requiring variables to store the intermediate results.
+[Method Chaining](https://en.wikipedia.org/wiki/Method_chaining) is a syntax for invoking multiple method calls on objects. Each method returns an object reference, allowing the calls to be chained together in a single statement without requiring variables to store the intermediate results.
 
 ### Method Chaining Example:
+JavaScript has good support for chaining in that many of the array methods return a reference to an array, which allows us to chain the method calls.
 
 ```javascript
-// A. Method chaining, here pretty easy to read and understand
+// A. Method chaining, and here it's pretty easy to read and understand
 let highestNumber = [1,5,8,3,-10].sort().pop(); 	// 8
 let lowestNumber = [1,5,8,3,-10].sort().shift(); 	// -10
 
 
-// B. Method chaining, here it's not quite as clear what's going on
+// B. Method chaining, but here it's not quite as clear as to what's going on
 // we use .trim() and .toLowerCase() to make the string comparison more flexible 
 let nameArray = [" sUe ","  mARy  ","  bOB  "," freDdY  "];
 let bobLowercaseAndTrimmed = nameArray.find( e=> e.trim().toLowerCase() == "bob" ).toLowerCase().trim(); // "bob"
 let bobCapitalizedAndTrimmed = bobLowercaseAndTrimmed.charAt(0).toUpperCase() + bobLowercaseAndTrimmed.slice(1); // "Bob"
 
 
-// C. Maybe write 2 generalized functions and encapsulate the chaining there? 
+// C. Consider writing 2 generalized functions and encapsulate the chaining there
 // It's more lines of code, but it's easier to understand, debug, and reuse
 function findNameInArray(name,array){
 	return array.find(e=> e.trim().toLowerCase() == name.trim().toLowerCase())
@@ -450,7 +451,7 @@ let bobCapitalizedAndTrimmed2 = capitalizedWord(findNameInArray("bob",nameArray)
 ```
 
 ### Fluent Interfaces
-Method chaining is a component of JavaScript libraries that have [Fluent Interfaces](https://en.wikipedia.org/wiki/Fluent_interface) - that is software interfaces that read like ordinary written language. Here's an example (from the wikipedia link above):
+*Method chaining* is seen in JavaScript libraries that have a [Fluent Interface](https://en.wikipedia.org/wiki/Fluent_interface). *Fluent interfaces* are software interfaces that read like ordinary written language. Here's an example (from the wikipedia link above) that illustrates jQuery's approach (can you see how it almost reads like a sentence?):
 
 ```javascript
 // getting an item from a table
