@@ -386,6 +386,11 @@ let typedArray1 = new Uint8Array([0,33,64,128]); // 0-255 allowed
 typedArray1[1] = 32; // allowed
 console.log(typedArray1);  [0,32,64,128]
 
+// looping through typed arrays is OK
+for (num of typedArray1){
+	console.log(num); // 0 32 64 128
+}
+
 let typedArray2 = new Uint8Array([-10,33,64,128,256,3000]); // -10, 256 & 300 are bad values
 console.log(typedArray2); // [246, 33, 64, 128, 0, 184] - extraneous bits were trimmed!
 
