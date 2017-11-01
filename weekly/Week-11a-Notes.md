@@ -40,6 +40,13 @@ Take a look at what they provide, and what frameworks/libraries they use.
 ## Single-page Sites
 Single-page sites are becoming more and more popular, especially in the age of responsive design. These include sites like the "endless scrollers" we see in social media like Tumblr and Facebook, the sectioned "whole site on one scrolling page" like many portfolios, and web-app sites where all the content is changed on one page via JavaScript.
 - What are the advantages and disadvantages of single-page sites?
+Here are some cool examples:
+- https://www.epicgames.com/paragon/
+- https://www.airbnb.com/belong-anywhere
+- http://www.ginventory.co/  
+- http://nitengame.com/
+- http://www.dds.mu/
+- https://www.supergiantgames.com/games/pyre/
 
 ## Exercise
 - [CSS Frameworks](../exercises/week-11/frameworks-ice.md) See due date in exercise.
