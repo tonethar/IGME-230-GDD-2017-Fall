@@ -48,5 +48,12 @@ Here are some cool examples:
 - http://www.ginventory.co/  
 - http://www.dds.mu/
 
+Implementation:
+- Some sites are simply a single page, nothing more.
+- Some allow some in-page navigation, linking to IDs on the page
+```html
+<a href="#section1">Section 1</a>
+```
+
 ## Exercise
 - [CSS Frameworks](../exercises/week-11/frameworks-ice.md) See due date in exercise.
