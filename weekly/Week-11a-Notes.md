@@ -34,6 +34,7 @@ While we're at it, let's talk about HTML templates (also known as HTML themes). 
 - [tooplate](http://www.tooplate.com/)
 - [Templated](https://templated.co/)
 - [Theme Forest](https://themeforest.net/category/site-templates)
+
 Take a look at what they provide, and what frameworks/libraries they use.
 
 ## Single-page Sites
