@@ -189,7 +189,7 @@ console.log(multiply1(2));   // we omit the b parameter, the result is NaN (not 
 
 // #2 - by checking the value of b before using it, we can give it a default value 
 function multiply2(a, b) {
-  b = (typeof b !== 'undefined') ?  b : 1; // ternary operator
+  b = !b ?  b : 1; // ternary operator
   return a * b;
 }
 
