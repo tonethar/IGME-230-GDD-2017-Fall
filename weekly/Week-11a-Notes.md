@@ -45,9 +45,7 @@ Here are some cool examples:
 - https://www.epicgames.com/paragon/
 - https://www.airbnb.com/belong-anywhere
 - http://www.ginventory.co/  
-- http://nitengame.com/
 - http://www.dds.mu/
-- https://www.supergiantgames.com/games/pyre/
 
 ## Exercise
 - [CSS Frameworks](../exercises/week-11/frameworks-ice.md) See due date in exercise.
