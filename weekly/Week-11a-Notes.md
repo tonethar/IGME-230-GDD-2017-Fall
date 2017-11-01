@@ -54,6 +54,7 @@ Implementation:
 ```html
 <a href="#section1">Section 1</a>
 ```
+- Some use JS to manipulate the DOM, hiding or showing different elements when navigation is clicked, or rewriting innerHTML
 
 ## Exercise
 - [CSS Frameworks](../exercises/week-11/frameworks-ice.md) See due date in exercise.
