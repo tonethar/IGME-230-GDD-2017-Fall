@@ -222,11 +222,14 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 
 ## IX. <a id="section9"></a>Nota bene 
 1. In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
-2. The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer - documentation on the finer points of this is here:
+1. The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer - documentation on the finer points of this is here:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
     - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
-3. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
-4. JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
+1. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
+1. We expect you to review the following programming structures on your own:
+    - branching/conditionals such as [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else), [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch), and the [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/conditional_operator)
+    - repetitve constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+1. JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
     - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
     - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
@@ -259,14 +262,16 @@ Everything else - like the string "false" for example, is coerced to *true*.
 1. What kinds of values can a `Number` type hold? (Google it)
 1. Which of the following examples will evaluate to `true` in a boolean context?
     1. `undefined`, `null`, `false`, `0`, `""`, `''`
-    1. `"undefined"`, `"null"`, `"false"`
+    1. `0.0`
+    1. `"undefined"`, `"null"`
+    1. `"false"`
     1. `"true"`
     1. `new Date()`
-    1. `new Array()`
+    1. `new Array()`, `[]`
     
 
 ## XI. <a id="section11"></a>Review Exercise
-Make a copy of **hello-4.html** and name it **web-apps-2.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
+Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
 1. Print out the last element in the `colors` array.
@@ -279,6 +284,6 @@ Make a copy of **hello-4.html** and name it **web-apps-2.html**. Delete all of t
 
 <hr>
 
-**[Previous Section <- Introduction to Web Applications (part 1)](web-apps-1.md)**
+**[Previous Chapter <- Introduction to Web Applications (chapter 1)](web-apps-1.md)**
 
-**[Next Section -> Intro to the Web Browser DOM (part 3)](web-apps-3.md)**
+**[Next Chapter -> Intro to the Web Browser DOM (chapter 3)](web-apps-3.md)**

@@ -160,7 +160,7 @@ One common mistake that is easy to make, is to write this line:
 - Go ahead and change the code back so that it works again.
 
 ## IV. <a id="section4"></a>Events and Arrow Functions
-We can use arrow functions as event handlers too. You might recall that in the Functions lesson we mentioned that arrow functions have two advantages: 
+We can use arrow functions as event handlers too. You might recall that in the [Functions chapter](./web-apps-5.md) we mentioned that arrow functions have two advantages: 
 
 - they have a shorter syntax than regular functions
 - they do not bind their own `this` keyword. 
@@ -422,7 +422,7 @@ If we use the `window.onload` event handler, we can move our code back up to the
 
 #### 1) The starting code looks like this:
 
-Create the following file, and name it **web-apps-6.html**
+Create the following file, and name it **web-apps-6-HW.html**
 
 ```html
 <!DOCTYPE html>
@@ -504,7 +504,7 @@ You should see another message about the color you selected, and the &lt;legend>
 Be sure to submit this to the applicable dropbox, and do not post it to your web site.
 
 ### D) Extra Credit (worth 1 full HW)
-Can you do a version of this web app, but with checkboxes? 
+Can you do a version of this web app, but with checkboxes? Name the file **web-apps-6-HW-with-checkboxes.html**
 
 Hint: Checkboxes have a `.checked` property.
 
@@ -524,6 +524,14 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 <hr>
 
-**[Previous Section <- JavaScript Functions (part 5)](web-apps-5.md)**
+- **Important:** If you have not yet done the [Random Phrases-2](HW-random-phrases-2.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
-**[Next Section -> JavaScript Object Literals (part 7)](web-apps-7.md)**
+- **Important:** If you have not yet done the [Image Gallery](HW-image-gallery.md) homework, go check it out. See the mycourses dropbox for the actual due date.
+
+- You should also check out [Chibi Card Matching](HW-chibi-matching.md) game demo.
+
+<hr>
+
+**[Previous Chapter <- JavaScript Functions (chapter 5)](web-apps-5.md)**
+
+**[Next Chapter -> JavaScript Object Literals (chapter 7)](web-apps-7.md)**

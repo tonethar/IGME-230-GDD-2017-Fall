@@ -4,7 +4,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 
 ## II. Prerequisite knowledge
 - The HTML/CSS which we covered in this class
-- CSS selectors (in particular the CSS3 selectors) will come in handy
+- CSS selectors (in particular the [CSS3 selectors](https://www.w3.org/TR/css3-selectors/#selectors)) will come in handy
 - Fundamental programming concepts that you gleaned from the (at least) 2 programming classes you have taken prior to this course.
 
 ## III. How to get the most out of these tutorials
@@ -32,44 +32,46 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. using the JavaScript debugger to "break on exceptions"
     1. adding code breakpoints in the JavaScript debugger
     1. viewing the value of variables in the JavaScript debugger
+    1. dealing with `null` values
 1. [More Web Browser DOM Methods](./web-apps-4.md)
     1. the DOM inverted tree
     1. relationships: parent, child & sibling
     1. creating and modifying DOM elements
     1. inserting and deleting DOM elements from the DOM tree
 1. [JavaScript Functions](./web-apps-5.md)
-    1. Writing basic functions
-    1. Function declarations & expressions
-    1. Functions as *first-class* objects
+    1. writing basic functions
+    1. function declarations & expressions
+    1. functions as *first-class* objects
     1. ES6 Block & Script Scope
     1. ES6 Arrow Functions
-    1. More practice with the debugger
+    1. more practice with the debugger
 1. [JavaScript Events & the `this` keyword](./web-apps-6.md)
-    1. Event Handlers
-    1. Utilizing function declarations, expressions, and arrow functions
+    1. event handlers
+    1. utilizing function declarations, expressions, and arrow functions
     1. `addEventListener()`, `removeEventListener()`
-    1. Adding properties to elements with `element.dataset`
-    1. Values of `this` in regular functions and arrow functions
-    1. The `window.onload` event
+    1. adding properties to elements with `element.dataset`
+    1. values of `this` in regular functions and arrow functions
+    1. the `window.onload` event
 1. [JavaScript Object Literals](./web-apps-7.md)
-    1. Creating Object literals with properties and methods
-    1. Iterating over object keys and values
-    1. Creating "Object Factories"
-    1. ES6 Object Literal changes
-    1. Value types & Reference types
+    1. creating Object literals with properties and methods
+    1. iterating over object keys and values
+    1. creating "Object Factories"
+    1. ES6 Object literal changes
+    1. value types & reference types
 1. [JavaScript Arrays and array-like objects](./web-apps-8.md)
     1. methods of `Array`
-    1. Looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
+    1. looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
     1. `NodeList`
     1. JavaScript typed arrays
+    1. method chaining & fluent interfaces
 1. [The WebStorage API](./web-apps-9.md)
     1. `localStorage.setItem(key,value)`
     1. `localStorage.getItem(key)`
-    1. Serializing (stringifying) Objects for storage 
+    1. serializing (stringifying) objects for storage 
 1. [Intro to Web Services](./web-apps-10.md)
     1. AJAX v. Ajax
     1. JSON
-    1. Importing jQuery & utilizing `jQuery.ajax()`
+    1. importing jQuery & utilizing `jQuery.ajax()`
 
 ## V. Assignments
 Refer to the mycourses dropboxes for due dates:
@@ -109,5 +111,5 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 
 <hr>
 
-**[Next Section -> Introduction to Web Applications (part 1)](web-apps-1.md)**
+**[Get Started -> Introduction to Web Applications (chapter 1)](web-apps-1.md)**
 

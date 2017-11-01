@@ -130,7 +130,7 @@ console.log(greeting2); 	// Greetings and felicitations, kind Mary.
 // 2 - A function that takes another function as an argument, and then calls it
 function createGreetings(myData,myFunc){
 	let greetings = []; // empty array
-	for (let n of names){
+	for (let n of myData){
 		let g = myFunc(n); // call the passed in function and pass in a name
 		//let g = myFunc.call(this,n); // does the same thing
 		greetings.push(g); // add greeting to array
@@ -269,6 +269,7 @@ Be sure to run this example in Chrome with the web inspector open (see screensho
 Note that we have 3 scopes here: "Local", "Script", and "Global".
 - `func1()` has 2 "locally" scoped variables (i.e. to the function *block*) - `A` and `C`.
 - `A` and `B` are "script" scoped and are thus visible throughout this page and other scripts of the page.
+- There are 2 `A` variables here - one in script scope, the other in local scope. The locally scoped `A` in `func1()` will "mask" the script scoped A within `func1()`.
 - There are many globally scoped objects - alerts, arrays, the `Math` object, and so on. Our scripts have full access to these and other global variables.
 - **Try this**: Remove the `debugger;` statements and uncomment the final `console.log()` that tries to print out `C`. Of course it fails because we can't access local variables from outside the block in which they were declared in.
 
@@ -447,14 +448,18 @@ This "auto creation" of global properties is a feature you probably don't want t
 1. What is a *block*?
 1. Define *scope*
 1. Declaring a variable with `let` or `const` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
-1. Declaring a variable with `let` or `const` inside of a `for` loop of a function gives it what kind of *scope*?
+1. Declaring a variable with `let` or `const` inside of a function gives it what kind of *scope*?
+1. Declaring a variable with `let` or `const` inside of a `for` loop gives it what kind of *scope*?
+1. Declaring a variable with `let` or `const` inside of a `if(){...}` statement gives it what kind of *scope*?
+1. Declaring a variable with `var` inside of an `if(){...}` statement inside of a function gives it what kind of *scope*?
+1. Declaring a variable with `var` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
 1. What does the `debugger;` statement do?
 1. What does D.R.Y. stand for and *mean*? (see next section below)
 
 
 ## XII. <a id="section12"></a>Review Exercise
 
-Duplicate your **web-apps-4.html** file and name the copy **web-apps-5.html**
+Duplicate your **web-apps-4-HW.html** file and name the copy **web-apps-5-HW.html**
 Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
 What you need to do is to factor out that duplicated code and put it into a function.
 
@@ -474,8 +479,8 @@ The HTML produced should be identical to what was produced in the previous versi
 
 <hr>
 
- **[Previous Section <- More Web Browser DOM Methods (part 4)](web-apps-4.md)**
+ **[Previous Chapter <- More Web Browser DOM Methods (chapter 4)](web-apps-4.md)**
  
- **[Next Section -> JavaScript Events (part 6)](web-apps-6.md)**
+ **[Next Chapter -> JavaScript Events (chapter 6)](web-apps-6.md)**
 
 

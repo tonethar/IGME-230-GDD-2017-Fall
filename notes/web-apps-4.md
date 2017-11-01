@@ -181,6 +181,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 	// 5 - insert the <footer> at the end of the <body>
 	document.body.appendChild(footer);
 	
+	/* NEW CODE*/
 	// 6 - this code does the same thing as #1-#5 above, without having to use
 	// document.createTextNode() or element.setAttribute()
 	
@@ -250,6 +251,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 	footer2.innerHTML = "&copy; 20XX by Ima Student"
 	document.body.appendChild(footer2);
 	
+	/* NEW CODE*/
 	// 7 - create a new <li> and insert it into the end of the <ul>
 	let listItem = document.createElement("li");
 	listItem.innerHTML = "GeoCities";
@@ -320,7 +322,7 @@ document.body.removeChild(document.querySelector("p"));
 In the previous document we used `.innerHTML` to create new HTML elements, while in this document we were more *methodical* (literally) and used methods such as `document.createElement()`, `document.createTextNode()`, `element.appendChild()`
 
 Which approach should you use in your code? Our recommendation is to use whichever approach works for you. Consider:
-- `.innerHTML` is simpler in many use cases, but in some applications you will be doing a lot of string concatentation, which can sometimes be problematic. ES 6 String templating can lighten the load though.
+- `.innerHTML` is simpler in many use cases, but in some applications you will be doing a lot of string concatentation, which can sometimes be problematic as it can make the code hard to read. ES 6 String templating can lighten the load though.
 - the "DOM element creation" approach we used here can result in **more code** to write, to debug, and to maintain. 
 
 
@@ -341,14 +343,14 @@ Be sure to read the HTML DOM page linked near the top of this document.
 
 Here is your starter code:
 
-### web-apps-4.html
+### web-apps-4-HW.html
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Web Apps-4</title>
+	<title>Web Apps-4-HW</title>
 	<style>
 		body{border:1px solid gray;}
 	</style>
@@ -391,12 +393,12 @@ let links = {
 ```
 
 ### Instructions
-1. Create the **web-apps-4.html** file
+1. Create the **web-apps-4-HW.html** file
 1. Add you favorite colors and foods to the arrays. If you would rather change the theme of the page to movies, music, books or similar, feel free.
 1. Write code that loops through the `colors` array, generates list items, and appends them to the appropriate list element. For this array use a classic `for` loop.
 1. Write code that loops through the `foods` array, generates list items, and appends them to the appropriate list element. For this array use an ES6 `for...of` loop.
 1. Be sure that your code uses `document.createElement()` to create each element.
-1. Optional: add your favorite web sites to the `links` object literal, and then loop through the object, pulling out both the *key* and the *value*, generate functioning links, and add them to the last &lt;ol> on the page. This is worth an extra 5 points on the HW assignment. The JavaScript `for...in` loop will probably get the job done.
+1. Optional: add your favorite web sites to the `links` object literal, and then loop through the object, pulling out both the *key* and the *value*, generate functioning links, and add them to the last &lt;ol> on the page. This is worth an extra 5 points on the HW assignment. The JavaScript `for...in` loop will get the job done.
 
 ### Final Result
 
@@ -406,6 +408,10 @@ let links = {
 
 <hr>
 
-**[Previous Section <- Introduction to the Web Browser DOM (part 3)](web-apps-3.md)**
+- **Important:** If you have not yet done the [Random Phrases-1](HW-random-phrases-1.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
-**[Next Section -> JavaScript Functions (part 5)](web-apps-5.md)**
+<hr>
+
+**[Previous Chapter <- Introduction to the Web Browser DOM (chapter 3)](web-apps-3.md)**
+
+**[Next Chapter -> JavaScript Functions (chapter 5)](web-apps-5.md)**
