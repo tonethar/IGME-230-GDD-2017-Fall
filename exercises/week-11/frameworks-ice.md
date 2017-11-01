@@ -1,7 +1,7 @@
 # CSS Frameworks
 
 ## Overview & Goals
-You're going to use a CSS framework to create a website for a fictional restaurant. In my example, I'm going to use the Materialize framework from Google. No, it wasn't included in any of the tutorials I assigned. (And, in fact, Lynda.com doesn't even have a Materialize tutorial.) However, if you've completed one of those three tutorials that I assigned, you'll have a basic familiarity with how to use the styles and grids provided with a CSS framework. 
+You're going to use a CSS framework to create a website for a fictional restaurant. In my example, I'm going to use the Materialize framework from Google.
 
 I'm asking you to use Materialize for this exercise because I want you to be able to generalize the concepts of CSS frameworks and grids across different frameworks, and learn how to look up methods for accomplishing specific tasks in any of them. One of the skills that employers tell us is critical for employees is the ability to easily adapt to new technologies and tools--including (but not limited to) programming languages, version control systems, image editing software, code editors, and web frameworks. 
 
@@ -12,9 +12,9 @@ Here are the three different versions of what you're going to make--full-size (f
 
 
 ## Setting Up
-Download the [framework exercise files](frameworkExercise.zip) and unzip them. You'll find larger versions of the three screenshots shown above that you can use for reference. There's also a week7 folder that has in it an index.html file, a css directory with the Materialize CSS and a style.css file for adding your own modifications to the CSS, a fonts directory with the Roboto font that Materialize defaults to, and an images directory with the images you'll need for this page. 
+Download the [framework exercise files](frameworkExercise.zip) and unzip them. You'll find larger versions of the three screenshots shown above that you can use for reference. There's also a week11 folder that has in it an index.html file, a css directory with the Materialize CSS and a style.css file for adding your own modifications to the CSS, a fonts directory with the Roboto font that Materialize defaults to, and an images directory with the images you'll need for this page. 
 
-You're going to be editing *only* the index.html and css/style.css files--do not remove or edit any other files in the week7 directory!
+You're going to be editing *only* the index.html and css/style.css files--do not remove or edit any other files in the week11 directory!
 
 Before you start editing, take a look at the index.html file in a browser, so you can see what it looks like with no classes applied to any of the elements on the page. It's pretty bad, but you're going to fix that.  
 
@@ -111,4 +111,4 @@ The only thing left to do is format the copyright block at the bottom where I've
 Take a look at the page...it should be done!
 
 ## Submitting Your Work
-Upload the entire week7 folder to your igme230 folder on Banjo, and link to it from your main page. It must be submitted by 11:59pm on Saturday, October 14. 
+Upload the entire week11 folder to your 230 folder on Banjo, and link to it from your main page. This is due before our first class next week.
