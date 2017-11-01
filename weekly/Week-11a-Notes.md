@@ -29,12 +29,12 @@ There are also a ton of JS libraries in common use nowadays, giving us external 
 You'll note once again that libraries like jQuery provide minified code, which can have a significant impact on file sizes.
 
 ## Templates
-While we're at it, let's talk about HTML templates (also known as HTML themes). There are a lot of options to choose from, most of which use both a CSS framework and a JS library in addition to their own custom HTML and CSS. Templates are a quick and easy way to take pre-fab pages, populate them with your own content, and have a responsive site up and running in potentially a matter of minutes. Of course, on your assignments you need to build your own pages, not use templates, but they are a great resource for future work!
-- TemplateMo
+While we're at it, let's talk about HTML templates (also known as HTML themes). There are a lot of options to choose from, most of which use both a CSS framework and a JS library in addition to their own custom HTML and CSS. Templates are a quick and easy way to take pre-fab pages, populate them with your own content, and have a responsive site up and running in potentially a matter of minutes. Of course, on your assignments you need to build your own pages, not use templates, but they are a great resource for future work! There are a lot of these online, but here are some random examples:
+- [TemplateMo](http://www.templatemo.com/)
 - [tooplate](http://www.tooplate.com/)
 - [Templated](https://templated.co/)
 - [Theme Forest](https://themeforest.net/category/site-templates)
-
+Take a look at what they provide, and what frameworks/libraries they use.
 
 ## Single-page Sites
 Single-page sites are becoming more and more popular, especially in the age of responsive design. These include sites like the "endless scrollers" we see in social media like Tumblr and Facebook, the sectioned "whole site on one scrolling page" like many portfolios, and web-app sites where all the content is changed on one page via JavaScript.
