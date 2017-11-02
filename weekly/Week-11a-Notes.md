@@ -2,7 +2,7 @@
 
 ## Topics
 - CSS Frameworks
-- JavaScript Libraries
+- JavaScript Libraries and Plugins
 - HTML templates
 - Code minification
 - Single-page sites
