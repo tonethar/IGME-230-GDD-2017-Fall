@@ -33,6 +33,7 @@ Your portfolio must meet the following requirements:
 - Includes a recognizable, business-appropriate photo of you, as well as a personal logo
   - Your logo could be as simple as a circle containing your initials, or something more elaborate; use your Google-fu to find some guidance!
 - Your contact info, including your email address and your city of residence
+  - Make sure your email address itself is appropriate for business use, and also make sure the name that shows when you send emails (not just your signature) is your actual name, not a screen name or alias.
 - "Safe" social media links
 - A gallery of your work, using a lightbox or other interactive plugin such as [fancybox](http://fancyapps.com/fancybox/3/) to allow employers to see an overview of your work and get details on demand
 - The whole site should adhere to our CRAP guidelines, with a pleasing and appropriate color scheme, and also use at least one embedded font
