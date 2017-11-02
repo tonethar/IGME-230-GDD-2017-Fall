@@ -61,7 +61,6 @@ Your project will be graded on the following criteria:
 |  - Uses a lightbox of some sort to showcase your work | |
 |  - Uses an embedded font | |
 | **Possible Total Points** | **100** | |
-| Deduction if initial checkpoint is not submitted to dropbox on time | -10 | |
 
 ## Submission
 - Post the project to banjo (see location above) and link it from your 230 home page.
