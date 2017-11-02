@@ -2,59 +2,55 @@
 
 For this assignment, worth 5% of your class grade, you will be building a responsive, single-page "hire me" portfolio using a CSS framework of your choice.
 
-## I. Overview
 You can use the following tutorial to build your portfolio:
 https://www.lynda.com/CSS-tutorials/Building-Responsive-Portfolio-Site/372808-2.html
 
 (You can log into Lynda.com for free via the RIT library, or by following this link: https://shib.lynda.com/Shibboleth.sso/InCommon?providerId=https://shibboleth.main.ad.rit.edu/idp/shibboleth&target=https://shib.lynda.com/InCommon )
 
-This tutorial covers several topics as a bit of review for us, as well as how to use the [Skeleton](http://getskeleton.com/) framework. You don't *have* to use it, but it would be my recommendation. Whether you use this tutorial, another, or none at all, your portfolio must meet the following requirements:
+This tutorial covers several topics as a bit of review for us, as well as how to use the [Skeleton](http://getskeleton.com/) framework. You don't *have* to use it, but it would be my recommendation. Whether you use this tutorial, another, or none at all, your portfolio must meet the requirements outlined below.
+
+## I. Overview
+
+You are building a "hire me" portfolio where you can showcase your professional accomplishments. The purpose of the site is to display your relevant work and experiences, and enable interested employers to contact you. Your target audience is potential employers. This site should convince them you deserve an interview for a co-op or full-time job in your field. 
+
+The focus of this assignment is to get as much of your portfolio content as possible online in an organized fashion. The site design should be clean and neat. The navigation system should be straightforward and intuitive to use. It should all be responsive and on a single page.
+
+Required Content: The typical content in any portfolio, as outlined in our lecture, should be reflected in the content and design of your site. Examples:
+- Logo
+- Tag Line
+- Portfolio
+- About Me
+- Resume
+- Contact
 
 ## II. Requirements
 
-### A. Functional
-This depends on what you are building:
+Your portfolio must meet the following requirements:
 
-- If it is web service app, it should at a miniumum have the features of the *Music Finder* application. 
-- If it it some other kind of game or experience, it should do something useful, and be easy to use.
-- There will be no JavaScript errors or exceptions thrown by the app.
+- Location: This will be located #outside# your 230 folder, so it will be clearer to employers that it is jsut your portfolio and not work for a class. So, its location should be at people.rit/edu/abc1234/portfolio (where abc1234 is replaced with your username).
+- A single-page responsive design using a framework (not built by hand)
+- Includes a recognizable, business-appropriate photo of you, as well as a personal logo
+  - Your logo could be as simple as a circle containing your initials, or something more elaborate; use your Google-fu to find some guidance!
+- Your contact info, including your email address and your city of residence
+- "Safe" social media links
+- A gallery of your work, using a lightbox or other interactive plugin such as [fancybox](http://fancyapps.com/fancybox/3/) to allow employers to see an overview of your work and get details on demand
 
-### B. Design & Interaction
-- Pleasing graphic design
-- Widgets are well labeled
-- User should be able to figure out how to use the app with minimal instruction (and be sure to provide instruction and tooltips if necessary!), and user errors are handled gracefully.
-
-
-### C. HTML/CSS
-- Valid HTML5 - https://validator.w3.org
-- Valid CSS - https://jigsaw.w3.org/css-validator/
-- Most CSS is in an external style sheet.
-- Use HTML5 semantic and structural elements where practical.
-
-### D. Media
-- Images are properly optimized for web delivery.
-
-### E. Code Conventions
-- `let` and `const` (no `var`!)
-- `querySelector()` and `querySelectorAll()` for DOM traversal (DO NOT use the older methods)
-- D.R.Y. - Don't Repeat Yourself. Repeated blocks of nearly identical code should be factored out and placed in a separate function.
-- Variable and function names must begin with a lowercase letter.
-- Well-commented code. Each and every function gets a comment indicating what it does.
-- Delete or comment out your `console.log()` calls.
-
-## Milestones
-- Project proposal with mockup due in dropbox week 9 (see mycourses for due date/time). One submission per team please.
-- Final project deliverable due end of week 10 (see mycourses for due date/time). One submission per team please.
-- Final project documentation. Describe your contribution to the project, and give it a grade. Both partners must submit documentation.
-
-## Documentation
-- As with Project 1, include a Documentation page where you document your process, cite any sources, tell me where to find anything special you want me to see, and also explain how you met the requirements.
-- If you worked in a pair, explain what each team member did. Remember, everyone is responsible for contributing throughout the project, not just to one aspect.
+You might not have a lot of work to showcase at this time, though you have a couple projects from this course. Your design should accommodate future additions, and might be best if categorized by project type. All projects should have images, and code projects should link to GitHub or some other repository so the code itself can be accessed.
 
 ## Grading
-- *Both* partners must contribute *both* JavaScript code AND HTML/CSS to the project. This is NOT a project where team members are allowed to specialize into "Art Director" and "Software Developer" roles! Both team members shall be "Artist/Coders" (doing both) for this project.
 
 Your project will be graded on the following criteria:
+
+Single page
+Uses responsive framework
+Follows CRAP principles and has a pleasing and appropriate color scheme
+Content is appropriate and well-written, targeted at potential employers
+Uses a lightbox of some sort to showcase your work
+Uses an embedded font
+Safe social media links and contact info
+Photo of you, personal logo
+Resume
+
 
 | Criteria | Weight | Your Score |
 | -------- | ------ | ---------- |
@@ -77,11 +73,5 @@ Your project will be graded on the following criteria:
 | **Possible Total Points** | **100** | |
 | Deduction if initial checkpoint is not submitted to dropbox on time | -10 | |
 
-Note:
-- **Good** (Meet all requirements above reasonably well) = 90%
-- **Better** (Go beyond expectations in 2 or more areas) = 95%
-- **Best** (Go significantly beyond expectations in 2 or more areas) = 100%
-
 ## Submission
-- ZIP and post the completed project and documentation page to to the mycourses dropbox
-- Post the project to banjo and link it from your 230 home page (exception: do not post *Music Finder* to the web)
+- Post the project to banjo and link it from your 230 home page
