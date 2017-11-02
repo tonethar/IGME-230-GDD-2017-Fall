@@ -103,7 +103,7 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 
 ![Web Page](_images/web-storage-1.jpg)
 
-### B. You can also see your selections in the web inspector:
+### B. You can also see your selections reflected in the web inspector:
 
 ![Web Page](_images/web-storage-3.jpg)
 
