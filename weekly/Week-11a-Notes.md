@@ -28,6 +28,9 @@ There are also a ton of JS libraries in common use nowadays, giving us external 
 
 You'll note once again that libraries like jQuery provide minified code, which can have a significant impact on file sizes.
 
+## Plugins
+In addition to libraries, there are tons of plugins and other code snippets available on the Web to add functionality quickly. jQuery's site lists a ton of these. Another great example, useful for portfolios, is [Fancybox](http://fancyapps.com/fancybox/3/), a jQuery "lightbox" plugin for adding interactive galleries to your pages.
+
 ## Templates
 While we're at it, let's talk about HTML templates (also known as HTML themes). There are a lot of options to choose from, most of which use both a CSS framework and a JS library in addition to their own custom HTML and CSS. Templates are a quick and easy way to take pre-fab pages, populate them with your own content, and have a responsive site up and running in potentially a matter of minutes. Of course, on your assignments you need to build your own pages, not use templates, but they are a great resource for future work! There are a lot of these online, but here are some random examples:
 - [TemplateMo](http://www.templatemo.com/)
