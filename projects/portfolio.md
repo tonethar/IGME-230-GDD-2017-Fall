@@ -27,13 +27,15 @@ The typical content in any portfolio, as outlined in our lecture, should be refl
 
 Your portfolio must meet the following requirements:
 
-- Location: This will be located **outside** your 230 folder, so it will be clearer to employers that it is jsut your portfolio and not work for a class. So, its location should be at people.rit/edu/abc1234/portfolio (where abc1234 is replaced with your username).
+- Location: This will be located **outside** your 230 folder, so it will be clearer to employers that it is jsut your portfolio and not work for a class. So, its location should be at *people.rit/edu/abc1234/portfolio* (where *abc1234* is replaced with your username).
 - A single-page responsive design using a framework (not built by hand)
 - Includes a recognizable, business-appropriate photo of you, as well as a personal logo
   - Your logo could be as simple as a circle containing your initials, or something more elaborate; use your Google-fu to find some guidance!
 - Your contact info, including your email address and your city of residence
 - "Safe" social media links
 - A gallery of your work, using a lightbox or other interactive plugin such as [fancybox](http://fancyapps.com/fancybox/3/) to allow employers to see an overview of your work and get details on demand
+- The whole site should adhere to our CRAP guidelines, with a pleasing and appropriate color scheme, and also use at least one embedded font
+- Documentation: Cite all your sources in the footer of your page (you shouldn't have all that many).
 
 You might not have a lot of work to showcase at this time, though you have a couple projects from this course. Your design should accommodate future additions, and might be best if categorized by project type. All projects should have images, and code projects should link to GitHub or some other repository so the code itself can be accessed.
 
@@ -41,37 +43,26 @@ You might not have a lot of work to showcase at this time, though you have a cou
 
 Your project will be graded on the following criteria:
 
-Single page
-Uses responsive framework
-Follows CRAP principles and has a pleasing and appropriate color scheme
-Content is appropriate and well-written, targeted at potential employers
-Uses a lightbox of some sort to showcase your work
-Uses an embedded font
-Safe social media links and contact info
-Photo of you, personal logo
-Resume
-
-
 | Criteria | Weight | Your Score |
 | -------- | ------ | ---------- |
-| **Functionality** | **40** | |
-|  - Is useful and/or entertaining | |
-|  - Demonstrates creativity | |
-|  - Runs without errors | |
-| **Design & Interaction** | **20** | |
-|  - Visual design is pleasing | |
-|  - Interface is clear and well labeled | |
-|  - Prevents and handles errors well | |
-| **HTML/CSS/Media**  | **10** | |
+| **Site and design** | **40** | |
+|  - Single page | |
+|  - Uses a responsive framework | |
+|  - Navigation is clear and usable | |
+|  - Follows CRAP principles and has a pleasing and appropriate color scheme | |
+| **Content** | **40** | |
+|  - Content is appropriate and well-written, targeted at potential employers | |
+|  - Has a business-appropriate photo of you | |
+|  - Has a custom personal logo | |
+|  - Includes safe social media links and contact info | |
+|  - Includes a printable resume | |
+| **Technology**  | **20** | |
 |  - HTML and CSS validate | |
-|  - CSS is primarily in a single external stylesheet | |
-|  - Makes proper use of structural tags, etc. | |
-| **Code**  | **10** | |
-|  - Code is well formatted and commented, and follows coding standards | |
-| **Documentation** | **10** | |
-| **Above and Beyond (see below)** | **10** | |
+|  - Uses a lightbox of some sort to showcase your work | |
+|  - Uses an embedded font | |
 | **Possible Total Points** | **100** | |
 | Deduction if initial checkpoint is not submitted to dropbox on time | -10 | |
 
 ## Submission
-- Post the project to banjo and link it from your 230 home page
+- Post the project to banjo (see location above) and link it from your 230 home page.
+- If your project is in the incorrect location, even if you link to it, it will receive a 0.
