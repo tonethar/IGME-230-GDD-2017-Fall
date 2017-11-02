@@ -103,6 +103,9 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 
 ![Web Page](_images/web-storage-1.jpg)
 
+### B. You can also see your selections in the web inspector:
+
+![Web Page](_images/web-storage-3.jpg)
 
 ## III. <a id="section3">Storing Objects with Web Storage
 - A major limitation of Web storage is that it doesn't allow us to store arrays and other objects directly. But there's an easy workaround - you can easily convert built-in JavaScript objects (Object, Array, Date, etc) to and from a string respresentation, and then save them to `localStorage`. This is known as *serialization* - https://en.wikipedia.org/wiki/Serialization
