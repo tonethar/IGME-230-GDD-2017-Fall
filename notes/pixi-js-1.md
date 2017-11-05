@@ -31,6 +31,8 @@ VIII. [Nota Bene](#section8)
 
 IX. [Review Questions](#section9)
 
+X. [Review Exercise](#section10)
+
 <hr>
 
 <hr>
@@ -415,6 +417,13 @@ Nothing for now.
 1. What does **CORS** stand for? How can you get around it?
 1. Give 2 ways to set up a local web server on your personal computer.
 1. What are the hexadecimal color values for white, black, and green?
+
+
+### X. <a id="section10">Review Exercise
+Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-2-HW.html** and:
+- add a PixiJS Rounded Rectangle to the screen.
+- modify the button code so that both buttons also target and effect the rounded rect.
+- add a new PixiJS button that reduces the size of all 3 shapes everytime it is clicked.
 
 <hr>
  
