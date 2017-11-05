@@ -79,7 +79,7 @@ console.log(rollerSkates.moving); 		// false
 
 ### III. <a id="section3">Inheritance
 
-- In object-oriented programming, inheritance enables new objects to take on the characteristics (*state* & *behavior*) of existing objects
+- In object-oriented programming, *inheritance* enables new objects to take on the characteristics (both *state* & *behavior*) of existing objects
 - A class that is used as the basis for inheritance is called a *base class* (or *superclass*)
 - A class that inherits from a base class is called a *derived class* (or *subclass*)
 
