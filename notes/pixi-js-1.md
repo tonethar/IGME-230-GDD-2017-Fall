@@ -149,7 +149,7 @@ app.stage.addChild(circle);
 ![Screenshot](_images/pixi-2.jpg)
 
 #### Notes:
-- Here we used the Graphics() object to create 2 shapes. We gave the square above both a stroke (outside of shape) and a fill (the inside of the shape).
+- Here we used the Graphics() object to create 2 shapes. We gave the square above both a stroke (on border of shape) and a fill (the inside of the shape).
 - Graphics docs are here: http://pixijs.download/dev/docs/PIXI.Graphics.html
 - Note that colors are in JavaScript's hexadecimal number format and always begin in `0x`. Fun fact - you can also create octal numbers - they begin with a zero `parseInt(0111) // 73`
 - Why are the circle and square not at the same "y" on the screen? Because the circles are drawn from the center by default, and the squares are draw from their upper-left corner by default. We can change the square's behavior to match the circle by changing this line `square.drawRect(0,0,40,40);` of code to this: `square.drawRect(-20,-20,40,40);`
