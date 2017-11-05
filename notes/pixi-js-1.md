@@ -58,7 +58,7 @@ PixiJS pretty much just gives you *sprites*, but there are many plugins availabl
 
 Here is your first PixiJS program. Note that we are importing the library from a CDN ("Content Distribution Network") rather than downloading the library ourselves.
 
-#### pixi-1.html
+#### pixi-intro-1.html
 
 ```html
 <!DOCTYPE html>
@@ -98,7 +98,7 @@ document.body.appendChild(app.view);
 ### III. <a id="section3">Adding Shapes
 We can use PixiJS to create geometric shapes using PIXI.Graphics - http://pixijs.download/dev/docs/PIXI.Graphics.html
  
-#### pixi-2.html
+#### pixi-intro-2.html
 
 
 ```html
@@ -158,7 +158,7 @@ app.stage.addChild(circle);
 
 ### IV. <a id="section4">Two More Shapes
 
-#### Add the following to pixi-2.html
+#### Add the following to pixi-intro-2.html
 
 ```javascript
 // #3 make a line
@@ -193,7 +193,7 @@ app.stage.addChild(poly);
 ### V. <a id="section5">Adding DOM Button Events
 We can add DOM buttons to our web page, add event handlers to them, and then call properties and methods on our PixiJS objects.
 
-#### pixi-3.html
+#### pixi-intro-3.html
 
 ```html
 <!DOCTYPE html>
@@ -309,7 +309,7 @@ Origin 'null' is therefore not allowed access.
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) also turns off CORS by default.
 
 
-#### pixi-4.html
+#### pixi-intro-4.html
 
 ```html
 <!DOCTYPE html>
