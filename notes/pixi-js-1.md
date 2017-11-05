@@ -72,7 +72,6 @@ Here is your first PixiJS program. Note that we are importing the library from a
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
 <script>
 
-
 // #1 - Create a new Pixi application
 // http://pixijs.download/dev/docs/PIXI.Application.html
 const app = new PIXI.Application(600,400);
