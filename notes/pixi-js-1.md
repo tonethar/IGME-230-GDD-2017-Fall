@@ -413,4 +413,4 @@ You should also be able to copy/paste much of the code into our **pixi-1.html** 
 
 <hr>
  
- **[Next Chapter -> PixiJS Classes & Animation (chapter 2)](pixi-js-2.md)**
+ **[Next Chapter -> PixiJS Animation & ES6 Classes (chapter 2)](pixi-js-2.md)**
