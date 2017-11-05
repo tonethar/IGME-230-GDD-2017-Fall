@@ -2,7 +2,7 @@
 
 ## Overview
 About PixiJS - here's what the [creator says about it](https://www.youtube.com/watch?v=OWsz19OFUpc&t=32)
-- 2D Rendering Engine - put stuff on the screen - designed for speed and performance.
+- 2D Rendering Engine - put stuff on the screen - designed for speed and performance
 - Primarily you get sprites and a scene graph, but not a full game engine. Game engines have physics, sound, etc 
 - Uses WebGL for drawing - which is fast because WebGL runs on the GPU!
 - Basically is a "wrapper" for WebGL.
