@@ -10,10 +10,6 @@ About PixiJS - here's what the [creator says about it](https://www.youtube.com/w
 - Free and Open Source
 - Originally created as a Flash replacement, some of the API is similar
 
-
-PixiJS is a rendering engine for HTML5 browsers. By default it utilizes WebGL to draw, which is the fastest way to get something onto a web browser screen.
-It will fall back to drawing on the &lt;canvas> tag when running on older browsers.
-
 ## Contents
 <!--- Local Navigation --->
 I. [Resources](#section1)
