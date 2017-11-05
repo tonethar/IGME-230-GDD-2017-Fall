@@ -2,11 +2,28 @@
 
 ## Overview
 PixiJS is a rendering engine for HTML5 browsers. By default it utilizes WebGL to draw, which is the fastest way to get something onto a web browser screen.
-It will fall back to drawing on the &lt;canvas> tag on older browsers.
+It will fall back to drawing on the &lt;canvas> tag when running on older browsers.
+
+## Contents
+<!--- Local Navigation --->
+I. [Resources](#section1)
+
+II. ["Hello PixiJS"](#section2)
+
+III. [Adding Shapes](#section3)
+
+IV. [Two More Shapes](#section4)
+
+V. [Adding DOM Button Events](#section5)
+
+VI. [Sprites and Displaying Images](#section6)
+
+VII. [Using the Demos](#section7)
+
+VIII. [Review Questions](#section7)
 
 
-
-### I. Resources
+### I. <a id="section1">Resources
 PixiJS has fantastic examples and an active community of developers. Here are some helpful links:
 
 - http://www.pixijs.com/gallery
@@ -30,7 +47,7 @@ PixiJS pretty much just gives you *sprites*, but there are many plugins availabl
 - https://github.com/pixijs/pixi-particles
 
 
-### II. "Hello PixiJS"
+### II. <a id="section2">"Hello PixiJS"
 
 Here is your first PixiJS program. Note that we are importing the library from a CDN ("Content Distribution Network") rather than downloading the library ourselves.
 
@@ -72,7 +89,7 @@ document.body.appendChild(app.view);
 - *Can you change the background color to something other than black?* Sure! Either use CSS styles, or assign a specific value using `.style.backgroundColor`
 
 
-### II. Adding shapes
+### III. <a id="section3">Adding Shapes
 We can use PixiJS to create geometric shapes using PIXI.Graphics - 
  
 #### pixi-2.html
@@ -127,7 +144,7 @@ app.stage.addChild(circle);
 - Note that colors are in JavaScript's hexadecimal number format and always begin in `0x`. Fun fact - you can also create octal numbers - they begin with a zero `parseInt(0111) // 73`
 - Why are the circle and square not at the same "y" on the screen? Because the circles are drawn from the center by default, and the squares are draw from their upper-left corner by default. We can change the square's behavior to match the circle by changing this line `square.drawRect(0,0,40,40);` of code to this: `square.drawRect(-20,-20,40,40);`
 
-### III. Two more shapes
+### IV. <a id="section4">Two More Shapes
 
 #### Add the following to pixi-2.html
 
@@ -161,7 +178,7 @@ app.stage.addChild(poly);
 ![Screenshot](_images/pixi-3.jpg)
 
 
-### IV. Adding DOM button events
+### V. <a id="section5">Adding DOM Button Events
 We can add DOM buttons to our web page, add event handlers to them, and then call properties and methods on our PixiJS object.
 
 #### pixi-3.html
@@ -254,7 +271,7 @@ document.querySelector("#rotate").onclick = e=>{
 
 ![Screenshot](_images/pixi-4.jpg)
 
-### V. Sprites and displaying images
+### VI. <a id="section6">Sprites and Displaying Images
 
 The Sprite class allows us to display textured images in the jpeg, png, or gif format: http://pixijs.download/release/docs/PIXI.Sprite.html
 
@@ -360,13 +377,13 @@ function makeRectangle(width=50,height=50,color=0xFF0000){
 - the `pointerover` and similar events will work with both mouse events and touch events.
 - note our handy helper function `makeRectangle()`
 
-### VI. Using the demos
+### VII. <a id="section7">Using the Demos
 Head to this demo page - http://pixijs.github.io/examples/#/basics/basic.js - which was linked above.
 These demos are really helpful in that you can edit the code in place and see "live" changes.
 You should also be able to copy/paste much of the code into our **pixi-1.html** template and try it out.
 
 
-### VII. Review Questions
+### VIII. <a id="section8">Review Questions
 1. What does **CDN** stand for? What are the advantages of using a CDN?
 1. What does **CORS** stand for? How can you get around it?
 1. What are the hexadecimal color values for white, black, and green?
