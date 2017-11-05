@@ -27,7 +27,9 @@ VI. [Sprites and Displaying Images](#section6)
 
 VII. [Using the Demos](#section7)
 
-VIII. [Review Questions](#section7)
+VIII. [Nota Bene](#section8)
+
+IX. [Review Questions](#section9)
 
 <hr>
 
@@ -405,10 +407,13 @@ These demos are really helpful in that they nicely illustrate many of the featur
 
 You should also be able to copy/paste much of the code into our **pixi-1.html** template and try it out.
 
+### VIII. <a id="section8">Nota Bene
+Nothing for now.
 
-### VIII. <a id="section8">Review Questions
+### IX. <a id="section9">Review Questions
 1. What does **CDN** stand for? What are the advantages of using a CDN?
 1. What does **CORS** stand for? How can you get around it?
+1. Give 2 ways to set up a local web server on your personal computer.
 1. What are the hexadecimal color values for white, black, and green?
 
 <hr>
