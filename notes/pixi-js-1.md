@@ -420,7 +420,7 @@ Nothing for now.
 
 
 ### X. <a id="section10">Review Exercise
-Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-2-HW.html** and:
+Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-1-HW.html** and:
 1. add a PixiJS Rounded Rectangle to the screen.
 1. modify the button code so that both buttons also target and effect the rounded rect.
 1. add a new PixiJS button that reduces the size of all 3 shapes everytime it is clicked.
