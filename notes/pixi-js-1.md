@@ -69,7 +69,7 @@ document.body.appendChild(app.view);
 - You should see a 600x400 black canvas in the browser
 - You should also see this canvas that PixiJS created for us in the Web Inspector
 - You should see a log to the console
-- *Can you change the background color to something other than black? Sure! Either use CSS styles, or assign a specific value using `style.backgroundColor`*
+- *Can you change the background color to something other than black?* Sure! Either use CSS styles, or assign a specific value using `.style.backgroundColor`
 
 
 ### II. Adding shapes
