@@ -316,9 +316,4 @@ Nothing for now.
 
 <hr>
 
-<hr>
- 
-
-<hr>
-
  **[Previous Chapter <- Intro to PixiJS (chapter 1)](pixi-js-1.md)**
