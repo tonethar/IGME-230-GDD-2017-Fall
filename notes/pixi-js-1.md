@@ -287,12 +287,15 @@ The Sprite class allows us to display textured images in the jpeg, png, or gif f
 
 Here is the button image we will use below (right-click to save) --> ![Button image](_images/button-130.png)
 
+<hr>
+#### IMPORTANT!
 One restriction you are going to run into is when your script tries to load an image off of your computer's hard drive - the CORS (Cross-Origin Resource Sharing) restriction kicks in and the image will be blocked from loading. For example, the error message in Chrome for the code below is:
 
 ```
 Access to Image at 'file://button-130.png' from origin 'null' has been blocked by CORS policy: Invalid response.
 Origin 'null' is therefore not allowed access.
 ```
+<hr>
 
 Solutions? 
 
