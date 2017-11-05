@@ -313,7 +313,7 @@ Origin 'null' is therefore not allowed access.
 - Run the code off of a web server, which you can do by uploading your code to banjo.
 - Use an IDE like [Brackets](http://brackets.io) - which creates a local web server for you to run your code on.
 - [You can also create a web server using Python](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) on your local machine.
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) also turns off CORS by default.
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) turns off CORS by default, so you don't need a web server.
 
 
 #### pixi-intro-4.html
