@@ -97,7 +97,7 @@ document.body.appendChild(app.view);
 
 
 ### III. <a id="section3">Adding Shapes
-We can use PixiJS to create geometric shapes using PIXI.Graphics - 
+We can use PixiJS to create geometric shapes using PIXI.Graphics - http://pixijs.download/dev/docs/PIXI.Graphics.html
  
 #### pixi-2.html
 
