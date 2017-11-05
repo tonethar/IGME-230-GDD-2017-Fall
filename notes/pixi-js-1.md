@@ -17,7 +17,7 @@ I. [Resources](#section1)
 
 II. ["Hello PixiJS"](#section2)
 
-III. [Adding Shapes](#section3)
+III. [Drawing Shapes](#section3)
 
 IV. [Two More Shapes](#section4)
 
@@ -95,7 +95,7 @@ document.body.appendChild(app.view);
 - *Can you change the background color to something other than black?* Sure! Either use CSS style rules, or assign a specific style value in JavaScript using `.style.backgroundColor`
 
 
-### III. <a id="section3">Adding Shapes
+### III. <a id="section3">Drawing Shapes
 We can use PixiJS to create geometric shapes using PIXI.Graphics - http://pixijs.download/dev/docs/PIXI.Graphics.html
  
 #### pixi-intro-2.html
