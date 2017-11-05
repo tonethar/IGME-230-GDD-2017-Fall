@@ -410,3 +410,7 @@ You should also be able to copy/paste much of the code into our **pixi-1.html** 
 1. What does **CDN** stand for? What are the advantages of using a CDN?
 1. What does **CORS** stand for? How can you get around it?
 1. What are the hexadecimal color values for white, black, and green?
+
+<hr>
+ 
+ **[Next Chapter -> PixiJS Classes & Animation (chapter 2)](pixi-js-2.md)**
