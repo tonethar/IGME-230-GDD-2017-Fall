@@ -255,7 +255,7 @@ poly.x = 125;
 poly.y = 125;
 app.stage.addChild(poly);
 
-// #5 target shapes with DOM events
+// #5 target shapes with button DOM events
 document.querySelector("#move").onclick = e=>{square.x+=10;circle.x+=10;line.x+=10;poly.x+=10;};
 document.querySelector("#rotate").onclick = e=>{
 	let amt = Math.PI/6; // 30 degrees
