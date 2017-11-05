@@ -191,7 +191,7 @@ app.stage.addChild(poly);
 
 
 ### V. <a id="section5">Adding DOM Button Events
-We can add DOM buttons to our web page, add event handlers to them, and then call properties and methods on our PixiJS object.
+We can add DOM buttons to our web page, add event handlers to them, and then call properties and methods on our PixiJS objects.
 
 #### pixi-3.html
 
