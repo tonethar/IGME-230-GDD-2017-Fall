@@ -29,6 +29,9 @@ VII. [Using the Demos](#section7)
 
 VIII. [Review Questions](#section7)
 
+<hr>
+
+<hr>
 
 ### I. <a id="section1">Resources
 PixiJS has fantastic examples and an active community of developers. Here are some helpful links:
