@@ -390,7 +390,9 @@ function makeRectangle(width=50,height=50,color=0xFF0000){
 
 ### VII. <a id="section7">Using the Demos
 Head to this demo page - http://pixijs.github.io/examples/#/basics/basic.js - which was linked above.
-These demos are really helpful in that you can edit the code in place and see "live" changes.
+
+These demos are really helpful in that they nicely illustrate many of the features of PixiJS, and that you can also edit the code in place and see "live" changes.
+
 You should also be able to copy/paste much of the code into our **pixi-1.html** template and try it out.
 
 
