@@ -362,7 +362,7 @@ app.stage.addChild(b2);
 b1.interactive = true;
 b1.on('pointerup',e=>{s1.rotation += Math.PI/12;s2.rotation -= Math.PI/12;});
 b2.interactive = true;
-b2.on('pointerup',e=>{s1.height += 20;s1.width += 20; s2.height -= 20;s2.width -= 10; });
+b2.on('pointerup',e=>{s1.height += 20;s1.width += 20; s2.height += 20;s2.width += 10; });
 
 // #4 make b1 act more like a button
 b1.on('pointerover',e=>{e.target.tint=0xBBBBBB});
@@ -387,7 +387,7 @@ function makeRectangle(width=50,height=50,color=0xFF0000){
 </html>
 ```
 
-#### Which looks like this in the browser:
+#### Which looks like this in the browser - be sure to click the buttons to see what they do - and look over the code to understand how it's done:
 
 ![Screenshot](_images/pixi-5.jpg)
 
