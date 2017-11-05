@@ -299,7 +299,7 @@ Origin 'null' is therefore not allowed access.
 ```
 <hr>
 
-Solutions? 
+#### Solutions? 
 
 - Run the code off of a web server, which you can do by uploading your code to banjo.
 - Use an IDE like [Brackets](http://brackets.io) - which creates a local web server for you to run your code on.
