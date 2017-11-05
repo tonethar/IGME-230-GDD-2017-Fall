@@ -90,10 +90,10 @@ document.body.appendChild(app.view);
 ![Screenshot](_images/pixi-1.jpg)
 
 #### Notes
-- You should see a 600x400 black canvas in the browser
-- You should also see this canvas that PixiJS created for us in the Web Inspector
-- You should see a log to the console
-- *Can you change the background color to something other than black?* Sure! Either use CSS styles, or assign a specific value using `.style.backgroundColor`
+- You should see the 600x400 black canvas that PixiJS created for us in the browser
+- You should also see this canvas in the Web Inspector
+- You should see a log to the console that shows the rendering method being used (Canvas or WebGL)
+- *Can you change the background color to something other than black?* Sure! Either use CSS style rules, or assign a specific style value in JavaScript using `.style.backgroundColor`
 
 
 ### III. <a id="section3">Adding Shapes
