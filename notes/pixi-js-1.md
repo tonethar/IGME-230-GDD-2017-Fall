@@ -151,11 +151,11 @@ app.stage.addChild(circle);
 - Note that colors are in JavaScript's hexadecimal number format and always begin in `0x`. Fun fact - you can also create octal numbers - they begin with a zero `parseInt(0111) // 73`
 - Why are the circle and square not at the same "y" on the screen? Because the circles are drawn from the center by default, and the squares are draw from their upper-left corner by default. We can change the square's behavior to match the circle by changing this line  of code:
 
-`square.drawRect(0,0,40,40);`
+	`square.drawRect(0,0,40,40);`
 
-to this: 
+	to this: 
 
-`square.drawRect(-20,-20,40,40);`
+	`square.drawRect(-20,-20,40,40);`
 
 ### IV. <a id="section4">Two More Shapes
 
