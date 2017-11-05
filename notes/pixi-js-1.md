@@ -1,4 +1,4 @@
-# Intro to PixiJS
+# 1 - Intro to PixiJS
 
 ## Overview
 About PixiJS - here's what the [creator says about it](https://www.youtube.com/watch?v=OWsz19OFUpc&t=32)
