@@ -1,6 +1,6 @@
 # Portfolio Assignment
 
-### Due end of week 12
+### Due Tuesday 11/21, by 11:59 PM
 For this assignment, worth 5% of your class grade, you will be building a responsive, single-page "hire me" portfolio using a CSS framework of your choice.
 
 You can use the following tutorial to build your portfolio:
