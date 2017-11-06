@@ -28,7 +28,7 @@ The typical content in any portfolio, as outlined in our lecture, should be refl
 
 Your portfolio must meet the following requirements:
 
-- Location: This will be located **outside** your 230 folder, so it will be clearer to employers that it is jsut your portfolio and not work for a class. So, its location should be at *people.rit/edu/abc1234/portfolio* (where *abc1234* is replaced with your username).
+- Location: This will be located **outside** your 230 folder, so it will be clearer to employers that it is your portfolio and not work for a class. So, its location should be at *people.rit/edu/abc1234/portfolio* (where *abc1234* is replaced with your username).
 - A single-page responsive design using a framework (not built by hand)
 - Includes a recognizable, business-appropriate photo of you, as well as a personal logo
   - Your logo could be as simple as a circle containing your initials, or something more elaborate; use your Google-fu to find some guidance!
