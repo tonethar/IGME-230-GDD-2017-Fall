@@ -10,6 +10,7 @@ Having an online portfolio you can share with potential employers is very import
 ## Example Portfolios
 - http://www.brianemling.com/
 - http://www.katiepustolski.com/
+- http://dougwatro.com/
 - https://www.awwwards.com/websites/portfolio/
 
 ## Presentations
