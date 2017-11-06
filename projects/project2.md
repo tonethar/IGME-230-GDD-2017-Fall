@@ -64,7 +64,7 @@ This depends on what you are building:
 - Final project documentation. Describe your contribution to the project, and give it a grade. Both partners must submit documentation.
 
 ## Documentation
-- As with Project 1, include a Documentation page where you document your process, cite any sources, tell me where to find anything special you want me to see, and also explain how you met the requirements.
+- As with Project 1, include a Documentation page (linked from your project where I can find it) where you document your process, cite any sources, tell me where to find anything special you want me to see, and also explain how you met the requirements.
 - If you worked in a pair, explain what each team member did. Remember, everyone is responsible for contributing throughout the project, not just to one aspect.
 
 ## Grading
