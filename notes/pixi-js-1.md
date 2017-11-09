@@ -1,7 +1,7 @@
 # 1 - Intro to PixiJS
 
 ## Overview
-About PixiJS - here's what the [creator says about it](https://www.youtube.com/watch?v=OWsz19OFUpc&t=32)
+About PixiJS:
 - 2D Rendering Engine - put stuff on the screen - designed for speed and performance
 - Primarily you get sprites and a scene graph, but not a full game engine. Game engines have physics, sound, etc 
 - Uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) for drawing - which is fast because WebGL runs on the GPU!
@@ -10,6 +10,7 @@ About PixiJS - here's what the [creator says about it](https://www.youtube.com/w
 - Easy to use
 - Free and Open Source
 - Originally created as a [Flash](https://en.wikipedia.org/wiki/Adobe_Flash) replacement, much of the API is similar
+- Here is what the [creator says about it](https://www.youtube.com/watch?v=OWsz19OFUpc&t=32)
 
 ## Contents
 <!--- Local Navigation --->
