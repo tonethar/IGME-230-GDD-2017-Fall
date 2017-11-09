@@ -1,4 +1,4 @@
-# 2 - PixiJS Animation & ES6 Classes
+# 2 - ES6 Classes & PixiJS Animation
 
 ## Overview
 In this chapter we will look at creating ES6 classes, and getting them to work with PixiJS.
