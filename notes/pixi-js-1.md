@@ -428,4 +428,4 @@ Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-1-HW.html**
 
 <hr>
  
- **[Next Chapter -> PixiJS Animation & ES6 Classes (chapter 2)](pixi-js-2.md)**
+ **[Next Chapter -> ES6 Classes & PixiJS Animation (chapter 2)](pixi-js-2.md)**
