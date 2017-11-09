@@ -14,7 +14,7 @@ In this course, we are just going to scratch the surface and work with the "read
 - Some examples of web services can be found on this page: [sample-web-services.md](../projects/_supporting-files/sample-web-services.md)
 
 
-## III. How do we download the data?
+## III. Downloading remote data via *Ajax*
 
 - As developers, what we want to do is this:
     - capture a user intent (for example, *what's the weather in Rochester going to be today?*)
@@ -35,7 +35,7 @@ Behind the scenes, the actual browser APIs that are being used for Ajax by jQuer
 
 ## IV. What are the data formats?
 - In the early days of Ajax, XML formats such as SOAP and RSS were popular.
-- More recently, JSON (**J**ava**S**cript **O**bject **N**otation) has become the format of choice because it gives smaller file sizes than equivalent XML, and is easier for web browsers to parse because it maps directly to core JavaScript data types. JSON is also easier to send to web browser "cross domain", but we won't get into the details of that in this course.
+- More recently, JSON (**J**ava**S**cript **O**bject **N**otation) has become the format of choice because it gives smaller file sizes than equivalent XML, and is easier for web browsers to parse because it maps directly to core JavaScript data types. JSON is also easier to send to a web browser "cross domain", but we won't get into the details of that in this course.
 - You can read about JSON here: http://www.json.org and here: 
 - The 6 core data types of JSON are:
     - `String`
