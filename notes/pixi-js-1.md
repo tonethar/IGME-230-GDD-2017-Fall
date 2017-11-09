@@ -396,7 +396,6 @@ function makeRectangle(width=50,height=50,color=0xFF0000){
 
 #### Notes:
 
-- Note that our URL begins with `localhost:8000` rather than `file:///`, which means we are running off of a local web server.
 - Sprite docs are here: http://pixijs.download/release/docs/PIXI.Sprite.html
 - here we are using PixiJS sprites as buttons, rather than using DOM buttons like we did last time. 
 - the `pointerover` and similar events will work with both mouse events and touch events.
