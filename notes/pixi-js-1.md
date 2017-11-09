@@ -10,7 +10,7 @@ About PixiJS:
 - Easy to use
 - Free and Open Source
 - Originally created as a [Flash](https://en.wikipedia.org/wiki/Adobe_Flash) replacement, much of the API is similar
-- Here is what the [creator says about it](https://www.youtube.com/watch?v=OWsz19OFUpc&t=32)
+- Here is what the [creator of PixiJS says about it](https://www.youtube.com/watch?v=OWsz19OFUpc&t=32)
 
 ## Contents
 <!--- Local Navigation --->
