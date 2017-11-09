@@ -126,7 +126,7 @@ class Car extends Vehicle{
 let car1 = new Car(4,5,2017,"Toyota","Corolla");
 car1.start(); 					// call .start() in base class
 car1.honk();					// Honk! I am a Toyota Corolla
-console.log(car1.moving); 		// true
+console.log(car1.moving); 			// true
 
 
 </script>
