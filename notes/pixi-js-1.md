@@ -363,11 +363,13 @@ app.stage.addChild(b2);
 
 // #3 add events to the buttons
 b1.interactive = true;
+// element.on('event-name',function-to-call);
 b1.on('pointerup',e=>{s1.rotation += Math.PI/12;s2.rotation -= Math.PI/12;});
+
 b2.interactive = true;
 b2.on('pointerup',e=>{s1.height += 20;s1.width += 20; s2.height += 20;s2.width += 10; });
 
-// #4 make b1 act more like a button
+// #4 make b1 act more like a button (mouseover,mousedown etc)
 b1.on('pointerover',e=>{e.target.tint=0xBBBBBB});
 b1.on('pointerdown',e=>{e.target.tint=0x888888});
 b1.on('pointerup',e=>{e.target.tint=0xBBBBBB});
@@ -398,8 +400,8 @@ function makeRectangle(width=50,height=50,color=0xFF0000){
 
 - Sprite docs are here: http://pixijs.download/release/docs/PIXI.Sprite.html
 - here we are using PixiJS sprites as buttons, rather than using DOM buttons like we did last time. 
-- the `pointerover` and similar events will work with both mouse events and touch events.
 - note than the PixiJS `on` method is similar to `addEventListener()` in the DOM.
+- the `pointerover` and similar events will work with both mouse events and touch events.
 - note our handy helper function `makeRectangle()`
 
 ### VII. <a id="section7">Using the Demos
