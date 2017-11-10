@@ -13,13 +13,13 @@ We will also look at ES6 classes, which are another way to make object instances
     - buttons and Events
     - animating sprites
 - ES 6 Classes
-    - the `class`, `constructor`, `extends` and `new` keywords
+    - the `class`, `constructor`, `extends`, and `new` keywords
     - class inheritance
     - subclassing PixiJS classes
 
 
 ## Assignments
-The required readings and assignments for this week are here (see mycourses drop boxes for the due dates):
+The required readings and assignments for this week are here (see myCourses dropboxes for the due dates):
 
 - https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/pixi-js-1.md
 - https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/pixi-js-2.md
