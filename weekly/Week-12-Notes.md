@@ -11,10 +11,11 @@ We will also look at ES6 classes, which are another way to make object instances
     - drawing Shapes
     - drawing Images
     - buttons and Events
-    - animation
+    - animating sprites
 - ES 6 Classes
-     - the `class`, `constructor`, `extends` and `new` keywords
-     - class inheritance
+    - the `class`, `constructor`, `extends` and `new` keywords
+    - class inheritance
+    - subclassing PixiJS classes
 
 
 ## Assignments
