@@ -221,7 +221,7 @@ app.stage.addChild(c2);
 - [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html)
 - [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html)
 - [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html)
-- [PIXI.EventEmitter](https://github.com/primus/eventemitter3)**
+- [PIXI.EventEmitter](https://github.com/primus/eventemitter3)
 
 ### V. <a id="section5">Animation 
 Now we need to add  more of these `Circle` objects to the screen and animate them. The code below will get us started:
