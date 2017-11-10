@@ -5,6 +5,7 @@ This week we will be getting ready for *Project 3: Sprite-based Game* by looking
 We will also look at ES6 classes, which are another way to make object instances in JavaScript.
 
 ## Topics
+- Questions on the [Portfolio "Mini Project](../projects/portfolio.md)?
 - PixiJS
     - setting up a PixiJS application
     - drawing Shapes
