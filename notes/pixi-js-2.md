@@ -317,7 +317,7 @@ app.ticker.add(()=>
 
 ### VI. <a id="section6">Nota Bene
 Nothing for now.
-- The class hierarchy for PIXI.Graphics is [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html) < [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html) < [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html < [PIXI.EventEmitter](https://github.com/primus/eventemitter3)
+- The class hierarchy for PIXI.Graphics is [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html) < [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html) < [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html) < [PIXI.EventEmitter](https://github.com/primus/eventemitter3)
 
 ### VII. <a id="section7">Review Questions
 Nothing for now.
