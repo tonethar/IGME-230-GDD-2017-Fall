@@ -1,7 +1,7 @@
 # Week 12 Notes
 
 ## Overview
-This week we will be getting ready for *Project 3: Sprite-based Game* by looking at [PixiJS](http://www.pixijs.com), which is a high performance 2D rendering library that can be used to create games and interactive experiences. 
+This week we will be getting ready for *Project 3: Sprite-based Game* by looking at [PixiJS](http://www.pixijs.com), which is a high performance 2D rendering library that can be used to create games and interactive experiences in a web browser. 
 We will also look at ES6 classes, which are another way to make object instances in JavaScript.
 
 ## Topics
