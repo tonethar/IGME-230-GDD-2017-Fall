@@ -2,7 +2,7 @@
 
 ## Overview
 This week we will be getting ready for Project 3 Sprite-based Game by looking at PixiJS, which is a high performance 2D rendering library that can be used to create games and interactive experiences. 
-We will also look at ES6 classes.
+We will also look at ES6 classes, which are another way to make object instances in JavaScript.
 
 ## Topics
 - PixiJS
