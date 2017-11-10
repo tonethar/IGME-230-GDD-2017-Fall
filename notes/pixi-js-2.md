@@ -290,6 +290,7 @@ To get the animation working, add the following to **pixi-animation-4.html**:
 
 ```javascript
 // http://pixijs.download/dev/docs/PIXI.ticker.Ticker.html
+// provide a function that will be called 60 FPS
 app.ticker.add(()=>
 {
 	for (let c of circles){
