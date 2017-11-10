@@ -216,7 +216,12 @@ app.stage.addChild(c2);
 
 ![Screenshot](_images/pixi-animation-1.jpg)
 
-**Because Circle extends PIXI.Graphics, it has all of the properties and methods inherited from both [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html), and its super classes [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html), [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html) and [PIXI.EventEmitter](https://github.com/primus/eventemitter3)**
+**Because Circle extends PIXI.Graphics, it has all of the properties and methods inherited from these super classes:
+
+- [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html)
+- [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html)
+- [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html)
+- [PIXI.EventEmitter](https://github.com/primus/eventemitter3)**
 
 ### V. <a id="section5">Animation 
 Now we need to add  more of these `Circle` objects to the screen and animate them. The code below will get us started:
