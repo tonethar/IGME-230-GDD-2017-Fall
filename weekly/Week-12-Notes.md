@@ -1,0 +1,23 @@
+# Week 12 Notes
+
+## Overview
+This week we will be getting ready for Project 3 Sprite-based Game by looking at PixiJS, which is a high performance 2D rendering library that can be used to create games and interactive experiences. 
+We will also look at ES6 classes.
+
+## Topics
+- PixiJS
+    - setting up a PixiJS application
+    - drawing Shapes
+    - drawing Images
+    - buttons and Events
+    - animation
+- ES 6 Classes
+     - the `class`, `constructor`, `extends` and `new` keywords
+     - class inheritance
+
+
+## Assignments
+The required readings and assignments for this week are here (see mycourses drop boxes for the due dates):
+
+- https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/pixi-js-1.md
+- https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/pixi-js-2.md
