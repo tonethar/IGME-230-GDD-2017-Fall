@@ -234,7 +234,7 @@ app.stage.addChild(c2);
 
 ![Screenshot](_images/pixi-animation-1.jpg)
 
-**Because Circle extends PIXI.Graphics, it has all of the properties and methods inherited from these super classes:
+**Because Circle extends PIXI.Graphics, it has all of the properties and methods inherited from these super classes:**
 
 - [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html)
 - [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html)
