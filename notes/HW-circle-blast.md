@@ -183,33 +183,33 @@ This is a great use case of [PIXI.Container](http://pixijs.download/dev/docs/PIX
 ### Coding the "Game Over" scene
 - **Let's go ahead and write the code for the "game over" scene - add this to the end of `createLabelsAndButtons()`. Here's all the code you need - for your copy & paste pleasure:**
 
-```
+```javascript
 // 3 - set up `gameOverScene`
-	// 3A - make game over text
-	let gameOverText = new PIXI.Text("Game Over!\n        :-O");
-	textStyle = new PIXI.TextStyle({
-		fill: 0xFFFFFF,
-		fontSize: 64,
-		fontFamily: "Futura",
-		stroke: 0xFF0000,
-		strokeThickness: 6
-	});
-	gameOverText.style = textStyle;
-	gameOverText.x = 100;
-	gameOverText.y = sceneHeight/2 - 160;
-	gameOverScene.addChild(gameOverText);
-	
-	// 3B - make "play again?" button
-	let playAgainButton = new PIXI.Text("Play Again?");
-	playAgainButton.style = buttonStyle;
-	playAgainButton.x = 150;
-	playAgainButton.y = sceneHeight - 100;
-	playAgainButton.interactive = true;
-	playAgainButton.buttonMode = true;
-	playAgainButton.on("pointerup",e=>{e.stopPropagation();startGame();});
-	playAgainButton.on('pointerover',e=>{e.target.alpha = 0.7;});
-	playAgainButton.on('pointerout',e=>{e.currentTarget.alpha = 1.0;});
-	gameOverScene.addChild(playAgainButton);
+// 3A - make game over text
+let gameOverText = new PIXI.Text("Game Over!\n        :-O");
+textStyle = new PIXI.TextStyle({
+	fill: 0xFFFFFF,
+	fontSize: 64,
+	fontFamily: "Futura",
+	stroke: 0xFF0000,
+	strokeThickness: 6
+});
+gameOverText.style = textStyle;
+gameOverText.x = 100;
+gameOverText.y = sceneHeight/2 - 160;
+gameOverScene.addChild(gameOverText);
+
+// 3B - make "play again?" button
+let playAgainButton = new PIXI.Text("Play Again?");
+playAgainButton.style = buttonStyle;
+playAgainButton.x = 150;
+playAgainButton.y = sceneHeight - 100;
+playAgainButton.interactive = true;
+playAgainButton.buttonMode = true;
+playAgainButton.on("pointerup",e=>{e.stopPropagation();startGame();});
+playAgainButton.on('pointerover',e=>{e.target.alpha = 0.7;});
+playAgainButton.on('pointerout',e=>{e.currentTarget.alpha = 1.0;});
+gameOverScene.addChild(playAgainButton);
 ```
 
 - **Reload the page to be sure that there are no code errors.  Nothing will look different at this point.**
