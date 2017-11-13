@@ -11,7 +11,7 @@ It has the following features:
 - Movement uses vectors and is frame rate independent
 - Mouse control of the player ship
 - Bounding box collision detection
-- Sound loading and playback using the Howler JS library
+- Sound loading and playback using the [Howler JS](https://github.com/goldfire/howler.js/) library
 - Sprite sheet loading and animation
 - Scoring and levels
 
@@ -35,9 +35,8 @@ The start code is zipped up here: [HW-pixi-game-start.zip](_files/HW-pixi-game-s
 
 Take a look at what you have:
 - a **game.html** file - currently it's mostly done for you, except that you are going to have to link to 2 JS libraries, and to 3 other JavaScript files. There will be no custom CSS in this project other than for the custom "move" cursor.
-- a **images** directory - contains our custom cursor, a graphic for the player's ship, and a sprite sheet that is used with the explosion effect.
+- an **images** directory - contains our custom cursor, a graphic for the player's ship, and a sprite sheet that is used with the explosion effect.
 - a **js** directory - there are 3 JavaScript files in here - **classes.js** and **main.js** are both currently empty, but **utilities.js** is all done for you.
-
 
 **Reminder: Once we start loading in images utilizing JavaScript, you will need to run this project off of a server. See the list of 4 ways to do this on the [Intro to PixiJS](pixi-js-1.md) notes.**
 
