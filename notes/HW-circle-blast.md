@@ -144,7 +144,7 @@ If you try to preview the results you will get an error because we didn't define
 
 ## VI. Creating the Start Scene
 
-- Now we need to create `createLabelsAndButtons()` - go ahead and add this to **main.js**:
+- Now we need to implement the `createLabelsAndButtons()` function - go ahead and add this to **main.js**:
 
 ![Screenshot](_images/circle-blast-9.jpg)
 
