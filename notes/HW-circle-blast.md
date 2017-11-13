@@ -58,7 +58,7 @@ Load the **game.html** page into a browser. To verify that you imported these li
 
 **main.js** will contain the majority of our game code, and will be responsible for setting up our 3 "scenes" and their UI, loading images and sounds, and determining when the game is over.
 
-- **Make main.js look like this:**
+- **Make main.js look like this - below is the code you can copy & paste:**
 
 ```html
 // We will use `strict mode`, which helps us by having the browser catch many common JS mistakes
