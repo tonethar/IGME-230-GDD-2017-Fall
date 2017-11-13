@@ -138,6 +138,15 @@ console.log(car1.moving); 			// true
 
 - above we used `extends Vehicle` when we created the `Car` class, so that all `Car` instances will also possess the properties and methods of `Vehicle`.
 - we used `super` to call the `constructor` method of the base class.
+- In our constructor, adding properties to our object can be streamlined a bit in ES6; the "this" below isn't entirely necessary:
+```html
+  constructor(doors,wheels,occupants) {
+    this.doors = doors
+    this.wheels = wheels;
+    this.occupants = occupants;
+    this.moving = false;
+  }
+```
 
 
 ### IV. <a id="section4">Extending PIXI.Graphics 
