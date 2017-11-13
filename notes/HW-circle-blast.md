@@ -133,8 +133,9 @@ function setup() {
 
 ![Screenshot](_images/circle-blast-7.jpg)
 
-##  V. Getting started on the 3 scenes ("start scene", "game scene", "game over scene"
+##  V. Getting started on the 3 scenes
 
+- The are 3 scenes we need to code: "start scene", "game scene" and "game over scene"
 - Go ahead and add the following code to `setUp(){...}`:
 
 ![Screenshot](_images/circle-blast-8.jpg)
