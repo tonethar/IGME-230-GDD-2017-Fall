@@ -147,7 +147,16 @@ console.log(car1.moving); 			// true
     this.moving = false;
   }
 ```
-
+We can just say:
+```html
+  constructor(doors,wheels,occupants) {
+    doors = doors
+    wheels = wheels;
+    occupants = occupants;
+    this.moving = false;
+  }
+```
+We do still need to say ```this.moving=false;``` because we aren't passing in a parameter named ```this```.
 
 ### IV. <a id="section4">Extending PIXI.Graphics 
 
