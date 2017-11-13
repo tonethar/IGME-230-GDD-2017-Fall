@@ -120,9 +120,10 @@ function setup() {
 }
 ```
 
-- So now we have set up all of our "script scope" variables that we will need for the completed game.
-- Note that we are starting the game (by calling `setUp()`) AFTER we have pre-loaded all of our image assets.
 - We also went ahead and created a new PIXI application, and then appended the `view` (a &lt;canvas> tag) to the document.
+- We have set up all of our "script scope" variables that we will need for the completed game.
+- Note that we are starting the game - by calling `setUp()` - AFTER we have pre-loaded all of our image assets.
+
 
 - **Load the game in a browser to verify that PIXI is loaded (you should see a 600x600 black screen):**
 
