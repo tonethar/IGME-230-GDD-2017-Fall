@@ -140,7 +140,7 @@ function setup() {
 
 ![Screenshot](_images/circle-blast-8.jpg)
 
-If you try to preview the results you will get an error because we didn't define `createLabelsAndButtons()` yet.
+If you try to preview the results you will get an error because we didn't write `createLabelsAndButtons()` yet.
 
 ## VI. Creating the Start Scene
 
