@@ -272,4 +272,4 @@ fireballSound = new Howl({
 <hr>
 <hr>
 
-**That's enough for this section, go ahead and move on to [Circle Blast Part II](HW-circle-blast.md)**
+**That's enough for this section, go ahead and move on to [Circle Blast Part II](HW-circle-blast-2.md)**
