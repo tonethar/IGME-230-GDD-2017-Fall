@@ -24,7 +24,7 @@ IV. [Two More Shapes](#section4)
 
 V. [Adding DOM Button Events](#section5)
 
-VI. [Sprites and Displaying Images/Running code on a server](#section6)
+VI. [Sprites and Displaying Images & Running code on a server](#section6)
 
 VII. [Using the Demos](#section7)
 
@@ -291,7 +291,7 @@ document.querySelector("#rotate").onclick = e=>{
 
 ![Screenshot](_images/pixi-4.jpg)
 
-### VI. <a id="section6">Sprites and Displaying Images
+### VI. <a id="section6">Sprites and Displaying Images & Running code on a server
 
 The Sprite class allows us to display textured images in the jpeg, png, or gif format: http://pixijs.download/release/docs/PIXI.Sprite.html
 
