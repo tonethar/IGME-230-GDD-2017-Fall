@@ -262,6 +262,12 @@ fireballSound = new Howl({
 
 `shootSound.play()` 
 
+`hitSound.play()` 
+
+`fireballSound.play()` 
+
+
+
 
 <hr>
 <hr>
