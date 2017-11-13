@@ -229,16 +229,17 @@ Now we need to create a spaceship that the player can control. We will first cre
 - Add the following to `setUp(){...}` in **main.js**:
 
 ```javascript
-	// #5 - Create ship
-	ship = new Ship();
-	gameScene.addChild(ship);
+// #5 - Create ship
+ship = new Ship();
+gameScene.addChild(ship);
 ```
 
-- **Reload the page, you should now see the ship in the upper-left corner of the screen - which is (0,0)**
+- **Reload the page, you should now see the ship in the upper-left corner of the screen - which is (0,0).**
+- Only half of the ship is visible because we adjusted the `.anchor` so it would be drawn from its center rather than the upper-left corner, which is the default.
 
 ## IX. Pre-loading the audio files
 In this game we are using the [Howler](https://github.com/goldfire/howler.js/) audio library, which uses the high-performance Web Audio API to play audio files.
-(Recall that you imported this library at the top of the HTML file).
+(Recall that you imported this library at the top of the **game.html** file).
 
 - Go ahead and add this code to `setUp(){...}` in **main.js**:
 
