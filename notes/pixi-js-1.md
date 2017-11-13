@@ -24,7 +24,7 @@ IV. [Two More Shapes](#section4)
 
 V. [Adding DOM Button Events](#section5)
 
-VI. [Sprites and Displaying Images](#section6)
+VI. [Sprites and Displaying Images/Running code on a server](#section6)
 
 VII. [Using the Demos](#section7)
 
