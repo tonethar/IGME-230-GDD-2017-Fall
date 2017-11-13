@@ -181,7 +181,7 @@ This is a great use case of [PIXI.Container](http://pixijs.download/dev/docs/PIX
 ![Screenshot](_images/circle-blast-13.jpg)
 
 ### Coding the "Game Over" scene
-- **Let's go ahead and write the code for the "game over" scene - add this to then end of `createLabelsAndButtons()`. Here's all the code you need - for your copy & paste pleasure:**
+- **Let's go ahead and write the code for the "game over" scene - add this to the end of `createLabelsAndButtons()`. Here's all the code you need - for your copy & paste pleasure:**
 
 ```
 // 3 - set up `gameOverScene`
