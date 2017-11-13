@@ -156,7 +156,7 @@ We can just say:
     this.moving = false;
   }
 ```
-We do still need to say ```this.moving=false;``` because we aren't passing in a parameter named ```this```.
+We do still need to say ```this.moving=false;``` because we aren't passing in a parameter named ```moving```.
 
 ### IV. <a id="section4">Extending PIXI.Graphics 
 
