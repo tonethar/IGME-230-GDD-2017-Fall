@@ -16,7 +16,7 @@ It has the following features:
 - Scoring and levels
 
 ### Pre-requisite knowledge
-To complete this exercise, you should have completed the entire [web app series](./web-apps-0.md), as well as [pixi-js-1.md](./pixi-js-1.md) and [pixi-js-2.md](./pixi-js-2.md)
+Before doing this exercise, you should have completed the entire [web app series](./web-apps-0.md), as well as [pixi-js-1.md](./pixi-js-1.md) and [pixi-js-2.md](./pixi-js-2.md)
 
 ### Screen shots
 
