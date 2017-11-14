@@ -136,7 +136,7 @@ function setup() {
 ##  V. Getting started on the 3 scenes
 
 - The are 3 scenes we need to code: "start scene", "game scene" and "game over scene"
-- Go ahead and add the following code to `setUp(){...}`:
+- Add the following code to `setUp(){...}`:
 
 ![Screenshot](_images/circle-blast-8.jpg)
 
@@ -144,7 +144,7 @@ If you try to preview the results you will get an error because we didn't write 
 
 ## VI. Creating the Start Scene
 
-- Now we need to implement the `createLabelsAndButtons()` function - go ahead and add this to **main.js**:
+- Now we need to implement the `createLabelsAndButtons()` function - add this to **main.js**:
 
 ![Screenshot](_images/circle-blast-9.jpg)
 
@@ -159,7 +159,7 @@ If you try to preview the results you will get an error because we didn't write 
 
 ## VII. Begin coding the Game Scene
 
-- To get the "start game" button working, go ahead and implement `startGame()` - this goes in **main.js**:
+- To get the "start game" button working, implement `startGame()` - this goes in **main.js**:
 
 ![Screenshot](_images/circle-blast-10.jpg)
 
@@ -176,7 +176,7 @@ This is a great use case of [PIXI.Container](http://pixijs.download/dev/docs/PIX
 
 ![Screenshot](_images/circle-blast-12.jpg)
 
-- **Go ahead and reload the page, and click the "start game" button, you should now see the score and health labels:**
+- **Reload the page, and click the "start game" button, you should now see the score and health labels:**
 
 ![Screenshot](_images/circle-blast-13.jpg)
 
@@ -241,7 +241,7 @@ gameScene.addChild(ship);
 In this game we are using the [Howler](https://github.com/goldfire/howler.js/) audio library, which uses the high-performance Web Audio API to play audio files.
 (Recall that you imported this library at the top of the **game.html** file).
 
-- Go ahead and add this code to `setUp(){...}` in **main.js**:
+- Add this code to `setUp(){...}` in **main.js**:
 
 ```javascript
 // #6 - Load Sounds
@@ -272,4 +272,4 @@ fireballSound = new Howl({
 <hr>
 <hr>
 
-**That's enough for this section, go ahead and move on to [Circle Blast Part II](HW-circle-blast-2.md)**
+**That's enough for this section, move on to [Circle Blast Part II](HW-circle-blast-2.md)**
