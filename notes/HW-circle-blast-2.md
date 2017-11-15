@@ -32,6 +32,7 @@ In this walkthrough we will complete *Circle Blast!*.
     - spacebar to fire 
 - Coding
     - create a reusable `Button` class
+    - create a reusable `Explosion` class
 
 
  **[Previous Chapter <- Circle Blast! (part 1)](HW-circle-blast.md)**
