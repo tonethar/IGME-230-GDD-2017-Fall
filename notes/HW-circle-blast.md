@@ -171,8 +171,8 @@ If you try to preview the results you will get an error because we didn't write 
 
 ![Screenshot](_images/circle-blast-11.jpg)
 
-- **Note that `scoreLabel` and `lifeLabel` have been previously declared above in "script scope" so that we can refer to them later**
-- **You will also need to declare these 2 functions. These will be called periodically as the player shoots the circles, and as the ship takes damage:**
+- **Note that `scoreLabel` and `lifeLabel` have been previously declared above in "script scope" so that we could refer to them later**
+- **You will also need to declare the following 2 functions. These will be called periodically as the player shoots the circles, and as the ship takes damage:**
 
 ![Screenshot](_images/circle-blast-12.jpg)
 
