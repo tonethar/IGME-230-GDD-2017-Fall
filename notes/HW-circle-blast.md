@@ -206,9 +206,9 @@ playAgainButton.x = 150;
 playAgainButton.y = sceneHeight - 100;
 playAgainButton.interactive = true;
 playAgainButton.buttonMode = true;
-playAgainButton.on("pointerup",startGame);
-playAgainButton.on('pointerover',e=>e.target.alpha = 0.7);
-playAgainButton.on('pointerout',e=>e.currentTarget.alpha = 1.0);
+playAgainButton.on("pointerup",startGame); // startGame is a function reference
+playAgainButton.on('pointerover',e=>e.target.alpha = 0.7); // concise arrow function with no brackets
+playAgainButton.on('pointerout',e=>e.currentTarget.alpha = 1.0); // ditto
 gameOverScene.addChild(playAgainButton);
 ```
 
