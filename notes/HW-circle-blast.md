@@ -163,9 +163,9 @@ If you try to preview the results you will get an error because we didn't write 
 
 ![Screenshot](_images/circle-blast-10.jpg)
 
-Test it. Clicking the button should show the game scene and hide the start scene. The game scene is currently empty, so all you will see is the black 600x600 &lt;canvas>.
+- Test it. Clicking the button should show the game scene and hide the start scene. The game scene is currently empty, so all you will see is the black 600x600 &lt;canvas>.
 
-This is a great use case of [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html) (all 3 scenes are pixi `Container` instances), the ability to show and hide grouped content (in this case game scenes) with 1 line of code.
+- This is a great use case of [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html) (all 3 scenes are pixi `Container` instances), the ability to show and hide grouped content (in this case game scenes) with 1 line of code.
 
 - **Now get started on building the game scene user interface - add the following to the end of `createLabelsAndButtons()`:**
 
