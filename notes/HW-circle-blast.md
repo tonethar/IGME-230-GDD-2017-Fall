@@ -34,7 +34,7 @@ Before doing this exercise, you should have completed the entire [web app series
 The start code is zipped up here: [HW-pixi-game-start.zip](_files/HW-pixi-game-start.zip)
 
 Take a look at what you have:
-- a **game.html** file - currently it's mostly done for you, except that you are going to have to link to 2 JS libraries, and to 3 other JavaScript files. There will be no custom CSS in this project other than for the custom "move" cursor.
+- a **game.html** file - currently it's mostly done for you, except that you are going to have to link to 2 JS libraries, and to 3 other JavaScript files. There will be no custom CSS in this project, other than what's already here for the custom "move" cursor.
 - an **images** directory - contains our custom cursor, a graphic for the player's ship, and a sprite sheet that is used with the explosion effect.
 - a **js** directory - there are 3 JavaScript files in here - **classes.js** and **main.js** are both currently empty, but **utilities.js** is all done for you.
 
