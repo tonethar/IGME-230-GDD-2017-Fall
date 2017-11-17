@@ -207,3 +207,5 @@ Thinking of making some improvements on this game or a simialr one of your own c
 <hr><hr>
 
 **[Previous Chapter <- Circle Blast! (part 2)](HW-circle-blast-2.md)**
+
+**[Next Chapter -> Circle Blast! (part 4)](HW-circle-blast-4.md)**
