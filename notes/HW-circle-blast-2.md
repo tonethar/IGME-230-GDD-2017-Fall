@@ -10,7 +10,7 @@ III. [Create some obstacles](#section3)
 
 IV. [Get level loading working](#section4)
 
-V. [Circle Collisions](#section5)
+V. [Ship->Circle Collisions](#section5)
 
 VI. [Ending the game](#section6)
 
