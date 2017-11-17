@@ -135,7 +135,7 @@ To create the explosion effect by "playing" the frame of the animation, we will 
 
 ![Screenshot](_images/circle-blast-28.jpg)
 
-**Note that with a little bit of tweaking, this function could work with any array of textures, of any size.**
+Note that with a little bit of tweaking, this function could work with any array of textures, of any size.
 
 
 ### VI-B. Call the `createExplosion()` function
