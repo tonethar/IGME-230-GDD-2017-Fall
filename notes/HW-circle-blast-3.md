@@ -6,7 +6,13 @@ In this walkthrough we will complete *Circle Blast!*.
 
 
 ## II. Shooting Bullets
-So the player can die by deliberately running into the circles, but can't actually harm the circles without running into them. That's not too interesting, Let's get shooting working.
+So the player can die by deliberately running into the circles, but can't actually harm the circles without running into them. That's not too interesting, so let's get shooting working.
+
+### II-A. The `Bullet` class
+
+- **Add the following to classes.js:**
+
+
 
 
 ## X. Possible improvements
