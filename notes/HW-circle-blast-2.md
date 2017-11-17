@@ -156,9 +156,11 @@ For now we will skip past **#4 - Move Bullets** and work on **#5 - Check for Col
 
 ![Screenshot](_images/circle-blast-21.jpg)
 
-- **Reload the page, and move the ship into the circles. You should see them disappear, a sound should play, and the life value should go down.**
+- **Reload the page, and move the ship into the circles. You should see the circle disappear, a sound should play, and the life value should go down.**
 
 To do bounding box collision detection between the ship and the circles, we are calling `rectsIntersect()`, which is yet another helper function from **utilities.js**. Remember when we said that PixiJS is a *rendering engine*, not a *game engine*? This means that we have to write a lot of these kinds of methods ourselves when we use PixiJS to build a game. That's OK! It's a good way to learn about and appreciate everything that game engines do for us.
+
+We also set the `.isAlive` property of the circle to false. Which will help us to filter them out of the `circles` array in the next step.
 
 ### V-B. Cleaning up
 
