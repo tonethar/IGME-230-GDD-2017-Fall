@@ -18,17 +18,16 @@ For this project you (and optionally a partner) are creating a JavaScript-driven
 ## II. Requirements
 
 ### A. Functional
-This depends on what you are building:
-
-- If it is web service app, it should at a miniumum have the features of the *Music Finder* application. 
-- If it it some other kind of game or experience, it should do something useful, and be easy to use.
+- You will use PixiJS as your underlying graphics engine.
+- Your game or app should do something useful, and be easy to use.
 - There will be no JavaScript errors or exceptions thrown by the app.
+
+Canvas and direct DOM manipulation (for the experience itself) are not allowed; you may utilize DOM manipulation for other aspects of your interface, but the purpose is to demonstrate your ability to implement the PixiJS library.
 
 ### B. Design & Interaction
 - Pleasing graphic design
 - Widgets are well labeled
 - User should be able to figure out how to use the app with minimal instruction (and be sure to provide instruction and tooltips if necessary!), and user errors are handled gracefully.
-
 
 ### C. HTML/CSS
 - Valid HTML5 - https://validator.w3.org
