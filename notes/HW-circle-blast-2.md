@@ -1,9 +1,25 @@
 # HW - Circle Blast! - Part 2
 
-## I. Overview
+## Contents
+<!--- Local Navigation --->
+I. [Overview](#section1)
+
+II. [Implement our main "game loop"](#section2)
+
+III. [Create some obstacles](#section3)
+
+IV. [Get level loading working](#section4)
+
+V. [Circle Collisions](#section5)
+
+VI. [Ending the game](#section6)
+
+<hr><hr>
+
+## I. <a id="section1">Overview
 In this walkthrough we will continue to work on *Circle Blast!* by adding ship animation, circle animation, collision detection, and a game over state.
 
-## II. Implement our main "game loop"
+## II. <a id="section2">Implement our main "game loop"
 
 We are going to skip past "#7 - load sprite sheet" for now and instead handle "#8 - Start update loop"
 
@@ -89,7 +105,7 @@ The ship should now smoothly move towards the position of the mouse. If you woul
 Note: Here we are using the `lerp()` and `clamp()` helper functions that were given to you in **utilities.js** - please check out the implementaion of those functions right now.
 
 
-## III. Create some obstacles
+## III. <a id="section3">Create some obstacles
 
 So we have a moving ship, but no opponents yet. Now we need to create those circles that the player will eventually be dodging and shooting.
 
@@ -118,7 +134,7 @@ This code is hopefully self-explanatory: it creates circles, adds them to the ar
 ![Screenshot](_images/circle-blast-18.jpg)
 
 
-## IV. Get level loading working
+## IV. <a id="section4">Get level loading working
 
 ### IV-A. In **main.js** implement `loadLevel()`:
 
@@ -147,7 +163,7 @@ function loadLevel(){
  
 - **Reload the page - the 5 circles are now moving and bouncing off of the sides of the scene**
 
-## V. Ship->Circle Collisions
+## V. <a id="section5">Ship->Circle Collisions
 
 For now we will skip past **#4 - Move Bullets** and work on **#5 - Check for Collisions**.
 
@@ -176,7 +192,7 @@ Recall that `array.filter()` accepts a "testing" (or predicate) function that re
 - **Reload the page, and move the ship into the circles. Type `circles.length` into the console again, you should get a `0` this time**.
 
 
-## VI. Ending the game
+## VI. <a id="section6">Ending the game
 
 ### VI-A. Add the following to `gameLoop()`
 
