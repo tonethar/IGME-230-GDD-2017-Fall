@@ -1,6 +1,26 @@
 # HW - Circle Blast!
 
-## I. Overview
+## Contents
+<!--- Local Navigation --->
+I. [Overview](#section1)
+
+II. [Get started!](#section2)
+
+III. [Coding game.html](#section3)
+
+IV. [Getting started on main.js](#section4)
+
+V. [Getting started on the 3 scenes](#section5)
+
+VI. [Creating the Start Scene](#section6)
+
+VII. [Begin coding the Game Scene](#section7)
+
+VIII. [Getting the ship on the screen](#section8)
+
+IX. [Pre-loading the audio files](#section9)
+
+## I. <a id="section1">Overview
 In this walkthrough we will construct a complete PixiJS game, *Circle Blast!*
 
 It has the following features:
@@ -29,7 +49,7 @@ Before doing this exercise, you should have completed the entire [web app series
 #### Game Over Screen
 ![Screenshot](_images/circle-blast-3.jpg)
 
-## II. Get started!
+## II. <a id="section2">Get started!
 
 The start code is zipped up here: [HW-pixi-game-start.zip](_files/HW-pixi-game-start.zip)
 
@@ -40,7 +60,7 @@ Take a look at what you have:
 
 **Reminder: Once we start loading in images utilizing JavaScript, you will run into CORS security issues will need to run this project off of a server. See the list of 4 ways to do this on the [Intro to PixiJS](pixi-js-1.md) notes.**
 
-## III. Coding game.html
+## III. <a id="section3">Coding game.html
 
 - First let's get the **game.html** file completed - it needs to look like this:
 
@@ -54,7 +74,7 @@ Load the **game.html** page into a browser. To verify that you imported these li
 
 ![Screenshot](_images/circle-blast-5.jpg)
 
-##  IV. Getting started on main.js
+##  IV. <a id="section4">Getting started on main.js
 
 **main.js** will contain the majority of our game code, and will be responsible for setting up our 3 "scenes" and their UI, loading images and sounds, and determining when the game is over.
 
@@ -133,7 +153,7 @@ function setup() {
 
 ![Screenshot](_images/circle-blast-7.jpg)
 
-##  V. Getting started on the 3 scenes
+##  V. <a id="section5">Getting started on the 3 scenes
 
 - The are 3 scenes we need to code: "start scene", "game scene" and "game over scene"
 - Add the following code to `setUp(){...}`:
@@ -142,7 +162,7 @@ function setup() {
 
 If you try to preview the results you will get an error because we didn't write `createLabelsAndButtons()` yet.
 
-## VI. Creating the Start Scene
+## VI. <a id="section6">Creating the Start Scene
 
 - Now we need to implement the `createLabelsAndButtons()` function - add this to **main.js**:
 
@@ -157,7 +177,7 @@ If you try to preview the results you will get an error because we didn't write 
 - **Clicking the button will cause an error because we have not yet written the `startGame()` function.**
 - You are now done coding the "start scene", so let's move on to the "game scene". 
 
-## VII. Begin coding the Game Scene
+## VII. <a id="section7">Begin coding the Game Scene
 
 - To get the "start game" button working, implement `startGame()` - this goes in **main.js**:
 
@@ -215,7 +235,7 @@ gameOverScene.addChild(playAgainButton);
 - **Reload the page to be sure that there are no code errors.  Nothing will look different at this point.**
 - You are all done with `createLabelsAndButtons()` - that's a good thing!
 
-## VIII. Getting the ship on the screen
+## VIII. <a id="section8">Getting the ship on the screen
 Now we need to create a spaceship that the player can control. We will first create and ES6 class to encapsulate all of the ship state and behavior.
 
 ### Creating the Ship class
@@ -237,7 +257,7 @@ gameScene.addChild(ship);
 - **Reload the page, you should now see the ship in the upper-left corner of the screen - which is (0,0).**
 - Only half of the ship is visible because we adjusted the `.anchor` so it would be drawn from its center rather than the upper-left corner, which is the default.
 
-## IX. Pre-loading the audio files
+## IX. <a id="section9">Pre-loading the audio files
 In this game we are using the [Howler](https://github.com/goldfire/howler.js/) audio library, which uses the high-performance Web Audio API to play audio files.
 (Recall that you imported this library at the top of the **game.html** file).
 
