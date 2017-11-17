@@ -7,7 +7,7 @@ In this walkthrough we will complete *Circle Blast!*.
 
 We are going to skip past "#7 - load sprite sheet" for now and instead handle "#8 - Start update loop"
 
-### IIA. Get started on `gameLoop()`
+### II-A. Get started on `gameLoop()`
 Here's the stub for `gameLoop()`, in copy/paste form. Add this to the bottom of **main.js**:
 
 
@@ -47,7 +47,7 @@ function gameLoop(){
 app.ticker.add(gameLoop);
 ```
 
-### IIB. Calculate "Delta time"
+### II-B. Calculate "Delta time"
 
 We need to figure out how much time has passed since the last update, and adjust the speed of our sprites accordingly.
 Ideally, this would be precisely 1/60th of a second, but frame rates can fluctuate depending on what else the browser or OS is working on, so calculating this value every frame makes the animations run much smoother. 
@@ -60,10 +60,12 @@ let dt = 1/app.ticker.FPS;
 if (dt > 1/12) dt=1/12;
 ```
 
-Note that if `dt` is greater than 1/12 of a second we will clamp it to 1/12 of a second. When could `dt` be that large? #1 - When first starting the game up, and #2 - when the user creates a new browser tab in the same window as the game, `app.ticker` will pause the updates. If the user returns 5 seconds later, `dt` will now be 5 instead of 1/60, which will wreck the game animation.
+Note that if `dt` is greater than 1/12 of a second we will clamp it to 1/12 of a second. When could `dt` be that large?:
+- #1 - when first starting the game up
+- #2 - when the user creates a new browser tab in the same window as the game, `app.ticker` will pause the updates. If the user returns 5 seconds later, `dt` will now be 5 instead of 1/60, which will wreck the game animation.
 
 
-### IIC. Get the ship moving
+### II-C. Get the ship moving
 
 - **Add the following to `gameLoop()`:**
 
@@ -91,7 +93,7 @@ Note: Here we are using the `lerp()` and `clamp()` helper functions that were gi
 
 So we have a moving ship, but no opponents yet. Now we need to create those circles that the player will eventually be dodging and shooting.
 
-### IIIA. Create the Circle class.
+### III-A. Create the Circle class.
 
 - **Add the following to classes.js:**
 
@@ -103,7 +105,7 @@ Note that this is an improved version of the `Circle` we created back in [Pixi 2
 
 - **Reload the page - there should not be any errors**
 
-### IIIB. Implement the `createCircles()` function.
+### III-B. Implement the `createCircles()` function.
 
 **Here's a new function for main.js - it needs to look like this:**
 
@@ -118,7 +120,7 @@ This code is hopefully self-explanatory: it creates circles, adds them to the ar
 
 ## IV. Get level loading working
 
-### IVA. In **main.js** implement `loadLevel()`:
+### IV-A. In **main.js** implement `loadLevel()`:
 
 ```
 function loadLevel(){
@@ -127,13 +129,13 @@ function loadLevel(){
 }
 ```
 
-### IVB. Now make `startGame()` look like this:
+### IV-B. Now make `startGame()` look like this:
 
 ![Screenshot](_images/circle-blast-19.jpg)
 
 - **Reload the page - click the start button - there should be 5 circles at the top of the screen**
 
-### IVC. Get the circles moving
+### IV-C. Get the circles moving
 
 - **Finally, to get the circles moving, add the following to `gameLoop()`:**
 
