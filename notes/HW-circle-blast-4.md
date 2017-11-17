@@ -6,16 +6,18 @@ The following is optional. We won't collect it, but you will likely find it of u
 <!--- Local Navigation --->
 I. [Overview](#section1)
 
-II. [Attempting (and failing) to loading a web font for use in PixiJS](#section2)
+II. [Attempting (and failing) to load a web font for use in PixiJS](#section2)
 
 III. [Using a library to load a web font](#section3)
+
+IV. [Finish it up](#section4)
 
 
 ## I. <a id="section1">Overview
 In this walkthrough we will continue to add features to *Circle Blast!*.
 
 
-## II. <a id="section2">Attempting (and failing) to loading a web font for use in PixiJS
+## II. <a id="section2">Attempting (and failing) to load a web font for use in PixiJS
 Let's suppose that we wanted to use a custom web font in a PixiJS game, how would we load it?
 
 - First we'll find a font, in this case one that looks cool but is a tad overused:
@@ -109,7 +111,7 @@ After the 'Press Start 2P' web font has loaded, the function referenced by the `
 ![Screenshot](_images/circle-blast-33.jpg)
 
 
-## IV. Changing the `Circle` behavior 
+## V. <a id="section5">Changing the `Circle` behavior 
 
 <hr><hr>
 
