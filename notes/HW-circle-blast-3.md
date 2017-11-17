@@ -19,7 +19,7 @@ VII. [Possible improvements](#section7)
 <hr><hr>
 
 ## I. <a id="section1">Overview
-In this walkthrough we will complete *Circle Blast!*.
+In this walkthrough we will complete *Circle Blast!* by adding the ability to shoot the circles, utilize a sprite sheet to display an explosion, and getting the level loading working.
 
 ## II. <a id="section2">Shooting Bullets
 So the player can die by deliberately running into the circles, but can't actually harm the circles without harming himself. That's not too interesting, so let's get shooting working.
