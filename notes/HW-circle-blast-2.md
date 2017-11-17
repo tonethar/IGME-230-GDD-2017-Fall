@@ -1,7 +1,7 @@
 # HW - Circle Blast! - Part 2
 
 ## I. Overview
-In this walkthrough we will complete *Circle Blast!*.
+In this walkthrough we will continue to work on *Circle Blast!* by adding ship animation, circle animation, collision detection, and a game over state.
 
 ## II. Implement our main "game loop"
 
@@ -222,3 +222,5 @@ The `end()` function transitions to the new screen, and empties out all of the a
 
 
  **[Previous Chapter <- Circle Blast! (part 1)](HW-circle-blast.md)**
+ 
+ **[Next Chapter -> Circle Blast! (part 3)](HW-circle-blast-3.md)**
