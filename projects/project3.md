@@ -21,6 +21,7 @@ For this project you (and optionally a partner) are creating a JavaScript-driven
 - You will use PixiJS as your underlying graphics engine.
 - Your game or app should do something useful, and be easy to use.
 - There will be no JavaScript errors or exceptions thrown by the app.
+- You must utilize some other HTML5 feature, like localStorage or 
 
 Canvas and direct DOM manipulation (for the experience itself) are not allowed; you may utilize DOM manipulation for other aspects of your interface, but the purpose is to demonstrate your ability to implement the PixiJS library.
 
@@ -37,6 +38,7 @@ Canvas and direct DOM manipulation (for the experience itself) are not allowed; 
 
 ### D. Media
 - Images are properly optimized for web delivery.
+- Sound is used to enhance the experience
 
 ### E. Code Conventions
 - `let` and `const` (no `var`!)
@@ -49,30 +51,39 @@ Canvas and direct DOM manipulation (for the experience itself) are not allowed; 
 ## Milestones
 - By the start of class November 29 (for Prof. Boyle) or November 30 (for Prof. Jefferson) you will have updated your site from Project 1 to include a more accurate proposal of this game project.
 - Final project deliverable is due during our scheduled final exam. There is no dropbox for this; update your site and make sure the working game/app is running on it. If yu are working in a team, both team members need to update their sites.
-- At our scheduled final exam time, we will have a show and tell of your projects. **Attendance for this is mandatory.**
+- At our scheduled final exam time, we will have a show and tell of your projects (see below).
 
 ## Documentation
 - Update the documentation on your Project 1 to include your process for this project, cite any sources, tell me where to find anything special you want me to see, and also explain how you met the requirements. Remember, this documentation is a **web page** linked on the project site, not a text file or some other format.
 - If you worked in a pair, explain what each team member did. Remember, everyone is responsible for contributing throughout the project, not just to one aspect.
 
+## Presentation
+At the time of our scheduled meeting during finals week, you will present your project to the class in a brief demo. **Attendance for this is mandatory.** For this demo, show us:
+- What you made
+- What’s cool, and what you think is “above and beyond”
+- How you overcame any serious challenges
+- Your sources (for libraries, tutorials, etc.) if you used any
+
 ## Grading
-- *Both* partners must contribute *both* JavaScript code AND HTML/CSS to the project. This is NOT a project where team members are allowed to specialize into "Art Director" and "Software Developer" roles! Both team members shall be "Artist/Coders" (doing both) for this project.
+- *Both* partners must contribute equally to the project. This is NOT a project where team members are allowed to specialize into "Art Director" and "Software Developer" roles! Both team members shall be "Artist/Coders" (doing both) for this project.
 
 Your project will be graded on the following criteria:
 
 | Criteria | Weight | Your Score |
 | -------- | ------ | ---------- |
-| **Functionality** | **30** | |
+| **Functionality** | **20** | |
 |  - Is useful and/or entertaining | |
 |  - Demonstrates creativity | |
 |  - Runs without errors | |
 | **Design & Interaction** | **20** | |
 |  - Visual design is pleasing | |
+|  - Uses audio to enhance the experience | |
 |  - Interface is clear and well labeled | |
 |  - Prevents and handles errors well | |
 | **Implementation and Code** | **20** | |
 |  - Uses PixiJS for graphics and animations | |
 |  - Only uses other libraries as necessary; primary functionality is done via your own code | |
+|  - Uses an additional HTML5 technology such localStorage | |
 |  - Code is well formatted and commented, and follows coding standards | |
 | **HTML/CSS/Media**  | **10** | |
 |  - HTML and CSS validate | |
@@ -80,9 +91,9 @@ Your project will be graded on the following criteria:
 |  - Makes proper use of structural tags, etc. | |
 | **Documentation** | **10** | |
 | **Above and Beyond (see below)** | **10** | |
+| **Presentation** | **10** | |
 | **Possible Total Points** | **100** | |
 | Deduction if proposal is not updated on time | -10 | |
-| Deduction if you are not present for final show-and-tell | -10 | |
 
 Note:
 - **Good** (Meet all requirements above reasonably well) = 90%
