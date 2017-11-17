@@ -1,11 +1,27 @@
 # HW - Circle Blast! - Part 3
 
-## I. Overview
+## Contents
+<!--- Local Navigation --->
+I. [Overview](#section1)
+
+II. [Shooting Bullets](#section2)
+
+III. [Bullet->Circle Collisions](#section3)
+
+IV. [Advancing to a new level](#section4)
+
+V. [Loading and creating the explosion textures](#section5)
+
+VI. [Putting the explosions on the screen](#section6)
+
+VII. [Possible improvements](#section7)
+
+<hr><hr>
+
+## I. <a id="section1">Overview
 In this walkthrough we will complete *Circle Blast!*.
 
-
-
-## II. Shooting Bullets
+## II. <a id="section2">Shooting Bullets
 So the player can die by deliberately running into the circles, but can't actually harm the circles without harming himself. That's not too interesting, so let's get shooting working.
 
 ### II-A. The `Bullet` class
@@ -55,7 +71,7 @@ Note that clicking the "Enter, ... if you dare!" button triggers a bullet firing
 All the "move" logic is in the bullet class, so it takes just one line of code to move the bullets. Isn't OOP encapsulation great?
 
 
-##  III. Bullet->Circle Collisions
+##  III. <a id="section3">Bullet->Circle Collisions
 Now we need to handle bullet to circle collisions.
 
 - Go ahead and make the collision checking code in `gameLoop()` look like this (you will have to modify some of the code you typed in previously):
@@ -75,7 +91,7 @@ There's quite a bit going on here:
 - **Reload the page, and start the game. Now the bullets you fire will destroy the circles and increment the score. If the ship collides with a circle it should still take damage.** 
 
 
-##  IV. Advancing to a new level
+##  IV. <a id="section4">Advancing to a new level
 
 Wouldn't it be nice if after we clear out the first 5 circles,  we could get more of them to shoot at?
 
@@ -91,7 +107,7 @@ if (circles.length == 0){
 
 - **Reload the page, and play the game. Once you have eliminated all of the circles on the screen, a new level will load, with 5 additional circles each time.**
 
-##  V. Loading and creating the explosion textures
+##  V. <a id="section5">Loading and creating the explosion textures
 
 All that's left is to get explosions working. To do that we are going to first have to load in our **explosions.png** sprite sheet, and the just read in the pieces we are interested in. This is our full sprite sheet (which you already have) below:
 
@@ -122,7 +138,7 @@ explosionTextures = loadSpriteSheet();
 - **Reload the page to be sure that there are no errors.** 
 
 
-##  VI. Putting the explosions on the screen
+##  VI. <a id="section6">Putting the explosions on the screen
 
 Shooting a circle should cause an explosion!
 
@@ -150,7 +166,7 @@ Note that with a little bit of tweaking, this function could work with any array
 **Now you have the beginnings of a game!**
 
 
-## VII. Possible improvements
+## VII. <a id="section7">Possible improvements
 Thinking of making some improvements on this game or a simialr one of your own crafting? Here are some ideas:
 - imported font
 - imported graphics, and only use PIXI.Text for "dynamic text" that changes (e.g. score)
@@ -188,7 +204,6 @@ Thinking of making some improvements on this game or a simialr one of your own c
     - create a reusable `Explosion` class
     - create a "bullet pool" array with 20 or so bullets when the game starts up (in `setup()`). When the player fires a bullet it is copied into the `bullets` array. When the bullet is no longer alive it is put back into the bullet pool array. This improves performance because you don't have to keep making `Bullet` instances all the time.
     
-<hr>
-<hr>
+<hr><hr>
 
 **[Previous Chapter <- Circle Blast! (part 2)](HW-circle-blast-2.md)**
