@@ -147,9 +147,48 @@ function loadLevel(){
  
 - **Reload the page - the 5 circles are now moving and bouncing off of the sides of the scene**
 
+## V. Ship->Circle Collisions
 
-## V. Checking for Ship->Circle Collisions
+For now we will skip past **#4 - Move Bullets** and work on **#5 - Check for Collisions**.
 
+
+### V-A. Add the following to `gameLoop()`
+
+![Screenshot](_images/circle-blast-21.jpg)
+
+- **Reload the page, and move the ship into the circles. You should see them disappear, a sound should play, and the life value should go down.**
+
+### V-B. Cleaning up
+
+After colliding with all of the circles, if you type `circles.length` into the console you get a result of `5`, even though there are no circles on the screen. 
+While we DID remove the circles from the game scene, we DID NOT removed them from the array, which will cause problems later on.
+
+- **To empty out the `circles` array (and others) every frame, add the following to `gameLoop()`:**
+
+![Screenshot](_images/circle-blast-22.jpg)
+
+- **Reload the page, and move the ship into the circles. Type `circles.length` into the console again, you should get a `0` this time**.
+
+
+## VI. Ending the game
+
+### VI-A. Add the following to `gameLoop()`
+
+```
+// #7 - Is game over?
+if (life <= 0){
+	end();
+	return; // return here so we skip #8 below
+}
+```
+
+### VI-B. Add the `end()` function to main.js
+
+![Screenshot](_images/circle-blast-23.jpg)
+
+The `end()` function transitions to the new screen, and empties out all of the arrays. Once we have bullets, explosions, and multiple levels then this code will be essential.
+
+- **Reload the page, and move the ship into the circles. Once the ship health reaches zero, you should see the "Game Over" screen. Clicking the Play Again button send the player back to the "Game Screen" and starts the game over.**
 
 
 ## X. Possible improvements
@@ -158,6 +197,7 @@ function loadLevel(){
 - sounds
   - background music
   - "lose scene" sound
+- enemies also explode when they collide with the ship (but use a different, smaller explosion)
 - more enemy types
 	- enemies that "wrap" instead of bounce off the sides of the scene
     - more interesting movement
