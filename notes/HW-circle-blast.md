@@ -20,6 +20,8 @@ VIII. [Getting the ship on the screen](#section8)
 
 IX. [Pre-loading the audio files](#section9)
 
+<hr><hr>
+
 ## I. <a id="section1">Overview
 In this walkthrough we will construct a complete PixiJS game, *Circle Blast!*
 
@@ -286,10 +288,6 @@ fireballSound = new Howl({
 
 `fireballSound.play()` 
 
-
-
-
-<hr>
-<hr>
+<hr><hr>
 
 **That's enough for this section, move on to [Circle Blast - Part II](HW-circle-blast-2.md)**
