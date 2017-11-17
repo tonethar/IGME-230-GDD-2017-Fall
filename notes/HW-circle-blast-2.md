@@ -60,7 +60,7 @@ let dt = 1/app.ticker.FPS;
 if (dt > 1/12) dt=1/12;
 ```
 
-Note that if `dt` is greater than 1/12 of a second we will clamp it to 1/12 of a second. When could `dt` be that large?:
+Note that if `dt` is greater than 1/12 of a second we will clamp it to 1/12 of a second. When could `dt` be that large?
 - #1 - when first starting the game up
 - #2 - when the user creates a new browser tab in the same window as the game, `app.ticker` will pause the updates. If the user returns 5 seconds later, `dt` will now be 5 instead of 1/60, which will wreck the game animation.
 
@@ -80,7 +80,7 @@ Note: `.position` is a [PIXI.Point](http://pixijs.download/dev/docs/PIXI.Point.h
 
 - Reload the page and try it out. The ship should now move to the position of the mouse pointer (which gives it an unreasonably fast speed). The ship will also move off of the game scene, which is not good.
 
-- **Modify the code to instead look like this**
+- **Modify the code to instead look like this:**
 
 ![Screenshot](_images/circle-blast-15.jpg)
 
