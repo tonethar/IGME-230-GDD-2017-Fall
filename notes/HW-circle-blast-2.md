@@ -86,7 +86,7 @@ Note: `.position` is a [PIXI.Point](http://pixijs.download/dev/docs/PIXI.Point.h
 
 The ship should now smoothly move towards the position of the mouse. If you would rather have a slower or faster ship, you just have to tweak `amt`.
 
-Note: Here we are using the `lerp()` and `clamp()` helper functions that were give to you in **utilities.js** - please check out the implementaion of those functions right now.
+Note: Here we are using the `lerp()` and `clamp()` helper functions that were given to you in **utilities.js** - please check out the implementaion of those functions right now.
 
 
 ## III. Create some obstacles
