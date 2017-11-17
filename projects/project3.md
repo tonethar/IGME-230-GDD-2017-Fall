@@ -82,7 +82,8 @@ Your project will be graded on the following criteria:
 | **Documentation** | **10** | |
 | **Above and Beyond (see below)** | **10** | |
 | **Possible Total Points** | **100** | |
-| Deduction if initial checkpoint is not submitted to dropbox on time | -10 | |
+| Deduction if proposal is not updated on time | -10 | |
+| Deduction if you are not present for final show-and-tell | -10 | |
 
 Note:
 - **Good** (Meet all requirements above reasonably well) = 90%
