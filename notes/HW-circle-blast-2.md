@@ -171,6 +171,8 @@ While we DID remove the circles from the game scene, we DID NOT removed them fro
 
 ![Screenshot](_images/circle-blast-22.jpg)
 
+Recall that `array.filter()` accepts a "testing" (or predicate) function that returns true or false, and that this function is called on every element of the array. If an element passes the test, it goes into the newly created array.
+
 - **Reload the page, and move the ship into the circles. Type `circles.length` into the console again, you should get a `0` this time**.
 
 
