@@ -5,6 +5,8 @@
 I. [Overview](#section1)
 
 II. [Implement our main "game loop"](#section2)
+    - calculate `dt` "delta time"
+    - get the ship following the mouse
 
 III. [Create some obstacles](#section3)
 
