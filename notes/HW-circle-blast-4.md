@@ -111,4 +111,6 @@ After the 'Press Start 2P' web font has loaded, the function referenced by the `
 
 ## IV. Changing the `Circle` behavior 
 
+<hr><hr>
 
+**[Previous Chapter <- Circle Blast! (part 3)](HW-circle-blast-3.md)**
