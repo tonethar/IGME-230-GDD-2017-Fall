@@ -8,7 +8,7 @@ In this walkthrough we will complete *Circle Blast!*.
 We are going to skip past "#7 - load sprite sheet" for now and instead handle "#8 - Start update loop"
 
 ### IIA. Get started on `gameLoop()`
-Here's the stub, in copy/paste form. Add this to the bottom of **main.js**:
+Here's the stub for `gameLoop()`, in copy/paste form. Add this to the bottom of **main.js**:
 
 
 ```
@@ -40,7 +40,7 @@ function gameLoop(){
 }
 ```
 
-- **And the call it, 60 times a second. Add the following to the `setup()` function:**
+- **And now we need to call it, 60 times a second. Add the following to the `setup()` function:**
 
 ```javascript
 // #8 - Start update loop
