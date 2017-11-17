@@ -78,7 +78,7 @@ ship.position = mousePosition;
 
 Note: `.position` is a [PIXI.Point](http://pixijs.download/dev/docs/PIXI.Point.html) - which is an object that looks like this `{x:0,y:0}`
 
-Reload the page and try it out. The ship should now move to the position of the mouse pointer (which gives it an unreasonably fast speed). The ship will also move off of the game scene, which is not good.
+- Reload the page and try it out. The ship should now move to the position of the mouse pointer (which gives it an unreasonably fast speed). The ship will also move off of the game scene, which is not good.
 
 - **Modify the code to instead look like this**
 
