@@ -160,7 +160,7 @@ For now we will skip past **#4 - Move Bullets** and work on **#5 - Check for Col
 
 To do bounding box collision detection between the ship and the circles, we are calling `rectsIntersect()`, which is yet another helper function from **utilities.js**. Remember when we said that PixiJS is a *rendering engine*, not a *game engine*? This means that we have to write a lot of these kinds of methods ourselves when we use PixiJS to build a game. That's OK! It's a good way to learn about and appreciate everything that game engines do for us.
 
-We also set the `.isAlive` property of the circle to false. Which will help us to filter them out of the `circles` array in the next step.
+We also set the `.isAlive` property of the collide with circle to `false`. Which will help us to filter them out of the `circles` array in the next step.
 
 ### V-B. Cleaning up
 
@@ -171,7 +171,7 @@ While we DID remove the circles from the game scene, we DID NOT removed them fro
 
 ![Screenshot](_images/circle-blast-22.jpg)
 
-Recall that `array.filter()` accepts a "testing" (or predicate) function that returns true or false, and that this function is called on every element of the array. If an element passes the test, it goes into the newly created array.
+Recall that `array.filter()` accepts a "testing" (or predicate) function that returns `true` or `false`, and that this function is called on every element of the array. If an element passes the test, it goes into the newly created array.
 
 - **Reload the page, and move the ship into the circles. Type `circles.length` into the console again, you should get a `0` this time**.
 
