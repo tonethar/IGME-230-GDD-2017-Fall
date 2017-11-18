@@ -206,7 +206,7 @@ To create circles that "wrap", we will now create a new subclass. Add the follow
 
 ![Screenshot](_images/circle-blast-38.jpg)
 
-Note that when `reflectX()` or `reflectY()` are called, we instead call `_wrapX()` or `_wrapY()` - the "protected" methods - in the superclass. Cool!
+- Note that when `reflectX()` or `reflectY()` are called, we instead call `_wrapX()` or `_wrapY()` - the "protected" methods - in the superclass. Cool!
 
 **Now add this code to `createCircles()` in main.js:**
 
