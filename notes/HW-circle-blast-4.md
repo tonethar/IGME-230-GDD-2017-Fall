@@ -130,6 +130,7 @@ Now we are going to modify our `Circle` code to get more interesting behaviors, 
 
 *Define behavior in a subclass using a set of operations provided by its base class.*
 
+## VI-A. Beefing up `Circle`
 Here we are going to place most of the implementation details in the base class (`Circle`), and the subclasses will adobt the behavior they are interested in. This will allow the `Circle` subclasses to easily "mix and match" the behaviors they are interested in. We will start off by modifying `Circle` to look like this:
 
 ```javascript
@@ -187,6 +188,10 @@ class Circle extends PIXI.Graphics{
 	}
 }
 ```
+
+We have made a few changes:
+- there is a new method named `activate()` with no implementation. The intention is that `activate()` will be called by some of Circle's subclasses. In OOP, methods that are implemented but have no implemention are called *abstract methods*.
+- the new `_wrapX(sceneHeight)` and `_wrapY(sceneHeight)` methods have underscores because we are considering them *protected methods* - meaning that they are going to be called from `Circle` subclasses, but not from the "outside" i.e. not from **main.js**.
 
 
 
