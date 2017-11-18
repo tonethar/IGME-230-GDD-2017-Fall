@@ -310,6 +310,8 @@ Play though a few levels - the game now has a little bit of fun and chaos - prim
     - resource management:
         - triple-fire "ammo". If you are out of it, you can't triple fire
 	- 360-degree fire, invulnerability etc are temporary powerups, and can be triggered by the player when needed.
+  - give the player a rest between levels
+  - The game should not just be brutally hard execution challenge. What you are trying for is that when a player loses the game or dies, they should feel like if they try it again they could do better. 
 
 <hr><hr>
 
