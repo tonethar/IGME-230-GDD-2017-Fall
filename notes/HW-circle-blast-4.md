@@ -267,6 +267,38 @@ Be sure that you understand what's going on here:
 - `gameLoop()` calls the `move()` method of the `SeekingCircle` instance
 - the `SeekingCircle` instance calls the `_chase)()` method that is defined in `Circle`
 
+### VIII. "Orthogonal wrapping circles"
+
+Here is one more for you, add this to `createCircles()` in main.js:
+
+```javascript
+//orthogonal wrapping circles
+for(let i=0;i<numCircles/4;i++){	
+	let c = new WrappingCircle(10,0x00FF00);
+	c.speed = Math.random() * 100 + 100;
+	if (Math.random()<.5){
+		c.x = Math.random() * (sceneWidth - 50) + 25;
+		c.y = Math.random() * 100 + c.radius * 2;
+		c.fwd = {x:0,y:1}
+	}else{
+		c.x = Math.random() * 25 + c.radius * 2;
+		c.y = Math.random() * (sceneHeight - 80) - c.radius * 2;
+		c.fwd = {x:1,y:0};
+	}
+	circles.push(c);
+	gameScene.addChild(c);
+}
+```
+
+**Reload the page, now you have more problems, wrapping green circles!**
+
+![Screenshot](_images/circle-blast-45.jpg)
+
+### IX. Wrap up and discussion
+
+Play though a few levels - the game now has a little bit of fun - primarily as an execution challenge - just trying to stay alive - but what could we do to make this more *fun*?
+
+- 
 
 <hr><hr>
 
