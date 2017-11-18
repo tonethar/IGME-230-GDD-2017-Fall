@@ -92,7 +92,7 @@ load(setup);
 ```
 
 #### Explanation
-After the 'Press Start 2P' web font has loaded, the function referenced by the `active` property fires. This function will pre-load our images, and then call `setup()` (located in main.js) when the loading is complete.
+After the 'Press Start 2P' web font has loaded, the function referenced by the `active` property fires. This function will pre-load our images, and then call `setup()` (located in main.js) when the image loading is complete.
 
 - **Reload the page, you should see something like this below.**
 
