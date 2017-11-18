@@ -227,6 +227,8 @@ One weird thing is a little "boost" the circles get when they wrap. To get rid o
 
 ![Screenshot](_images/circle-blast-42.jpg)
 
+Note that this interpolation code is similar to the code we use to have the ship "chase" the mouse. Here we are having the red circles "chase" the ship. Also note that we are using the cosine interpolation helper funciton so that we get a different effect than the ship/mouse linear interpolation. 
+
 **Now add this code to `createCircles()` in main.js:**
 
 ![Screenshot](_images/circle-blast-43.jpg)
