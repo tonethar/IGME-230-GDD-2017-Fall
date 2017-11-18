@@ -301,6 +301,12 @@ Play though a few levels - the game now has a little bit of fun and chaos - prim
 - Currently, what does the player have to *learn* to do better at the game? Not much, other than staying away from the top and edges of gthe screen.
 - One way to make this game better would be to give the player more *choices* - BTW Sid Meier once said that "A game is a series of meaningful choices"
 - Ideas for more choices and player learning:
+    - each level should have a goal that is not "get rid of all the circles" because it is tedious to shoot every last circle
+    - instead, "protect the 3 colony ships", or "take out the 3 circle-emitting bosses"
+    - as the level fighting drags on and the player has not met the level goal, more obstacles should appear
+    - these give more opportunities for "risk/reward" choices: 
+       - do I try to take out the last mothership even though it's a risky shot, or wait for a health powerup?
+       - do I go for the life powerup, or do I risk my ship by moving into a position to shoot at those red circles that are seeking one of the colony ships?
 
 <hr><hr>
 
