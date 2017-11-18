@@ -171,7 +171,7 @@ Note that with a little bit of tweaking, this function could work with any array
 ## VII. <a id="section7">One last thing
 	
 This has been a walkthrough where we've given you 100% of the code - and there's just one little challenge here for you:
-- after the user clears out the first level (a score of 5), enable *triple fire*, where the ship fire 3 bullets on each click (but only plays the shoot sound once)
+- after the user clears out the first level (a score of 5 or higher), enable *triple fire*, where the ship fire 3 bullets on each click (but only plays the shoot sound once)
 
 ### It will look like this when the ship fires a triple shot:
 
