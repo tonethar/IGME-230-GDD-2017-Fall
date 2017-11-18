@@ -14,7 +14,9 @@ V. [Loading and creating the explosion textures](#section5)
 
 VI. [Putting the explosions on the screen](#section6)
 
-VII. [Possible improvements](#section7)
+VII. [One last thing](#section7)
+
+VIII. [Possible improvements](#section8)
 
 <hr><hr>
 
@@ -165,8 +167,16 @@ Note that with a little bit of tweaking, this function could work with any array
 
 **Now you have the beginnings of a game!**
 
+## VII. <a id="section7">One last thing
+	
+This has been a walkthrough where we've given you 100% of the code - and there's just one little challenge here for you:
+- after the user clears out the first level (a score of 5), enable *triple fire*, where the ship fire 3 bullets on each click (but only plays the shoot sound once)
 
-## VII. <a id="section7">Possible improvements
+### It will look like this when the ship fires a triple shot:
+
+![Screenshot](_images/circle-blast-34.jpg)
+
+## VIII. <a id="section8">Possible improvements
 Thinking of making some improvements on this game or a simialr one of your own crafting? Here are some ideas:
 - imported font
 - imported graphics, and only use PIXI.Text for "dynamic text" that changes (e.g. score)
