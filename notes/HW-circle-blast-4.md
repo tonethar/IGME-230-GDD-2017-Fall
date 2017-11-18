@@ -34,7 +34,7 @@ https://fonts.google.com/specimen/Press+Start+2P
 
 ![Screenshot](_images/circle-blast-29.jpg)
 
-Why did we not get our custom font to display? 
+Why did we not get our custom font to display immediately? 
 - Because at the time PixiJS started to draw the text for the Start Screen, the custom web font had not yet loaded.
 - For normal DOM elements like &lt;h1>, &lt;p> etc, the web browser will refresh the page once the new font loads, and then update the page automatically. Unfortunately, PixiJS doesn't do that for us.
 - The solution for PixiJS programmers? Don't run any PixiJS code until AFTER the web fonts have loaded.
