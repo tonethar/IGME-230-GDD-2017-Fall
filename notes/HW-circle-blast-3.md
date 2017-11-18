@@ -179,34 +179,46 @@ This has been a walkthrough where we've given you 100% of the code - and there's
 
 ## VIII. <a id="section8">Possible improvements
 Thinking of making some improvements on this game, or a similar one of your own crafting? Here are some ideas:
-- imported font
-- imported graphics, and only use PIXI.Text for "dynamic text" that changes (e.g. score)
-- sounds
-  - background music
-  - "lose scene" sound
-- better feedback: enemies also explode when they collide with the ship (but use a different, smaller explosion)
+- Media:
+    - imported font
+    - imported graphics, and only use PIXI.Text for "dynamic text" that changes (e.g. score)
+    - sounds
+      - background music
+      - "lose scene" sound
+      - "level complete" sound
+- Better feedback:
+    - enemies also explode when they collide with the ship (but use a different, smaller explosion)
+- Something to protect (more ways to lose a level):
+    - space caravans of colonists
+    - cities
+    - space stations
+    - asteroid miners
+- More ways to advance the level
+    - take out the "mother circle"
+    - surives for one minute then take on a boss
 - more enemy types
-	- enemies that "wrap" instead of bounce off the sides of the scene
+    - enemies that "wrap" instead of bounce off the sides of the scene
     - more interesting movement
     - enemies that dodge bullets
     - kamikaze enemies
     - enemies that shoot bullets or fire guided missiles
     - more than one hit to kill
 - more weapons
+    - smart bomb
+    - area effect shot
+    - guided missiles
+    - penetrating bullets (can kill multiple targets)
 - power ups: shields, heal, double fire, faster fire
 - when the ship is hit, it gets temporary invulnerability before it can be damaged again
 - achievements
 - a story
 - more scenes
-    - a high score screen and/or achievements screen. Save the player's scores in `localStorage`
-    - every few screen have an interstitial screen that introduces a new enemy or feature of the game
+    - a high score screen and/or achievements screen. Save the player's scores and other data in `localStorage`
+    - every few levels have an interstitial screen that introduces a new enemy or feature of the game
     - a level choosing scene with a star rating for each level. THe player would be able to visit levels they already completed and try for higher stars
-    - give a way for the player to get back to the start screen
-- something to protect:
-    - space caravans of colonists
-    - cities
-    - space stations
-    - asteroid miners
+    - have a way for the player to get back to the start screen
+    - boss level
+    - bonus level - the player can't die, just shoots stuff for points
 - keyboard control
     - spacebar to fire 
     - arrow key movement instead of mouse movement
