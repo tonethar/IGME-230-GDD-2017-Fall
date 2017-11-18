@@ -94,6 +94,7 @@ Your project will be graded on the following criteria:
 | **Presentation** | **10** | |
 | **Possible Total Points** | **100** | |
 | Deduction if proposal is not updated on time | -10 | |
+| Deduction if project is not posted on Banjo where required | -100 | |
 
 Note:
 - **Good** (Meet all requirements above reasonably well) = 90%
