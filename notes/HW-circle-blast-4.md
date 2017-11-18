@@ -113,6 +113,19 @@ After the 'Press Start 2P' web font has loaded, the function referenced by the `
 
 
 ## V. <a id="section5">Changing the `Circle` behavior 
+The way our circles move is not very interesting - let's work on this next.
+
+## V-A. The Subclass Sandbox
+
+We are going to create some subclasses of our `Circle` class and implement the [Subclass Sandbox](http://gameprogrammingpatterns.com/subclass-sandbox.html) pattern, which is defined as:
+
+*Define behavior in a subclass using a set of operations provided by its base class.*
+
+Here we are going to place most of the implementation details in the base class (`Circle`), and the subclasses will adobt the behavior they are interested in. We will start off by modifying `Circle` to look like this:
+
+
+
+
 
 <hr><hr>
 
