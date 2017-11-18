@@ -295,10 +295,18 @@ for(let i=0;i<numCircles/4;i++){
 ![Screenshot](_images/circle-blast-45.jpg)
 
 ### IX. Wrap up and discussion
-
 Play though a few levels - the game now has a little bit of fun and chaos - primarily as an execution challenge - just trying to stay alive - but what could we do to make this more *fun*?
 
-- Currently, what does the player have to *learn* to do better at the game? Not much, other than staying away from the top and edges of the screen, and learning to watch out for the wrapping circles. That's it.
+#### IX-A. New `Circle` subclasses
+-  "wrapping/seeking" circles
+- circles that emit other circles regularly
+- circles that take more than one hit to kill
+- use a vector library like [Victor.js](http://victorjs.org) and have chasing, avoid, steering circles
+- add physics: when some circles get hit they might bounce away, or maybe there is gravity in the scene
+
+
+#### IX-B. Choices, Learning, and Fun
+- Currently, what does the player have to *learn* to do better at the game? Not much, other than learning to stay away from the top and left/right edges of the screen, and learning to watch out for the wrapping circles. That's it.
 - One way to make this game better would be to give the player more *choices*, and the ability to learn from and imporve upon those choice. BTW - Sid Meier once said that "A game is a series of meaningful choices"
 - Ideas for more choices and player learning:
     - each level should have a goal that is not "get rid of all the circles" because it is tedious to shoot every last circle
