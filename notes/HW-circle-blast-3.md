@@ -14,7 +14,7 @@ V. [Loading and creating the explosion textures](#section5)
 
 VI. [Putting the explosions on the screen](#section6)
 
-VII. [One last thing](#section7)
+VII. [Two more things](#section7)
 
 VIII. [Possible improvements](#section8)
 
@@ -168,14 +168,20 @@ Note that with a little bit of tweaking, this function could work with any array
 
 **Now you have the beginnings of a game!**
 
-## VII. <a id="section7">One last thing
-	
+## VII. <a id="section7">Two more things
+
+### VII-A. Triple shooting
 This has been a walkthrough where we've given you 100% of the code - and there's just one little challenge here for you:
 - after the user clears out the first level (a score of 5 or higher), enable *triple fire*, where the ship fire 3 bullets on each click (but only plays the shoot sound once)
 
-### It will look like this when the ship fires a triple shot:
+#### It will look like this when the ship fires a triple shot:
 
 ![Screenshot](_images/circle-blast-34.jpg)
+
+### VII-B. Displaying the score on the game over screen
+
+
+![Screenshot](_images/circle-blast-35.jpg)
 
 ## VIII. <a id="section8">Possible improvements
 Thinking of making some improvements on this game, or a similar one of your own crafting? Here are some ideas:
