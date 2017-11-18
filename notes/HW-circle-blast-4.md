@@ -215,7 +215,7 @@ To create circles that "wrap", we will now create a new subclass. Add the follow
 
 ![Screenshot](_images/circle-blast-40.jpg)
 
-One weird thing is a little "boost" the circles get when they wrap. TO get rid of that, do comment out the 2 extraneous "moves" in `gameLoop()`:
+One weird thing is a little "boost" the circles get when they wrap. To get rid of that, comment out the 2 extraneous "moves" in `gameLoop()`:
 
 ![Screenshot](_images/circle-blast-41.jpg)
 
