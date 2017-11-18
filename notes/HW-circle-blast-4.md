@@ -298,8 +298,8 @@ for(let i=0;i<numCircles/4;i++){
 
 Play though a few levels - the game now has a little bit of fun and chaos - primarily as an execution challenge - just trying to stay alive - but what could we do to make this more *fun*?
 
-- Currently, what does the player have to *learn* to do better at the game? Not much, other than staying away from the top and edges of gthe screen.
-- One way to make this game better would be to give the player more *choices* - BTW Sid Meier once said that "A game is a series of meaningful choices"
+- Currently, what does the player have to *learn* to do better at the game? Not much, other than staying away from the top and edges of the screen, and learning to watch out for the wrapping circles. That's it.
+- One way to make this game better would be to give the player more *choices*, and the ability to learn from and imporve upon those choice. BTW - Sid Meier once said that "A game is a series of meaningful choices"
 - Ideas for more choices and player learning:
     - each level should have a goal that is not "get rid of all the circles" because it is tedious to shoot every last circle
     - instead, "protect the 3 colony ships", or "take out the 3 circle-emitting bosses"
