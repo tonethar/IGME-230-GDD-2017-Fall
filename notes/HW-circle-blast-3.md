@@ -88,7 +88,8 @@ There's quite a bit going on here:
     - we remove the bullet and circle from the stage
     - we set the `isAlive` property to both of them to false so that they will get filtered out of their arrays later, and so they can't collide with any more bullets or circles.
 	- we increase the score by 1
-- We are also checking to see if a bullet left the top of the screen, and if so flag it for removal. This isn't a big deal now because the fire rate of the bullets is so low, but what if in the future we increased the fire rate? Their could literall be 100's or 1000's of bullets stored in the bullet array, and that could start to impact our performance because recall that we are moving our bullets 60 times a second.
+- We are also checking to see if a bullet left the top of the screen, and if so flag it for removal.
+- Note: Continuously creating new bullets and the destroying them isn't a big deal now because the fire rate of our bullets is so low. But what if we later increased the fire rate? There could literally be 100's or 1000's of bullets stored in the bullet array, and that could start to impact our performance because you ahould recall that we are moving our bullets 60 times a second. A "bullet pool" is a solution to this problem that you should strongly consider.
 
 - **Reload the page, and start the game. Now the bullets you fire will destroy the circles and increment the score. If the ship collides with a circle it should still take damage.** 
 
