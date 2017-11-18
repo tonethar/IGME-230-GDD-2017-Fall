@@ -102,4 +102,5 @@ Note:
 
 ## Submission
 - Update your project 1 content with all the relevant content for this project, including the game itself.
+
 **If you do not post the project online where requested, and if the link from your main page doesn't work, you will receive a 0 for this project.**
