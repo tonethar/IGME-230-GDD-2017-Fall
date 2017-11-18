@@ -160,11 +160,11 @@ class Circle extends PIXI.Graphics{
 		this.y += this.fwd.y * this.speed * dt;
 	}
 	
-	reflectX(){
+	reflectX(sceneWidth){
 		this.fwd.x *= -1;
 	}
 	
-	reflectY(){
+	reflectY(sceneHeight){
 		this.fwd.y *= -1;
 	}
 	
@@ -191,9 +191,14 @@ class Circle extends PIXI.Graphics{
 
 We have made a few changes:
 - there is a new method named `activate()` with no implementation. The intention is that `activate()` will be called by some of Circle's subclasses. In OOP, methods that are implemented but have no implemention are called *abstract methods*.
+- the `reflectX` and `reflectY` methods now that a `sceneWidth` and `sceneHeight` argument respectively.
 - the new `_wrapX(sceneHeight)` and `_wrapY(sceneHeight)` methods have underscores because we are considering them *protected methods* - meaning that they are going to be called from `Circle` subclasses, but not from the "outside" i.e. not from **main.js**.
 
+**Head over to main.js and pass in both sceneWidth and sceneHeight where the "reflect" methods are called in the `gameLoop()` method:**
 
+`c.reflectX(sceneWidth);` and `c.reflectY(sceneHeight);`
+
+**Reload the page, it should work as before**
 
 <hr><hr>
 
