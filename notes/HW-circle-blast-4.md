@@ -225,9 +225,32 @@ One weird thing is a little "boost" the circles get when they wrap. To get rid o
 
 `SeekingCircle` will interpolate towards a target (initially the ship) - here is the implmentation - add this to **classes.js**:
 
-![Screenshot](_images/circle-blast-42.jpg)
+```javascript
+class SeekingCircle extends Circle{
+	activate(target){
+		this.target = target
+	}
+	
+	move(dt){
+		super._chase(dt);
+	}		
+}
+```
 
-Note that this interpolation code is similar to the code we use to have the ship "chase" the mouse. Here we are having the red circles "chase" the ship. Also note that we are using the cosine interpolation helper funciton so that we get a different effect than the ship/mouse linear interpolation. 
+**We need to implement `_chase(dt)` - so add the following "protected method" to the `Circle` class:**
+
+```javascript
+_chase(dt){
+	let t = this.target;
+	let amt = 3.0 * dt;
+	let newX = cosineInterpolate(this.x, t.x, amt);
+	let newY = cosineInterpolate(this.y, t.y, amt);
+	this.x = newX;
+	this.y = newY;
+}		
+```
+
+Note that this interpolation code is similar to the code we use to have the ship "chase" the mouse. Here we are having the red circles "chase" the ship. Also note that we are using the cosine interpolation helper function, so that we get a different effect than the ship/mouse linear interpolation. 
 
 **Now add this code to `createCircles()` in main.js:**
 
