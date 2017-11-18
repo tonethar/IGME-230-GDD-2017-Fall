@@ -130,7 +130,7 @@ Now we are going to modify our `Circle` code to get more interesting behaviors, 
 
 *Define behavior in a subclass using a set of operations provided by its base class.*
 
-## VI-A. Beefing up `Circle`
+### VI-A. Beefing up `Circle`
 Here we are going to place most of the implementation details in the base class (`Circle`), and the subclasses will adobt the behavior they are interested in. This will allow the `Circle` subclasses to easily "mix and match" the behaviors they are interested in. We will start off by modifying `Circle` to look like this:
 
 ```javascript
@@ -194,12 +194,33 @@ We have made a few changes:
 - the `reflectX` and `reflectY` methods now that a `sceneWidth` and `sceneHeight` argument respectively.
 - the new `_wrapX(sceneHeight)` and `_wrapY(sceneHeight)` methods have underscores because we are considering them *protected methods* - meaning that they are going to be called from `Circle` subclasses, but not from the "outside" i.e. not from **main.js**.
 
-**Head over to main.js and pass in both sceneWidth and sceneHeight where the "reflect" methods are called in the `gameLoop()` method:**
+- **Head over to main.js and pass in both sceneWidth and sceneHeight where the "reflect" methods are called in the `gameLoop()` method:**
 
 `c.reflectX(sceneWidth);` and `c.reflectY(sceneHeight);`
 
-**Reload the page, it should work as before**
+- **Reload the page, it should work as before**
 
+
+### VI-B. Implementing `WrappingCircle`
+To create circles that "wrap", we will now create a new subclass. Add the following to **classes.js**:
+
+![Screenshot](_images/circle-blast-38.jpg)
+
+
+**Now add this code to `createCircles()` in main.js:**
+
+![Screenshot](_images/circle-blast-39.jpg)
+
+- **Reload the page, you should now have magenta "wrapping circles":**
+
+![Screenshot](_images/circle-blast-40.jpg)
+
+One weird thing is a little "boost" the circles get when they wrap. TO get rid of that, do comment out the 2 extraneous "moves" in `gameLoop()`:
+
+![Screenshot](_images/circle-blast-41.jpg)
+
+
+### VII. Implementing `SeekingCircle`
 <hr><hr>
 
 **[Previous Chapter <- Circle Blast! (part 3)](HW-circle-blast-3.md)**
