@@ -303,10 +303,13 @@ Play though a few levels - the game now has a little bit of fun and chaos - prim
 - Ideas for more choices and player learning:
     - each level should have a goal that is not "get rid of all the circles" because it is tedious to shoot every last circle
     - instead, "protect the 3 colony ships", or "take out the 3 circle-emitting bosses"
-    - as the level fighting drags on and the player has not met the level goal, more obstacles should appear
+    - as the level fighting drags on and the player has not met the level goal, more and deadlier obstacles should appear
     - these give more opportunities for "risk/reward" choices: 
        - do I try to take out the last mothership even though it's a risky shot, or wait for a health powerup?
-       - do I go for the life powerup, or do I risk my ship by moving into a position to shoot at those red circles that are seeking one of the colony ships?
+       - do I go for the weapon powerup, or do I risk my ship by moving into a position to shoot at those red circles that are seeking one of the colony ships?
+    - resource management:
+        - triple-fire "ammo". If you are out of it, you can't triple fire
+	- 360-degree fire, invulnerability etc are temporary powerups, and can be triggered by the player when needed.
 
 <hr><hr>
 
