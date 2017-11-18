@@ -177,7 +177,7 @@ This has been a walkthrough where we've given you 100% of the code - and there's
 ![Screenshot](_images/circle-blast-34.jpg)
 
 ## VIII. <a id="section8">Possible improvements
-Thinking of making some improvements on this game or a simialr one of your own crafting? Here are some ideas:
+Thinking of making some improvements on this game, or a similar one of your own crafting? Here are some ideas:
 - imported font
 - imported graphics, and only use PIXI.Text for "dynamic text" that changes (e.g. score)
 - sounds
