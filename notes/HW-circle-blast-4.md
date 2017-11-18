@@ -132,7 +132,61 @@ Now we are going to modify our `Circle` code to get more interesting behaviors, 
 
 Here we are going to place most of the implementation details in the base class (`Circle`), and the subclasses will adobt the behavior they are interested in. This will allow the `Circle` subclasses to easily "mix and match" the behaviors they are interested in. We will start off by modifying `Circle` to look like this:
 
-
+```javascript
+class Circle extends PIXI.Graphics{
+	constructor(radius, color=0xFF0000, x=0, y=0){
+		super();
+		this.beginFill(color);
+		this.drawCircle(0,0,radius);
+		this.endFill();
+		this.x = x;
+		this.y = y;
+		this.radius = radius;
+		// variables
+		this.fwd = getRandomUnitVector();
+		this.speed = 50;
+		this.isAlive = true;
+	}
+	
+	// abstract method - declared, but no implementation
+	activate(){
+	  
+	}
+	
+	// public methods to be called from main.js
+	move(dt=1/60){
+		this.x += this.fwd.x * this.speed * dt;
+		this.y += this.fwd.y * this.speed * dt;
+	}
+	
+	reflectX(){
+		this.fwd.x *= -1;
+	}
+	
+	reflectY(){
+		this.fwd.y *= -1;
+	}
+	
+	// protected methods
+	_wrapX(sceneWidth){
+		if (this.fwd.x < 0 && this.x < 0 - this.radius){
+			this.x = sceneWidth + this.radius;
+		}
+		if(this.fwd.x > 0 && this.x > sceneWidth + this.radius){
+			this.x = 0 -  this.radius;
+		}
+	}
+	
+	_wrapY(sceneHeight){
+		if (this.fwd.y < 0 && this.y < 0 - this.radius){
+			this.y = sceneHeight + this.radius;
+		}
+		if(this.fwd.y > 0 && this.y > sceneHeight + this.radius){
+			this.y = 0 - this.radius;
+		}
+	}
+}
+```
 
 
 
