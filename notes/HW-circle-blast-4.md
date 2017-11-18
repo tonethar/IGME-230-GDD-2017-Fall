@@ -36,9 +36,9 @@ https://fonts.google.com/specimen/Press+Start+2P
 
 Why did we not get our custom font to display? 
 - Because at the time PixiJS started to draw the text for the Start Screen, the custom web font had not yet loaded.
-- For normal DOM elements like &lt;h1>, &lt;p> etc, the web browser will refresh the page once the new font loads and update the page automatically. PixiJS doesn't do that.
-- The solution for PixiJS programmers? Don't run any PixiJS code until after the web fonts have loaded.
-- You will run into the same problem when you use the &lt;canvas> API in IGME-330, so remember this solution!
+- For normal DOM elements like &lt;h1>, &lt;p> etc, the web browser will refresh the page once the new font loads, and then update the page automatically. Unfortunately, PixiJS doesn't do that for us.
+- The solution for PixiJS programmers? Don't run any PixiJS code until AFTER the web fonts have loaded.
+- Note: You will run into the same problem when you use the &lt;canvas> API in IGME-330, so remember this solution!
 
  
 ## III. <a id="section3">Using a library to load a web font
