@@ -101,5 +101,5 @@ Note:
 - **Best** (Go significantly beyond expectations in 2 or more areas) = 100%
 
 ## Submission
-- ZIP and post the completed project and documentation page to to the mycourses dropbox
-- Post the project to banjo and link it from your 230 home page (exception: do not post *Music Finder* to the web)
+- Update your project 1 content with all the relevant content for this project, including the game itself.
+**If you do not post the project online where requested, and if the link from your main page doesn't work, you will receive a 0 for this project.**
