@@ -212,7 +212,7 @@ Thinking of making some improvements on this game, or a similar one of your own 
 - Coding
     - create a reusable `Button` class
     - create a reusable `Explosion` class
-    - create a "bullet pool" array with 20 or so bullets when the game starts up (in `setup()`). When the player fires a bullet it is copied into the `bullets` array. When the bullet is no longer alive it is put back into the bullet pool array. This improves performance because you don't have to keep making `Bullet` instances all the time.
+    - create a "bullet pool" array with 20 or so bullets when the game starts up (in `setup()`). When the player tries to fire a bullet the array in searched for the first available bullet (one that is not on the screen) and that bullet is fired. This improves performance and memory usage because you don't have to keep making `Bullet` instances all the time. See the [Object Pool](http://gameprogrammingpatterns.com/object-pool.html) design pattern for more info.
     
 <hr><hr>
 
