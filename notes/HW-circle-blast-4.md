@@ -260,7 +260,10 @@ Note that this interpolation code is similar to the code we use to have the ship
 
 ![Screenshot](_images/circle-blast-44.jpg)
 
-
+Be sure that you understand what's going on here:
+- when the `SeekingCircle` is created, `activate()` is called and a target (the ship) is passed in
+- `gameLoop()` calls the `move()` method of the `SeekingCircle` instance
+- the `SeekingCircle` instance calls the `_chase)()` method that is defined in `Circle`
 
 
 <hr><hr>
