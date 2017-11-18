@@ -232,6 +232,7 @@ Thinking of making some improvements on this game, or a similar one of your own 
 - keyboard control
     - spacebar to fire 
     - arrow key movement instead of mouse movement
+- Data - rather than every level being heavily randomized, create and utilize hard-coded data for each finely tuned and balanced level 
 - Coding
     - create a reusable `Button` class
     - create a reusable `Explosion` class
