@@ -221,6 +221,22 @@ One weird thing is a little "boost" the circles get when they wrap. To get rid o
 
 
 ### VII. Implementing `SeekingCircle`
+
+`SeekingCircle` will interpolate towards a target (initially the ship) - here is the implmentation - add this to **classes.js**:
+
+![Screenshot](_images/circle-blast-42.jpg)
+
+**Now add this code to `createCircles()` in main.js:**
+
+![Screenshot](_images/circle-blast-43.jpg)
+
+**Reload the page, you should see small red circles moving towards the ship:**
+
+![Screenshot](_images/circle-blast-44.jpg)
+
+
+
+
 <hr><hr>
 
 **[Previous Chapter <- Circle Blast! (part 3)](HW-circle-blast-3.md)**
