@@ -171,7 +171,7 @@ Note that with a little bit of tweaking, this function could work with any array
 ## VII. <a id="section7">Two more things
 
 ### VII-A. Triple shooting
-This has been a walkthrough where we've given you 100% of the code - and there's just one little challenge here for you:
+This has been a walkthrough where we've given you 100% of the code - and here's a little challenge for you:
 - after the user clears out the first level (a score of 5 or higher), enable *triple fire*, where the ship fire 3 bullets on each click (but only plays the shoot sound once)
 
 #### It will look like this when the ship fires a triple shot:
@@ -179,8 +179,12 @@ This has been a walkthrough where we've given you 100% of the code - and there's
 ![Screenshot](_images/circle-blast-34.jpg)
 
 ### VII-B. Displaying the score on the game over screen
+The second challenge is to display the score on the "game over" scene:
+- create a *scope variable* (at the top, outside the functions) named `gameOverScoreLabel`
+- initialize it in "game over scene" portion of `createLabelsAndButtons()`
+- set its value (the current score) in `end()`
 
-
+#### It will look like this when you are done:
 ![Screenshot](_images/circle-blast-35.jpg)
 
 ## VIII. <a id="section8">Possible improvements
