@@ -1,7 +1,7 @@
 # Week 13 Notes
 
 ## Overview
-This week we will continue working with PixiJS, starting our game, #Circle Blast!#, in practice for the final project.
+This week we will continue working with PixiJS, starting our game, *Circle Blast!*, in preparation for the final project.
 
 ## Projects
 - https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/projects/project3.md
