@@ -49,7 +49,7 @@ Canvas and direct DOM manipulation (for the experience itself) are not allowed; 
 - Delete or comment out your `console.log()` calls.
 
 ## Milestones
-- By the start of class November 29 (for Prof. Boyle) or November 30 (for Prof. Jefferson) you will have updated your site from Project 1 to include a more accurate proposal of this game project.
+- By the start of class November 29 (for Prof. Boyle) or November 29 @ 11:59PM (for Prof. Jefferson) you will have updated your site from Project 1 to include a more accurate proposal of this game project.
 - Final project deliverable is due during our scheduled final exam. There is no dropbox for this; update your site and make sure the working game/app is running on it. If yu are working in a team, both team members need to update their sites.
 - At our scheduled final exam time, we will have a show and tell of your projects (see below).
 
