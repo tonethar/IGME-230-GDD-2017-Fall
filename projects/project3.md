@@ -21,7 +21,7 @@ For this project you (and optionally a partner) are creating a JavaScript-driven
 - You will use PixiJS as your underlying graphics engine.
 - Your game or app should do something useful, and be easy to use.
 - There will be no JavaScript errors or exceptions thrown by the app.
-- You must utilize some other HTML5 feature, like localStorage. 
+- You must utilize some other HTML5 feature, like localStorage or location services. 
 
 Canvas and direct DOM manipulation (for the experience itself) are not allowed; you may utilize DOM manipulation for other aspects of your interface, but the purpose is to demonstrate your ability to implement the PixiJS library.
 
