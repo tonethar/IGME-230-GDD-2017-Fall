@@ -43,7 +43,7 @@ Canvas and direct DOM manipulation (for the experience itself) are not allowed; 
 ### E. Code Conventions
 - `let` and `const` (no `var`!)
 - `querySelector()` and `querySelectorAll()` for DOM traversal (DO NOT use the older methods)
-- Utilize at least one ES6 class of your own creation
+- Utilize at least one ES6 `class` of your own creation
 - D.R.Y. - Don't Repeat Yourself. Repeated blocks of nearly identical code should be factored out and placed in a separate function.
 - Variable and function names must begin with a lowercase letter.
 - Well-commented code. Each and every function gets a comment indicating what it does.
