@@ -51,7 +51,7 @@ Canvas and direct DOM manipulation (for the experience itself) are not allowed; 
 
 ## Milestones
 - By the start of class November 29 (for Prof. Boyle) or November 29 @ 11:59PM (for Prof. Jefferson) you will have updated your site from Project 1 to include a more accurate proposal of this game project.
-- Final project deliverable is due during our scheduled final exam. There is no dropbox for this; update your site and make sure the working game/app is running on it. If yu are working in a team, both team members need to update their sites.
+- Final project deliverable is due during our scheduled final exam. There is no dropbox for this; update your site and make sure the working game/app is running on it. If you are working in a team, both team members need to update their sites.
 - At our scheduled final exam time, we will have a show and tell of your projects (see below).
 
 ## Documentation
@@ -59,7 +59,7 @@ Canvas and direct DOM manipulation (for the experience itself) are not allowed; 
 - If you worked in a pair, explain what each team member did. Remember, everyone is responsible for contributing throughout the project, not just to one aspect.
 
 ## Presentation
-At the time of our scheduled meeting during finals week, you will present your project to the class in a brief demo. **Attendance for this is mandatory.** For this demo, show us:
+For Professor Boyle's sections, at the time of our scheduled meeting during finals week, you will present your project to the class in a brief demo. **Attendance for this is mandatory.** For this demo, show us:
 - What you made
 - What’s cool, and what you think is “above and beyond”
 - How you overcame any serious challenges
