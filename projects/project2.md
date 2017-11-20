@@ -39,7 +39,7 @@ This depends on what you are building:
 - Pleasing graphic design
 - Widgets are well labeled
 - User should be able to figure out how to use the app with minimal instruction (and be sure to provide instruction and tooltips if necessary!), and user errors are handled gracefully.
-
+- While it doesn't need to be responsive, it should look good on a range of displays; don't design it just to work on your huge screen at home. If my computer can't show the whole layout, it's a problem.
 
 ### C. HTML/CSS
 - Valid HTML5 - https://validator.w3.org
