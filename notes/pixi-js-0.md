@@ -3,7 +3,7 @@
 This series of tutorials/lecture notes will get you started in creating highly visual web experiences with the [PixiJS](http://www.pixijs.com) rendering engine.
 
 ## II. Prerequisite knowledge
-Before doing this exercise, you should have completed the entire [web app series](./web-apps-0.md)
+Before doing these exercises, you should have completed the entire [web app series](./web-apps-0.md)
 
 ## III. How to get the most out of these tutorials
 - Try out the code samples! Tweak and modify them! Most of the code samples are 100% complete. You just need to copy the code and paste it into a text file, and save it to your desktop. You can then make changes to the code and preview them in a web browser (we will be using Chrome)
