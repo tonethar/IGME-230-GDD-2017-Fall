@@ -18,8 +18,17 @@ Before doing this exercise, you should have completed the entire [web app series
     1. Adding DOM Button Events
     1. Sprites and Displaying Images & Running code on a server
 1. [ES6 Classes & PixiJS Animation](./pixi-js-2.md)
+    1. ES6 Class Resources
+    1. A simple ES6 class
+    1. Inheritance
+    1. Extending PIXI.Graphics
+    1. Animation
  
-
 ## V. Assignments
 Refer to the mycourses dropboxes for due dates:
-- [Random Phrases 1](./HW-random-phrases-1.md)
+- [Circle Blast! - part I](./HW-circle-blast.md)
+- [Circle Blast! - part II](./HW-circle-blast-2.md)
+- [Circle Blast! - part III](./HW-circle-blast-3.md)
+- [Circle Blast! - part IV](./HW-circle-blast-4.md)
+
+## VI. Demos
