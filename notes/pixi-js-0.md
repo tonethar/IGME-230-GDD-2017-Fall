@@ -32,3 +32,4 @@ Refer to the mycourses dropboxes for due dates:
 - [Circle Blast! - part IV](./HW-circle-blast-4.md)
 
 ## VI. Demos
+- [Particle Demo](./_files/particle-demo.zip)
