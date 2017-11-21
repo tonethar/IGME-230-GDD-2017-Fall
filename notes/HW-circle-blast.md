@@ -38,9 +38,9 @@ Parts I-III have the following features:
 - Scoring and levels
 
 Part IV (optional) adds the following:
-- custom font loading using [Web Font Loader](https://github.com/typekit/webfontloader)
-- "smarter" circles
-- the [Subclass Sandbox](http://gameprogrammingpatterns.com/subclass-sandbox.html) design pattern
+- Custom font loading using [Web Font Loader](https://github.com/typekit/webfontloader)
+- "Smarter" circles
+- The [Subclass Sandbox](http://gameprogrammingpatterns.com/subclass-sandbox.html) design pattern
 
 ### Pre-requisite knowledge
 Before doing this exercise, you should have completed the entire [web app series](./web-apps-0.md), as well as [pixi-js-1.md](./pixi-js-1.md) and [pixi-js-2.md](./pixi-js-2.md)
