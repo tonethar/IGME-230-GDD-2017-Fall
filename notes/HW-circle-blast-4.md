@@ -10,8 +10,17 @@ II. [Attempting (and failing) to load a web font for use in PixiJS](#section2)
 
 III. [Using a library to load a web font](#section3)
 
-IV. [Finish it up](#section4)
+IV. [Finish up appying the downloaded font](#section4)
 
+V. [Changing the `Circle` behavior](#section5)
+
+VI. [](#section6)
+
+VII. [](#section7)
+
+VIII. [](#section8)
+
+IX. [](#section9)
 
 ## I. <a id="section1">Overview
 In this walkthrough we will continue to add features to *Circle Blast!*.
@@ -100,7 +109,7 @@ After the 'Press Start 2P' web font has loaded, the function referenced by the `
 
 - Note the logs in the console show that the font loads first, and then the image assets load later.
 
-### IV. <a id="section4">Finish it up
+### IV. <a id="section4">Finish up appying the downloaded font
 
 - Go ahead and adjust the `fontSize` so that the text fits in the window, and change the `fontFamily` property values as needed by the other labels. When you are done it will look something like this:
 
