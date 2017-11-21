@@ -25,7 +25,7 @@ IX. [Pre-loading the audio files](#section9)
 ## I. <a id="section1">Overview
 In this walkthrough we will construct a complete PixiJS game, *Circle Blast!*
 
-It has the following features:
+Parts I-III have the following features:
 
 - 3 game "screens" - Start Screen, Main Game Screen, & Game Over Screen
 - Game Buttons with rollover states
@@ -36,6 +36,11 @@ It has the following features:
 - Sound loading and playback using the [Howler JS](https://github.com/goldfire/howler.js/) library
 - Sprite sheet loading and animation
 - Scoring and levels
+
+Part IV (optional) adds the following:
+- custom font loading using [Web Font Loader](https://github.com/typekit/webfontloader)
+- "smarter" circles
+- the [Subclass Sandbox](http://gameprogrammingpatterns.com/subclass-sandbox.html) design pattern
 
 ### Pre-requisite knowledge
 Before doing this exercise, you should have completed the entire [web app series](./web-apps-0.md), as well as [pixi-js-1.md](./pixi-js-1.md) and [pixi-js-2.md](./pixi-js-2.md)
