@@ -14,13 +14,17 @@ IV. [Finish up appying the downloaded font](#section4)
 
 V. [Changing the `Circle` behavior](#section5)
 
-VI. [](#section6)
+    - OrthogonalCircle
 
-VII. [](#section7)
+VI. [The Subclass Sandbox](#section6)
 
-VIII. [](#section8)
+    - `WrappingCircle`
 
-IX. [](#section9)
+VII. [Implementing `SeekingCircle`](#section7)
+
+VIII. ["Orthogonal wrapping circles"](#section8)
+
+IX. [Wrap up and Discussion](#section9)
 
 ## I. <a id="section1">Overview
 In this walkthrough we will continue to add features to *Circle Blast!*.
