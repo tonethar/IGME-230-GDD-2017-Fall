@@ -31,6 +31,7 @@ Refer to the mycourses dropboxes for due dates:
 - [Circle Blast! - part II](./HW-circle-blast-2.md)
 - [Circle Blast! - part III](./HW-circle-blast-3.md)
 - [Circle Blast! - part IV](./HW-circle-blast-4.md)
+- [Project 3 - Sprite-based Game or Experience](../projects/project3.md)
 
 ## VI. Demos
 - [Particle Demo](./_files/particle-demo.zip)
