@@ -140,7 +140,7 @@ First we will do something fairly simple, let's add circles that will only move 
 ![Screenshot](_images/circle-blast-37.jpg)
 
 
-## VI. The Subclass Sandbox
+## VI. <a id="section6">The Subclass Sandbox
 Now we are going to modify our `Circle` code to get more interesting behaviors, We are going to do this creating several subclasses of our `Circle` class and implement the [Subclass Sandbox](http://gameprogrammingpatterns.com/subclass-sandbox.html) pattern, which is defined as:
 
 *Define behavior in a subclass using a set of operations provided by its base class.*
@@ -236,7 +236,7 @@ One weird thing is a little "boost" the circles get when they wrap. To get rid o
 ![Screenshot](_images/circle-blast-41.jpg)
 
 
-### VII. Implementing `SeekingCircle`
+### VII. <a id="section7">Implementing `SeekingCircle`
 
 `SeekingCircle` will interpolate towards a target (initially the ship) - here is the implmentation - add this to **classes.js**:
 
@@ -282,7 +282,7 @@ Be sure that you understand what's going on here:
 - `gameLoop()` calls the `move()` method of the `SeekingCircle` instance
 - the `SeekingCircle` instance calls the `_chase)()` method that is defined in `Circle`
 
-### VIII. "Orthogonal wrapping circles"
+### VIII. <a id="section8">"Orthogonal wrapping circles"
 
 Here is one more for you, add this to `createCircles()` in main.js:
 
@@ -309,7 +309,7 @@ for(let i=0;i<numCircles/4;i++){
 
 ![Screenshot](_images/circle-blast-45.jpg)
 
-### IX. Wrap up and discussion
+### IX. <a id="section9">Wrap up and discussion
 Play though a few levels - the game now has a little bit of fun and chaos - primarily as an execution challenge - just trying to stay alive - but what could we do to make this more *fun*?
 
 #### IX-A. New `Circle` subclasses
