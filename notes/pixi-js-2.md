@@ -20,7 +20,7 @@ VI. [Nota Bene](#section6)
 VII. [Review Questions](#section7)
 
 
-### I. <a id="section1">Resources
+### I. <a id="section1">ES6 Class Resources
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 - http://exploringjs.com/es6/ch_classes.html
