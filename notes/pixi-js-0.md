@@ -22,7 +22,7 @@ Before doing this exercise, you should have completed the entire [web app series
     1. ES6 Class Resources
     1. A simple ES6 class
     1. Inheritance
-    1. Extending PIXI.Graphics
+    1. Extending `PIXI.Graphics`
     1. Animation
  
 ## V. Assignments
