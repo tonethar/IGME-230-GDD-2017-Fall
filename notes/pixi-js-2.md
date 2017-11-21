@@ -5,7 +5,7 @@ In this chapter we will look at creating ES6 classes, and getting them to work w
 
 ## Contents
 <!--- Local Navigation --->
-I. [Resources](#section1)
+I. [ES6 Class Resources](#section1)
 
 II. [A simple ES 6 class](#section2)
 
