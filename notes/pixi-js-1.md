@@ -428,7 +428,8 @@ Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-1-HW.html**
 1. add another PixiJS "sprite button" that reduces the size of all 3 shapes everytime it is clicked.
 1. Submission: ZIP and post all necessary files to the mycourses dropbox.
 
-<hr>
- **[Table of Contents <- About this PixiJS Tutorial Series](pixi-js-0.md)**
+<hr><hr>
+
+**[Table of Contents <- About this PixiJS Tutorial Series](pixi-js-0.md)**
   
- **[Next Chapter -> ES6 Classes & PixiJS Animation (chapter 2)](pixi-js-2.md)**
+**[Next Chapter -> ES6 Classes & PixiJS Animation (chapter 2)](pixi-js-2.md)**
