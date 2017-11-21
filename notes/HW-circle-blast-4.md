@@ -322,11 +322,11 @@ Play though a few levels - the game now has a little bit of fun and chaos - prim
 
 #### IX-B. Choices, Learning, and Fun
 - Currently, what does the player have to *learn* to do better at the game? Not much, other than learning to stay away from the top and left/right edges of the screen, and learning to watch out for the wrapping circles. That's it.
-- One way to make this game better would be to give the player more *choices*, and the ability to learn from and imporve upon those choice. BTW - Sid Meier once said that "A game is a series of meaningful choices"
+- One way to make this game better would be to give the player more *choices*, and the ability to learn from and improve upon those choices. BTW - Sid Meier once said that "A game is a series of meaningful choices"
 - Ideas for more choices and player learning:
-    - each level should have a goal that is not "get rid of all the circles" because it is tedious to shoot every last circle
+    - each level should have a goal that is not just "get rid of all the circles" because it is tedious to shoot every last circle
     - instead, "protect the 3 colony ships", or "take out the 3 circle-emitting bosses"
-    - as the level fighting drags on and the player has not met the level goal, more and deadlier obstacles should appear
+    - as the level fighting drags on and the player has not met the level goal, more and deadlier obstacles should appear (i.e. we are not rewarding or encouraging "grinding")
     - these give more opportunities for "risk/reward" choices: 
        - do I try to take out the last mothership even though it's a risky shot, or wait for a health powerup?
        - do I go for the weapon powerup, or do I risk my ship by moving into a position to shoot at those red circles that are seeking one of the colony ships?
