@@ -14,7 +14,7 @@ About PixiJS:
 
 ## Contents
 <!--- Local Navigation --->
-I. [Resources](#section1)
+I. [PixiJS Resources](#section1)
 
 II. ["Hello PixiJS"](#section2)
 
@@ -38,7 +38,7 @@ X. [Review Exercise](#section10)
 
 <hr>
 
-### I. <a id="section1">Resources
+### I. <a id="section1">PixiJS Resources
 PixiJS has fantastic example code and an active community of developers. Here are some helpful links:
 
 - http://www.pixijs.com/gallery
