@@ -18,7 +18,7 @@ V. [Changing the `Circle` behavior](#section5)
 
 VI. [The Subclass Sandbox](#section6)
 
-    - `WrappingCircle`
+    - WrappingCircle
 
 VII. [Implementing `SeekingCircle`](#section7)
 
