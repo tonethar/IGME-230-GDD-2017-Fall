@@ -126,7 +126,7 @@ After the 'Press Start 2P' web font has loaded, the function referenced by the `
 ## V. <a id="section5">Changing the `Circle` behavior 
 The way our circles move is not very interesting - let's work on improving this next - we will keep it pretty simple.
 
-**Note: The autonomous agent programming (steering, obstacle avoidance, seeking, fleeing, leader following, path finding) that you learned in IGME-202 *Interactive Digital Media* will give much more sophisticated results than what we are going to do below.  If you wish to apply those steering concepts to *Circle Blast!* you can certainly do so, it can all be applied here with some simple modifications.**
+**Note: The autonomous agent programming (steering, obstacle avoidance, seeking, fleeing, leader following, path finding) that you learned in IGME-202 *Interactive Digital Media* will give much more sophisticated results than what we are going to do below.  If you wish to apply those steering concepts to *Circle Blast!* you can certainly do so, it can all be done here with some simple modifications.**
 
 **The [Victor.js](http://victorjs.org) library can get you started on this.**
 
