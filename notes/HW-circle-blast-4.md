@@ -22,6 +22,7 @@ VIII. ["Orthogonal wrapping circles"](#section8)
 
 IX. [Wrap up and Discussion](#section9)
 
+<hr><hr>
 
 ## I. <a id="section1">Overview
 In this walkthrough we will continue to add features to *Circle Blast!*.
