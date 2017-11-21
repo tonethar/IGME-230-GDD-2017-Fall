@@ -124,7 +124,9 @@ After the 'Press Start 2P' web font has loaded, the function referenced by the `
 
 
 ## V. <a id="section5">Changing the `Circle` behavior 
-The way our circles move is not very interesting - let's work on this next.
+The way our circles move is not very interesting - let's work on this next - we will keep it pretty simple.
+
+**Note: The autonomous agent programming (steering, obstacle avoidance, seeking, fleeing, leader following, path finding) that you learned in *IGME-202 Interactive Digital* can all be applied here with some simple modifications. The [Victor.js](http://victorjs.org) library can get you started.**
 
 ### V-A. Orthogonal Circles
 First we will do something fairly simple, let's add circles that will only move orthogonally. We will not have to modify our `Circle` class to do so. Make `createCircles()` look like this:
