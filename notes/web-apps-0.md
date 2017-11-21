@@ -12,7 +12,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 - Be sure to answer all of the questions at the end of each section, and to do the review exercises.
 
 ## IV. The Tutorials
-1. [Introduction to Web Applications](https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-1.md):
+1. [Introduction to Web Applications](./web-apps-1.md):
     1. what is a web app?
     1. what components of the web browser can I program?
     1. what are web standards?
