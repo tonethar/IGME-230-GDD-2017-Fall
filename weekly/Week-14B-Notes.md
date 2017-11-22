@@ -4,6 +4,13 @@
 - SVG Transformations and interactions
 - Hit detection
 
+## Transformations
+[demo 1]
+
+## Interactions with SVG
+[demo 2]
+[demo 3]
+
 ## Hit Detection
 An SVG element can call getIntersectionList() to determine which of its children intersect with an argument rectangle. Any child of an SVG element (like circle, line etc.) can get its bounding box with a call to .getBBox(). The resulting array will always include the child whose boundary box is passed to getIntersectionList. The second argument to getIntersectionList specifies that only elements who have a particular ancestor will be returned. A null value for the second argument means all elements are returned regardless of ancestry.
 
@@ -22,14 +29,14 @@ An SVG element can call getIntersectionList() to determine which of its children
   let bbox = circle1.getBBox();
   // check to see if circle1 intersects any of the other circles
   let hitList = svg.getIntersectionList( bbox, null );
-  // hit list will always include circle1, as we're passing it's bounding box. It will also include any other svg elements circle1 intersects. So:
+  // hit list will always include circle1, as we're passing its bounding box. 
+  // It will also include any other svg elements circle1 intersects. So:
   if( hitList.length > 1 ) console.log( 'a hit!!!' );
 </script>
 ```
-[demo]
+[demo 4]
 
-The problem with this? Firefox doesn't (yet) support getIntersectionList! So we need to do a workaround.
-[demo]
+The problem with this? Firefox doesn't (yet) support getIntersectionList! So we need to do a workaround: [demo 4]
 
 ## Demos
 - [SVG 2 Demos](../other-files/SVG-Demos.zip)
