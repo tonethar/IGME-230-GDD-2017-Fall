@@ -25,7 +25,7 @@ IX. [Pre-loading the audio files](#section9)
 ## I. <a id="section1">Overview
 In this walkthrough we will construct a complete PixiJS game, *Circle Blast!*
 
-Parts I-III have the following features:
+**Parts I-III** have the following features:
 
 - 3 game "screens" - Start Screen, Main Game Screen, & Game Over Screen
 - Game Buttons with rollover states
@@ -37,7 +37,7 @@ Parts I-III have the following features:
 - Sprite sheet loading and animation
 - Scoring and levels
 
-Part IV (optional) adds the following:
+**Part IV** (optional) adds the following:
 - Custom font loading using [Web Font Loader](https://github.com/typekit/webfontloader)
 - "Smarter" circles
 - The [Subclass Sandbox](http://gameprogrammingpatterns.com/subclass-sandbox.html) design pattern
