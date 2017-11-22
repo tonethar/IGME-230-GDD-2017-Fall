@@ -44,6 +44,12 @@ The problem with this? Firefox doesn't (yet) support getIntersectionList! So we 
 ## Demos
 - [SVG 2 Demos](../other-files/SVG-2-Demos.zip)
 
+## Cool Student Examples
+- Multiplayer tank battle game: http://nerdnuke.net:3000/
+- Stack: https://people.rit.edu/~nac5961/230/project3/index.html
+- [D3](https://d3js.org/) audio visualizer: https://people.rit.edu/~cmg7063/230/project3/index.html
+- Fireworks: https://people.rit.edu/~imm3350/230/project3/index.html
+
 ## Exercise: Hit Detection Game
 Take the [hit detection demo](), and make it so that every time the player hits the enemy, a new “blocker” shape appears at a random location. Any time the player hits a blocker, their score resets, the game ends, or something similar.
 
