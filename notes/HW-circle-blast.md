@@ -65,7 +65,7 @@ Take a look at what you have:
 - an **images** directory - contains our custom cursor, a graphic for the player's ship, and a sprite sheet that is used with the explosion effect.
 - a **js** directory - there are 3 JavaScript files in here - **classes.js** and **main.js** are both currently empty, but **utilities.js** is all done for you.
 
-**Reminder: Once we start loading in images utilizing JavaScript, you will run into CORS security issues will need to run this project off of a server. See the list of 4 ways to do this on the [Intro to PixiJS](pixi-js-1.md) notes.**
+**Reminder: Once we start loading in images utilizing JavaScript, you will run into CORS security issues, and will need to run this project off of a server. See the list of 4 ways to do this on the [Intro to PixiJS](pixi-js-1.md) notes.**
 
 ## III. <a id="section3">Coding game.html
 
