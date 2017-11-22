@@ -51,7 +51,7 @@ The problem with this? Firefox doesn't (yet) support getIntersectionList! So we 
 - Fireworks: https://people.rit.edu/~imm3350/230/project3/index.html
 
 ## Exercise: Hit Detection Game
-Take the [hit detection demo](), and make it so that every time the player hits the enemy, a new “blocker” shape appears at a random location. Any time the player hits a blocker, their score resets, the game ends, or something similar.
+Take demo 4, and make it so that every time the player hits the enemy, a new “blocker” shape appears at a random location. Any time the player hits a blocker, their score resets, the game ends, or something similar.
 
 And... animate the blockers so they randomly move around, bouncing off the edges of the play area!
 
