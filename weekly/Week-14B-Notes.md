@@ -5,11 +5,14 @@
 - Hit detection
 
 ## Transformations
+SVG objects can be transformed using the same CSS properties you may have see before. We can animate these transformations via ```requestAnimationFrame()``` and we can also determine factors such as the point around which a transformation takes place.
+
 (see demo 1)
 
 ## Interactions with SVG
-(see demo 2)
-(see demo 3)
+These demos review how to add, remove, and animate SVG objects, and how we can add some interactivity. The first one is a timed clicking game, and the second is a very simple mouse-following example.
+
+(see demo 2 and 3)
 
 ## Hit Detection
 An SVG element can call getIntersectionList() to determine which of its children intersect with an argument rectangle. Any child of an SVG element (like circle, line etc.) can get its bounding box with a call to .getBBox(). The resulting array will always include the child whose boundary box is passed to getIntersectionList. The second argument to getIntersectionList specifies that only elements who have a particular ancestor will be returned. A null value for the second argument means all elements are returned regardless of ancestry.
@@ -36,7 +39,7 @@ An SVG element can call getIntersectionList() to determine which of its children
 ```
 (see demo 4)
 
-The problem with this? Firefox doesn't (yet) support getIntersectionList! So we need to do a workaround: see demo 5.
+The problem with this? Firefox doesn't (yet) support getIntersectionList! So we need to do a workaround; see demo 5.
 
 ## Demos
 - [SVG 2 Demos](../other-files/SVG-2-Demos.zip)
@@ -47,3 +50,7 @@ Take the [hit detection demo](), and make it so that every time the player hits 
 And... animate the blockers so they randomly move around, bouncing off the edges of the play area!
 
 Place the resulting HTML file (and any external resources if needed) on Banjo and provide a link from your homepage before next week's first class.
+
+## Review Questions
+1. How often is ```requestAnimationFrame``` called?
+1. 
