@@ -5,11 +5,11 @@
 - Hit detection
 
 ## Transformations
-[demo 1]
+(see demo 1)
 
 ## Interactions with SVG
-[demo 2]
-[demo 3]
+(see demo 2)
+(see demo 3)
 
 ## Hit Detection
 An SVG element can call getIntersectionList() to determine which of its children intersect with an argument rectangle. Any child of an SVG element (like circle, line etc.) can get its bounding box with a call to .getBBox(). The resulting array will always include the child whose boundary box is passed to getIntersectionList. The second argument to getIntersectionList specifies that only elements who have a particular ancestor will be returned. A null value for the second argument means all elements are returned regardless of ancestry.
@@ -34,12 +34,12 @@ An SVG element can call getIntersectionList() to determine which of its children
   if( hitList.length > 1 ) console.log( 'a hit!!!' );
 </script>
 ```
-[demo 4]
+(see demo 4)
 
-The problem with this? Firefox doesn't (yet) support getIntersectionList! So we need to do a workaround: [demo 4]
+The problem with this? Firefox doesn't (yet) support getIntersectionList! So we need to do a workaround: see demo 5.
 
 ## Demos
-- [SVG 2 Demos](../other-files/SVG-Demos.zip)
+- [SVG 2 Demos](../other-files/SVG-2-Demos.zip)
 
 ## Exercise: Hit Detection Game
 Take the [hit detection demo](), and make it so that every time the player hits the enemy, a new “blocker” shape appears at a random location. Any time the player hits a blocker, their score resets, the game ends, or something similar.
