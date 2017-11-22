@@ -7,7 +7,7 @@ In this chapter we will look at creating ES6 classes, and getting them to work w
 <!--- Local Navigation --->
 I. [ES6 Class Resources](#section1)
 
-II. [A simple ES 6 class](#section2)
+II. [A simple ES6 class](#section2)
 
 III. [Inheritance](#section3)
 
@@ -27,7 +27,7 @@ VII. [Review Questions](#section7)
 - https://googlechrome.github.io/samples/classes-es6/
 
 
-### II. <a id="section2">A simple ES 6 class
+### II. <a id="section2">A simple ES6 class
 
 The new ES6 `class` keyword provides a simple and clear syntax to create objects and deal with inheritance.
 
