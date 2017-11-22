@@ -173,7 +173,7 @@ If you try to preview the results you will get an error because we didn't write 
 
 - Now we need to implement the `createLabelsAndButtons()` function - add this to **main.js**:
 
-**Note: We are using the Futura font below, which might not be on your machine. If it's not, just use Verdana or similar. In Part IV, you are going to chnage the text over to a downloaded font anyway.**
+**Note: We are using the Futura font below, which might not be on your machine. If it's not, just use Verdana or similar. In Part IV, you are going to change the text over to a downloaded web font anyway.**
 
 ![Screenshot](_images/circle-blast-9.jpg)
 
