@@ -53,4 +53,4 @@ Place the resulting HTML file (and any external resources if needed) on Banjo an
 
 ## Review Questions
 1. How often is ```requestAnimationFrame``` called?
-1. 
+1. What does ```getIntersectionList``` do?
