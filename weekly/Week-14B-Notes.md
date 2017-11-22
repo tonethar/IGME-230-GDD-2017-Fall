@@ -39,4 +39,4 @@ Take the [hit detection demo](), and make it so that every time the player hits 
 
 And... animate the blockers so they randomly move around, bouncing off the edges of the play area!
 
-Place the resulting HTML file (and any external resources if needed) on Banjo and provide a link from your homepage before next class.
+Place the resulting HTML file (and any external resources if needed) on Banjo and provide a link from your homepage before next week's first class.
