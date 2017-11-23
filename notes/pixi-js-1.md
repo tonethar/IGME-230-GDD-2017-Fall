@@ -64,7 +64,7 @@ PixiJS pretty much just gives you *sprites*, but there are many plugins availabl
 
 ### II. <a id="section2">"Hello PixiJS"
 
-Here is your first PixiJS program. Note that we are importing the library from a CDN ("Content Distribution Network") rather than downloading the library ourselves.
+Here is your first PixiJS program. Note that we are importing the PixiJS library from a CDN ("Content Distribution Network") rather than downloading the library ourselves.
 
 #### pixi-intro-1.html
 
