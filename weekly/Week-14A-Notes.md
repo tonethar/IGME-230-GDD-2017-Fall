@@ -20,7 +20,7 @@ There are also a ton of JS libraries in common use nowadays, giving us external 
 ## Exercise: Abstract Animation
 Create an abstract animation. Use at least four different types of SVG elements in your composition. All SVG elements (with the exception of the container ```<svg>``` tag) should be dynamically added via JavaScript. Try to create at least two different “scenes”, moments where the animation changes in a significant way.
 
-Place the resulting HTML file (and any external resources if needed) on Banjo and provide a link from your homepage, before next class.
+Place the resulting HTML file (and any external resources if needed) on Banjo and provide a link from your homepage, before next week's first class.
 
 ## Review questions
 1. What is the difference between raster and vector graphics?
