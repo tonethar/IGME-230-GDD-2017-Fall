@@ -50,6 +50,10 @@ The problem with this? Firefox doesn't (yet) support getIntersectionList! So we 
 - [D3](https://d3js.org/) audio visualizer: https://people.rit.edu/~cmg7063/230/project3/index.html
 - Fireworks: https://people.rit.edu/~imm3350/230/project3/index.html
 
+## More Resources
+- Great coverage of the different SVG elements- http://tutorials.jenkov.com/svg/index.html
+- Animating SVG without JavaScript - https://css-tricks.com/guide-svg-animations-smil/
+
 ## Exercise: Hit Detection Game
 Take demo 4, and make it so that every time the player hits the enemy, a new “blocker” shape appears at a random location (3 points).
 Any time the player hits a blocker, their score resets, the game ends, or something similar (7 points).
