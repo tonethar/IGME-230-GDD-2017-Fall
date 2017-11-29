@@ -51,7 +51,8 @@ The problem with this? Firefox doesn't (yet) support getIntersectionList! So we 
 - Fireworks: https://people.rit.edu/~imm3350/230/project3/index.html
 
 ## More Resources
-- Great coverage of the different SVG elements- http://tutorials.jenkov.com/svg/index.html
+- Great coverage of the different SVG elements - http://tutorials.jenkov.com/svg/index.html
+- More details on how getIntersectionList works - https://www.w3.org/TR/SVG/struct.html#__svg__SVGSVGElement__getIntersectionList
 - Animating SVG without JavaScript - https://css-tricks.com/guide-svg-animations-smil/
 
 ## Exercise: Hit Detection Game
