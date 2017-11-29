@@ -15,7 +15,7 @@ These demos review how to add, remove, and animate SVG objects, and how we can a
 (see demo 2 and 3)
 
 ## Hit Detection
-An SVG element can call getIntersectionList() to determine which of its children intersect with an argument rectangle. Any child of an SVG element (like circle, line etc.) can get its bounding box with a call to ```.getBBox()```. The resulting array will always include the child whose boundary box is passed to getIntersectionList. The second argument to getIntersectionList specifies that only elements who have a particular ancestor will be returned. A null value for the second argument means all elements are returned regardless of ancestry.
+An SVG element can call ```getIntersectionList()``` to determine which of its children intersect with an argument rectangle. Any child of an SVG element (like circle, line etc.) can get its bounding box with a call to ```.getBBox()```. The resulting array will always include the child whose boundary box is passed to ```getIntersectionList()```. The second argument to ```getIntersectionList()``` specifies that only elements who have a particular ancestor will be returned. A null value for the second argument means all elements are returned regardless of ancestry.
 
 ```html
 <body>
@@ -65,3 +65,4 @@ Place the resulting HTML file (and any external resources if needed) on Banjo an
 ## Review Questions
 1. How often is ```requestAnimationFrame``` called?
 1. What does ```getIntersectionList``` do?
+1. What does ```getBBox()``` return?
