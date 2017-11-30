@@ -1,13 +1,5 @@
-# Week 15A - TBA
+# Week 15A - The Home Stretch
+This week will be dedicated to review and project work and, depending on your section, the final exam itself. Please note that professor Boyle's sections have their final exam Monday of next week.
 
 ## Topics
-- Coming soon
-
-## Resources
-- Nothing here yet
-
-## Exercise
-Stay tuned!
-
-## Review Questions
-1. Please stand by
+- Final exam review: https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/final-exam-review.md
