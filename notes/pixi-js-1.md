@@ -276,7 +276,7 @@ document.querySelector("#rotate").onclick = e=>{
 	square.rotation += amt;
 	line.rotation += amt;
 	poly.rotation += amt;
-	// we can't see the rotation of the pixel, so let's scale it up instead
+	// we can't see the rotation of the circle, so let's scale it up instead
 	circle.width += 5;
 	circle.height += 5;
 };
