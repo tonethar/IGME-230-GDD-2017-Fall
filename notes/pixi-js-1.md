@@ -100,7 +100,10 @@ document.body.appendChild(app.view);
 - You should see the 600x400 black canvas that PixiJS created for us in the browser
 - You should also see this canvas in the Web Inspector
 - You should see a log to the console that shows the rendering method being used (Canvas or WebGL)
-- *Can you change the background color to something other than black?* Sure! Either use CSS style rules, or assign a specific style value in JavaScript using `.style.backgroundColor`
+- *Can you re-position the &lt;canvas> tag?* Sure, just use CSS style rules.
+- *Can you change the background color to something other than black?* Sure! With this line of code:
+
+`app.renderer.backgroundColor = 0xFF00FF; // Magneta!`
 
 
 ### III. <a id="section3">Drawing Shapes
