@@ -36,3 +36,4 @@ Refer to the mycourses dropboxes for due dates:
 ## VI. Demos
 - [Particle Demo](./_files/particle-demo.zip)
 - [Vector Demo](./_files/PixiJS-vectors.zip)
+- [Smooth Keyboard Control Demo](./_files/smooth-keyboard-control.zip)
