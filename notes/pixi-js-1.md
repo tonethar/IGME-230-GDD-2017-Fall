@@ -4,7 +4,7 @@
 About PixiJS:
 - 2D Rendering Engine - put stuff on the screen - designed for speed and performance
 - Primarily you get sprites and a scene graph, but not a full game engine. Game engines have physics, sound, etc 
-- Uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) for drawing - which is fast because WebGL runs on the GPU!
+- Uses the browser's [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) for drawing - which is fast because WebGL runs on the GPU!
 - Basically is a "wrapper" for WebGL.
 - Seamlessly falls back to [&lt;canvas>](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) on older browsers
 - Easy to use
