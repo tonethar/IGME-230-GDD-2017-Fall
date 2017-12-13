@@ -130,7 +130,7 @@ The way our circles move is not very interesting - let's work on improving this 
 
 **The [Victor.js](http://victorjs.org) library can get you started on this.**
 
-**We also have a [Vector demo](_files/PixiJS-vectors.zip) that will get you started.**
+**We also have a [PixiJS Vector demo](_files/PixiJS-vectors.zip) that will get you started.**
 
 ### V-A. Orthogonal Circles
 First we will do something fairly simple, let's add circles that will only move orthogonally. We will not have to modify our `Circle` class to do so. Make `createCircles()` look like this:
