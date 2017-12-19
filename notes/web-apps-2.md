@@ -99,7 +99,7 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 - Note that the general term for an interactive console like this a [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) - "Read-Evaluate-Print-Loop".
 
 ## V. <a id="section5"></a>Declaring variables and constants
-We use the `const` keyword to declare a read-only reference to a value, and the `let` keyword to declare variables that are limited in scope to the block, statement, or expression on which it is used. Note that we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
+We use the `const` keyword to declare a read-only reference to a value, and the `let` keyword to declare variables. Both `let` and `const` are limited in scope to the block, statement, or expression on which they are used. Note that we do not specify any *type* information when we declare the variable.
 
 Note that `const` and `let` are both part of the ES6 standard (you are learning some ES6 already!) and are well-supported by current and recent browsers.
 
