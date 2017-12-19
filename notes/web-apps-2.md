@@ -105,6 +105,16 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 - Note that the general term for an interactive console like this a [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) - "Read-Evaluate-Print-Loop".
 
+<hr>
+
+### ** *Try This* **
+In the console, type in the following to see what you get:
+```
+
+```
+
+<hr>
+
 ## V. <a id="section5"></a>Declaring variables and constants
 We use the `const` keyword to declare a read-only reference to a value, and the `let` keyword to declare variables. Both `let` and `const` are limited in scope to the block, statement, or expression on which they are used. Note that we do not specify any *type* information when we declare the variable.
 
@@ -204,7 +214,7 @@ JavaScript is a *loosely typed* (aka *dynamic*) language:
 <hr>
 
 ### ** *Try This* **
-In hello-3.html:
+In *hello-3.html*:
 - re-declare the `sum` variable like this - `let sum = 999;` - what error do you get?
 
 <hr>
@@ -241,8 +251,8 @@ JavaScript also contains a number of built-in objects that we can use. There is 
      let userName = undefined;
      let data = null;
 
-     console.log(sum.toFixed(2)); // 99.98
-     console.log(name.length); // 4
+     console.log(sum.toFixed(2)); 	 // 99.98
+     console.log(name.length); 		 // 4
      console.log(isLoggedIn.toString()); // "false"
 
 </script>
@@ -258,8 +268,8 @@ In #2 above, we can see instances of where JavaScript primitive values are impli
 <hr>
 
 ### ** *Try This* **
-In hello-4.html:
-- re-declare the `sum` variable like this - `let sum = 999;` - what error do you get?
+In *hello-4.html*:
+
 
 <hr>
 
