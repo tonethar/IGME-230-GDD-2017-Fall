@@ -152,8 +152,10 @@ The 5 common built-in "primitive" data types in JavaScript are: `Number`, `Strin
 
 (ES6 has also added the `Symbol` type, which we won't need to use in this course.)
 
-JavaScript is a *loosely typed* (aka *dynamic*) language. That means you don't have to declare the *type* of a variable ahead of time. The type will be determined automatically by the engine while the program is being run. 
-That also means that the same variable can reference data of different types.
+JavaScript is a *loosely typed* (aka *dynamic*) language:
+- you do not declare the *type* of a variable, as variables DO NOT have types
+- values (of course) DO have types
+- this also means that the same variable can reference data of different types throughout your program as it runs
 
 ### hello-3.html
 ```html
@@ -279,6 +281,7 @@ console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
 1. What happens when you try to change the value of a previously declared *constant value*?
 1. What are the 5 built-in JavaScript "primitive" data types?
 1. What kinds of values can a `Number` type hold? (Google it)
+1. True or False. JavaScript variables DO NOT have types, JavaScript values DO have types.
 1. Which of the following examples will evaluate to `true` in a boolean context?
     1. `undefined`, `null`, `false`, `0`, `""`, `''`
     1. `0.0`
