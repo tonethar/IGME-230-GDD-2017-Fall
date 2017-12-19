@@ -263,8 +263,6 @@ console.log("" == false ? "\"\" is false" : "\"\" is true");
 console.log('' == false ? "\'\' is false" : "\'\' is true");
 console.log(new Boolean(false) == false ? "\"new Boolean(false)\" is false" : "\"new Boolean(false)\" is true");
 console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
-
-*/
 ```
 
 **Basically, the first 8 values above are all coerced to *false* in a Boolean content. Everything else - like the string "false" for example, is coerced to *true*.**
