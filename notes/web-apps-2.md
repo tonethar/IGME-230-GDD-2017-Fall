@@ -84,7 +84,7 @@ Let's go ahead and build a JavaScript "Hello World" application - it looks like 
 
 Note that JavaScript directives are contained in a &lt;script> tag. 
 
-Go ahead and save this web page in an HTML file named hello-1.html and load it into the Chrome web browser - which will be the browser we will use in all of our examples going forward. 
+Go ahead and save this web page in an HTML file named *hello-1.html* and load it into the Chrome web browser - which will be the browser we will use in all of our examples going forward. 
 
 The line of code - `console.log("Hello world!");` - doesn't do anything in the web browser window, but will instead be visible in the JavaScript console. We can see this console by right-clicking in the browser window and choosing **Inspect**. After that, choose the **Console** tab.
 
@@ -94,7 +94,7 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 ### ** *Just for the fun of it!* **
 (We will not be collecting any of these "fun" challenges...)
-- In hello-1.html, change the message from "Hello World!" to "Hello RIT!"
+- In *hello-1.html*, change the message from "Hello World!" to "Hello RIT!"
 
 <hr>
 
@@ -146,7 +146,7 @@ Note the backtick `` ` `` symbol is used to denote the string, and `${}` enclose
 <hr>
 
 ### ** *Just for the fun of it!* **
-In hello-2.html:
+In *hello-2.html*:
 - modify the *string concatenation* code above to instead use *string templating*
 - declare a `z` variable with a value of 1, add it to the sum, and add it to the `console.log()`
 
@@ -200,6 +200,14 @@ JavaScript is a *loosely typed* (aka *dynamic*) language:
 </body>
 </html>
 ```
+
+<hr>
+
+### ** *Just for the fun of it!* **
+In hello-3.html:
+- re-declare the `sum` variable like this - `let sum = 999;` - what error do you get?
+
+<hr>
 
 ## VIII. <a id="section8"></a>JavaScript "Built-in" Objects
 
@@ -373,7 +381,6 @@ The JavaScript specification dicusses this coercion (conversion) here:
 1. Which JavaScript keyword declares *constants*?
 1. What happens when you try to change the reference to a previously declared *constant* like `const a=10;`?
 1. Find the MDN page - https://developer.mozilla.org/ - for the type of error you saw in the previous question, and give the 1-line summary of that error from the top of that MDN page.
-1. Head back to **hello-2.html**,  re-declare the `answer` variable like this - `let answer = 32;` - what error do you get?
 1. What are the 5 built-in JavaScript "primitive" data types?
 1. What kinds of values can a `Number` type hold? (Google it)
 1. True or False. JavaScript *variables* DO NOT have types, but JavaScript *values* DO have types.
