@@ -21,11 +21,15 @@ VII. [JavaScript "Primitive" Data Types](#section7)
 
 VIII. [JavaScript "Built-in" Objects](#section8)
 
-IX. [Nota bene - "Note well"](#section9)
+IX. [`let` or `var`?](#section9)
 
-X. [Review Questions](#section10)
+X. [Falsy and Truthy values](#section10)
 
-XI. [Review Exercise](#section11)
+XI. [Nota bene - "Note well"](#section11)
+
+XII. [Review Questions](#section12)
+
+XIII. [Review Exercise](#section13)
 
 
 <hr><hr>
@@ -146,10 +150,10 @@ Now go ahead and fix the error by declaring `answer` as a variable rather than a
 
 The 5 common built-in "primitive" data types in JavaScript are: `Number`, `String`, `Boolean`, `Undefined` (a value has never been defined) and `Null` (the intentional absence of a value).
 
-(ES6 has also added the `Symbol` type, which we probably won't need to use in this course.)
+(ES6 has also added the `Symbol` type, which we won't need to use in this course.)
 
 JavaScript is a *loosely typed* (aka *dynamic*) language. That means you don't have to declare the *type* of a variable ahead of time. The type will be determined automatically by the engine while the program is being run. 
-That also means that the same variable can contain data of different types.
+That also means that the same variable can reference data of different types.
 
 ### hello-3.html
 ```html
@@ -167,8 +171,8 @@ That also means that the same variable can contain data of different types.
      let data = null;
 
      // We can later change what type a variable contains
-     sum = "Joe"; // sum now contains a String
-     name = 50; // name now contains a Number
+     sum = "Joe"; // `sum` now contains a String
+     name = 50; // `name` now contains a Number
 
      console.log(sum); // "Joe"
 
@@ -191,18 +195,20 @@ JavaScript also contains a number of built-in objects that we can use. There is 
    <meta charset="utf-8" />
    <title>Hello-4</title>
    <script>
-     // Common JS Objects
-     let colors = ["red","green","blue"]; // Array literal
-     let person = {name:"Fred",age:20};   // Object literal
+     // 1) Common JS Objects
+     let colors = ["red", "green", "blue"]; // Array literal
+     let person = {name:"Fred", age:20};   // Object literal
      let month = new Date().getMonth(); 
      let age = Math.round(20.999);
+     let age2 = Math.floor(20.999);
 
-     console.log(colors[0]);
-     console.log(person.name);
-     console.log(month);
-     console.log(age);
+     console.log(colors[0]);		// "red"
+     console.log(person.name);		// "fred"
+     console.log(month);		// try this yourself
+     console.log(age);			// 21
+     console.log(age2);			// 20
 
-     // Treat "primitives" like objects
+     // 2) Treat "primitives" like objects
      let sum = 99.980809809;             // Number
      let name = "Fred";                  // String
      let isLoggedIn = false;             // Boolean
@@ -220,16 +226,18 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 </html>
 ```
 
-## IX. <a id="section9"></a>Nota bene 
-1. In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. We recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`, which introduces odd behavior. You can read some dicussion of this issue here: https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
-1. The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer - documentation on the finer points of this is here:
-    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
-    - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
-1. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
-1. We expect you to review the following programming structures on your own:
-    - branching/conditionals such as [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else), [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch), and the [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/conditional_operator)
-    - repetitve constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
-1. JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
+### VIII-A. "Boxing" primitive values
+In #2 above, we can see instances of where JavaScript primitive values are implicitly coerced or "boxed" into objects. For example, when the `toFixed()` method is called on the variable `sum`, JavaScript will convert the value to a `Number` object, call `toFixed()` on that object, and then return the result as a primitive number. 
+
+
+## IX. <a id="section11">`let` or `var`?
+ - In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. In this course, we recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`. As most of the major programming languages - except Python - utilize *block scoped* variables exclusively, programming with block-scoped varaiables like `let` gives us is what you are used to.
+ - There definitely ARE some use cases for `var`, you can read some discussion here:
+     - https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
+     - https://davidwalsh.name/for-and-against-let
+
+## X. <a id="section10">Falsy and Truthy values
+JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
     - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
     - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
@@ -252,7 +260,18 @@ Everything else - like the string "false" for example, is coerced to *true*.
 */
 ```
 
-## X. <a id="section10"></a>Review Questions
+
+## XI. <a id="section11"></a>Nota bene 
+1. The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer values - documentation on the finer points of this is here:
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+    - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
+1. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
+1. We expect you to review the following programming structures on your own:
+    - branching/conditionals such as [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else), [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch), and the [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/conditional_operator)
+    - repetitve constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+
+
+## XII. <a id="section12"></a>Review Questions
 1. Which versions of JavaScript will we be covering in this course?
 1. How can you get the interactive JavaScript [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) to appear in Chrome?
 1. Which JavaScript keyword declares *variables*?
@@ -270,7 +289,7 @@ Everything else - like the string "false" for example, is coerced to *true*.
     1. `new Array()`, `[]`
     
 
-## XI. <a id="section11"></a>Review Exercise
+## XIII. <a id="section13"></a>Review Exercise
 Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
