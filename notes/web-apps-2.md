@@ -92,8 +92,8 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 <hr>
 
-### ** *Just for the fun of it!* **
-(We will not be collecting any of these "fun" challenges...)
+### ** *Try This!* **
+(We will not be collecting any of these "challenges", but you are still expected to complete them ...)
 - In *hello-1.html*, change the message from "Hello World!" to "Hello RIT!"
 
 <hr>
@@ -145,7 +145,7 @@ Note the backtick `` ` `` symbol is used to denote the string, and `${}` enclose
 
 <hr>
 
-### ** *Just for the fun of it!* **
+### ** *Try This* **
 In *hello-2.html*:
 - modify the *string concatenation* code above to instead use *string templating*
 - declare a `z` variable with a value of 1, add it to the sum, and add it to the `console.log()`
@@ -203,7 +203,7 @@ JavaScript is a *loosely typed* (aka *dynamic*) language:
 
 <hr>
 
-### ** *Just for the fun of it!* **
+### ** *Try This* **
 In hello-3.html:
 - re-declare the `sum` variable like this - `let sum = 999;` - what error do you get?
 
@@ -254,6 +254,14 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 
 ### VIII-A. "Boxing" primitive values
 In #2 above, we can see instances of where JavaScript primitive values are implicitly coerced or "boxed" into objects. For example, when the `toFixed()` method is called on the variable `sum`, JavaScript will convert the value to a `Number` object, call `toFixed()` on that object, and then return the result as a primitive number. 
+
+<hr>
+
+### ** *Try This* **
+In hello-4.html:
+- re-declare the `sum` variable like this - `let sum = 999;` - what error do you get?
+
+<hr>
 
 
 ## IX. <a id="section9">`let` or `var`?
