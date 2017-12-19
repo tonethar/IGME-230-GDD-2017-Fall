@@ -231,8 +231,9 @@ In #2 above, we can see instances of where JavaScript primitive values are impli
 
 
 ## IX. <a id="section9">`let` or `var`?
- - In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. In this course, we recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`. As most of the major programming languages - except Python - utilize *block scoped* variables exclusively, programming with block-scoped varaiables like `let` gives us is what you are used to.
- - There definitely ARE some use cases for `var`, you can read some discussion here:
+ - In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. In this course, we recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`. 
+ - As most of the major programming languages - except Python - utilize *block scoped* variables exclusively, programming with block-scoped variables (like `let` gives us) is what you are used to.
+ - There definitely ARE some use cases for `var`, you can read some discussion about this here:
      - https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
      - https://davidwalsh.name/for-and-against-let
 
@@ -254,11 +255,10 @@ console.log('' == false ? "\'\' is false" : "\'\' is true");
 console.log(new Boolean(false) == false ? "\"new Boolean(false)\" is false" : "\"new Boolean(false)\" is true");
 console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
 
-/*
-Basically, the first 8 values above are all coerced to *false* in a Boolean content.
-Everything else - like the string "false" for example, is coerced to *true*.
 */
 ```
+
+**Basically, the first 8 values above are all coerced to *false* in a Boolean content. Everything else - like the string "false" for example, is coerced to *true*.**
 
 
 ## XI. <a id="section11"></a>Nota bene 
