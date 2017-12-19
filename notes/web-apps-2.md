@@ -355,7 +355,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
 1. How can you get the interactive JavaScript [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) to appear in Chrome?
 1. Which JavaScript keyword declares *variables*?
 1. Which JavaScript keyword declares *constants*?
-1. What happens when you try to change the value of a previously declared *constant value*?
+1. What happens when you try to change the reference to a previously declared *constant* like `const a=10;`?
 1. Find the MDN page - https://developer.mozilla.org/ - for the type of error you saw in the previous question, and give the 1-line summary of that error from the top of that MDN page.
 1. Head back to **hello-2.html**,  re-declare the `answer` variable like this - `let answer = 32;` - what error do you get?
 1. What are the 5 built-in JavaScript "primitive" data types?
