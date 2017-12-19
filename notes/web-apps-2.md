@@ -261,36 +261,43 @@ let name = "Fred";
 
 // if() statements accept a "truthy" condition
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+	
+// #1
 if(true){
 	console.log("true"); // true
 }else{
 	console.log("false");
 }
 
+// #2
 if(false){
 	console.log("true");
 }else{
 	console.log("false"); // false
 }
 
+// #3
 if(2 > 1){
 	console.log("true"); // true
 }else{
 	console.log("false");
 }
 
+// #4
 if(0){
 	console.log("true"); 
 }else{
 	console.log("false"); // false
 }
 
+// #5
 if(undefined){
 	console.log("true"); 
 }else{
 	console.log("false"); // false
 }
 
+// #6
 if("fred"){
 	console.log("true"); // true
 }else{
@@ -302,11 +309,18 @@ if("fred"){
 </html>
 ```
 
-confused? Check out these links, and see the code sample below:
+### X-A. Discussion
+- #1, #2 and #3 above shoulde be obvious
+- #4 and #5 above are both "falsy" values in that JavaScript (per the specification) coerces them to `false`
+- How is #6 true? Read on!
+
+Check out these links, and see the code sample below:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 
+
+### X-B. 8 falsy values, and a single truthy one
 ```javascript
 // All of these are false values, excepting the last one - it turns out that "false" is true
 console.log(0 == false ? "0 is false" : "0 is true");
@@ -321,6 +335,9 @@ console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
 ```
 
 **Basically, the first 8 values above are all coerced to *false* in a Boolean content. Everything else - like the string "false" for example above, is coerced to *true*.**
+
+The JavaScript specification dicusses this coercion (conversion) here: 
+- https://www.ecma-international.org/ecma-262/8.0/index.html#sec-abstract-equality-comparison
 
 
 ## XI. <a id="section11"></a>Nota bene 
@@ -341,8 +358,9 @@ console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
 1. What happens when you try to change the value of a previously declared *constant value*?
 1. What are the 5 built-in JavaScript "primitive" data types?
 1. What kinds of values can a `Number` type hold? (Google it)
-1. True or False. JavaScript variables DO NOT have types, JavaScript values DO have types.
-1. Which of the following examples will evaluate to `true` in a boolean context?
+1. True or False. JavaScript *variables* DO NOT have types, but JavaScript *values* DO have types.
+1. Give an example of *boxing* in JavaScript.
+1. Which of the following examples will evaluate to `true` in a boolean context (ex. inside an `if` statement)? (Try them out in the browser if you are not sure)
     1. `undefined`, `null`, `false`, `0`, `""`, `''`
     1. `0.0`
     1. `"undefined"`, `"null"`
@@ -356,7 +374,7 @@ console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
 Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
-1. Print out the last element in the `colors` array.
+1. Print out the last element in the `colors` array, without hard-coding the index value.
 1. Loop through the `colors` array using a `for` loop and print out each value to the console.
 1. Add a new property named `school` to the `person` object and give it a value of "RIT". Then print this value to the console.
 1. Print out the number of seconds that have passed since 1970 - use the `Date` object.
