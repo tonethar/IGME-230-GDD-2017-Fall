@@ -230,7 +230,7 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 In #2 above, we can see instances of where JavaScript primitive values are implicitly coerced or "boxed" into objects. For example, when the `toFixed()` method is called on the variable `sum`, JavaScript will convert the value to a `Number` object, call `toFixed()` on that object, and then return the result as a primitive number. 
 
 
-## IX. <a id="section11">`let` or `var`?
+## IX. <a id="section9">`let` or `var`?
  - In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. In this course, we recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`. As most of the major programming languages - except Python - utilize *block scoped* variables exclusively, programming with block-scoped varaiables like `let` gives us is what you are used to.
  - There definitely ARE some use cases for `var`, you can read some discussion here:
      - https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
