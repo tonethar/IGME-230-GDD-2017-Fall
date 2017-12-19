@@ -94,7 +94,7 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 ### ** *Just for the fun of it!* **
 (We will not be collecting any of these "fun" challenges...)
-- Change the message from "Hello World!" to "Hello RIT!"
+- In hello-1.html, change the message from "Hello World!" to "Hello RIT!"
 
 <hr>
 
@@ -142,6 +142,15 @@ Note that `const` and `let` are both part of the ES6 standard (you are learning 
 - Note above when strings are added to numbers, we get back a concatenated string. 
 - Also see the *String Templating* used above - that's a newer ES6 feature that is more powerful than simple string concatenation. 
 Note the backtick `` ` `` symbol is used to denote the string, and `${}` encloses the variable names.
+
+<hr>
+
+### ** *Just for the fun of it!* **
+In hello-2.html:
+- modify the *string concatenation* code above to instead use *string templating*
+- declare a `z` variable with a value of 1, add it to the sum, and add it to the `console.log()`
+
+<hr>
 
 
 ## VI. <a id="section6"></a>Viewing error messages
