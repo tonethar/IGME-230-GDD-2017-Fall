@@ -92,7 +92,7 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 <hr>
 
-### *Just for the fun of it!*
+### ** *Just for the fun of it!* **
 (We will not be collecting any of these "fun" challenges...)
 - Change the message from "Hello World!" to "Hello RIT!"
 
