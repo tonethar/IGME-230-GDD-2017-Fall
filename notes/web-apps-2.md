@@ -242,12 +242,67 @@ In #2 above, we can see instances of where JavaScript primitive values are impli
 ## X. <a id="section10">Falsy and Truthy values
 JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. 
 
+### hello-5.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>HELLO-5</title>
+</head>
+<body>
+
+<script>
+let a = 0;
+let b = 1;
+let c = 2;
+let name = "Fred";
+
+// if() statements accept a "truthy" condition
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+if(true){
+	console.log("true"); // true
+}else{
+	console.log("false");
+}
+
+if(false){
+	console.log("true");
+}else{
+	console.log("false"); // false
+}
+
+if(2 > 1){
+	console.log("true"); // true
+}else{
+	console.log("false");
+}
+
+if(0){
+	console.log("true"); 
+}else{
+	console.log("false"); // false
+}
+
+if(undefined){
+	console.log("true"); 
+}else{
+	console.log("false"); // false
+}
+
+if("fred"){
+	console.log("true"); // true
+}else{
+	console.log("false");
+}
+
+</script>
+</body>
+</html>
 ```
 
-
-```
-
-Check out these links, and see the code sample below:
+confused? Check out these links, and see the code sample below:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
@@ -265,7 +320,7 @@ console.log(new Boolean(false) == false ? "\"new Boolean(false)\" is false" : "\
 console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
 ```
 
-**Basically, the first 8 values above are all coerced to *false* in a Boolean content. Everything else - like the string "false" for example, is coerced to *true*.**
+**Basically, the first 8 values above are all coerced to *false* in a Boolean content. Everything else - like the string "false" for example above, is coerced to *true*.**
 
 
 ## XI. <a id="section11"></a>Nota bene 
