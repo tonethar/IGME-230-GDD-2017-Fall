@@ -90,6 +90,9 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 ![The JavaScript Console](_images/console-1.jpg)
 
+### *For Fun!*
+- Change the message from "Hello World!" to "Hello RIT!"
+
 
 ## IV. <a id="section4"></a>The JavaScript console is interactive
 - This console also contains an interactive interpreter where you can run JavaScript commands. At the prompt, type `Date()` to create and see a new date from the `Date` object, and `Math.random()` to get a random number from the `Math` object.
