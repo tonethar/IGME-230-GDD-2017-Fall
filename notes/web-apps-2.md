@@ -50,7 +50,7 @@ You can read about the evolution of JavaScript & ECMAScript here:
 In this course we are mostly concerned about the version of JavaScript that was standardized in 2009 called ECMAScript 5 (aka ES5), and the latest version (ES6) which was finalized in 2015. 
 Because ES6 has not been full adopted by all of the browser vendors, we will only be using a small subset of its features.
 
-You can peruse the full ES6 standard here - https://tc39.github.io/ecma262/ - but it's not very exciting reading.
+You can peruse the full ES6 standard here - https://tc39.github.io/ecma262/ - but it's not written to be a quick reference.
 
 A nice list of new ES6 language features is here - http://es6-features.org/ - and it will make more sense as you get comfortable with the JavaScript programming language.
 
@@ -95,7 +95,7 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 - Note that the general term for an interactive console like this a [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) - "Read-Evaluate-Print-Loop".
 
 ## V. <a id="section5"></a>Declaring variables and constants
-We use the `const` keyword to declare constant values (that do not change), and the `let` keyword to declare variables. Note that we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
+We use the `const` keyword to declare a read-only reference to a value, and the `let` keyword to declare variables that are limited in scope to the block, statement, or expression on which it is used. Note that we do not specify any *type* information when we declare the variable, and the JavaScript interpreter will infer the data type of the variable based on what value we assign to it.
 
 Note that `const` and `let` are both part of the ES6 standard (you are learning some ES6 already!) and are well-supported by current and recent browsers.
 
