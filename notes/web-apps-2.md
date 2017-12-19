@@ -240,10 +240,17 @@ In #2 above, we can see instances of where JavaScript primitive values are impli
      - https://davidwalsh.name/for-and-against-let
 
 ## X. <a id="section10">Falsy and Truthy values
-JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. Check out these links, and see the code sample below:
-    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
-    - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
-    - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+JavaScript has a large number of **truthy** and **falsy** values that are *coerced* to `true` or `false` in a boolean expression or context. 
+
+```
+
+
+```
+
+Check out these links, and see the code sample below:
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+- https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+- https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 
 ```javascript
 // All of these are false values, excepting the last one - it turns out that "false" is true
