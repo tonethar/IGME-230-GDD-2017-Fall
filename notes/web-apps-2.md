@@ -249,7 +249,7 @@ JavaScript has a large number of **truthy** and **falsy** values that are *coerc
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>HELLO-5</title>
+	<title>Hello-5</title>
 </head>
 <body>
 
