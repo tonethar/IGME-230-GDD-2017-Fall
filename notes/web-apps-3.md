@@ -311,6 +311,13 @@ Use the CSS3 `E:nth-last-of-type(n)` selector.
 
 #3 above - we used a *descendant* selector to target &lt;b> tags that are inside of paragraphs, and the ES6 `for/of` to loop over the array. 
 
+<hr>
+
+### ** *Try This!* **
+- In *dom-4.html*, add the "translate/rotate" effect to all of the &lt;p> tags. Use an additional selector and loop to accomplish this.
+
+<hr>
+
 ## VII. <a id="section7"></a>Seeing your changes in the Web Inspector
 **It is important to understand the difference in Chrome between what we see when we "View Source" in Chrome, and what we see when we activate the Web Inspector.**
 
@@ -388,6 +395,7 @@ if (element){ // element will be considered true if it is not one of the falsy v
 1. Write a line of JavaScript that sets the `background-position` style property of an element to the value of `"top"`.
 1. Give 2 ways to loop through an array.
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
+1. What happens if we try to access a method or property (ex. `.innerHTML`) on a variable that has a `null` or `undefined` value?
 1. How can we add breakpoints to our code in the debugger, and inspect the values of variables?
 1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
 1. List the 8 "falsy" values listed at the end of [2 - Introduction to JavaScript](web-apps-2.md). Recall that in a boolean context like this `if(expression){ doSomethingIfTrue() }`, if an expression does not evaluate to `false`, it's `true`!
