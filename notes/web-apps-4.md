@@ -139,6 +139,14 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 
 ![Web Page](_images/more-dom-2.jpg)
 
+<hr>
+
+### ** *Try This!* **
+- In *more-dom-2.html*, write code that adds an &lt;hr> tag to the end of the page. This should be pretty easy because horizontal rules do not have a text node to worry about.
+- Now do the &lt;hr> challenge above with only a single line of code (i.e. get rid of the variable)
+
+<hr>
+
 ## III. Creating and appending elements, with a little less code
 
 We can simplify this code though, by using `.innerHTML` instead of `document.createTextNode()`, and other changes. See below:
