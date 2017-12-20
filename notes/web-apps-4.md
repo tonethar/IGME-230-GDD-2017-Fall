@@ -220,7 +220,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 
 
 ## IV. <a id="section4"></a>Inserting elements into the middle of a DOM tree
-Rather than just append everything to the bottom of the &lt;body>, let's see how to add elements to both the end and the middle of an unordered list.
+Rather than just append everything to the bottom of the &lt;body>, let's see how to add &lt;li> elements to both the end and the middle of an unordered list.
 
 ### more-dom-4.html
 
@@ -308,6 +308,13 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 
 ![Web Page](_images/more-dom-4.jpg)
 
+<hr>
+
+### ** *Try This!* **
+- In *more-dom-4.html*, write code that adds a new &lt;li> tag, with a clickable link to www.amazon.com, to the end of the list. 
+
+<hr>
+
 
 ## V. <a id="section5"></a>Modifying Existing DOM Elements
 
@@ -323,7 +330,13 @@ googleLink.href = "http://www.bing.com";
 
 - You can also open up the web inspector to verify that the value of the Google link's href is now `http://www.bing.com`
 
+<hr>
 
+### ** *Try This!* **
+- In *more-dom-4.html*, write code that changes the href of the apple.com link so that it now points at `http://lowendmac.com`. 
+- You will again need to use a CSS3 *attribute selector* - read up on those here: https://www.w3.org/TR/css3-selectors/#attribute-selectors
+
+<hr>
 
 ## VI. <a id="section6"></a>Removing Existing DOM Elements
 
