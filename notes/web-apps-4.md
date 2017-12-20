@@ -302,6 +302,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 - #7 creates a new &lt;li> with the text "GeoCities" and appends it to the end of the list.
 - #8A creates a new  &lt;li> and a new "Facebook" &lt;a>, and appends the &lt;a> to the &lt;li>
 - #8B gets a reference to the "Google" &lt;li> (note the cool CSS selector and the `.parentNode` property), and then inserts the "Facebook" &lt;li> *before* it.
+- That cool selector is a CSS3 *substring matching attribute selector* - read up on those here: https://www.w3.org/TR/css3-selectors/#attribute-selectors
 
 
 **Load the page into a browser, you should now see the 2 new list items, one of which is a functioning link to Facebook:**
@@ -311,7 +312,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 <hr>
 
 ### ** *Try This!* **
-- In *more-dom-4.html*, write code that adds a new &lt;li> tag, with a clickable link to www.amazon.com, to the end of the list. 
+- In *more-dom-4.html*, write code that adds a new &lt;li> tag, with a clickable link to `http://www.amazon.com`, to the end of the list. 
 
 <hr>
 
@@ -328,13 +329,13 @@ googleLink.href = "http://www.bing.com";
 
 - Reload the page and click the Google link - it should now send you to www.bing.com - don't tell Google about this as they might come after you!
 
-- You can also open up the web inspector to verify that the value of the Google link's href is now `http://www.bing.com`
+- You can also open up the web inspector to verify that the value of the Google link's `href` is now `http://www.bing.com`
 
 <hr>
 
 ### ** *Try This!* **
-- In *more-dom-4.html*, write code that changes the href of the apple.com link so that it now points at `http://lowendmac.com`. 
-- You will again need to use a CSS3 *attribute selector* - read up on those here: https://www.w3.org/TR/css3-selectors/#attribute-selectors
+- In *more-dom-4.html*, write code that changes the `href` of the apple.com link so that it now points at `http://lowendmac.com`. 
+- You will again need to use a CSS3 *substring matching attribute selector* - read up on those here: https://www.w3.org/TR/css3-selectors/#attribute-selectors
 
 <hr>
 
@@ -372,6 +373,7 @@ Be sure to read the HTML DOM page linked near the top of this document.
 1. What is the *first-child* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *parent* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. When is an HTML page allowed to have more than one &lt;footer>?
+1. Give an example of a CSS3 *substring matching attribute selector* that matches an element that has an `href` that begins with (has a prefix of)  `https://` - here's the spec page again: https://www.w3.org/TR/css3-selectors/#attribute-selectors
 
 ## IX. <a id="section9"></a>Review Exercise
 
