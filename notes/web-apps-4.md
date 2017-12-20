@@ -319,10 +319,10 @@ document.body.removeChild(document.querySelector("p"));
 - Reload the page - the paragraph is now gone. You can also see this in the Web Inspector. 
 
 ## VII. <a id="section7"></a>Nota bene
-In the previous document we used `.innerHTML` to create new HTML elements, while in this document we were more *methodical* (literally) and used methods such as `document.createElement()`, `document.createTextNode()`, `element.appendChild()`
+In the previous chapter we used `.innerHTML` to create new HTML elements, while in this chapter we were more *methodical* (literally) and used methods such as `document.createElement()`, `document.createTextNode()`, `element.appendChild()`
 
 Which approach should you use in your code? Our recommendation is to use whichever approach works for you. Consider:
-- `.innerHTML` is simpler in many use cases, but in some applications you will be doing a lot of string concatentation, which can sometimes be problematic as it can make the code hard to read. ES 6 String templating can lighten the load though.
+- `.innerHTML` is simpler in many use cases, but in some applications you will be doing a lot of string concatentation, which can sometimes be problematic as it can make the code hard to read. ES6 *String templating* can lighten the load though.
 - the "DOM element creation" approach we used here can result in **more code** to write, to debug, and to maintain. 
 
 
@@ -330,6 +330,7 @@ Which approach should you use in your code? Our recommendation is to use whichev
 
 Be sure to read the HTML DOM page linked near the top of this document.
 
+1. The browser DOM can be visualized as ___________________.
 1. Exactly how many *parent* elements can an element on a web page have?
 1. What are the *child* elements of the &lt;ul> tag in **more-dom-4.html**?
 1. What is the *first-child* of the &lt;ul> tag in **more-dom-4.html**?
