@@ -208,6 +208,16 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 
 ![Web Page](_images/more-dom-3.jpg)
 
+<hr>
+
+### ** *Try This!* **
+- Some of you are no doubt thinking right now: "Two footers? How stupid is that? That's not going to pass validation!"
+- Is two footers "legal", or even advisable? How to start to answer this question? How about seeing what the HTML5 specification says about &lt;footer> elements? Go take a quick look here: https://html.spec.whatwg.org/#the-footer-element
+- Be able to answer this question: *When is an HTML page allowed to have more than one &lt;footer>?*
+
+<hr>
+
+
 
 ## IV. <a id="section4"></a>Inserting elements into the middle of a DOM tree
 Rather than just append everything to the bottom of the &lt;body>, let's see how to add elements to both the end and the middle of an unordered list.
@@ -348,6 +358,7 @@ Be sure to read the HTML DOM page linked near the top of this document.
 1. What is the *previous-sibling* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *first-child* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *parent* of the "Google" &lt;li> tag in **more-dom-4.html**?
+1. When is an HTML page allowed to have more than one &lt;footer>?
 
 ## IX. <a id="section9"></a>Review Exercise
 
