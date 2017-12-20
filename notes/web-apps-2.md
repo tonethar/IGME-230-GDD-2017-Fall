@@ -188,7 +188,7 @@ Note the backtick `` ` `` symbol is used to denote the string, and `${}` enclose
 ### ** *Try This* **
 In *hello-2.html*:
 - modify the *string concatenation* code above to instead use *string templating*
-- declare a `z` variable with a value of 1, add it to the sum, and add it to the `console.log()`
+- declare a `z` variable with a value of 1, add it to the `sum`, and output it with the `console.log()`
 
 <hr>
 
@@ -299,7 +299,7 @@ In #2 above, we can see instances of where JavaScript primitive values are impli
 
 ### ** *Try This* **
 In *hello-4.html*:
-
+- After this line of code runs - `let y = Number("fred");` - what does `y` contain?
 
 <hr>
 
@@ -434,6 +434,8 @@ The JavaScript specification dicusses this coercion (conversion) here:
 1. What kinds of values can a `Number` type hold? (Google it)
 1. True or False. JavaScript *variables* DO NOT have types, but JavaScript *values* DO have types.
 1. Give an example of *boxing* in JavaScript.
+1. Give a line of code that will convert the string "3.14" to a `Number`.
+1. What does `NaN` stand for?
 1. Which of the following examples will evaluate to `true` in a boolean context (ex. inside an `if` statement)? (Try them out in the browser if you are not sure)
     1. `undefined`, `null`, `false`, `0`, `""`, `''`
     1. `0.0`
