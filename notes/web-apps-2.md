@@ -129,14 +129,15 @@ Boolean(0)
 
 // expressions
 2+2
-!true
-!false
-true && false
-true || false
+1/0
 
 // operators
 1<2
 2>3
+!true
+!false
+true && false
+true || false
 
 // bitwise operations
 0xFF0000 >>> 16 // extract "red" component
