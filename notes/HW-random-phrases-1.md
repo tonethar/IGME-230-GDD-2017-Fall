@@ -7,7 +7,7 @@ The exact theme is up to you, the example below used a *Star Trek: TNG* theme.
 
 Ideally your theme is appropriate for all ages and audiences.
 
-To do this assignment, you should have completed at least the 3rd web app tutorial page - "Introduction to the Web Browser DOM".
+To do this assignment, you should have completed at least the 3rd web app tutorial page - [3 - Introduction to the Web Browser DOM](web-apps-3.md).
 
 ![Web Page](_images/random-phrases-1-done.jpg)
 
@@ -20,7 +20,7 @@ To do this assignment, you should have completed at least the 3rd web app tutori
     1. The page will use an embedded font
     1. The page content must be legible and nicely styled, with good choices made for colors, margins and fonts
     1. Mobile friendly would be nice, but is not required
-    1. The look of the page is worth 50% of the assignment
+    1. The look and theme of the page is worth 50% of the assignment
 1. When the page loads (or reloads) a random phrase related to your theme will appear on the page:
     1. You will have at least 5 phrases stored in a JavaScript array
     1. When the page loads (or reloads) a random phrase from the array will be selected and displayed. You can use `Math.random()`, `Math.floor()`, and `array.length` to accomplish this. If you get stuck, look for help on the Internet.
