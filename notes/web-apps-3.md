@@ -150,6 +150,13 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 ![Web Page](_images/dom-4.jpg)
 
+<hr>
+
+### ** *Try This!* **
+- In *dom-2.html*, write code that changes the &lt;footer> text to "Copyright, Me!"
+
+<hr>
+
 ## V. <a id="section5"></a>Try out more CSS selectors with `document.querySelector()`
 The power of `document.querySelector()` and `document.querySelectorAll()` is that they accept all CSS selectors, including those in the CSS3 standard.
 
@@ -221,6 +228,13 @@ There was quite a bit in that last example. Let's discuss:
 #5 above - we used a **type selector** to get a reference to the footer
 
 #6 above - we then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. We have to drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
+
+<hr>
+
+### ** *Try This!* **
+- In *dom-3.html*, write code that changes the second &lt;h2> text to "I am the second h2!". Use the *E:nth-last-of-type(n)* selector.
+
+<hr>
 
 ## VI. <a id="section6"></a>Introducing `document.querySelectorAll()`
 `document.querySelectorAll()` returns an array of results that match the given selector.
