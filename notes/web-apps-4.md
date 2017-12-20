@@ -373,7 +373,7 @@ Be sure to read the HTML DOM page linked near the top of this document.
 1. What is the *first-child* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. What is the *parent* of the "Google" &lt;li> tag in **more-dom-4.html**?
 1. When is an HTML page allowed to have more than one &lt;footer>?
-1. Give an example of a CSS3 *substring matching attribute selector* that matches an element that has an `href` that begins with (has a prefix of)  `https://` - here's the spec page again: https://www.w3.org/TR/css3-selectors/#attribute-selectors
+1. Give an example of a CSS3 *substring matching attribute selector* that matches an element that has an `href` value that ends with (has a suffix of)  `.edu` - to help you here's the CSS3 spec page again: https://www.w3.org/TR/css3-selectors/#attribute-selectors
 
 ## IX. <a id="section9"></a>Review Exercise
 
