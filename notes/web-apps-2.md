@@ -422,6 +422,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
 
 
 ## XII. <a id="section12"></a>Review Questions
+1. Who created the initial version of JavaScript in 1995?
 1. Which versions of JavaScript will we be covering in this course?
 1. How can you get the interactive JavaScript [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) to appear in Chrome?
 1. Which JavaScript keyword declares *variables*?
