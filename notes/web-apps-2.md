@@ -318,7 +318,7 @@ In *hello-4.html*:
 
 
 ## IX. <a id="section9">`let` or `var`?
- - In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are commonly going to see the older (ES5 and earlier) `var` keyword used to declare variables. In this course, we recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`. 
+ - In this document we have been using the ES6 "way" of  `let` and `const` to declare variables and constants. Out on the web you are frequently going to see the older (ES5 and earlier) `var` keyword used to declare variables. In this course, we recommend that you NOT use `var` to declare variables, as the variables that `var` declares are *scoped to functions*, rather than the *block scoping* of `let` and `const`. 
  - As most of the major programming languages - except Python - utilize *block scoped* variables exclusively, programming with block-scoped variables (like `let` gives us) is what you are used to.
  - There definitely ARE some use cases for `var`, you can read some discussion about this here:
      - https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70
@@ -431,7 +431,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
 1. JavaScript has 2 zeros `+0` and `-0` -  you can read about that here: https://abdulapopoola.com/2016/12/19/why-javascript-has-two-zeros-0-and-0/
 1. We expect you to review the following programming structures on your own:
     - branching/conditionals such as [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else), [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch), and the [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/conditional_operator)
-    - repetitve constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+    - repetitive constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
 
 ## XII. <a id="section12"></a>Review Questions
