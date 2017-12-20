@@ -37,7 +37,7 @@ Today we will learn how to create new DOM elements and insert them anywhere into
 
 ![Web Page](_images/more-dom-0.jpg)
 
-Take a look above:
+Take a look above, and try to answer these questions:
 - which element is a *sibling* of the &lt;body> element?
 - which elements are typically *children* of the &lt;head> element? (in addition to the 2 elements shown above)
 - which elements are *children* of the &lt;body> element? (Hint: pretty much everything you can see on the page.)
@@ -61,6 +61,7 @@ And some properties:
 - [`document.body`](https://developer.mozilla.org/en-US/docs/Web/API/Document/body)
 - [`element.parentNode`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode)
 - [`element.children`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children)
+- [`element.lastElementChild`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/lastElementChild)
 
 ## II. <a id="section2"></a>Starter Page
 
@@ -142,7 +143,7 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 ```
 
 - **Load the page into a browser, you should now see the new &lt;footer> at the bottom of the page, and the tooltip effect!:**
-- **The &lt;footer> is now the "last child" of the &lt;body> element.**
+- **The &lt;footer> is now the "last child" of the &lt;body> element. You can now get a reference to it with `document.body.lastElementChild`**
 
 ![Web Page](_images/more-dom-2.jpg)
 
