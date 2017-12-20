@@ -129,7 +129,12 @@ Boolean(0)
 
 // expressions
 2+2
+5/2
+5%2
 1/0
+3 + " blind mice"
+3 - " blind mice"
+3 * " blind mice"
 
 // operators
 1<2
@@ -138,6 +143,7 @@ Boolean(0)
 !false
 true && false
 true || false
++"90210"
 
 // bitwise operations
 0xFF0000 >>> 16 // extract "red" component
