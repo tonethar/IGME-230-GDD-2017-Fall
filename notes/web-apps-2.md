@@ -110,7 +110,7 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 ### ** *Try This* **
 In the console, type in the following to see what you get:
 ```javascript
-// Some JavaScript global functions
+// try some JavaScript global functions
 parseFloat("10")
 parseFloat("98point6")
 parseFloat("thirty2degrees")
@@ -120,6 +120,12 @@ parseInt(77,8) // octal
 parseInt("FF",16) // hex
 parseInt(0x0000FF)
 encodeURI("http://www.rit.edu/hello world.html")
+
+// these can be used for type coercion/conversion
+Number("10")
+Number("onehundred")
+String(3.14)
+Boolean(0)
 
 // expressions
 2+2
@@ -132,7 +138,7 @@ true || false
 1<2
 2>3
 
-// Bit operations
+// bitwise operations
 0xFF0000 >>> 16 // extract "red" component
 2 & 1
 2 | 1
