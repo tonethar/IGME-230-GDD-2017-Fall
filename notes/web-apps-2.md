@@ -423,11 +423,12 @@ The JavaScript specification dicusses this coercion (conversion) here:
 
 ## XII. <a id="section12"></a>Review Questions
 1. Who created the initial version of JavaScript in 1995?
+1. What is the official name of JavaScript?
 1. Which versions of JavaScript will we be covering in this course?
 1. How can you get the interactive JavaScript [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) to appear in Chrome?
 1. Which JavaScript keyword declares *variables*?
 1. Which JavaScript keyword declares *constants*?
-1. What happens when you try to change the reference to a previously declared *constant* like `const a=10;`?
+1. What is the name of the error that occurs when you try to change the reference to a previously declared *constant* like `const a=10;`?
 1. Find the MDN page - https://developer.mozilla.org/ - for the type of error you saw in the previous question, and give the 1-line summary of that error from the top of that MDN page.
 1. What are the 5 built-in JavaScript "primitive" data types?
 1. What kinds of values can a `Number` type hold? (Google it)
