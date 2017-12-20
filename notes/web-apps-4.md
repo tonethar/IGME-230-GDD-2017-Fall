@@ -37,6 +37,12 @@ Today we will learn how to create new DOM elements and insert them anywhere into
 
 ![Web Page](_images/more-dom-0.jpg)
 
+Take a look above:
+- which element is a *sibling* of the &lt;body> element?
+- which elements are typically *children* of the &lt;head> element?
+- which elements are *children* of the &lt;body> element? (Hint: pretty much everything you can see on the page.)
+
+
 ### B. New DOM Methods
 Here are some of the new DOM methods we will be working with today. These allow us to *create* DOM elements, *modify* them, *insert* them into the document, and *delete* them from the document:
 
