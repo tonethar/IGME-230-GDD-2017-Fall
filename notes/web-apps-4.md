@@ -141,8 +141,8 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 </html>
 ```
 
-**Load the page into a browser, you should now see the new &lt;footer> at the bottom of the page, and the tooltip effect!:**
-**The &lt;footer> is now the "last child" of the &lt;body> element.**
+- **Load the page into a browser, you should now see the new &lt;footer> at the bottom of the page, and the tooltip effect!:**
+- **The &lt;footer> is now the "last child" of the &lt;body> element.**
 
 ![Web Page](_images/more-dom-2.jpg)
 
