@@ -233,8 +233,8 @@ There was quite a bit in that last example. Let's discuss:
 <hr>
 
 ### ** *Try This!* **
-- In *dom-3.html*, write code that changes the text of the second &lt;h2> to "I am the second h2!". 
-Use the CSS3 `E:nth-last-of-type(n)` selector.
+- In *dom-3.html*, write code that changes the text of the second-to-last &lt;h2> to "I am the second-to-last h2!". 
+Utilize the (rarely used) CSS3 `E:nth-last-of-type(n)` selector.
 
 <hr>
 
