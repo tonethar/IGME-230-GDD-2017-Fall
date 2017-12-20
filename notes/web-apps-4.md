@@ -330,7 +330,8 @@ Which approach should you use in your code? Our recommendation is to use whichev
 
 Be sure to read the HTML DOM page linked near the top of this document.
 
-1. The browser DOM can be visualized as ___________________.
+1. The browser DOM can be visualized as ___________________
+1. How many *root* nodes does an HTML document (or any XML document) have?
 1. Exactly how many *parent* elements can an element on a web page have?
 1. What are the *child* elements of the &lt;ul> tag in **more-dom-4.html**?
 1. What is the *first-child* of the &lt;ul> tag in **more-dom-4.html**?
