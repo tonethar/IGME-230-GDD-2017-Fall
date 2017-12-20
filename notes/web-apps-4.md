@@ -142,7 +142,7 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 <hr>
 
 ### ** *Try This!* **
-- In *more-dom-2.html*, write code that adds an &lt;hr> tag to the end of the page. This should be pretty easy because horizontal rules do not have a text node to worry about.
+- In *more-dom-2.html*, write code that uses `document.createElement()` to add an &lt;hr> tag to the end of the page. This should be pretty easy because horizontal rules do not have a text node to worry about.
 - Now do the &lt;hr> challenge above with only a single line of code (i.e. get rid of the variable)
 
 <hr>
