@@ -47,7 +47,9 @@ If you want to modify an HTML element, you first need to:
 
 - To get a reference to an element we usually use `document.querySelector(selector)` where `selector` is a valid CSS selector. For example `document.querySelector("p")` would select the first paragraph on a web page, while `document.querySelector("#table")` would select the element on the page of `id="table"`.
 - To get a reference to multiple elements we usually use `document.querySelectorAll(selector)`. For example, `document.querySelectorAll("p")` would return an array (actually a `DomNodeList`) of all of the paragraph tags on a page.
-- HTML elements are instances of the class `HTMLElement` and have `innerHTML` and other properties we can set. A full list of element properties and methods can be found here: https://developer.mozilla.org/en-US/docs/Web/API/Element and here: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+- HTML elements are instances of the class `HTMLElement` and have `innerHTML` and other properties we can set. A full list of element properties and methods can be found here: 
+    - https://developer.mozilla.org/en-US/docs/Web/API/Element
+    - https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
 
 
 Go ahead and try running the code sample below - it is attempting to change the text of the &lt;h1> on the page to "My *UFO* Page":
@@ -107,7 +109,7 @@ Our `h1` selector seems to be correct, but the value is `null` - so what gives?
 
 ## IV. <a id="section4"></a>Waiting until the page loads
 The "null" problem we had above is happening because the JavaScript code is running *before* the web page has loaded. 
-The error happens because the line of code - `let h1 = document.querySelector("h1");` returns `null`, and then when we try to set the `.innerHTML` of null we get an error.
+The error happens because the line of code - `let h1 = document.querySelector("h1");` returns `null`, and then when we try to set the `.innerHTML` property of null we get an error.
 
 **How to fix this? Simply run the code *after* the page loads.** There are many ways to accomplish this, for now  the easiest way is to move the &lt;script> tag to just before the closing &lt;body> tag. 
 
@@ -132,6 +134,8 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 <p>Blah Blah Blah</p>
 <footer>Copyright &copy; 20XX</footer>
 <script>
+	// The page has loaded, so it's "safe" to search for elements :-)
+	
 	// first, get a reference to the first <h1> on the page
 	let h1 = document.querySelector("h1");
 	
@@ -151,7 +155,7 @@ The power of `document.querySelector()` and `document.querySelectorAll()` is tha
 
 https://www.w3.org/TR/css3-selectors/#selectors
 
-Let's try a few of these out below. Note that we have added another paragraph:
+Let's try a few of these out below. Note that we have added an additional paragraph at the bottom:
 
 ### dom-3.html
 
@@ -311,7 +315,7 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 - If `querySelector()` doesn't find any matches on the page it returns `null`
 - If `querySelectorAll()` doesn't find any matches on the page it returns `[]` (we usually say it's an empty `Array`, but it's actually an empty `NodeList`, which is an "array-like" object)
 
- What happens if we try to call a method on `null`? Answer: We get a runtime error! How can we avoid this? Read on!
+ What happens if we try to call a method (or set a property) on `null`? Answer: We get a runtime error! How can we avoid this? Read on!
 
 ```html
 <!DOCTYPE html>
@@ -339,7 +343,7 @@ if (element != null){
 // In a boolean context, anything that is not false, is true.
 
 // So we can replace the above with:
-if (element){ // element will be considered true if it is not one of the falsy values above
+if (element){ // element will be considered true if it is not one of the falsy values
    element.innerHTML = "Found an h4 tag";
 }else{
   console.log("No h4 found");
@@ -350,7 +354,7 @@ if (element){ // element will be considered true if it is not one of the falsy v
 ```
 
 ## IX. <a id="section9"></a>Nota bene 
-1. In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` methods used - we recommend that you NOT use these methods as they are much less flexible and powerful than the `querySelector()` and `querySelectorAll()` methods.
+1. In this document we have been using `document.querySelector()` and `document.querySelectorAll()` to select elements on the page. Out on the web you will also see the `document.getElementsByTagName()` and `document.getElementById()` methods used - we recommend that you DO NOT use these methods as they are much less flexible and powerful than the `document.querySelector()` and `document.querySelectorAll()` methods.
 2. Using the JavaScript debugger and setting breakpoints was briefly touched upon above. Being able to utilize the JavaScript debugger is an essential skill, and we will be demoing this in class. If you need to see it demoed again then please ask! Here is a helpful article on using the Chrome web tools: https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints
 3. What happens when `document.querySelectorAll()` finds no matching elements on the page, what does it *return*? Answer: an empty array.
 4. What happens when we try to loop though an empty array with a `for` or `for...of` loop? Answer: Nothing. The looping never happens if the array is empty.
@@ -360,7 +364,7 @@ if (element){ // element will be considered true if it is not one of the falsy v
 1. What does "CRUD" stand for?
 1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
-1. What is the name of the DOM method that will return **all** elements that match the given selector?
+1. What is the name of the DOM method that will return **all** of the elements that match the given selector?
 1. Which property is used to get and set the text and HTML contents of an HTML element?
 1. Which property is used to get and set the CSS styles of an HTML element?
 1. Write a line of JavaScript that sets the `background-position` style property of an element to the value of `"top"`.
@@ -368,7 +372,7 @@ if (element){ // element will be considered true if it is not one of the falsy v
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
 1. How can we add breakpoints to our code in the debugger, and inspect the values of variables?
 1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
-1. List the 8 "falsy" values listed at the end of "2 - Introduction to JavaScript". Remember that in a boolean context like this `if(expression){ doSomethingIfTrue() }`, if an expression does not evaluate to `false`, it's `true`!
+1. List the 8 "falsy" values listed at the end of [2 - Introduction to JavaScript](web-apps-2.md). Remember that in a boolean context like this `if(expression){ doSomethingIfTrue() }`, if an expression does not evaluate to `false`, it's `true`!
 
 ## XI. <a id="section11"></a>Review Exercise
 Make a copy of **dom-4.html** and name it **web-apps-3-HW.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page in ANY way (by adding `class` or `id` attributes to the paragraphs, for example.
