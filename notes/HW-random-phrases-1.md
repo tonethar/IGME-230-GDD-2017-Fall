@@ -7,7 +7,7 @@ The exact theme is up to you, the example below used a *Star Trek: TNG* theme.
 
 Ideally your theme is appropriate for all ages and audiences.
 
-To do this assignment, you should have completed at least the 3rd web app tutorial page - [3 - Introduction to the Web Browser DOM](web-apps-3.md).
+To do this assignment, you should have completed at least the 3rd web app tutorial page: [3 - Introduction to the Web Browser DOM](web-apps-3.md).
 
 ![Web Page](_images/random-phrases-1-done.jpg)
 
