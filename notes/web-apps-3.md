@@ -37,7 +37,7 @@ XI. [Review Exercise](#section11)
 ## I. <a id="section1"></a>Introduction
 Today we are going to look at how to use JavaScript to alter HTML elements on the page. To
 do this we will need to utilize the DOM (Document Object Model).
-The DOM API defines methods and properties need to access and manipulate a web page.
+The DOM API defines methods and properties needed to access and manipulate the contents and style of a web page.
 
 ## II. <a id="section2"></a>Selecting and modifying elements on the page
 If you want to modify an HTML element, you first need to:
@@ -232,7 +232,7 @@ There was quite a bit in that last example. Let's discuss:
 <hr>
 
 ### ** *Try This!* **
-- In *dom-3.html*, write code that changes the second &lt;h2> text to "I am the second h2!". Use the *E:nth-last-of-type(n)* selector.
+- In *dom-3.html*, write code that changes the text of the second &lt;h2> to "I am the second h2!". Use the CSS3 *E:nth-last-of-type(n)* selector.
 
 <hr>
 
@@ -376,12 +376,14 @@ if (element){ // element will be considered true if it is not one of the falsy v
 5. When `document.querySelector()` finds no matching elements on the page, what does it *return*? Answer: `null`.
 
 ## X. <a id="section10"></a>Review Questions
+1. What does "DOM" stand for?
+1. What does the DOM API "give" us?
 1. What does "CRUD" stand for?
-1. What happens when we try to use JavaScript DOM methods to access the contents of a page before it has loaded?
+1. What happens when we try to use JavaScript DOM methods to access the contents of a page *before* it has loaded?
 1. What is the name of the DOM method that will return the first element that matches the given selector?
 1. What is the name of the DOM method that will return **all** of the elements that match the given selector?
 1. Which property is used to get and set the text and HTML contents of an HTML element?
-1. Which property is used to get and set the CSS styles of an HTML element?
+1. Which property is used to get and set the CSS *styles* of an HTML element?
 1. Write a line of JavaScript that sets the `background-position` style property of an element to the value of `"top"`.
 1. Give 2 ways to loop through an array.
 1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
