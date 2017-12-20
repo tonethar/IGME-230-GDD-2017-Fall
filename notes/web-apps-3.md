@@ -154,6 +154,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 
 ### ** *Try This!* **
 - In *dom-2.html*, write code that changes the &lt;footer> text to "Copyright, Me!"
+- Now do the &lt;footer> challenge above with only a single line of code (i.e. get rid of the variable)
 
 <hr>
 
