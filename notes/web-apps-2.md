@@ -387,7 +387,6 @@ if("fred"){
 - How is #6 true? Read on!
 
 Check out these links, and see the code sample below:
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 - https://developer.mozilla.org/en-US/docs/Glossary/Truthy
 - https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 
@@ -406,7 +405,7 @@ console.log(new Boolean(false) == false ? "\"new Boolean(false)\" is false" : "\
 console.log("false" == false ? "\"false\" is false" : "\"false\" is true");
 ```
 
-**Basically, the first 8 values above are all coerced to *false* in a Boolean content. Everything else - like the string "false" for example above, is coerced to *true*.**
+**Basically, the first 8 values above are all coerced to *false* in a `==` Boolean content. Everything else - like the string "false" for example above, is coerced to *true*.**
 
 The JavaScript specification dicusses this coercion (conversion) here: 
 - https://www.ecma-international.org/ecma-262/8.0/index.html#sec-abstract-equality-comparison
