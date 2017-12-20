@@ -28,10 +28,10 @@ IX. [Review Exercise](#section9)
 
 ## I. <a id="section1"></a>Introduction
 Today we are going to look at other ways to use JavaScript to alter HTML elements on the page. 
-Although we can do quite a bit with the `.innerHTML` property, there are times that we might want to insert a new element somewhere on the page, for example a new list item into the middle of a list. Or to delete a single element, for example a list item that is currently inside (a child of) an unordered list. To do these things, we are going to need more fine grained control.
+Although we can do quite a bit with the `.innerHTML` property, there are times that we might want to insert a new element somewhere on the page, for example a new list item into the middle of a list. Or to delete a single element, for example a list item that is currently inside (a child of) an unordered list. To do these things, we are going to need more "fine grained" control.
 
 ### A. The DOM is an inverted tree
-The browser DOM is an inverted tree structure that consists of *nodes* - which are mostly HTML elements (software *objects*) that have properties and methods associated with them. These nodes have hierarchical relationships with one another - *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
+The browser DOM is an inverted tree structure that consists of *nodes* - which are HTML elements (software *objects*) that have properties and methods associated with them. These nodes have hierarchical relationships with one another - *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
 
 Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to.
 
@@ -40,7 +40,7 @@ Today we will learn how to create new DOM elements and insert them anywhere into
 ### B. New DOM Methods
 Here are some of the new DOM methods we will be working with today. These allow us to *create* DOM elements, *modify* them, *insert* them into the document, and *delete* them from the document:
 
-- `document.createElement(elementName)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement</sup></sub>
+- [`document.createElement(elementName)`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 - `document.createTextNode(text)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode</sup></sub>
 - `element.getAttribute(attributeName)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute</sup></sub>
 - `element.setAttribute(attributeName,attributeValue)` -- <sub><sup>https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute</sup></sub>
