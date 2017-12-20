@@ -449,6 +449,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
 1. Give an example of *boxing* in JavaScript.
 1. Give a line of code that will convert the string "3.14" to a `Number`.
 1. What does `NaN` stand for?
+1. Give an example of an operation that will produce a value of `Infinity`.
 1. Which of the following examples will evaluate to `true` in a boolean context (ex. inside an `if` statement)? (Try them out in the browser if you are not sure)
     1. `undefined`, `null`, `false`, `0`, `""`, `''`
     1. `0.0`
