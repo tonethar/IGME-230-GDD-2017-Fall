@@ -109,8 +109,38 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 
 ### ** *Try This* **
 In the console, type in the following to see what you get:
-```
+```javascript
+// Some JavaScript global functions
+parseFloat("10")
+parseFloat("98point6")
+parseFloat("thirty2degrees")
+parseInt("10.5")
+parseInt("111",2) // binary
+parseInt(77,8) // octal
+parseInt("FF",16) // hex
+parseInt(0x0000FF)
+encodeURI("http://www.rit.edu/hello world.html")
 
+// expressions
+2+2
+!true
+!false
+true && false
+true || false
+
+// operators
+1<2
+2>3
+
+// Bit operations
+0xFF0000 >>> 16 // extract "red" component
+2 & 1
+2 | 1
+
+// JavaScript popup boxes
+alert("hello")
+prompt("What is your favorite color?")
+confirm("IGME-230 rocks!")
 ```
 
 <hr>
