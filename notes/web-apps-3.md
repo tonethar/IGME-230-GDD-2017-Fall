@@ -111,7 +111,7 @@ Our `h1` selector seems to be correct, but the value is `null` - so what gives?
 The "null" problem we had above is happening because the JavaScript code is running *before* the web page has loaded. 
 The error happens because the line of code - `let h1 = document.querySelector("h1");` returns `null`, and then when we try to set the `.innerHTML` property of null we get an error.
 
-**How to fix this? Simply run the code *after* the page loads.** There are many ways to accomplish this, for now  the easiest way is to move the &lt;script> tag to just before the closing &lt;body> tag. 
+**How to fix this? Simply run the code *after* the page loads.** There are several ways to accomplish this, for now  the easiest way is to move the &lt;script> tag to just before the closing &lt;body> tag. 
 
 ### dom-2.HTML
 
