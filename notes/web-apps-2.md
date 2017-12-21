@@ -425,6 +425,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
 
 
 ## XI. <a id="section11"></a>Nota bene 
+1. The `const` keyword is misnamed - it implies that a value can not be changed, this is false. Instead, the `const` declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's properties CAN be altered.
 1. The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer values - documentation on the finer points of this is here:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
     - https://medium.com/dailyjs/javascripts-number-type-8d59199db1b6
