@@ -112,6 +112,14 @@ console.log(greeting); 	// HELLO MARY!
 
 ```
 
+<hr>
+
+### ** *Try This!* **
+- In *functions-1.html*, write a function named `greetFull()` that takes separate first and last name arguments, and returns a greeting that uses both of these values.
+
+<hr>
+
+
 ## III. <a id="section3"></a>Function *Expressions*
 In JavaScript functions are *first-class* values - they are *callable* objects. 
 This means that like any other JavaScript type (e.g. numbers or strings) they can be referenced by a variable, passed as an argument to a function, and returned as a value by a function.
