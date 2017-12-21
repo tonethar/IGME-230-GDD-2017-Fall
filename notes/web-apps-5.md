@@ -191,6 +191,8 @@ console.log(greetings2); // ["Greetings and felicitations, kind Gary.", "Greetin
 - as we loop through the array, we call the passed in function repeatedly
 - in #2A & #2B above we call `createGreetings()` with 2 different functions passed in
 
+**Passing functions references around in this manner might seem strange, but it is commonly done in JavaScript programming.**
+
 ## IV. <a id="section4"></a>Default function parameters
 In JavaScript, parameters of functions default to `undefined`. However, in some situations 
 it might be useful to set a different default value. This is where **default parameters** can help.
@@ -334,7 +336,7 @@ function doStuff(){
 	if(x==1){
 		x++;
 		y++;
-		let z = 1; // z is scoped to the if block
+		let z = 1; // z is scoped to the `if()` block
 	}
 	console.log(x); // 2
 	console.log(y); // 2
