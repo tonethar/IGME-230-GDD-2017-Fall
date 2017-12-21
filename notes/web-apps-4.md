@@ -369,7 +369,7 @@ Which approach should you use in your code? Our recommendation is to use whichev
 - the "DOM element creation" approach we used here can result in **more code** to write, to debug, and to maintain. 
 
 ### B. The `Node` properties of HTML elements
-All HTML elements inherit from the `Node` class. Once we have selected an element on the page, these "node" properties of element such as 'parentNode`,  `lastElementChild`, `.childNodes`, `.firstChild`, `.lastChild`, `.nodeName`, `nodeValue` and others can come in very handy.
+All HTML elements inherit from the `Node` class. Once we have selected an element on the page, these "node" properties of element such as `parentNode`,  `lastElementChild`, `.childNodes`, `.firstChild`, `.lastChild`, `.nodeName`, `nodeValue` and others can come in very handy.
 
 ## VIII. <a id="section8"></a>Review Question
 Be sure to read the HTML DOM page linked near the top of this document.
