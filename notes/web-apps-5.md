@@ -113,7 +113,7 @@ console.log(greeting); 	// HELLO MARY!
 ```
 
 ## III. <a id="section3"></a>Function *Expressions*
-In JavaScript functions are *first-class* values - they are objects actually. 
+In JavaScript functions are *first-class* values - they are *callable* objects. 
 This means that like any other JavaScript type (e.g. numbers or strings) they can be referenced by a variable, passed as an argument to a function, and returned as a value by a function.
 
 ### functions-2.html
@@ -205,7 +205,7 @@ function multiply1(a, b) {
 }
 
 console.log(multiply1(2,5)); // 10
-console.log(multiply1(2));   // we omit the b parameter, the result is NaN (not a Number), because b is undefined
+console.log(multiply1(2));   // we omit the b parameter, the result is NaN (Not a Number), because b is undefined
 
 
 // #2 - by checking the value of b before using it, we can give it a default value 
