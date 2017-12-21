@@ -91,6 +91,7 @@ function sayHelloTo(name){
 
 sayHello(); 			// "Hello!"
 sayHelloTo("Bob"); 		// "Hello Bob!"
+let a = sayHelloTo("Mary"); 	// `a` defaults to `undefined` because this function has no return value
 
 
 // 2 - these functions DO return values
@@ -465,6 +466,7 @@ http://2ality.com/2012/08/ids-are-global.html
 This "auto creation" of global properties is a feature you probably don't want to use in your code, but you need to be aware of it because it can cause quirky behavior in your programs depending on how you "id" your elements.
 
 ## XI. <a id="section11"></a>Review Questions
+1. What is the default return value of a function that does not have a `return` keyword?
 1. What is a *block*?
 1. Define *scope*
 1. Declaring a variable with `let` or `const` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
