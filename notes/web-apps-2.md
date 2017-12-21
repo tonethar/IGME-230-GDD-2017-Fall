@@ -308,7 +308,7 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 ### VIII-A. "Boxing" primitive values
 In #2 above, we can see instances of where JavaScript primitive values are implicitly coerced or "boxed" into objects. For example, when the `toFixed()` method is called on the variable `sum`, JavaScript will convert the value to a `Number` object, call `toFixed()` on that object, and then return the result as a primitive number. 
 
-What this means is that nearly every value in JavaScript can be *treated like* an object, and object "wrappers" will be automatically created for primitive values as needed.
+What this means is that nearly every value in JavaScript can be *treated like an object*, even if it isn't an object, because object "wrappers" will be automatically created for primitive values as needed.
 
 <hr>
 
