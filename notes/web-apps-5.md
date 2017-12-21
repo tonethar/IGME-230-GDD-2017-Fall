@@ -1,11 +1,18 @@
 # 5 - JavaScript Functions
 
 ## Overview
-In computer programming, a *function* is a named section of a program that perform a specific task; they are basically "mini programs" within a larger program. Today we are going to learn about how to write functions in JavaScript.
+In computer programming, a *function* is a named section of a program that perform a specific task; they are basically "mini programs" within a larger program. 
+
+Functions contain a sequence of statements called the *function body*. There are two advantages to using functions:
+1. Reusability
+1. Procedural Abstraction
+
+Here is a short,  well-written page that explains what and why these two concepts are important - please take the time to read it: https://www.cs.utah.edu/~zachary/computing/lessons/uces-10/uces-10/node11.html
+
 
 ## Contents
 <!--- Local Navigation --->
-I. [Introduction](#section1)
+I. [About JavaScript Functions](#section1)
 
 II. [Function *Declarations*](#section2)
 
@@ -32,12 +39,25 @@ XII. [Review Exercise](#section12)
 
 <hr><hr>
 
-## I. <a id="section1"></a>Introduction
-Functions contain a sequence of statements called the *function body*. There are two advantages to using functions:
-1. Reusability
-1. Procedural Abstraction
+## I. <a id="section1"></a>About JavaScript Functions
 
-Here is a short,  well-written page that explains what and why these two concepts are important - please take the time to read it: https://www.cs.utah.edu/~zachary/computing/lessons/uces-10/uces-10/node11.html
+In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be *called* (or "invoked"). 
+
+```
+// functions are "callable" objects
+let greet = function(){console.log("Hello");} // function expression
+greet(); // call it with () - which is the invocation operator - logs "Hello" to console
+
+
+// regular objects can not be "called"
+let car = {make:"Yugo"}; // object literal
+car(); // "Uncaught TypeError: car is not a function"
+
+```
+
+Reference:
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
 
 
 ## II. <a id="section2"></a>Function *Declarations*
