@@ -43,7 +43,7 @@ XII. [Review Exercise](#section12)
 
 In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be *called* (or "invoked"). 
 
-```
+```javascript
 // functions are "callable" objects
 let greet = function(){console.log("Hello");} // function expression
 greet(); // call it with () - which is the invocation operator - logs "Hello" to console
@@ -121,7 +121,8 @@ console.log(greeting); 	// HELLO MARY!
 
 
 ## III. <a id="section3"></a>Function *Expressions*
-In JavaScript functions are *first-class* values - they are *callable* objects. 
+As *callable* objects, JavaScript functions are treated as *first-class* values. 
+
 This means that like any other JavaScript type (e.g. numbers or strings) they can be referenced by a variable, passed as an argument to a function, and returned as a value by a function.
 
 ### functions-2.html
