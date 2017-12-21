@@ -58,10 +58,11 @@ Here are some of the new DOM methods we will be working with today. These allow 
 
 And some properties:
 
-- [`document.body`](https://developer.mozilla.org/en-US/docs/Web/API/Document/body)
+- [`Node`](https://developer.mozilla.org/en-US/docs/Web/API/Node)
 - [`element.parentNode`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode)
 - [`element.children`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children)
 - [`element.lastElementChild`](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/lastElementChild)
+- [`document.body`](https://developer.mozilla.org/en-US/docs/Web/API/Document/body) - handy shortcut to &lt;body> tag!
 
 ## II. <a id="section2"></a>Starter Page
 
@@ -310,7 +311,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 - #7 creates a new &lt;li> with the text "GeoCities" and appends it to the end of the list.
 - #8A creates a new  &lt;li> and a new "Facebook" &lt;a>, and appends the &lt;a> to the &lt;li>
 - #8B gets a reference to the "Google" &lt;li> (note the cool CSS selector and the `.parentNode` property), and then inserts the "Facebook" &lt;li> *before* it.
-- That cool selector is a CSS3 *substring matching attribute selector* - read up on those here: https://www.w3.org/TR/css3-selectors/#attribute-selectors
+- That "cool" selector is a CSS3 *substring matching attribute selector* - read up on those here: https://www.w3.org/TR/css3-selectors/#attribute-selectors
 
 
 **Load the page into a browser, you should now see the 2 new list items, one of which is a functioning link to Facebook:**
@@ -359,14 +360,17 @@ document.body.removeChild(document.querySelector("p"));
 - Reload the page - the paragraph is now gone. You can also see this in the Web Inspector. 
 
 ## VII. <a id="section7"></a>Nota bene
+
+### A. `innerHTML` or `document.createElment()`?
 In the previous chapter we used `.innerHTML` to create new HTML elements, while in this chapter we were more *methodical* (literally) and used methods such as `document.createElement()`, `document.createTextNode()`, `element.appendChild()`
 
 Which approach should you use in your code? Our recommendation is to use whichever approach works for you. Consider:
 - `.innerHTML` is simpler in many use cases, but in some applications you will be doing a lot of string concatentation, which can sometimes be problematic as it can make the code hard to read. ES6 *String templating* can lighten the load though.
 - the "DOM element creation" approach we used here can result in **more code** to write, to debug, and to maintain. 
 
+### B. The `Node` properties of HTML elements
+All HTML elements inherit from the `Node` class. Once we have selected an element on the page, these "node" properties of element such as 'parentNode`,  `lastElementChild`, `.childNodes`, `.firstChild`, `.lastChild`, `.nodeName`, `nodeValue` and others can come in very handy.
 
-## VIII. <a id="section8"></a>Review Questions
 
 Be sure to read the HTML DOM page linked near the top of this document.
 
