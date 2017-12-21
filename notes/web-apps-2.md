@@ -308,6 +308,8 @@ JavaScript also contains a number of built-in objects that we can use. There is 
 ### VIII-A. "Boxing" primitive values
 In #2 above, we can see instances of where JavaScript primitive values are implicitly coerced or "boxed" into objects. For example, when the `toFixed()` method is called on the variable `sum`, JavaScript will convert the value to a `Number` object, call `toFixed()` on that object, and then return the result as a primitive number. 
 
+What this means is that nearly every value in JavaScript can be *treated like* an object, and object "wrappers" will be automatically created for primitive values as needed.
+
 <hr>
 
 ### ** *Try This* **
@@ -441,7 +443,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
 1. Which versions of JavaScript will we be covering in this course?
 1. How can you get the interactive JavaScript [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) to appear in Chrome?
 1. Which JavaScript keyword declares *variables*?
-1. Which JavaScript keyword declares *constants*?
+1. Which JavaScript keyword declares "constants" (i.e. a binding to a value that can not be changed)?
 1. What is the name of the error that occurs when you try to change the reference to a previously declared *constant* like `const a=10;`?
 1. Find the MDN page - https://developer.mozilla.org/ - for the type of error you saw in the previous question, and give the 1-line summary of that error from the top of that MDN page.
 1. What are the 5 built-in JavaScript "primitive" data types?
