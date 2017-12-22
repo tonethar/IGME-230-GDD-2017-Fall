@@ -60,6 +60,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. creating "Object Factories"
     1. ES6 Object literal changes
     1. value types & reference types
+    1. Another look at `const`
 1. [JavaScript Arrays and array-like objects](./web-apps-8.md)
     1. methods of `Array`
     1. looping through `Array` - `for`, `for...of`, `.forEach()`, `.filter()`, `.map()`
