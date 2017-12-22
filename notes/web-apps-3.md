@@ -336,11 +336,13 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 <hr>
 
 ### ** *Try This!* **
-You can modify DOM elments from the web inspector by typing in and running JavaScript code from the console. Load *dom-4.html* into the browser and open up the Web Inspector:
+You can modify DOM elements from the web inspector by typing in and running JavaScript code from the console. Load *dom-4.html* into the browser and open up the Web Inspector:
 
 - Type `document.querySelector("h1").innerHTML = "New Title!"` in the console - this will change the title of the first &lt;h1> on the page.
--  Type `document.body.style.backgroundColor = "red"` in the console - this will chnage the background color of the page.
+- Type `document.body.style.backgroundColor = "red"` in the console - this will change the background color of the page.
+- Type `document.querySelectorAll("p").forEach(e=>e.innerHTML="Hi there!")` in the console - this will replace the text of all of the &lt;p> tags.
 
+Reload the browser page to revert to get rid of the changes.
 <hr>
 
 
