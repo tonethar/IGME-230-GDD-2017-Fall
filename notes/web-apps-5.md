@@ -28,13 +28,15 @@ VII. [Nested variable declarations](#section7)
 
 VIII. [Nested functions](#section8)
 
-IX. [ES6 Arrow Functions](#section9)
+IX. [The "Temporal Dead Zone" and Hoisting](#section9)
 
-X. [Nota bene](#section10)
+X. [ES6 Arrow Functions](#section10)
 
-XI. [Review Questions](#section11)
+XI. [Nota bene](#section11)
 
-XII. [Review Exercise](#section12)
+XII. [Review Questions](#section12)
+
+XIII. [Review Exercise](#section13)
 
 
 <hr><hr>
@@ -394,7 +396,86 @@ Closures are an important topic in JavaScript - you can learn more about them:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Nested_functions_and_closures
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-## IX. <a id="section9"></a>ES6 Arrow Functions
+
+## IX. The "Temporal Dead Zone" and Hoisting
+
+### A. Declared functions
+Functions that are declared and defined with the `function` keyword are available for use within their entire scope, even if code that calls them is placed before they have been declared. Here is an example:
+
+```javascript
+doStuff(); // this is Legal!
+
+function doStuff(){
+   ...
+}
+```
+
+This works because with declared functions, their name and definition (implenetation) are both "hoisted" to the top of the scope by the JavaScript runtime, and thus made immediately available to all of the code in that scope.
+
+### B. Function expressions declared with `let`
+But function expressions that are declared with `let` will NOT be available.
+
+```javascript
+doStuff(); // ERROR! - "Uncaught ReferenceError: doStuff is not defined"
+
+let doStuff = function(){
+   ...
+}
+```
+
+To fix this, we have to move the call to `doStuff()` below where it was declared and defined:
+
+```javascript
+let doStuff = function(){
+
+}
+
+doStuff(); // this is Legal!
+```
+
+### C. Other variables declared with `let`
+Other variables declared with `let` work the same way - the declaration is NOT available:
+
+```javascript
+// Bad! "Uncaught ReferenceError: x is not defined"
+x ++;
+let x = 0; 
+
+// Good!
+let y = 0;
+y ++; // `y` is now equal to 1
+```
+
+### D. Variables declared with `var`
+Variables declared with `var` are of course - a little weird. The declaration IS hoisted to the top of the function scope, but the definition (assigned value) is NOT:
+
+```
+"use strict";
+function doStuff(){
+	var x = 10;
+	x++;
+
+	y++;
+	var y = 10;
+
+	console.log(`x=${x}`); // 11
+	console.log(`y=${y}`); // 10
+}
+
+doStuff();
+```
+
+`x` behaves as we expect. 
+
+For `y:
+- the definition of `y` will be hoisted to the top of the function and given a value of `undefined`
+- the `++` operator on undefined gives `y` a value of `NaN`
+- the value of 10 is then assigned to `y`
+
+**So what is the "Temporal Dead Zone"?**
+For variables declared with `let` or `const`, there is a period between entering scope and being declared where they cannot be accessed. This period is the temporal dead zone (TDZ).
+
+## X. <a id="section10"></a>ES6 Arrow Functions
 Arrow functions are an ES6 addition.  They have two advantages: they have a shorter syntax than regular functions, and they do not bind their own `this` keyword. This second advantage might not mean anything to you now, but we will revisit it in a future chapter of this tutorial.
 
 ### functions-7.html
@@ -448,7 +529,7 @@ console.log(doubleIt(5));
 
 
 
-## X. <a id="section10"></a>Nota bene
+## XI. <a id="section11"></a>Nota bene
 
 A. We have not yet talked about the `this` keyword - `this` has a special value within functions based on how it is called - we will take a closer look at `this` in the next section, JavaScript Events & `this`.
 
@@ -476,7 +557,7 @@ http://2ality.com/2012/08/ids-are-global.html
 
 This "auto creation" of global properties is a feature you probably don't want to use in your code, but you need to be aware of it because it can cause quirky behavior in your programs depending on how you "id" your elements.
 
-## XI. <a id="section11"></a>Review Questions
+## XII. <a id="section12"></a>Review Questions
 1. What "super power" does a function have that a regular JavaScript object does not?
 1. What is the default return value of a function that does not have a `return` keyword?
 1. What is a *block*?
@@ -491,7 +572,7 @@ This "auto creation" of global properties is a feature you probably don't want t
 1. What does D.R.Y. stand for and *mean*? (see next section below)
 
 
-## XII. <a id="section12"></a>Review Exercise
+## XIII. <a id="section13"></a>Review Exercise
 
 Duplicate your **web-apps-4-HW.html** file and name the copy **web-apps-5-HW.html**
 Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
