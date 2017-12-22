@@ -458,7 +458,7 @@ var ship={
     }
 }
 ```
-1. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
+9. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
 ```javascript
   let x = "1";
   let y = x;
@@ -466,7 +466,7 @@ var ship={
   console.log(x);
   console.log(y);
 ```
-1. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
+10. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
 ```javascript
   let x = [1,2,3];
   let y = x;
