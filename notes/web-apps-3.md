@@ -333,6 +333,16 @@ But if we utilize the Web Inspector, we WILL see all of those changes reflected 
 
 ![Web Page](_images/dom-8.jpg)
 
+<hr>
+
+### ** *Try This!* **
+You can modify DOM elments from the web inspector command line too! Load *dom-4.html* intro the browser and open up the Web Inspector:
+
+- Type `document.querySelector("h1").innerHTML = "New Title!"` in the console - this will change the title of the first &lt;h1> on the page.
+-  Type `document.body.style.backgroundColor = "red"` in the console - this will chnage the background color of the page.
+
+<hr>
+
 
 ## VIII. <a id="section8">Dealing with `null`
 - If `querySelector()` doesn't find any matches on the page it returns `null`
