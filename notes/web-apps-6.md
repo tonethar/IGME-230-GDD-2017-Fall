@@ -55,7 +55,7 @@ Browser "on-event" handlers have been around since the early days of the Interne
 <body>
 <p>I am a paragraph</p>
 <script>
-
+  "use strict";
   let p = document.querySelector("p");
   
   // 1 - the onclick event handler now has a function expression as its value
@@ -112,7 +112,7 @@ the div will similarly trigger the `divClicked()` function.
 <p>I am a paragraph</p>
 <div>I am a division</div>
 <script>
-
+"use strict";
 let p = document.querySelector("p");
 p.onclick = function(e){
 	// 1 - the keyword 'this' in this context means the object that triggered the event
@@ -189,7 +189,7 @@ Go ahead and run **events-3.html** and see what happens.
 <p>I am a paragraph</p>
 <div>I am a division</div>
 <script>
-
+"use strict";
 // 1 - Let's declare a function that can be called later
 function changeParagraph(){
 	document.querySelector("p").innerHTML = "Somebody changed me!";
@@ -244,7 +244,7 @@ Try out the code below:
 <p>I am a paragraph</p>
 <div>I am a division</div>
 <script>
-
+"use strict";
 // 1 - Let's declare 3 arrow functions that can be called later
 let changeText = (e) => { e.target.innerHTML = "I was clicked!"; };
 let changeColor = (e) => { e.target.style.color = "red"; };
@@ -322,7 +322,7 @@ Type in the following code and test it in the browser.
 <p>I am a paragraph</p>
 <div>I am a division</div>
 <script>
-
+"use strict";
 // 1 - get references to <p> and <div>
 let p = document.querySelector("p"); 
 let div = document.querySelector("div");
@@ -389,6 +389,7 @@ If we use the `window.onload` event handler, we can move our code back up to the
 	<meta charset="utf-8" />
 	<title></title>
 	<script>
+	"use strict";
 	window.onload = init; // do you understand WHY there are no parentheses after init?
 
 	function init(){
@@ -492,7 +493,7 @@ You should see another message about the color you selected, and the &lt;legend>
 
 ### B) Hints
 1. You can use event handlers OR event listeners, it's your choice
-1. You can use standard funtions OR arrow functions, it's you choice
+1. You can use standard functions OR arrow functions, it's you choice
 1. The **Submit button** code should be triggered by the `click` event
 1. The **Radio button** code should be triggered by the `change` event
 1. `document.querySelectorAll()` can be used to get reference to all of the radio buttons. You can then loop through the list you get back (use a [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) or [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loop).
@@ -504,7 +505,7 @@ You should see another message about the color you selected, and the &lt;legend>
 Be sure to submit this to the applicable dropbox, and do not post it to your web site.
 
 ### D) Extra Credit (worth 1 full HW)
-Can you do a version of this web app, but with checkboxes? Name the file **web-apps-6-HW-with-checkboxes.html**
+Can you do a version of this web app, but with HTML checkboxes? Name the file **web-apps-6-HW-with-checkboxes.html**
 
 Hint: Checkboxes have a `.checked` property.
 
