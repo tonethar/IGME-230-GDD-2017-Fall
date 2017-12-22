@@ -174,6 +174,7 @@ Note that `const` and `let` are both part of the ES6 standard (you are learning 
    <meta charset="utf-8" />
    <title>Hello-2</title>
    <script>
+     "use strict";
      console.log("Hello world!");
      const answer = 42;
      // string concatenation
@@ -237,6 +238,7 @@ JavaScript is a *loosely typed* (aka *dynamic*) language:
    <meta charset="utf-8" />
    <title>Hello-3</title>
    <script>
+     "use strict";
      // 5 fundamental JavaScript types
      let sum = 99; // Number
      let name = "Fred"; //String
@@ -277,6 +279,7 @@ JavaScript also contains a number of built-in objects that we can use. There is 
    <meta charset="utf-8" />
    <title>Hello-4</title>
    <script>
+     "use strict";
      // 1) Common JS Objects
      let colors = ["red", "green", "blue"]; // Array literal
      let person = {name:"Fred", age:20};   // Object literal
@@ -344,6 +347,7 @@ JavaScript has a large number of **truthy** and **falsy** values that are *coerc
 <body>
 
 <script>
+"use strict";
 let a = 0;
 let b = 1;
 let c = 2;
