@@ -18,11 +18,12 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. what are web standards?
 1. [Introduction to JavaScript](./web-apps-2.md)
     1. a brief history of JavaScript
-    1. variables, constants, and types
+    1. variables, constants, and "primitive" types
     1. running code in the JavaScript console
     1. viewing error messages in the JavaScript console
     1. common built-in JavaScript objects
     1. type conversion and Falsy/Truthy values
+    1. JavaScript's strict mode
 1. [Introduction to the Web Browser DOM](./web-apps-3.md)
     1. did the HTML elements on the page load?
     1. selecting elements on a web page
@@ -43,6 +44,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. function declarations & expressions
     1. functions as *first-class* objects
     1. ES6 Block & Script Scope
+    1. Variable "hoisting" and the "Temporal Dead Zone"
     1. ES6 Arrow Functions
     1. more practice with the debugger
 1. [JavaScript Events & the `this` keyword](./web-apps-6.md)
