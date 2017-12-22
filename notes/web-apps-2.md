@@ -25,11 +25,13 @@ IX. [`let` or `var`?](#section9)
 
 X. [Falsy and Truthy values](#section10)
 
-XI. [Nota bene - "Note well"](#section11)
+XI. [JavaScript Strict Mode](#section11)
 
-XII. [Review Questions](#section12)
+XII. [Nota bene - "Note well"](#section12)
 
-XIII. [Review Exercise](#section13)
+XIII. [Review Questions](#section13)
+
+XIV. [Review Exercise](#section14)
 
 
 <hr><hr>
@@ -108,7 +110,7 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 <hr>
 
 ### ** *Try This* **
-In the console, type in the following to see what you get back. You really need to do this. THe easiest way is to open up the JavaScript console on this page, and copy/paste the values, one at a time, into the console's command prompt.
+In the console, type in the following to see what you get back. *You really need to do this.* The easiest way is to open up the JavaScript console on this web page, and copy/paste the values, one at a time, into the console's command prompt.
 
 ```javascript
 // try some JavaScript global functions
@@ -427,7 +429,20 @@ The JavaScript specification dicusses this coercion (conversion) here:
 - https://www.ecma-international.org/ecma-262/8.0/index.html#sec-abstract-equality-comparison
 
 
-## XI. <a id="section11"></a>Nota bene 
+## XI. <a id="section1"></a>JavaScript Strict Mode
+
+You may have noticed the `"use strict";` string that started appearing at the top of the &lt;script> tags - so what is that all about?
+
+- ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. 
+- Strict mode makes several changes to normal JavaScript semantics. First, strict mode eliminates some JavaScript silent errors by changing them to throw errors. Second, strict mode fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode. Third, strict mode prohibits some syntax likely to be defined in future versions of ECMAScript.
+- To invoke strict mode for an entire script, put the exact statement `"use strict";` (or `'use strict';`) before any other statements. In this class, we will put it at the very top of our &lt;script> tag.
+
+You can read more about strict mode here:
+- https://www.w3schools.com/js/js_strict.asp
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+- https://johnresig.com/blog/ecmascript-5-strict-mode-json-and-more/
+
+## XII. <a id="section12"></a>Nota bene 
 1. The `const` keyword is misnamed - it implies that a value can not be changed, this is false. Instead, the `const` declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's properties CAN be altered.
 1. The JavaScript `Number` can hold both a 64-bit number AND a 64-bit Integer values - documentation on the finer points of this is here:
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
@@ -438,7 +453,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
     - repetitive constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
 
-## XII. <a id="section12"></a>Review Questions
+## XIII. <a id="section13"></a>Review Questions
 1. Who created the initial version of JavaScript in 1995?
 1. What is the official name of JavaScript?
 1. Which versions of JavaScript will we be covering in this course?
@@ -464,7 +479,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
     1. `new Array()`, `[]`
     
 
-## XIII. <a id="section13"></a>Review Exercise
+## XIV. <a id="section14"></a>Review Exercise
 Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
