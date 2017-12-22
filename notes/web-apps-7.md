@@ -458,7 +458,7 @@ var ship={
     }
 }
 ```
-9. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
+9. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.)
 ```javascript
   let x = "1";
   let y = x;
@@ -466,7 +466,7 @@ var ship={
   console.log(x);
   console.log(y);
 ```
-10. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
+10. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.)
 ```javascript
   let x = [1,2,3];
   let y = x;
@@ -475,7 +475,7 @@ var ship={
   console.log(x);
   console.log(y);
 ```
-11. See the code below. What will be logged for the values of `x`, `y` and `z`? (Please try to figure this out on your own first, before running it in the browser to verify your answer. If any errors occur, please assume that the JavaScript interpreter will move on to the next line of code and continue to run.
+11. See the code below. What will be logged for the values of `x`, `y` and `z`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.) If any errors occur, please assume that the JavaScript interpreter will move on to the next line of code and continue to run.
 ```javascript
   const x = {};
   const y = 1;
