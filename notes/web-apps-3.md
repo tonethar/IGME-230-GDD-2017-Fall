@@ -66,6 +66,7 @@ Go ahead and try running the code sample below - it is attempting to change the 
       body{border:1px solid gray;}
    </style>
    <script>
+     "use strict";
      // first, get a reference to the first <h1> on the page
      let h1 = document.querySelector("h1");
 
@@ -134,6 +135,7 @@ The error happens because the line of code - `let h1 = document.querySelector("h
 <p>Blah Blah Blah</p>
 <footer>Copyright &copy; 20XX</footer>
 <script>
+	"use strict";
 	// The page has loaded, so it's "safe" to search for elements :-)
 	
 	// first, get a reference to the first <h1> on the page
@@ -187,6 +189,7 @@ Let's try a few of these out below. Note that we have added an additional paragr
 <p id="lastParagraph">Blah Blah Blah</p>
 <footer>Copyright &copy; 20XX</footer>
 <script>
+	"use strict";
 	// first, get a reference to the first <h1> on the page
 	let h1 = document.querySelector("h1");
 	
@@ -263,7 +266,7 @@ Utilize the (rarely used) CSS3 `E:nth-last-of-type(n)` selector.
 <p id="lastParagraph">Blah <b>Blah</b> Blah</p>
 <footer>Copyright &copy; <b>20XX</b></footer>
 <script>
-	
+	"use strict";
 	// 1 - get a reference to ALL of the <h2> elements on the page and add a number to the beginning of them
 	// also, do some CSS transforms on them.
 	let allHeadings = document.querySelectorAll("h2");
@@ -363,6 +366,7 @@ Reload the browser page to revert to get rid of the changes.
 <body>
 
 <script>
+"use strict";
 let element = document.querySelector("h4"); // will be null because page has no h4 elements
 //element.innerHTML = "Found an h4 tag"; // WILL CAUSE AN ERROR
 
