@@ -397,7 +397,7 @@ Closures are an important topic in JavaScript - you can learn more about them:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 
-## IX. The "Temporal Dead Zone" and Hoisting
+## IX. <a id="section9">The "Temporal Dead Zone" and Hoisting
 
 ### A. Declared functions
 Functions that are declared and defined with the `function` keyword are available for use within their entire scope, even if code that calls them is placed before they have been declared. Here is an example:
