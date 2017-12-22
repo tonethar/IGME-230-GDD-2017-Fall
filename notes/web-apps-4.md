@@ -361,7 +361,7 @@ document.body.removeChild(document.querySelector("p"));
 
 ## VII. <a id="section7"></a>Nota bene
 
-### A. `innerHTML` or `document.createElment()`?
+### A. `innerHTML` or `document.createElement()`?
 In the previous chapter we used `.innerHTML` to create new HTML elements, while in this chapter we were more *methodical* (literally) and used methods such as `document.createElement()`, `document.createTextNode()`, `element.appendChild()`
 
 Which approach should you use in your code? Our recommendation is to use whichever approach works for you. Consider:
@@ -427,8 +427,8 @@ Here is your starter code:
 let colors = ["red","green","blue","purple","pink"];
 let foods = []; // add some foods
 
-// Optional (worth an extra 5 points) - can you figure out how to pull the key
-// and value from the links object literal?
+// Optional - can you figure out how to pull both the key AND the value
+// from the `links` object literal?
 let links = {
 		"RIT": "http://www.rit.edu",
 		"RWAG" : "https://www.facebook.com/RWAGclub",
