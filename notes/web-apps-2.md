@@ -429,7 +429,7 @@ The JavaScript specification dicusses this coercion (conversion) here:
 - https://www.ecma-international.org/ecma-262/8.0/index.html#sec-abstract-equality-comparison
 
 
-## XI. <a id="section1"></a>JavaScript Strict Mode
+## XI. <a id="section11"></a>JavaScript Strict Mode
 
 You may have noticed the `"use strict";` string that started appearing at the top of the &lt;script> tags - so what is that all about?
 
