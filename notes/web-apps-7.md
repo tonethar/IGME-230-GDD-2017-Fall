@@ -119,6 +119,21 @@ console.log(car1.newproperty); // undefined
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
 
+**`Object.freeze()` allows us to seal the object (on new properties), and then make the existing properties *immutable***
+
+Attempting to change a property on a "frozen" object results in an error (in strict mode) or a no-op otherwise.
+```javascript
+"use strict";
+let car1 = {
+  make: "Ford",
+  model: "Pinto",
+  cylinders: 4
+};
+
+Object.freeze(car1);
+car1.make = "Chevy"; // ERROR - "Uncaught TypeError: Cannot assign to read only property 'make' of object"
+```
+
 ## III. <a id="section3">Iterating over object properties
 The `for...in` loop is commonly used to iterate over object properties.
 
