@@ -277,6 +277,14 @@ for (car of cars){
 - In #3 we use `Object.seal()` to prevent new properties from being added to an object.
 - In #4 and #5 we test our factory factory methods, and see how we can loop through an array of cars and call methods on them.
 
+<hr>
+
+### ** *Try This!* **
+- In *object-3.html*, add a `isJunked` parameter to `makeCar()`, and give it a default value of `false`.
+- Make sure that the `car` literal is assigned the value of `isJunked` as a property.
+
+<hr>
+
 ## VI. <a id="section6">ES6 Object Literal syntax
 In ES6, the Object literal syntax gives the developer more concise ways to declare properties and values with *property value shortcuts*, and a more compact way of defining object methods. See below:
 
@@ -390,7 +398,7 @@ console.log(car3.make); // Yugo
 ## VIII. <a id="section8">Another look at `const`
 Now that we have had a chance to look at Objects, let's look at the description of [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) from the Mozilla site: 
 
-"The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered."
+"The `const` declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered."
 
 Let's look at an example:
 	
@@ -449,6 +457,23 @@ var ship={
       y += speed;
     }
 }
+```
+1. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
+```javascript
+  let x = "1";
+  let y = x;
+  x = "2";
+  console.log(x);
+  console.log(y);
+```
+1. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.
+```javascript
+  let x = [1,2,3];
+  let y = x;
+  x.push(4);
+  y.push(5);
+  console.log(x);
+  console.log(y);
 ```
 
 ## XI. <a id="section11">Review Exercise
