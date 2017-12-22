@@ -108,7 +108,8 @@ The line of code - `console.log("Hello world!");` - doesn't do anything in the w
 <hr>
 
 ### ** *Try This* **
-In the console, type in the following to see what you get:
+In the console, type in the following to see what you get back. You really need to do this. THe easiest way is to open up the JavaScript console on this page, and copy/paste the values, one at a time, into the console's command prompt.
+
 ```javascript
 // try some JavaScript global functions
 parseFloat("10")
