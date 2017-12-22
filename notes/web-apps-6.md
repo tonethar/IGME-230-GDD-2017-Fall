@@ -148,7 +148,7 @@ One common mistake that is easy to make, is to write this line:
 `document.querySelector("div").onclick = divClicked(); // add parentheses`
 
 - Go ahead and make that change to **events-2.html** and run this code - note that our `div.onclick` code doesn't seem to work now - what happened?
-- Check out the debugger - add a breakpoint and reload the page. Then find the value of `p.onclick` (recall we didn't change that code) - you can see below that the value of p.onclick is a function.
+- Check out the debugger - add a breakpoint and reload the page. Then find the value of `p.onclick` (recall we didn't change that code) - you can see below that the value of `p.onclick` is a function.
 
 ![Web Page](_images/events-3.jpg)
 
@@ -156,7 +156,7 @@ One common mistake that is easy to make, is to write this line:
 
 ![Web Page](_images/events-4.jpg)
 
-- What happened is that when we added the `()` to the end of `onclick = divClicked()`, the function was called immediately, and the *return value* of the function (`null`) was stored in the `onclick` property instead of the function *reference* it was expecting.
+- What happened is that when we added the `()` to the end of `onclick = divClicked()`, the function was called immediately, and the *return value* of the function (`undefined`) was stored in the `onclick` property instead of the function *reference* it was expecting.
 - Go ahead and change the code back so that it works again.
 
 ## IV. <a id="section4"></a>Events and Arrow Functions
@@ -166,7 +166,7 @@ We can use arrow functions as event handlers too. You might recall that in the [
 - they do not bind their own `this` keyword. 
 
 What this means is that when an event handler points at a *regular function*, the value of `this` is the object that received the event.
-But when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will be the `window` object - so we will be able to call top level fucntions in the script.
+But when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will be the `window` object - so we will be able to call top level functions in the script.
 
 Go ahead and run **events-3.html** and see what happens.
 
@@ -364,7 +364,7 @@ div.addEventListener("click",toggleStyle);
 ![Web Page](_images/events-8.jpg)
 
 ### A. Explanation
-Clicking on an element should toggle the styles back and forth from its normal appearance, to a changed appearance with a yellow background color and italic text. This toggling between the 2 appearances is being tracked by changing `dataset.state` from "normal" to "changed". Note that we came up with the name `.state` on our own. We could have called it anything like `.selected` or `.clicked`.
+Clicking on an element should toggle the styles back and forth from its normal appearance, to a changed appearance with a yellow background color and italic text. This toggling between the 2 appearances is being tracked by changing `dataset.state` from "normal" to "changed". By adding a `state` property to any element we click on, our code allows that element to "remember" that it has been changed or not. Note that we came up with the name `.state` on our own. We could have called it anything like `.selected` or `.clicked`.
 
 - **Note *above* that we can see the changing value (as we click) of the div's `data-state` in the web inspector elements tab.**
 
