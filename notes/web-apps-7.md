@@ -73,7 +73,7 @@ Here we are going to create an object literal named `car1`, and attach a few pro
 </head>
 <body>
 <script>
-
+"use strict";
 // 1 - Create an object literal with properties
 let car1 = {
   make: "Ford",
@@ -169,9 +169,8 @@ In JavaScript objects, *methods are properties whose values are functions*.
 </head>
 <body>
 <script>
-
+"use strict";
 // 1 - Create an object literal with properties AND methods
-
 let car1 = {
 	make: "Ford",
 	model: "Pinto",
@@ -218,7 +217,7 @@ Instead, we can write a function to create these cars for us.
 </head>
 <body>
 <script>
-
+"use strict";
 // 1 - create two functions that we will later use as a "method"
 let speedUp = function(howMuch){
 		this.speed += howMuch; 
@@ -291,7 +290,7 @@ In ES6, the Object literal syntax gives the developer more concise ways to decla
 </head>
 <body>
 <script>
-
+"use strict";
 // NEW ES6 Object Literal Feature
 
 // 1- property value "shortcuts"
