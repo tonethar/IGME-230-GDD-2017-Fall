@@ -502,8 +502,6 @@ var ship={
   console.log(y);
   console.log(z);
 ```
-12. Write an ES6 arrow function named `addThem()` that takes 2 arguments, and returns their sum. The default value of these arguments (if no value is passed in) will be `0`.
-
 
 ## XI. <a id="section11">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7-HW.html**, and do the challenge:
