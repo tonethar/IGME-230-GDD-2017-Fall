@@ -78,7 +78,7 @@ Here are some examples of JavaScript function declarations. Note that when we de
 <body>
 
 <script>
-
+"use strict";
 // 1 - These first 2 examples do not have a return value, and instead rely on "side effects"
 
 // 1A - no arguments, no return value
@@ -139,8 +139,7 @@ This means that like any other JavaScript type (e.g. numbers or strings) they ca
 <body>
 
 <script>
-
-
+"use strict";
 // 1 - Function Expression
 let formatGreeting1 = function(name){
 	// we are going to use ES6 String template literals instead of concatenation going forward
@@ -211,7 +210,7 @@ it might be useful to set a different default value. This is where **default par
 <body>
 
 <script>
-
+"use strict";
 // #1 - A standard JavaScript function, it does not handle missing arguments well
 function multiply1(a, b) {
   return a * b;
@@ -269,7 +268,7 @@ When functions are declared, and when variables are declared using either `let` 
 <body>
 
 <script>
-
+"use strict";
 // #1 - a & b here are in "script scope" because they are declared outside of a block
 let A = "A";
 let B = "B";
@@ -331,7 +330,7 @@ You can read about this behavior of `var` and other behaviors such as variable d
 <body>
 
 <script>
-
+"use strict";
 function doStuff(){
 	let x = 1;
 	let y = 1;
@@ -370,7 +369,7 @@ Below we have given the `addSquares()` function a "helper" function that is not 
 <body>
 
 <script>
-
+"use strict";
 // borrowed from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 function addSquares(a, b) {
   function square(x) {
@@ -382,7 +381,6 @@ function addSquares(a, b) {
 let a = addSquares(2, 3); // returns 13
 let b = addSquares(3, 4); // returns 25
 let c = addSquares(4, 5); // returns 41
-
 
 </script>
 </body>
@@ -450,7 +448,6 @@ y ++; // `y` is now equal to 1
 Variables declared with `var` are of course - a little weird. The declaration IS hoisted to the top of the function scope, but the definition (assigned value) is NOT:
 
 ```
-"use strict";
 function doStuff(){
 	var x = 10;
 	x++;
@@ -490,7 +487,7 @@ Arrow functions are an ES6 addition.  They have two advantages: they have a shor
 <body>
 
 <script>
-
+"use strict";
 // 1 - function declaration
 function addThem1(num1,num2){
 	return num1 + num2;
