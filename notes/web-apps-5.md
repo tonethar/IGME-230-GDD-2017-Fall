@@ -565,8 +565,21 @@ This "auto creation" of global properties is a feature you probably don't want t
 1. Declaring a variable with `let` or `const` inside of a `if(){...}` statement gives it what kind of *scope*?
 1. Declaring a variable with `var` inside of an `if(){...}` statement inside of a function gives it what kind of *scope*?
 1. Declaring a variable with `var` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
-1. What does the `debugger;` statement do?
 1. What does D.R.Y. stand for and *mean*? (see next section below)
+1. See the code below. What will be logged for the values of `x` , `y` and `z`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.) If any errors occur, please assume that the JavaScript interpreter will move on to the next line of code and continue to run.
+```javascript
+  let x = 1;
+  let y;
+  if(x==1){
+      x++;
+      let y = 1;
+      y++;
+      let z = 1;
+   }
+   console.log(x);
+   console.log(y);
+   console.log(z);
+```
 
 
 ## XIII. <a id="section13"></a>Review Exercise
