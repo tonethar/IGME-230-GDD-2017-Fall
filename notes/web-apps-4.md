@@ -124,6 +124,7 @@ Our page is missing a &lt;footer>, so let's create one and insert it into the &l
 </ul>
 
 <script>
+	"use strict";
 	// 1 - Create a <footer> element
 	let footer = document.createElement("footer");
 	
@@ -183,6 +184,7 @@ We can simplify this code though, by using `.innerHTML` instead of `document.cre
 </ul>
 
 <script>
+	"use strict";
 	// 1 - Create a <footer>
 	let footer = document.createElement("footer");
 	
@@ -254,6 +256,7 @@ Rather than just append everything to the bottom of the &lt;body>, let's see how
 </ul>
 
 <script>
+	"use strict";
 	// 1 - Create a <footer>
 	let footer = document.createElement("footer");
 	
@@ -424,6 +427,7 @@ Here is your starter code:
 </ol>
 
 <script>
+"use strict";
 let colors = ["red","green","blue","purple","pink"];
 let foods = []; // add some foods
 
