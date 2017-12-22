@@ -566,6 +566,7 @@ This "auto creation" of global properties is a feature you probably don't want t
 1. Declaring a variable with `var` inside of an `if(){...}` statement inside of a function gives it what kind of *scope*?
 1. Declaring a variable with `var` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
 1. What does D.R.Y. stand for and *mean*? (see next section below)
+1. Write an ES6 *arrow function* named `addThem()` that takes 2 arguments, and returns their sum. The default value of these arguments (if no value is passed in) will be `0`.
 1. See the code below. What will be logged for the values of `x` , `y` and `z`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.) If any errors occur, please assume that the JavaScript interpreter will move on to the next line of code and continue to run.
 ```javascript
   let x = 1;
