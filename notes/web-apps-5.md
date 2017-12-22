@@ -445,7 +445,7 @@ y ++; // `y` is now equal to 1
 ```
 
 ### D. Variables declared with `var`
-Variables declared with `var` are of course - a little weird. The declaration IS hoisted to the top of the function scope, but the definition (assigned value) is NOT:
+Variables declared with `var` are - of course - a little weird. The declaration IS hoisted to the top of the function scope, but the definition (assigned value) is NOT:
 
 ```
 function doStuff(){
@@ -464,13 +464,13 @@ doStuff();
 
 `x` behaves as we expect. 
 
-For `y:
+For `y`:
 - the definition of `y` will be hoisted to the top of the function and given a value of `undefined`
 - the `++` operator on undefined gives `y` a value of `NaN`
 - the value of 10 is then assigned to `y`
 
 **So what is the "Temporal Dead Zone"?**
-For variables declared with `let` or `const`, there is a period between entering scope and being declared where they cannot be accessed. This period is the temporal dead zone (TDZ).
+For variables declared with `let` or `const`, there is a period between entering scope and being declared where they cannot be accessed. This period is known as the temporal dead zone (TDZ).
 
 ## X. <a id="section10"></a>ES6 Arrow Functions
 Arrow functions are an ES6 addition.  They have two advantages: they have a shorter syntax than regular functions, and they do not bind their own `this` keyword. This second advantage might not mean anything to you now, but we will revisit it in a future chapter of this tutorial.
