@@ -410,7 +410,7 @@ function doStuff(){
 }
 ```
 
-This works because with declared functions, their name and definition (implenetation) are both "hoisted" to the top of the scope by the JavaScript runtime, and thus made immediately available to all of the code in that scope.
+This works because with declared functions, their name and definition (implementation) are both "hoisted" to the top of the scope by the JavaScript runtime, and thus made immediately available to all of the code in that scope.
 
 ### B. Function expressions declared with `let`
 But function expressions that are declared with `let` will NOT be available.
