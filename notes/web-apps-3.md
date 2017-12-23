@@ -271,7 +271,7 @@ Utilize the (rarely used) CSS3 `E:nth-last-of-type(n)` selector.
 	// also, do some CSS transforms on them.
 	let allHeadings = document.querySelectorAll("h2");
 
-	// 2 - loop through array
+	// 2 - loop through array using classic `for` loop
 	for(let i=0;i<allHeadings.length;i++){
 		let h2 = allHeadings[i];
 		let currentText = h2.innerHTML;
@@ -288,7 +288,7 @@ Utilize the (rarely used) CSS3 `E:nth-last-of-type(n)` selector.
 	// 3 - use a *descendent selector* to target the <b> tags inside of paragraphs 
 	// but not that <b> tag in the footer
 	let myList = document.querySelectorAll("p b");
-	for (let element of myList) {
+	for (let element of myList) { // use the ES6 `for...of` loop 
 		// we  set CSS values through the .style property
 		element.style.color = "red";
 		element.style.fontVariant = "small-caps";
@@ -313,7 +313,7 @@ Utilize the (rarely used) CSS3 `E:nth-last-of-type(n)` selector.
 
 #2 above - we looped through the array using the classic `for` loop that we know and love. We set the CSS `transform` property and saw some interesting effects.
 
-#3 above - we used a *descendant* selector to target &lt;b> tags that are inside of paragraphs, and the ES6 `for/of` to loop over the array. 
+#3 above - we used a *descendant* selector to target &lt;b> tags that are inside of paragraphs, and the ES6 [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) to loop over the array. 
 
 <hr>
 
