@@ -231,7 +231,12 @@ There was quite a bit in that last example. Let's discuss:
 
 #5 above - we used a **type selector** to get a reference to the footer
 
-#6 above - we then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations. We have to drop the dash in the property name - and "camel case" the second word - thus the CSS `font-family` property becomes `style.fontFamily`. See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
+#6 above - we then changed the CSS on the &lt;footer> element by accessing the `.style` property. Note that in JavaScript, to use the CSS properties that have dashes in their name (like `font-family`) we need to make alterations:
+- drop the dash in the property name
+- "camel case" the second word
+- thus the CSS `font-family` property becomes `style.fontFamily`. 
+
+See above that we also had to do this for `font-size`, `padding-top` and `padding-bottom`.
 
 <hr>
 
