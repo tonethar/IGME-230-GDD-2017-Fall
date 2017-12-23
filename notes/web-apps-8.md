@@ -5,6 +5,8 @@
 JavaScript arrays are "List-like" objects that are used to store information sequentially. 
 Unlike primitive arrays (Int, Float etc) in languages like C, JavaScript arrays are NOT constrained to holding only one *type* of value, and can hold multiple types of data in the same array.
 
+JavaScript arrays are *objects*, and thus have properties and methods like other objects do. 
+
 ## Contents
 <!--- Local Navigation --->
 I. [Array Operations](#section1)
