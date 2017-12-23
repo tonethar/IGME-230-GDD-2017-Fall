@@ -536,17 +536,9 @@ B. A new kind of function for ES6 is called a **Generator Function** - which is 
 - https://davidwalsh.name/es6-generators
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
 
-C. Function declarations and function expressions are very similar, but there are subtle differences.
-One of these is that within the same scope, function declarations are immediately available to all the code, but `let` function expressions are not available until the variable  has been *declared* and *initialized*.
+C. We are going to use String Template literals in our examples instead of string concatentation going forward. But there is one caveat - Internet Explorer 11 (the final version of IE) does not support them, so be cautious about using them in your "shipping" JavaScript projects.
 
-To see this in action:
-
-- head back to **functions-1.html** and add this line of code - `sayHello();` - to the very top of the &lt;script> tag, before sayHello has been declared. Run the code. You should see two of the "Hello1" logs now, proving that the `sayHello(){...}` function was available even though it was declared later on in the code.
-- head back to **functions-2.html** and add this line of code - `console.log(formatGreeting1("Freddy"));` - to the very top of the &lt;script> tag, before the `formatGreeting` variable was initialized. Run the code. You will get an error message - `Uncaught ReferenceError: formatGreeting1 is not defined` - which means that at the top of the code `formatGreeting1` has not yet been declared (or initialzed). This means that `formatGreeting1` is in a "temporal dead zone" from the start of the block until the initialization is processed.
-
-D. We are going to use String Template literals in our examples instead of string concatentation going forward. But there is one caveat - Internet Explorer 11 (the final version of IE) does not support them, so be cautious about using them in your "shipping" JavaScript projects.
-
-E. You may have noticed **global** variable scope above. How can you add variables to this **global** scope?
+D. You may have noticed **global** variable scope above. How can you add variables to this **global** scope?
 1. Use the `var` keyword (which we will avoid using in this class)
 2. Every time you give an element an `id` value, you are actually creating a property on the global `.window` object. You can read about this here:
 
