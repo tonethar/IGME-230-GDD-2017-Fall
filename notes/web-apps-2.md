@@ -404,7 +404,7 @@ if("fred"){
 ```
 
 ### X-A. Discussion
-- #1, #2 and #3 above shoulde be obvious
+- #1, #2 and #3 above should be obvious
 - #4 and #5 above are both "falsy" values in that JavaScript (per the specification) coerces them to `false`
 - How is #6 true? Read on!
 
