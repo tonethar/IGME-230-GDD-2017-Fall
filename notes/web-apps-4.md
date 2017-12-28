@@ -46,6 +46,30 @@ Take a look above, and try to answer these questions:
 - which elements are *descendants* of the &lt;body> element? (Hint: pretty much everything you can see on the page.)
 
 
+### more-dom-0.html
+
+Here is the HTML representation of the graphic above.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<h1>Hi there</h1>
+	<p>Paragraph Body <a href="#">Link to somewhere</a></p>
+	<ol>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+</body>
+</html>
+```
+
+
 ### B. New DOM Methods
 Here are some of the new DOM methods we will be working with today. These allow us to *create* DOM elements, *modify* them, *insert* them into the document, and *delete* them from the document:
 
