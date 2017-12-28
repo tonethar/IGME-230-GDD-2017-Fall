@@ -5,7 +5,7 @@ Today we are going to look at alternatives to `.innerHTML` that can be used to *
 
 ## Contents
 <!--- Local Navigation --->
-I. [Introduction](#section1)
+I. [The DOM Tree](#section1)
 
 II. [Starter Page](#section2)
 
@@ -26,7 +26,7 @@ IX. [Review Exercise](#section9)
 
 <hr><hr>
 
-## I. <a id="section1"></a>Introduction
+## I. <a id="section1"></a>The DOM Tree
 Today we are going to look at other ways to use JavaScript to alter HTML elements on the page. 
 Although we can do quite a bit with the `.innerHTML` property, there are times that we might want to insert a new element somewhere on the page, for example a new list item into the middle of a list. Or to delete a single element, for example a list item that is currently inside (a child of) an unordered list. To do these things, we are going to need more "fine grained" control.
 
@@ -73,10 +73,11 @@ Here is the HTML representation of the graphic above.
 
 ### ** *Try This!* **
 - Load  *more-dom-0.html* in a web browser, open the JavaScript console, and "walk the tree" by typing in the code below, one line at a time. 
-- Note that if you know the exact structure of the page like we do here, you can access the entire contents of the document using only the "tree" properties (as opposed to CSS selectors, id, classes, etc with `document.querySelector()` or  `document.querySelectorAll()`)
+- Note that if you are certain of the exact structure of the HTML page like we do here, you can access the entire contents of the document using only the "tree" properties (as opposed to CSS selectors, id, classes, etc with `document.querySelector()` or  `document.querySelectorAll()`)
 - Note below that the `.firstChild` or `lastChild` methods might return text nodes (even "empty" ones that just consist of a line feed). To be safe, use `.firstElementChild` or `lastElementChild` if what you really want back is the HTML element in that position.
 
 ```
+document.firstElementChild.nodeName
 document.body.nodeName
 document.body.parentElement.nodeName
 document.body.children.length
