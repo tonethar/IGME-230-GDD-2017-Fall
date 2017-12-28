@@ -74,6 +74,7 @@ Here is the HTML representation of the graphic above.
 ### ** *Try This!* **
 - Load  *more-dom-0.html* in a web browser, open the JavaScript console, and "walk the tree" by typing in the code below, one line at a time. 
 - Note that if you know the exact structure of the page like we do here, you can access the entire contents of the document using only the "tree" properties (as opposed to CSS selectors, id, classes, etc with `document.querySelector()` or  `document.querySelectorAll()`)
+- Note below that the `.firstChild` or `lastChild` methods might return text nodes (even "empty" ones that just consist of a line feed). To be safe, use `.firstElementChild` or `lastElementChild` if what you really want back is the HTML element in that position.
 
 ```
 document.body.children.length
