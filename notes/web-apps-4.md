@@ -33,7 +33,7 @@ Although we can do quite a bit with the `.innerHTML` property, there are times t
 ### A. The DOM is an inverted tree
 The browser DOM is an inverted tree structure that consists of *nodes* - which are HTML elements (software *objects*) that have properties and methods associated with them. These nodes have hierarchical relationships with one another - *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
 
-Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to. Note that in the graphic below, both DOM elements and the text that goes inside of them are considered *nodes*.
+Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to. Note that in the graphic below, both DOM elements and the text (`TextNode`) that goes inside of them are considered *nodes*.
 
 ![Web Page](_images/more-dom-0.jpg)
 
@@ -69,6 +69,25 @@ Here is the HTML representation of the graphic above.
 </html>
 ```
 
+<hr>
+
+### ** *Try This!* **
+- Load  *more-dom-0.html* in a web browser, open the JavaScript console, and "walk the tree" by typing in the code below, one line at a time. Note that if you know the exact structure of the page like we do here, you can access the entire contents of the document using only the "tree" properties (as opposed to CSS selectors, id, classes, etc with `document.querySelector()` or  `document.querySelectorAll()`
+
+```
+document.body.children.length
+document.body.children[0].innerHTML = "Hello there!"
+document.body.children[2].lastElementChild.innerHTML = "Last item in list!"
+document.body.children[1].nodeName
+document.body.children[1].nodeType // 1 means type "Element"
+document.body.children[1].firstChild.nodeName
+document.body.children[1].nodeType // 3 means type "Text Node"
+document.body.children[1].firstChild.nodeValue = "NEW Paragraph Body! " // note how this just replaces the text, not the link
+document.body.children[1].firstElementChild.innerText = "Google"
+document.body.children[1].firstElementChild.href = "http://www.google.com" // link is now go to google
+```
+
+<hr>
 
 ### B. New DOM Methods
 Here are some of the new DOM methods we will be working with today. These allow us to *create* DOM elements, *modify* them, *insert* them into the document, and *delete* them from the document:
