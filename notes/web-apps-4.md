@@ -33,11 +33,12 @@ Although we can do quite a bit with the `.innerHTML` property, there are times t
 ### A. The DOM is an inverted tree
 The browser DOM is an inverted tree structure that consists of *nodes* - which are HTML elements (software *objects*) that have properties and methods associated with them. These nodes have hierarchical relationships with one another - *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
 
-Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to.
+Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to. Note that in the graphic below, both DOM elements and the text that goes inside of them are considered *nodes*.
 
 ![Web Page](_images/more-dom-0.jpg)
 
 Take a look above, and try to answer these questions:
+- which element is the *parent* of the &lt;body> element?
 - which element is a *sibling* of the &lt;body> element?
 - which elements are typically *children* of the &lt;head> element? (in addition to the 2 elements shown above)
 - which elements are *children* of the &lt;body> element? (Hint: pretty much everything you can see on the page.)
