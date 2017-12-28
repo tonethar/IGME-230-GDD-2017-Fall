@@ -54,17 +54,17 @@ Here is the HTML representation of the graphic above.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title></title>
+  <meta charset="utf-8" />
+  <title></title>
 </head>
 <body>
-	<h1>Hi there</h1>
-	<p>Paragraph Body <a href="#">Link to somewhere</a></p>
-	<ol>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ol>
+  <h1>Hi there</h1>
+  <p>Paragraph Body <a href="#">Link to somewhere</a></p>
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
 </body>
 </html>
 ```
