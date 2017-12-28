@@ -77,6 +77,8 @@ Here is the HTML representation of the graphic above.
 - Note below that the `.firstChild` or `lastChild` methods might return text nodes (even "empty" ones that just consist of a line feed). To be safe, use `.firstElementChild` or `lastElementChild` if what you really want back is the HTML element in that position.
 
 ```
+document.body.nodeName
+document.body.parentElement.nodeName
 document.body.children.length
 document.body.children[0].innerHTML = "Hello there!"
 document.body.children[2].lastElementChild.innerHTML = "Last item in list!"
