@@ -72,7 +72,8 @@ Here is the HTML representation of the graphic above.
 <hr>
 
 ### ** *Try This!* **
-- Load  *more-dom-0.html* in a web browser, open the JavaScript console, and "walk the tree" by typing in the code below, one line at a time. Note that if you know the exact structure of the page like we do here, you can access the entire contents of the document using only the "tree" properties (as opposed to CSS selectors, id, classes, etc with `document.querySelector()` or  `document.querySelectorAll()`
+- Load  *more-dom-0.html* in a web browser, open the JavaScript console, and "walk the tree" by typing in the code below, one line at a time. 
+- Note that if you know the exact structure of the page like we do here, you can access the entire contents of the document using only the "tree" properties (as opposed to CSS selectors, id, classes, etc with `document.querySelector()` or  `document.querySelectorAll()`)
 
 ```
 document.body.children.length
@@ -84,7 +85,7 @@ document.body.children[1].firstChild.nodeName
 document.body.children[1].nodeType // 3 means type "Text Node"
 document.body.children[1].firstChild.nodeValue = "NEW Paragraph Body! " // note how this just replaces the text, not the link
 document.body.children[1].firstElementChild.innerText = "Google"
-document.body.children[1].firstElementChild.href = "http://www.google.com" // link is now go to google
+document.body.children[1].firstElementChild.href = "http://www.google.com" // link now goes to google
 ```
 
 <hr>
