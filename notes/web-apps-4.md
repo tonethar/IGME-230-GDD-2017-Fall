@@ -42,7 +42,7 @@ Take a look above, and try to answer these questions:
 - which element is a *sibling* of the &lt;body> element?
 - which elements are typically *children* of the &lt;head> element? (in addition to the 2 elements shown above)
 - what is the difference between *descendant* elements and *child* elements (of the &lt;body> for example?
-- which elements are *children* of the &lt;body> element? (Hint: pretty much everything you can see on the page.)
+- which elements are *children* of the &lt;body> element?
 - which elements are *descendants* of the &lt;body> element? (Hint: pretty much everything you can see on the page.)
 
 
