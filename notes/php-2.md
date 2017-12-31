@@ -147,6 +147,7 @@ Run the following code and observe the results:
  <?PHP
   
  ?>
+ ```
  
  ## VIII. <a id="section8">Operators
   
@@ -154,4 +155,5 @@ Run the following code and observe the results:
  <?PHP
   
  ?>
+ ```
 
