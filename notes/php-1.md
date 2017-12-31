@@ -154,21 +154,21 @@ Below, you can see that we can mix HTML and PHP quite easily, and that all 3 of 
 <head>
 	<meta charset="utf-8" />
 	<?PHP
-		$pageTitle = "Hello-4"; // here we are declaring a variable
+	    $pageTitle = "Hello-4"; // here we are declaring a variable
 	?>
 	<title>
 	<?PHP
-		echo $pageTitle; 	// and we use that variable here
+	    echo $pageTitle; 	// and we use that variable here
 	?>
 	</title>
 </head>
 <body>
 <?PHP
-		echo "<h1>$pageTitle</h1>"; // and we use that variable a second time here
-		echo "<div>Content goes here!</div>";
-		echo "<hr>";
-		echo "Page accessed on: ";
-		echo date("Y-m-d H:i:s");  // date() is a built-in PHP function
+	echo "<h1>$pageTitle</h1>"; // and we use that variable a second time here
+	echo "<div>Content goes here!</div>";
+	echo "<hr>";
+	echo "Page accessed on: ";
+	echo date("Y-m-d H:i:s");  // date() is a built-in PHP function
 ?>
 </body>
 </html>
@@ -194,15 +194,24 @@ When you are done it should look like this:
 
 
 ### VIII. <a id="section8">`phpinfo()` - Getting information about a web server's PHP install
+	
+The built-in `phpinfo()` function outputs information about PHP's configuration: compilation options and extensions, the PHP version, server information and environment, OS version information, paths, master and local values of configuration options, HTTP headers, and the PHP License.
 
+Go ahead and create the following script and post it to your web server.
+
+**info.php**
 ```php
 <?php 
-	phpinfo(); 
+    phpinfo(); 
 ?>
 ```
+**If you are running your code on `banjo.rit.edu`, you should see something like this in your web browser:**
+
+![Screenshot](_images/intro-php-10.jpg)
+
 
 ## Resources
-- http://php.net/manual/en/
+- http://php.net/manual/en/ - best source for PHP API documentation.
 - http://php.net/manual/en/tutorial.php
 - https://www.tutorialspoint.com/php/
 - https://www.w3schools.com/php/
