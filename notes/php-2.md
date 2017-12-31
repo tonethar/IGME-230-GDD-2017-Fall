@@ -104,18 +104,35 @@ Run the following code and observe the results:
 More here: https://stackoverflow.com/questions/2382490/how-does-true-false-work-in-php
   
 ## V. <a id="section5">Strings
-  
+Run the following code and observe the results:
+**php-types-3.php**
 ```php
-  <?PHP
-  
-  ?>
+  <?php
+  // string values may be single or double quoted
+   $name = 'Fred';
+   $name = "Fred";
+   
+   // strings may be concatenated with a dot (period)
+   $greeting1 = "<p>My name is " . $name . "</p>";
+   
+   // string variables will be interpolated in a double-quoted string
+   $greeting2 = "<p>My name is $name</p>";
+   
+   // strings will NOT interpolate in a single-quoted STRING_TO_INT
+    $greeting3 = '<p>My name is $name</p>';
+   
+  echo($greeting1);
+  echo($greeting2);
+  echo($greeting3);
+ 
+?>
 ```
 
 ## VI. <a id="section6">Type Coercsion
   
  ```php
-  <?PHP
+ <?PHP
   
-  ?>
+ ?>
 ```
 
