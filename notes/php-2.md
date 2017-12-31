@@ -28,7 +28,7 @@ VI. [Type Coercsion](#section6)
 - PHP does a good job of automatically converting types from one to another when necessary
 
 ## III. <a id="section3">Integers & Floats
-  Run the following code and observe the results:
+Run the following code and observe the results:
   
 **php-types-1.php**
 ```php
@@ -59,6 +59,7 @@ VI. [Type Coercsion](#section6)
 ```
   
 ## IV. <a id="section4">Booleans
+Run the following code and observe the results:
 **php-types-2.php**
 ```php
   <?PHP
