@@ -38,7 +38,7 @@ First, lets look at what a web server does when a regular HTML file (named *inde
 5. The client application parses the returned file and displays it to the user 
 
 ### "Dynamic" HTML files
-Now let's see what happens on `banjo.rit.edu` when a web file ends in the **.php** file extension:
+Now let's see what happens on `banjo.rit.edu` when a web file ends in the **.php** file extension (named *index.php* for example):
 
 1. The web browser (the *client*) creates a socket connection to a *web server*
 2. The web browser requests a file from the web server over the socket connection by sending a request line, followed by 1 or more request headers
