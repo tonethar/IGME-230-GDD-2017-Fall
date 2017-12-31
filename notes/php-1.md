@@ -23,7 +23,8 @@ VIII. [`phpinfo()` - Getting information about a web server's PHP install](#sect
 ## I. <a id="section1">Overview
 PHP is a blah blah blah
 
-There is not a "PHP 6": https://www.phproundtable.com/episode/what-happened-to-php-6
+- We will be taking a look at both PHP 5 and PHP 7 in this class. 
+- There is not an official "PHP 6": https://www.phproundtable.com/episode/what-happened-to-php-6
 
 ## II. <a id="section2">How PHP works
 
