@@ -18,6 +18,7 @@ VII. [Creating a valid HTML page with PHP](#section7)
 
 VIII. [`phpinfo()` - Getting information about a web server's PHP install](#section8)
 
+<hr><hr>
 
 ## I. Overview
 PHP is a blah blah blah
