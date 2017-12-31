@@ -109,7 +109,7 @@ Run the following code and observe the results:
 
 **php-types-3.php**
 ```php
-<?php
+<?PHP
   // string values may be single or double quoted
   $name = 'Fred';
   $name = "Fred";
