@@ -218,7 +218,7 @@ Go ahead and create the following script and post it to your web server.
 If you keep scrolling, you will see that the information you are given runs on for 20+ pages! Be sure to look over the contents of this web page - it basically tells you what this installed version of PHP can "do".
 
 ### Confirm you are running PHP 7
-If the PHP version number at the top is 7.1 or greater, you don't need to do anything. If it is an earlier version, you will need to uppgrade to version 7 (see the homework assignment below).
+If the PHP version number at the top is 7.1 or greater, you don't need to do anything. If it is an earlier version, you will need to upgrade to version 7 (see the homework assignment below).
 
 ## IX. <a id="section9">Review Questions
 1. Look up the original creator of PHP on Wikipedia. Where doe he work now?
