@@ -12,7 +12,7 @@ IV. [Booleans](#section4)
 
 V. [Strings](#section5)
 
-VI. [Type Coercsion](#section6)
+VI. [Type Coercion](#section6)
 
 
 ## I. <a id="section1">PHP Types
@@ -60,6 +60,7 @@ Run the following code and observe the results:
   
 ## IV. <a id="section4">Booleans
 Run the following code and observe the results:
+
 **php-types-2.php**
 ```php
 <?PHP
@@ -105,6 +106,7 @@ More here: https://stackoverflow.com/questions/2382490/how-does-true-false-work-
   
 ## V. <a id="section5">Strings
 Run the following code and observe the results:
+
 **php-types-3.php**
 ```php
 <?php
@@ -115,10 +117,10 @@ Run the following code and observe the results:
   // strings may be concatenated with a dot (period)
   $greeting1 = "<p>My name is " . $name . "</p>";
    
-  // string variables will be interpolated in a double-quoted string
+  // string variables WILL be interpolated in a double-quoted string
   $greeting2 = "<p>My name is $name</p>";
    
-  // strings will NOT interpolate in a single-quoted STRING_TO_INT
+  // string variables WILL NOT interpolate in a single-quoted string
   $greeting3 = '<p>My name is $name</p>';
   
   echo($greeting1);
@@ -127,7 +129,7 @@ Run the following code and observe the results:
 ?>
 ```
 
-## VI. <a id="section6">Type Coercsion
+## VI. <a id="section6">Type Coercion
   
  ```php
  <?PHP
