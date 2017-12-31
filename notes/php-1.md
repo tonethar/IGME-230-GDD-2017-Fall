@@ -18,12 +18,18 @@ VII. [Creating a valid HTML page with PHP](#section7)
 
 VIII. [`phpinfo()` - Getting information about a web server's PHP install](#section8)
 
+XI. [Review Questions](#section9)
+
+X. [Review Exercises](#section10)
+
+XI. [Resources](#section11)
+
 <hr><hr>
 
 ## I. <a id="section1">Overview
-PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. It was originally created by Rasmus Lerdorf.
 
-What distinguishes PHP from client-side technologies like JavaScript is that the code is executed on the server, generating HTML which is then sent to the client. The client receives the results of running that script, but will not see the underlying code. 
+What distinguishes PHP from client-side technologies like JavaScript is that the code is executed on the *server*, generating HTML which is then sent to the client. The client receives the results of running that script, but will not see the underlying code or data. This makes PHP code much more secure than code that is run on the client-side.
 
 We will be taking a look at both PHP 5 and PHP 7 in this class, as there is not an official "PHP 6": https://www.phproundtable.com/episode/what-happened-to-php-6
 
@@ -60,7 +66,7 @@ Let's get started! Using a text editor, type the following program into a file n
 	echo "Hello!"; // the echo statement prints out strings
 ?>
 ```
-
+- All of the executable PHP code must be contained in a special markup tag - `<?PHP /* Code goes here... */ ?>` - the letters `PHP` may be captitalized, or not.
 - Now open the file up in a web browser - you should see the following - just the source code - FAIL!
 
 ![Screenshot](_images/intro-php-1.jpg)
@@ -188,12 +194,12 @@ When you are done it should look like this:
 ### ** *Try This!* **
 - In *hello-4.php* write code that:
     - adds a &lt;style> tag to the page - it should make the default font on the entire page `sans-serif`. Just use HTML and CSS to do this, not PHP.
-    - wraps the "page accessed on" text into a &lt;footer> tag.
+    - wraps the "page accessed on" text into a &lt;footer> tag. Change the "date string" to something different - see the documentation here: http://php.net/manual/en/function.date.php
 
 <hr>
 
 
-### VIII. <a id="section8">`phpinfo()` - Getting information about a web server's PHP install
+## VIII. <a id="section8">`phpinfo()` - Getting information about a web server's PHP install
 	
 The built-in `phpinfo()` function outputs information about PHP's configuration: compilation options and extensions, the PHP version, server information and environment, OS version information, paths, master and local values of configuration options, HTTP headers, and the PHP License.
 
@@ -209,8 +215,25 @@ Go ahead and create the following script and post it to your web server.
 
 ![Screenshot](_images/intro-php-10.jpg)
 
+If you keep scrolling, you will see that the information you are given runs on for 20+ pages! Be sure to look over the contents of this web page - it basically tells you what this installed version of PHP can "do".
 
-## Resources
+### Confirm you are running PHP 7
+If the PHP version number at the top is 7.1 or greater, you don't need to do anything. If it is an earlier version, you will need to uppgrade to version 7 (see the homework assignment below).
+
+## IX. <a id="section9">Review Questions
+1. Look up the original creator of PHP on Wikipedia. Where doe he work now?
+1. What is the special "tag" that contains PHP code?
+1. If everything is working properly, will a web browswer ever "see" this tag?
+1. Which PHP statement is used to print strings?
+1. Which PHP function will tell the developer which version and which modules of of PHP are installed?
+	
+## X. <a id="section10">Review Exercises
+1. Post the *info.php* to your web account.
+1. Upgrade your banjo account to at least PHP 7+ - to do so involves editing a file named `php` that already exists on your banjo web account at `abc1234/php_data/php` - you can find instructions here: https://www.rit.edu/webdev/php-7 - the instructions tell you to modify this file via the command line, but you can also "download it/modify it/upload it back to banjo" if you wish.
+1. Do the section VII. "Try This" and post *hello-4.php* to the web with your changes.
+
+## XI. <a id="section11">Resources
+Here are some links you might find helpful:
 - http://php.net/manual/en/ - best source for PHP API documentation.
 - http://php.net/manual/en/tutorial.php
 - https://www.tutorialspoint.com/php/
