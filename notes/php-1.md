@@ -37,12 +37,12 @@ Using a text editor, type the following program into a file named hello-1.php:
 ?>
 ```
 
-Now open the file up in a web browser - you should see the following - just the source code - FAIL!
+- Now open the file up in a web browser - you should see the following - just the source code - FAIL!
 
 ![Screenshot](_images/intro-php-1.jpg)
 
-The code was not executed because PHP is run as a module in a web server. 
-Because the browser does not know how to parse the PHP code, it will be unable to execute the code and will instead simply display it.
+- The code was not executed because PHP is run as a module in a web server. 
+- Because the browser does not know how to parse the PHP code, it will be unable to execute the code and will instead simply display it.
 
 
 ## IV. "Hello PHP!" - Attempt #2
@@ -52,7 +52,7 @@ Because the browser does not know how to parse the PHP code, it will be unable t
 
 ![Screenshot](_images/intro-php-2.jpg)
 
-If you "view source" of *hello-1.php* in the web browser, you will only see the word `Hello!` because the PHP source code was properly executes on the server, and will not be visible anywhere in the browser. SUCCESS!
+- If you "view source" of *hello-1.php* in the web browser, you will only see the word `Hello!` because the PHP source code was properly executes on the server, and will not be visible anywhere in the browser. SUCCESS!
 
 ![Screenshot](_images/intro-php-3.jpg)
 
