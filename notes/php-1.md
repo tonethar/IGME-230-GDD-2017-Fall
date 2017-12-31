@@ -47,10 +47,12 @@ Now let's see what happens on `banjo.rit.edu` when a web file ends in the **.php
 5. The web server send the requested file to the client application
 6. The client application parses the returned file and displays it to the user 
 
+*We now have a new step #4, where the web server firat "runs" any PHP code that is found on the page before sending the HTML file back to the web browser.*
 
 ## III. <a id="section3">"Hello PHP!" - Attempt #1
 
-Using a text editor, type the following program into a file named hello-1.php:
+Let's get started! Using a text editor, type the following program into a file named hello-1.php:
+
 **hello-1.php**
 ```php
 <?PHP
@@ -62,7 +64,7 @@ Using a text editor, type the following program into a file named hello-1.php:
 
 ![Screenshot](_images/intro-php-1.jpg)
 
-- The code was not executed because PHP is run as a module in a web server. 
+- The code was not executed because PHP is run as a module in a web server, but here we are attempting to "run" the code off of our computer hard drive.
 - Because the browser does not know how to parse the PHP code, it will be unable to execute the code and will instead simply display it.
 
 
