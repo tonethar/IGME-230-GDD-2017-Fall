@@ -144,7 +144,7 @@ Our first two attempts at dynamic PHP pages would never validate because they ar
 Below, you can see that we can mix HTML and PHP quite easily, and both of the PHP directives on this page will be executed by the PHP parser.
 
 **hello-4.php**
-```php
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -201,3 +201,5 @@ When you are done it should look like this:
 - http://php.net/manual/en/tutorial.php
 - https://www.tutorialspoint.com/php/
 - https://www.w3schools.com/php/
+
+<hr><hr>
