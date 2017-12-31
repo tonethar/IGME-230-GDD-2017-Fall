@@ -30,7 +30,7 @@ VI. [Type Coercsion](#section6)
 ## III. <a id="section3">Integers & Floats
   Run the following code and observe the results:
   
-  **php-types-1.php**
+**php-types-1.php**
 ```php
 <?PHP
 	// add integers
@@ -59,26 +59,62 @@ VI. [Type Coercsion](#section6)
 ```
   
 ## IV. <a id="section4">Booleans
-  
-  ```php
+**php-types-2.php**
+```php
   <?PHP
+  $phpIsWeird = TRUE;
+  if ($phpIsWeird){
+  	echo("<p>PHP is REALLY weird!</p>");
+	}else{
+   	echo("<p>PHP is NOT weird!</p>");
+  }
   
-  ?>
-  ```
+  $ritIsWeird = 0; // 0 and 0.0 are false, all other numbers coerce to TRUE
+  if ($ritIsWeird){
+  	echo("<p>RIT is REALLY weird!</p>");
+	}else{
+   	echo("<p>RIT is NOT weird!</p>");
+  }
+  
+  $rochesterIsWeird = ""; // empty strings "" and '' are FALSE
+  if ($rochesterIsWeird){
+  	echo("<p>Rochester is REALLY weird!</p>");
+	}else{
+   	echo("<p>Rochester is NOT weird!</p>");
+  }
+  
+  $gccisIsWeird = []; // empty array is FALSE
+  if ($gccisIsWeird){
+  	echo("<p>GCCIS is REALLY weird!</p>");
+	}else{
+   	echo("<p>GCCIS is NOT weird!</p>");
+  }
+  
+  $thisDemoIsDone = "XYZPDQ"; // most everything else is TRUE
+  if ($thisDemoIsDone){
+  	echo("<p>This demo is DONE!</p>");
+	}else{
+   	echo("<p>This demo is NOT DONE!</p>");
+  }
+?>
+```
+
+
+More here: https://stackoverflow.com/questions/2382490/how-does-true-false-work-in-php
   
 ## V. <a id="section5">Strings
   
-  ```php
+```php
   <?PHP
   
   ?>
-  ```
+```
 
 ## VI. <a id="section6">Type Coercsion
   
-    ```php
+ ```php
   <?PHP
   
   ?>
-  ```
+```
 
