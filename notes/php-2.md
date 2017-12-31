@@ -14,6 +14,10 @@ V. [Strings](#section5)
 
 VI. [Type Coercion](#section6)
 
+VII. [Constants](#section7)
+
+VIII. [Operators](#section8)
+
 
 ## I. <a id="section1">PHP Types
 - PHP has 4 *scalar* (i.e. "primitive") types: integer, float (aka double), string and boolean
@@ -136,4 +140,18 @@ Run the following code and observe the results:
   
  ?>
 ```
+
+## VII. <a id="section7">Constants
+  
+ ```php
+ <?PHP
+  
+ ?>
+ 
+ ## VIII. <a id="section8">Operators
+  
+ ```php
+ <?PHP
+  
+ ?>
 
