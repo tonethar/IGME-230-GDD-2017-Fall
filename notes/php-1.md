@@ -205,5 +205,6 @@ When you are done it should look like this:
 - http://php.net/manual/en/tutorial.php
 - https://www.tutorialspoint.com/php/
 - https://www.w3schools.com/php/
+- https://feryn.eu/blog/php-7-is-now-available-new-features-improvements/
 
 <hr><hr>
