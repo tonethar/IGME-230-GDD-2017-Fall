@@ -1,4 +1,4 @@
-# Intro to PHP
+# 1 - Intro to PHP
 
 ## Contents
 <!--- Local Navigation --->
@@ -241,3 +241,7 @@ Here are some links you might find helpful:
 - https://feryn.eu/blog/php-7-is-now-available-new-features-improvements/
 
 <hr><hr>
+
+**[Table of Contents <- About this PHP Tutorial Series](php-0.md)**
+
+**[Next Chapter -> PHP Scalars & Data Types (chapter 2)](php-2.md)**
