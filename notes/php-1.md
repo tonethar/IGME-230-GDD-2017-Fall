@@ -1,5 +1,24 @@
 # Intro to PHP
 
+## Contents
+<!--- Local Navigation --->
+I. [Overview](#section1)
+
+II. [How PHP works](#section2)
+
+III. ["Hello PHP!" - Attempt #1](#section3)
+
+IV. ["Hello PHP!" - Attempt #2](#section4)
+
+V. [Multi-line text](#section5)
+
+VI. [Adding HTML tags](#section6)
+
+VII. [Creating a valid HTML page with PHP](#section7)
+
+VIII. [`phpinfo()` - Getting information about a web server's PHP install](#section8)
+
+
 ## I. Overview
 PHP is a blah blah blah
 
@@ -59,7 +78,7 @@ Using a text editor, type the following program into a file named hello-1.php:
 **IMPORTANT: Your PHP source code should run on your web server and NEVER be visible in any users web browser. If it is, you have really messed something up!** 
 
 
-### V. Multi-line HTML
+### V. Multi-line text
 
 Now try this one - here we've added another `echo` statement.
 
@@ -168,7 +187,7 @@ When you are done it should look like this:
 <hr>
 
 
-### VIII. info.php
+### VIII. `phpinfo()` - Getting information about a web server's PHP install
 
 ```php
 <?php 
