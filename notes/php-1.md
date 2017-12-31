@@ -47,7 +47,7 @@ Now let's see what happens on `banjo.rit.edu` when a web file ends in the **.php
 5. The web server send the requested file to the client application
 6. The client application parses the returned file and displays it to the user 
 
-*We now have a new step #4, where the web server firat "runs" any PHP code that is found on the page before sending the HTML file back to the web browser.*
+*We now have a new step #4, where the web server first "runs" any PHP code that is found on the page before sending the HTML file back to the web browser.*
 
 ## III. <a id="section3">"Hello PHP!" - Attempt #1
 
