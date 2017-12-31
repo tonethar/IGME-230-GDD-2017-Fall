@@ -21,10 +21,11 @@ VIII. [`phpinfo()` - Getting information about a web server's PHP install](#sect
 <hr><hr>
 
 ## I. <a id="section1">Overview
-PHP is a blah blah blah
+PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
-- We will be taking a look at both PHP 5 and PHP 7 in this class. 
-- There is not an official "PHP 6": https://www.phproundtable.com/episode/what-happened-to-php-6
+What distinguishes PHP from client-side technologies like JavaScript is that the code is executed on the server, generating HTML which is then sent to the client. The client receives the results of running that script, but will not see the underlying code. 
+
+We will be taking a look at both PHP 5 and PHP 7 in this class, as there is not an official "PHP 6": https://www.phproundtable.com/episode/what-happened-to-php-6
 
 ## II. <a id="section2">How PHP works
 
