@@ -134,12 +134,46 @@ Run the following code and observe the results:
 ```
 
 ## VI. <a id="section6">Type Coercion
+PHP does not require (or support) explicit type definition in variable declaration; a variable's type is determined by the context in which the variable is used. That is to say, if a string value is assigned to variable `$var`, `$var` becomes a string. If an integer value is then assigned to `$var`, it becomes an integer.
   
+ **The code below works as expected in PHP 5, but the automatic string conversion produces warnings in PHP 7:**
+ 
+  **php-types-4.php**
  ```php
- <?PHP
-  
- ?>
+ <?php
+	// In PHP 5, these run as follows
+	$foo = "1";  				// $foo is string (ASCII 49)
+	$foo *= 2;   				// $foo is now an integer (2)
+	$foo = $foo * 1.3;  // $foo is now a float (2.6)
+	$foo = 5 * "10 Little Piggies"; 	// $foo is integer (50) *
+	$foo = 5 * "Small Pigs = 10";     // $foo is integer (0)	**
+	echo $foo;
+	
+
+// * In PHP 7, this currently gives an error: "A non well formed numeric value encountered"
+	
+// ** In PHP 7, this currently gives an error: "A non-numeric value encountered"	
+?>
 ```
+
+**The solution - PHP 7, you will need to *explicitly cast* the strings to integers with `(int)` to avoid the errors:**
+ 
+**php-types-5.php**
+ ```php
+ <?php
+	// In PHP 7, get rid of the errors by casting
+	$foo = "1";  				// $foo is string (ASCII 49)
+	$foo *= 2;   				// $foo is now an integer (2)
+	$foo = $foo * 1.3;  // $foo is now a float (2.6)
+	$foo = 5 * (int)"10 Little Piggies"; 	// $foo is integer (50)
+	$foo = 5 * (int)"Small Pigs = 10";     // $foo is integer (0)
+	echo $foo;
+?>
+```
+
+
+
+Read more here: http://php.net/manual/en/language.types.type-juggling.php 
 
 ## VII. <a id="section7">Constants
   
