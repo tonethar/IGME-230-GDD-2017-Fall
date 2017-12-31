@@ -185,7 +185,7 @@ When you are done it should look like this:
 
 ### ** *Try This!* **
 - In *hello-4.php* write code that:
-    - adds a &lt;style> tag to the page - it should make the default font on the entire page `sans-serif`. Just use HTML to do this, not PHP.
+    - adds a &lt;style> tag to the page - it should make the default font on the entire page `sans-serif`. Just use HTML and CSS to do this, not PHP.
     - wraps the "page accessed on" text into a &lt;footer> tag.
 
 <hr>
