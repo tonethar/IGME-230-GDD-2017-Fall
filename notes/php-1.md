@@ -51,7 +51,7 @@ Now let's see what happens on `banjo.rit.edu` when a web file ends in the **.php
 
 ## III. <a id="section3">"Hello PHP!" - Attempt #1
 
-Let's get started! Using a text editor, type the following program into a file named hello-1.php:
+Let's get started! Using a text editor, type the following program into a file named *hello-1.php*:
 
 **hello-1.php**
 ```php
