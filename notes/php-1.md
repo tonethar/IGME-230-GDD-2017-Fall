@@ -20,12 +20,12 @@ VIII. [`phpinfo()` - Getting information about a web server's PHP install](#sect
 
 <hr><hr>
 
-## I. Overview
+## I. <a id="section1">Overview
 PHP is a blah blah blah
 
 There is not a "PHP 6": https://www.phproundtable.com/episode/what-happened-to-php-6
 
-## II. How PHP works
+## II. <a id="section2">How PHP works
 
 ### Ordinary HTML files
 First, lets look at what a web server does when a regular HTML file (named *index.html* for example) is requested by a web browser:
@@ -47,7 +47,7 @@ Now let's see what happens on `banjo.rit.edu` when a web file ends in the **.php
 6. The client application parses the returned file and displays it to the user 
 
 
-## III. "Hello PHP!" - Attempt #1
+## III. <a id="section3">"Hello PHP!" - Attempt #1
 
 Using a text editor, type the following program into a file named hello-1.php:
 **hello-1.php**
@@ -65,7 +65,7 @@ Using a text editor, type the following program into a file named hello-1.php:
 - Because the browser does not know how to parse the PHP code, it will be unable to execute the code and will instead simply display it.
 
 
-## IV. "Hello PHP!" - Attempt #2
+## IV. <a id="section4">"Hello PHP!" - Attempt #2
 - Go ahead and post *hello.php* to a web viewable directory on `banjo.rit.edu` (and don't forget to set the file permissions to `644`)
 - Navigate to the file in a web browser and open it up
 - Now the PHP code should run, and you will see the following:
@@ -79,7 +79,7 @@ Using a text editor, type the following program into a file named hello-1.php:
 **IMPORTANT: Your PHP source code should run on your web server and NEVER be visible in any users web browser. If it is, you have really messed something up!** 
 
 
-### V. Multi-line text
+### V. <a id="section5">Multi-line text
 
 Now try this one - here we've added another `echo` statement.
 
@@ -103,7 +103,7 @@ But we probably don't. (Firefox and Safari don't show the line feeds, Chrome pro
 **The reason we don't see the line feeds in the browser window is that the browser will ignore extra white space characters beyond a single space. What do we do if we want spacing? Add HTML tags!**
 
 
-## VI. Adding HTML tags
+## VI. <a id="section6">Adding HTML tags
 Let's go ahead and wrap our text in HTML tags:
 
 **hello-3.php**
@@ -137,7 +137,7 @@ When you are done it should look like this:
 
 <hr>
 
-## VII. Creating a valid HTML page with PHP
+## VII. <a id="section7">Creating a valid HTML page with PHP
 
 Our first two attempts at dynamic PHP pages would never validate because they are missing tags like &lt;html>, &lt;head>, &lt;title>, &lt;body> and so on. It would also be nice to have a &lt;style> tag so that we could add some CSS styles to the page. 
 
@@ -188,7 +188,7 @@ When you are done it should look like this:
 <hr>
 
 
-### VIII. `phpinfo()` - Getting information about a web server's PHP install
+### VIII. <a id="section8">`phpinfo()` - Getting information about a web server's PHP install
 
 ```php
 <?php 
