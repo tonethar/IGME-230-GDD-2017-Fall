@@ -4,7 +4,13 @@
 <!--- Local Navigation --->
 I. [PHP Types](#section1)
 
-II. [PHP Variables](#section1)
+II. [PHP Variables](#section2)
+
+III. [Integers & Floats](#section3)
+
+IV. [Booleans](#section4)
+
+V. [Strings](#section5)
 
 
 ## I. <a id="section1">PHP Types
@@ -19,6 +25,10 @@ II. [PHP Variables](#section1)
 - variables do not have intrinsic *types* - a variable does not know in advance whether it will be used to store a number or a string
 - PHP does a good job of automatically converting types from one to another when necessary.
 
-## III. <a id="section2">Integers & Floats
+## III. <a id="section3">Integers & Floats
+  
+## IV. <a id="section4">Booleans
+  
+## V. <a id="section5">Strings
 
 
