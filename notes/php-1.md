@@ -144,7 +144,7 @@ To handle the quoting, you can either use single quotes (`'`) inside of double q
 
 Our first two attempts at dynamic PHP pages would never validate because they are missing tags like &lt;html>, &lt;head>, &lt;title>, &lt;body> and so on. It would also be nice to have a &lt;style> tag so that we could add some CSS styles to the page. 
 
-Below, you can see that we can mix HTML and PHP quite easily, and both of the PHP directives on this page will be executed by the PHP parser.
+Below, you can see that we can mix HTML and PHP quite easily, and that all 3 of the PHP directives on this page will be executed by the PHP parser.
 
 **hello-4.php**
 ```html
@@ -157,13 +157,13 @@ Below, you can see that we can mix HTML and PHP quite easily, and both of the PH
 	?>
 	<title>
 	<?PHP
-		echo $pageTitle; 				// and use that variable once
+		echo $pageTitle; 	// and we use that variable here
 	?>
 	</title>
 </head>
 <body>
 <?PHP
-		echo "<h1>$pageTitle</h1>"; // and use that variable a second time
+		echo "<h1>$pageTitle</h1>"; // and we use that variable a second time here
 		echo "<div>Content goes here!</div>";
 		echo "<hr>";
 		echo "Page accessed on: ";
@@ -179,6 +179,7 @@ When you are done it should look like this:
 
 - When you "view source" in the browser, you will see that all of the PHP directives have been replaced by the results of the processing.
 - Paste the URL to this page into the HTML validator at  https://validator.w3.org - it should validate as legal HTML5.
+- Did you see the *String Interpolation* technique we used on the &lt;h1> line? When we place variable names inside of double-quoted strings, PHP will place the contents of that variable in the string for us.
 
 
 <hr>
