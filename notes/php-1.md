@@ -127,12 +127,12 @@ And this when you view source:
 
 ### ** *Try This!* **
 - In *hello-3.php* write PHP code that:
-		- add a `title` attribute to the &lt;h1> with a value of `"Hello! Hello!"`
+    - add a `title` attribute to the &lt;h1> with a value of `"Hello! Hello!"`
     - create a clickable link to `http://www.amazon.com`, wrap it inside of a &lt;p> tag.
     
 To handle the quoting, you can either use single quotes (`'`) inside of double quotes, or escape the double-quotes with a backslash like this: `\"`
 
-When you are done it should look like this:
+**When you are done it should look like this:**
 
 ![Screenshot](_images/intro-php-8.jpg)
 
@@ -183,7 +183,7 @@ When you are done it should look like this:
 
 ### ** *Try This!* **
 - In *hello-4.php* write code that:
-		- adds a &lt;style> tag to the page - it should make the default font on the entire page `sans-serif`. Just use HTML to do this, not PHP.
+    - adds a &lt;style> tag to the page - it should make the default font on the entire page `sans-serif`. Just use HTML to do this, not PHP.
     - wraps the "page accessed on" text into a &lt;footer> tag.
 
 <hr>
