@@ -62,7 +62,7 @@ Run the following code and observe the results:
 Run the following code and observe the results:
 **php-types-2.php**
 ```php
-  <?PHP
+<?PHP
   $phpIsWeird = TRUE;
   if ($phpIsWeird){
   	echo("<p>PHP is REALLY weird!</p>");
@@ -107,24 +107,23 @@ More here: https://stackoverflow.com/questions/2382490/how-does-true-false-work-
 Run the following code and observe the results:
 **php-types-3.php**
 ```php
-  <?php
+<?php
   // string values may be single or double quoted
-   $name = 'Fred';
-   $name = "Fred";
+  $name = 'Fred';
+  $name = "Fred";
    
-   // strings may be concatenated with a dot (period)
-   $greeting1 = "<p>My name is " . $name . "</p>";
+  // strings may be concatenated with a dot (period)
+  $greeting1 = "<p>My name is " . $name . "</p>";
    
-   // string variables will be interpolated in a double-quoted string
-   $greeting2 = "<p>My name is $name</p>";
+  // string variables will be interpolated in a double-quoted string
+  $greeting2 = "<p>My name is $name</p>";
    
-   // strings will NOT interpolate in a single-quoted STRING_TO_INT
-    $greeting3 = '<p>My name is $name</p>';
-   
+  // strings will NOT interpolate in a single-quoted STRING_TO_INT
+  $greeting3 = '<p>My name is $name</p>';
+  
   echo($greeting1);
   echo($greeting2);
   echo($greeting3);
- 
 ?>
 ```
 
