@@ -1,4 +1,4 @@
-# 2 - PHP Arrays
+# 3 - PHP Arrays
 
 ## Contents
 <!--- Local Navigation --->
