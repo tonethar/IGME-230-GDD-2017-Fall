@@ -191,3 +191,8 @@ Read more here: http://php.net/manual/en/language.types.type-juggling.php
  ?>
  ```
 
+<hr><hr>
+
+**[Previous Chapter <- Intro to PHP](php-1.md)**
+
+**[Next Chapter -> PHP Functions (chapter 3)](php-3.md)**
