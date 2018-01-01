@@ -9,6 +9,6 @@ I. [Overview](#section1)
 
 <hr><hr>
 
-**[Previous Chapter <- PHP Scalars & Data Types](php-2.md)**
+**[Previous Chapter <- PHP Scalars & Data Types (chapter 1)](php-2.md)**
 
 **[Next Chapter -> PHP Functions (chapter 3)](php-4.md)**
