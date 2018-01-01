@@ -176,23 +176,29 @@ PHP does not require (or support) explicit type definition in variable declarati
 Read more here: http://php.net/manual/en/language.types.type-juggling.php 
 
 ## VII. <a id="section7">Constants
+	
+Constant values can be created via the [`define()`]http://php.net/manual/en/function.define.php function, and are then accessed without using the `$` in the name of the constant.
   
+ **php-types-6.php**
  ```php
- <?PHP
-  
- ?>
+<?PHP
+ 	define("PI", 3.14159);
+ 	$radius = 10;
+ 	$area = PI * $radius * $radius;
+ 	$circumference = 2 * PI * $radius;
+	echo "<p>The area of a radius $radius circle is $area</p>";
+	echo "<p>The circumference of a radius $radius circle is $circumference</p>";
+?>
  ```
  
+ PHP also has a number of pre-defined "magic constants": http://php.net/manual/en/language.constants.predefined.php
+ 
  ## VIII. <a id="section8">Operators
-  
- ```php
- <?PHP
-  
- ?>
- ```
+	
+PHP has all of the standard arithmetic, comparison, logical, assignment and conditional operators that you know and love - take a look here: https://www.tutorialspoint.com/php/php_operator_types.htm
 
 <hr><hr>
 
 **[Previous Chapter <- Intro to PHP](php-1.md)**
 
-**[Next Chapter -> PHP Functions (chapter 3)](php-3.md)**
+**[Next Chapter -> PHP Arrays (chapter 3)](php-3.md)**
