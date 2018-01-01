@@ -18,6 +18,10 @@ VII. [Constants](#section7)
 
 VIII. [Operators](#section8)
 
+IX. [Review Questions](#section9)
+
+X. [Review Exercise](#section10)
+
 
 ## I. <a id="section1">PHP Types
 - PHP has 4 *scalar* (i.e. "primitive") types: integer, float (aka double), string and boolean
@@ -140,7 +144,7 @@ Run the following code and observe the results:
 ## VI. <a id="section6">Type Coercion
 PHP does not require (or support) explicit type definition in variable declaration; a variable's type is determined by the context in which the variable is used. That is to say, if a string value is assigned to variable `$var`, `$var` becomes a string. If an integer value is then assigned to `$var`, it becomes an integer.
   
- **The code below works as expected in PHP 5, but the automatic string conversion produces warnings in PHP 7:**
+ **The code below works as expected in PHP 5, but the automatic string conversion in the 4th and 5th line below produces warnings in PHP 7:**
  
   **php-types-4.php**
  ```php
@@ -181,7 +185,7 @@ Read more here: http://php.net/manual/en/language.types.type-juggling.php
 
 ## VII. <a id="section7">Constants
 	
-Constant values can be created via the [`define()`]http://php.net/manual/en/function.define.php function, and are then accessed without using the `$` in the name of the constant.
+Constant values can be created via the [`define()`](http://php.net/manual/en/function.define.php) function, and are then accessed without using the `$` in the name of the constant.
   
  **php-types-6.php**
  ```php
@@ -189,9 +193,7 @@ Constant values can be created via the [`define()`]http://php.net/manual/en/func
  	define("PI", 3.14159);
  	$radius = 10;
  	$area = PI * $radius * $radius;
- 	$circumference = 2 * PI * $radius;
 	echo "<p>The area of a radius $radius circle is $area</p>";
-	echo "<p>The circumference of a radius $radius circle is $circumference</p>";
 ?>
  ```
  
@@ -200,6 +202,16 @@ Constant values can be created via the [`define()`]http://php.net/manual/en/func
  ## VIII. <a id="section8">Operators
 	
 PHP has all of the standard arithmetic, comparison, logical, assignment and conditional operators that you know and love - take a look here: https://www.tutorialspoint.com/php/php_operator_types.htm
+
+
+ ## IX. <a id="section9">Review Questions
+1. Give 2 ways to concatenate strings in PHP.
+1. List the 4 PHP *scalar* types.
+1. True or False. PHP variables are not typed.
+
+
+ ## X. <a id="section10">Review Exercise
+1. Modify *php-types-6.php* so that it also calculates the circumference of the circle, and echos that value out in another paragraph.
 
 <hr><hr>
 
