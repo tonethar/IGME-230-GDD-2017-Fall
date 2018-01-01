@@ -37,33 +37,37 @@ Run the following code and observe the results:
 **php-types-1.php**
 ```php
 <?PHP
-	// add integers
+	// sum integers
 	$a = 1;
 	$b = 2;
 	$c = $a + $b;
-	echo "<p>The sum of integers $a and $b is $c</p>";
+	$isInteger = is_int($c);
+	echo "<p>The sum of integers $a and $b is $c. isInteger = $isInteger</p>";
 	
-	// explicit casting
+	// explicit casting of $c to an int
 	$a = 1;
 	$b = 2.99;
 	$c = $a + (int)$b;
-	echo "<p>The sum of integers $a and $b is $c</p>";
+	$isInteger = is_int($c);
+	echo "<p>The sum of integers $a and $b is $c. isInteger = $isInteger</p>";
 	
-	// add floats
+	// sum floats
 	$a = 1.0;
 	$b = 2.0;
 	$c = $a + $b;
-	echo "<p>The sum of floats $a and $b is $c</p>";
+	$isFloat = is_float($c);
+	echo "<p>The sum of floats $a and $b is $c. isFloat = $isFloat</p>";
 	
 	$a = 1.0;
 	$b = 2.99;
 	$c = $a + $b;
-	echo "<p>The sum of floats $a and $b is $c</p>";
+	$isFloat = is_float($c);
+	echo "<p>The sum of floats $a and $b is $c. isFloat = $isFloat</p>";
 ?>
 ```
   
 ## IV. <a id="section4">Booleans
-Run the following code and observe the results:
+PHP has several values that are automatically coerced to `FALSE` in a boolen content, all other values are coerced to `TRUE`.  Run the following code and observe the results:
 
 **php-types-2.php**
 ```php
