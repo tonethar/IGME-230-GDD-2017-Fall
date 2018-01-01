@@ -35,7 +35,7 @@ In Computer Science, *trees* are data structures that consist of *nodes* that co
 
 The browser DOM is an inverted tree structure that consists of *nodes* - which are HTML elements (software *objects*) that have properties and methods associated with them. These nodes have hierarchical relationships with one another - such as *parent*, *child*, and *sibling*.  Read about this here: https://www.w3schools.com/js/js_htmldom_navigation.asp
 
-Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to. Note that in the graphic below, both DOM elements and the text ([`Text`](https://developer.mozilla.org/en-US/docs/Web/API/Text)) that goes inside of them are considered *nodes*.
+Today we will learn how to create new DOM elements and insert them anywhere into the DOM tree that we want to. Note that in the graphic below, both [HTML elements](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) and the [`Text`](https://developer.mozilla.org/en-US/docs/Web/API/Text) that goes inside of them are considered *nodes*.
 
 ![Web Page](_images/more-dom-0.jpg)
 
