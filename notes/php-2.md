@@ -215,6 +215,6 @@ PHP has all of the standard arithmetic, comparison, logical, assignment and cond
 
 <hr><hr>
 
-**[Previous Chapter <- Intro to PHP](php-1.md)**
+**[Previous Chapter <- Intro to PHP (chapter 1)](php-1.md)**
 
 **[Next Chapter -> PHP Arrays (chapter 3)](php-3.md)**
