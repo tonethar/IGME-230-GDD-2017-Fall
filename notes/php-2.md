@@ -211,7 +211,7 @@ PHP has all of the standard arithmetic, comparison, logical, assignment and cond
 
 
  ## X. <a id="section10">Review Exercise
-1. Modify *php-types-6.php* so that it also calculates the circumference of the circle, and echos that value out in another paragraph.
+1. Make a copy of *php-types-6.php*, name the copy *php-2-HW.html*, and modify it so that it also calculates the circumference of the circle, and echos that value out in another paragraph.
 
 <hr><hr>
 
