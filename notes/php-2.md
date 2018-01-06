@@ -205,7 +205,7 @@ PHP has all of the standard arithmetic, comparison, logical, assignment and cond
 
 
  ## IX. <a id="section9">Review Questions
-1. Give 2 ways to concatenate strings in PHP.
+1. Give 2 ways to *concatenate* strings in PHP.
 1. List the 4 PHP *scalar* types.
 1. True or False. PHP variables are not typed.
 
