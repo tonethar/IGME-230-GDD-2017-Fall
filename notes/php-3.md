@@ -185,7 +185,7 @@ Create a page named **php-3-HW.php** that does the following:
 
 The HTML page will look something like this when you are done:
 
-![Screenshot](_images/php-arrays-1.php)
+![Screenshot](_images/php-arrays-1.jpg)
 
 <hr><hr>
 
