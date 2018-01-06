@@ -153,7 +153,6 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
 So far our PHP arrays have used numeric (integer) indexes to reference values, but they can also use strings as keys. When we use string for keys, what we have is called an *Associative Array*.
 
  **php-arrays-6.php**
- ```
  <?PHP
 	$links = ["RIT"=>"http://www.rit.edu",
 		"RPI"=>"http://www.rpi.edu",
@@ -163,13 +162,14 @@ So far our PHP arrays have used numeric (integer) indexes to reference values, b
 	$url = $links["RIT"];
 	echo "<p>$url</p>";
 	
+	// 2 - add new elements by specifying a key:value
+	$links["Brockport"]="https://www.brockport.edu";
 	
-	// 2 - loop through arrays with longer version of foreach loop
+	// 3 - loop through arrays with longer version of foreach loop
 	foreach($links as $key=>$value){
-		echo "<p>$key=>$value</p>";
+		echo "<p>$key => $value</p>";
 	}
 ?>
- ```
 	
 	
  ## VI. <a id="section6">`$_SERVER`
