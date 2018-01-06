@@ -55,7 +55,7 @@ You can loop though arrays as follows:
  		echo "<p>$value</p>";
  	}
 
- 	// 2 - loop through arrays with foreach
+ 	// 2 - loop through arrays with foreach (EASIER!)
  	echo "<h2>foreach loop</h2>";
  	foreach($colors as $value){
  		echo "<p>$value</p>";
