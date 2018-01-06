@@ -3,8 +3,11 @@
 ## Contents
 <!--- Local Navigation --->
 I. [Overview](#section1)
+
 II. [Creating indexed arrays](#section2)
+
 III. [Looping though arrays](#section3)
+
 IV. [Array functions](#section4)
 
 ## I. <a id="section1">Overview
