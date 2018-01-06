@@ -113,9 +113,24 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
   
   **php-arrays-5.php**
  ```
- 
+ <?PHP
+	$colors = ["red","green","blue"];
+	
+	// remove elements
+	array_pop($colors); // remove last element
+	array_shift($colors); // remove first element
+ 	echo "<pre>";
+ 	print_r($colors);
+ 	echo "</pre>";
+ 	
+ 	// add elements
+	array_push($colors,"magenta"); // add to end
+	array_unshift($colors,"teal"); // at to beginning
+ 	echo "<pre>";
+ 	print_r($colors);
+ 	echo "</pre>";
+?>
  ```
- 
  
  There are many more functions that operate on arrays - you can find a full list here: http://php.net/manual/en/ref.array.php
 
