@@ -154,7 +154,21 @@ So far our PHP arrays have used numeric (integer) indexes to reference values, b
 
  **php-arrays-6.php**
  ```
- 
+ <?PHP
+	$links = ["RIT"=>"http://www.rit.edu",
+		"RPI"=>"http://www.rpi.edu",
+		"MCC"=>"http://www.monroecc.edu"];
+	
+	// 1 - access elements by key 
+	$url = $links["RIT"];
+	echo "<p>$url</p>";
+	
+	
+	// 2 - loop through arrays with longer version of foreach loop
+	foreach($links as $key=>$value){
+		echo "<p>$key=>$value</p>";
+	}
+?>
  ```
 	
 	
