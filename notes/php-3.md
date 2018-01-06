@@ -43,6 +43,7 @@ IV. [Array functions](#section4)
 
 ## III. <a id="section3">Looping through arrays
 You can loop though arrays as follows:
+
  **php-arrays-2.php**
 ```
 <?PHP
