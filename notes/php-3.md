@@ -17,7 +17,7 @@ IV. [Array functions](#section4)
 **php-arrays-1.php**
 ```
 <?PHP
- 	// 1 - Indexed arrays - there are a two ways to initialize one
+ 	// 1 - Indexed arrays - there are two ways to initialize one
  	
  	// A - the array() function will create an array
  	$schools = array("RIT","RPI","MCC");
