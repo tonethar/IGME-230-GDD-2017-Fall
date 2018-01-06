@@ -180,9 +180,12 @@ So far our PHP arrays have used numeric (integer) indexes to reference values, b
  ## XXX. <a id="sectionXXX">Review Exercise
 Create a page named **php-3-HW.php** that does the following:
 1. Loops through this array - `$colors = ["red","green","blue"];` - and creates an HTML *ordered list* (the &lt;ol> and &lt;li> tags) that displays the contents of the array.
-2. Loops through the `$links` associative array in *php-arrays-6.php* - and uses the key and value to create an HTML *unordered list* of clickable hypertext links. It will look something like this when you are done:
+2. Loops through the `$links` associative array in *php-arrays-6.php* - and uses the key and value to create an HTML *unordered list* of clickable hypertext links.
+3. It is suggested (but not required) that you write your code in such a way that only one `echo` statement is required.
 
+The HTML page will look something like this when you are done:
 
+![Screenshot](_images/php-arrays-1.php)
 
 <hr><hr>
 
