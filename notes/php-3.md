@@ -4,11 +4,12 @@
 <!--- Local Navigation --->
 I. [Overview](#section1)
 II. [Creating indexed arrays](#section2)
-III. [Array functions](#section3)
+III. [Looping though arrays](#section3)
+IV. [Array functions](#section4)
 
 ## I. <a id="section1">Overview
   
-## II. <a id="section2">Creating indexed Arrays
+## II. <a id="section2">Creating indexed arrays
 
 **php-arrays-1.php**
 ```
@@ -40,12 +41,42 @@ III. [Array functions](#section3)
 ?>
 ```
 
-## III. <a id="section3">Array functions
+## III. <a id="section3">Looping through arrays
+You can loop though arrays as follows:
+ **php-arrays-2.php**
+```
+<?PHP
+	$colors = ["red","green","blue"];
+	
+	// 1 - loop through arrays with classic for loop
+	echo "<h2>for loop</h2>";
+	for($i=0;$i<count($colors);$i++){
+		$value = $colors[$i];
+ 		echo "<p>$value</p>";
+ 	}
+
+ 	// 2 - loop through arrays with foreach
+ 	echo "<h2>foreach loop</h2>";
+ 	foreach($colors as $value){
+ 		echo "<p>$value</p>";
+ 	}
+ 	
+ 	
+ 	// 3 - you can grab both the key (index) and the value like this
+ 	echo "<h2>foreach loop with key and value</h2>";
+ 	foreach($colors as $key => $value){
+ 		echo "<p>$key=$value</p>";
+ 	}
+?>
+```
+
+
+## IV. <a id="section4">Array functions
 Arrays in PHP are not objects like you see in many other languages, but are instead what PHP calls *resources*. 
 - In many languages we might access the length of an array through a property like this `myArray.length`
 - But in PHP, we instead use a pre-defined function, and pass in the array as an argument like this `count($myArray)`
 
- **php-arrays-2.php**
+ **php-arrays-3.php**
  ```
 <?PHP
 	$colors = ["red","green","blue"];
@@ -55,14 +86,31 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
  ```
  
  
- Other operations you can do include adding and removing elements from an array:
-  **php-arrays-3.php**
- ```
+ Other operations you can do include sorting arrays:
  
- ```
- 
-  And sorting arrays:
   **php-arrays-4.php**
+ ```
+ <?PHP
+	$colors = ["red","green","blue"];
+	
+	// sort ascending
+ 	sort($colors,SORT_STRING);
+ 	echo "<pre>";
+ 	print_r($colors);
+ 	echo "</pre>";
+ 	
+ 	// sort descending
+ 	rsort($colors,SORT_STRING);
+ 	echo "<pre>";
+ 	print_r($colors);
+ 	echo "</pre>";
+
+?>
+ ```
+ 
+  And adding and removing elements from an arrays:
+  
+  **php-arrays-5.php**
  ```
  
  ```
