@@ -45,7 +45,12 @@ VI.[`$_SERVER`](#section6)
  	echo "<pre>";
  	print_r($colors);
  	echo "</pre>";
- 	
+	
+	// 4 - PHP arrays can contain any type of value
+ 	$stuff = ["One", 2, 2.5, true, [9,8,7,6]];
+ 	echo "<pre>";
+ 	print_r($stuff);
+ 	echo "</pre>";
 ?>
 ```
 
@@ -144,6 +149,13 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
  - http://php.net/manual/en/ref.array.php
  
  ## V. <a id="section5">Associative Arrays
+
+So far our PHP arrays have used numeric (integer) indexes to reference values, but they can also use strings as keys. When we use string for keys, what we have is called an *Associative Array*.
+
+ **php-arrays-6.php**
+ ```
+ 
+ ```
 	
 	
  ## VI. <a id="section6">`$_SERVER`
