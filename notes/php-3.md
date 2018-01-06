@@ -10,6 +10,11 @@ III. [Looping though arrays](#section3)
 
 IV. [Array functions](#section4)
 
+V. [Associative arrays](#section5)
+
+VI.[`$_SERVER`](#section6)
+
+
 ## I. <a id="section1">Overview
   
 ## II. <a id="section2">Creating indexed arrays
@@ -135,7 +140,15 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
 ?>
  ```
  
- There are many more functions that operate on arrays - you can find a full list here: http://php.net/manual/en/ref.array.php
+ There are many more functions that operate on arrays - you can find a full list here: 
+ - http://php.net/manual/en/ref.array.php
+ 
+ ## V. <a id="section5">Associative Arrays
+	
+	
+ ## VI. <a id="section6">`$_SERVER`
+ 
+ http://php.net/manual/en/reserved.variables.server.php
 
 <hr><hr>
 
