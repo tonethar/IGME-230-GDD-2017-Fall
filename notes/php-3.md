@@ -42,7 +42,7 @@ III. [Array functions](#section3)
 
 ## III. <a id="section3">Array functions
 Arrays in PHP are not objects like you see in many other languages, but are instead what PHP calls *resources*. 
-- In many languages we might access the length of an array through a property like this `$myArray.length`
+- In many languages we might access the length of an array through a property like this `myArray.length`
 - But in PHP, we instead use a pre-defined function, and pass in the array as an argument like this `count($myArray)`
 
  **php-arrays-2.php**
@@ -53,6 +53,22 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
  	echo "<p>The length of \$colors is $length</p>";
 ?>
  ```
+ 
+ 
+ Other operations you can do include adding and removing elements from an array:
+  **php-arrays-3.php**
+ ```
+ 
+ ```
+ 
+  And sorting arrays:
+  **php-arrays-4.php**
+ ```
+ 
+ ```
+ 
+ 
+ There are many more functions that operate on arrays - you can find a full list here: http://php.net/manual/en/ref.array.php
 
 <hr><hr>
 
